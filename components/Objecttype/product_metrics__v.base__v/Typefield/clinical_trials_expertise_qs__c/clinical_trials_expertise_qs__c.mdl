@@ -1,0 +1,4 @@
+Typefield clinical_trials_expertise_qs__c (
+   source('standard'),
+   required(false)
+);

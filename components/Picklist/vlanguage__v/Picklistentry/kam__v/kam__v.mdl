@@ -1,0 +1,5 @@
+Picklistentry kam__v (
+   value('Kamba'),
+   order(196),
+   active(false)
+);

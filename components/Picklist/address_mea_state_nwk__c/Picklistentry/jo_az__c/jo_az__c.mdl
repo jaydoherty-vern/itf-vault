@@ -1,0 +1,5 @@
+Picklistentry jo_az__c (
+   value('JO_Az Zarqā’'),
+   order(39),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry sci__c (
+   value('Spinal Cord Injury Medicine'),
+   order(501),
+   active(true)
+);

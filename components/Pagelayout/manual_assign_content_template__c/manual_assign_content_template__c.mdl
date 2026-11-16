@@ -1,0 +1,8 @@
+RECREATE Pagelayout manual_assign_content_template__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Manual Assign Content Template'),
+   page_markup(@page_markup.xml)
+);

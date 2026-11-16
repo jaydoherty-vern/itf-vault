@@ -1,0 +1,5 @@
+Picklistentry is_0__c (
+   value('IS_Reykjavík'),
+   order(799),
+   active(true)
+);

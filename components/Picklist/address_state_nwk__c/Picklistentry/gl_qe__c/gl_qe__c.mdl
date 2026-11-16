@@ -1,0 +1,5 @@
+Picklistentry gl_qe__c (
+   value('GL_Qeqqata Kommunia'),
+   order(655),
+   active(true)
+);

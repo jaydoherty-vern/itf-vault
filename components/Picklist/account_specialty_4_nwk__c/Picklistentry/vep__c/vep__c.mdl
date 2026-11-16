@@ -1,0 +1,5 @@
+Picklistentry vep__c (
+   value('Veterinary Orthopedics'),
+   order(555),
+   active(true)
+);

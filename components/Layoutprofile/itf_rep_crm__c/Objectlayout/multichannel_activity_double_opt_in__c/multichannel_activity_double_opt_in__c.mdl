@@ -1,0 +1,8 @@
+Objectlayout multichannel_activity_double_opt_in__c (
+   label('multichannel_activity_double_opt_in'),
+   active(true),
+   pagelayouts('Pagelayout.admin_user_layout__c'),
+   object('Object.multichannel_activity__v'),
+   objecttype('Objecttype.multichannel_activity__v.double_opt_in__c'),
+   record_creation_layout('Pagelayout.admin_user_layout__c')
+);

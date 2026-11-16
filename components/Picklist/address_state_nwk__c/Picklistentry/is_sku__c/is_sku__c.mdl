@@ -1,0 +1,5 @@
+Picklistentry is_sku__c (
+   value('IS_Skútustaðahreppur'),
+   order(807),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_046__c (
+   value('LV_Kokneses novads (Koknese)'),
+   order(1099),
+   active(true)
+);

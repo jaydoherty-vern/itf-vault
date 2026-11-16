@@ -1,0 +1,5 @@
+Picklistentry mk_19__c (
+   value('MK_Gostivar'),
+   order(1232),
+   active(true)
+);

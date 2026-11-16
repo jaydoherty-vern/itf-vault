@@ -1,0 +1,5 @@
+Picklistentry pl_bb__c (
+   value('PL_Bielsko-Biala'),
+   order(1331),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry tr_09__c (
+   value('TR_Aydın'),
+   order(1677),
+   active(true)
+);

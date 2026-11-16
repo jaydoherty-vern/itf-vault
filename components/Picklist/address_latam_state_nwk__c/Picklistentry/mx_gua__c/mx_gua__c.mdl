@@ -1,0 +1,5 @@
+Picklistentry mx_gua__c (
+   value('Guanajuato'),
+   order(51),
+   active(true)
+);

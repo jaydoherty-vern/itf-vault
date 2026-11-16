@@ -1,0 +1,4 @@
+Typefield event_attendee_status_1_email_qs__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry diploma_in_child_health_dch__c (
+   value('Diploma in Child Health (DCH)'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pt_18__c (
+   value('PT_Viseu'),
+   order(1408),
+   active(true)
+);

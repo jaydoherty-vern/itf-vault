@@ -1,0 +1,5 @@
+Picklistentry lv_025__c (
+   value('LV_Daugavpils novads (Daugavpils)'),
+   order(1072),
+   active(true)
+);

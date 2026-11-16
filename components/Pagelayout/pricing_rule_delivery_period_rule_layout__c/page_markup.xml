@@ -1,0 +1,47 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.pricing_rule__v.delivery_period__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="pricing_group__v" />
+            <vault:field reference="comparison_type__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Rule hierarchy" name="details3__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="order_campaign__v" />
+            <vault:field reference="contract__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="price_book__v" />
+            <vault:field reference="account_group__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Rule Description and Suggestions" name="details2__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="rule_description__v" />
+            <vault:field reference="suggestion_threshold__v" />
+            <vault:field reference="suggestion_text__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Allowed Delivery Period" name="details1__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="delivery_start_date__v" />
+            <vault:field reference="delivery_end_date__v" />
+            <vault:field reference="min_delivery_time_frame__v" />
+            <vault:field reference="limit_bound__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="details4__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="legacy_crm_id__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,4 @@
+Typefield notify_team_member_vspa__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry psyte__c (
+   value('Diploma in Psychiatry'),
+   order(83),
+   active(true)
+);

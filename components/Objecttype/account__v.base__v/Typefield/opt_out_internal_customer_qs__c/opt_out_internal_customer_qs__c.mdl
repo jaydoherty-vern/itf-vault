@@ -1,0 +1,4 @@
+Typefield opt_out_internal_customer_qs__c (
+   source('standard'),
+   required(false)
+);

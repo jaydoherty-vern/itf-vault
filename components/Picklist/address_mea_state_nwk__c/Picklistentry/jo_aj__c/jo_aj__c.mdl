@@ -1,0 +1,5 @@
+Picklistentry jo_aj__c (
+   value('JO_‘Ajlūn'),
+   order(44),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout event_budget_layout_w_o_estimated_commi1__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Event Budget Layout w/o Estimated/Committed Read Only'),
+   page_markup(@page_markup.xml)
+);

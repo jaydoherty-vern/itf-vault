@@ -1,0 +1,5 @@
+Picklistentry fnp__c (
+   value('FNP'),
+   order(12),
+   active(true)
+);

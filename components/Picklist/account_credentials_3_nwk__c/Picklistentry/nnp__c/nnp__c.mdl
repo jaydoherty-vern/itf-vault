@@ -1,0 +1,5 @@
+Picklistentry nnp__c (
+   value('NNP'),
+   order(22),
+   active(true)
+);

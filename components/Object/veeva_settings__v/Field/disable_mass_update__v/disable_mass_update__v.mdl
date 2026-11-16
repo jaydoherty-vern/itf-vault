@@ -1,0 +1,23 @@
+Field disable_mass_update__v (
+   label('DISABLE_MASS_UPDATE'),
+   type('Boolean'),
+   active(true),
+   description('Configurable parameter to prevent display of Mass Update button on My Accounts.
+	
+	"false" = (Default) Display Mass Update button.
+	"true" = Do not display Mass Update button.
+	
+	TEXT MUST NOT BE TRANSLATED.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(93),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

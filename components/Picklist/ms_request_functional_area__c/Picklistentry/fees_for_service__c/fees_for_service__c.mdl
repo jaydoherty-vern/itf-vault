@@ -1,0 +1,5 @@
+Picklistentry fees_for_service__c (
+   value('Fees For Service'),
+   order(19),
+   active(true)
+);

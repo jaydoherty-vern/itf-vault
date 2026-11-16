@@ -1,0 +1,5 @@
+Picklistentry gau__c (
+   value('Gaucher''s disease'),
+   order(150),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ar_l__c (
+   value('La Pampa'),
+   order(80),
+   active(true)
+);

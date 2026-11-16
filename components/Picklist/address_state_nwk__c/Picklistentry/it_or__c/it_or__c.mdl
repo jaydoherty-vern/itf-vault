@@ -1,0 +1,5 @@
+Picklistentry it_or__c (
+   value('IT_Oristano'),
+   order(896),
+   active(true)
+);

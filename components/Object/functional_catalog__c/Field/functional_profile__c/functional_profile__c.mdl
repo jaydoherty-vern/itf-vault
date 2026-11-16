@@ -1,0 +1,20 @@
+Field functional_profile__c (
+   label('Functional Profile'),
+   type('Picklist'),
+   active(true),
+   description('List of all functional profiles supported by MACH.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.functional_catalog_functional_profile__c'),
+   controlling_picklist('profile_type__c'),
+   picklist_dependencies('{"network__c":["local_admin__c","sales_rep_manager__c","sales_rep__c","msl__c","business_admin__c","kam__c","msl_manager__c"],"core__c":["local_admin__c","sales_rep_manager__c","sales_rep__c","msl__c","data_steward__c","business_admin__c","kam__c","msl_manager__c"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

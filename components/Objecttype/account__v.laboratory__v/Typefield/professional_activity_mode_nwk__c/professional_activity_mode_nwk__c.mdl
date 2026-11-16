@@ -1,0 +1,7 @@
+Typefield professional_activity_mode_nwk__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_professional_activity_mode_nwk__c.mhtp__c',
+         'Picklist.account_professional_activity_mode_nwk__c.mhtpa__c',
+         'Picklist.account_professional_activity_mode_nwk__c.plib__c')
+);

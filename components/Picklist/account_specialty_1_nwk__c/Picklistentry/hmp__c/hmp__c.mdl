@@ -1,0 +1,5 @@
+Picklistentry hmp__c (
+   value('Hematology (Pathology)'),
+   order(186),
+   active(true)
+);

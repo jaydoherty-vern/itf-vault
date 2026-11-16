@@ -1,0 +1,5 @@
+Picklistentry gb_arm__c (
+   value('GB-ARM'),
+   order(421),
+   active(false)
+);

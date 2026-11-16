@@ -1,0 +1,5 @@
+Picklistentry br_ms__c (
+   value('Mato Grosso do Sul'),
+   order(3),
+   active(true)
+);

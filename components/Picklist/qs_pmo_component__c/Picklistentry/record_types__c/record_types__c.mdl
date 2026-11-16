@@ -1,0 +1,5 @@
+Picklistentry record_types__c (
+   value('Record Types'),
+   order(5),
+   active(true)
+);

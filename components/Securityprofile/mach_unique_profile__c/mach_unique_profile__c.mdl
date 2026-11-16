@@ -1,0 +1,6 @@
+RECREATE Securityprofile mach_unique_profile__c (
+   label('MACH Unique Profile'),
+   active(true),
+   description(),
+   permission_sets('mach_unique_profile_ps__c')
+);

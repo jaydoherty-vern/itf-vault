@@ -1,0 +1,9 @@
+RECREATE Picklist child_account_activity_status__c (
+   label('Activity Status'),
+   active(true),
+   Picklistentry(@Picklistentry/valid__c.mdl),
+   Picklistentry(@Picklistentry/provisional__c.mdl),
+   Picklistentry(@Picklistentry/invalid__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

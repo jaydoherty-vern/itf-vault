@@ -1,0 +1,5 @@
+Picklistentry lv_012__c (
+   value('LV_Babītes novads (Babīte)'),
+   order(1058),
+   active(true)
+);

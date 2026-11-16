@@ -1,0 +1,5 @@
+Picklistentry vspa_data_provider__c (
+   value('Data Provider'),
+   order(0),
+   active(true)
+);

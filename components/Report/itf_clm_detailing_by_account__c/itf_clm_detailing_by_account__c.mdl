@@ -1,0 +1,20 @@
+RECREATE Report itf_clm_detailing_by_account__c (
+   label('CLM Detailing by Account'),
+   active(true),
+   description(),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.call_with_call_key_message__c'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags('sample_clm_reports__c'),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

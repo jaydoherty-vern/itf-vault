@@ -1,0 +1,5 @@
+Picklistentry ll__c (
+   value('LÃ¤Ã¤ketieteen lisensiaatti'),
+   order(188),
+   active(true)
+);

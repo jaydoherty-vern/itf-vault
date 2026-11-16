@@ -1,0 +1,4 @@
+Typefield itf_duvyzat_writer__c (
+   source('standard'),
+   required(false)
+);

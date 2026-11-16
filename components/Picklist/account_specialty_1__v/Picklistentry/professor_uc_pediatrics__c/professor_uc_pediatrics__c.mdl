@@ -1,0 +1,5 @@
+Picklistentry professor_uc_pediatrics__c (
+   value('PROFESSOR, UC PEDIATRICS'),
+   order(93),
+   active(true)
+);

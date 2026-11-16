@@ -1,0 +1,5 @@
+Picklistentry af_sar__c (
+   value('AF-SAR'),
+   order(42),
+   active(true)
+);

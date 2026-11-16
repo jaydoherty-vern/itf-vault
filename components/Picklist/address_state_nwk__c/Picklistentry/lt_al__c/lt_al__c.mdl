@@ -1,0 +1,5 @@
+Picklistentry lt_al__c (
+   value('LT_Alytaus Apskritis'),
+   order(974),
+   active(true)
+);

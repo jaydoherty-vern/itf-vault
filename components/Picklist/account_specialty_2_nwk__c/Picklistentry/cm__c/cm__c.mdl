@@ -1,0 +1,5 @@
+Picklistentry cm__c (
+   value('Cattle Medicine'),
+   order(57),
+   active(true)
+);

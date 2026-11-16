@@ -1,0 +1,5 @@
+Picklistentry si_043__c (
+   value('SI_Kamnik'),
+   order(1601),
+   active(true)
+);

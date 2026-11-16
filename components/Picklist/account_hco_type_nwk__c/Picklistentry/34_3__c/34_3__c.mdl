@@ -1,0 +1,5 @@
+Picklistentry 34_3__c (
+   value('Rest of Economy, Other Industries'),
+   order(257),
+   active(true)
+);

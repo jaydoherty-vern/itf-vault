@@ -1,0 +1,5 @@
+Picklistentry rada__c (
+   value('RADA'),
+   order(260),
+   active(true)
+);

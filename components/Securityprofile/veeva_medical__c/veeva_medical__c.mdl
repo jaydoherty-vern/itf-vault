@@ -1,0 +1,12 @@
+RECREATE Securityprofile veeva_medical__c (
+   label('VEEVA_MEDICAL'),
+   active(true),
+   description(),
+   permission_sets('base_vault_crm__v',
+      'veeva_accounts_calls_medical__c',
+      'veeva_approved_email_end_user__c',
+      'veeva_medical_documented_interest_msl__c',
+      'veeva_medical_inquiry_plus_fulfillment_msl__c',
+      'veeva_medical_insights__c',
+      'veeva_xpages_end_user__c')
+);

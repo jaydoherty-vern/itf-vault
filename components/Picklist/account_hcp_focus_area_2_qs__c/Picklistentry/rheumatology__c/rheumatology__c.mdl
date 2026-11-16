@@ -1,0 +1,5 @@
+Picklistentry rheumatology__c (
+   value('Rheumatology'),
+   order(42),
+   active(true)
+);

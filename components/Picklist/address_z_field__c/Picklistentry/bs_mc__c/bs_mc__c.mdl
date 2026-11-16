@@ -1,0 +1,5 @@
+Picklistentry bs_mc__c (
+   value('BS-MC'),
+   order(539),
+   active(true)
+);

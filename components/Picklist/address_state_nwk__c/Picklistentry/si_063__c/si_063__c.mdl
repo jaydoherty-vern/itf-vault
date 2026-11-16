@@ -1,0 +1,5 @@
+Picklistentry si_063__c (
+   value('SI_Ljutomer'),
+   order(1611),
+   active(true)
+);

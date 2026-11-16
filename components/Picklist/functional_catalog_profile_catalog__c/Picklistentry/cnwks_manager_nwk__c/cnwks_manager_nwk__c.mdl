@@ -1,0 +1,5 @@
+Picklistentry cnwks_manager_nwk__c (
+   value('CNWKS_Manager_NWK'),
+   order(2),
+   active(true)
+);

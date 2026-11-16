@@ -1,0 +1,5 @@
+Picklistentry swedish_krona__c (
+   value('Swedish Krona'),
+   order(143),
+   active(true)
+);

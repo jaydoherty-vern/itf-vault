@@ -1,0 +1,5 @@
+Picklistentry co_qui__c (
+   value('CO-QUI'),
+   order(789),
+   active(true)
+);

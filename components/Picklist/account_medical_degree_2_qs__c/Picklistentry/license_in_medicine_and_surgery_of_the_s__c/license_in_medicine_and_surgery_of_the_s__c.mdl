@@ -1,0 +1,5 @@
+Picklistentry license_in_medicine_and_surgery_of_the_s__c (
+   value('License in Medicine and Surgery of the Society of Apothecaries (LMSSA)'),
+   order(16),
+   active(true)
+);

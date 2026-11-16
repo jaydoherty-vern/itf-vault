@@ -1,0 +1,5 @@
+Picklistentry se_u__c (
+   value('SE_Västmanlands County'),
+   order(1585),
+   active(true)
+);

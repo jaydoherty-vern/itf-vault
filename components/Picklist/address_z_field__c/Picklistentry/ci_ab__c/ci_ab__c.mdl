@@ -1,0 +1,5 @@
+Picklistentry ci_ab__c (
+   value('CI-AB'),
+   order(695),
+   active(true)
+);

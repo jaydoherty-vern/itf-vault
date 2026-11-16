@@ -1,0 +1,5 @@
+Picklistentry closed_business_process__c (
+   value('Closed: Business Process'),
+   order(4),
+   active(true)
+);

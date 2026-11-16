@@ -1,0 +1,5 @@
+Picklistentry pa__c (
+   value('Clinical Pharmacology'),
+   order(81),
+   active(true)
+);

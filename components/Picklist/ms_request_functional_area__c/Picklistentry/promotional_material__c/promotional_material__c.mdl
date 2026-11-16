@@ -1,0 +1,5 @@
+Picklistentry promotional_material__c (
+   value('Promotional material'),
+   order(38),
+   active(true)
+);

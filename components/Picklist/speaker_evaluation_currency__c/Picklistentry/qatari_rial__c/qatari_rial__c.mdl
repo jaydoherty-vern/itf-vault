@@ -1,0 +1,5 @@
+Picklistentry qatari_rial__c (
+   value('Qatari Rial'),
+   order(123),
+   active(true)
+);

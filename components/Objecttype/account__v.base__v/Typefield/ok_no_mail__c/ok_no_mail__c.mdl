@@ -1,0 +1,4 @@
+Typefield ok_no_mail__c (
+   source('standard'),
+   required(false)
+);

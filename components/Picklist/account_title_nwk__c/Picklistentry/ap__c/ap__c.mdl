@@ -1,0 +1,5 @@
+Picklistentry ap__c (
+   value('Assistant Pharmacist'),
+   order(9),
+   active(true)
+);

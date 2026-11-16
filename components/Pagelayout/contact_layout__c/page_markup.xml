@@ -1,0 +1,86 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.person__sys.base__v">
+    <vault:section title="Contact Information" name="contact_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="first_name__sys" />
+            <vault:field reference="last_name__sys" />
+            <vault:field reference="name__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="external_id__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Contact Information and Preferences" name="contact_information_and_preferences__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="office_phone__v" />
+            <vault:field reference="fax__v" />
+            <vault:field reference="email__sys" />
+            <vault:field reference="mobile_phone__sys" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Affiliations (From Contact)" name="affiliation__c">
+        <vault:relatedObject relationship="affiliation__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="role__v" width="200px" />
+            <vault:field reference="to_account__v" width="200px" />
+            <vault:field reference="influence__v" width="200px" />
+            <vault:field reference="comments__v" width="200px" />
+            <vault:field reference="modified_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Call Expenses(Contacts)" name="call2_expense__c">
+        <vault:relatedObject relationship="call2_expense__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="call2__v" width="200px" />
+            <vault:field reference="note__v" width="200px" />
+            <vault:field reference="type__v" width="200px" />
+            <vault:field reference="amount__v" width="200px" />
+            <vault:field reference="modified_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Calls (Contacts)" name="call2__c">
+        <vault:relatedObject relationship="call2__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="parent_call__v" width="200px" />
+            <vault:field reference="call2_status__v" width="200px" />
+            <vault:field reference="call_datetime__v" width="200px" />
+            <vault:field reference="call_type__v" width="200px" />
+            <vault:field reference="detailed_products__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Call Discussions(Contacts)" name="call2_discussion__c">
+        <vault:relatedObject relationship="call2_discussion__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="call2__v" width="200px" />
+            <vault:field reference="call_date__v" width="200px" />
+            <vault:field reference="activity__c" width="200px" />
+            <vault:field reference="discussion_topics__c" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="product_strategy__v" width="200px" />
+            <vault:field reference="product_tactic__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Call Key Messages(Contacts)" name="call2_key_message__c">
+        <vault:relatedObject relationship="call2_key_message__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="key_message__v" width="200px" />
+            <vault:field reference="call_date__v" width="200px" />
+            <vault:field reference="call2__v" width="200px" />
+            <vault:field reference="reaction__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

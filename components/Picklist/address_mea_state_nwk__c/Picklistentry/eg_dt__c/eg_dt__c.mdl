@@ -1,0 +1,5 @@
+Picklistentry eg_dt__c (
+   value('EG_Dumyāţ'),
+   order(32),
+   active(true)
+);

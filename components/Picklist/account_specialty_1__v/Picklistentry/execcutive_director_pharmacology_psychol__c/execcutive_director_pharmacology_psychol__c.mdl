@@ -1,0 +1,5 @@
+Picklistentry execcutive_director_pharmacology_psychol__c (
+   value('Execcutive Director, Pharmacology, Psychology'),
+   order(116),
+   active(true)
+);

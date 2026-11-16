@@ -1,0 +1,5 @@
+Picklistentry bmg__c (
+   value('Biochemical & Medical Genetics'),
+   order(43),
+   active(true)
+);

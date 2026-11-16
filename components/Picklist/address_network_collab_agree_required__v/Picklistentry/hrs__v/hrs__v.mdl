@@ -1,0 +1,5 @@
+Picklistentry hrs__v (
+   value('Conditionally Required'),
+   order(2),
+   active(true)
+);

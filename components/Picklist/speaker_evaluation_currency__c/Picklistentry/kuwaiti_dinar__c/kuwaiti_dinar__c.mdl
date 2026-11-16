@@ -1,0 +1,5 @@
+Picklistentry kuwaiti_dinar__c (
+   value('Kuwaiti Dinar'),
+   order(86),
+   active(true)
+);

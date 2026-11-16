@@ -1,0 +1,5 @@
+Picklistentry 32_28__c (
+   value('Committee for relations with patients'),
+   order(21),
+   active(true)
+);

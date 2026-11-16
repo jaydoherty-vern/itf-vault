@@ -1,0 +1,18 @@
+Field track_alignment_history__c (
+   label('Track Alignment History'),
+   type('Boolean'),
+   active(true),
+   description('If checked, Account alignment changes will be recorded in the custom object GAS_Alignment_History_vts__c'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(49),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

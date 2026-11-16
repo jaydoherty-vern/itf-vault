@@ -1,0 +1,5 @@
+Picklistentry fi_11__c (
+   value('FI_Pirkanmaa'),
+   order(264),
+   active(true)
+);

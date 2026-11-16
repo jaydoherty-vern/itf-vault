@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_account_plan_notes__c (
+   label('VSPA_Account_Plan_Notes'),
+   active(true),
+   description('Assign to the Account Plans Owner to enable attaching unstructured information to the Account Plan.'),
+   object.medical_insight__v.account_plan__v.field_actions('edit',
+      'read'),
+   object.medical_insight__v.date__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

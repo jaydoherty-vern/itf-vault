@@ -1,0 +1,5 @@
+Picklistentry beth_kinsella__c (
+   value('Beth Kinsella'),
+   order(23),
+   active(false)
+);

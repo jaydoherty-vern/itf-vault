@@ -1,0 +1,5 @@
+Picklistentry it_le__c (
+   value('IT_Lecce'),
+   order(877),
+   active(true)
+);

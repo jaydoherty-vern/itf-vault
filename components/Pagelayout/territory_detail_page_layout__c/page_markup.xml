@@ -1,0 +1,96 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.territory__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="api_name__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="parent_territory__v" />
+            <vault:field reference="country__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Account Territories" name="account_territories__c">
+        <vault:relatedObject relationship="account_territories__vr" preventRecordCreate="false" modalCreateRecord="false" displayAsSimple="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="rule__v" width="200px" />
+            <vault:field reference="manual__v" width="200px" />
+            <vault:field reference="external_id__v" width="200px" />
+            <vault:field reference="account__vr.name__v" width="200px" />
+            <vault:field reference="account__vr.veevaid__v" width="200px" />
+            <vault:field reference="account__vr.prefix_cda__v" width="200px" />
+            <vault:field reference="account__vr.prescriber_cda__v" width="200px" />
+            <vault:field reference="account__vr.year_of_birth_cda__v" width="200px" />
+            <vault:field reference="account__vr.speaker_cda__v" width="200px" />
+            <vault:field reference="account__vr.target_cda__v" width="200px" />
+            <vault:field reference="account__vr.hcp_type_cda__v" width="200px" />
+            <vault:field reference="account__vr.spec_1_cda__v" width="200px" />
+            <vault:field reference="account__vr.all_spec_cda__v" width="200px" />
+            <vault:field reference="account__vr.spec_group_1_cda__v" width="200px" />
+            <vault:field reference="account__vr.all_spec_group_cda__v" width="200px" />
+            <vault:field reference="account__vr.degree_1_cda__v" width="200px" />
+            <vault:field reference="account__vr.all_degree_cda__v" width="200px" />
+            <vault:field reference="account__vr.status_cda__v" width="200px" />
+            <vault:field reference="account__vr.level_cda__v" width="200px" />
+            <vault:field reference="account__vr.adopter_type_cda__v" width="200px" />
+            <vault:field reference="account__vr.age_range_cda__v" width="200px" />
+            <vault:field reference="account__vr.clin_researcher_cda__v" width="200px" />
+            <vault:field reference="account__vr.hco_type_cda__v" width="200px" />
+            <vault:field reference="account__vr.website_cda__v" width="200px" />
+            <vault:field reference="account__vr.study_site_cda__v" width="200px" />
+            <vault:field reference="account__vr.hco_name_cda__v" width="200px" />
+            <vault:field reference="account__vr.primary_owner__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="User Territories" name="user_territories__c">
+        <vault:relatedObject relationship="user_territories__vr" preventRecordCreate="false" modalCreateRecord="false" displayAsSimple="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="user__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="external_id__v" width="200px" />
+            <vault:field reference="user__vr.name__v" width="200px" />
+            <vault:field reference="user__vr.email__sys" width="200px" />
+            <vault:field reference="user__vr.company__sys" width="200px" />
+            <vault:field reference="user__vr.title__sys" width="200px" />
+            <vault:field reference="user__vr.mobile_phone__sys" width="200px" />
+            <vault:field reference="user__vr.office_phone__sys" width="200px" />
+            <vault:field reference="user__vr.locale_code__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Geography Territories" name="geography_territories__c">
+        <vault:relatedObject relationship="geography_territories__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="geography__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="geography_type__v" width="200px" />
+            <vault:field reference="country__v" width="200px" />
+            <vault:field reference="external_id__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Assignment Rules" name="assignment_rules__c">
+        <vault:relatedObject relationship="assignment_rules__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="cascade__v" width="200px" />
+            <vault:field reference="status__v" width="200px" />
+            <vault:field reference="modified_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Child Territories" name="child_territories__c">
+        <vault:relatedObject relationship="territories__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="api_name__v" width="200px" />
+            <vault:field reference="description__v" width="200px" />
+            <vault:field reference="status__v" width="200px" />
+            <vault:field reference="modified_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

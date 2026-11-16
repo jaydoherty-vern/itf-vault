@@ -1,0 +1,5 @@
+Picklistentry speaker_remediation__c (
+   value('Speaker Remediation'),
+   order(3),
+   active(true)
+);

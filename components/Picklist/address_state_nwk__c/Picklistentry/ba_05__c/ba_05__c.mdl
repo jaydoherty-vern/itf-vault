@@ -1,0 +1,5 @@
+Picklistentry ba_05__c (
+   value('BA_Bosansko-podrinjski kanton'),
+   order(64),
+   active(true)
+);

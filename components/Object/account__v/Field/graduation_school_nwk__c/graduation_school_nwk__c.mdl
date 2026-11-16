@@ -1,0 +1,19 @@
+Field graduation_school_nwk__c (
+   label('Graduation School'),
+   type('String'),
+   active(true),
+   description('Network field - Grad School'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(231),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

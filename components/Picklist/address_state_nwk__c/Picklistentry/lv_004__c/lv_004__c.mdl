@@ -1,0 +1,5 @@
+Picklistentry lv_004__c (
+   value('LV_Aknīstes novads (Aknīste)'),
+   order(1050),
+   active(true)
+);

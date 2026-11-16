@@ -1,0 +1,5 @@
+Picklistentry hu_pe__c (
+   value('HU_Pest'),
+   order(703),
+   active(true)
+);

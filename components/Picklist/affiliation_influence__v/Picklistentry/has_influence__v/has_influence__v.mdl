@@ -1,0 +1,5 @@
+Picklistentry has_influence__v (
+   value('Referred to'),
+   order(1),
+   active(true)
+);

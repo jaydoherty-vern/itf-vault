@@ -1,0 +1,4 @@
+Typefield attendee_not_on_call_report_vod__c (
+   source('custom'),
+   required(false)
+);

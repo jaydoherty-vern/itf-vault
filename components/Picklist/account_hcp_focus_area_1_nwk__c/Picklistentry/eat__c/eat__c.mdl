@@ -1,0 +1,5 @@
+Picklistentry eat__c (
+   value('Eating Disorder (Anorexia, Bulimia)'),
+   order(122),
+   active(true)
+);

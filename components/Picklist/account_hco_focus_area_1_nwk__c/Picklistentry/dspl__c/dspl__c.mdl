@@ -1,0 +1,5 @@
+Picklistentry dspl__c (
+   value('Disposal of Unwanted or Out-Of-Date Medicines'),
+   order(80),
+   active(true)
+);

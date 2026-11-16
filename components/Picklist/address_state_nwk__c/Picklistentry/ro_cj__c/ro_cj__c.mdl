@@ -1,0 +1,5 @@
+Picklistentry ro_cj__c (
+   value('RO_Cluj'),
+   order(1422),
+   active(true)
+);

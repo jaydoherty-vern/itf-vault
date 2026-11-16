@@ -1,0 +1,4 @@
+Typefield itf_share_team__c (
+   source('standard'),
+   required(false)
+);

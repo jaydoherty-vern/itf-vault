@@ -1,0 +1,8 @@
+Objectlayout analytics_layouts_effort_vs_results__c (
+   label('analytics_layouts_effort_vs_results'),
+   active(true),
+   pagelayouts('Pagelayout.effort_vs_results_page_layout__c'),
+   object('Object.analytics_layouts__v'),
+   objecttype('Objecttype.analytics_layouts__v.effort_vs_results__v'),
+   record_creation_layout('Pagelayout.effort_vs_results_page_layout__c')
+);

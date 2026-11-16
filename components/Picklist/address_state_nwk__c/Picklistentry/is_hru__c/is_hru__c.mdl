@@ -1,0 +1,5 @@
+Picklistentry is_hru__c (
+   value('IS_Hrunamannahreppur'),
+   order(780),
+   active(true)
+);

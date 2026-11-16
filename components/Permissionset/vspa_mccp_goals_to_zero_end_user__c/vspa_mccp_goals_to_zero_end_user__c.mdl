@@ -1,0 +1,8 @@
+RECREATE Permissionset vspa_mccp_goals_to_zero_end_user__c (
+   label('VSPA_MCCP_Goals_to_zero_End_User'),
+   active(true),
+   description('Enables the MCCP Editing Goals to zero functionality for the end user.'),
+   object.mc_cycle__v.goal_editing_rules__v.field_actions('read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

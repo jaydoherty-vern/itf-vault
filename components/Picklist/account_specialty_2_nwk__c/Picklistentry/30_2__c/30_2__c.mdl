@@ -1,0 +1,5 @@
+Picklistentry 30_2__c (
+   value('Laboratory Medicine_Clinical Biochemical Examination'),
+   order(231),
+   active(true)
+);

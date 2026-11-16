@@ -1,0 +1,21 @@
+Field qs_pmo_severity__c (
+   label('Severity'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('P1- Critical - No workaround, blocking production
+P2- Medium - Workaround can be found
+P3- Low - Enhancement, Translation, Training Issue, New config Request'),
+   list_column(false),
+   order(22),
+   multi_value(false),
+   picklist('Picklist.smb_pmo_defect_qs_pmo_severity__c'),
+   default_value('{p3_low__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

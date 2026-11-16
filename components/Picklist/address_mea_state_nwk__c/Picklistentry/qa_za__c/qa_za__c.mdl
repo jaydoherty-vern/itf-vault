@@ -1,0 +1,5 @@
+Picklistentry qa_za__c (
+   value('QA_Az̧ Za̧`āyin'),
+   order(60),
+   active(true)
+);

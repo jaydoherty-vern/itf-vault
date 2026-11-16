@@ -1,0 +1,5 @@
+Picklistentry gb_saw__c (
+   value('GB-SAW'),
+   order(592),
+   active(false)
+);

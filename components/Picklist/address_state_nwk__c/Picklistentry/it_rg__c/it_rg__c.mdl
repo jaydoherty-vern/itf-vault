@@ -1,0 +1,5 @@
+Picklistentry it_rg__c (
+   value('IT_Ragusa'),
+   order(910),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry expenses__c (
+   value('Expenses'),
+   order(24),
+   active(true)
+);

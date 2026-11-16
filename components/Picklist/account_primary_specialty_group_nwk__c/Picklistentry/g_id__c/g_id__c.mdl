@@ -1,0 +1,5 @@
+Picklistentry g_id__c (
+   value('Infectious diseases'),
+   order(43),
+   active(true)
+);

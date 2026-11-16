@@ -1,0 +1,5 @@
+Picklistentry cd__c (
+   value('Chief Doctor'),
+   order(16),
+   active(true)
+);

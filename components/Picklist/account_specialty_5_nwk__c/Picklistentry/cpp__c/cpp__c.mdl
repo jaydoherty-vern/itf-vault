@@ -1,0 +1,5 @@
+Picklistentry cpp__c (
+   value('Pediatrics/Psychiatry'),
+   order(394),
+   active(true)
+);

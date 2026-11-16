@@ -1,0 +1,5 @@
+Picklistentry bi_ry__c (
+   value('BI-RY'),
+   order(466),
+   active(true)
+);

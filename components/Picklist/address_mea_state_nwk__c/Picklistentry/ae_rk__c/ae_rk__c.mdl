@@ -1,0 +1,5 @@
+Picklistentry ae_rk__c (
+   value('AE_Ra’s al Khaymah'),
+   order(78),
+   active(true)
+);

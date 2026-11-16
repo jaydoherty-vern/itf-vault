@@ -1,0 +1,5 @@
+Picklistentry cg_15__c (
+   value('CG-15'),
+   order(642),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield external_id_vod__c (
+   source('standard'),
+   required(false)
+);

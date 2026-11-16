@@ -1,0 +1,40 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.expense_type__v.expense_type__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="expense_code__v" required="true" />
+            <vault:field reference="included_in_speaker_cap__v" />
+            <vault:field reference="meal_expense__v" />
+            <vault:field reference="vspa_country_code__c" />
+            <vault:field reference="active__v" />
+            <vault:field reference="expense_type_identifier__v" />
+            <vault:field reference="parent_expense_type__v" />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Expense Sub-Types" name="expense_sub_type__c">
+        <vault:relatedObject relationship="expense_sub_type__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="expense_code__v" width="200px" />
+            <vault:field reference="active__v" width="200px" />
+            <vault:field reference="included_in_speaker_cap__v" width="200px" />
+            <vault:field reference="meal_expense__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Event Business Rules" name="em_business_rules__c">
+        <vault:relatedObject relationship="em_business_rules__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry 4_12__c (
+   value('4_12'),
+   order(3),
+   active(true)
+);

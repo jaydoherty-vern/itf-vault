@@ -1,0 +1,5 @@
+Picklistentry papdm2__c (
+   value('PD Dr. med. dent.'),
+   order(245),
+   active(true)
+);

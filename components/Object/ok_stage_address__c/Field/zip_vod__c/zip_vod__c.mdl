@@ -1,0 +1,19 @@
+Field zip_vod__c (
+   label('Zip'),
+   type('String'),
+   active(true),
+   description('This field is loaded from the Cegedim One Key data file. This is an out-of-the box veeva field used by the Professional Account layout. In the Nordics, all users have access to this field.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(45),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

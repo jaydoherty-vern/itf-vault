@@ -1,0 +1,5 @@
+Picklistentry tch__c (
+   value('TCH'),
+   order(106),
+   active(true)
+);

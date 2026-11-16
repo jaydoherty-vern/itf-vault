@@ -1,0 +1,5 @@
+Picklistentry imd__c (
+   value('Residents - Internal Medicine/Derm'),
+   order(454),
+   active(true)
+);

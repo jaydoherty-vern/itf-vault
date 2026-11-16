@@ -1,0 +1,5 @@
+Picklistentry vatu__c (
+   value('Vatu'),
+   order(163),
+   active(true)
+);

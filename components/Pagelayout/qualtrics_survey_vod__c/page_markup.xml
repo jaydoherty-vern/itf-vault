@@ -1,0 +1,34 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.integrated_survey__v.qualtrics_survey__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="active__v" />
+            <vault:spacer />
+            <vault:field reference="integrated_survey_url__v" />
+            <vault:field reference="delivery_mechanism__v" />
+            <vault:field reference="integrated_survey_entry_point__v" />
+            <vault:field reference="country__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Survey URL Parameters (Optional)" name="survey_url_parameters_optional__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account_id_parameter_name__v" />
+            <vault:field reference="org_id_parameter_name__v" />
+            <vault:field reference="meeting_id_parameter_name__v" />
+            <vault:field reference="event_id_parameter_name__v" />
+            <vault:field reference="call_id_parameter_name__v" />
+            <vault:field reference="user_id_parameter_name__v" />
+            <vault:field reference="user_type_parameter_name__v" />
+            <vault:field reference="country_parameter_name__v" />
+            <vault:field reference="meeting_rating_parameter_name__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

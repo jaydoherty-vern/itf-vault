@@ -1,0 +1,5 @@
+Picklistentry azerbaijanian_manat__c (
+   value('Azerbaijanian Manat'),
+   order(12),
+   active(true)
+);

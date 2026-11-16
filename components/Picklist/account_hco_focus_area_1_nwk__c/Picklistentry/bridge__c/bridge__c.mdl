@@ -1,0 +1,5 @@
+Picklistentry bridge__c (
+   value('Bridges'),
+   order(31),
+   active(true)
+);

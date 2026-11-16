@@ -1,0 +1,18 @@
+RECREATE Notificationtemplate itf_requirement_deployed__c (
+   label('ITF_REQUIREMENT_DEPLOYED'),
+   active(true),
+   description('ITF_REQUIREMENT_DEPLOYED'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.requirement__c'),
+   subject('DEPLOYED TO PRODUCTION - ${Object.name__v} - ${Object.requirement_title__c}'),
+   notification('The following requirement has been successfully deployed to Production.
+</br>
+${Object.name__v}
+'),
+   email_body('The following requirement has been successfully deployed to Production.
+</br>
+${Object.name__v}
+'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

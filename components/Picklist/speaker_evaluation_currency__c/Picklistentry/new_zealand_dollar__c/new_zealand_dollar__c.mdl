@@ -1,0 +1,5 @@
+Picklistentry new_zealand_dollar__c (
+   value('New Zealand Dollar'),
+   order(44),
+   active(true)
+);

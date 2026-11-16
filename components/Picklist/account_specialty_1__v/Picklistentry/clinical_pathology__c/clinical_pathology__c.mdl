@@ -1,0 +1,5 @@
+Picklistentry clinical_pathology__c (
+   value('Clinical Pathology'),
+   order(172),
+   active(true)
+);

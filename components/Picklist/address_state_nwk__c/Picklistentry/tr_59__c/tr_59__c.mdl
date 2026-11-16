@@ -1,0 +1,5 @@
+Picklistentry tr_59__c (
+   value('TR_Tekirdağ'),
+   order(1739),
+   active(true)
+);

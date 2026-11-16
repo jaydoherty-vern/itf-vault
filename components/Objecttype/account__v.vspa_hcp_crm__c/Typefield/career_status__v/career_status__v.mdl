@@ -1,0 +1,7 @@
+Typefield career_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_career_status__v.emerging__v',
+         'Picklist.account_career_status__v.peak__v',
+         'Picklist.account_career_status__v.retired__v')
+);

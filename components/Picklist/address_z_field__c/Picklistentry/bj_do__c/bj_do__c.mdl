@@ -1,0 +1,5 @@
+Picklistentry bj_do__c (
+   value('BJ-DO'),
+   order(472),
+   active(true)
+);

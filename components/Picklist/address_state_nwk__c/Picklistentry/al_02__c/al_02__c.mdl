@@ -1,0 +1,5 @@
+Picklistentry al_02__c (
+   value('AL_Durrës'),
+   order(14),
+   active(true)
+);

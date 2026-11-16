@@ -1,0 +1,5 @@
+Picklistentry bj_zo__c (
+   value('BJ-ZO'),
+   order(478),
+   active(true)
+);

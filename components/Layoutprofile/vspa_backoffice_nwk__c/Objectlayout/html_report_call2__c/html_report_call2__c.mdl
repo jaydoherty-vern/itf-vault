@@ -1,0 +1,8 @@
+Objectlayout html_report_call2__c (
+   label('html_report_call2'),
+   active(true),
+   pagelayouts('Pagelayout.myinsights__c'),
+   object('Object.html_report__v'),
+   objecttype('Objecttype.html_report__v.call2__v'),
+   record_creation_layout('Pagelayout.myinsights__c')
+);

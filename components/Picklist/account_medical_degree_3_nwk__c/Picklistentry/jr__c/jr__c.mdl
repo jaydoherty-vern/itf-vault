@@ -1,0 +1,5 @@
+Picklistentry jr__c (
+   value('Junior Researcher'),
+   order(163),
+   active(true)
+);

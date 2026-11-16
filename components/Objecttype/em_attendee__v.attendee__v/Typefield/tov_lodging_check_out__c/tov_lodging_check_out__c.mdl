@@ -1,0 +1,4 @@
+Typefield tov_lodging_check_out__c (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry eqm__c (
+   value('Equine Medicine'),
+   order(134),
+   active(true)
+);

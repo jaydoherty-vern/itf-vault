@@ -1,0 +1,5 @@
+Picklistentry trauma__c (
+   value('Trauma & Orthopedics'),
+   order(436),
+   active(true)
+);

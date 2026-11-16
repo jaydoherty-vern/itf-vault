@@ -1,0 +1,8 @@
+Objectlayout contract_series_contract__c (
+   label('contract_series_contract'),
+   active(true),
+   pagelayouts('Pagelayout.listing_contract_layout__c'),
+   object('Object.contract__v'),
+   objecttype('Objecttype.contract__v.series_contract__v'),
+   record_creation_layout('Pagelayout.listing_contract_layout__c')
+);

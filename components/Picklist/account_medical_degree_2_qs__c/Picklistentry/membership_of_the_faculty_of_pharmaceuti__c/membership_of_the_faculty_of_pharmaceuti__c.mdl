@@ -1,0 +1,5 @@
+Picklistentry membership_of_the_faculty_of_pharmaceuti__c (
+   value('Membership of the Faculty of Pharmaceutical Medicine (MFPH)'),
+   order(23),
+   active(true)
+);

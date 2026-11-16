@@ -1,0 +1,5 @@
+Picklistentry build_documentation_completed__c (
+   value('Build Documentation Completed'),
+   order(3),
+   active(true)
+);

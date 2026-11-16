@@ -1,0 +1,5 @@
+Picklistentry al_03__c (
+   value('AL_Elbasan'),
+   order(16),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry bi_ky__c (
+   value('BI-KY'),
+   order(459),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cd_ka__c (
+   value('CD-KA'),
+   order(613),
+   active(true)
+);

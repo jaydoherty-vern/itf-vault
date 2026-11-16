@@ -1,0 +1,5 @@
+Picklistentry lv_084__c (
+   value('LV_Rūjienas novads (Rūjiena)'),
+   order(1137),
+   active(true)
+);

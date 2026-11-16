@@ -1,0 +1,5 @@
+Picklistentry it_vt__c (
+   value('IT_Viterbo'),
+   order(941),
+   active(true)
+);

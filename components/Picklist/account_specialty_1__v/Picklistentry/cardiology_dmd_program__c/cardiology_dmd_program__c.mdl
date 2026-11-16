@@ -1,0 +1,5 @@
+Picklistentry cardiology_dmd_program__c (
+   value('CARDIOLOGY, DMD PROGRAM'),
+   order(97),
+   active(true)
+);

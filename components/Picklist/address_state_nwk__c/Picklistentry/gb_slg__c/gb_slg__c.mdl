@@ -1,0 +1,5 @@
+Picklistentry gb_slg__c (
+   value('GB-SLG'),
+   order(603),
+   active(false)
+);

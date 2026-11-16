@@ -1,0 +1,5 @@
+Picklistentry eg_mnf__c (
+   value('EG_Al Minūfīyah'),
+   order(29),
+   active(true)
+);

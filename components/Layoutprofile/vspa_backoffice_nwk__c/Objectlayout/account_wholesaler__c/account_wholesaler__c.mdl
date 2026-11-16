@@ -1,0 +1,8 @@
+Objectlayout account_wholesaler__c (
+   label('account_wholesaler'),
+   active(true),
+   pagelayouts('Pagelayout.wholesaler__c'),
+   object('Object.account__v'),
+   objecttype('Objecttype.account__v.wholesaler__v'),
+   record_creation_layout('Pagelayout.wholesaler__c')
+);

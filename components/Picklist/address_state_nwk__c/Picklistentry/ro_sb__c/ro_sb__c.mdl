@@ -1,0 +1,5 @@
+Picklistentry ro_sb__c (
+   value('RO_Sibiu'),
+   order(1443),
+   active(true)
+);

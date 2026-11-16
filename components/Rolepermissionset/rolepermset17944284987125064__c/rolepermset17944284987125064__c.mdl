@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17944284987125064__c (
+   label('Time off Territory'),
+   active(true),
+   application_role('tot__c'),
+   permission_sets('Permissionset.itf_time_off_territory__c')
+);

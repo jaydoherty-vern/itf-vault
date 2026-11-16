@@ -1,0 +1,5 @@
+Picklistentry mx_hid__c (
+   value('Hidalgo'),
+   order(58),
+   active(true)
+);

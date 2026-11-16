@@ -1,0 +1,5 @@
+Picklistentry very_high__c (
+   value('Very high'),
+   order(4),
+   active(true)
+);

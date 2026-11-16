@@ -1,0 +1,5 @@
+Picklistentry lm__c (
+   value('Legal and Forensic Medicine'),
+   order(122),
+   active(true)
+);

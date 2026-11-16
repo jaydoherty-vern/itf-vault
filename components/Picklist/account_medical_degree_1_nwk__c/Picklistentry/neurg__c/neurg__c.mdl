@@ -1,0 +1,5 @@
+Picklistentry neurg__c (
+   value('Diploma in Neurology'),
+   order(73),
+   active(true)
+);

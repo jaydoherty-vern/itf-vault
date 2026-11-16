@@ -1,0 +1,4 @@
+Typefield veeva_status__c (
+   source('standard'),
+   required(false)
+);

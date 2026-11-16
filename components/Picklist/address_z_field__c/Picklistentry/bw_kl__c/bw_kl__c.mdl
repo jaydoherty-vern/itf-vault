@@ -1,0 +1,5 @@
+Picklistentry bw_kl__c (
+   value('BW-KL'),
+   order(577),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry it_fc__c (
+   value('IT_Forlì-Cesena'),
+   order(867),
+   active(true)
+);

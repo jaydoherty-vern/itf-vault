@@ -1,0 +1,5 @@
+Picklistentry fin__c (
+   value('Financial Officer'),
+   order(41),
+   active(true)
+);

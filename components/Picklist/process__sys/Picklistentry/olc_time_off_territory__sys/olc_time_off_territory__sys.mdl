@@ -1,0 +1,5 @@
+Picklistentry olc_time_off_territory__sys (
+   value('Time off Territory'),
+   order(75),
+   active(true)
+);

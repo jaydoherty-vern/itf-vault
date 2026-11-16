@@ -1,0 +1,81 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_catalog__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="em_catalog_name__v" required="true" />
+            <vault:field reference="em_catalog_status__v" required="true" />
+            <vault:field reference="description__v" />
+            <vault:field reference="vspa_country_code__c" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="vault_link__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Events" name="em_event_topic__c">
+        <vault:relatedObject relationship="em_event_topic__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="program_type__v" width="200px" />
+            <vault:field reference="em_event_status__v" width="200px" />
+            <vault:field reference="start_time__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Topic Materials (Topic)" name="topic_materials1__c">
+        <vault:relatedObject relationship="topic_materials1__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="email_template__v" width="200px" />
+            <vault:field reference="material__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="modified_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Topics Using Material" name="topic_materials__c">
+        <vault:relatedObject relationship="topic_materials__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="topic__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="modified_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Event Rules" name="event_rules1__c">
+        <vault:relatedObject relationship="event_rules1__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="email_template__v" width="200px" />
+            <vault:field reference="material__v" width="200px" />
+            <vault:field reference="clm_presentation__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="modified_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Event Types Using Material" name="event_rules__c">
+        <vault:relatedObject relationship="event_rules__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="event_configuration__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="modified_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Speaker Qualifications" name="em_speaker_training__c">
+        <vault:relatedObject relationship="em_speaker_training__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="speaker__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="modified_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

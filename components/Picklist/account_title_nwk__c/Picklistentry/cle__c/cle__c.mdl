@@ -1,0 +1,5 @@
+Picklistentry cle__c (
+   value('CLE'),
+   order(21),
+   active(true)
+);

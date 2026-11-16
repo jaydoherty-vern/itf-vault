@@ -1,0 +1,5 @@
+Picklistentry be_vlg__c (
+   value('BE-VLG'),
+   order(349),
+   active(true)
+);

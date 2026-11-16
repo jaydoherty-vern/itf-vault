@@ -1,0 +1,5 @@
+Picklistentry gb_shn__c (
+   value('GB-SHN'),
+   order(599),
+   active(false)
+);

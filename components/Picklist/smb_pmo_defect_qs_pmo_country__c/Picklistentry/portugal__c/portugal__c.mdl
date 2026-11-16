@@ -1,0 +1,5 @@
+Picklistentry portugal__c (
+   value('Portugal'),
+   order(7),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mk_26__c (
+   value('MK_Dojran'),
+   order(1226),
+   active(true)
+);

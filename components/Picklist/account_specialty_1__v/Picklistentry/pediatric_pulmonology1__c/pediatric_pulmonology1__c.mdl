@@ -1,0 +1,5 @@
+Picklistentry pediatric_pulmonology1__c (
+   value('PEDIATRIC, PULMONOLOGY'),
+   order(123),
+   active(true)
+);

@@ -1,0 +1,20 @@
+Field account_plan_object_hierarchy__v (
+   label('Account Plan Object Hierarchy'),
+   type('String'),
+   active(true),
+   description('Comma delimited list of object API names and relationship names used to determine the Account Plan progress object hierarchy. Each value should be the name of an object followed by the name of the relationship separated by a dot. The first object.relationship is considered the top of the hierarchy, the last at the bottom. Default hierarchy is: Plan_Tactic_vod__c.Account_Plan_vod__r, Account_Tactic_vod__c.Plan_Tactic_vod__r, Call_Objective_vod__c.Account_Tactic_vod__r'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(27),
+   default_value('"Plan_Tactic_vod__c.Account_Plan_vod__r,Account_Tactic_vod__c.Plan_Tactic_vod__r,Action_Item_vod__c.Account_Tactic_vod__r"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

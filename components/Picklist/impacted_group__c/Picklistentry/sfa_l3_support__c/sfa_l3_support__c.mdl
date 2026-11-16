@@ -1,0 +1,5 @@
+Picklistentry sfa_l3_support__c (
+   value('SFA L3 Support'),
+   order(4),
+   active(true)
+);

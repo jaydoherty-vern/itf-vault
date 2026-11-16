@@ -1,0 +1,9 @@
+RECREATE Picklist account_kol_type__c (
+   label('KOL Type'),
+   active(true),
+   Picklistentry(@Picklistentry/unknown__c.mdl),
+   Picklistentry(@Picklistentry/national__c.mdl),
+   Picklistentry(@Picklistentry/international__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

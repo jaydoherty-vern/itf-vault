@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email_view__c.sent_email__v.product__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email_view__c.sent_email__v.AGG_SUM_object_count__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email_view__c.sent_email__v.FF_MP_click_rate__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email_view__c.sent_email__v.FF_MP_click_rate_count__c" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="sent_email_view__c.sent_email__v.product__v" sortDirection="ASCENDING" />
+  </vrp:order>
+  <vrp:formulaFields>
+    <vrp:formulaField key="sent_email_view__c.sent_email__v.FF_MP_click_rate_count__c" label="Open Rate">
+      <vrp:type>STANDARD</vrp:type>
+      <vrp:formula>(sent_email_view__c.sent_email__v.AGG_SUM_opened__v / sent_email_view__c.sent_email__v.AGG_SUM_object_count__v) * 100</vrp:formula>
+      <vrp:returnType>Number</vrp:returnType>
+      <vrp:scale>2</vrp:scale>
+      <vrp:enhancedBlankHandling>blanks_as_blanks</vrp:enhancedBlankHandling>
+    </vrp:formulaField>
+    <vrp:formulaField key="sent_email_view__c.sent_email__v.FF_MP_click_rate__c" label="Click Rate">
+      <vrp:type>STANDARD</vrp:type>
+      <vrp:formula>(sent_email_view__c.sent_email__v.AGG_SUM_clicked__v / sent_email_view__c.sent_email__v.AGG_SUM_object_count__v) * 100</vrp:formula>
+      <vrp:returnType>Number</vrp:returnType>
+      <vrp:scale>2</vrp:scale>
+      <vrp:enhancedBlankHandling>blanks_as_blanks</vrp:enhancedBlankHandling>
+    </vrp:formulaField>
+  </vrp:formulaFields>
+</vrp:query>

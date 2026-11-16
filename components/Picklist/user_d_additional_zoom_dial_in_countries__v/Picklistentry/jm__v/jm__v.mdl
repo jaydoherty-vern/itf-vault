@@ -1,0 +1,5 @@
+Picklistentry jm__v (
+   value('Jamaica'),
+   order(53),
+   active(true)
+);

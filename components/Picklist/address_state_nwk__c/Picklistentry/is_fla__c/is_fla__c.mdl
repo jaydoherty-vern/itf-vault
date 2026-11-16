@@ -1,0 +1,5 @@
+Picklistentry is_fla__c (
+   value('IS_Flóahreppur'),
+   order(770),
+   active(true)
+);

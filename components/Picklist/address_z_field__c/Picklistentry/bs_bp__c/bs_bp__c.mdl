@@ -1,0 +1,5 @@
+Picklistentry bs_bp__c (
+   value('BS-BP'),
+   order(524),
+   active(true)
+);

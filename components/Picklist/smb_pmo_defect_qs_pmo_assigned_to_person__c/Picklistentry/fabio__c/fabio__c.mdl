@@ -1,0 +1,5 @@
+Picklistentry fabio__c (
+   value('Fabio'),
+   order(5),
+   active(true)
+);

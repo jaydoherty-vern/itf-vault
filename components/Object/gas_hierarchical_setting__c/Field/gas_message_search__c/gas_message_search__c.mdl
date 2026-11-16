@@ -1,0 +1,20 @@
+Field gas_message_search__c (
+   label('GAS Message - SEARCH'),
+   type('String'),
+   active(true),
+   description('GAS Search Button text'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content('GAS Search Button text'),
+   list_column(false),
+   order(35),
+   default_value('''Search'''),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

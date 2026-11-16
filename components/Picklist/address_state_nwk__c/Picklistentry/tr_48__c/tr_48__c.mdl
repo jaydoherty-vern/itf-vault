@@ -1,0 +1,5 @@
+Picklistentry tr_48__c (
+   value('TR_Muğla'),
+   order(1725),
+   active(true)
+);

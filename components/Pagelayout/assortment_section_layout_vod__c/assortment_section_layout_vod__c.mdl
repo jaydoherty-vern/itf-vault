@@ -1,0 +1,8 @@
+RECREATE Pagelayout assortment_section_layout_vod__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Assortment_Section_Layout_vod'),
+   page_markup(@page_markup.xml)
+);

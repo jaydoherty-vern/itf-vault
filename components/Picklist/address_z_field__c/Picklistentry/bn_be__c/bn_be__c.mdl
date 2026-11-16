@@ -1,0 +1,5 @@
+Picklistentry bn_be__c (
+   value('BN-BE'),
+   order(479),
+   active(true)
+);

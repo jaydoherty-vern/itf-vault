@@ -1,0 +1,5 @@
+Picklistentry gb_tfw__c (
+   value('GB-TFW'),
+   order(622),
+   active(false)
+);

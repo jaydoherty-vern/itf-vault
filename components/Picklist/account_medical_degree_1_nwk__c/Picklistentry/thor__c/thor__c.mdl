@@ -1,0 +1,5 @@
+Picklistentry thor__c (
+   value('Thoracosurgery Diploma'),
+   order(336),
+   active(true)
+);

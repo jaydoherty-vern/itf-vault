@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_event__v.weekend_events__c (
+   label('Weekend_events'),
+   active(true),
+   expression('Not(If(Or(object_type__vr.name__v="Child_Event",object_type__vr.name__v="Local_Event")=TRUE,If(DateValue(start_time__v,@User.timezone__sys)=DateValue(end_time__v,@User.timezone__sys),Text(activity__c)="Week-end",false),false))'),
+   description(),
+   error_message('Event Activity cannot be Week-end.'),
+   error_location('activity__c')
+);

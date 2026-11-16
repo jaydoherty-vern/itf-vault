@@ -1,0 +1,5 @@
+Picklistentry dne__c (
+   value('Dr. oec. publ.'),
+   order(129),
+   active(true)
+);

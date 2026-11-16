@@ -1,0 +1,5 @@
+Picklistentry lv_052__c (
+   value('LV_Ķekavas novads'),
+   order(1097),
+   active(true)
+);

@@ -1,0 +1,9 @@
+RECREATE Reporttype time_off_territory_with_user__c (
+   label('Time Off Territory with User'),
+   active(true),
+   description('Time Off Territory with Owner'),
+   primary_object('time_off_territory__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

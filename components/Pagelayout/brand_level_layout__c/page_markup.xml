@@ -1,0 +1,46 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.pricing_rule__v.brand_level_rule__v">
+    <vault:section title="Fields" name="fields__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="product__v" required="true" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="chain_rule__v" />
+            <vault:field reference="chain_rule_operator__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="order_campaign__v" />
+            <vault:field reference="contract__v" />
+            <vault:field reference="price_book__v" />
+            <vault:field reference="account_group__v" />
+            <vault:field reference="account__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Rule Definition" name="rule_definition__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="comparison_type__v" required="true" />
+            <vault:field reference="quantity_min__v" required="true" />
+            <vault:field reference="quantity_max__v" />
+            <vault:field reference="discount_override__v" required="true" />
+            <vault:field reference="rule_description__v" />
+            <vault:field reference="suggestion_text__v" />
+            <vault:field reference="suggestion_threshold__v" />
+            <vault:field reference="discount_override_max__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Pricing Subrules" name="pricing_subrules__c">
+        <vault:relatedObject relationship="pricing_subrules__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="comparison_type__v" width="200px" />
+            <vault:field reference="min_quantity__v" width="200px" />
+            <vault:field reference="max_quantity__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

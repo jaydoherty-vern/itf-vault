@@ -1,0 +1,5 @@
+Picklistentry isr__c (
+   value('ISR'),
+   order(11),
+   active(true)
+);

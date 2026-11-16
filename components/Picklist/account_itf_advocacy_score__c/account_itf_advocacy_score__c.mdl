@@ -1,0 +1,10 @@
+RECREATE Picklist account_itf_advocacy_score__c (
+   label('Advocacy Score'),
+   active(true),
+   Picklistentry(@Picklistentry/strong_advocate__c.mdl),
+   Picklistentry(@Picklistentry/moderate_advocate__c.mdl),
+   Picklistentry(@Picklistentry/limited_advocate__c.mdl),
+   Picklistentry(@Picklistentry/non_believer__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

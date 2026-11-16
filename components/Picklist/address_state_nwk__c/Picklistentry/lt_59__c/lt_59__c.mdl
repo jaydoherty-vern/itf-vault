@@ -1,0 +1,5 @@
+Picklistentry lt_59__c (
+   value('LT_Visaginas'),
+   order(1041),
+   active(true)
+);

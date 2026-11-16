@@ -1,0 +1,5 @@
+Picklistentry hr_20__c (
+   value('HR_Međimurska županija'),
+   order(665),
+   active(true)
+);

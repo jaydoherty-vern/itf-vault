@@ -1,0 +1,5 @@
+Picklistentry adu__c (
+   value('Adult Health'),
+   order(16),
+   active(true)
+);

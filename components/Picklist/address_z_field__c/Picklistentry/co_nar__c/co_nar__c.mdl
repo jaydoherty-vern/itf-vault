@@ -1,0 +1,5 @@
+Picklistentry co_nar__c (
+   value('CO-NAR'),
+   order(786),
+   active(true)
+);

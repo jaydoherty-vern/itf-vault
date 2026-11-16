@@ -1,0 +1,5 @@
+Picklistentry al_tr__c (
+   value('AL_Tiranë (District)'),
+   order(51),
+   active(true)
+);

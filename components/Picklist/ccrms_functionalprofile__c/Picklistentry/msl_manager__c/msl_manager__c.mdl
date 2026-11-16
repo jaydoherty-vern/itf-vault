@@ -1,0 +1,5 @@
+Picklistentry msl_manager__c (
+   value('MSL Manager'),
+   order(9),
+   active(true)
+);

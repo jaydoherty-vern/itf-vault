@@ -1,0 +1,5 @@
+Picklistentry oto__c (
+   value('Otolaryngology Diploma'),
+   order(194),
+   active(true)
+);

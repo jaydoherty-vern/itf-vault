@@ -1,0 +1,5 @@
+Picklistentry vea__c (
+   value('Veterinary Medicine, Agricultural'),
+   order(568),
+   active(true)
+);

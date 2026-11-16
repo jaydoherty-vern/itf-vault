@@ -1,0 +1,4 @@
+Typefield recordtypeid__c (
+   source('standard'),
+   required(false)
+);

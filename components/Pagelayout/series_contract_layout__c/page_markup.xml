@@ -1,0 +1,52 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.contract__v.series_contract__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="contract_status__v" />
+            <vault:field reference="em_catalog__v" />
+            <vault:field reference="template__v" />
+            <vault:field reference="language__v" />
+            <vault:field reference="em_tier__v" />
+            <vault:field reference="corporate_contract__v" />
+            <vault:spacer />
+            <vault:field reference="contracted_product__v" />
+            <vault:field reference="contracted_event__v" />
+            <vault:field reference="minimum_programs__v" />
+            <vault:field reference="maximum_programs__v" />
+            <vault:field reference="completed_programs__v" readOnly="true" />
+            <vault:field reference="period_type__v" />
+            <vault:field reference="contract_length__v" />
+            <vault:field reference="minimum_contract_length__v" />
+            <vault:field reference="first_expiration_date__v" />
+            <vault:field reference="em_speaker__v" readOnly="true" />
+            <vault:field reference="institution__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Contract Lines" name="contract_lines__c">
+        <vault:relatedObject relationship="contract_lines__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="service_name__v" width="200px" />
+            <vault:field reference="em_rate_min__v" width="200px" />
+            <vault:field reference="em_rate_max__v" width="200px" />
+            <vault:field reference="em_rate__v" width="200px" />
+            <vault:field reference="em_service_quantity_min__v" width="200px" />
+            <vault:field reference="em_service_quantity_max__v" width="200px" />
+            <vault:field reference="em_service_quantity__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Contract Partners" name="contract_partners__c">
+        <vault:relatedObject relationship="contract_partners__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="em_speaker__v" width="200px" />
+            <vault:field reference="contract_partner_status__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

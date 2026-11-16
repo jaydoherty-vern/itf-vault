@@ -1,0 +1,5 @@
+Picklistentry pediatric_cardiology__c (
+   value('Pediatric Cardiology'),
+   order(248),
+   active(true)
+);

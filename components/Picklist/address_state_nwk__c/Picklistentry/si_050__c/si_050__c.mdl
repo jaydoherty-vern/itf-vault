@@ -1,0 +1,5 @@
+Picklistentry si_050__c (
+   value('SI_Koper'),
+   order(1603),
+   active(true)
+);

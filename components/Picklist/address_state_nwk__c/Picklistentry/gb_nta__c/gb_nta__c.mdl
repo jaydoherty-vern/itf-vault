@@ -1,0 +1,5 @@
+Picklistentry gb_nta__c (
+   value('GB-NTA'),
+   order(563),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry radioph__c (
+   value('Radiopharmacy'),
+   order(440),
+   active(true)
+);

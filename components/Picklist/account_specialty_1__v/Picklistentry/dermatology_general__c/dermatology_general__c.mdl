@@ -1,0 +1,5 @@
+Picklistentry dermatology_general__c (
+   value('DERMATOLOGY - GENERAL'),
+   order(327),
+   active(true)
+);

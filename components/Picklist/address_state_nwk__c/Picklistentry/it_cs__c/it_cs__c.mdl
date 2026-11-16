@@ -1,0 +1,5 @@
+Picklistentry it_cs__c (
+   value('IT_Cosenza'),
+   order(858),
+   active(true)
+);

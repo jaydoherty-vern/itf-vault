@@ -1,0 +1,5 @@
+Picklistentry si_096__c (
+   value('SI_Ptuj'),
+   order(1626),
+   active(true)
+);

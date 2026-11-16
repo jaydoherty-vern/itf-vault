@@ -1,0 +1,5 @@
+Picklistentry monosponsor__c (
+   value('Monosponsor'),
+   order(1),
+   active(true)
+);

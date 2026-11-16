@@ -1,0 +1,5 @@
+Picklistentry physiotherapist__c (
+   value('Physiotherapist'),
+   order(10),
+   active(true)
+);

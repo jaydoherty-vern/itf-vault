@@ -1,0 +1,5 @@
+Picklistentry lv_lpx__c (
+   value('LV_Liepāja'),
+   order(1105),
+   active(true)
+);

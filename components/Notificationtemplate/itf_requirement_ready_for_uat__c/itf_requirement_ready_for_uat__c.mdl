@@ -1,0 +1,16 @@
+RECREATE Notificationtemplate itf_requirement_ready_for_uat__c (
+   label('ITF_REQUIREMENT_READY_FOR_UAT'),
+   active(true),
+   description('ITF_REQUIREMENT_READY_FOR_UAT'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.requirement__c'),
+   subject('REQUIREMENT READY FOR UAT TESTING - ${Object.name__v} - ${Object.requirement_title__c}'),
+   notification('CRM requirement "${Object.name__v} - ${Object.requirement_title__c}" is now ready to be tested in the Sandbox environment. Once testing has been completed, please update the UAT section of the requirement. Follow the below link to view the requirement:
+</br>
+${Object.name__v}'),
+   email_body('CRM requirement "${Object.name__v} - ${Object.requirement_title__c}" is now ready to be tested in the Sandbox environment. Once testing has been completed, please update the UAT section of the requirement. Follow the below link to view the requirement:
+</br>
+${Object.name__v}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

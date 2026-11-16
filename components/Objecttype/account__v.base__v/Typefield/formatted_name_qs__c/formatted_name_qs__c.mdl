@@ -1,0 +1,4 @@
+Typefield formatted_name_qs__c (
+   source('standard'),
+   required(false)
+);

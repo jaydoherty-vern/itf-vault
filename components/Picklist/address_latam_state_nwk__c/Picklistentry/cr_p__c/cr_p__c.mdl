@@ -1,0 +1,5 @@
+Picklistentry cr_p__c (
+   value('Puntarenas'),
+   order(177),
+   active(true)
+);

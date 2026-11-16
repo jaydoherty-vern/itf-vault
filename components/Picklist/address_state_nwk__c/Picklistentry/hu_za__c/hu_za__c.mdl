@@ -1,0 +1,5 @@
+Picklistentry hu_za__c (
+   value('HU_Zala'),
+   order(718),
+   active(true)
+);

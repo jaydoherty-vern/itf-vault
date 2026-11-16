@@ -1,0 +1,5 @@
+Picklistentry 13_8__c (
+   value('Healthcare Manufacturer, Device'),
+   order(50),
+   active(true)
+);

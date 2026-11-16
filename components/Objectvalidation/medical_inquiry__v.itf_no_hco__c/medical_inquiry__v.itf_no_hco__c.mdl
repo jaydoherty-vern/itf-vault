@@ -1,0 +1,8 @@
+RECREATE Objectvalidation medical_inquiry__v.itf_no_hco__c (
+   label('ITF_NO_HCO'),
+   active(true),
+   expression('Not(account__vr.ispersonaccount__v=FALSE)'),
+   description('https://itftherapeutics.lightning.force.com/lightning/r/Requirement_vod__c/a1ual000002nI13AAE/view'),
+   error_message('The Account selected must be an HCP.'),
+   error_location('id')
+);

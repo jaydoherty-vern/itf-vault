@@ -1,0 +1,5 @@
+Picklistentry clab__c (
+   value('Clinical and Laboratory'),
+   order(48),
+   active(true)
+);

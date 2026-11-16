@@ -1,0 +1,5 @@
+Picklistentry om_wu__c (
+   value('OM_Al Wusţá (OM)'),
+   order(73),
+   active(true)
+);

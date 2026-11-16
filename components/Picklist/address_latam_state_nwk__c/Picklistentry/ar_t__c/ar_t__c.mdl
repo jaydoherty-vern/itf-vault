@@ -1,0 +1,5 @@
+Picklistentry ar_t__c (
+   value('Tucumán'),
+   order(69),
+   active(true)
+);

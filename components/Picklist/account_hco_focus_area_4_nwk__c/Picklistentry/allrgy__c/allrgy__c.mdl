@@ -1,0 +1,5 @@
+Picklistentry allrgy__c (
+   value('Allergy Screening'),
+   order(4),
+   active(true)
+);

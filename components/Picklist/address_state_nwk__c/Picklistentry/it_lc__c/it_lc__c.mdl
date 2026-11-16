@@ -1,0 +1,5 @@
+Picklistentry it_lc__c (
+   value('IT_Lecco'),
+   order(878),
+   active(true)
+);

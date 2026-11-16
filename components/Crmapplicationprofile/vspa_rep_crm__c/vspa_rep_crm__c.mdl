@@ -1,0 +1,5 @@
+RECREATE Crmapplicationprofile vspa_rep_crm__c (
+   label('VSPA_Rep_CRM'),
+   active(true),
+   description()
+);

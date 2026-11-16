@@ -1,0 +1,5 @@
+Picklistentry 7358__c (
+   value('Joint Venture'),
+   order(116),
+   active(true)
+);

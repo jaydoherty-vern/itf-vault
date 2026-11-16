@@ -1,0 +1,5 @@
+Picklistentry cu_06__c (
+   value('CU-06'),
+   order(810),
+   active(true)
+);

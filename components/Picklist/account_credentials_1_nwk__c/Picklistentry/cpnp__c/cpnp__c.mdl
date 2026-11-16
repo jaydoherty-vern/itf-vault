@@ -1,0 +1,5 @@
+Picklistentry cpnp__c (
+   value('Certified Pediatric Nurse Practitioner'),
+   order(5),
+   active(true)
+);

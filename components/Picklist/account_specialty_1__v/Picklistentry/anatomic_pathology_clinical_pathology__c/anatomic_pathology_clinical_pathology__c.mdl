@@ -1,0 +1,5 @@
+Picklistentry anatomic_pathology_clinical_pathology__c (
+   value('ANATOMIC PATHOLOGY & CLINICAL PATHOLOGY'),
+   order(312),
+   active(true)
+);

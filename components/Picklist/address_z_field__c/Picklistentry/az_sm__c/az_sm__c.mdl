@@ -1,0 +1,5 @@
+Picklistentry az_sm__c (
+   value('AZ-SM'),
+   order(232),
+   active(true)
+);

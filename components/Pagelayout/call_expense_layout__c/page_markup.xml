@@ -1,0 +1,36 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.expense__v.call__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="call2__v" required="true" />
+            <vault:field reference="transaction_date__v" required="true" />
+            <vault:field reference="expense_type__v" required="true" />
+            <vault:field reference="amount__v" required="true" />
+            <vault:field reference="description__v" />
+            <vault:field reference="object_type__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Concur Details" name="concur_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="concur_status__v" readOnly="true" />
+            <vault:field reference="concur_report__v" readOnly="true" />
+            <vault:field reference="concur_report_id__v" readOnly="true" />
+            <vault:spacer />
+            <vault:field reference="concur_system_id__v" readOnly="true" />
+            <vault:field reference="concur_response_timestamp__v" readOnly="true" />
+            <vault:field reference="concur_system_receipt_id__v" readOnly="true" />
+            <vault:field reference="concur_response_receipt_timestamp__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

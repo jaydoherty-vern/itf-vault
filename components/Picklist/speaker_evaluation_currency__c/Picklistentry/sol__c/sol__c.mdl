@@ -1,0 +1,5 @@
+Picklistentry sol__c (
+   value('Sol'),
+   order(120),
+   active(true)
+);

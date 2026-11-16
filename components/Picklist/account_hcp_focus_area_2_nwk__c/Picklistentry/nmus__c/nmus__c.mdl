@@ -1,0 +1,5 @@
+Picklistentry nmus__c (
+   value('Neuromuscular Disorder (Central Nervous, Muscular Dystrophy, Huntington''s)'),
+   order(273),
+   active(true)
+);

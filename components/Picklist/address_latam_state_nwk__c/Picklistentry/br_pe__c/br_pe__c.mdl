@@ -1,0 +1,5 @@
+Picklistentry br_pe__c (
+   value('Pernambuco'),
+   order(7),
+   active(true)
+);

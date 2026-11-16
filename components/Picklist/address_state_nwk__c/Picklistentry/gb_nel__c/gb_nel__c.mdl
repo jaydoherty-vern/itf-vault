@@ -1,0 +1,5 @@
+Picklistentry gb_nel__c (
+   value('GB-NEL'),
+   order(556),
+   active(false)
+);

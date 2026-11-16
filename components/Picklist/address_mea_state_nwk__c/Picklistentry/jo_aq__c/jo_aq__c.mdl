@@ -1,0 +1,5 @@
+Picklistentry jo_aq__c (
+   value('JO_Al ‘Aqabah'),
+   order(33),
+   active(true)
+);

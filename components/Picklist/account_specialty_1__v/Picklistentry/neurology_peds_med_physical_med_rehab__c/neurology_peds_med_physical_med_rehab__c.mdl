@@ -1,0 +1,5 @@
+Picklistentry neurology_peds_med_physical_med_rehab__c (
+   value('NEUROLOGY, PEDIATRIC MEDICINE, PHYSICAL MEDICINE AND REHABILITATION'),
+   order(349),
+   active(true)
+);

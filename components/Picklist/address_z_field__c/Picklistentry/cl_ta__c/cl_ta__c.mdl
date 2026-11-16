@@ -1,0 +1,5 @@
+Picklistentry cl_ta__c (
+   value('CL-TA'),
+   order(722),
+   active(true)
+);

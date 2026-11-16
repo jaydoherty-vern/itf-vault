@@ -1,0 +1,5 @@
+Picklistentry vel__c (
+   value('Veterinary Medicine, Large Animal'),
+   order(546),
+   active(true)
+);

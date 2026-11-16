@@ -1,0 +1,5 @@
+Picklistentry phar__c (
+   value('Pharmacy'),
+   order(351),
+   active(true)
+);

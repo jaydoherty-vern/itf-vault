@@ -1,0 +1,5 @@
+Picklistentry animal_health__c (
+   value('Animal Health'),
+   order(1),
+   active(true)
+);

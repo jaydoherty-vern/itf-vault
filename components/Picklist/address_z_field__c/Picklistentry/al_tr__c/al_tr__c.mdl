@@ -1,0 +1,5 @@
+Picklistentry al_tr__c (
+   value('AL-TR'),
+   order(101),
+   active(true)
+);

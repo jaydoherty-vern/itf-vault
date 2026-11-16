@@ -1,0 +1,5 @@
+Picklistentry ori__c (
+   value('Oriental Medicine'),
+   order(330),
+   active(true)
+);

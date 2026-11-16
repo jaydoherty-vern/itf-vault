@@ -1,0 +1,5 @@
+Picklistentry si_112__c (
+   value('SI_Slovenj Gradec'),
+   order(1637),
+   active(true)
+);

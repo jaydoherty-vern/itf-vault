@@ -1,0 +1,5 @@
+Picklistentry gb_che__c (
+   value('GB-CHE'),
+   order(452),
+   active(false)
+);

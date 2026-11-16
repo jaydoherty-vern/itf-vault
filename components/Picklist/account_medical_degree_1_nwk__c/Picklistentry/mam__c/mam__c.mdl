@@ -1,0 +1,5 @@
+Picklistentry mam__c (
+   value('Master in Aesthetic Medicine'),
+   order(202),
+   active(true)
+);

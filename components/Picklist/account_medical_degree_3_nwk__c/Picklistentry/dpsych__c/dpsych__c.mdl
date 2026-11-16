@@ -1,0 +1,5 @@
+Picklistentry dpsych__c (
+   value('Dipl. psych.'),
+   order(27),
+   active(true)
+);

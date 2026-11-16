@@ -1,0 +1,5 @@
+Picklistentry hu_so__c (
+   value('HU_Somogy'),
+   order(705),
+   active(true)
+);

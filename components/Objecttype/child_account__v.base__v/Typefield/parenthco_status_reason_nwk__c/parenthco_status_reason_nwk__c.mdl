@@ -1,0 +1,4 @@
+Typefield parenthco_status_reason_nwk__c (
+   source('standard'),
+   required(false)
+);

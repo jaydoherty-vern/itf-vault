@@ -1,0 +1,17 @@
+Field atl_last_update_date_time__v (
+   label('ATL Last Update'),
+   type('DateTime'),
+   active(true),
+   description('Last time this Account was updated using the Account Territory Loader. To enable use of this field, set the ATL_LAST_UPDATE_TRACKING field on Veeva Settings to TRUE.'),
+   required(false),
+   help_content('Do not modify. Set automatically by Account Territory Loader process.'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

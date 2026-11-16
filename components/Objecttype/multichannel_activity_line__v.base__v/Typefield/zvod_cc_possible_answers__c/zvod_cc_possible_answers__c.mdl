@@ -1,0 +1,4 @@
+Typefield zvod_cc_possible_answers__c (
+   source('standard'),
+   required(false)
+);

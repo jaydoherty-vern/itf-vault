@@ -1,0 +1,5 @@
+Picklistentry de_st__c (
+   value('DE_Sachsen-Anhalt'),
+   order(144),
+   active(true)
+);

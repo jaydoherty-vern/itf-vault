@@ -1,0 +1,5 @@
+Picklistentry neuromuscular_medicine_pm_rehab__c (
+   value('NEUROMUSCULAR MEDICINE (PM & REHAB)'),
+   order(27),
+   active(true)
+);

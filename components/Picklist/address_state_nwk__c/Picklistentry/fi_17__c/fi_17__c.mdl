@@ -1,0 +1,5 @@
+Picklistentry fi_17__c (
+   value('FI_Satakunta'),
+   order(265),
+   active(true)
+);

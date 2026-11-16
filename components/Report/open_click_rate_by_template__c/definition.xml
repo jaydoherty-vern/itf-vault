@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.name__v" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group>
+    <vrp:groupItem index="0" name="sent_email__v.approved_email_template__v" groupBySortOn="sent_email__v.approved_email_template__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order />
+</vrp:query>

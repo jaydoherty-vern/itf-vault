@@ -1,0 +1,5 @@
+Picklistentry 11_12__c (
+   value('Pharmacy, Compounding Pharmacy'),
+   order(206),
+   active(true)
+);

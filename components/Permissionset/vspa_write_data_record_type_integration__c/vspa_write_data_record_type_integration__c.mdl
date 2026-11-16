@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_write_data_record_type_integration__c (
+   label('VSPA_Write_Data_Record_Type_Integration'),
+   active(true),
+   description(),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

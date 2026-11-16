@@ -1,0 +1,5 @@
+Picklistentry do_08__c (
+   value('El Seibo'),
+   order(210),
+   active(true)
+);

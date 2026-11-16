@@ -1,0 +1,8 @@
+Objectworkflowstep manager_email__c (
+   label('Manager Email'),
+   type('notification'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

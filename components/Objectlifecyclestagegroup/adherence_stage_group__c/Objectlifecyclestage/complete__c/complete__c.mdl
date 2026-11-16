@@ -1,0 +1,8 @@
+Objectlifecyclestage complete__c (
+   label('Complete'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.enrolled_state__c',
+         'Objectlifecyclestate.not_enrolled_state__c'),
+   order(2)
+);

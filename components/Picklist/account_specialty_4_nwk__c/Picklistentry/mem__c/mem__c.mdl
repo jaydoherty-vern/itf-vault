@@ -1,0 +1,5 @@
+Picklistentry mem__c (
+   value('Internal Med-Emergency Med'),
+   order(210),
+   active(true)
+);

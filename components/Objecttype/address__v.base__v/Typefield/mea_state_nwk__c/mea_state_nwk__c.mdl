@@ -1,0 +1,4 @@
+Typefield mea_state_nwk__c (
+   source('standard'),
+   required(false)
+);

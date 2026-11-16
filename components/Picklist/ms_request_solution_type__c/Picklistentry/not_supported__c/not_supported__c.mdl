@@ -1,0 +1,5 @@
+Picklistentry not_supported__c (
+   value('Not Supported'),
+   order(5),
+   active(true)
+);

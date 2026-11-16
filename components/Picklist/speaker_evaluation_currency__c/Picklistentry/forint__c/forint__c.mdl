@@ -1,0 +1,5 @@
+Picklistentry forint__c (
+   value('Forint'),
+   order(72),
+   active(true)
+);

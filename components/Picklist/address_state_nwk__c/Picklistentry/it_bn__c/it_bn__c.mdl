@@ -1,0 +1,5 @@
+Picklistentry it_bn__c (
+   value('IT_Benevento'),
+   order(842),
+   active(true)
+);

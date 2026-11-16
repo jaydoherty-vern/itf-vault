@@ -1,0 +1,5 @@
+Picklistentry mk_20__c (
+   value('MK_Gradsko'),
+   order(1233),
+   active(true)
+);

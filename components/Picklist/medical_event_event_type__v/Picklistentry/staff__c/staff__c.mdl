@@ -1,0 +1,5 @@
+Picklistentry staff__c (
+   value('Staff'),
+   order(2),
+   active(true)
+);

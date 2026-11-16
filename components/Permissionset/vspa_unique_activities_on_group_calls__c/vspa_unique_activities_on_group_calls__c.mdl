@@ -1,0 +1,9 @@
+RECREATE Permissionset vspa_unique_activities_on_group_calls__c (
+   label('VSPA_Unique_Activities_on_Group_Calls'),
+   active(true),
+   description('To allow more accurate recording and reporting of field activities, the Unique Activities on Group Calls feature enables sales representatives to capture unique information for each HCP marked as an Attendee on a group Call.'),
+   object.call2__v.zvod_unique_group_activities__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

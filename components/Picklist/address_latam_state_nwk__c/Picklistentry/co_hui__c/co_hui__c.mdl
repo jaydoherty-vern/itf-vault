@@ -1,0 +1,5 @@
+Picklistentry co_hui__c (
+   value('Huila (CO)'),
+   order(147),
+   active(true)
+);

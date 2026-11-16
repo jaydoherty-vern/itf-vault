@@ -1,0 +1,5 @@
+Picklistentry mitigate__c (
+   value('Mitigate'),
+   order(2),
+   active(true)
+);

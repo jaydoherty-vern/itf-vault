@@ -1,0 +1,5 @@
+Picklistentry congress_activity_logistics__c (
+   value('Congress Activity Logistics'),
+   order(8),
+   active(true)
+);

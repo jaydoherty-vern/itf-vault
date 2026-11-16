@@ -1,0 +1,5 @@
+Picklistentry si_040__c (
+   value('SI_Izola'),
+   order(1599),
+   active(true)
+);

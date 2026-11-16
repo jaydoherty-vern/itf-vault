@@ -1,0 +1,5 @@
+Picklistentry fr_56__c (
+   value('FR_Morbihan'),
+   order(348),
+   active(true)
+);

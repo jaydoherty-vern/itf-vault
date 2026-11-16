@@ -1,0 +1,54 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.product_metrics__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="awareness__c" />
+            <vault:field reference="movement__c" />
+            <vault:field reference="products__v" />
+            <vault:field reference="segment__c" />
+            <vault:field reference="selling_stage__c" />
+            <vault:field reference="formulary_status_qs__c" />
+            <vault:field reference="speaker_skills__c" />
+            <vault:field reference="investigator_readiness__c" />
+            <vault:field reference="engagements__c" />
+            <vault:field reference="decile__c" />
+            <vault:field reference="adoption_level__c" />
+            <vault:field reference="clinical_trials_expertise_qs__c" />
+            <vault:field reference="investigator_smb__c" />
+            <vault:field reference="formulary_inclusion_steps_qs__c" />
+            <vault:field reference="potential_qs__c" />
+            <vault:field reference="location__v" />
+            <vault:field reference="testmetric_c__c" />
+            <vault:field reference="itf_adoption_segment__c" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

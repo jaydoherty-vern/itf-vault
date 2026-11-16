@@ -1,0 +1,5 @@
+Picklistentry ccn__c (
+   value('Critical Care Neurosurgery'),
+   order(101),
+   active(true)
+);

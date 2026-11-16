@@ -1,0 +1,5 @@
+Picklistentry false__c (
+   value('FALSE'),
+   order(0),
+   active(false)
+);

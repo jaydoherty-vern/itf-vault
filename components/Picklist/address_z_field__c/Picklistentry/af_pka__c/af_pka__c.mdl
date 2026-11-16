@@ -1,0 +1,5 @@
+Picklistentry af_pka__c (
+   value('AF-PKA'),
+   order(40),
+   active(true)
+);

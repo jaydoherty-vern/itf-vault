@@ -1,0 +1,5 @@
+Picklistentry stplead__c (
+   value('STP - Footprint Lead'),
+   order(226),
+   active(true)
+);

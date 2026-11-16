@@ -1,0 +1,5 @@
+Picklistentry az_sad__c (
+   value('AZ-SAD'),
+   order(223),
+   active(true)
+);

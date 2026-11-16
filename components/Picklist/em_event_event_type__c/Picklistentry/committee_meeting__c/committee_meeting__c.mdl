@@ -1,0 +1,5 @@
+Picklistentry committee_meeting__c (
+   value('Committee meeting'),
+   order(1),
+   active(true)
+);

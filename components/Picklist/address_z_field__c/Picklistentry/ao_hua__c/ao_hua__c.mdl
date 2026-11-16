@@ -1,0 +1,5 @@
+Picklistentry ao_hua__c (
+   value('AO-HUA'),
+   order(122),
+   active(true)
+);

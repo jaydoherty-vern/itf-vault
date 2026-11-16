@@ -1,0 +1,5 @@
+Picklistentry mx_jal__c (
+   value('Jalisco'),
+   order(32),
+   active(true)
+);

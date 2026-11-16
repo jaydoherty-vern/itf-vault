@@ -1,0 +1,5 @@
+Picklistentry me_08__c (
+   value('ME_Herceg-Novi'),
+   order(1192),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cn_cq__c (
+   value('CN-CQ'),
+   order(736),
+   active(true)
+);

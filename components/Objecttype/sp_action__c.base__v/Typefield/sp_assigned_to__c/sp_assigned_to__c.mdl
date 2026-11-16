@@ -1,0 +1,4 @@
+Typefield sp_assigned_to__c (
+   source('standard'),
+   required(false)
+);

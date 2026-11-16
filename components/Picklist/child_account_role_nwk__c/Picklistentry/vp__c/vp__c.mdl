@@ -1,0 +1,5 @@
+Picklistentry vp__c (
+   value('Vice President'),
+   order(243),
+   active(true)
+);

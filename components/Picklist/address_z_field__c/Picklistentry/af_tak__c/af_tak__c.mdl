@@ -1,0 +1,5 @@
+Picklistentry af_tak__c (
+   value('AF-TAK'),
+   order(43),
+   active(true)
+);

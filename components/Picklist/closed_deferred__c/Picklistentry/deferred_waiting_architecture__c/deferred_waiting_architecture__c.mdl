@@ -1,0 +1,5 @@
+Picklistentry deferred_waiting_architecture__c (
+   value('Deferred: Waiting Architecture Availabiity'),
+   order(0),
+   active(true)
+);

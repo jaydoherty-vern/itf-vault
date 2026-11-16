@@ -1,0 +1,5 @@
+Picklistentry mld__c (
+   value('Medical Laboratory Diagnostics Diploma'),
+   order(207),
+   active(true)
+);

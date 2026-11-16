@@ -1,0 +1,5 @@
+Picklistentry ru_ros__c (
+   value('RU_Rostovskaya oblast'''),
+   order(1538),
+   active(true)
+);

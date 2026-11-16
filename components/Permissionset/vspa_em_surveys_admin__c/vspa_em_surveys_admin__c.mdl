@@ -1,0 +1,17 @@
+RECREATE Permissionset vspa_em_surveys_admin__c (
+   label('VSPA_EM_Surveys_Admin'),
+   active(true),
+   description(),
+   object.child_account__v.child_furigana__v.field_actions('read'),
+   object.child_account__v.parent_child_furigana__v.field_actions('read'),
+   object.child_account__v.parent_child_name__v.field_actions('read'),
+   object.child_account__v.parent_furigana__v.field_actions('read'),
+   object.survey_target__v.em_attendee__v.field_actions('edit',
+      'read'),
+   object.survey_target__v.em_event__v.field_actions('edit',
+      'read'),
+   object.survey_target__v.em_event_speaker__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

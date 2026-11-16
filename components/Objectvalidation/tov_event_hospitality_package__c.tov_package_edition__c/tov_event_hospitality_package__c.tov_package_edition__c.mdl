@@ -1,0 +1,8 @@
+RECREATE Objectvalidation tov_event_hospitality_package__c.tov_package_edition__c (
+   label('TOV_Package_Edition'),
+   active(true),
+   expression('Not(Not((tov_event__cr.em_event_status__v="requested__v")))'),
+   description('Prevent editing TOV_Event_Hospitality_Package__c outside of Event Requested state'),
+   error_message('You cannot edit this package anymore'),
+   error_location('id')
+);

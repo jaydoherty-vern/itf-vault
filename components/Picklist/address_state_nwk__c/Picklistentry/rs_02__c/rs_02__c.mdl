@@ -1,0 +1,5 @@
+Picklistentry rs_02__c (
+   value('RS_Srednjebanatski okrug'),
+   order(1475),
+   active(true)
+);

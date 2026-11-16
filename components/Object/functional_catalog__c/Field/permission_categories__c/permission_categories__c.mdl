@@ -1,0 +1,18 @@
+Field permission_categories__c (
+   label('Permission Categories'),
+   type('Picklist'),
+   active(true),
+   description('Top level categories for PS included in MACH.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.functional_catalog_permission_categories__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

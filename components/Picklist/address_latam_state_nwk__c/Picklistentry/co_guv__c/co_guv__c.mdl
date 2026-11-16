@@ -1,0 +1,5 @@
+Picklistentry co_guv__c (
+   value('Guaviare'),
+   order(166),
+   active(true)
+);

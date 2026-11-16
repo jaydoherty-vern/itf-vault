@@ -1,0 +1,5 @@
+Picklistentry shldr__c (
+   value('Shoulder and Elbow'),
+   order(406),
+   active(true)
+);

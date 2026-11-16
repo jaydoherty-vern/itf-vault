@@ -1,0 +1,8 @@
+Objectlayout analytics_layouts_average_calls_per_day__c (
+   label('analytics_layouts_average_calls_per_day'),
+   active(true),
+   pagelayouts('Pagelayout.average_calls_per_day__c'),
+   object('Object.analytics_layouts__v'),
+   objecttype('Objecttype.analytics_layouts__v.average_calls_per_day__v'),
+   record_creation_layout('Pagelayout.average_calls_per_day__c')
+);

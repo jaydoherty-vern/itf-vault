@@ -1,0 +1,5 @@
+Picklistentry lv_037__c (
+   value('LV_Inčukalna novads (Inčukalns)'),
+   order(1085),
+   active(true)
+);

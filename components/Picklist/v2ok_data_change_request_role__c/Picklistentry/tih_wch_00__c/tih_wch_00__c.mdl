@@ -1,0 +1,5 @@
+Picklistentry tih_wch_00__c (
+   value('TIH.WCH.00'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mk_74__c (
+   value('MK_Studeničani'),
+   order(1274),
+   active(true)
+);

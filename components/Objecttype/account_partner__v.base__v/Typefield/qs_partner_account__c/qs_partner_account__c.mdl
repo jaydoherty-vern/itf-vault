@@ -1,0 +1,4 @@
+Typefield qs_partner_account__c (
+   source('standard'),
+   required(false)
+);

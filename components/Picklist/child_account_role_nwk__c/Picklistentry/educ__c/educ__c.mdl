@@ -1,0 +1,5 @@
+Picklistentry educ__c (
+   value('EDUC'),
+   order(77),
+   active(true)
+);

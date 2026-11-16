@@ -1,0 +1,8 @@
+Objectworkflowstep cs_pending_pa_appeal_submission__c (
+   label('CS: Pending PA Appeal Submission'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.ut_verify_pa_appeal_submission__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

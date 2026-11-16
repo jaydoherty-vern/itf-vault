@@ -1,0 +1,6 @@
+RECREATE Securityprofile registration_profile__c (
+   label('registration Profile'),
+   active(true),
+   description(),
+   permission_sets('registration_profile_ps__c')
+);

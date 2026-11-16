@@ -1,0 +1,5 @@
+Picklistentry si_126__c (
+   value('SI_Šoštanj'),
+   order(1641),
+   active(true)
+);

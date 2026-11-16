@@ -1,0 +1,5 @@
+Picklistentry is_sbh__c (
+   value('IS_Svalbarðshreppur'),
+   order(815),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield country_vod__c (
+   source('standard'),
+   required(false)
+);

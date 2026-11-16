@@ -1,0 +1,5 @@
+Picklistentry it_fi__c (
+   value('IT_Florence'),
+   order(865),
+   active(true)
+);

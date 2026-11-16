@@ -1,0 +1,5 @@
+Picklistentry 11_13__c (
+   value('Drugstore (OTC Only)'),
+   order(32),
+   active(true)
+);

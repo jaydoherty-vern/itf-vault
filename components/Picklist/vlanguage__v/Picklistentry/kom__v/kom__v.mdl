@@ -1,0 +1,5 @@
+Picklistentry kom__v (
+   value('Komi'),
+   order(210),
+   active(false)
+);

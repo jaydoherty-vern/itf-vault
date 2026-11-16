@@ -1,0 +1,5 @@
+Picklistentry nominated_vod__c (
+   value('Nominated'),
+   order(6),
+   active(true)
+);

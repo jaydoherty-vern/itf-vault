@@ -1,0 +1,5 @@
+Picklistentry uruguay_peso_en_unidades_indexadas_uruiu__c (
+   value('Uruguay Peso en Unidades Indexadas (URUIURUI)'),
+   order(161),
+   active(true)
+);

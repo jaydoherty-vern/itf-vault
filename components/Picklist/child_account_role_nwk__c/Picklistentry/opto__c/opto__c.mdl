@@ -1,0 +1,5 @@
+Picklistentry opto__c (
+   value('Optometrist'),
+   order(151),
+   active(true)
+);

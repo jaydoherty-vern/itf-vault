@@ -1,0 +1,4 @@
+Typefield scope_of_incident__c (
+   source('standard'),
+   required(false)
+);

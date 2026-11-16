@@ -1,0 +1,5 @@
+Picklistentry speaker_training_group__c (
+   value('Speaker Training Group'),
+   order(1),
+   active(true)
+);

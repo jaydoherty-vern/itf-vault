@@ -1,0 +1,5 @@
+Picklistentry mxr__c (
+   value('Maxillofacial Radiology'),
+   order(247),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry orthopedics__c (
+   value('Orthopedics'),
+   order(20),
+   active(true)
+);

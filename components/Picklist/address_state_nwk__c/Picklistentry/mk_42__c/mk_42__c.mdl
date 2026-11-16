@@ -1,0 +1,5 @@
+Picklistentry mk_42__c (
+   value('MK_Kočani'),
+   order(1241),
+   active(true)
+);

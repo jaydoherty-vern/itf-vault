@@ -1,0 +1,5 @@
+Picklistentry emerg__c (
+   value('Accident & Emergency Medicine'),
+   order(1),
+   active(true)
+);

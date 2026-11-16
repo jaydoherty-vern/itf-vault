@@ -1,0 +1,5 @@
+Picklistentry pe_lor__c (
+   value('Loreto'),
+   order(354),
+   active(true)
+);

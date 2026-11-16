@@ -1,0 +1,12 @@
+RECREATE Tab v2ok_batch_job__c (
+   active(true),
+   all_view_label('All V2OK Batch Job'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('V2OK Batch Job'),
+   my_view_label('My V2OK Batch Job'),
+   object('v2ok_batch_job__c'),
+   order(2400),
+   parent(),
+   recent_view_label('Recent V2OK Batch Job')
+);

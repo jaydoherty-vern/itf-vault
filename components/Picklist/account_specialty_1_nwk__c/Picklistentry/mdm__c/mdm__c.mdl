@@ -1,0 +1,5 @@
+Picklistentry mdm__c (
+   value('Medical Management'),
+   order(265),
+   active(true)
+);

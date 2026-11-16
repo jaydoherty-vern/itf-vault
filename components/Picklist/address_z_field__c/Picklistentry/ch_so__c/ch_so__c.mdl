@@ -1,0 +1,5 @@
+Picklistentry ch_so__c (
+   value('CH-SO'),
+   order(667),
+   active(true)
+);

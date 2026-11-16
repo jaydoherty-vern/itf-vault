@@ -1,0 +1,5 @@
+Picklistentry af_bal__c (
+   value('AF-BAL'),
+   order(13),
+   active(true)
+);

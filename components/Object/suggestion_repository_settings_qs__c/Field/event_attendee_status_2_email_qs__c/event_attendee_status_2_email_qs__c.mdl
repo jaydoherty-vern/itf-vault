@@ -1,0 +1,19 @@
+Field event_attendee_status_2_email_qs__c (
+   label('Event Attendee Status 2 Email'),
+   type('String'),
+   active(true),
+   description('Status of the Event Attendee for which an Email Suggestion is expected to be created automatically.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

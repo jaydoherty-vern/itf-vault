@@ -1,0 +1,5 @@
+Picklistentry br_rn__c (
+   value('Rio Grande do Norte'),
+   order(11),
+   active(true)
+);

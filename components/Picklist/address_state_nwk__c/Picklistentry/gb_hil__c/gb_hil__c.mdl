@@ -1,0 +1,5 @@
+Picklistentry gb_hil__c (
+   value('GB-HIL'),
+   order(508),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_chw__c (
+   value('GB-CHW'),
+   order(453),
+   active(false)
+);

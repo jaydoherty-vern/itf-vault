@@ -1,0 +1,5 @@
+Picklistentry tenge__c (
+   value('Tenge'),
+   order(82),
+   active(true)
+);

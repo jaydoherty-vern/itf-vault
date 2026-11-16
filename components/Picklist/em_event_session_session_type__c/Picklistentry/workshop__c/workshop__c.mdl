@@ -1,0 +1,5 @@
+Picklistentry workshop__c (
+   value('Workshop'),
+   order(2),
+   active(true)
+);

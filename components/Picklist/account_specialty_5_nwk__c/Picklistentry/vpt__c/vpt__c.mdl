@@ -1,0 +1,5 @@
+Picklistentry vpt__c (
+   value('Veterinary Pharmacology and Toxicology'),
+   order(559),
+   active(true)
+);

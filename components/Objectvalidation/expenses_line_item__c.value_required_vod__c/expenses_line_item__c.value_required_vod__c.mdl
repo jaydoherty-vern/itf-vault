@@ -1,0 +1,8 @@
+RECREATE Objectvalidation expenses_line_item__c.value_required_vod__c (
+   label('Value_Required_vod'),
+   active(false),
+   expression('Not(Text(expense_item__c)!="Mileage"&&Text(value__c)="")'),
+   description('A value is required to save or submit an Expense line item.'),
+   error_message('A value is required to save or submit an Expense line item.'),
+   error_location('id')
+);

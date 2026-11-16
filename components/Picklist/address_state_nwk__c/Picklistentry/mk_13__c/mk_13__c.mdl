@@ -1,0 +1,5 @@
+Picklistentry mk_13__c (
+   value('MK_Veles'),
+   order(1281),
+   active(true)
+);

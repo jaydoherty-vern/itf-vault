@@ -1,0 +1,5 @@
+Picklistentry gb_vgl__c (
+   value('GB-VGL'),
+   order(628),
+   active(false)
+);

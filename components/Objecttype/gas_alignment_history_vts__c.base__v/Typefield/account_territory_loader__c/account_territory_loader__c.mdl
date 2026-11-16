@@ -1,0 +1,4 @@
+Typefield account_territory_loader__c (
+   source('standard'),
+   required(false)
+);

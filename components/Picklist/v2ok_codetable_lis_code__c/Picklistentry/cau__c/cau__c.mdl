@@ -1,0 +1,5 @@
+Picklistentry cau__c (
+   value('CAU'),
+   order(1),
+   active(true)
+);

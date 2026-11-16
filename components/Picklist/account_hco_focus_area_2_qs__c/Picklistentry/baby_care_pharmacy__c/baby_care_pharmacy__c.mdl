@@ -1,0 +1,5 @@
+Picklistentry baby_care_pharmacy__c (
+   value('Baby Care Pharmacy'),
+   order(9),
+   active(true)
+);

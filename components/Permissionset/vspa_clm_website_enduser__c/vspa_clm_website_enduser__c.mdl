@@ -1,0 +1,8 @@
+RECREATE Permissionset vspa_clm_website_enduser__c (
+   label('VSPA_CLM_Website_Enduser'),
+   active(true),
+   description('For end-users to use the feature website Content in the Media Library - should be used with other CLM PS'),
+   object.key_message__v.url__v.field_actions('read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

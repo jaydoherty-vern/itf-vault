@@ -1,0 +1,5 @@
+Picklistentry remote_event_with_speaker__c (
+   value('Remote Event with speaker'),
+   order(25),
+   active(true)
+);

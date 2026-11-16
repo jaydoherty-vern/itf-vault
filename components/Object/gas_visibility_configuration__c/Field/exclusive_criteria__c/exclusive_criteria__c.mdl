@@ -1,0 +1,18 @@
+Field exclusive_criteria__c (
+   label('Exclusive criteria?'),
+   type('Boolean'),
+   active(true),
+   description('If checked, then this condition is "AND"ed with other CVCs that may exist for the logged in User. Only works with Custom Criteria, i.e., "Use Custom Criteria". is checked/true'),
+   required(false),
+   checkbox(true),
+   help_content('If checked, then this condition is "AND"ed with other CVCs that may exist for the logged in User. Only works with Custom Criteria, i.e., "Use Custom Criteria". is checked/true'),
+   list_column(false),
+   order(14),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

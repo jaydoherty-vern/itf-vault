@@ -1,0 +1,5 @@
+Picklistentry ethiopian_birr__c (
+   value('Ethiopian Birr'),
+   order(57),
+   active(true)
+);

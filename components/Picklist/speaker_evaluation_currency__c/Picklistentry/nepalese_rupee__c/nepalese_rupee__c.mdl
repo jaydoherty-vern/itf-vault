@@ -1,0 +1,5 @@
+Picklistentry nepalese_rupee__c (
+   value('Nepalese Rupee'),
+   order(112),
+   active(true)
+);

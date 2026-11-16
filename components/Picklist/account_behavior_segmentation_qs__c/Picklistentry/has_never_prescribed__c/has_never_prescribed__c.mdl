@@ -1,0 +1,5 @@
+Picklistentry has_never_prescribed__c (
+   value('Has never prescribed'),
+   order(3),
+   active(true)
+);

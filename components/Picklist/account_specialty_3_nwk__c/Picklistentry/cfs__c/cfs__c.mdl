@@ -1,0 +1,5 @@
+Picklistentry cfs__c (
+   value('Craniofacial Surgery'),
+   order(96),
+   active(true)
+);

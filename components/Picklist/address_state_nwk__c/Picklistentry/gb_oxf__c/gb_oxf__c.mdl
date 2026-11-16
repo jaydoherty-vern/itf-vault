@@ -1,0 +1,5 @@
+Picklistentry gb_oxf__c (
+   value('GB-OXF'),
+   order(575),
+   active(false)
+);

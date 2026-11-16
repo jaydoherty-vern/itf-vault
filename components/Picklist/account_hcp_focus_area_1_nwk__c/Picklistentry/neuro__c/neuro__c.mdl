@@ -1,0 +1,5 @@
+Picklistentry neuro__c (
+   value('Neurophysiology'),
+   order(275),
+   active(true)
+);

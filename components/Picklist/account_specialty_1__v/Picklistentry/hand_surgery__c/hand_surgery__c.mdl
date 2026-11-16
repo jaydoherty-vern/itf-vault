@@ -1,0 +1,5 @@
+Picklistentry hand_surgery__c (
+   value('Hand Surgery'),
+   order(196),
+   active(true)
+);

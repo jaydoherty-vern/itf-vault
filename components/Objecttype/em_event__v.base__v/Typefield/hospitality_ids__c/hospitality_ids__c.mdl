@@ -1,0 +1,4 @@
+Typefield hospitality_ids__c (
+   source('standard'),
+   required(false)
+);

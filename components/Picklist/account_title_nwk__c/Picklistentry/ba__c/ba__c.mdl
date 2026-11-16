@@ -1,0 +1,5 @@
+Picklistentry ba__c (
+   value('Pharmaceutical Business Assistant'),
+   order(74),
+   active(true)
+);

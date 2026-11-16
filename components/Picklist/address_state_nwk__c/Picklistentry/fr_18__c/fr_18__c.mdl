@@ -1,0 +1,5 @@
+Picklistentry fr_18__c (
+   value('FR_Cher'),
+   order(294),
+   active(true)
+);

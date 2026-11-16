@@ -1,0 +1,5 @@
+Picklistentry az_bar__c (
+   value('AZ-BAR'),
+   order(184),
+   active(true)
+);

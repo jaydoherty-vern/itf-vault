@@ -1,0 +1,5 @@
+Picklistentry sid1__c (
+   value('Special Infectious Disease'),
+   order(36),
+   active(true)
+);

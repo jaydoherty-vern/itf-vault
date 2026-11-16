@@ -1,0 +1,5 @@
+Picklistentry lt_60__c (
+   value('LT_Zarasai'),
+   order(1042),
+   active(true)
+);

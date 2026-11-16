@@ -1,0 +1,5 @@
+Picklistentry pe_apu__c (
+   value('Apurímac'),
+   order(335),
+   active(true)
+);

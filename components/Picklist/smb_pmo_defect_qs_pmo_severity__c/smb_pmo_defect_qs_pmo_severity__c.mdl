@@ -1,0 +1,9 @@
+RECREATE Picklist smb_pmo_defect_qs_pmo_severity__c (
+   label('Severity'),
+   active(true),
+   Picklistentry(@Picklistentry/p1_critical__c.mdl),
+   Picklistentry(@Picklistentry/p2_medium__c.mdl),
+   Picklistentry(@Picklistentry/p3_low__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

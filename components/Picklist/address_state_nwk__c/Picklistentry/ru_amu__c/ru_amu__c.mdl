@@ -1,0 +1,5 @@
+Picklistentry ru_amu__c (
+   value('RU_Amurskaya oblast'''),
+   order(1486),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry peso_uruguayo__c (
+   value('Peso Uruguayo'),
+   order(160),
+   active(true)
+);

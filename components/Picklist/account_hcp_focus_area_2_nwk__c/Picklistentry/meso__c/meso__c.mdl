@@ -1,0 +1,5 @@
+Picklistentry meso__c (
+   value('Mesotherapy, Skin Rejuvenation and Esthetic Medicine'),
+   order(247),
+   active(true)
+);

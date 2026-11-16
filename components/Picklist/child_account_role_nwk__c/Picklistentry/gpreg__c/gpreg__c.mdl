@@ -1,0 +1,5 @@
+Picklistentry gpreg__c (
+   value('GP Registrar'),
+   order(92),
+   active(true)
+);

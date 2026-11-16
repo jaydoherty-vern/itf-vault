@@ -1,0 +1,5 @@
+Picklistentry cz_mo__c (
+   value('CZ_Moravskoslezský kraj'),
+   order(121),
+   active(true)
+);

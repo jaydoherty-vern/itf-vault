@@ -1,0 +1,5 @@
+Picklistentry leadership_meetings_outside_of_congresse__c (
+   value('Leadership meetings (outside of congresses)'),
+   order(0),
+   active(false)
+);

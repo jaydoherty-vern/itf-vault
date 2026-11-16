@@ -1,0 +1,5 @@
+Picklistentry fr_44__c (
+   value('FR_Loire-Atlantique'),
+   order(335),
+   active(true)
+);

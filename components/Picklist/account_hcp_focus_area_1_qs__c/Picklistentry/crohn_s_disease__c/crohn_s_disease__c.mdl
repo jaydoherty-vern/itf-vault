@@ -1,0 +1,5 @@
+Picklistentry crohn_s_disease__c (
+   value('Crohn''s Disease'),
+   order(96),
+   active(true)
+);

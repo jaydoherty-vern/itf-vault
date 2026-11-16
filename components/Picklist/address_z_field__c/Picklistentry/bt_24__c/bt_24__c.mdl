@@ -1,0 +1,5 @@
+Picklistentry bt_24__c (
+   value('BT-24'),
+   order(562),
+   active(true)
+);

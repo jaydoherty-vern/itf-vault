@@ -1,0 +1,5 @@
+Picklistentry average__c (
+   value('Average'),
+   order(2),
+   active(true)
+);

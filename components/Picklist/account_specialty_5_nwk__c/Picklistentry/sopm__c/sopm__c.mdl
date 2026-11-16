@@ -1,0 +1,5 @@
+Picklistentry sopm__c (
+   value('Special obstetrics and perinatal medicine'),
+   order(482),
+   active(true)
+);

@@ -1,0 +1,35 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.coverage_verification__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="coverage_outcome__v" />
+            <vault:field reference="prior_authorization_required__v" />
+            <vault:field reference="prior_authorization_status__v" />
+            <vault:field reference="primary_insurance__v" />
+            <vault:field reference="secondary_insurance__v" />
+            <vault:field reference="tertiary_insurance__v" />
+            <vault:field reference="prescription__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="stage__sys" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

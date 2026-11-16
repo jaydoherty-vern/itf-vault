@@ -1,0 +1,28 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.territory_budget_transaction__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="territory_budget__v" />
+            <vault:field reference="transaction_date__v" />
+            <vault:field reference="quantity__v" />
+            <vault:field reference="value__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

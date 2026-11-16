@@ -1,0 +1,5 @@
+Picklistentry msu__c (
+   value('Certified supervisor practitioner'),
+   order(4),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry af_gho__c (
+   value('AF-GHO'),
+   order(22),
+   active(true)
+);

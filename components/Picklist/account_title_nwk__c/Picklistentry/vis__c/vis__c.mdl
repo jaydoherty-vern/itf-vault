@@ -1,0 +1,5 @@
+Picklistentry vis__c (
+   value('VIS'),
+   order(115),
+   active(true)
+);

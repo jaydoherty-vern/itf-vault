@@ -1,0 +1,4 @@
+Typefield veeva_rank__c (
+   source('custom'),
+   required(false)
+);

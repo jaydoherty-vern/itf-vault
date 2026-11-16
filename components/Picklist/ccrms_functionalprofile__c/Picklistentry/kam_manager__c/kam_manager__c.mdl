@@ -1,0 +1,5 @@
+Picklistentry kam_manager__c (
+   value('KAM Manager'),
+   order(7),
+   active(true)
+);

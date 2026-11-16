@@ -1,0 +1,5 @@
+Picklistentry pt_15__c (
+   value('PT_Setúbal'),
+   order(1405),
+   active(true)
+);

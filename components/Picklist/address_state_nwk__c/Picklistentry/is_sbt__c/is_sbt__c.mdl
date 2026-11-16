@@ -1,0 +1,5 @@
+Picklistentry is_sbt__c (
+   value('IS_Svalbarðsstrandarhreppur'),
+   order(816),
+   active(true)
+);

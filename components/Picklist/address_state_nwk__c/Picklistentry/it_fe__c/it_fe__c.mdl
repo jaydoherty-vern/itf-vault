@@ -1,0 +1,5 @@
+Picklistentry it_fe__c (
+   value('IT_Ferrara'),
+   order(864),
+   active(true)
+);

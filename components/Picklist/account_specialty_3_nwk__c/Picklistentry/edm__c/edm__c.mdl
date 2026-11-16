@@ -1,0 +1,5 @@
+Picklistentry edm__c (
+   value('Electrodiagnostic Medicine'),
+   order(120),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry argentine_peso__c (
+   value('Argentine Peso'),
+   order(8),
+   active(true)
+);

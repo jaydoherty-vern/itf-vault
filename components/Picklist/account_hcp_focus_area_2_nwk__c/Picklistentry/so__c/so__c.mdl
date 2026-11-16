@@ -1,0 +1,5 @@
+Picklistentry so__c (
+   value('Surgical Oncology'),
+   order(429),
+   active(true)
+);

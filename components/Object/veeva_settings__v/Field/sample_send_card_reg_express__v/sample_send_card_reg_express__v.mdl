@@ -1,0 +1,22 @@
+Field sample_send_card_reg_express__v (
+   label('SAMPLE_SEND_CARD_REG_EXPRESS'),
+   type('String'),
+   active(true),
+   description('Regular expression used to validate the sample send card value on save/submit of call. If the value is left blank, no validation is performed. 
+	
+	Example regular expression to validate the sample send card is exactly 10 numeric values: ^[0-9]{10}$'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(267),
+   default_value('"SAMPLE_SEND_CARD_REG_EXPRESS;;CallReport"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

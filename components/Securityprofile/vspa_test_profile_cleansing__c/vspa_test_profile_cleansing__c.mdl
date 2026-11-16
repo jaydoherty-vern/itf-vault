@@ -1,0 +1,6 @@
+RECREATE Securityprofile vspa_test_profile_cleansing__c (
+   label('VSPA_Test_Profile_Cleansing'),
+   active(true),
+   description(),
+   permission_sets('vspa_test_profile_cleansing_ps__c')
+);

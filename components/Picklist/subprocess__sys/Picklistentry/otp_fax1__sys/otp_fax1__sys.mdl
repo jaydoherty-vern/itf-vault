@@ -1,0 +1,6 @@
+Picklistentry otp_fax1__sys (
+   value('Fax'),
+   order(70),
+   active(true),
+   controlling_entries('olc_consent_type__sys')
+);

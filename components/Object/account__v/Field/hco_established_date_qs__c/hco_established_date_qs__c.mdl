@@ -1,0 +1,17 @@
+Field hco_established_date_qs__c (
+   label('HCO Established date'),
+   type('Date'),
+   active(true),
+   description('Network field - Established date'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(235),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

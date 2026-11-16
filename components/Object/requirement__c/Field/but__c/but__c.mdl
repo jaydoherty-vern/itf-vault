@@ -1,0 +1,23 @@
+Field but__c (
+   label('Build'),
+   type('Number'),
+   active(true),
+   description('Number of days estimated to complete Build and Unit Test phase.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999),
+   min_value(-999999999999999),
+   scale(1),
+   help_content('Number of hours estimated to complete build, unit testing, code migration.'),
+   list_column(false),
+   order(24),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

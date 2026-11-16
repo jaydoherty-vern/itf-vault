@@ -1,0 +1,5 @@
+Picklistentry updr__c (
+   value('Univ. Prof. Dr.'),
+   order(338),
+   active(true)
+);

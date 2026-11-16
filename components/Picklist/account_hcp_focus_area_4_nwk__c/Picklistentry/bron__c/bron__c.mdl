@@ -1,0 +1,5 @@
+Picklistentry bron__c (
+   value('Bronchiectasis'),
+   order(53),
+   active(true)
+);

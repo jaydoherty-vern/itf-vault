@@ -1,0 +1,5 @@
+Picklistentry hryvnia__c (
+   value('Hryvnia'),
+   order(157),
+   active(true)
+);

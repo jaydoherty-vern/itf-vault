@@ -1,0 +1,5 @@
+Picklistentry coss__c (
+   value('Aesthetic & Cosmetic Medicine - Non Surgical'),
+   order(9),
+   active(true)
+);

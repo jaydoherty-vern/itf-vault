@@ -1,0 +1,5 @@
+Picklistentry lt_09__c (
+   value('LT_Ignalina'),
+   order(982),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lt_42__c (
+   value('LT_Šalčininkai'),
+   order(1019),
+   active(true)
+);

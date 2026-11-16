@@ -1,0 +1,5 @@
+Picklistentry az_xa__c (
+   value('AZ-XA'),
+   order(240),
+   active(true)
+);

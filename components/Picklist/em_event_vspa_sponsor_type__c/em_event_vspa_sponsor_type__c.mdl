@@ -1,0 +1,8 @@
+RECREATE Picklist em_event_vspa_sponsor_type__c (
+   label('Sponsor Type'),
+   active(true),
+   Picklistentry(@Picklistentry/multisponsor__c.mdl),
+   Picklistentry(@Picklistentry/monosponsor__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

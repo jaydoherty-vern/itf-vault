@@ -1,0 +1,5 @@
+Picklistentry comp__c (
+   value('Compounding Pharmacy'),
+   order(52),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectlayout assortment_line_im_assortment_section__c (
+   label('assortment_line_im_assortment_section'),
+   active(true),
+   pagelayouts('Pagelayout.im_assortment_section_layout_vod__c'),
+   object('Object.assortment_line__v'),
+   objecttype('Objecttype.assortment_line__v.im_assortment_section__v'),
+   record_creation_layout('Pagelayout.im_assortment_section_layout_vod__c')
+);

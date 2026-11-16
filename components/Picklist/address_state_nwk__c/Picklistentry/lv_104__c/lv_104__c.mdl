@@ -1,0 +1,5 @@
+Picklistentry lv_104__c (
+   value('LV_Vecpiebalgas novads (Vecpiebalga)'),
+   order(1160),
+   active(true)
+);

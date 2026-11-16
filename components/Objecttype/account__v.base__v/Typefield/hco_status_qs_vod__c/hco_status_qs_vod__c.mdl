@@ -1,0 +1,4 @@
+Typefield hco_status_qs_vod__c (
+   source('standard'),
+   required(false)
+);

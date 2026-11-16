@@ -1,0 +1,5 @@
+Picklistentry gt_cq__c (
+   value('Chiquimula'),
+   order(251),
+   active(true)
+);

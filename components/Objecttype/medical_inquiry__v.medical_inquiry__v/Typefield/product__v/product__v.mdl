@@ -1,0 +1,6 @@
+Typefield product__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.medical_inquiry_product__v.duvyzat__c'),
+   default_value('Picklist.medical_inquiry_product__v.duvyzat__c')
+);

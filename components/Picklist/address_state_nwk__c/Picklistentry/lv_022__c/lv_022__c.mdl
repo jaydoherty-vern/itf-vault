@@ -1,0 +1,5 @@
+Picklistentry lv_022__c (
+   value('LV_Cēsu novads'),
+   order(1067),
+   active(true)
+);

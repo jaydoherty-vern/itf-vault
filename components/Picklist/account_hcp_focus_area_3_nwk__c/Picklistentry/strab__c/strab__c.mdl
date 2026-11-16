@@ -1,0 +1,5 @@
+Picklistentry strab__c (
+   value('Strabismus'),
+   order(422),
+   active(true)
+);

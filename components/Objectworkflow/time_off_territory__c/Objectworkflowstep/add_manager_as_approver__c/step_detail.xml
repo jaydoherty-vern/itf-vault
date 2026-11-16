@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule>
+      <actions>
+        <action type="platform.all.updateSharingSettings">
+          <participants>
+            <participant>part_manager__c</participant>
+          </participants>
+          <operator>add</operator>
+          <roles>
+            <role>Objectlifecyclerole.approver1__c</role>
+          </roles>
+        </action>
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

@@ -1,0 +1,20 @@
+Field business_type_nwk__c (
+   label('Type of Business'),
+   type('Picklist'),
+   active(true),
+   description('Network field - business type'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(382),
+   multi_value(false),
+   picklist('Picklist.account_business_type_nwk__c'),
+   controlling_picklist('country_code__v'),
+   picklist_dependencies('{"al__v":["pb__c","pr__c"],"gb__v":["semi__c","pb__c","ngo__c","pr__c"],"bh__v":["pb__c","pr__c"],"ec__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"si__v":["semi__c","pb__c","ngo__c","pr__c"],"se__v":["semi__c","pb__c","ngo__c","pr__c"],"cw__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"mk__v":["pb__c","pr__c"],"sa__v":["pb__c","pr__c"],"eg__v":["pb__c","pr__c"],"co__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"ie__v":["semi__c","pb__c","ngo__c","pr__c"],"tt__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"at__v":["semi__c","pb__c","ngo__c","pr__c"],"ru__v":["semi__c","pb__c","pr__c"],"ua__v":["semi__c","pb__c","pr__c"],"ad__v":["semi__c","pb__c","ngo__c","pr__c"],"fr__v":["semi__c","pb__c","ngo__c","gie__c","gip__c","pr__c"],"dk__v":["semi__c","pb__c","ngo__c","pr__c"],"do__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"hr__v":["pb__c","pr__c"],"bg__v":["pb__c","pr__c"],"lt__v":["pb__c","pr__c"],"gr__v":["semi__c","pb__c","ngo__c","mili__c","pr__c"],"kw__v":["pb__c","pr__c"],"ch__v":["semi__c","pb__c","ngo__c","pr__c"],"om__v":["pb__c","pr__c"],"jo__v":["pb__c","pr__c"],"hn__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"mx__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"fi__v":["semi__c","pb__c","ngo__c","pr__c"],"bs__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"ro__v":["pb__c","pr__c"],"ni__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"bb__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"de__v":["semi__c","npo__c","pb__c","ngo__c","pr__c"],"lu__v":["semi__c","pb__c","ngo__c","pr__c"],"ee__v":["pb__c","pr__c"],"rs__v":["pb__c","pr__c"],"tr__v":["pb__c","pr__c"],"is__v":["semi__c","pb__c","pr__c"],"me__v":["pb__c","pr__c"],"pa__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"nl__v":["semi__c","pb__c","ngo__c","pr__c"],"pe__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"sv__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"li__v":["semi__c","pb__c","ngo__c","pr__c"],"kz__v":["semi__c","pb__c","pr__c"],"br__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"qa__v":["pb__c","pr__c"],"lv__v":["pb__c","pr__c"],"ba__v":["pb__c","pr__c"],"be__v":["semi__c","pb__c","ngo__c","pr__c"],"gt__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"es__v":["semi__c","pb__c","ngo__c","pr__c"],"mc__v":["semi__c","pb__c","ngo__c","gie__c","gip__c","pr__c"],"cr__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"pt__v":["semi__c","pb__c","ngo__c","pr__c"],"ae__v":["pb__c","pr__c"],"ky__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"no__v":["semi__c","pb__c","ngo__c","pr__c"],"it__v":["semi__c","pb__c","ngo__c","pr__c"],"jm__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"bm__v":["semi__c","npo__c","pb__c","ngo__c","mili__c","pr__c"],"lb__v":["pb__c","pr__c"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

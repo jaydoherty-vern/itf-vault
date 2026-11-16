@@ -1,0 +1,5 @@
+Picklistentry do_41__c (
+   value('Valdesia'),
+   order(206),
+   active(true)
+);

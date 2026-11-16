@@ -1,0 +1,5 @@
+Picklistentry military__c (
+   value('Military'),
+   order(3),
+   active(true)
+);

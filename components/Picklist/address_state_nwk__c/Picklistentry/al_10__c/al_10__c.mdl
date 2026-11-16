@@ -1,0 +1,5 @@
+Picklistentry al_10__c (
+   value('AL_Shkodër'),
+   order(46),
+   active(true)
+);

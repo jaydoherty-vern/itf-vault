@@ -1,0 +1,8 @@
+RECREATE Sharingrule key_message_isr__c (
+   label('Key Message - ISR'),
+   active(true),
+   description(),
+   object('key_message__v'),
+   criteria([itf_team1__c CONTAINS ('isr__c')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

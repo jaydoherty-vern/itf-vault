@@ -1,0 +1,5 @@
+Picklistentry lt_48__c (
+   value('LT_Skuodas'),
+   order(1026),
+   active(true)
+);

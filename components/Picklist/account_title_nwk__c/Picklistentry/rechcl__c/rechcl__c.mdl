@@ -1,0 +1,5 @@
+Picklistentry rechcl__c (
+   value('Clinical Research Associate'),
+   order(23),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry fr_2a__c (
+   value('FR_Corse-du-Sud'),
+   order(297),
+   active(true)
+);

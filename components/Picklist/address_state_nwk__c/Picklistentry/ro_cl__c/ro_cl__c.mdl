@@ -1,0 +1,5 @@
+Picklistentry ro_cl__c (
+   value('RO_Călăraşi (RO)'),
+   order(1420),
+   active(true)
+);

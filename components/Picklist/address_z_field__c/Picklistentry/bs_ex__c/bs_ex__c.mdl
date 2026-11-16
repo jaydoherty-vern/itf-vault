@@ -1,0 +1,5 @@
+Picklistentry bs_ex__c (
+   value('BS-EX'),
+   order(532),
+   active(true)
+);

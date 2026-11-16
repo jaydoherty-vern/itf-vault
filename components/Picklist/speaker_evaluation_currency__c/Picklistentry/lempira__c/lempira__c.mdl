@@ -1,0 +1,5 @@
+Picklistentry lempira__c (
+   value('Lempira'),
+   order(70),
+   active(true)
+);

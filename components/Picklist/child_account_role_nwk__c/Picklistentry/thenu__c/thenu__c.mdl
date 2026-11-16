@@ -1,0 +1,5 @@
+Picklistentry thenu__c (
+   value('Theater / Scrub Nurse'),
+   order(235),
+   active(true)
+);

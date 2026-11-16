@@ -1,0 +1,5 @@
+Picklistentry echo__c (
+   value('Echocardiography'),
+   order(123),
+   active(true)
+);

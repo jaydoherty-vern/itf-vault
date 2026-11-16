@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true" documentScope="ACTIVE">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:columns>
+    <vrp:column key="multichannel_activity__v.ownerid__v" type="documentProperty" index="0" columnWidth="155" />
+    <vrp:column key="multichannel_activity_line__v___multichannel_activity__v.clm_presentation__v" type="documentProperty" index="1" columnWidth="155" />
+    <vrp:column key="multichannel_activity_line__v___multichannel_activity__v.datetime__v" type="documentProperty" index="2" columnWidth="155" />
+    <vrp:column key="multichannel_activity__v.total_duration__v" type="documentProperty" index="3" columnWidth="155" />
+  </vrp:columns>
+</vrp:reportFormat>

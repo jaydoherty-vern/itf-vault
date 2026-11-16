@@ -1,0 +1,5 @@
+Picklistentry ch_lu__c (
+   value('CH-LU'),
+   order(661),
+   active(true)
+);

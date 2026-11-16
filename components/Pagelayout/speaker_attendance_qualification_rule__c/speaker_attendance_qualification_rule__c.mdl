@@ -1,0 +1,8 @@
+RECREATE Pagelayout speaker_attendance_qualification_rule__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Speaker Attendance Qualification Rule'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,8 @@
+Objectlayout contract_partner_em_speaker_contract__c (
+   label('contract_partner_em_speaker_contract'),
+   active(true),
+   pagelayouts('Pagelayout.listing_contract_partner_layout__c'),
+   object('Object.contract_partner__v'),
+   objecttype('Objecttype.contract_partner__v.em_speaker_contract__v'),
+   record_creation_layout('Pagelayout.listing_contract_partner_layout__c')
+);

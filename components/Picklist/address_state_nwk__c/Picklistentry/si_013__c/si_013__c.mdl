@@ -1,0 +1,5 @@
+Picklistentry si_013__c (
+   value('SI_Cerknica'),
+   order(1590),
+   active(true)
+);

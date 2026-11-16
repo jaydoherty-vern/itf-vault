@@ -1,0 +1,10 @@
+RECREATE Picklist product_met_clinical_trials_expertise_qs__c (
+   label('Clinical Trials Expertise'),
+   active(true),
+   Picklistentry(@Picklistentry/a__c.mdl),
+   Picklistentry(@Picklistentry/b__c.mdl),
+   Picklistentry(@Picklistentry/c__c.mdl),
+   Picklistentry(@Picklistentry/d__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

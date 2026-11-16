@@ -1,0 +1,7 @@
+Picklistentry dty_migrated_content__sys (
+   value('Migrated Content'),
+   order(104),
+   active(true),
+   controlling_entries('dlc_unclassified__sys',
+         'dlc_general__sys')
+);

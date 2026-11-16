@@ -1,0 +1,5 @@
+Picklistentry nice_to_have__c (
+   value('Nice to Have'),
+   order(0),
+   active(true)
+);

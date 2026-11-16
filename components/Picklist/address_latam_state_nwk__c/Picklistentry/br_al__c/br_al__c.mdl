@@ -1,0 +1,5 @@
+Picklistentry br_al__c (
+   value('Alagoas'),
+   order(10),
+   active(true)
+);

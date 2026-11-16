@@ -1,0 +1,8 @@
+Objectlayout multichannel_activity_clm__c (
+   label('multichannel_activity_clm'),
+   active(true),
+   pagelayouts('Pagelayout.unassigned_presentation__c'),
+   object('Object.multichannel_activity__v'),
+   objecttype('Objecttype.multichannel_activity__v.clm__v'),
+   record_creation_layout('Pagelayout.unassigned_presentation__c')
+);

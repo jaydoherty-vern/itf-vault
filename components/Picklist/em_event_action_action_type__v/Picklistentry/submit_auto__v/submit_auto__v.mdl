@@ -1,0 +1,5 @@
+Picklistentry submit_auto__v (
+   value('Submit - Automatic Approver Selection'),
+   order(1),
+   active(true)
+);

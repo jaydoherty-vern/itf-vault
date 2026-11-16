@@ -1,0 +1,5 @@
+Picklistentry anaesthetics__c (
+   value('Anaesthetics'),
+   order(6),
+   active(true)
+);

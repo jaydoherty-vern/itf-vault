@@ -1,0 +1,5 @@
+Picklistentry edu__c (
+   value('Nurse Educator'),
+   order(306),
+   active(true)
+);

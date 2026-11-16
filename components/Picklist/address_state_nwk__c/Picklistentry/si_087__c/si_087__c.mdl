@@ -1,0 +1,5 @@
+Picklistentry si_087__c (
+   value('SI_Ormož'),
+   order(1619),
+   active(true)
+);

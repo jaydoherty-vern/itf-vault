@@ -1,0 +1,5 @@
+Picklistentry partially_penetrated__c (
+   value('Partially Penetrated'),
+   order(2),
+   active(true)
+);

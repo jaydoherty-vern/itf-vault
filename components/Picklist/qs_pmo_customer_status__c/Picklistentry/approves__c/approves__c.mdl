@@ -1,0 +1,5 @@
+Picklistentry approves__c (
+   value('Customer approves the requirement'),
+   order(1),
+   active(true)
+);

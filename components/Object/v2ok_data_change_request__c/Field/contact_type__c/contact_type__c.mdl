@@ -1,0 +1,18 @@
+Field contact_type__c (
+   label('Contact Type'),
+   type('Picklist'),
+   active(true),
+   description('Coded values from cegedim for face to face or meeting type calls for validation request.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.v2ok_data_change_request_contact_type__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

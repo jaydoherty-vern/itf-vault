@@ -1,0 +1,5 @@
+Picklistentry hcp_sponsorship__c (
+   value('HCP Sponsorship'),
+   order(14),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout lot_catalog_page_layout__c (
+   active(true),
+   default_layout(false),
+   description('Page layout to capture sample lot catalog details.'),
+   display_lifecycle_stages(false),
+   label('Lot Catalog Page Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,12 @@
+RECREATE Permissionset vspa_child_account_surveys_end_user__c (
+   label('VSPA_Child_Account_Surveys_End_User'),
+   active(true),
+   description(),
+   object.survey__v.target_type__v.field_actions('read'),
+   object.survey_target__v.child_account__v.field_actions('read'),
+   object.survey_target__v.location__v.field_actions('read'),
+   object.survey_target__v.location_entity_reference_id__v.field_actions('read'),
+   object.survey_target__v.target_type__v.field_actions('read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

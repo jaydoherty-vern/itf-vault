@@ -1,0 +1,5 @@
+Picklistentry is_ssf__c (
+   value('IS_Sveitarfélagið Skagafjörður'),
+   order(820),
+   active(true)
+);

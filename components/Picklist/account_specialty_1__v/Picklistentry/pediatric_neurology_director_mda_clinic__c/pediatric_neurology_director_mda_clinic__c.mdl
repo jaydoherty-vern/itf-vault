@@ -1,0 +1,5 @@
+Picklistentry pediatric_neurology_director_mda_clinic__c (
+   value('PEDIATRIC NEUROLOGY, DIRECTOR OF MDA CLINIC'),
+   order(373),
+   active(true)
+);

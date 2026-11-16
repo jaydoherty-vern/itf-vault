@@ -1,0 +1,5 @@
+Picklistentry medical_information_request__c (
+   value('Medical Information Request'),
+   order(30),
+   active(true)
+);

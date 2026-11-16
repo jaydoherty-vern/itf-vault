@@ -1,0 +1,35 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.multichannel_activity__v.clm__v">
+    <vault:section title="Interaction Details" name="interaction_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="client_name__v" readOnly="true" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="saved_for_later__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Interaction Details" name="interaction_details1__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="start_datetime__v" readOnly="true" />
+            <vault:field reference="total_duration__v" readOnly="true" />
+            <vault:field reference="media_preview__v" readOnly="true" />
+            <vault:field reference="training__v" readOnly="true" />
+            <vault:field reference="call__v" readOnly="true" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Multichannel Activity Lines" name="multichannel_activity_lines__c">
+        <vault:relatedObject relationship="multichannel_activity_lines__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="clm_presentation__v" width="200px" />
+            <vault:field reference="key_message__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

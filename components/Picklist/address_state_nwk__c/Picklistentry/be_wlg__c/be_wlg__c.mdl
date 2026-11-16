@@ -1,0 +1,5 @@
+Picklistentry be_wlg__c (
+   value('BE_Liège'),
+   order(81),
+   active(true)
+);

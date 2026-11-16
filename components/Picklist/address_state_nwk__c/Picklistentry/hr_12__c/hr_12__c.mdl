@@ -1,0 +1,5 @@
+Picklistentry hr_12__c (
+   value('HR_Brodsko-posavska županija'),
+   order(657),
+   active(true)
+);

@@ -1,0 +1,38 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.remote_meeting__v.zoom_call_meeting__v">
+    <vault:section title="Meeting Information" name="meeting_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="object_type__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="zoom_meeting_external_id__v" />
+            <vault:spacer />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="scheduled__v" />
+            <vault:field reference="scheduled_datetime__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="attendee_reconciliation_status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Join Details" name="join_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="meeting_name__v" />
+            <vault:field reference="meeting_id__v" />
+            <vault:field reference="meeting_password__v" readOnly="true" />
+            <vault:field reference="zoom_meeting_start_link__v" />
+            <vault:field reference="zoom_meeting_join_link__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Post Meeting Processing" name="post_meeting_processing__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="meeting_outcome_status__v" />
+            <vault:field reference="attendance_report_process_status__v" />
+            <vault:field reference="engagement_minutes__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

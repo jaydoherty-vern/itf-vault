@@ -1,0 +1,5 @@
+Picklistentry pe_lma__c (
+   value('Municipalidad Metropolitana de Lima'),
+   order(353),
+   active(true)
+);

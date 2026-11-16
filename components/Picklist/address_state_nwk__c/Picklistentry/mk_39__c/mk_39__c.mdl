@@ -1,0 +1,5 @@
+Picklistentry mk_39__c (
+   value('MK_Kisela Voda'),
+   order(1240),
+   active(true)
+);

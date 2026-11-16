@@ -1,0 +1,10 @@
+RECREATE Picklist address_address_type_nwk__c (
+   label('Address Type'),
+   active(true),
+   Picklistentry(@Picklistentry/u__c.mdl),
+   Picklistentry(@Picklistentry/m__c.mdl),
+   Picklistentry(@Picklistentry/p__c.mdl),
+   Picklistentry(@Picklistentry/b__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

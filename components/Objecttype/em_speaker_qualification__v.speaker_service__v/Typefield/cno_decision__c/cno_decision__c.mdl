@@ -1,0 +1,7 @@
+Typefield cno_decision__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_speaker_qualification_cno_decision__c.negative__c',
+         'Picklist.em_speaker_qualification_cno_decision__c.negative_and_suspensive__c',
+         'Picklist.em_speaker_qualification_cno_decision__c.positive__c')
+);

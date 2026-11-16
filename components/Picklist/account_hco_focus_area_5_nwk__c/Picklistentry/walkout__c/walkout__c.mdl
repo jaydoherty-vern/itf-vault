@@ -1,0 +1,5 @@
+Picklistentry walkout__c (
+   value('Walk-In Center & Out of Hours'),
+   order(265),
+   active(true)
+);

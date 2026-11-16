@@ -1,0 +1,5 @@
+Picklistentry dsss__c (
+   value('Dr. sc. soc.'),
+   order(140),
+   active(true)
+);

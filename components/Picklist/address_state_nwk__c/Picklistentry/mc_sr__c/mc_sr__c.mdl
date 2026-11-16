@@ -1,0 +1,5 @@
+Picklistentry mc_sr__c (
+   value('MC_Saint-Roman'),
+   order(1181),
+   active(true)
+);

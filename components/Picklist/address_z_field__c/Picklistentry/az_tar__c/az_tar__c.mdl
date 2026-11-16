@@ -1,0 +1,5 @@
+Picklistentry az_tar__c (
+   value('AZ-TAR'),
+   order(237),
+   active(true)
+);

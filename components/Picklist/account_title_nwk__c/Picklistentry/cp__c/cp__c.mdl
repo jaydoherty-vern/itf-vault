@@ -1,0 +1,5 @@
+Picklistentry cp__c (
+   value('Chief Pharmacist'),
+   order(18),
+   active(true)
+);

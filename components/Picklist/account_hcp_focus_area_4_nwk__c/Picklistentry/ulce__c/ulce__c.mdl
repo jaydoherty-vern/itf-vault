@@ -1,0 +1,5 @@
+Picklistentry ulce__c (
+   value('Ulcerative colitis'),
+   order(441),
+   active(true)
+);

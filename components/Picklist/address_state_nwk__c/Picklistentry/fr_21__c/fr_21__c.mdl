@@ -1,0 +1,5 @@
+Picklistentry fr_21__c (
+   value('FR_Côte-d''Or'),
+   order(298),
+   active(true)
+);

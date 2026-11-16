@@ -1,0 +1,5 @@
+Picklistentry it_nu__c (
+   value('IT_Nuoro'),
+   order(893),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry certified_nurse_practitioner__c (
+   value('CERTIFIED NURSE PRACTITIONER'),
+   order(320),
+   active(true)
+);

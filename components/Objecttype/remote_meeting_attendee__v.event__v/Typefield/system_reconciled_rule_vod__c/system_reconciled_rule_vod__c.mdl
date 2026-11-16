@@ -1,0 +1,6 @@
+Typefield system_reconciled_rule_vod__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.remote_meeting_at_system_reconciled_rule__c.email_match_vod__c',
+         'Picklist.remote_meeting_at_system_reconciled_rule__c.one_attendee_on_call_vod__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry ro_ms__c (
+   value('RO_Mureș'),
+   order(1437),
+   active(true)
+);

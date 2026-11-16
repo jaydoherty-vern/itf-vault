@@ -1,0 +1,5 @@
+Picklistentry gb_ios__c (
+   value('GB-IOS'),
+   order(516),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry fy__c (
+   value('Foundation Year (FY) & CT Doctor'),
+   order(85),
+   active(true)
+);

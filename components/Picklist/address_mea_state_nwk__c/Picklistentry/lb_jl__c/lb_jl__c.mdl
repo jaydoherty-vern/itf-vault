@@ -1,0 +1,5 @@
+Picklistentry lb_jl__c (
+   value('LB_Mont-Liban'),
+   order(53),
+   active(true)
+);

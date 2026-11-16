@@ -1,0 +1,5 @@
+Picklistentry nyo__v (
+   value('Nyoro'),
+   order(270),
+   active(false)
+);

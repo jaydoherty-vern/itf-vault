@@ -1,0 +1,8 @@
+RECREATE Pagelayout orders_report_layout_vod__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Orders_Report_Layout_vod'),
+   page_markup(@page_markup.xml)
+);

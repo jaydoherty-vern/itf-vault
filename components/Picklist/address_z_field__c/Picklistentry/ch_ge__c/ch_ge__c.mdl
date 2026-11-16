@@ -1,0 +1,5 @@
+Picklistentry ch_ge__c (
+   value('CH-GE'),
+   order(657),
+   active(true)
+);

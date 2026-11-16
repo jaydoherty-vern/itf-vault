@@ -1,0 +1,5 @@
+Picklistentry fi_16__c (
+   value('FI_Päijänne Tavastia'),
+   order(263),
+   active(true)
+);

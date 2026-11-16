@@ -1,0 +1,5 @@
+Picklistentry pl_ka__c (
+   value('PL_Katowice'),
+   order(1342),
+   active(true)
+);

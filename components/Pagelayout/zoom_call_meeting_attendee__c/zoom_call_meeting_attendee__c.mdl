@@ -1,0 +1,8 @@
+RECREATE Pagelayout zoom_call_meeting_attendee__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Zoom Call Meeting Attendee'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,5 @@
+Picklistentry gashe__c (
+   value('Diploma in Gastro-Enterology'),
+   order(61),
+   active(true)
+);

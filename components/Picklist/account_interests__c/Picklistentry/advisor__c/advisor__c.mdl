@@ -1,0 +1,5 @@
+Picklistentry advisor__c (
+   value('Advisor'),
+   order(0),
+   active(true)
+);

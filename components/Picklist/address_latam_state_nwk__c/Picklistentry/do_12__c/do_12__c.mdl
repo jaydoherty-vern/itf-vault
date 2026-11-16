@@ -1,0 +1,5 @@
+Picklistentry do_12__c (
+   value('La Romana'),
+   order(199),
+   active(true)
+);

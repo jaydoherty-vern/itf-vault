@@ -1,0 +1,5 @@
+Picklistentry mk_68__c (
+   value('MK_Saraj'),
+   order(1268),
+   active(true)
+);

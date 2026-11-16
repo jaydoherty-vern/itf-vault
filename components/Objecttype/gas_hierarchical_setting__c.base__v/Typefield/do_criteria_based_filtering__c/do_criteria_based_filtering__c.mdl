@@ -1,0 +1,4 @@
+Typefield do_criteria_based_filtering__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,4 @@
+Typefield attendee_cap__c (
+   source('standard'),
+   required(false)
+);

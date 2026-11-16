@@ -1,0 +1,5 @@
+Picklistentry tenders__c (
+   value('Tenders'),
+   order(39),
+   active(true)
+);

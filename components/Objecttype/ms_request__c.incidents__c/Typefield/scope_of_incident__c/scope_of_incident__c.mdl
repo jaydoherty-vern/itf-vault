@@ -1,0 +1,7 @@
+Typefield scope_of_incident__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.ms_request_scope_of_incident__c.outage__c',
+         'Picklist.ms_request_scope_of_incident__c.problem__c',
+         'Picklist.ms_request_scope_of_incident__c.question__c')
+);

@@ -1,0 +1,19 @@
+Field maiden_name_qs__c (
+   label('Maiden Name'),
+   type('String'),
+   active(true),
+   description('Network field - Maiden name'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(284),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry acupuncture__c (
+   value('Acupuncture'),
+   order(0),
+   active(true)
+);

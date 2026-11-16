@@ -1,0 +1,5 @@
+Picklistentry sr__v (
+   value('Serbian (Cyrillic)'),
+   order(71),
+   active(true)
+);

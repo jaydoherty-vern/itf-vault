@@ -1,0 +1,5 @@
+Picklistentry cv_pn__c (
+   value('CV-PN'),
+   order(829),
+   active(true)
+);

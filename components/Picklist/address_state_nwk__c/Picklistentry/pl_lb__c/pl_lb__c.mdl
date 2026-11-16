@@ -1,0 +1,5 @@
+Picklistentry pl_lb__c (
+   value('PL_Lubuskie'),
+   order(1354),
+   active(true)
+);

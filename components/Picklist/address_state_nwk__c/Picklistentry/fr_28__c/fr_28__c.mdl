@@ -1,0 +1,5 @@
+Picklistentry fr_28__c (
+   value('FR_Eure-et-Loir'),
+   order(307),
+   active(true)
+);

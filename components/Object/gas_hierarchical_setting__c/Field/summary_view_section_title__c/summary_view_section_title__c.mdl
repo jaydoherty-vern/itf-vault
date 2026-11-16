@@ -1,0 +1,20 @@
+Field summary_view_section_title__c (
+   label('Summary View Section Title'),
+   type('String'),
+   active(true),
+   description('Summary View Section Title'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('Summary View Section Title'),
+   list_column(false),
+   order(48),
+   default_value('''Account Information'''),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

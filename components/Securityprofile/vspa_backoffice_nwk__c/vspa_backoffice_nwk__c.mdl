@@ -1,0 +1,6 @@
+RECREATE Securityprofile vspa_backoffice_nwk__c (
+   label('VSPA_BackOffice_NWK'),
+   active(true),
+   description('Use in conjunction with CCRMS_Back_Office permission set for OLS'),
+   permission_sets('vspa_backoffice_nwk_ps__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry joint_injections_aspirations__c (
+   value('Joint Injections/Aspirations'),
+   order(57),
+   active(true)
+);

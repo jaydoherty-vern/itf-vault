@@ -1,0 +1,12 @@
+RECREATE Tab specialty_qs__c (
+   active(true),
+   all_view_label('All Specialties'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Specialties'),
+   my_view_label('My Specialties'),
+   object('specialty_qs__c'),
+   order(3200),
+   parent(),
+   recent_view_label('Recent Specialties')
+);

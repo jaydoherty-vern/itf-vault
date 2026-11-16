@@ -1,0 +1,5 @@
+Picklistentry gb_ken__c (
+   value('GB-KEN'),
+   order(523),
+   active(false)
+);

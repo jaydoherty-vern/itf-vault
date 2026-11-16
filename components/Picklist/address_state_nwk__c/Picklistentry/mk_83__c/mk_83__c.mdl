@@ -1,0 +1,5 @@
+Picklistentry mk_83__c (
+   value('MK_Štip'),
+   order(1271),
+   active(true)
+);

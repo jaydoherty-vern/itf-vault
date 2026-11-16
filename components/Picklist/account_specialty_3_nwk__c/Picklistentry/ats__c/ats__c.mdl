@@ -1,0 +1,5 @@
+Picklistentry ats__c (
+   value('Accident / Trauma Surgery'),
+   order(2),
+   active(true)
+);

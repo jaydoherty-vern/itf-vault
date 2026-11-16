@@ -1,0 +1,5 @@
+Picklistentry gb_dud__c (
+   value('GB-DUD'),
+   order(480),
+   active(false)
+);

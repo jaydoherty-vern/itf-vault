@@ -1,0 +1,5 @@
+Picklistentry fr_79__c (
+   value('FR_Deux-Sèvres'),
+   order(301),
+   active(true)
+);

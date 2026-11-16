@@ -1,0 +1,5 @@
+Picklistentry outlook_integration__c (
+   value('Outlook integration'),
+   order(36),
+   active(true)
+);

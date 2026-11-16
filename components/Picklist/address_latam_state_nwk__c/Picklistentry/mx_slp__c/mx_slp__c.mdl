@@ -1,0 +1,5 @@
+Picklistentry mx_slp__c (
+   value('San Luis Potosí'),
+   order(43),
+   active(true)
+);

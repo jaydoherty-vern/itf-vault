@@ -1,0 +1,5 @@
+Picklistentry is_eom__c (
+   value('IS_Eyja- og Miklaholtshreppur'),
+   order(764),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry es_gi__c (
+   value('ES_Girona'),
+   order(202),
+   active(true)
+);

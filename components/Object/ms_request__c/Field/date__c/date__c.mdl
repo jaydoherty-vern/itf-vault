@@ -1,0 +1,18 @@
+Field date__c (
+   label('Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(true),
+   help_content(),
+   list_column(false),
+   order(15),
+   default_value('Today("user")'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

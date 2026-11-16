@@ -1,0 +1,5 @@
+Picklistentry lt_45__c (
+   value('LT_Šilalė'),
+   order(1023),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ba_08__c (
+   value('BA-08'),
+   order(258),
+   active(true)
+);

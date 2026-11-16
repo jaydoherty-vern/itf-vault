@@ -1,0 +1,8 @@
+RECREATE Picklist account_academic_title_qs__c (
+   label('Academic title'),
+   active(true),
+   Picklistentry(@Picklistentry/dr_biol_anim__c.mdl),
+   Picklistentry(@Picklistentry/dr_agr__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry g_gpm__c (
+   value('Preventive Medicine'),
+   order(29),
+   active(true)
+);

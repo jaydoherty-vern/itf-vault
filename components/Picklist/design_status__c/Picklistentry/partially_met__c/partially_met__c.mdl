@@ -1,0 +1,5 @@
+Picklistentry partially_met__c (
+   value('Partially Met'),
+   order(2),
+   active(true)
+);

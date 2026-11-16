@@ -1,0 +1,70 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.requirement__c.base__v">
+    <vault:section title="Requirement Summary" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="requirement_title__c" />
+            <vault:field reference="process__c" />
+            <vault:field reference="sub_process__c" />
+            <vault:field reference="request_type__c" />
+            <vault:field reference="qs_pmo_component__c" />
+            <vault:field reference="impacted_business__c" required="true" />
+            <vault:field reference="end_user_impact__c" />
+            <vault:field reference="itf_scoping__c" />
+            <vault:field reference="veeva_configuration_complexity__c" />
+            <vault:field reference="data_integration_complexity__c" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="itf_current_owner_team__c" />
+            <vault:field reference="date_requested__c" required="true" />
+            <vault:field reference="release__c" />
+            <vault:field reference="release_go_live_date__c" />
+            <vault:field reference="urgency_of_request__c" required="true" />
+            <vault:field reference="itf_compliance__c" />
+            <vault:field reference="status_pmo__c" />
+            <vault:field reference="but__c" />
+            <vault:field reference="level_of_it_effort__c" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Requirement Description" name="requirement_description__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="requirement_description__c" required="true" />
+            <vault:field reference="roi__c" />
+            <vault:field reference="requirement_requestor__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Veeva Solution Design" name="veeva_solution_design__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="solution_detail__c" />
+            <vault:field reference="veeva_out_of_box__c" />
+            <vault:field reference="technical_description__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="CDW Solution Design" name="cdw_solution_design__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="itf_cdw_solution_detail__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="UAT" name="uat__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="itf_tested_by__c" />
+            <vault:field reference="test_status__c" />
+            <vault:field reference="test_comments__c" />
+            <vault:field reference="itf_cdw_uat_results__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Comments Section" name="comments_section__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="comments__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

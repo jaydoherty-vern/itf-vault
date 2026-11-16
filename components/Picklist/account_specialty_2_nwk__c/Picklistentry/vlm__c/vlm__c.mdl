@@ -1,0 +1,5 @@
+Picklistentry vlm__c (
+   value('Veterinary Laboratory Medicine'),
+   order(566),
+   active(true)
+);

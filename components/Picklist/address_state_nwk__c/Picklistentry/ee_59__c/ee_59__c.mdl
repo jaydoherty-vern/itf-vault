@@ -1,0 +1,5 @@
+Picklistentry ee_59__c (
+   value('EE_Lääne-Virumaa'),
+   order(173),
+   active(true)
+);

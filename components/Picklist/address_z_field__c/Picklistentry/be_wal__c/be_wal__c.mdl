@@ -1,0 +1,5 @@
+Picklistentry be_wal__c (
+   value('BE-WAL'),
+   order(353),
+   active(true)
+);

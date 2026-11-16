@@ -1,0 +1,5 @@
+Picklistentry gt_sr__c (
+   value('Santa Rosa'),
+   order(254),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry kyat__c (
+   value('Kyat'),
+   order(110),
+   active(true)
+);

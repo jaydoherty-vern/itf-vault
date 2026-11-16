@@ -1,0 +1,5 @@
+Picklistentry br_sc__c (
+   value('Santa Catarina (BR)'),
+   order(16),
+   active(true)
+);

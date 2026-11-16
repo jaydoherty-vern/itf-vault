@@ -1,0 +1,5 @@
+Picklistentry radfre__c (
+   value('Radiofrequency (RadioSurgery or Radiowave Surgery)'),
+   order(380),
+   active(true)
+);

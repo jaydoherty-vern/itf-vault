@@ -1,0 +1,5 @@
+Picklistentry co_boy__c (
+   value('CO-BOY'),
+   order(770),
+   active(true)
+);

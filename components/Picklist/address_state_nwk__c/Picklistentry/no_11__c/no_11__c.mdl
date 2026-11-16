@@ -1,0 +1,5 @@
+Picklistentry no_11__c (
+   value('NO_Rogaland'),
+   order(1313),
+   active(true)
+);

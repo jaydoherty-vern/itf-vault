@@ -1,0 +1,21 @@
+RECREATE Permissionset vspa_em_tov_health_authority_admin_user__c (
+   label('VSPA_EM_TOV_Health_Authority_Admin_User'),
+   active(true),
+   description('Admin permissions on Health Authority object'),
+   object.tov_health_authority__c.created_by__v.field_actions('read'),
+   object.tov_health_authority__c.created_date__v.field_actions('read'),
+   object.tov_health_authority__c.modified_by__v.field_actions('read'),
+   object.tov_health_authority__c.modified_date__v.field_actions('read'),
+   object.tov_health_authority__c.object_actions('create',
+      'delete',
+      'edit',
+      'read'),
+   object.tov_health_authority__c.ownerid__v.field_actions('read'),
+   object.tov_health_authority__c.tov_address__c.field_actions('edit',
+      'read'),
+   object.tov_health_authority__c.tov_country_code__c.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view'),
+   tab.tov_health_authority__c.tab_actions('view')
+);

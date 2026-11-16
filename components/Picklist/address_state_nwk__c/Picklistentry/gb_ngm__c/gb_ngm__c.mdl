@@ -1,0 +1,5 @@
+Picklistentry gb_ngm__c (
+   value('GB-NGM'),
+   order(559),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry bh_13__c (
+   value('BH_Al Manāmah (Al ‘Āşimah)'),
+   order(3),
+   active(true)
+);

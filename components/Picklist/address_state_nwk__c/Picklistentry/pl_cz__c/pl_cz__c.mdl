@@ -1,0 +1,5 @@
+Picklistentry pl_cz__c (
+   value('PL_Częstochowa'),
+   order(1335),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry surgery_general__c (
+   value('SURGERY - GENERAL'),
+   order(48),
+   active(true)
+);

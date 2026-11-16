@@ -1,0 +1,5 @@
+Picklistentry specialty__c (
+   value('Specialty'),
+   order(2),
+   active(true)
+);

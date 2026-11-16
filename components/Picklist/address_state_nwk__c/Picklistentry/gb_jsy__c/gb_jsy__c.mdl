@@ -1,0 +1,5 @@
+Picklistentry gb_jsy__c (
+   value('GB-JSY'),
+   order(520),
+   active(false)
+);

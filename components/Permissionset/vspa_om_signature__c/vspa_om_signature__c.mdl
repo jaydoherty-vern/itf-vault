@@ -1,0 +1,13 @@
+RECREATE Permissionset vspa_om_signature__c (
+   label('VSPA_OM_Signature'),
+   active(true),
+   description('Permission set to enable Signatures during Order taking.'),
+   object.order__v.disclaimer__v.field_actions('edit',
+      'read'),
+   object.order__v.signature__v.field_actions('edit',
+      'read'),
+   object.order__v.signature_date__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

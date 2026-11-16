@@ -1,0 +1,4 @@
+Typefield testmetric_c__c (
+   source('standard'),
+   required(false)
+);

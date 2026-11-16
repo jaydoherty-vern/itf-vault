@@ -1,0 +1,5 @@
+Picklistentry li_06__c (
+   value('LI_Ruggell'),
+   order(967),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ru_oms__c (
+   value('RU_Omskaya oblast'''),
+   order(1531),
+   active(true)
+);

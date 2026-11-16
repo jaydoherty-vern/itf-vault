@@ -1,0 +1,5 @@
+Picklistentry healthcare_provider__c (
+   value('Healthcare Provider'),
+   order(6),
+   active(true)
+);

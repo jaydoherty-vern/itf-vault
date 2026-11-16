@@ -1,0 +1,8 @@
+RECREATE Picklist remote_meeting_at_system_reconciled_rule__c (
+   label('System Reconciled Rule'),
+   active(true),
+   Picklistentry(@Picklistentry/email_match_vod__c.mdl),
+   Picklistentry(@Picklistentry/one_attendee_on_call_vod__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

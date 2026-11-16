@@ -1,0 +1,5 @@
+Picklistentry aruban_florin__c (
+   value('Aruban Florin'),
+   order(10),
+   active(true)
+);

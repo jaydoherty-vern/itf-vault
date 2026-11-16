@@ -1,0 +1,5 @@
+Picklistentry ar_j__c (
+   value('San Juan (AR)'),
+   order(71),
+   active(true)
+);

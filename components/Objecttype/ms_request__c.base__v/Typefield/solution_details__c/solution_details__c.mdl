@@ -1,0 +1,4 @@
+Typefield solution_details__c (
+   source('standard'),
+   required(false)
+);

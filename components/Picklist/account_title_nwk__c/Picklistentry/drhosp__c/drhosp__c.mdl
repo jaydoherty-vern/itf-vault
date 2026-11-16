@@ -1,0 +1,5 @@
+Picklistentry drhosp__c (
+   value('Senior Hospital Doctor'),
+   order(96),
+   active(true)
+);

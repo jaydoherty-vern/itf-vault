@@ -1,0 +1,8 @@
+Objectworkflowstep user_selection_approval_task__c (
+   label('User Selection Approval Task'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.approve_or_reject_decision__c'),
+   tags('UserSelection'),
+   step_detail(@step_detail.xml),
+   description()
+);

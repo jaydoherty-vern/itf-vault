@@ -1,0 +1,5 @@
+Picklistentry gb_rfw__c (
+   value('GB-RFW'),
+   order(588),
+   active(false)
+);

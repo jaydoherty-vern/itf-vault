@@ -1,0 +1,5 @@
+Picklistentry rnu__c (
+   value('Rehabilitation Nurse'),
+   order(444),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ro_sm__c (
+   value('RO_Satu Mare'),
+   order(1442),
+   active(true)
+);

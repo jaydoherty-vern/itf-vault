@@ -1,0 +1,5 @@
+Picklistentry dermest__c (
+   value('Aesthetic Dermatology'),
+   order(28),
+   active(true)
+);

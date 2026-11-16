@@ -1,0 +1,8 @@
+RECREATE Sharingrule itf_field_medical_reports__c (
+   label('ITF Field Medical Reports'),
+   active(true),
+   description(),
+   object('report__sys'),
+   criteria([tags__sys CONTAINS ('itf_field_medical_reports__c')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

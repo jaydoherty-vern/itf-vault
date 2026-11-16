@@ -1,0 +1,8 @@
+RECREATE Picklist solution_type__c (
+   label('Solution Type'),
+   active(true),
+   Picklistentry(@Picklistentry/new_config__c.mdl),
+   Picklistentry(@Picklistentry/completed__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

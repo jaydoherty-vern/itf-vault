@@ -1,0 +1,22 @@
+Field number_of_medical_staff_nwk__c (
+   label('# of Medical Staff'),
+   type('Number'),
+   active(true),
+   description('Network field - Count Medstaff'),
+   required(false),
+   unique(false),
+   max_value(999999),
+   min_value(-999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(312),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

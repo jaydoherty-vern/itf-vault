@@ -1,0 +1,5 @@
+Picklistentry ro_ot__c (
+   value('RO_Olt'),
+   order(1439),
+   active(true)
+);

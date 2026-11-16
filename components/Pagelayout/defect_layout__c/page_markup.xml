@@ -1,0 +1,40 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.smb_pmo_defect__c">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="qs_pmo_defect_title__c" required="true" />
+            <vault:field reference="qs_pmo_defect_description__c" required="true" />
+            <vault:field reference="qs_pmo_defect_source__c" required="true" />
+            <vault:field reference="qs_pmo_severity__c" required="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Defect Analysis and Solution" name="defect_analysis_and_solution__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="qs_pmo_solution__c" />
+            <vault:field reference="qs_pmo_due_date__c" />
+            <vault:field reference="qs_pmo_customer_validation_status__c" />
+            <vault:field reference="qs_pmo_veeva_status__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Defect Comments" name="defect_comments__c">
+        <vault:relatedObject relationship="defect_comments__cr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="qs_pmo_defect_comment_description__c" width="200px" />
+            <vault:field reference="created_date__v" width="200px" />
+            <vault:field reference="modified_by__v" width="200px" />
+            <vault:field reference="qs_pmo_notity__c" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

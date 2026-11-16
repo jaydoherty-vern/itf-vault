@@ -1,0 +1,5 @@
+Picklistentry mobile_device__v (
+   value('Large Mobile Devices'),
+   order(0),
+   active(true)
+);

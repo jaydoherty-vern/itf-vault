@@ -1,0 +1,5 @@
+Picklistentry lt_49__c (
+   value('LT_Švenčionys'),
+   order(1027),
+   active(true)
+);

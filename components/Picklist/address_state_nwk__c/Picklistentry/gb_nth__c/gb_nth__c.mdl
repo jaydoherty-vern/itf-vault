@@ -1,0 +1,5 @@
+Picklistentry gb_nth__c (
+   value('GB-NTH'),
+   order(564),
+   active(false)
+);

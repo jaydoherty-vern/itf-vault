@@ -1,0 +1,5 @@
+Picklistentry az_hac__c (
+   value('AZ-HAC'),
+   order(197),
+   active(true)
+);

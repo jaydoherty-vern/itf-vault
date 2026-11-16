@@ -1,0 +1,5 @@
+Picklistentry eduard__c (
+   value('Eduard'),
+   order(4),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry g_pud__c (
+   value('Pulmonology'),
+   order(51),
+   active(true)
+);

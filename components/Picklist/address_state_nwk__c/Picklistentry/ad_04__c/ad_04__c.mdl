@@ -1,0 +1,5 @@
+Picklistentry ad_04__c (
+   value('AD_La Massana'),
+   order(4),
+   active(true)
+);

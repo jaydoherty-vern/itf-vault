@@ -1,0 +1,5 @@
+Picklistentry tr_66__c (
+   value('TR_Yozgat'),
+   order(1746),
+   active(true)
+);

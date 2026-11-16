@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate itf_mirf_notification__c (
+   label(' ITF_MIRF_Notification'),
+   active(true),
+   description(' ITF_MIRF_Notification'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.medical_inquiry__v'),
+   subject(' Medical Information Request - ${Object.name__v} - ${Object.product__v}'),
+   notification('<p>Dear Med Info Team,</p> <p>Please process the following Medical Inquiry: <b>${Object.name__v}</b>.<br/></p> <p><b>INQUIRY DETAILS</b><br/> <b>MIRF ID:</b> ${Object.name__v}<br/> <b>HCP:</b> ${Object.account__v}<br/> <b>HCP Primary Affiliation:</b> ${Object.account_primary_parent__c}<br/> <b>Product:</b> ${Object.product__v}<br/> <b>MSL Follow-Up:</b> ${Object.itf_msl_follow_up__c}<br/> <b>Delivery Method:</b> ${Object.delivery_method__v}<br/> <b>Inquiry Text:</b> ${Object.inquiry_text__v}</p> <p><b>HCP CONTACT INFORMATION</b><br/> <b>Email:</b> ${Object.email__v}<br/> <b>Phone #:</b> ${Object.phone_number__v}<br/> <b>Fax #:</b> ${Object.fax_number__v}</p> <p>Should you have any questions, please feel free to call or email me.</p> <p>Best regards,</p> <p>${Object.created_by__v}<br/> </p>'),
+   email_body('<p>Dear Med Info Team,</p> <p>Please process the following Medical Inquiry: <b>${Object.name__v}</b>.<br/></p> <p><b>INQUIRY DETAILS</b><br/> <b>MIRF ID:</b> ${Object.name__v}<br/> <b>HCP:</b> ${Object.account__v}<br/> <b>HCP Primary Affiliation:</b> ${Object.account_primary_parent__c} <br/> <b>Product:</b> ${Object.product__v}<br/> <b>MSL Follow-Up:</b> ${Object.itf_msl_follow_up__c}<br/> <b>Delivery Method:</b> ${Object.delivery_method__v}<br/> <b>Inquiry Text:</b> ${Object.inquiry_text__v}</p> <p><b>HCP CONTACT INFORMATION</b><br/> <b>Email:</b> ${Object.email__v}<br/> <b>Phone #:</b> ${Object.phone_number__v}<br/> <b>Fax #:</b> ${Object.fax_number__v}</p> <p>Should you have any questions, please feel free to call or email me.</p> <p>Best regards,</p> <p>${Object.created_by__v}<br/> </p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

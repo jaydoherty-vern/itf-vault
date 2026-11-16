@@ -1,0 +1,5 @@
+Picklistentry it_go__c (
+   value('IT_Gorizia'),
+   order(870),
+   active(true)
+);

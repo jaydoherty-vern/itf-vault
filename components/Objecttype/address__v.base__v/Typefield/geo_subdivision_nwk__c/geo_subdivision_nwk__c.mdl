@@ -1,0 +1,4 @@
+Typefield geo_subdivision_nwk__c (
+   source('standard'),
+   required(false)
+);

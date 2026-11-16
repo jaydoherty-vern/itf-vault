@@ -1,0 +1,5 @@
+Picklistentry adolescent_medicine_internal_medicine__c (
+   value('ADOLESCENT MEDICINE (INTERNAL MEDICINE)'),
+   order(9),
+   active(true)
+);

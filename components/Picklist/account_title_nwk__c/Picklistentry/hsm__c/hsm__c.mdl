@@ -1,0 +1,5 @@
+Picklistentry hsm__c (
+   value('HSM'),
+   order(53),
+   active(true)
+);

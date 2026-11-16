@@ -1,0 +1,8 @@
+Objectlayout order_direct__c (
+   label('order_direct'),
+   active(true),
+   pagelayouts('Pagelayout.direct_order_layout__c'),
+   object('Object.order__v'),
+   objecttype('Objecttype.order__v.direct__v'),
+   record_creation_layout('Pagelayout.direct_order_layout__c')
+);

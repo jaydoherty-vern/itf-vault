@@ -1,0 +1,5 @@
+Picklistentry chronic_obstructive_pulmonary_disease_co__c (
+   value('Chronic Obstructive Pulmonary Disease (COPD)'),
+   order(26),
+   active(true)
+);

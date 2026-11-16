@@ -1,0 +1,5 @@
+Picklistentry path__c (
+   value('Pathology Diploma'),
+   order(238),
+   active(true)
+);

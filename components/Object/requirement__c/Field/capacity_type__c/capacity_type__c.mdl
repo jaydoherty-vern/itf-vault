@@ -1,0 +1,21 @@
+Field capacity_type__c (
+   label('Capacity Type'),
+   type('Picklist'),
+   active(true),
+   description('Defect: A known error in existing functionality
+Major: A significant release of capabilities
+Minor: An impactful release of functionality & doesn''t require training on new functionality
+Ongoing Activity: Activities that need to be performed regularly'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.capacity_type__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

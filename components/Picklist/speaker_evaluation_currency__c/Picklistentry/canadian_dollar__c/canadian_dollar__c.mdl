@@ -1,0 +1,5 @@
+Picklistentry canadian_dollar__c (
+   value('Canadian Dollar'),
+   order(35),
+   active(true)
+);

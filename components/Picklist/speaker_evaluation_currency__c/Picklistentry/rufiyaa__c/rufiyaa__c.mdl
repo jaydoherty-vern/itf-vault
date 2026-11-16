@@ -1,0 +1,5 @@
+Picklistentry rufiyaa__c (
+   value('Rufiyaa'),
+   order(100),
+   active(true)
+);

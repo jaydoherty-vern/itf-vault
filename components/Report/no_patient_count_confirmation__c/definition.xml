@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.itf_confirmation_of_patient_count__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.itf_number_of_patients_per_year__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.itf_segment__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___account__v.ownerid__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="product_metrics__v___account__v.name__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="IN" leftValue="account__v.object_type__v" rightValue="HCO;;;HCO" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="IN" leftValue="call2__v___account__v.ownerid__v" rightValue="user:m.kirby;;;user:p.kelly;;;user:s.spencer;;;user:t.patterson" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="account__v.itf_confirmation_of_patient_count__c" rightValue="false" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="account__v.name__v" groupBySortOn="account__v.name__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="account__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

@@ -1,0 +1,5 @@
+Picklistentry br_rs__c (
+   value('Rio Grande do Sul'),
+   order(14),
+   active(true)
+);

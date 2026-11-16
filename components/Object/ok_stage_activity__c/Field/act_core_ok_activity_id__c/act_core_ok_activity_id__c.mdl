@@ -1,0 +1,19 @@
+Field act_core_ok_activity_id__c (
+   label('OKActivityID'),
+   type('String'),
+   active(true),
+   description('needed later in address for DE'),
+   required(false),
+   unique(false),
+   max_length(14),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry call_completed_detail__c (
+   value('Call Completed - Detail'),
+   order(10),
+   active(true)
+);

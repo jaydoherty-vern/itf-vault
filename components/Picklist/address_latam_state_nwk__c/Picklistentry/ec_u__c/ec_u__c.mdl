@@ -1,0 +1,5 @@
+Picklistentry ec_u__c (
+   value('Sucumbíos'),
+   order(229),
+   active(true)
+);

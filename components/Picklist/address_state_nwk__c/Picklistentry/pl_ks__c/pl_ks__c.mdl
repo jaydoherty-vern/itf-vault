@@ -1,0 +1,5 @@
+Picklistentry pl_ks__c (
+   value('PL_Krosno'),
+   order(1347),
+   active(true)
+);

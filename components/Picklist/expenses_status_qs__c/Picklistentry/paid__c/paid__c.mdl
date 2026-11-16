@@ -1,0 +1,5 @@
+Picklistentry paid__c (
+   value('Paid'),
+   order(4),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry workflow__c (
+   value('Workflow'),
+   order(7),
+   active(true)
+);

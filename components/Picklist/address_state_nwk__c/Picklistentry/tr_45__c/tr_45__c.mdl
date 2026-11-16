@@ -1,0 +1,5 @@
+Picklistentry tr_45__c (
+   value('TR_Manisa'),
+   order(1722),
+   active(true)
+);

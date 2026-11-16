@@ -1,0 +1,5 @@
+Picklistentry se_s__c (
+   value('SE_Värmlands County'),
+   order(1582),
+   active(true)
+);

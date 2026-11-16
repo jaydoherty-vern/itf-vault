@@ -1,0 +1,5 @@
+Picklistentry cco__c (
+   value('Clinical Coding'),
+   order(81),
+   active(true)
+);

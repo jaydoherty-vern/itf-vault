@@ -1,0 +1,5 @@
+Picklistentry pending_veeva_support__c (
+   value('Pending Veeva Support'),
+   order(16),
+   active(true)
+);

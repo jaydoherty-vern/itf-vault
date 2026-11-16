@@ -1,0 +1,5 @@
+Picklistentry requires_custom_development__c (
+   value('Requires Custom Development'),
+   order(2),
+   active(true)
+);

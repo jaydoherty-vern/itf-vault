@@ -1,0 +1,5 @@
+Picklistentry cz_st__c (
+   value('CZ_Středočeský kraj'),
+   order(127),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry qa_ra__c (
+   value('QA_Ar Rayyān'),
+   order(62),
+   active(true)
+);

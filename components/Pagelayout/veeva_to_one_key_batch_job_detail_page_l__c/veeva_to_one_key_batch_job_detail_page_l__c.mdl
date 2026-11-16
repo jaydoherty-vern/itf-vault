@@ -1,0 +1,8 @@
+RECREATE Pagelayout veeva_to_one_key_batch_job_detail_page_l__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Veeva To One Key Batch Job Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,5 @@
+Picklistentry az_nv__c (
+   value('AZ-NV'),
+   order(211),
+   active(true)
+);

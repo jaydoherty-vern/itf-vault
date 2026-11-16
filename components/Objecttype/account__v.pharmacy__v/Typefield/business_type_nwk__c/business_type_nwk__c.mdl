@@ -1,0 +1,12 @@
+Typefield business_type_nwk__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_business_type_nwk__c.gie__c',
+         'Picklist.account_business_type_nwk__c.gip__c',
+         'Picklist.account_business_type_nwk__c.mili__c',
+         'Picklist.account_business_type_nwk__c.ngo__c',
+         'Picklist.account_business_type_nwk__c.npo__c',
+         'Picklist.account_business_type_nwk__c.pb__c',
+         'Picklist.account_business_type_nwk__c.pr__c',
+         'Picklist.account_business_type_nwk__c.semi__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry disp__c (
+   value('Dispensing'),
+   order(73),
+   active(true)
+);

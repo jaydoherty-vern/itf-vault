@@ -1,0 +1,5 @@
+Picklistentry is_gru__c (
+   value('IS_Grundarfjarðarbær'),
+   order(774),
+   active(true)
+);

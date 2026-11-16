@@ -1,0 +1,5 @@
+Picklistentry process_wkp_dummy_name__c (
+   value('Process_WKP_DUMMY_NAME'),
+   order(6),
+   active(true)
+);

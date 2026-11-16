@@ -1,0 +1,8 @@
+RECREATE Objectvalidation expenses__c.expense_month__c (
+   label('Expense_Month'),
+   active(true),
+   expression('Not(Not(IsNumber(month__c)))'),
+   description('The Month of expense should be number.'),
+   error_message('Please enter the month number.'),
+   error_location('id')
+);

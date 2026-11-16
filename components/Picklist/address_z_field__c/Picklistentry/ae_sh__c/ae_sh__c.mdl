@@ -1,0 +1,5 @@
+Picklistentry ae_sh__c (
+   value('AE-SH'),
+   order(11),
+   active(true)
+);

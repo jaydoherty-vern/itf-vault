@@ -1,0 +1,8 @@
+Objectworkflowstep entry_criteria_not_met__c (
+   label('Entry Criteria Not Met'),
+   type('action'),
+   next_steps('Objectworkflowstep.end__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

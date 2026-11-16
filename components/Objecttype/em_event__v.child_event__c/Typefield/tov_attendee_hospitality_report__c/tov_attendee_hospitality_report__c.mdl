@@ -1,0 +1,4 @@
+Typefield tov_attendee_hospitality_report__c (
+   source('custom'),
+   required(false)
+);

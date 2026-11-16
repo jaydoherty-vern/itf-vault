@@ -1,0 +1,5 @@
+Picklistentry erectile_dsyfunction__c (
+   value('Erectile Dsyfunction'),
+   order(41),
+   active(true)
+);

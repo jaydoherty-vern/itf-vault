@@ -1,0 +1,48 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.content_group__v.content_group__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="content_group_status__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="master_align_id__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="ctrl_product__v" />
+            <vault:field reference="product_group__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="language__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Content Group Users" name="content_group_users__c">
+        <vault:relatedObject relationship="content_group_users__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="user__v" width="200px" />
+            <vault:field reference="vexternal_id__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="modified_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Content Group Content" name="content_group_contents__c">
+        <vault:relatedObject relationship="content_group_contents__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="approved_document__v" width="200px" />
+            <vault:field reference="clm_presentation__v" width="200px" />
+            <vault:field reference="key_message__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="modified_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

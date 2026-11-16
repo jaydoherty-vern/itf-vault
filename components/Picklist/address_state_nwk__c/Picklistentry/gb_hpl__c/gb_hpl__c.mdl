@@ -1,0 +1,5 @@
+Picklistentry gb_hpl__c (
+   value('GB-HPL'),
+   order(512),
+   active(false)
+);

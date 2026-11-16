@@ -1,0 +1,5 @@
+Picklistentry me_10__c (
+   value('ME_Kotor'),
+   order(1194),
+   active(true)
+);

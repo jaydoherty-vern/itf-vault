@@ -1,0 +1,8 @@
+Objectlayout em_event_override_em_business_rule_soft__c (
+   label('em_event_override_em_business_rule_soft_warning_on_acti'),
+   active(true),
+   pagelayouts('Pagelayout.em_business_rule_soft_warning_on_action__c'),
+   object('Object.em_event_override__v'),
+   objecttype('Objecttype.em_event_override__v.em_business_rule_soft_warning_on_acti__v'),
+   record_creation_layout('Pagelayout.em_business_rule_soft_warning_on_action__c')
+);

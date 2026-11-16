@@ -1,0 +1,5 @@
+Picklistentry gas__c (
+   value('GAS'),
+   order(20),
+   active(true)
+);

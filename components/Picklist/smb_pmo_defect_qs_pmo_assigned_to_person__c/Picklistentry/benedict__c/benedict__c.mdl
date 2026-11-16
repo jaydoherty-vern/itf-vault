@@ -1,0 +1,5 @@
+Picklistentry benedict__c (
+   value('Benedict'),
+   order(0),
+   active(true)
+);

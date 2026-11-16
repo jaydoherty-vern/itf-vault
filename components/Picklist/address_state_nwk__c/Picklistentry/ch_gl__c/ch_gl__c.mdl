@@ -1,0 +1,5 @@
+Picklistentry ch_gl__c (
+   value('CH_Glarus'),
+   order(99),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pediatric_endocrinologist__c (
+   value('PEDIATRIC ENDOCRINOLOGIST'),
+   order(78),
+   active(true)
+);

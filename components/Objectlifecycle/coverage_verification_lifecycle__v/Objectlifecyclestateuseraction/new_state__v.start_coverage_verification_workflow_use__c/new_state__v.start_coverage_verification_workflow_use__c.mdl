@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction new_state__v.start_coverage_verification_workflow_use__c (
+   label('Start Coverage Verification Workflow'),
+   rule(@rule.xml),
+   order(1000)
+);

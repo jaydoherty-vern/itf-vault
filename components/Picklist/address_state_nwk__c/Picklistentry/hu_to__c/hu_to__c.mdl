@@ -1,0 +1,5 @@
+Picklistentry hu_to__c (
+   value('HU_Tolna'),
+   order(714),
+   active(true)
+);

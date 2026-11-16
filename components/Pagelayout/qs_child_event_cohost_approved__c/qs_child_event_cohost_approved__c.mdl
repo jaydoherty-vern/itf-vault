@@ -1,0 +1,8 @@
+RECREATE Pagelayout qs_child_event_cohost_approved__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('QS_Child_Event_Cohost_Approved'),
+   page_markup(@page_markup.xml)
+);

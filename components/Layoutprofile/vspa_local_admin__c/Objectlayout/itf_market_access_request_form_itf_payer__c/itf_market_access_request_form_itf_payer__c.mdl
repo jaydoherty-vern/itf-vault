@@ -1,0 +1,8 @@
+Objectlayout itf_market_access_request_form_itf_payer__c (
+   label('itf_market_access_request_form_itf_payer_policy_submission'),
+   active(true),
+   pagelayouts('Pagelayout.payer_policy_insights__c'),
+   object('Object.itf_market_access_request_form__c'),
+   objecttype('Objecttype.itf_market_access_request_form__c.itf_payer_policy_submission__c'),
+   record_creation_layout('Pagelayout.payer_policy_insights__c')
+);

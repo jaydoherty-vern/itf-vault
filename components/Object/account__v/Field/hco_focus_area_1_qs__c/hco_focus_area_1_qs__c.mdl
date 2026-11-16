@@ -1,0 +1,18 @@
+Field hco_focus_area_1_qs__c (
+   label('Primary Focus'),
+   type('Picklist'),
+   active(true),
+   description('Network field - HCO Focus Area 1'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(236),
+   multi_value(false),
+   picklist('Picklist.account_hco_focus_area_1_qs__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield mederi_budget_decider_score__c (
+   source('standard'),
+   required(false)
+);

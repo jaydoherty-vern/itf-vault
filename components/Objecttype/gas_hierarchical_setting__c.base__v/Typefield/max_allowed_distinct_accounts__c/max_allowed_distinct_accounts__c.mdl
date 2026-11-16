@@ -1,0 +1,4 @@
+Typefield max_allowed_distinct_accounts__c (
+   source('standard'),
+   required(false)
+);

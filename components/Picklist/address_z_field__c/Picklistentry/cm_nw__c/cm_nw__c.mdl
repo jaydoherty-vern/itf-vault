@@ -1,0 +1,5 @@
+Picklistentry cm_nw__c (
+   value('CM-NW'),
+   order(730),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry transportation__c (
+   value('Transportation'),
+   order(12),
+   active(true)
+);

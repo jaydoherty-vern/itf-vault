@@ -1,0 +1,5 @@
+Picklistentry advanced_heart_failure_trnsplnt_cardio__c (
+   value('ADVANCED HEART FAILURE & TRNSPLNT CARDIO'),
+   order(26),
+   active(true)
+);

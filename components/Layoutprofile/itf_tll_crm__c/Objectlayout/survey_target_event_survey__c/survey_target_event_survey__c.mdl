@@ -1,0 +1,8 @@
+Objectlayout survey_target_event_survey__c (
+   label('survey_target_event_survey'),
+   active(true),
+   pagelayouts('Pagelayout.one_time_layout__c'),
+   object('Object.survey_target__v'),
+   objecttype('Objecttype.survey_target__v.event_survey__v'),
+   record_creation_layout('Pagelayout.one_time_layout__c')
+);

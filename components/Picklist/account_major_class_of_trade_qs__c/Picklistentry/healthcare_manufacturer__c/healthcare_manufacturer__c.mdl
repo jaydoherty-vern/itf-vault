@@ -1,0 +1,5 @@
+Picklistentry healthcare_manufacturer__c (
+   value('Healthcare Manufacturer'),
+   order(2),
+   active(true)
+);

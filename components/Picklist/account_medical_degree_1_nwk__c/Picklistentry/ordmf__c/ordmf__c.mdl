@@ -1,0 +1,5 @@
+Picklistentry ordmf__c (
+   value('Diploma in Dental Orthopedy'),
+   order(55),
+   active(true)
+);

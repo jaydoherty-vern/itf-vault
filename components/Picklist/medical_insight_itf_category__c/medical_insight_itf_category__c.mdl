@@ -1,0 +1,11 @@
+RECREATE Picklist medical_insight_itf_category__c (
+   label('Category'),
+   active(true),
+   Picklistentry(@Picklistentry/ppmd_mda_safety_efficacy_posters__c.mdl),
+   Picklistentry(@Picklistentry/moa_mod__c.mdl),
+   Picklistentry(@Picklistentry/epidys_trial__c.mdl),
+   Picklistentry(@Picklistentry/research_ideas__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

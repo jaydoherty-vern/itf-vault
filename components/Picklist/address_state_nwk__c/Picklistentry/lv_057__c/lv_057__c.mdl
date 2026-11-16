@@ -1,0 +1,5 @@
+Picklistentry lv_057__c (
+   value('LV_Lubānas novads (Lubāna)'),
+   order(1109),
+   active(true)
+);

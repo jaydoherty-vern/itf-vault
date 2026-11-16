@@ -1,0 +1,5 @@
+Picklistentry indian_rupee__c (
+   value('Indian Rupee'),
+   order(21),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_receipt__v.comments_field_required__c (
+   label('Comments_field_required'),
+   active(true),
+   expression('Not(confirmed_quantity__v!=quantity__v)'),
+   description('Comments field required if the confirmed qty doesn''t match the quantity'),
+   error_message('Confirmed qty field does not match quantity field.'),
+   error_location('id')
+);

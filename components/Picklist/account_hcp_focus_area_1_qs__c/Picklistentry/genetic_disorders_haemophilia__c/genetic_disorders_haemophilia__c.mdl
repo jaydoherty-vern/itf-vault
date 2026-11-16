@@ -1,0 +1,5 @@
+Picklistentry genetic_disorders_haemophilia__c (
+   value('Genetic Disorders (Haemophilia)'),
+   order(8),
+   active(true)
+);

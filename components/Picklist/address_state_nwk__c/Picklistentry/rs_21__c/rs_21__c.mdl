@@ -1,0 +1,5 @@
+Picklistentry rs_21__c (
+   value('RS_Toplički okrug'),
+   order(1478),
+   active(true)
+);

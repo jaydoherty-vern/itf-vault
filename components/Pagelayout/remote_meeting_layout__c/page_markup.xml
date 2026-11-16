@@ -1,0 +1,58 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.remote_meeting__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="object_type__v" />
+            <vault:field reference="dial_in_numbers__v" />
+            <vault:field reference="meeting_id__v" />
+            <vault:field reference="meeting_name__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="zoom_join_token__v" />
+            <vault:field reference="meeting_outcome_status__v" />
+            <vault:spacer />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="assigned_host__v" />
+            <vault:field reference="latest_meeting_start_datetime__v" />
+            <vault:field reference="scheduled_datetime__v" />
+            <vault:field reference="scheduled__v" />
+            <vault:field reference="attendance_report_process_status__v" />
+            <vault:field reference="country_user__v" />
+            <vault:field reference="vexternal_id__v" />
+            <vault:field reference="name__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Remote Meeting Attendees" name="remote_meeting_attendees__c">
+        <vault:relatedObject relationship="remote_meeting_attendees__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="display_name__v" width="200px" />
+            <vault:field reference="join_time__v" width="200px" />
+            <vault:field reference="leave_time__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Calls" name="calls__c">
+        <vault:relatedObject relationship="calls__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="call2_status__v" width="200px" />
+            <vault:field reference="call_type__v" width="200px" />
+            <vault:field reference="call_datetime__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Events" name="events__c">
+        <vault:relatedObject relationship="events__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Remote Meeting Ratings" name="remote_meeting_ratings__c">
+        <vault:relatedObject relationship="remote_meeting_ratings__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry comoro_franc__c (
+   value('Comoro Franc'),
+   order(42),
+   active(true)
+);

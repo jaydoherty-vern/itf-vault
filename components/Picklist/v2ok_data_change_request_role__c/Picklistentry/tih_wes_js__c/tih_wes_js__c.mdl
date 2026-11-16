@@ -1,0 +1,5 @@
+Picklistentry tih_wes_js__c (
+   value('TIH.WES.JS'),
+   order(46),
+   active(true)
+);

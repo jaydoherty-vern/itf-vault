@@ -1,0 +1,5 @@
+Picklistentry jv__v (
+   value('Javanese'),
+   order(190),
+   active(false)
+);

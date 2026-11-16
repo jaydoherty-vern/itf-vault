@@ -1,0 +1,5 @@
+Picklistentry ae_sh__c (
+   value('AE_Ash Shāriqah [Sharjah]'),
+   order(77),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pdmphc__c (
+   value('Prof. Dr. med. Prof. h.c.'),
+   order(300),
+   active(true)
+);

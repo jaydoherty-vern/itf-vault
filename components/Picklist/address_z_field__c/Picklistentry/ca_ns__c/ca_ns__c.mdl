@@ -1,0 +1,5 @@
+Picklistentry ca_ns__c (
+   value('CA-NS'),
+   order(602),
+   active(true)
+);

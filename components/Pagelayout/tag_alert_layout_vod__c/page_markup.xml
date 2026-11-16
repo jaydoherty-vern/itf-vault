@@ -1,0 +1,21 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sample_lot_item__v.tagalert__v">
+    <vault:section title="Fields" name="fields__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="active__v" />
+            <vault:field reference="sample_lot__v" />
+            <vault:field reference="sample_lot_item_id__v" />
+            <vault:field reference="tag_alert_number__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

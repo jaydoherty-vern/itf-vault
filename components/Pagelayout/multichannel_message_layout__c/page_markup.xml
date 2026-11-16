@@ -1,0 +1,35 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.multichannel_message__v.base__v">
+    <vault:section title="Fields" name="fields__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="message_identifier__v" />
+            <vault:field reference="event_attendee_status__v" />
+            <vault:field reference="html_message_file__v" />
+            <vault:field reference="consent_confirm_html_file__v" />
+            <vault:field reference="mc_activity_recordtype__v" />
+            <vault:field reference="language__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="New Section" name="new_section__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

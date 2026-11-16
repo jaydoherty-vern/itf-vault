@@ -1,0 +1,5 @@
+Picklistentry ci_sv__c (
+   value('CI-SV'),
+   order(704),
+   active(true)
+);

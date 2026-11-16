@@ -1,0 +1,5 @@
+Picklistentry psc__c (
+   value('Clinical Psychology'),
+   order(83),
+   active(true)
+);

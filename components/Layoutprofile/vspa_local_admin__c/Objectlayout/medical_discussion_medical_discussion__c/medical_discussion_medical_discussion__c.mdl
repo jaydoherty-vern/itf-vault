@@ -1,0 +1,8 @@
+Objectlayout medical_discussion_medical_discussion__c (
+   label('medical_discussion_medical_discussion'),
+   active(true),
+   pagelayouts('Pagelayout.medical_discussion_layout__c'),
+   object('Object.medical_discussion__v'),
+   objecttype('Objecttype.medical_discussion__v.medical_discussion__v'),
+   record_creation_layout('Pagelayout.medical_discussion_layout__c')
+);

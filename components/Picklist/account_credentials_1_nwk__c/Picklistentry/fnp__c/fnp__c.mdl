@@ -1,0 +1,5 @@
+Picklistentry fnp__c (
+   value('Family Nurse Practitioner'),
+   order(11),
+   active(true)
+);

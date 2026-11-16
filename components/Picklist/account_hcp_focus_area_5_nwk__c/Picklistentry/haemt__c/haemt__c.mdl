@@ -1,0 +1,5 @@
+Picklistentry haemt__c (
+   value('Hemostasis and Thrombosis'),
+   order(179),
+   active(true)
+);

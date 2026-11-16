@@ -1,0 +1,5 @@
+Picklistentry pnp__c (
+   value('PNP'),
+   order(32),
+   active(true)
+);

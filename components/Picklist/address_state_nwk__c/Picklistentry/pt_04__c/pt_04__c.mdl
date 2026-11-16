@@ -1,0 +1,5 @@
+Picklistentry pt_04__c (
+   value('PT_Bragança'),
+   order(1392),
+   active(true)
+);

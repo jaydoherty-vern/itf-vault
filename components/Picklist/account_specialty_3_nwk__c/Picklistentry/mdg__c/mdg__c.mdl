@@ -1,0 +1,5 @@
+Picklistentry mdg__c (
+   value('Internal Medicine/Medical Genetics'),
+   order(223),
+   active(true)
+);

@@ -1,0 +1,20 @@
+Field timeline_filter__v (
+   label('Timeline Filter'),
+   type('Boolean'),
+   active(true),
+   description('Setting for enabling Timeline Product and User filters
+   •   Checked enables filtering capability
+   •   Unchecked disables filtering capability'),
+   required(false),
+   checkbox(true),
+   help_content('Setting for enabling Timeline Product and User filters'),
+   list_column(false),
+   order(295),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

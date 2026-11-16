@@ -1,0 +1,5 @@
+Picklistentry no_16__c (
+   value('NO_Sør-Trøndelag'),
+   order(1314),
+   active(true)
+);

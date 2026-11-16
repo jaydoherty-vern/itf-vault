@@ -1,0 +1,21 @@
+Field result_field_set__c (
+   label('Result Field Set'),
+   type('String'),
+   active(true),
+   description('List of fields, delimited by comma, to display in search results.  If any of these are Address fields, they must be prefixed by ''ADD.''.  Sample value:
+Name,ADD.Name,ADD.City_vod__c,ADD.State_vod__c,ADD.Zip_vod__c,Specialty_1_vod__c,ADD.Primary_vod__c'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(41),
+   default_value('''Name,Specialty_1_vod__c,RecordTypeId,CreatedDate,CreatedById,ADD.Name,ADD.City_vod__c,ADD.State_vod__c,ADD.Zip_vod__c,ADD.Primary_vod__c'''),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

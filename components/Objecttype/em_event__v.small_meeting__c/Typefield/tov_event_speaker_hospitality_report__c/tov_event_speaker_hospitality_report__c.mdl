@@ -1,0 +1,4 @@
+Typefield tov_event_speaker_hospitality_report__c (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry weight__c (
+   value('Weight Management'),
+   order(479),
+   active(true)
+);

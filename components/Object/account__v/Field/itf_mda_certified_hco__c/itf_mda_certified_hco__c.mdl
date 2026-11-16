@@ -1,0 +1,19 @@
+Field itf_mda_certified_hco__c (
+   label('MDA Certified (HCO)'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(429),
+   formula('primary_parent__vr.itf_mda_ppmd_certified__c'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

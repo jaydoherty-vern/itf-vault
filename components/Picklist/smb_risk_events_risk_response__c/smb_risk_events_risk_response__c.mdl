@@ -1,0 +1,11 @@
+RECREATE Picklist smb_risk_events_risk_response__c (
+   label('Risk response'),
+   active(true),
+   Picklistentry(@Picklistentry/accept__c.mdl),
+   Picklistentry(@Picklistentry/avoid__c.mdl),
+   Picklistentry(@Picklistentry/mitigate__c.mdl),
+   Picklistentry(@Picklistentry/transfer__c.mdl),
+   Picklistentry(@Picklistentry/exploit_opportunity__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

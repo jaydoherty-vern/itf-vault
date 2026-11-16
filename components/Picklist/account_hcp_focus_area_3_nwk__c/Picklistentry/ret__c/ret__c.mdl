@@ -1,0 +1,5 @@
+Picklistentry ret__c (
+   value('Retinal Disease'),
+   order(390),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ccrms_msl_crm__c (
+   value('CCRMS_MSL_CRM'),
+   order(9),
+   active(true)
+);

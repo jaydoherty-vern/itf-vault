@@ -1,0 +1,5 @@
+Picklistentry clinv__c (
+   value('Clinical Research Investigator'),
+   order(39),
+   active(true)
+);

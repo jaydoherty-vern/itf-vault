@@ -1,0 +1,4 @@
+Typefield behavior_segmentation_qs__c (
+   source('standard'),
+   required(false)
+);

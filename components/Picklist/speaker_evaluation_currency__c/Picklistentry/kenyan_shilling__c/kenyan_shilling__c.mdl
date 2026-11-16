@@ -1,0 +1,5 @@
+Picklistentry kenyan_shilling__c (
+   value('Kenyan Shilling'),
+   order(83),
+   active(true)
+);

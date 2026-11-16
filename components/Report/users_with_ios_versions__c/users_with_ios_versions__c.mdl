@@ -1,0 +1,20 @@
+RECREATE Report users_with_ios_versions__c (
+   label('Users with iOS Versions'),
+   active(true),
+   description('Lists all non-admin users and what iOS version they use. Created by Veeva Services. Used in Sync Dashboard.'),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.user_vs__c'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags('veeva__sys'),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry ec_w__c (
+   value('Galápagos'),
+   order(231),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_105__c (
+   value('LV_Vecumnieku novads (Vecumnieki)'),
+   order(1161),
+   active(true)
+);

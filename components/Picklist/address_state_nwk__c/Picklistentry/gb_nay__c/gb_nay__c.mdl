@@ -1,0 +1,5 @@
+Picklistentry gb_nay__c (
+   value('GB-NAY'),
+   order(553),
+   active(false)
+);

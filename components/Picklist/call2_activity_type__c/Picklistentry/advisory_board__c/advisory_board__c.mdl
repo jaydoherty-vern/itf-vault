@@ -1,0 +1,5 @@
+Picklistentry advisory_board__c (
+   value('Advisory Board'),
+   order(4),
+   active(true)
+);

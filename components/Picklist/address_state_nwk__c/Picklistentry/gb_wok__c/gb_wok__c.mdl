@@ -1,0 +1,5 @@
+Picklistentry gb_wok__c (
+   value('GB-WOK'),
+   order(641),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_wnd__c (
+   value('GB-WND'),
+   order(639),
+   active(false)
+);

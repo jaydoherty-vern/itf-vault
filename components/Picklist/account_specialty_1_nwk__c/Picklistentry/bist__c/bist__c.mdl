@@ -1,0 +1,5 @@
+Picklistentry bist__c (
+   value('Biostatistics'),
+   order(44),
+   active(true)
+);

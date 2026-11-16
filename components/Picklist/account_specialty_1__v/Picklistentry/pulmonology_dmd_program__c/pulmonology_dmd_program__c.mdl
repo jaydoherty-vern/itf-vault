@@ -1,0 +1,5 @@
+Picklistentry pulmonology_dmd_program__c (
+   value('PULMONOLOGY, DMD PROGRAM'),
+   order(88),
+   active(true)
+);

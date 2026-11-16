@@ -1,0 +1,5 @@
+Picklistentry af_jow__c (
+   value('AF-JOW'),
+   order(25),
+   active(true)
+);

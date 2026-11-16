@@ -1,0 +1,5 @@
+Picklistentry glute__c (
+   value('Gluten intolerance'),
+   order(167),
+   active(true)
+);

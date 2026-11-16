@@ -1,0 +1,5 @@
+Picklistentry tr_52__c (
+   value('TR_Ordu'),
+   order(1729),
+   active(true)
+);

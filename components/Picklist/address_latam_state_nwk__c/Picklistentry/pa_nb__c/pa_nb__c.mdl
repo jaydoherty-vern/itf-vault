@@ -1,0 +1,5 @@
+Picklistentry pa_nb__c (
+   value('Ngöbe-Buglé'),
+   order(331),
+   active(true)
+);

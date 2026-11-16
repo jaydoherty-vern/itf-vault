@@ -1,0 +1,8 @@
+RECREATE Objectvalidation expenses_line_item__c.expense_line_item_date__c (
+   label('Expense_Line_Item_date'),
+   active(true),
+   expression('Not(If(regularization__c=FALSE,Month(date__c)!=Value(expenses__cr.month__c),FALSE))'),
+   description(),
+   error_message('The Expense Line Item Date has to be in the Expense Month.'),
+   error_location('id')
+);

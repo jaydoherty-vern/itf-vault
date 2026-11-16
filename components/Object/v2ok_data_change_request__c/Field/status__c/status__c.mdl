@@ -1,0 +1,19 @@
+Field status__c (
+   label('Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('To be updated manually by whoever does the extract each week.'),
+   list_column(false),
+   order(50),
+   multi_value(false),
+   picklist('Picklist.v2ok_data_change_request_status__c'),
+   default_value('{in_progress__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

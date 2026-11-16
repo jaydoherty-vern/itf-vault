@@ -1,0 +1,5 @@
+Picklistentry bi_ki__c (
+   value('BI-KI'),
+   order(457),
+   active(true)
+);

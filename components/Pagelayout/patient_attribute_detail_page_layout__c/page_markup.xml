@@ -1,0 +1,84 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.patient_attribute__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" readOnly="true" />
+            <vault:field reference="first_name__v" />
+            <vault:field reference="middle_name__v" />
+            <vault:field reference="last_name__v" />
+            <vault:field reference="full_name__v" />
+            <vault:field reference="date_of_birth__v" />
+            <vault:field reference="age_range__v" />
+            <vault:field reference="gender__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Contact Information" name="contact_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="home_phone__v" />
+            <vault:field reference="mobile_phone__v" />
+            <vault:field reference="email__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Address Details" name="address_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="address__v" />
+            <vault:field reference="street_address_1__v" />
+            <vault:field reference="street_address_2__v" />
+            <vault:field reference="city__v" />
+            <vault:field reference="state_province__v" />
+            <vault:field reference="postal_code__v" />
+            <vault:field reference="vcountry__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Caregiver Information" name="caregiver_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="has_caregiver__v" />
+            <vault:field reference="caregiver_relationship__v" />
+            <vault:field reference="caregiver__v" />
+            <vault:field reference="caregiver_mobile_phone__v" />
+            <vault:field reference="caregiver_email__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Patient Insurance" name="patient_insurance__c">
+        <vault:relatedObject relationship="patient_insurance__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="insurer_name__v" width="200px" />
+            <vault:field reference="phone_number__v" width="200px" />
+            <vault:field reference="type__v" width="200px" />
+            <vault:field reference="coverage_start_date__v" width="200px" />
+            <vault:field reference="coverage_end_date__v" width="200px" />
+            <vault:field reference="group_id__v" width="200px" />
+            <vault:field reference="member_id__v" width="200px" />
+            <vault:field reference="policyholder__v" width="200px" />
+            <vault:field reference="policyholder_relationship__v" width="200px" />
+            <vault:field reference="deductible__v" width="200px" />
+            <vault:field reference="copay_amount__v" width="200px" />
+            <vault:field reference="coinsurance_amount__v" width="200px" />
+            <vault:field reference="out_of_pocket_max__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Patient Prescription" name="patient_prescription__c">
+        <vault:relatedObject relationship="patient_prescription__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="patient_journey_association__v" width="200px" />
+            <vault:field reference="date_signed__v" width="200px" />
+            <vault:field reference="expiration_date__v" width="200px" />
+            <vault:field reference="prescriber_name__v" width="200px" />
+            <vault:field reference="prescriber_hospital_clinic__v" width="200px" />
+            <vault:field reference="prescriber_address__v" width="200px" />
+            <vault:field reference="prescriber_phone__v" width="200px" />
+            <vault:field reference="prescriber_email__v" width="200px" />
+            <vault:field reference="npi__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

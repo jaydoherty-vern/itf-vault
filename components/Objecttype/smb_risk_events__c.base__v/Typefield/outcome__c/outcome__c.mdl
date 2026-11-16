@@ -1,0 +1,4 @@
+Typefield outcome__c (
+   source('standard'),
+   required(false)
+);

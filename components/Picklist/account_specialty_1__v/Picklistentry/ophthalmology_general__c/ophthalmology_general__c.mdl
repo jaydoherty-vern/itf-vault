@@ -1,0 +1,5 @@
+Picklistentry ophthalmology_general__c (
+   value('OPHTHALMOLOGY - GENERAL'),
+   order(357),
+   active(true)
+);

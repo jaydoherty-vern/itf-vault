@@ -1,0 +1,5 @@
+Picklistentry public_health_general_preventive_med__c (
+   value('PUBLIC HEALTH & GENERAL PREVENTIVE MED'),
+   order(36),
+   active(true)
+);

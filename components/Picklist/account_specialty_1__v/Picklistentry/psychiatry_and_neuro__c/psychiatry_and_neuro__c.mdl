@@ -1,0 +1,5 @@
+Picklistentry psychiatry_and_neuro__c (
+   value('PSYCHIATRY AND NEURO'),
+   order(0),
+   active(true)
+);

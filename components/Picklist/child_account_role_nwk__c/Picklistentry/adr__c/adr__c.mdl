@@ -1,0 +1,5 @@
+Picklistentry adr__c (
+   value('Attending Physician'),
+   order(21),
+   active(true)
+);

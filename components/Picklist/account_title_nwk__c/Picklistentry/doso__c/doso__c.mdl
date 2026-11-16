@@ -1,0 +1,5 @@
+Picklistentry doso__c (
+   value('Radiophysicist'),
+   order(90),
+   active(true)
+);

@@ -1,0 +1,15 @@
+RECREATE Permissionset vspa_sample_adjustment__c (
+   label('VSPA_Sample_Adjustment'),
+   active(true),
+   description('To enable sample adjustment.'),
+   object.sample_transaction__v.adjust_for__v.field_actions('edit',
+      'read'),
+   object.sample_transaction__v.adjusted_date__v.field_actions('edit',
+      'read'),
+   object.sample_transaction__v.comments__v.field_actions('edit',
+      'read'),
+   object.sample_transaction__v.u_m__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

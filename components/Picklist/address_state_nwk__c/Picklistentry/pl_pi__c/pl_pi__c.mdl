@@ -1,0 +1,5 @@
+Picklistentry pl_pi__c (
+   value('PL_Piła'),
+   order(1361),
+   active(true)
+);

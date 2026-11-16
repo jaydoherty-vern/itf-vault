@@ -1,0 +1,5 @@
+Picklistentry contract_signed__c (
+   value('Contract Signed'),
+   order(7),
+   active(true)
+);

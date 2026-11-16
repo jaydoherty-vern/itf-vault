@@ -1,0 +1,5 @@
+Picklistentry tll_in_office_meeting__c (
+   value('TLL In Office Meeting'),
+   order(11),
+   active(true)
+);

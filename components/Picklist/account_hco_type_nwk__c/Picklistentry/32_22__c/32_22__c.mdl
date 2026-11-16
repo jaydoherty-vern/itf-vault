@@ -1,0 +1,5 @@
+Picklistentry 32_22__c (
+   value('Hospital, General Hospitals'),
+   order(67),
+   active(true)
+);

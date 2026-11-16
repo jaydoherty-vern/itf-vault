@@ -1,0 +1,4 @@
+Typefield inactive_vod__c (
+   source('custom'),
+   required(false)
+);

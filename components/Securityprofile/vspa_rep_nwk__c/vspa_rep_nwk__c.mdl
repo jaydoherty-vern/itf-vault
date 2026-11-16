@@ -1,0 +1,6 @@
+RECREATE Securityprofile vspa_rep_nwk__c (
+   label('VSPA_Rep_NWK'),
+   active(true),
+   description(),
+   permission_sets('vspa_rep_nwk_ps__c')
+);

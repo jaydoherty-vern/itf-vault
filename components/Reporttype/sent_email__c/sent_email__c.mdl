@@ -1,0 +1,9 @@
+RECREATE Reporttype sent_email__c (
+   label('Sent Email'),
+   active(true),
+   description('Sent Email'),
+   primary_object('sent_email__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

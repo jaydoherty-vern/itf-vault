@@ -1,0 +1,5 @@
+Picklistentry is_akn__c (
+   value('IS_Akraneskaupstaður'),
+   order(751),
+   active(true)
+);

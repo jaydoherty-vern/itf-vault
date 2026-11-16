@@ -1,0 +1,5 @@
+Picklistentry drmed__c (
+   value('Doctor Medicinae'),
+   order(96),
+   active(true)
+);

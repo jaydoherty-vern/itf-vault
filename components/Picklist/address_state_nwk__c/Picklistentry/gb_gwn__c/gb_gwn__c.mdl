@@ -1,0 +1,5 @@
+Picklistentry gb_gwn__c (
+   value('GB-GWN'),
+   order(502),
+   active(false)
+);

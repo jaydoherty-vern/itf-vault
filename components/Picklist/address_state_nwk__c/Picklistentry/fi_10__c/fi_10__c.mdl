@@ -1,0 +1,5 @@
+Picklistentry fi_10__c (
+   value('FI_Lapland'),
+   order(258),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ec_c__c (
+   value('Carchi'),
+   order(227),
+   active(true)
+);

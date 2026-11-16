@@ -1,0 +1,5 @@
+Picklistentry lsw__c (
+   value('LSW'),
+   order(15),
+   active(true)
+);

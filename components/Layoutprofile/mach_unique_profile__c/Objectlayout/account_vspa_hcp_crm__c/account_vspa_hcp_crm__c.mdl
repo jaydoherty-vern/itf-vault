@@ -1,0 +1,8 @@
+Objectlayout account_vspa_hcp_crm__c (
+   label('account_vspa_hcp_crm'),
+   active(true),
+   pagelayouts('Pagelayout.kol__c'),
+   object('Object.account__v'),
+   objecttype('Objecttype.account__v.vspa_hcp_crm__c'),
+   record_creation_layout('Pagelayout.kol__c')
+);

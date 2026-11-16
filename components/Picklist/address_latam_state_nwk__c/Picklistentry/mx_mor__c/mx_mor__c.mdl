@@ -1,0 +1,5 @@
+Picklistentry mx_mor__c (
+   value('Morelos'),
+   order(47),
+   active(true)
+);

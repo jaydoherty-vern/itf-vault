@@ -1,0 +1,5 @@
+Picklistentry de_mv__c (
+   value('DE_Mecklenburg-Vorpommern'),
+   order(138),
+   active(true)
+);

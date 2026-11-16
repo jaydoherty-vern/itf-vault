@@ -1,0 +1,5 @@
+Picklistentry hhp__c (
+   value('Head Hospital Pharmacist'),
+   order(45),
+   active(true)
+);

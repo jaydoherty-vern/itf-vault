@@ -1,0 +1,4 @@
+Typefield sp_open_date__c (
+   source('standard'),
+   required(false)
+);

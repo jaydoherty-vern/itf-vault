@@ -1,0 +1,5 @@
+Picklistentry bw_gh__c (
+   value('BW-GH'),
+   order(575),
+   active(true)
+);

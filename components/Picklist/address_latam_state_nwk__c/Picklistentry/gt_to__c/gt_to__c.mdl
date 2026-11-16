@@ -1,0 +1,5 @@
+Picklistentry gt_to__c (
+   value('Totonicapán'),
+   order(266),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field enable_child_accounts_in_analytics__v (
+   label('ENABLE_CHILD_ACCOUNTS_IN_ANALYTICS'),
+   type('Boolean'),
+   active(true),
+   description('If False, Analytics will not use the Child Account object to roll up data according to the account hierarchy. If true, a nightly process will run against the Child_Account_vod object to create a flattened ID Map (up to five levels deep)'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(126),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

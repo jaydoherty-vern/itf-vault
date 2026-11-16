@@ -1,0 +1,4 @@
+Typefield time_open__c (
+   source('standard'),
+   required(false)
+);

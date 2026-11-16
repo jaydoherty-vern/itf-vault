@@ -1,0 +1,5 @@
+Picklistentry ar_r__c (
+   value('Río Negro (AR)'),
+   order(73),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry si_080__c (
+   value('SI_Murska Sobota'),
+   order(1616),
+   active(true)
+);

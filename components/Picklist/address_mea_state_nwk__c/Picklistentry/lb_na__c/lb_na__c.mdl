@@ -1,0 +1,5 @@
+Picklistentry lb_na__c (
+   value('LB_Nabatîyé'),
+   order(50),
+   active(true)
+);

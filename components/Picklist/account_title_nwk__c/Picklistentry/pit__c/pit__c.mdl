@@ -1,0 +1,5 @@
+Picklistentry pit__c (
+   value('Physician in Training'),
+   order(77),
+   active(true)
+);

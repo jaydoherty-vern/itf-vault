@@ -1,0 +1,5 @@
+Picklistentry fr_74__c (
+   value('FR_Haute-Savoie'),
+   order(320),
+   active(true)
+);

@@ -1,0 +1,12 @@
+RECREATE Picklist build_status__c (
+   label('Build Status'),
+   active(true),
+   Picklistentry(@Picklistentry/review_design__c.mdl),
+   Picklistentry(@Picklistentry/build_in_progress__c.mdl),
+   Picklistentry(@Picklistentry/build_completed__c.mdl),
+   Picklistentry(@Picklistentry/build_documentation_completed__c.mdl),
+   Picklistentry(@Picklistentry/unit_test_in_progress__c.mdl),
+   Picklistentry(@Picklistentry/unit_test_completed__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

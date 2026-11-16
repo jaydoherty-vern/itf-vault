@@ -1,0 +1,5 @@
+Picklistentry peddent__c (
+   value('Pediatric Dentistry'),
+   order(320),
+   active(true)
+);

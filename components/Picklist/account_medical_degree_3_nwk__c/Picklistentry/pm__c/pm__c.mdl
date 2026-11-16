@@ -1,0 +1,5 @@
+Picklistentry pm__c (
+   value('Physical Medicine Diploma'),
+   order(212),
+   active(true)
+);

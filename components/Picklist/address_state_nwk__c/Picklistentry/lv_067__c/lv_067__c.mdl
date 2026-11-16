@@ -1,0 +1,5 @@
+Picklistentry lv_067__c (
+   value('LV_Ogres novads'),
+   order(1119),
+   active(true)
+);

@@ -1,0 +1,15 @@
+RECREATE Tab data_grid_loader_configurations__c (
+   active(false),
+   all_view_label('All Data Grid Loader Configurations'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Data Grid Loader Configurations'),
+   modal_create_record(false),
+   my_view_label('My Data Grid Loader Configurations'),
+   object('data_grid_loader_configuration__v'),
+   order(7700),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Data Grid Loader Configurations')
+);

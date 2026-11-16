@@ -1,0 +1,5 @@
+Picklistentry lv_028__c (
+   value('LV_Durbes novads (Durbe)'),
+   order(1076),
+   active(true)
+);

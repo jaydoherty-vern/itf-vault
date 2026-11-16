@@ -1,0 +1,5 @@
+Picklistentry it_cz__c (
+   value('IT_Catanzaro'),
+   order(855),
+   active(true)
+);

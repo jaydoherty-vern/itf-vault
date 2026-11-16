@@ -1,0 +1,5 @@
+Picklistentry gb_eal__c (
+   value('GB-EAL'),
+   order(482),
+   active(false)
+);

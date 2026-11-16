@@ -1,0 +1,5 @@
+Picklistentry prosth__c (
+   value('Prosthodontics'),
+   order(369),
+   active(true)
+);

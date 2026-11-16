@@ -1,0 +1,5 @@
+Picklistentry it_ao__c (
+   value('IT_Aosta'),
+   order(834),
+   active(true)
+);

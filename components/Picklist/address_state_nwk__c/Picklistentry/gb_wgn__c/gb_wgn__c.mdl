@@ -1,0 +1,5 @@
+Picklistentry gb_wgn__c (
+   value('GB-WGN'),
+   order(633),
+   active(false)
+);

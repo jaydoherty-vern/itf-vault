@@ -1,0 +1,4 @@
+Typefield adoption_level__c (
+   source('standard'),
+   required(false)
+);

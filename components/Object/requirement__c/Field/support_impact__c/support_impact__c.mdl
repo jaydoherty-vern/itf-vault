@@ -1,0 +1,18 @@
+Field support_impact__c (
+   label('Support Impact'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Will Minimally Impact Support (low degree of training and documentation)'),
+   list_column(false),
+   order(112),
+   multi_value(false),
+   picklist('Picklist.support_impact__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

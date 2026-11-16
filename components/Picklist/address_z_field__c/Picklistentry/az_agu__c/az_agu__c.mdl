@@ -1,0 +1,5 @@
+Picklistentry az_agu__c (
+   value('AZ-AGU'),
+   order(178),
+   active(true)
+);

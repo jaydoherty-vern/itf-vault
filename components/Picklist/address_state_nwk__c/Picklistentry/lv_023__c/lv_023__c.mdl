@@ -1,0 +1,5 @@
+Picklistentry lv_023__c (
+   value('LV_Ciblas novads (Cibla)'),
+   order(1069),
+   active(true)
+);

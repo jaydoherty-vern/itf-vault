@@ -1,0 +1,9 @@
+RECREATE Objectlifecyclestagegroup adherence_stage_group__c (
+   label('Adherence Stage Group'),
+   active(true),
+   description(),
+   object_lifecycle('Objectlifecycle.adherence_lifecycle__v'),
+   object_type('Objecttype.adherence__v.adherence__v'),
+   Objectlifecyclestage(@Objectlifecyclestage/complete__c.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/orientation_call__c.mdl)
+);

@@ -1,0 +1,5 @@
+Picklistentry ec_i__c (
+   value('Imbabura'),
+   order(228),
+   active(true)
+);

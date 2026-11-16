@@ -1,0 +1,5 @@
+Picklistentry 7340__c (
+   value('Corp. Owned'),
+   order(51),
+   active(true)
+);

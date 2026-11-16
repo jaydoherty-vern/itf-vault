@@ -1,0 +1,5 @@
+Picklistentry medical__c (
+   value('MEDICAL'),
+   order(342),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_039__c (
+   value('LV_Jaunpiebalgas novads (Jaunpiebalga)'),
+   order(1087),
+   active(true)
+);

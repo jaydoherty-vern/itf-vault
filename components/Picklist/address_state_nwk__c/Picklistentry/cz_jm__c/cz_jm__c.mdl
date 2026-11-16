@@ -1,0 +1,5 @@
+Picklistentry cz_jm__c (
+   value('CZ_Jihomoravský kraj'),
+   order(117),
+   active(true)
+);

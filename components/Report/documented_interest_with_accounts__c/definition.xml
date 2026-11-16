@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documented_interest__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documented_interest__v.scientific_interest__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documented_interest__v.object_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documented_interest__v.documented_interest_text__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documented_interest__v.verbal_acknowledgment__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documented_interest__v.expiration_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documented_interest__v.expired__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documented_interest__v___account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documented_interest__v___account__v.spec_1_cda__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documented_interest__v___account__v.primary_parent__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documented_interest__v___account__v.email_cda__v" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group>
+    <vrp:groupItem index="0" name="documented_interest__v.scientific_interest__v" groupBySortOn="documented_interest__v.scientific_interest__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="documented_interest__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

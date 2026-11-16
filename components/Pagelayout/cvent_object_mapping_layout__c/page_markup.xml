@@ -1,0 +1,22 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.cvent_object_mapping__v.cvent_object_mapping__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="cvent_instance__v" />
+            <vault:field reference="cvent_object_name__v" />
+            <vault:field reference="salesforce_object_name__v" />
+            <vault:field reference="external_id_api_name__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Cvent Field Mappings" name="cvent_field_mappings__c">
+        <vault:relatedObject relationship="cvent_field_mappings__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

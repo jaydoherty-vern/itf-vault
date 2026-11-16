@@ -1,0 +1,5 @@
+Picklistentry gi_pediatrics_dmd_program__c (
+   value('GI, PEDIATRICS, DMD PROGRAM'),
+   order(106),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield tov_max_amount_per_meal__c (
+   source('standard'),
+   required(false)
+);

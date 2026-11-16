@@ -1,0 +1,5 @@
+Picklistentry cmg__c (
+   value('Clinical Molecular Genetics'),
+   order(78),
+   active(true)
+);

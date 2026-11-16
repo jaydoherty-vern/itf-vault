@@ -1,0 +1,5 @@
+Picklistentry g_vet__c (
+   value('Veterinary'),
+   order(37),
+   active(true)
+);

@@ -1,0 +1,9 @@
+RECREATE Reporttype data_change_request__c (
+   label('Data Change Request report'),
+   active(true),
+   description('Data Change Request'),
+   primary_object('data_change_request__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

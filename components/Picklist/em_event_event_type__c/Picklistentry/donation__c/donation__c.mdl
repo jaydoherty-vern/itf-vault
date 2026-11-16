@@ -1,0 +1,5 @@
+Picklistentry donation__c (
+   value('Donation'),
+   order(8),
+   active(true)
+);

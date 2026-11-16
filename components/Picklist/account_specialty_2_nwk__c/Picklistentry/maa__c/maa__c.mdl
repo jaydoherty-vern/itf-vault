@@ -1,0 +1,5 @@
+Picklistentry maa__c (
+   value('Medical Administration'),
+   order(251),
+   active(true)
+);

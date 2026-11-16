@@ -1,0 +1,10 @@
+RECREATE Picklist smb_pmo_defect_qs_pmo_defect_source__c (
+   label('Defect Source'),
+   active(true),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   Picklistentry(@Picklistentry/tablet__c.mdl),
+   Picklistentry(@Picklistentry/online__c.mdl),
+   Picklistentry(@Picklistentry/ipad__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

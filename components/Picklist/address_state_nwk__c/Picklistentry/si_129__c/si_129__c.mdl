@@ -1,0 +1,5 @@
+Picklistentry si_129__c (
+   value('SI_Trbovlje'),
+   order(1643),
+   active(true)
+);

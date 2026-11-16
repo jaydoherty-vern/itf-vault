@@ -1,0 +1,6 @@
+RECREATE Securityprofile service_center_user__c (
+   label('Service Center User'),
+   active(true),
+   description(),
+   permission_sets('service_center_user__c')
+);

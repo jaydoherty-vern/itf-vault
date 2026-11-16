@@ -1,0 +1,12 @@
+RECREATE Picklist account_hco_status_qs_vod__c (
+   label('HCO Status'),
+   active(true),
+   Picklistentry(@Picklistentry/open__c.mdl),
+   Picklistentry(@Picklistentry/active__c.mdl),
+   Picklistentry(@Picklistentry/inactive__c.mdl),
+   Picklistentry(@Picklistentry/closed__c.mdl),
+   Picklistentry(@Picklistentry/undetermined__c.mdl),
+   Picklistentry(@Picklistentry/unverified__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

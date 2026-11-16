@@ -1,0 +1,5 @@
+Picklistentry gtx_and_gene_editing__c (
+   value('GTX AND GENE EDITING'),
+   order(86),
+   active(true)
+);

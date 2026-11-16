@@ -1,0 +1,21 @@
+Field formatted_name__v (
+   label('Formatted Name'),
+   type('String'),
+   active(true),
+   description('This formula field is used to display a well formatted person account name in (lastname, firstname suffix) format.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(129),
+   formula('If(ispersonaccount__v,If(object_type__vr.name__v=''Business_Professional_vod'',last_name_cda__v&", "&first_name_cda__v&" ("&primary_parent__vr.name__v&")",last_name_cda__v&If(Length(first_name_cda__v)=0,"",", "&first_name_cda__v)&If(Length(middle_name_cda__v)=0,"",", "&middle_name_cda__v)&If(IsBlank(suffix_cda__v),""," "&suffix_cda__v)),If(Id(primary_parent__v)!='''',name__v&" - "&primary_parent__vr.name__v,name__v))'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

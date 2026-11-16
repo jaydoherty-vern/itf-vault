@@ -1,0 +1,5 @@
+Picklistentry 14_22__c (
+   value('Medical School, Oriental Medicine'),
+   order(123),
+   active(true)
+);

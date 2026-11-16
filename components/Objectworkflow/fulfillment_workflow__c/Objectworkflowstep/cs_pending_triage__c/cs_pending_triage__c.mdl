@@ -1,0 +1,8 @@
+Objectworkflowstep cs_pending_triage__c (
+   label('CS: Pending Triage'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.ut_confirm_fulfillment_request__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

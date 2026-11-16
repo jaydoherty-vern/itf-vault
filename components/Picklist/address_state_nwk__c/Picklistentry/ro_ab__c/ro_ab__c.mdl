@@ -1,0 +1,5 @@
+Picklistentry ro_ab__c (
+   value('RO_Alba'),
+   order(1409),
+   active(true)
+);

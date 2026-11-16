@@ -1,0 +1,5 @@
+Picklistentry ni_ri__c (
+   value('Rivas'),
+   order(317),
+   active(true)
+);

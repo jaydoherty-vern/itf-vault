@@ -1,0 +1,18 @@
+Field ccrms_functionalprofile__c (
+   label('Functional Profile'),
+   type('Picklist'),
+   active(true),
+   description('To refer to a global list of functional profiles.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(176),
+   multi_value(false),
+   picklist('Picklist.ccrms_functionalprofile__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

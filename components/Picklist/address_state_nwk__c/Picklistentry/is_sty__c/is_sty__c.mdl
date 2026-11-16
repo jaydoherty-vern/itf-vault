@@ -1,0 +1,5 @@
+Picklistentry is_sty__c (
+   value('IS_Stykkishólmsbær'),
+   order(810),
+   active(true)
+);

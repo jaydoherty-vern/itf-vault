@@ -1,0 +1,5 @@
+Picklistentry ad_02__c (
+   value('AD-02'),
+   order(0),
+   active(true)
+);

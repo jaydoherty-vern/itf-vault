@@ -1,0 +1,5 @@
+Picklistentry tih_wes_ge__c (
+   value('TIH.WES.GE'),
+   order(35),
+   active(true)
+);

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.approved_email_template__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.email_sent_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.sent_email_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.opened__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.last_open_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.clicked__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.last_click_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v___account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v___account__v.npi__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v___account__v.primary_parent__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v___account__v.itf_segment__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v___account__v.specialty_1__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_fragment__v___sent_email__v.name__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="CURRENTCY" leftValue="sent_email__v.created_date__v" rightValue="2026-01-01;;;2026-12-31" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="IN" leftValue="sent_email__v.created_by__v" rightValue="user:b.williams;;;user:m.kirby;;;user:p.kelly;;;user:s.spencer;;;user:t.patterson" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="sent_email__v.created_by__v" groupBySortOn="sent_email__v.created_by__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="sent_email__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

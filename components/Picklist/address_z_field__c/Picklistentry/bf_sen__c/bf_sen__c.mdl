@@ -1,0 +1,5 @@
+Picklistentry bf_sen__c (
+   value('BF-SEN'),
+   order(404),
+   active(true)
+);

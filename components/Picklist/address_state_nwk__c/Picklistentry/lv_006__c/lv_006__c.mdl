@@ -1,0 +1,5 @@
+Picklistentry lv_006__c (
+   value('LV_Alsungas novads (Alsunga)'),
+   order(1052),
+   active(true)
+);

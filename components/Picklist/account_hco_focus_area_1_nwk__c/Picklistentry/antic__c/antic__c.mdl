@@ -1,0 +1,5 @@
+Picklistentry antic__c (
+   value('Anticoagulation'),
+   order(14),
+   active(true)
+);

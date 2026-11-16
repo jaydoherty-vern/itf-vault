@@ -1,0 +1,8 @@
+Objectlayout dynamic_attribute_configuration_checkbox__c (
+   label('dynamic_attribute_configuration_checkbox'),
+   active(true),
+   pagelayouts('Pagelayout.checkbox_vod__c'),
+   object('Object.dynamic_attribute_configuration__v'),
+   objecttype('Objecttype.dynamic_attribute_configuration__v.checkbox__v'),
+   record_creation_layout('Pagelayout.checkbox_vod__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry se_ac__c (
+   value('SE_Västerbottens County'),
+   order(1583),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry is_asa__c (
+   value('IS_Ásahreppur'),
+   order(754),
+   active(true)
+);

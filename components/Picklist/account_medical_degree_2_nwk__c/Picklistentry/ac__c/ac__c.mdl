@@ -1,0 +1,5 @@
+Picklistentry ac__c (
+   value('Acupuncturist'),
+   order(0),
+   active(true)
+);

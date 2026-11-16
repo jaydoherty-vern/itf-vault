@@ -1,0 +1,8 @@
+RECREATE Pagelayout qs_webinar_admin__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('QS_Webinar_Admin'),
+   page_markup(@page_markup.xml)
+);

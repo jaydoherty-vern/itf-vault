@@ -1,0 +1,4 @@
+Typefield ccrms_sharing_code__c (
+   source('custom'),
+   required(false)
+);

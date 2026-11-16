@@ -1,0 +1,7 @@
+Actionblock action_block2__c (
+   label('Action Block 1'),
+   active(true),
+   description(),
+   order(2),
+   code(@code.as)
+);

@@ -1,0 +1,5 @@
+Picklistentry co_suc__c (
+   value('CO-SUC'),
+   order(793),
+   active(true)
+);

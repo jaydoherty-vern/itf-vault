@@ -1,0 +1,5 @@
+Picklistentry tfs__c (
+   value('TFS'),
+   order(9),
+   active(true)
+);

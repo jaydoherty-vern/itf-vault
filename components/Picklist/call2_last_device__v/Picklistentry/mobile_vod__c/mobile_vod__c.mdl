@@ -1,0 +1,5 @@
+Picklistentry mobile_vod__c (
+   value('Mobile'),
+   order(8),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry dic__c (
+   value('Senior General Practitioner'),
+   order(214),
+   active(true)
+);

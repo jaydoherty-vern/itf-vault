@@ -1,0 +1,5 @@
+Picklistentry is_4__c (
+   value('IS_Vestfirðir'),
+   order(825),
+   active(true)
+);

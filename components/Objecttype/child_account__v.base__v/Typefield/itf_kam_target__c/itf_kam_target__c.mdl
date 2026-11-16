@@ -1,0 +1,4 @@
+Typefield itf_kam_target__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry milit__c (
+   value('Military Healthcare professional'),
+   order(19),
+   active(true)
+);

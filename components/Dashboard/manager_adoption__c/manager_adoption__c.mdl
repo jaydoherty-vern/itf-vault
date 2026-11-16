@@ -1,0 +1,10 @@
+RECREATE Dashboard manager_adoption__c (
+   active(true),
+   label('Manager - Adoption'),
+   description('Veeva Services provided dashboard.  If modifications are needed, please clone the dashboard.'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   dashboard_markup(@dashboard_markup.xml),
+   tags('veeva__sys')
+);

@@ -1,0 +1,9 @@
+RECREATE Reporttype requirement__c (
+   label('Requirement'),
+   active(true),
+   description('Requirement'),
+   primary_object('requirement__c'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

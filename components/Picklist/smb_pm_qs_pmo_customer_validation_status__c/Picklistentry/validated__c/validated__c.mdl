@@ -1,0 +1,5 @@
+Picklistentry validated__c (
+   value('Validated'),
+   order(2),
+   active(true)
+);

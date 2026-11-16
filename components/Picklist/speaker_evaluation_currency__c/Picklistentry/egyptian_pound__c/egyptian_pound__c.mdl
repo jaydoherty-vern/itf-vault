@@ -1,0 +1,5 @@
+Picklistentry egyptian_pound__c (
+   value('Egyptian Pound'),
+   order(54),
+   active(true)
+);

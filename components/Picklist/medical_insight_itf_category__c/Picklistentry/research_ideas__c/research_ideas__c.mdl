@@ -1,0 +1,5 @@
+Picklistentry research_ideas__c (
+   value('Research Ideas'),
+   order(3),
+   active(true)
+);

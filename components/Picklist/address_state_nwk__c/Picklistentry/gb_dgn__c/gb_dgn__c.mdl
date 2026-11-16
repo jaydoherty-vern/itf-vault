@@ -1,0 +1,5 @@
+Picklistentry gb_dgn__c (
+   value('GB-DGN'),
+   order(473),
+   active(false)
+);

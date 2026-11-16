@@ -1,0 +1,4 @@
+Typefield activity_status__c (
+   source('standard'),
+   required(false)
+);

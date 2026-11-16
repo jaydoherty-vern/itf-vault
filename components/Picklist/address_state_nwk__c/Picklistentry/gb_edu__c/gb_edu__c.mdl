@@ -1,0 +1,5 @@
+Picklistentry gb_edu__c (
+   value('GB-EDU'),
+   order(485),
+   active(false)
+);

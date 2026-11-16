@@ -1,0 +1,4 @@
+Typefield itf_info_seeking__c (
+   source('custom'),
+   required(false)
+);

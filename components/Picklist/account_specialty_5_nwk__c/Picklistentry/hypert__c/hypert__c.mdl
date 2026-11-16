@@ -1,0 +1,5 @@
+Picklistentry hypert__c (
+   value('Hypertension'),
+   order(203),
+   active(true)
+);

@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_em_event_coordinator_app__c (
+   label('VSPA_EM_Event_Coordinator_App'),
+   active(true),
+   description('Permission Set used to access the Event Coordinator Lightning Application'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

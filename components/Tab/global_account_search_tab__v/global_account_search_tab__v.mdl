@@ -1,0 +1,12 @@
+RECREATE Tab global_account_search_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Global Account Search'),
+   modal_create_record(false),
+   order(6400),
+   page('Page.global_account_search_page__v'),
+   parent(),
+   prevent_create(false),
+   url(@url.txt)
+);

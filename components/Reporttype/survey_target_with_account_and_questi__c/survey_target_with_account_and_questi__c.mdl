@@ -1,0 +1,9 @@
+RECREATE Reporttype survey_target_with_account_and_questi__c (
+   label('Survey Target with Account and Question Response'),
+   active(true),
+   description('Survey Target with Account and Question Responses (Child)'),
+   primary_object('survey_target__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

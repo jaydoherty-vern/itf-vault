@@ -1,0 +1,7 @@
+Picklistentry dty_correspondence__sys (
+   value('Correspondence'),
+   order(37),
+   active(true),
+   controlling_entries('dlc_unclassified__sys',
+         'dlc_general__sys')
+);

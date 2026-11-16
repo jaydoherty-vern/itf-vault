@@ -1,0 +1,19 @@
+Field cod_id_cegedim__c (
+   label('COD_ID_CEGEDIM'),
+   type('String'),
+   active(true),
+   description('ExternalId  holding cegedim code'),
+   required(false),
+   unique(true),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

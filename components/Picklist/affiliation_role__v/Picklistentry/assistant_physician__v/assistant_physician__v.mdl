@@ -1,0 +1,5 @@
+Picklistentry assistant_physician__v (
+   value('Assistant Physician'),
+   order(1),
+   active(true)
+);

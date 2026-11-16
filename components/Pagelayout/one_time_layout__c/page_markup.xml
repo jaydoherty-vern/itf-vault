@@ -1,0 +1,36 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.survey_target__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="name__v" />
+            <vault:field reference="channels__v" />
+            <vault:field reference="child_account__v" />
+            <vault:field reference="target_type__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Information" name="information1__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="survey__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="survey_target_status__v" />
+            <vault:field reference="submitted_datetime__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Questions" name="survey_target_questions_section__c" reference="survey_target_questions_section__v" />
+    <vault:section title="Question Responses" name="question_responses__c">
+        <vault:relatedObject relationship="question_responses__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

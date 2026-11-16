@@ -1,0 +1,5 @@
+Picklistentry ro_tr__c (
+   value('RO_Teleorman'),
+   order(1445),
+   active(true)
+);

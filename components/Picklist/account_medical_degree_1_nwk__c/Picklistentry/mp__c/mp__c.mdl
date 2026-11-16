@@ -1,0 +1,5 @@
+Picklistentry mp__c (
+   value('Mag. pharm.'),
+   order(200),
+   active(true)
+);

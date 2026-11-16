@@ -1,0 +1,4 @@
+Typefield vspa_street_number__c (
+   source('custom'),
+   required(false)
+);

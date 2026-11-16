@@ -1,0 +1,5 @@
+Picklistentry biochemistry_developmental_biology__c (
+   value('BIOCHEMISTRY, DEVELOPMENTAL BIOLOGY'),
+   order(126),
+   active(true)
+);

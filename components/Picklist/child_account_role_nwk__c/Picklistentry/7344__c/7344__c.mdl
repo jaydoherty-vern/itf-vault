@@ -1,0 +1,5 @@
+Picklistentry 7344__c (
+   value('Affiliation/Collaboration/JV'),
+   order(8),
+   active(true)
+);

@@ -1,0 +1,10 @@
+RECREATE Picklist initial_priority__c (
+   label('Initial Priority'),
+   active(true),
+   Picklistentry(@Picklistentry/must__c.mdl),
+   Picklistentry(@Picklistentry/should__c.mdl),
+   Picklistentry(@Picklistentry/could__c.mdl),
+   Picklistentry(@Picklistentry/wont__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

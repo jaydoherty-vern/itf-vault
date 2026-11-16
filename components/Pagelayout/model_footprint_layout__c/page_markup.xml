@@ -1,0 +1,51 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_footprint_model__v">
+    <vault:section title="Model Information" name="model_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="project__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="country__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Production Information" name="production_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="production_record__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:spacer />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="source__v" />
+            <vault:field reference="id" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Geographies Assigned to Model Footprint" name="geos_assigned_to_model_footprint__c">
+        <vault:relatedObject relationship="aln_footprint_geography_model__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="geography_object__v" width="200px" />
+            <vault:field reference="geography_object_type__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Model Territories with Model Footprint Assigned" name="model_territory_w_footprint_assigned__c">
+        <vault:relatedObject relationship="aln_territory_footprint_model__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="territory_model__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

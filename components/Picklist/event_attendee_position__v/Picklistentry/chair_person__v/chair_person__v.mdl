@@ -1,0 +1,5 @@
+Picklistentry chair_person__v (
+   value('Chair Person'),
+   order(1),
+   active(true)
+);

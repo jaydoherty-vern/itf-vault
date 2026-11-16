@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vault:dashboard xmlns:vault="VeevaVault" type="Eighteen-Columns" layoutVersion="V2">
+  <vault:chart name="unsubscribes_by_template__c" label="Unsubscribes by Template" type="bar" report="Report.unsubscribes_by_template1__c">
+    <vault:position row="27" col="0" sizeX="8" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Email Template" yaxislabel="Record Count (Email Activity)" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="email_activity__v___sent_email__v.approved_email_template__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="sent_email_templates_by_product__c" label="Sent Email Templates by Product" type="bar" report="Report.sent_email_templates_by_product__c">
+    <vault:position row="27" col="10" sizeX="8" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Email Template" yaxislabel="Record Count (Sent Email)" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="sent_email__v.approved_email_template__v" value="" />
+      <vault:grouping key="sent_email__v.product__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="key_messages_delivered_by_product__c" label="Key Messages Delivered by Product" type="bar" report="Report.key_messages_delivered_by_product1__c">
+    <vault:position row="18" col="0" sizeX="18" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Key Message" yaxislabel="Record Count (Call Key Message)" stacking="normal" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="call2_key_message__v.key_message__v" value="" />
+      <vault:grouping key="call2_key_message__v.product__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="top_clm_slides_by_duration__c" label="Top CLM Slides by Duration" type="table" report="Report.top_clm_slides_by_duration__c">
+    <vault:position row="0" col="6" sizeX="6" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="20" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="call2_key_message__v.key_message__v" value="" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="false">
+      <vault:reportColumn key="grp_call2_key_message__v.key_message__v" label="Call Key Message &gt; Key Message" property="link" />
+      <vault:reportColumn key="call2_key_message__v.duration__v" label="Call Key Message &gt; Duration" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+  <vault:chart name="least_used_clm_slides__c" label="Least Used CLM Slides" type="table" report="Report.least_used_clm_slides__c">
+    <vault:position row="9" col="0" sizeX="6" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="10" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="call2_key_message__v.key_message__v" value="" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="false">
+      <vault:reportColumn key="grp_call2_key_message__v.key_message__v" label="Call Key Message &gt; Key Message" property="link" />
+      <vault:reportColumn key="call2_key_message__v.object_count__v" label="Call Key Message &gt; Call Key Message Count" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+  <vault:chart name="top_clm_slides__c" label="Top CLM Slides" type="table" report="Report.top_clm_slides__c">
+    <vault:position row="0" col="0" sizeX="6" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="10" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="call2_key_message__v.key_message__v" value="" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="false">
+      <vault:reportColumn key="grp_call2_key_message__v.key_message__v" label="Call Key Message &gt; Key Message" property="link" />
+      <vault:reportColumn key="call2_key_message__v.object_count__v" label="Call Key Message &gt; Call Key Message Count" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+  <vault:chart name="clm_calls__c" label="CLM Calls" type="number" report="Report.clm_vs_nonclm_calls__c">
+    <vault:position row="0" col="12" sizeX="6" sizeY="5" />
+    <vault:format showmetrics="true" showgroupings="true" showpercentage="true">
+      <vault:range color="#427B2E" min="0.0" max="30.0" />
+      <vault:range color="#D9780D" min="31.0" max="70.0" />
+      <vault:range color="#B71307" min="71.0" max="100.0" />
+    </vault:format>
+    <vault:series metric="RecordCount" unitlabel="                                 ">
+      <vault:grouping key="call2__v.clm__v" value="true" labelLanguage="en" />
+      <vault:grouping key="call2__v.ownerid__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="nonclm_calls__c" label="Non-CLM Calls" type="number" report="Report.clm_vs_nonclm_calls__c">
+    <vault:position row="5" col="12" sizeX="6" sizeY="5" />
+    <vault:format showmetrics="true" showgroupings="true" showpercentage="true">
+      <vault:range color="#427B2E" min="0.0" max="30.0" />
+      <vault:range color="#D9780D" min="31.0" max="70.0" />
+      <vault:range color="#B71307" min="71.0" max="100.0" />
+    </vault:format>
+    <vault:series metric="RecordCount" unitlabel="                                 ">
+      <vault:grouping key="call2__v.clm__v" value="false" labelLanguage="en" />
+      <vault:grouping key="call2__v.ownerid__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="unique_clm_users_by_month__c" label="Unique CLM Users by Month" type="column" report="Report.unique_clm_users_by_month__c">
+    <vault:position row="36" col="0" sizeX="18" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Date (Month)" yaxislabel="Distinct Count (User ID)" />
+    <vault:series metric="call2__v___ownerid__v.id">
+      <vault:grouping key="call2__v.call_date__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="unique_approved_email_users_by_month__c" label="Unique Approved Email Users by Month" type="column" report="Report.unique_approved_email_users_by_month__c">
+    <vault:position row="45" col="0" sizeX="18" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Sent Date (Month)" yaxislabel="Distinct Count (User ID)" />
+    <vault:series metric="sent_email__v___ownerid__v.id">
+      <vault:grouping key="sent_email__v.email_sent_date__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="clm_slides_by_lowest_duration__c" label="CLM Slides by Lowest Duration" type="table" report="Report.clm_slides_by_lowest_duration__c">
+    <vault:position row="9" col="6" sizeX="6" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="20" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="call2_key_message__v.key_message__v" value="" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="false">
+      <vault:reportColumn key="grp_call2_key_message__v.key_message__v" label="Call Key Message &gt; Key Message" property="link" />
+      <vault:reportColumn key="call2_key_message__v.duration__v" label="Call Key Message &gt; Duration" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+  <vault:chart name="unique_clm_presentations_delivered_th__c" label="Unique CLM Presentations Delivered this Quarter" type="number" report="Report.unique_clm_presentations_delivered_th__c">
+    <vault:position row="10" col="12" sizeX="6" sizeY="5" />
+    <vault:format showmetrics="true" showgroupings="true" showpercentage="false">
+      <vault:range color="#427B2E" min="0.0" max="30.0" />
+      <vault:range color="#D9780D" min="31.0" max="70.0" />
+      <vault:range color="#B71307" min="71.0" max="100.0" />
+    </vault:format>
+    <vault:series metric="call2_key_message__v___clm_presentation__v.id" unitlabel="     ">
+      <vault:grouping key="call2_key_message__v.clm_presentation__v" value="AllValues" labelLanguage="en" />
+    </vault:series>
+  </vault:chart>
+</vault:dashboard>

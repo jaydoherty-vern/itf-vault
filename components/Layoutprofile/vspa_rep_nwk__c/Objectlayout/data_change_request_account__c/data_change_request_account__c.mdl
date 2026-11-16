@@ -1,0 +1,8 @@
+Objectlayout data_change_request_account__c (
+   label('data_change_request_account'),
+   active(true),
+   pagelayouts('Pagelayout.end_user_data_change_request_layout__c'),
+   object('Object.data_change_request__v'),
+   objecttype('Objecttype.data_change_request__v.account__v'),
+   record_creation_layout('Pagelayout.end_user_data_change_request_layout__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry r__v (
+   value('Eligible (with restrictions)'),
+   order(2),
+   active(true)
+);

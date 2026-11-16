@@ -1,0 +1,5 @@
+Picklistentry tyt_wes_d__c (
+   value('TYT.WES.D'),
+   order(0),
+   active(true)
+);

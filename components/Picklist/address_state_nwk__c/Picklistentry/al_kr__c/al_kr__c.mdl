@@ -1,0 +1,5 @@
+Picklistentry al_kr__c (
+   value('AL_Krujë'),
+   order(28),
+   active(true)
+);

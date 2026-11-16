@@ -1,0 +1,5 @@
+Picklistentry transfer_of_value__c (
+   value('Transfer of Value'),
+   order(44),
+   active(true)
+);

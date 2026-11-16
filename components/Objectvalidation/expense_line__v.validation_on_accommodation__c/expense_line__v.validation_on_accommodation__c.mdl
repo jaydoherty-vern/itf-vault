@@ -1,0 +1,8 @@
+RECREATE Objectvalidation expense_line__v.validation_on_accommodation__c (
+   label('Validation_on_Accommodation'),
+   active(true),
+   expression('Not(And(Contains(expense_type__vr.name__v,"Accommodation"),split_amount_per_person__v>1000))'),
+   description('Check split amount for accommodation'),
+   error_message('Accommodation is crossing the Limit per HCP.'),
+   error_location('id')
+);

@@ -1,0 +1,5 @@
+Picklistentry cf_lb__c (
+   value('CF-LB'),
+   order(630),
+   active(true)
+);

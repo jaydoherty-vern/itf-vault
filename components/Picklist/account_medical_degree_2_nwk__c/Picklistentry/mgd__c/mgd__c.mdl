@@ -1,0 +1,5 @@
+Picklistentry mgd__c (
+   value('Molecular Genetic Diagnostics Diploma'),
+   order(220),
+   active(true)
+);

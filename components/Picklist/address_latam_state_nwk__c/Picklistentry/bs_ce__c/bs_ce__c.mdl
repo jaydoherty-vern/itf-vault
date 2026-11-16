@@ -1,0 +1,5 @@
+Picklistentry bs_ce__c (
+   value('Central Eleuthera'),
+   order(119),
+   active(true)
+);

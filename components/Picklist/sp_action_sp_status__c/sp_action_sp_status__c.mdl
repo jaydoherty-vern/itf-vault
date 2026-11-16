@@ -1,0 +1,8 @@
+RECREATE Picklist sp_action_sp_status__c (
+   label('Status'),
+   active(true),
+   Picklistentry(@Picklistentry/open__c.mdl),
+   Picklistentry(@Picklistentry/completed__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

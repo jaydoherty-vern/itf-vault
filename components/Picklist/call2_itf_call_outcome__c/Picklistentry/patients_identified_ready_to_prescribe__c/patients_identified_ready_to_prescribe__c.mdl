@@ -1,0 +1,5 @@
+Picklistentry patients_identified_ready_to_prescribe__c (
+   value('Patients Identified, Ready to Prescribe'),
+   order(0),
+   active(true)
+);

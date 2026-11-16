@@ -1,0 +1,5 @@
+Picklistentry 30_4__c (
+   value('Laboratory Medicine_Clinical Microbiology'),
+   order(227),
+   active(true)
+);

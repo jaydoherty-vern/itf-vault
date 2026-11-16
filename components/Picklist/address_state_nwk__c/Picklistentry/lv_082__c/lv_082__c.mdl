@@ -1,0 +1,5 @@
+Picklistentry lv_082__c (
+   value('LV_Rugāju novads (Rugāji)'),
+   order(1136),
+   active(true)
+);

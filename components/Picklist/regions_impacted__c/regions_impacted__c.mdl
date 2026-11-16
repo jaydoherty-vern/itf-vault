@@ -1,0 +1,12 @@
+RECREATE Picklist regions_impacted__c (
+   label('Regions Impacted'),
+   active(true),
+   Picklistentry(@Picklistentry/global__c.mdl),
+   Picklistentry(@Picklistentry/north_america__c.mdl),
+   Picklistentry(@Picklistentry/latin_america__c.mdl),
+   Picklistentry(@Picklistentry/europe__c.mdl),
+   Picklistentry(@Picklistentry/asia_pacific__c.mdl),
+   Picklistentry(@Picklistentry/africa__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

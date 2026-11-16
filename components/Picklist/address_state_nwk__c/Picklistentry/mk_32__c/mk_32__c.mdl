@@ -1,0 +1,5 @@
+Picklistentry mk_32__c (
+   value('MK_Zelenikovo'),
+   order(1287),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry tr__c (
+   value('Therapeutic Radiology'),
+   order(522),
+   active(true)
+);

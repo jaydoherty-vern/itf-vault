@@ -1,0 +1,18 @@
+Field hcp_focus_area_1_qs__c (
+   label('HCP focus area 1'),
+   type('Picklist'),
+   active(true),
+   description('Network field - HCP focus area 1'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(242),
+   multi_value(false),
+   picklist('Picklist.account_hcp_focus_area_1_qs__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

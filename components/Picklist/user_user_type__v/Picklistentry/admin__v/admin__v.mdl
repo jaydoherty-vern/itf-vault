@@ -1,0 +1,5 @@
+Picklistentry admin__v (
+   value('Operations and Admin'),
+   order(7),
+   active(true)
+);

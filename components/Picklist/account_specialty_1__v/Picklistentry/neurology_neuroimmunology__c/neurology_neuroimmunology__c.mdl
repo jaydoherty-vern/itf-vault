@@ -1,0 +1,5 @@
+Picklistentry neurology_neuroimmunology__c (
+   value('NEUROLOGY, NEUROIMMUNOLOGY'),
+   order(139),
+   active(true)
+);

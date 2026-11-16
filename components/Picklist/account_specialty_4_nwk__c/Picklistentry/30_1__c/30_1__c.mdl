@@ -1,0 +1,5 @@
+Picklistentry 30_1__c (
+   value('Laboratory Medicine_Immunoserological Assay'),
+   order(229),
+   active(true)
+);

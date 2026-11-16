@@ -1,0 +1,4 @@
+Typefield veeva_nwk_id_vod__c (
+   source('custom'),
+   required(false)
+);

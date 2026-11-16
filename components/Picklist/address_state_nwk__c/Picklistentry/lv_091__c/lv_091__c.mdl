@@ -1,0 +1,5 @@
+Picklistentry lv_091__c (
+   value('LV_Siguldas novads'),
+   order(1145),
+   active(true)
+);

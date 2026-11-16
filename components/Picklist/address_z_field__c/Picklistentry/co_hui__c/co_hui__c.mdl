@@ -1,0 +1,5 @@
+Picklistentry co_hui__c (
+   value('CO-HUI'),
+   order(782),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field risk_or_issue__c (
+   label('Risk or Issue'),
+   type('Picklist'),
+   active(true),
+   description('PMO:: Indicates if it is a Risk or an Issue'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.smb_issue_risk_or_issue__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

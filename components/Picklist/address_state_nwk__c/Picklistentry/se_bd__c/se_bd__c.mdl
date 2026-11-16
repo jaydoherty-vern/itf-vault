@@ -1,0 +1,5 @@
+Picklistentry se_bd__c (
+   value('SE_Norrbottens County'),
+   order(1575),
+   active(true)
+);

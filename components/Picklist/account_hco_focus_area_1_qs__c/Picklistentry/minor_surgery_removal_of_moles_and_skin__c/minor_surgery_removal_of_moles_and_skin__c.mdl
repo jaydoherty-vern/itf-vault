@@ -1,0 +1,5 @@
+Picklistentry minor_surgery_removal_of_moles_and_skin__c (
+   value('Minor Surgery (Removal of moles and skin lesions)'),
+   order(60),
+   active(true)
+);

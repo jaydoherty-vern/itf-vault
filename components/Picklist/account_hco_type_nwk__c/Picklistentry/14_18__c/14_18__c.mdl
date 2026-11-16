@@ -1,0 +1,5 @@
+Picklistentry 14_18__c (
+   value('Medical School, Chiropractic'),
+   order(113),
+   active(true)
+);

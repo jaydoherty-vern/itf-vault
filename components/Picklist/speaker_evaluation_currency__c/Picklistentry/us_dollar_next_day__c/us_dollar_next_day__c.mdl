@@ -1,0 +1,5 @@
+Picklistentry us_dollar_next_day__c (
+   value('US Dollar (Next day)'),
+   order(159),
+   active(true)
+);

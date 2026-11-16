@@ -1,0 +1,5 @@
+Picklistentry spedoc__c (
+   value('Specialty Doctor'),
+   order(223),
+   active(true)
+);

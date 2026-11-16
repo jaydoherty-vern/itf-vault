@@ -1,0 +1,5 @@
+Picklistentry hu_sz__c (
+   value('HU_Szabolcs-Szatmár-Bereg'),
+   order(707),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout picklist_vod__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Picklist_vod'),
+   page_markup(@page_markup.xml)
+);

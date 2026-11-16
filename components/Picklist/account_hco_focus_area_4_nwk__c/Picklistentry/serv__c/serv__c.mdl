@@ -1,0 +1,5 @@
+Picklistentry serv__c (
+   value('New Medicine Service'),
+   order(158),
+   active(true)
+);

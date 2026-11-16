@@ -1,0 +1,5 @@
+Picklistentry camel__c (
+   value('Camelids'),
+   order(33),
+   active(true)
+);

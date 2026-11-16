@@ -1,0 +1,5 @@
+Picklistentry al_pr__c (
+   value('AL_Përmet'),
+   order(42),
+   active(true)
+);

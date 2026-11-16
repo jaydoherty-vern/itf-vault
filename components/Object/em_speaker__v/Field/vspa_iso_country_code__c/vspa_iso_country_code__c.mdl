@@ -1,0 +1,19 @@
+Field vspa_iso_country_code__c (
+   label('ISO Country Code'),
+   type('String'),
+   active(true),
+   description('ISO Country Code'),
+   required(false),
+   unique(false),
+   max_length(2),
+   help_content(),
+   list_column(false),
+   order(83),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

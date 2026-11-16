@@ -1,0 +1,5 @@
+Picklistentry anesthesiology_general__c (
+   value('ANESTHESIOLOGY - GENERAL'),
+   order(46),
+   active(true)
+);

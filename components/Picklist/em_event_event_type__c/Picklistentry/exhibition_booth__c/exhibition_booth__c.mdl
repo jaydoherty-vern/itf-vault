@@ -1,0 +1,5 @@
+Picklistentry exhibition_booth__c (
+   value('Exhibition / Booth'),
+   order(10),
+   active(true)
+);

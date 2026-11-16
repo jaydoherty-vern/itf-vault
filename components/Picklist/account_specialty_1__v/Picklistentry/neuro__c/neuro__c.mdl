@@ -1,0 +1,5 @@
+Picklistentry neuro__c (
+   value('NEURO'),
+   order(343),
+   active(true)
+);

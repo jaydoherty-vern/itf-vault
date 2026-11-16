@@ -1,0 +1,5 @@
+Picklistentry darkblue__v (
+   value('Dark Blue'),
+   order(23),
+   active(true)
+);

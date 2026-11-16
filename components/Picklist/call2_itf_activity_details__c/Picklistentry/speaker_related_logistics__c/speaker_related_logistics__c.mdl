@@ -1,0 +1,5 @@
+Picklistentry speaker_related_logistics__c (
+   value('Speaker Related Logistics'),
+   order(4),
+   active(true)
+);

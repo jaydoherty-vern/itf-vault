@@ -1,0 +1,5 @@
+Picklistentry available_for_use__v (
+   value('Available for Use'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectlayout account_organization__c (
+   label('account_organization'),
+   active(true),
+   pagelayouts('Pagelayout.hospital__c'),
+   object('Object.account__v'),
+   objecttype('Objecttype.account__v.organization__v'),
+   record_creation_layout('Pagelayout.hospital__c')
+);

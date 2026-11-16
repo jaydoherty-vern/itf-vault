@@ -1,0 +1,5 @@
+Picklistentry internal_consultant__c (
+   value('Internal Consultant'),
+   order(21),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ci_cm__c (
+   value('CI-CM'),
+   order(697),
+   active(true)
+);

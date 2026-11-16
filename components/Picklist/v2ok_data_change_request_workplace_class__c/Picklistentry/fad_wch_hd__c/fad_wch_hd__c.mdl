@@ -1,0 +1,5 @@
+Picklistentry fad_wch_hd__c (
+   value('FAD.WCH.HD'),
+   order(4),
+   active(true)
+);

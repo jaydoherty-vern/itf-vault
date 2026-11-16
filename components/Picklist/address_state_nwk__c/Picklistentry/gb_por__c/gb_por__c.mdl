@@ -1,0 +1,5 @@
+Picklistentry gb_por__c (
+   value('GB-POR'),
+   order(580),
+   active(false)
+);

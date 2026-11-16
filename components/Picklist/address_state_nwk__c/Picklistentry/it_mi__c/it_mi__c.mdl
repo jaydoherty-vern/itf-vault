@@ -1,0 +1,5 @@
+Picklistentry it_mi__c (
+   value('IT_Milan'),
+   order(888),
+   active(true)
+);

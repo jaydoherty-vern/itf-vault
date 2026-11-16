@@ -1,0 +1,49 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sent_email__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" readOnly="true" />
+            <vault:field reference="account_email__v" readOnly="true" />
+            <vault:field reference="sender_email__v" readOnly="true" />
+            <vault:field reference="clicked_custom__c" />
+            <vault:field reference="product__v" readOnly="true" />
+            <vault:field reference="approved_email_template__v" readOnly="true" />
+            <vault:field reference="ownerid__v" readOnly="true" />
+            <vault:field reference="activity_tracking_mode__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Status and Timeframe" name="status_and_timeframe__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="sent_email_status__v" readOnly="true" />
+            <vault:field reference="failure_msg__v" readOnly="true" />
+            <vault:field reference="email_sent_date__v" readOnly="true" />
+            <vault:field reference="last_activity_date__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Open and Click Statistics" name="open_and_click_statistics__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="opened__v" />
+            <vault:field reference="open_count__v" />
+            <vault:field reference="last_open_date__v" />
+            <vault:field reference="click_count__v" />
+            <vault:field reference="last_click_date__v" />
+            <vault:field reference="approved_document_views__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Email Activity" name="email_activity__c">
+        <vault:relatedObject relationship="email_activity__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="event_type__v" width="200px" />
+            <vault:field reference="activity_datetime__v" width="200px" />
+            <vault:field reference="device_type__v" width="200px" />
+            <vault:field reference="client_os__v" width="200px" />
+            <vault:field reference="client_type__v" width="200px" />
+            <vault:field reference="client_name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

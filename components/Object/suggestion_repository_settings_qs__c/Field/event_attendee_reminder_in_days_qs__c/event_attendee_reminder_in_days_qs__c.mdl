@@ -1,0 +1,22 @@
+Field event_attendee_reminder_in_days_qs__c (
+   label('Event Attendee Reminder In Days'),
+   type('Number'),
+   active(true),
+   description('Two digit number to define the date of appearance on the automatically created Suggestion record(s). CreatedDate + Value of this Field = Posted Date'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(-999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

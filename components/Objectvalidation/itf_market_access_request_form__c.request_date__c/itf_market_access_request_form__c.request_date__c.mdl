@@ -1,0 +1,8 @@
+RECREATE Objectvalidation itf_market_access_request_form__c.request_date__c (
+   label('REQUEST_DATE'),
+   active(true),
+   expression('Not(itf_request_date__c>Today("user"))'),
+   description('Request Date can''t be in the future.'),
+   error_message('The Request Date cannot be a future date.'),
+   error_location('itf_request_date__c')
+);

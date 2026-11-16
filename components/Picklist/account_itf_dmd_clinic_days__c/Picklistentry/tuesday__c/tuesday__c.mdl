@@ -1,0 +1,5 @@
+Picklistentry tuesday__c (
+   value('Tuesday'),
+   order(1),
+   active(true)
+);

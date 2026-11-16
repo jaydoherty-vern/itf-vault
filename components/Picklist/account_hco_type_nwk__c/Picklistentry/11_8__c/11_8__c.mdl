@@ -1,0 +1,5 @@
+Picklistentry 11_8__c (
+   value('Pharmacy, HIV/AIDS Clinic'),
+   order(208),
+   active(true)
+);

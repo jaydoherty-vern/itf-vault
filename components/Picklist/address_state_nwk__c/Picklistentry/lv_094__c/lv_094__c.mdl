@@ -1,0 +1,5 @@
+Picklistentry lv_094__c (
+   value('LV_Smiltenes novads'),
+   order(1148),
+   active(true)
+);

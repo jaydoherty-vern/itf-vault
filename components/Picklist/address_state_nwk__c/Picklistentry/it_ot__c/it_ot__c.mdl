@@ -1,0 +1,5 @@
+Picklistentry it_ot__c (
+   value('IT_Olbia-Tempio'),
+   order(895),
+   active(true)
+);

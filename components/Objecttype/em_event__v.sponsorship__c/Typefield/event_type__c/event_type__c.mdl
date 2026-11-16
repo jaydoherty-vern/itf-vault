@@ -1,0 +1,11 @@
+Typefield event_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_event_type__c.contract__c',
+         'Picklist.em_event_event_type__c.grant__c',
+         'Picklist.em_event_event_type__c.hco_sponsorship__c',
+         'Picklist.em_event_event_type__c.hcp_hco_sponsorship__c',
+         'Picklist.em_event_event_type__c.hcp_sponsorship__c',
+         'Picklist.em_event_event_type__c.stand__c'),
+   default_value('Picklist.em_event_event_type__c.stand__c')
+);

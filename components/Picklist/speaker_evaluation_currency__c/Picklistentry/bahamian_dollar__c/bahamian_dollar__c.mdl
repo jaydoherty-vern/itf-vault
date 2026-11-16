@@ -1,0 +1,5 @@
+Picklistentry bahamian_dollar__c (
+   value('Bahamian Dollar'),
+   order(13),
+   active(true)
+);

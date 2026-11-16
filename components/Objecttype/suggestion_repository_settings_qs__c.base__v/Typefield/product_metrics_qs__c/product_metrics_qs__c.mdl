@@ -1,0 +1,4 @@
+Typefield product_metrics_qs__c (
+   source('standard'),
+   required(false)
+);

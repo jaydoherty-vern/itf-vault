@@ -1,0 +1,17 @@
+Field requirement_description__c (
+   label('Requirement Description'),
+   type('LongText'),
+   active(true),
+   description('Gathers further details for requirements.'),
+   required(false),
+   max_length(5000),
+   help_content('Detailed Summary, Screen Impacted, Field Names, Calculations, Workflows, Volumes'),
+   list_column(false),
+   order(103),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

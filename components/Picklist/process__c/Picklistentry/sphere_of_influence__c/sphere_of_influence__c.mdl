@@ -1,0 +1,5 @@
+Picklistentry sphere_of_influence__c (
+   value('Sphere of Influence'),
+   order(36),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ee_78__c (
+   value('EE_Tartumaa'),
+   order(179),
+   active(true)
+);

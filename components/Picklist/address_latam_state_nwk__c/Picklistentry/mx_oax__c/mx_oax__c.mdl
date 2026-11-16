@@ -1,0 +1,5 @@
+Picklistentry mx_oax__c (
+   value('Oaxaca'),
+   order(59),
+   active(true)
+);

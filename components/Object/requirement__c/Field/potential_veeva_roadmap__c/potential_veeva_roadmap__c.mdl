@@ -1,0 +1,18 @@
+Field potential_veeva_roadmap__c (
+   label('Potential Veeva Roadmap'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(78),
+   multi_value(false),
+   picklist('Picklist.potential_veeva_roadmap__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

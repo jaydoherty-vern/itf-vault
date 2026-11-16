@@ -1,0 +1,9 @@
+RECREATE Permissionset vspa_clm_test__c (
+   label('VSPA_CLM_TEST'),
+   active(true),
+   description('Gives permission to testing CLM content such as presentation status visibility.'),
+   object.user__sys.enable_clm_testing_features__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

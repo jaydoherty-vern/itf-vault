@@ -1,0 +1,5 @@
+Picklistentry mi__c (
+   value('MI'),
+   order(137),
+   active(true)
+);

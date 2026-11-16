@@ -1,0 +1,5 @@
+Picklistentry cd__c (
+   value('Cardiovascular Disease'),
+   order(56),
+   active(true)
+);

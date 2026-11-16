@@ -1,0 +1,5 @@
+Picklistentry neptg__c (
+   value('Diploma in Neuropathology'),
+   order(74),
+   active(true)
+);

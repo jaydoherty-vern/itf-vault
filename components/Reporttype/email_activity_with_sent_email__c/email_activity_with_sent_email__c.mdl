@@ -1,0 +1,9 @@
+RECREATE Reporttype email_activity_with_sent_email__c (
+   label('Email Activity with Sent Email'),
+   active(true),
+   description('Email Activity with Sent Email (Parent)'),
+   primary_object('email_activity__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

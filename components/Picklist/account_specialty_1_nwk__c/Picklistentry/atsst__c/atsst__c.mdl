@@ -1,0 +1,5 @@
+Picklistentry atsst__c (
+   value('Accident / Trauma Surgery, Sport Traumatology'),
+   order(4),
+   active(true)
+);

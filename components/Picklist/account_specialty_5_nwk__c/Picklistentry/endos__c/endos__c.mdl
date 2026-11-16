@@ -1,0 +1,5 @@
+Picklistentry endos__c (
+   value('Endoscopy'),
+   order(128),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry af_sam__c (
+   value('AF-SAM'),
+   order(41),
+   active(true)
+);

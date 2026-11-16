@@ -1,0 +1,5 @@
+Picklistentry fr_gp__c (
+   value('FR_Guadeloupe'),
+   order(312),
+   active(true)
+);

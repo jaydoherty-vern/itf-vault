@@ -1,0 +1,5 @@
+Picklistentry nonexedir__c (
+   value('Non-Executive Director'),
+   order(144),
+   active(true)
+);

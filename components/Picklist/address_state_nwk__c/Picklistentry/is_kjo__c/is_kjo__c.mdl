@@ -1,0 +1,5 @@
+Picklistentry is_kjo__c (
+   value('IS_Kjósarhreppur'),
+   order(787),
+   active(true)
+);

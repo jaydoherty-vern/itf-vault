@@ -1,0 +1,5 @@
+Picklistentry 2_11__c (
+   value('Inactive, No longer working in healthcare industry'),
+   order(6),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry res__c (
+   value('Research Medicine'),
+   order(462),
+   active(true)
+);

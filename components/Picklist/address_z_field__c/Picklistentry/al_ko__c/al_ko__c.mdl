@@ -1,0 +1,5 @@
+Picklistentry al_ko__c (
+   value('AL-KO'),
+   order(82),
+   active(true)
+);

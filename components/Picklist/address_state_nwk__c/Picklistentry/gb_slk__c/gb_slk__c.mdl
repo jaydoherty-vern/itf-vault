@@ -1,0 +1,5 @@
+Picklistentry gb_slk__c (
+   value('GB-SLK'),
+   order(604),
+   active(false)
+);

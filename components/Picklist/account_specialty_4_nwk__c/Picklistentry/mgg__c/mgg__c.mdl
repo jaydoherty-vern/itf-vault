@@ -1,0 +1,5 @@
+Picklistentry mgg__c (
+   value('Molecular Genetic Pathology (Genetics)'),
+   order(274),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry charc__c (
+   value('Charcot disease'),
+   order(70),
+   active(true)
+);

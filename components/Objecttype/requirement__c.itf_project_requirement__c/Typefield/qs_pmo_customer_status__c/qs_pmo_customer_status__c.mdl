@@ -1,0 +1,4 @@
+Typefield qs_pmo_customer_status__c (
+   source('custom'),
+   required(false)
+);

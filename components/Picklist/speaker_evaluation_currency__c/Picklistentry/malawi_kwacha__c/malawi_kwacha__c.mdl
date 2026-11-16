@@ -1,0 +1,5 @@
+Picklistentry malawi_kwacha__c (
+   value('Malawi Kwacha'),
+   order(98),
+   active(true)
+);

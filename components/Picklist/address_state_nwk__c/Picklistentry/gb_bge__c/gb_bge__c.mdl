@@ -1,0 +1,5 @@
+Picklistentry gb_bge__c (
+   value('GB-BGE'),
+   order(429),
+   active(false)
+);

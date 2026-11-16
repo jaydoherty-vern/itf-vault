@@ -1,0 +1,5 @@
+Typefield hco_status_qs_vod__c (
+   source('custom'),
+   required(false),
+   default_value('PicklistValues(hco_status_qs_vod__c, ''unverified__c'')')
+);

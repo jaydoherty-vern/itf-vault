@@ -1,0 +1,5 @@
+Picklistentry al_ka__c (
+   value('AL-KA'),
+   order(79),
+   active(true)
+);

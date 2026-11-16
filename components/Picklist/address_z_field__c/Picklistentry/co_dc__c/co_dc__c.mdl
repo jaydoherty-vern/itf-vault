@@ -1,0 +1,5 @@
+Picklistentry co_dc__c (
+   value('CO-DC'),
+   order(779),
+   active(true)
+);

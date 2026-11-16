@@ -1,0 +1,8 @@
+Objectlayout approved_document_events_management__c (
+   label('approved_document_events_management'),
+   active(true),
+   pagelayouts('Pagelayout.user_email_template__c'),
+   object('Object.approved_document__v'),
+   objecttype('Objecttype.approved_document__v.events_management__v'),
+   record_creation_layout('Pagelayout.user_email_template__c')
+);

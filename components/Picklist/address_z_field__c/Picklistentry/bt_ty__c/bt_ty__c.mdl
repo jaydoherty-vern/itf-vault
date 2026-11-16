@@ -1,0 +1,5 @@
+Picklistentry bt_ty__c (
+   value('BT-TY'),
+   order(573),
+   active(true)
+);

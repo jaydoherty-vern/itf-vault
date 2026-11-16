@@ -1,0 +1,5 @@
+Picklistentry it_cl__c (
+   value('IT_Caltanissetta'),
+   order(850),
+   active(true)
+);

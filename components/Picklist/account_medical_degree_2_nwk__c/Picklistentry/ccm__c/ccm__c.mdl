@@ -1,0 +1,5 @@
+Picklistentry ccm__c (
+   value('Critical Care Medicine Diploma'),
+   order(26),
+   active(true)
+);

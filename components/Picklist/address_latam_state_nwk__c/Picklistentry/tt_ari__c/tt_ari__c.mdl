@@ -1,0 +1,5 @@
+Picklistentry tt_ari__c (
+   value('Arima'),
+   order(386),
+   active(true)
+);

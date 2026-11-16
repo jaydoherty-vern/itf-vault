@@ -1,0 +1,5 @@
+Picklistentry journal__c (
+   value('Journal'),
+   order(5),
+   active(true)
+);

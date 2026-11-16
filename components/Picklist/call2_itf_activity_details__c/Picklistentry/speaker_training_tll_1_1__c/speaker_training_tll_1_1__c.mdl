@@ -1,0 +1,5 @@
+Picklistentry speaker_training_tll_1_1__c (
+   value('Speaker Training TLL 1:1'),
+   order(0),
+   active(true)
+);

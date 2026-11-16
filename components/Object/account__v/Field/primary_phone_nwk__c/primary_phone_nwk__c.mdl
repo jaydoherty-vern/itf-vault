@@ -1,0 +1,19 @@
+Field primary_phone_nwk__c (
+   label('Primary Phone Number'),
+   type('String'),
+   active(true),
+   description('Phone number copied from Primary Address'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(334),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

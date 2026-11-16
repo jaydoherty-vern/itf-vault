@@ -1,0 +1,5 @@
+Picklistentry gb_wkf__c (
+   value('GB-WKF'),
+   order(635),
+   active(false)
+);

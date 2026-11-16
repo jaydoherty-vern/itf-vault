@@ -1,0 +1,5 @@
+Picklistentry et__c (
+   value('Eyesight Test'),
+   order(93),
+   active(true)
+);

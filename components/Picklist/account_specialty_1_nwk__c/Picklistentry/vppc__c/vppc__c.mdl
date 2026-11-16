@@ -1,0 +1,5 @@
+Picklistentry vppc__c (
+   value('Veterinary Physiology and Physiological Chemistry'),
+   order(590),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout dynamic_source_team_member_layout__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Dynamic Source Team Member Layout'),
+   page_markup(@page_markup.xml)
+);

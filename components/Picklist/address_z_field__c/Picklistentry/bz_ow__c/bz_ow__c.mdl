@@ -1,0 +1,5 @@
+Picklistentry bz_ow__c (
+   value('BZ-OW'),
+   order(593),
+   active(true)
+);

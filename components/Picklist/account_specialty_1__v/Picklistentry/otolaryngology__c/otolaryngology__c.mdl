@@ -1,0 +1,5 @@
+Picklistentry otolaryngology__c (
+   value('Otolaryngology'),
+   order(242),
+   active(true)
+);

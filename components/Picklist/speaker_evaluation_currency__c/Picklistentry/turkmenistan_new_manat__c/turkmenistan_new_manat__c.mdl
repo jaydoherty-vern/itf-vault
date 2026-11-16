@@ -1,0 +1,5 @@
+Picklistentry turkmenistan_new_manat__c (
+   value('Turkmenistan New Manat'),
+   order(155),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry otp_coaching_report1__sys (
+   value('Coaching_Report'),
+   order(28),
+   active(true),
+   controlling_entries('olc_survey_target__sys')
+);

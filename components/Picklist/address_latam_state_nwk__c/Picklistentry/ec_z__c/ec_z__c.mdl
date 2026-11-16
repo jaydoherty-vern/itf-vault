@@ -1,0 +1,5 @@
+Picklistentry ec_z__c (
+   value('Zamora Chinchipe'),
+   order(241),
+   active(true)
+);

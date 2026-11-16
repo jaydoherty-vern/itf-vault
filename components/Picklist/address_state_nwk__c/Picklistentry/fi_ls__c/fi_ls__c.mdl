@@ -1,0 +1,5 @@
+Picklistentry fi_ls__c (
+   value('FI-LS'),
+   order(275),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry it_po__c (
+   value('IT_Prato'),
+   order(909),
+   active(true)
+);

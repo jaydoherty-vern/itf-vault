@@ -1,0 +1,5 @@
+Picklistentry pedd__c (
+   value('Doctor of pedagogy'),
+   order(90),
+   active(true)
+);

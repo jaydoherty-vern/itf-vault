@@ -1,0 +1,5 @@
+Picklistentry iba__v (
+   value('Iban'),
+   order(180),
+   active(false)
+);

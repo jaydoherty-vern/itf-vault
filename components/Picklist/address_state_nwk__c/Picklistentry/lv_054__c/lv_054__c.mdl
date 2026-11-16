@@ -1,0 +1,5 @@
+Picklistentry lv_054__c (
+   value('LV_Limbažu novads'),
+   order(1107),
+   active(true)
+);

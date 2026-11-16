@@ -1,0 +1,5 @@
+Picklistentry tr_27__c (
+   value('TR_Gaziantep'),
+   order(1699),
+   active(true)
+);

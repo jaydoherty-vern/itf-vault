@@ -1,0 +1,5 @@
+Picklistentry pms__c (
+   value('Menstrual Disorders'),
+   order(240),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout per_event_attendee_expense_limit_rule__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Per Event Attendee Expense Limit Rule'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_010__c (
+   value('LV_Auces novads (Auce)'),
+   order(1056),
+   active(true)
+);

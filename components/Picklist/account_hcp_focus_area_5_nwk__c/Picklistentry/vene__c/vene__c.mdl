@@ -1,0 +1,5 @@
+Picklistentry vene__c (
+   value('Venereology'),
+   order(458),
+   active(true)
+);

@@ -1,0 +1,7 @@
+RECREATE Layoutprofile veeva_home_office__c (
+   label('VEEVA_HOME_OFFICE'),
+   active(true),
+   description('Layout Profile for the Veeva Home Office persona'),
+   Objectlayout(@Objectlayout/account_institution__c.mdl),
+   Objectlayout(@Objectlayout/account_professional__c.mdl)
+);

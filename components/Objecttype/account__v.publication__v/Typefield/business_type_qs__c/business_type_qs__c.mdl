@@ -1,0 +1,5 @@
+Typefield business_type_qs__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_business_type_qs__c.public__c')
+);

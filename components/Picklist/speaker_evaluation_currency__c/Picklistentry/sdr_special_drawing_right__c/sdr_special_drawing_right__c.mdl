@@ -1,0 +1,5 @@
+Picklistentry sdr_special_drawing_right__c (
+   value('SDR (Special Drawing Right)'),
+   order(75),
+   active(true)
+);

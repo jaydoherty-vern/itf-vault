@@ -1,0 +1,5 @@
+Picklistentry 32_27__c (
+   value('Supervisory Board'),
+   order(264),
+   active(true)
+);

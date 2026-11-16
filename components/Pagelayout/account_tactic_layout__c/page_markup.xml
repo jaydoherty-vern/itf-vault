@@ -1,0 +1,31 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.account_tactic__v.account_tactic__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account_plan__v" />
+            <vault:field reference="account__v" required="true" />
+            <vault:field reference="plan_tactic__v" />
+            <vault:field reference="product_strategy__v" />
+            <vault:field reference="product_tactic__v" />
+            <vault:field reference="product_qs__c" />
+            <vault:field reference="account_tactic_status__v" readOnly="true" />
+            <vault:field reference="progress__v" readOnly="true" />
+            <vault:field reference="complete__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="share_with__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Description" name="description__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="description__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

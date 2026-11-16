@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction in_progress_state__c.submit_for_approval_useraction__c (
+   label('Submit for Approval'),
+   rule(@rule.xml),
+   order(1000)
+);

@@ -1,0 +1,5 @@
+Picklistentry is_ver__c (
+   value('IS_Vesturbyggð'),
+   order(827),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ppsy__c (
+   value('Pediatric Psychiatry Diploma'),
+   order(258),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lb_bi__c (
+   value('LB_Béqaa'),
+   order(45),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cg__c (
+   value('Clinical Genetics'),
+   order(75),
+   active(true)
+);

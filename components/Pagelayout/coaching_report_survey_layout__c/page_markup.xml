@@ -1,0 +1,39 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.survey__v.coaching_report__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="enable_employee_comment__v" />
+            <vault:field reference="language__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="itf_share_team__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Advanced Sharing Setup" name="advanced_sharing_setup__c">
+        <vault:detailform type="Two-Columns">
+            <vault:control reference="territories__v" name="territories__c">
+                <vault:bind property="singleTerritory" value="false" />
+            </vault:control>
+            <vault:field reference="product__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="profile_name__v" />
+            <vault:field reference="share_team__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Questions" name="questions_section__c" reference="questions_section__v">
+        <vault:bind property="qbo" value="false" />
+    </vault:section>
+    <vault:section title="Advanced Share Team" name="advanced_share_team_section__c" reference="advanced_share_team_section__v" />
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

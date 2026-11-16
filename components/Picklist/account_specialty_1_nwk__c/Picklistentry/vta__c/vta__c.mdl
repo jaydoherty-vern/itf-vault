@@ -1,0 +1,5 @@
+Picklistentry vta__c (
+   value('Veterinary Anesthesia'),
+   order(554),
+   active(true)
+);

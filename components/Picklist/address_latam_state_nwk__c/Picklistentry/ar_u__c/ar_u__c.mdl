@@ -1,0 +1,5 @@
+Picklistentry ar_u__c (
+   value('Chubut'),
+   order(79),
+   active(true)
+);

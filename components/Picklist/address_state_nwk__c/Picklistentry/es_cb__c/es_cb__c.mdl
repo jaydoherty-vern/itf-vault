@@ -1,0 +1,5 @@
+Picklistentry es_cb__c (
+   value('ES-CB'),
+   order(238),
+   active(false)
+);

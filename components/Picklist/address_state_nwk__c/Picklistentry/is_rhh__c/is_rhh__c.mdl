@@ -1,0 +1,5 @@
+Picklistentry is_rhh__c (
+   value('IS_Reykhólahreppur'),
+   order(797),
+   active(true)
+);

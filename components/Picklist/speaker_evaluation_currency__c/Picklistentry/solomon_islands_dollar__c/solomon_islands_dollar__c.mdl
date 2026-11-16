@@ -1,0 +1,5 @@
+Picklistentry solomon_islands_dollar__c (
+   value('Solomon Islands Dollar'),
+   order(136),
+   active(true)
+);

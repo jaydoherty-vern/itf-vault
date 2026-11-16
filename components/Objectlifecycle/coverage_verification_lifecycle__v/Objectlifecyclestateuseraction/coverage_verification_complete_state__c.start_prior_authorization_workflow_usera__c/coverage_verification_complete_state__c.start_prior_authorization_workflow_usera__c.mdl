@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction coverage_verification_complete_state__c.start_prior_authorization_workflow_usera__c (
+   label('Start Prior Authorization Workflow'),
+   rule(@rule.xml),
+   order(1000)
+);

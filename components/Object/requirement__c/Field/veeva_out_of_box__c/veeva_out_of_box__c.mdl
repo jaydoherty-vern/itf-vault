@@ -1,0 +1,18 @@
+Field veeva_out_of_box__c (
+   label('Veeva Out Of Box'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(135),
+   multi_value(false),
+   picklist('Picklist.veeva_out_of_box__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

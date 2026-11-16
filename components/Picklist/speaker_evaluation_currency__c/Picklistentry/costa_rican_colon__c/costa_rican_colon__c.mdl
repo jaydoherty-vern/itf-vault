@@ -1,0 +1,5 @@
+Picklistentry costa_rican_colon__c (
+   value('Costa Rican Colon'),
+   order(45),
+   active(true)
+);

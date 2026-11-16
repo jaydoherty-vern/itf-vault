@@ -1,0 +1,5 @@
+Picklistentry ru_niz__c (
+   value('RU_Nizhegorodskaya oblast'''),
+   order(1528),
+   active(true)
+);

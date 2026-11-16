@@ -1,0 +1,5 @@
+Picklistentry ru_al__c (
+   value('RU_Altay, Respublika'),
+   order(1484),
+   active(true)
+);

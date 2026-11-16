@@ -1,0 +1,22 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.territory__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="parent_territory__v" required="true" />
+            <vault:field reference="description__v" />
+            <vault:field reference="master_align_id__v" />
+            <vault:field reference="api_name__v" required="true" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="modified_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

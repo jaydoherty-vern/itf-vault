@@ -1,0 +1,23 @@
+RECREATE Picklist product_metrics_segment__c (
+   label('Tier'),
+   active(true),
+   Picklistentry(@Picklistentry/false__c.mdl),
+   Picklistentry(@Picklistentry/5__c.mdl),
+   Picklistentry(@Picklistentry/6__c.mdl),
+   Picklistentry(@Picklistentry/unassigned__c.mdl),
+   Picklistentry(@Picklistentry/a__c.mdl),
+   Picklistentry(@Picklistentry/b__c.mdl),
+   Picklistentry(@Picklistentry/c__c.mdl),
+   Picklistentry(@Picklistentry/d__c.mdl),
+   Picklistentry(@Picklistentry/e__c.mdl),
+   Picklistentry(@Picklistentry/1__c.mdl),
+   Picklistentry(@Picklistentry/2__c.mdl),
+   Picklistentry(@Picklistentry/3__c.mdl),
+   Picklistentry(@Picklistentry/4__c.mdl),
+   Picklistentry(@Picklistentry/inactive__c.mdl),
+   Picklistentry(@Picklistentry/maintain__c.mdl),
+   Picklistentry(@Picklistentry/grow__c.mdl),
+   Picklistentry(@Picklistentry/guard__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

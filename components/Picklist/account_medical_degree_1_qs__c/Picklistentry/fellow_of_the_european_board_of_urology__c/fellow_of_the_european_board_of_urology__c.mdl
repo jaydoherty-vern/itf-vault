@@ -1,0 +1,5 @@
+Picklistentry fellow_of_the_european_board_of_urology__c (
+   value('Fellow of the European Board of Urology (FEBU)'),
+   order(7),
+   active(true)
+);

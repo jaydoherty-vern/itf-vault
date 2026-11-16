@@ -1,0 +1,5 @@
+Picklistentry poultry__c (
+   value('Poultry'),
+   order(83),
+   active(true)
+);

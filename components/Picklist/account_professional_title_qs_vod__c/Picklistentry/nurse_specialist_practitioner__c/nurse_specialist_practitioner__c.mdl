@@ -1,0 +1,5 @@
+Picklistentry nurse_specialist_practitioner__c (
+   value('Nurse Specialist Practitioner'),
+   order(6),
+   active(true)
+);

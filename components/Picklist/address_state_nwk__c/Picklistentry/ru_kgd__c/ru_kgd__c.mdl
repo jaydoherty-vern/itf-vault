@@ -1,0 +1,5 @@
+Picklistentry ru_kgd__c (
+   value('RU_Kaliningradskaya oblast'''),
+   order(1502),
+   active(true)
+);

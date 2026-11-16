@@ -1,0 +1,4 @@
+Typefield do_not_mail__c (
+   source('standard'),
+   required(false)
+);

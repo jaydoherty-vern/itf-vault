@@ -1,0 +1,5 @@
+Picklistentry no__c (
+   value('No'),
+   order(2),
+   active(true)
+);

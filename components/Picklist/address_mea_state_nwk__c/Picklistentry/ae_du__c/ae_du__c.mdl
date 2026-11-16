@@ -1,0 +1,5 @@
+Picklistentry ae_du__c (
+   value('AE_Dubayy [Dubai]'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield amount_of_honorarium__c (
+   source('standard'),
+   required(false)
+);

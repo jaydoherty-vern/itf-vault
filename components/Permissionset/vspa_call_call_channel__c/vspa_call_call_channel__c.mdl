@@ -1,0 +1,10 @@
+RECREATE Permissionset vspa_call_call_channel__c (
+   label('VSPA_Call_Call_Channel'),
+   active(true),
+   description('Call Channel Attribute permission set'),
+   object.call2__v.base__v.object_actions('read'),
+   object.call2__v.call_channel__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

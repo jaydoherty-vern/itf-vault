@@ -1,0 +1,5 @@
+Picklistentry network_integration__c (
+   value('Network Integration'),
+   order(27),
+   active(true)
+);

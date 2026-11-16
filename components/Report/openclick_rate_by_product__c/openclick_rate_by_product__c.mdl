@@ -1,0 +1,20 @@
+RECREATE Report openclick_rate_by_product__c (
+   label('Open/Click Rate By Product'),
+   active(true),
+   description(),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('MultiPass'),
+   report_type('Reporttype.sent_email_opens_clicks_multi_pass__c'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags('veeva__sys'),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

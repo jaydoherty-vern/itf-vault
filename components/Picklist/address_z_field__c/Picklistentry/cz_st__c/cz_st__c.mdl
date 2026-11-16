@@ -1,0 +1,5 @@
+Picklistentry cz_st__c (
+   value('CZ-ST'),
+   order(965),
+   active(true)
+);

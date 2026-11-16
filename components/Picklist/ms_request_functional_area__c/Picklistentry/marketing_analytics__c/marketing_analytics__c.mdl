@@ -1,0 +1,5 @@
+Picklistentry marketing_analytics__c (
+   value('Marketing analytics'),
+   order(28),
+   active(true)
+);

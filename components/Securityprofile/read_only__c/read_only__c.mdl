@@ -1,0 +1,6 @@
+RECREATE Securityprofile read_only__c (
+   label('Read Only'),
+   active(true),
+   description(),
+   permission_sets('read_only_ps__c')
+);

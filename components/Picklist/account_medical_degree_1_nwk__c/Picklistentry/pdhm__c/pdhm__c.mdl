@@ -1,0 +1,5 @@
+Picklistentry pdhm__c (
+   value('Prof. Dr. med.'),
+   order(284),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry traum__c (
+   value('Traumatology Diploma'),
+   order(337),
+   active(true)
+);

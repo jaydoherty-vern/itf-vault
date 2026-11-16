@@ -1,0 +1,5 @@
+Picklistentry it_en__c (
+   value('IT_Enna'),
+   order(862),
+   active(true)
+);

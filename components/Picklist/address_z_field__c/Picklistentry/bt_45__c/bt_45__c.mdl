@@ -1,0 +1,5 @@
+Picklistentry bt_45__c (
+   value('BT-45'),
+   order(571),
+   active(true)
+);

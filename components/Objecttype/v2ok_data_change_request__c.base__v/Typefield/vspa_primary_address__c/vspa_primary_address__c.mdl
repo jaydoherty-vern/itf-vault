@@ -1,0 +1,4 @@
+Typefield vspa_primary_address__c (
+   source('standard'),
+   required(false)
+);

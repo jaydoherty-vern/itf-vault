@@ -1,0 +1,12 @@
+RECREATE Tab ccrms_permission_set_map__c (
+   active(true),
+   all_view_label('All Permission Sets Map'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Permission Sets Map'),
+   my_view_label('My Permission Sets Map'),
+   object('ccrms_permission_set_map__c'),
+   order(3600),
+   parent(),
+   recent_view_label('Recent Permission Sets Map')
+);

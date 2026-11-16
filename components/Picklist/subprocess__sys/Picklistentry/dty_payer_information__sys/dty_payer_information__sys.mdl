@@ -1,0 +1,7 @@
+Picklistentry dty_payer_information__sys (
+   value('Payer Information'),
+   order(122),
+   active(true),
+   controlling_entries('dlc_unclassified__sys',
+         'dlc_general__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry bg_08__c (
+   value('BG-08'),
+   order(424),
+   active(true)
+);

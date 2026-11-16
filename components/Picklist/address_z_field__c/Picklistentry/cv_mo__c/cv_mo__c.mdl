@@ -1,0 +1,5 @@
+Picklistentry cv_mo__c (
+   value('CV-MO'),
+   order(827),
+   active(true)
+);

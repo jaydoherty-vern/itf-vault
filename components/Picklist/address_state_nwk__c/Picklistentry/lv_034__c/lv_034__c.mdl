@@ -1,0 +1,5 @@
+Picklistentry lv_034__c (
+   value('LV_Iecavas novads (Iecava)'),
+   order(1082),
+   active(true)
+);

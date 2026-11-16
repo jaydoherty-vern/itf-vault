@@ -1,0 +1,5 @@
+Picklistentry lebanese_pound__c (
+   value('Lebanese Pound'),
+   order(89),
+   active(true)
+);

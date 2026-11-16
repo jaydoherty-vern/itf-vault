@@ -1,0 +1,5 @@
+Picklistentry chn__c (
+   value('Child Neurology'),
+   order(62),
+   active(true)
+);

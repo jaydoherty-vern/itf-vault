@@ -1,0 +1,8 @@
+RECREATE Objectvalidation ms_request_follow_up__c.cannot_change_comments__c (
+   label('Cannot_change_comments'),
+   active(true),
+   expression('Not(IsChanged(comments__c))'),
+   description(),
+   error_message('You cannot edit the comments of a Follow Up record. Please create a new record.'),
+   error_location('id')
+);

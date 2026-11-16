@@ -1,0 +1,5 @@
+Picklistentry respm__c (
+   value('Responsible Manager'),
+   order(93),
+   active(true)
+);

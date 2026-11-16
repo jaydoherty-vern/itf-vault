@@ -1,0 +1,33 @@
+Field urgency_of_requirement_value__c (
+   label('Urgency of Requirement Value'),
+   type('Number'),
+   active(true),
+   description('Value is calculated by the selection of the Urgency of Request field.'),
+   required(false),
+   unique(false),
+   max_value(10),
+   min_value(-10),
+   scale(0),
+   help_content('Value is calculated by the selection of the Urgency of Requirement field:
+High = 3
+Medium = 2
+Low = 1'),
+   list_column(false),
+   order(141),
+   formula('Case(
+urgency_of_request__c ,
+"HIGH" , 3,
+"MEDIUM", 2,
+"Low", 1,
+0
+)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   rollup(false),
+   control_binding()
+);

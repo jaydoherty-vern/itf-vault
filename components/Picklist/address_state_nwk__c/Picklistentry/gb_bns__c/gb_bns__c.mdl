@@ -1,0 +1,5 @@
+Picklistentry gb_bns__c (
+   value('GB-BNS'),
+   order(439),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry ch_ow__c (
+   value('CH-OW'),
+   order(664),
+   active(true)
+);

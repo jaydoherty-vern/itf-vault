@@ -1,0 +1,8 @@
+Tabcollectionitem tov_health_authority__c (
+   label(),
+   active(true),
+   tabs(),
+   order(0),
+   tab('Tab.tov_health_authority__c'),
+   type('Tab')
+);

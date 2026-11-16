@@ -1,0 +1,5 @@
+Picklistentry lt_16__c (
+   value('LT_Kaunas'),
+   order(988),
+   active(true)
+);

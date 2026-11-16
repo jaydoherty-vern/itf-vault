@@ -1,0 +1,5 @@
+Picklistentry ad__c (
+   value('Assistant Doctor'),
+   order(6),
+   active(true)
+);

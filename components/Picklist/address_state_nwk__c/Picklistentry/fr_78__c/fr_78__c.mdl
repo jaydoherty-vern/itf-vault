@@ -1,0 +1,5 @@
+Picklistentry fr_78__c (
+   value('FR_Yvelines'),
+   order(385),
+   active(true)
+);

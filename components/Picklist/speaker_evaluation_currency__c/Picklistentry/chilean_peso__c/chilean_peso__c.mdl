@@ -1,0 +1,5 @@
+Picklistentry chilean_peso__c (
+   value('Chilean Peso'),
+   order(37),
+   active(true)
+);

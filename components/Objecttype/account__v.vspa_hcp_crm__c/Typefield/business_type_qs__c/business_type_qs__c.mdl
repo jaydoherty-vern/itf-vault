@@ -1,0 +1,9 @@
+Typefield business_type_qs__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_business_type_qs__c.nhs_service_private__c',
+         'Picklist.account_business_type_qs__c.non_governmental_organization_ngo__c',
+         'Picklist.account_business_type_qs__c.non_profit_organisation_npo__c',
+         'Picklist.account_business_type_qs__c.private__c',
+         'Picklist.account_business_type_qs__c.public__c')
+);

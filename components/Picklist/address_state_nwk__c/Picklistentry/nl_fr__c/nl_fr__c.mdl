@@ -1,0 +1,5 @@
+Picklistentry nl_fr__c (
+   value('NL_Fryslân'),
+   order(1295),
+   active(true)
+);

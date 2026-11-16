@@ -1,0 +1,5 @@
+Picklistentry picklist__c (
+   value('Picklist'),
+   order(11),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mx_dur__c (
+   value('Durango'),
+   order(40),
+   active(true)
+);

@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_myinsights_managing_records__c (
+   label('VSPA_MyInsights_Managing_Records'),
+   active(true),
+   description('Managing Records from MyInsights'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

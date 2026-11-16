@@ -1,0 +1,5 @@
+Picklistentry g_t__c (
+   value('Local Traditional Medicine'),
+   order(9),
+   active(true)
+);

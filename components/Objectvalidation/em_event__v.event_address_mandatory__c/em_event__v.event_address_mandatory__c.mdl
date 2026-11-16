@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_event__v.event_address_mandatory__c (
+   label('Event_Address_Mandatory'),
+   active(true),
+   expression('Not(And(Not(object_type__vr.api_name__v="Parent_Event"),Not(object_type__vr.api_name__v="Grants_Donations"),Not((event_format__v="virtual__v")),If(And(IsBlank(Id(venue__v)),IsBlank(Id(account__v))),Or(IsBlank(location__v),IsBlank(city__v),IsBlank(postal_code__v)),FALSE)))'),
+   description('Non virtual Events should have an address populated.'),
+   error_message('For Events that are not virtual, Address is mandatory. Please complete the Venue/Account field or enter the Location, City and postal Code.'),
+   error_location('id')
+);

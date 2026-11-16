@@ -1,0 +1,5 @@
+Picklistentry it_ts__c (
+   value('IT_Trieste'),
+   order(931),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 36_12__c (
+   value('Primary Health Care Administration'),
+   order(228),
+   active(true)
+);

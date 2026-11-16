@@ -1,0 +1,5 @@
+Picklistentry hic__c (
+   value('Head In Charge'),
+   order(96),
+   active(true)
+);

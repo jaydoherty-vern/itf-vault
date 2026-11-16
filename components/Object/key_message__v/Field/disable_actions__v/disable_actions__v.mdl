@@ -1,0 +1,24 @@
+Field disable_actions__v (
+   label('Disable Actions'),
+   type('Picklist'),
+   active(true),
+   description('Contains a list of user actions that are disabled when selected. Values: Swipe, Pinch To Exit
+
+Swipe: When selected, the swipe action to move forward to the next slide/back to the previous slide is disabled. Creative Agencies will need to code the transition to the next/previous slide
+
+Pinch To Exit: When selected, pinching to exit the media player is disabled. This is to allow for proper pinch and anti-pinch zoom in / out on PDF files.'),
+   required(false),
+   unique(false),
+   help_content('Contains a list of user actions that are disabled.
+Swipe: When selected, the swipe action to move forward to the next slide/back to the previous slide is disabled.
+Pinch To Exit: When selected, pinching to exit the media player is disabled.'),
+   list_column(false),
+   order(15),
+   multi_value(true),
+   picklist('Picklist.key_message_disable_actions__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

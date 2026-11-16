@@ -1,0 +1,5 @@
+Picklistentry cpsych__c (
+   value('Child & Adolescent Psychiatry'),
+   order(47),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gt_sm__c (
+   value('San Marcos'),
+   order(263),
+   active(true)
+);

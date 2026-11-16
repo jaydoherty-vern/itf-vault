@@ -1,0 +1,30 @@
+Field level_of_it_effort_value__c (
+   label('Level of IT Effort Value'),
+   type('Number'),
+   active(true),
+   description('Value is calculated by the Level of IT Effort formula field'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(-999999999),
+   scale(0),
+   help_content('Value is calculated by the Level of IT Effort formula field.
+High = 1
+Medium = 2
+Low = 3'),
+   list_column(false),
+   order(149),
+   formula('if(level_of_it_effort__c = "High",1,
+if(level_of_it_effort__c = "Medium",2,
+If(level_of_it_effort__c = "Low",3,
+0)))'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry mle__c (
+   value('Medical Laboratory Examinations Diploma'),
+   order(177),
+   active(true)
+);

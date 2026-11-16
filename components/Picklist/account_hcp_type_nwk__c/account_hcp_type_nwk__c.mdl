@@ -1,0 +1,17 @@
+RECREATE Picklist account_hcp_type_nwk__c (
+   label('HCP Type'),
+   active(true),
+   Picklistentry(@Picklistentry/a__c.mdl),
+   Picklistentry(@Picklistentry/o__c.mdl),
+   Picklistentry(@Picklistentry/dt__c.mdl),
+   Picklistentry(@Picklistentry/d__c.mdl),
+   Picklistentry(@Picklistentry/n__c.mdl),
+   Picklistentry(@Picklistentry/nu__c.mdl),
+   Picklistentry(@Picklistentry/ph__c.mdl),
+   Picklistentry(@Picklistentry/p__c.mdl),
+   Picklistentry(@Picklistentry/r__c.mdl),
+   Picklistentry(@Picklistentry/s__c.mdl),
+   Picklistentry(@Picklistentry/t__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

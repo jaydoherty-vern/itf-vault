@@ -1,0 +1,5 @@
+Picklistentry lu__c (
+   value('LU'),
+   order(2),
+   active(true)
+);

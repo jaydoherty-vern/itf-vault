@@ -1,0 +1,5 @@
+Picklistentry mc_sd__c (
+   value('MC_Sainte-Dévote'),
+   order(1182),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry one_attendee_on_call_vod__c (
+   value('One Attendee On Call'),
+   order(1),
+   active(true)
+);

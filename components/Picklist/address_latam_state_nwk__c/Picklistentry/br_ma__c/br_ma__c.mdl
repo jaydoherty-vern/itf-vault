@@ -1,0 +1,5 @@
+Picklistentry br_ma__c (
+   value('Maranhão'),
+   order(6),
+   active(true)
+);

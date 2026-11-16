@@ -1,0 +1,5 @@
+Picklistentry cd_kw__c (
+   value('CD-KW'),
+   order(616),
+   active(true)
+);

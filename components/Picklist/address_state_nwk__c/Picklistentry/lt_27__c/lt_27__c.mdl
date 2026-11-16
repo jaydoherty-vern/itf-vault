@@ -1,0 +1,5 @@
+Picklistentry lt_27__c (
+   value('LT_Molėtai'),
+   order(1003),
+   active(true)
+);

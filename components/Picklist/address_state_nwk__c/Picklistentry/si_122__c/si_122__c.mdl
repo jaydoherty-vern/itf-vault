@@ -1,0 +1,5 @@
+Picklistentry si_122__c (
+   value('SI_Škofja Loka'),
+   order(1636),
+   active(true)
+);

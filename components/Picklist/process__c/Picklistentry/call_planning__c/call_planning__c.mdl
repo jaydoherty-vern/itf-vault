@@ -1,0 +1,5 @@
+Picklistentry call_planning__c (
+   value('Call Planning and Execution'),
+   order(6),
+   active(true)
+);

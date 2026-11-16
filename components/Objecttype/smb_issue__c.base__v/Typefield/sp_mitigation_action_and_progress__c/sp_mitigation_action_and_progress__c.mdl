@@ -1,0 +1,4 @@
+Typefield sp_mitigation_action_and_progress__c (
+   source('standard'),
+   required(false)
+);

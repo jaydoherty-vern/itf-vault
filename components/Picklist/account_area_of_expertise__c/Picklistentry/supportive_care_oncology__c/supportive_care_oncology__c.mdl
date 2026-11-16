@@ -1,0 +1,5 @@
+Picklistentry supportive_care_oncology__c (
+   value('Supportive Care/Oncology'),
+   order(2),
+   active(true)
+);

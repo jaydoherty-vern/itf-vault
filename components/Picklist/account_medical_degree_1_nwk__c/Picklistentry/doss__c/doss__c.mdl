@@ -1,0 +1,5 @@
+Picklistentry doss__c (
+   value('Dr. rer. soc.'),
+   order(145),
+   active(true)
+);

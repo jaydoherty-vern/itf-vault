@@ -1,0 +1,5 @@
+Picklistentry stroke_medicine__c (
+   value('Stroke Medicine'),
+   order(59),
+   active(true)
+);

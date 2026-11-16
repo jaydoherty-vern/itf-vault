@@ -1,0 +1,5 @@
+Picklistentry gb_zet__c (
+   value('GB-ZET'),
+   order(649),
+   active(false)
+);

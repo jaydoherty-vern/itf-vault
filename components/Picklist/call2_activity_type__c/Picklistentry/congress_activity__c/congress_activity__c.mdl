@@ -1,0 +1,5 @@
+Picklistentry congress_activity__c (
+   value('Congress Activity'),
+   order(2),
+   active(true)
+);

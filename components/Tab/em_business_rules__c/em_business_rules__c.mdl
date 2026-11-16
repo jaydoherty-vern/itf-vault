@@ -1,0 +1,15 @@
+RECREATE Tab em_business_rules__c (
+   active(true),
+   all_view_label('All EM Business Rules'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('EM Business Rules'),
+   modal_create_record(true),
+   my_view_label('My EM Business Rules'),
+   object('em_business_rule__v'),
+   order(8700),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent EM Business Rules')
+);

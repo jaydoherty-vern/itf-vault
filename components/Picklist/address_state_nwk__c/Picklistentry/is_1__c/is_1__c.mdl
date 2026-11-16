@@ -1,0 +1,5 @@
+Picklistentry is_1__c (
+   value('IS_Höfuðborgarsvæði'),
+   order(778),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry provisional__c (
+   value('Provisional'),
+   order(1),
+   active(true)
+);

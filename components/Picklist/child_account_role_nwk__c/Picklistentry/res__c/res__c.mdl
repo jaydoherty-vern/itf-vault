@@ -1,0 +1,5 @@
+Picklistentry res__c (
+   value('Researcher'),
+   order(206),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lt_kl__c (
+   value('LT_Klaipėdos Apskritis'),
+   order(995),
+   active(true)
+);

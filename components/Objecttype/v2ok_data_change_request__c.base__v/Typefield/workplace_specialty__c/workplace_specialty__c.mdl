@@ -1,0 +1,4 @@
+Typefield workplace_specialty__c (
+   source('standard'),
+   required(false)
+);

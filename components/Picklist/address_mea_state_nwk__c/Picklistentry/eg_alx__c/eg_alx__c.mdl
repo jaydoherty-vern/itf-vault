@@ -1,0 +1,5 @@
+Picklistentry eg_alx__c (
+   value('EG_Al Iskandarīyah'),
+   order(14),
+   active(true)
+);

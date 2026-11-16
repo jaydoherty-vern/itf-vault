@@ -1,0 +1,5 @@
+Picklistentry ecg__c (
+   value('Electrocardiogram (ECG)'),
+   order(84),
+   active(true)
+);

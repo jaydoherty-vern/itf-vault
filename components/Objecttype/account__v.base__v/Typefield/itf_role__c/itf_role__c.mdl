@@ -1,0 +1,4 @@
+Typefield itf_role__c (
+   source('standard'),
+   required(false)
+);

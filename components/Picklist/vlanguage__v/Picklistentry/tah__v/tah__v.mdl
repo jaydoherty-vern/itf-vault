@@ -1,0 +1,5 @@
+Picklistentry tah__v (
+   value('Tahitian'),
+   order(322),
+   active(false)
+);

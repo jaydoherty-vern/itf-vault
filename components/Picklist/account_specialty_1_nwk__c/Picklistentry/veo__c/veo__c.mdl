@@ -1,0 +1,5 @@
+Picklistentry veo__c (
+   value('Veterinary Ophthalmology'),
+   order(580),
+   active(true)
+);

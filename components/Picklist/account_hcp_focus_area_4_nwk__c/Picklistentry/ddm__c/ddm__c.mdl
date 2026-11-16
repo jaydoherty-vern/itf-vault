@@ -1,0 +1,5 @@
+Picklistentry ddm__c (
+   value('Defense and disaster medicine'),
+   order(97),
+   active(true)
+);

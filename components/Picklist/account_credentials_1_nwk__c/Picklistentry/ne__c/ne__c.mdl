@@ -1,0 +1,5 @@
+Picklistentry ne__c (
+   value('Nurse Educator'),
+   order(21),
+   active(true)
+);

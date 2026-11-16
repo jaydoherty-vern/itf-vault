@@ -1,0 +1,5 @@
+Picklistentry hypn__c (
+   value('Hypnosis'),
+   order(198),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ewa__c (
+   value('Exotic/Wild animals'),
+   order(92),
+   active(true)
+);

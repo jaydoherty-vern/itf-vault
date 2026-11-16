@@ -1,0 +1,8 @@
+RECREATE Pagelayout direct_detail_page_layout__c (
+   active(true),
+   default_layout(true),
+   description('Default direct order page layout'),
+   display_lifecycle_stages(false),
+   label('Direct Order Layout'),
+   page_markup(@page_markup.xml)
+);

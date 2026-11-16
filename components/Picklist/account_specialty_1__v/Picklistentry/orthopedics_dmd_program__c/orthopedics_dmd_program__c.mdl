@@ -1,0 +1,5 @@
+Picklistentry orthopedics_dmd_program__c (
+   value('ORTHOPEDICS, DMD PROGRAM'),
+   order(80),
+   active(true)
+);

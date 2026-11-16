@@ -1,0 +1,5 @@
+Picklistentry cs__c (
+   value('Cosmetic Surgery'),
+   order(94),
+   active(true)
+);

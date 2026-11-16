@@ -1,0 +1,8 @@
+RECREATE Pagelayout per_attendee_attendance_limit_rule__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Per Attendee Attendance Limit Rule'),
+   page_markup(@page_markup.xml)
+);

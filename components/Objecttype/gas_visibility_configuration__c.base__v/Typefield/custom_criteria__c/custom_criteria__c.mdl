@@ -1,0 +1,4 @@
+Typefield custom_criteria__c (
+   source('standard'),
+   required(true)
+);

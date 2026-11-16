@@ -1,0 +1,5 @@
+Picklistentry ppaddm__c (
+   value('Prof. PD. Dr. med. dent.'),
+   order(310),
+   active(true)
+);

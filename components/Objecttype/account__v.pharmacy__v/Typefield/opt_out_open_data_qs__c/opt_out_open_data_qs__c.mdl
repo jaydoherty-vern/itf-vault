@@ -1,0 +1,4 @@
+Typefield opt_out_open_data_qs__c (
+   source('custom'),
+   required(false)
+);

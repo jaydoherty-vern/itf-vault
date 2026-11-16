@@ -1,0 +1,46 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.medical_inquiry_fulfillment__v.fax__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" readOnly="true" />
+            <vault:field reference="medical_inquiry_fulfillment_status__v" readOnly="true" />
+            <vault:field reference="account__v" readOnly="true" />
+            <vault:field reference="call__v" readOnly="true" />
+            <vault:field reference="assigned_to__v" readOnly="true" />
+            <vault:field reference="delivery_method__v" readOnly="true" />
+            <vault:field reference="fax_number__v" readOnly="true" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Inquiry Information" name="inquiry_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="medical_inquiry__v" readOnly="true" />
+            <vault:field reference="initiated_by__v" readOnly="true" />
+            <vault:field reference="initiated_datetime__v" readOnly="true" />
+            <vault:spacer />
+            <vault:field reference="product__v" readOnly="true" />
+            <vault:field reference="inquiry_text__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Medical Inquiry Fulfillment Responses" name="medical_inquiry_fulfillment_responses__c">
+        <vault:relatedObject relationship="medical_inquiry_fulfillment_response__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="interaction__v" width="200px" />
+            <vault:field reference="assign_to_comments__v" width="200px" />
+            <vault:field reference="assign_to_user__v" width="200px" />
+            <vault:field reference="completed_by__v" width="200px" />
+            <vault:field reference="completed_datetime__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="status__v" readOnly="true" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

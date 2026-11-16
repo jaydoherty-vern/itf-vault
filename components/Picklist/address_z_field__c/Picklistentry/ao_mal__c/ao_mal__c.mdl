@@ -1,0 +1,5 @@
+Picklistentry ao_mal__c (
+   value('AO-MAL'),
+   order(127),
+   active(true)
+);

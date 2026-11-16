@@ -1,0 +1,5 @@
+Picklistentry st__v (
+   value('Sesotho'),
+   order(300),
+   active(false)
+);

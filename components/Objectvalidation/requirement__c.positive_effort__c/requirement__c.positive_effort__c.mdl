@@ -1,0 +1,8 @@
+RECREATE Objectvalidation requirement__c.positive_effort__c (
+   label('Positive Effort	'),
+   active(true),
+   expression('Not(Or(adapt__c < 0, but__c < 0, des__c < 0, sit__c < 0, trndep__c < 0, uat__c <0, req__c <0))'),
+   description(),
+   error_message('Please enter a value greater than 0 for fields under Total Level of Effort.	'),
+   error_location('id')
+);

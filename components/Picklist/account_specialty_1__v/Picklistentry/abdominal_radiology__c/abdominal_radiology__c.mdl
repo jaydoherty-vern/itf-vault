@@ -1,0 +1,5 @@
+Picklistentry abdominal_radiology__c (
+   value('Abdominal Radiology'),
+   order(147),
+   active(true)
+);

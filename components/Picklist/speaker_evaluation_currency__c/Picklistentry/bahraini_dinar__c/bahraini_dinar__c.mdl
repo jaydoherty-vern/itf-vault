@@ -1,0 +1,5 @@
+Picklistentry bahraini_dinar__c (
+   value('Bahraini Dinar'),
+   order(14),
+   active(true)
+);

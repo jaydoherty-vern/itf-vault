@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate itf_new_requirement_added__c (
+   label('ITF_NEW_REQUIREMENT_ADDED'),
+   active(true),
+   description('ITF_NEW_REQUIREMENT_ADDED'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.requirement__c'),
+   subject('NEW REQUIREMENT HAS BEEN ADDED -  ${Object.name__v} - ${Object.requirement_title__c}'),
+   notification('A new CRM requirement has been added to the requirements tracker. Follow the link below to view the requirement:</br> ${Object.name__v}'),
+   email_body('A new CRM requirement has been added to the requirements tracker. Follow the link below to view the requirement:</br> ${Object.name__v}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

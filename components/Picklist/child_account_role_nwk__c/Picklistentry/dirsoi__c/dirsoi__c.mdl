@@ -1,0 +1,5 @@
+Picklistentry dirsoi__c (
+   value('DIRSOI'),
+   order(68),
+   active(true)
+);

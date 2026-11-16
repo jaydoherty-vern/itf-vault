@@ -1,0 +1,5 @@
+Picklistentry gb_nwp__c (
+   value('GB-NWP'),
+   order(569),
+   active(false)
+);

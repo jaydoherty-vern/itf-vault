@@ -1,0 +1,8 @@
+RECREATE Sharingrule med_inquiry_tll__c (
+   label('Med Inquiry - TLL'),
+   active(true),
+   description(),
+   object('medical_inquiry__v'),
+   criteria([owner_security_profile__cr.name__v CONTAINS ('ITF_TLL_CRM')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

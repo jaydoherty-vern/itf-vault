@@ -1,0 +1,5 @@
+Picklistentry cr_c__c (
+   value('CR-C'),
+   order(799),
+   active(true)
+);

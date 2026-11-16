@@ -1,0 +1,5 @@
+Picklistentry ad_05__c (
+   value('AD_Ordino'),
+   order(5),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield cno_date__c (
+   source('standard'),
+   required(false)
+);

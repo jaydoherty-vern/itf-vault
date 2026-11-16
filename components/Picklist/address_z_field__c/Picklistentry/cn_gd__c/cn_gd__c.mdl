@@ -1,0 +1,5 @@
+Picklistentry cn_gd__c (
+   value('CN-GD'),
+   order(738),
+   active(true)
+);

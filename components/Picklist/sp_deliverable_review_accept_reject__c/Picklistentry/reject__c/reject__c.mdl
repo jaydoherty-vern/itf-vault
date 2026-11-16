@@ -1,0 +1,5 @@
+Picklistentry reject__c (
+   value('Reject'),
+   order(1),
+   active(true)
+);

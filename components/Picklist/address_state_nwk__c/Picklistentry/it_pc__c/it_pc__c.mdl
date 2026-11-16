@@ -1,0 +1,5 @@
+Picklistentry it_pc__c (
+   value('IT_Piacenza'),
+   order(904),
+   active(true)
+);

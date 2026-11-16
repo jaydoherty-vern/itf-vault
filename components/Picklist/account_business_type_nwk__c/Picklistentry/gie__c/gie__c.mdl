@@ -1,0 +1,5 @@
+Picklistentry gie__c (
+   value('Economic interest grouping'),
+   order(0),
+   active(true)
+);

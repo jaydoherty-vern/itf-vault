@@ -1,0 +1,5 @@
+Picklistentry ch_vs__c (
+   value('CH-VS'),
+   order(673),
+   active(true)
+);

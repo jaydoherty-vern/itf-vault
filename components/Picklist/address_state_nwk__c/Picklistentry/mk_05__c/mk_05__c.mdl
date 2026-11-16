@@ -1,0 +1,5 @@
+Picklistentry mk_05__c (
+   value('MK_Bogdanci'),
+   order(1210),
+   active(true)
+);

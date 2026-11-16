@@ -1,0 +1,5 @@
+Picklistentry gptrain__c (
+   value('GP Trainer'),
+   order(94),
+   active(true)
+);

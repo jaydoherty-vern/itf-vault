@@ -1,0 +1,5 @@
+Picklistentry ororsrhu__c (
+   value('Orthopedics and Orthopedic Surgery, Rheumatology'),
+   order(346),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry hi__c (
+   value('Health Insurance Diploma'),
+   order(176),
+   active(true)
+);

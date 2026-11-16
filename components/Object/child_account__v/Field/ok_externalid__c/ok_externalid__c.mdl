@@ -1,0 +1,19 @@
+Field ok_externalid__c (
+   label('OK_ExternalID'),
+   type('String'),
+   active(true),
+   description('Needed by OneKey'),
+   required(false),
+   unique(true),
+   max_length(24),
+   help_content(),
+   list_column(false),
+   order(48),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

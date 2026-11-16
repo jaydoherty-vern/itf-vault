@@ -1,0 +1,5 @@
+Picklistentry by_br__c (
+   value('BY-BR'),
+   order(583),
+   active(true)
+);

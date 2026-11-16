@@ -1,0 +1,12 @@
+RECREATE Tab material_order__c (
+   active(true),
+   all_view_label('All Material Orders'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Material Orders'),
+   my_view_label('My Material Orders'),
+   object('material_order__c'),
+   order(2000),
+   parent(),
+   recent_view_label('Recent Material Orders')
+);

@@ -1,0 +1,5 @@
+Picklistentry ngo__c (
+   value('Non-Governmental Organization (NGO)'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry jo_ba__c (
+   value('JO_Al Balqā’'),
+   order(42),
+   active(true)
+);

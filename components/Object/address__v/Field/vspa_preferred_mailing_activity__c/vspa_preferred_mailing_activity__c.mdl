@@ -1,0 +1,18 @@
+Field vspa_preferred_mailing_activity__c (
+   label('Preferred Mailing Activity?'),
+   type('Boolean'),
+   active(true),
+   description('Populated by Veeva Data Connector for Nordics mailing address calculation.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(134),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

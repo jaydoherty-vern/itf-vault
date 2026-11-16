@@ -1,0 +1,5 @@
+Picklistentry mexican_peso__c (
+   value('Mexican Peso'),
+   order(104),
+   active(true)
+);

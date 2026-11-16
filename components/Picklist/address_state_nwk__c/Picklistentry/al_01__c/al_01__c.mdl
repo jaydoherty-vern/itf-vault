@@ -1,0 +1,5 @@
+Picklistentry al_01__c (
+   value('AL_Berat'),
+   order(7),
+   active(true)
+);

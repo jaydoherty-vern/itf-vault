@@ -1,0 +1,5 @@
+Picklistentry territory_budget__c (
+   value('Territory Budget'),
+   order(48),
+   active(true)
+);

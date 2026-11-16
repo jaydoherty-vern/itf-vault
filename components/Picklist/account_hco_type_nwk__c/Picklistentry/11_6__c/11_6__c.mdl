@@ -1,0 +1,5 @@
+Picklistentry 11_6__c (
+   value('Pharmacy, Pharmacy Benefit Mgmt Org'),
+   order(220),
+   active(true)
+);

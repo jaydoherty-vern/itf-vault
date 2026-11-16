@@ -1,0 +1,5 @@
+Picklistentry pediatric_radiology__c (
+   value('Pediatric Radiology'),
+   order(262),
+   active(true)
+);

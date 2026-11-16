@@ -1,0 +1,8 @@
+Objectworkflowstep manager_approval__c (
+   label('Manager Approval'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.decision_approved_or_rejected__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

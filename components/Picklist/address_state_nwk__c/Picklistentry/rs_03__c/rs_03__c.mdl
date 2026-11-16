@@ -1,0 +1,5 @@
+Picklistentry rs_03__c (
+   value('RS_Severnobanatski okrug'),
+   order(1474),
+   active(true)
+);

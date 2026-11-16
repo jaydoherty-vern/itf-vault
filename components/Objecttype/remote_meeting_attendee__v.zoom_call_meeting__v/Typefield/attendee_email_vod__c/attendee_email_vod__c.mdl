@@ -1,0 +1,4 @@
+Typefield attendee_email_vod__c (
+   source('custom'),
+   required(false)
+);

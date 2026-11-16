@@ -1,0 +1,5 @@
+Picklistentry endoc__c (
+   value('Endocrinology, Diabetes, & Metabolism'),
+   order(80),
+   active(true)
+);

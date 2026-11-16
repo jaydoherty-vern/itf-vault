@@ -1,0 +1,5 @@
+Picklistentry medical_school__c (
+   value('Medical School'),
+   order(3),
+   active(true)
+);

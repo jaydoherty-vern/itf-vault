@@ -1,0 +1,5 @@
+Picklistentry oncology_cancer__c (
+   value('Oncology, Cancer'),
+   order(18),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ar_k__c (
+   value('Catamarca'),
+   order(63),
+   active(true)
+);

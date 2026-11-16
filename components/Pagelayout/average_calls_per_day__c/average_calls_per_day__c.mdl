@@ -1,0 +1,8 @@
+RECREATE Pagelayout average_calls_per_day__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Average Calls Per Day'),
+   page_markup(@page_markup.xml)
+);

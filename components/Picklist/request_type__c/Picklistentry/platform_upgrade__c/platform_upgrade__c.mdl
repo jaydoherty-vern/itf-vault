@@ -1,0 +1,5 @@
+Picklistentry platform_upgrade__c (
+   value('Platform Upgrade (Force.com)'),
+   order(8),
+   active(true)
+);

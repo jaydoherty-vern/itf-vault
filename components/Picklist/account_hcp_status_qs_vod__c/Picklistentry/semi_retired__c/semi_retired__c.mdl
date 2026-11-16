@@ -1,0 +1,5 @@
+Picklistentry semi_retired__c (
+   value('Semi-Retired'),
+   order(1),
+   active(true)
+);

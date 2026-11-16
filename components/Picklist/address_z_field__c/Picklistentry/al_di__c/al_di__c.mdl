@@ -1,0 +1,5 @@
+Picklistentry al_di__c (
+   value('AL-DI'),
+   order(69),
+   active(true)
+);

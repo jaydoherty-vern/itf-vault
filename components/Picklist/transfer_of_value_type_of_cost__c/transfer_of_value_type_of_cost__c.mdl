@@ -1,0 +1,15 @@
+RECREATE Picklist transfer_of_value_type_of_cost__c (
+   label('Type of Cost'),
+   active(true),
+   Picklistentry(@Picklistentry/accomodation__c.mdl),
+   Picklistentry(@Picklistentry/clinical_trial__c.mdl),
+   Picklistentry(@Picklistentry/consultancy__c.mdl),
+   Picklistentry(@Picklistentry/donation__c.mdl),
+   Picklistentry(@Picklistentry/fee_for_service__c.mdl),
+   Picklistentry(@Picklistentry/medical_education__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   Picklistentry(@Picklistentry/sponsorship__c.mdl),
+   Picklistentry(@Picklistentry/travel__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry fm__c (
+   value('Family Medicine (General Medicine) Diploma'),
+   order(147),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry enddi__c (
+   value('Diploma in Endocrinology and Diabetology'),
+   order(58),
+   active(true)
+);

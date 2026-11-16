@@ -1,0 +1,5 @@
+Picklistentry hebit__c (
+   value('Diploma in Medical Transfusion'),
+   order(70),
+   active(true)
+);

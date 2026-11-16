@@ -1,0 +1,11 @@
+RECREATE Actiontrigger notifications_requirement_afterinsert__c (
+   label('Notifications'),
+   active(true),
+   description(),
+   object('Object.requirement__c'),
+   event('AFTER_INSERT'),
+   order(100),
+   Actionblock(@Actionblock/action_block1__c.mdl),
+   Actionblock(@Actionblock/action_block2__c.mdl),
+   Actionblock(@Actionblock/action_block3__c.mdl)
+);

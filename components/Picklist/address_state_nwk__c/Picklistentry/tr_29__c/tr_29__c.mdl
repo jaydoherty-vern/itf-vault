@@ -1,0 +1,5 @@
+Picklistentry tr_29__c (
+   value('TR_Gümüşhane'),
+   order(1701),
+   active(true)
+);

@@ -1,0 +1,19 @@
+RECREATE Notificationtemplate event_pending_approval__c (
+   label('Event Pending Approval'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.em_event__v'),
+   subject('An Event is Pending Your Approval'),
+   notification('The Event ''${Object.name__v}'' is pending your review and approval.
+
+The due date to review is ${taskDueDate}.
+
+'),
+   email_body('The Event ''${Object.name__v}'' is pending your review and approval.
+
+The due date to review is ${taskDueDate}.
+'),
+   entity_type('object'),
+   notification_category('tasks__sys')
+);

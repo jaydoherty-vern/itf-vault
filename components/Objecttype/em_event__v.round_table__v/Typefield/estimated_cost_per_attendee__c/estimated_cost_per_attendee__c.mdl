@@ -1,0 +1,4 @@
+Typefield estimated_cost_per_attendee__c (
+   source('custom'),
+   required(false)
+);

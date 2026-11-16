@@ -1,0 +1,5 @@
+Typefield itf_investigator__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_itf_investigator__c.givinostat__c')
+);

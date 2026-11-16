@@ -1,0 +1,5 @@
+Picklistentry not_met__c (
+   value('Not Met'),
+   order(1),
+   active(true)
+);

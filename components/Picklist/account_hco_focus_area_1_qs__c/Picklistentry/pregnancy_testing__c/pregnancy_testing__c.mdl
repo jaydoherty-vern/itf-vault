@@ -1,0 +1,5 @@
+Picklistentry pregnancy_testing__c (
+   value('Pregnancy Testing'),
+   order(84),
+   active(true)
+);

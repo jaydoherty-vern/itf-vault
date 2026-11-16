@@ -1,0 +1,15 @@
+RECREATE Permissionset vspa_sample_transfer__c (
+   label('VSPA_Sample_Transfer'),
+   active(true),
+   description('To enable sample transfer.'),
+   object.sample_transaction__v.transfer_to__v.field_actions('edit',
+      'read'),
+   object.sample_transaction__v.transfer_to_name__v.field_actions('edit',
+      'read'),
+   object.sample_transaction__v.transferred_from__v.field_actions('edit',
+      'read'),
+   object.sample_transaction__v.transferred_from_name__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

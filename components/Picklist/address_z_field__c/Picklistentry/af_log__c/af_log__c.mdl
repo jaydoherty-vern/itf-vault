@@ -1,0 +1,5 @@
+Picklistentry af_log__c (
+   value('AF-LOG'),
+   order(33),
+   active(true)
+);

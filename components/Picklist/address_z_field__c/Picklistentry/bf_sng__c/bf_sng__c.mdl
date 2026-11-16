@@ -1,0 +1,5 @@
+Picklistentry bf_sng__c (
+   value('BF-SNG'),
+   order(407),
+   active(true)
+);

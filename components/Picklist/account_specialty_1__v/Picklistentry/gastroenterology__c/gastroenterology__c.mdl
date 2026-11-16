@@ -1,0 +1,5 @@
+Picklistentry gastroenterology__c (
+   value('Gastroenterology'),
+   order(189),
+   active(true)
+);

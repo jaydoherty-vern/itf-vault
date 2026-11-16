@@ -1,0 +1,5 @@
+Picklistentry lv_009__c (
+   value('LV_Apes novads (Ape)'),
+   order(1055),
+   active(true)
+);

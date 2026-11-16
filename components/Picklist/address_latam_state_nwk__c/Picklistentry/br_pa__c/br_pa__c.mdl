@@ -1,0 +1,5 @@
+Picklistentry br_pa__c (
+   value('Pará'),
+   order(19),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry hu_hb__c (
+   value('HU_Hajdú-Bihar'),
+   order(691),
+   active(true)
+);

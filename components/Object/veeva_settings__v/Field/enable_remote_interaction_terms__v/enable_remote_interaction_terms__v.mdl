@@ -1,0 +1,18 @@
+Field enable_remote_interaction_terms__v (
+   label('ENABLE_REMOTE_INTERACTION_TERMS'),
+   type('Boolean'),
+   active(true),
+   description('Displays a dialog prior to initiating a remote interaction (i.e. Facetime video call).'),
+   required(false),
+   checkbox(true),
+   help_content('Displays a dialog prior to initiating a remote interaction (i.e. Facetime video call)'),
+   list_column(false),
+   order(152),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry bs_hi__c (
+   value('Harbour Island'),
+   order(114),
+   active(true)
+);

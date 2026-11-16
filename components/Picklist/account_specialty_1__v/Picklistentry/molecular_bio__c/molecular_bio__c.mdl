@@ -1,0 +1,5 @@
+Picklistentry molecular_bio__c (
+   value('MOLECULAR BIO'),
+   order(75),
+   active(true)
+);

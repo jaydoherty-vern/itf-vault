@@ -1,0 +1,5 @@
+Picklistentry time_off_territory__c (
+   value('Time-Off Territory'),
+   order(41),
+   active(true)
+);

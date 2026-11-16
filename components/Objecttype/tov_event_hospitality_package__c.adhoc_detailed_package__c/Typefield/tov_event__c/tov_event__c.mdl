@@ -1,0 +1,4 @@
+Typefield tov_event__c (
+   source('custom'),
+   required(true)
+);

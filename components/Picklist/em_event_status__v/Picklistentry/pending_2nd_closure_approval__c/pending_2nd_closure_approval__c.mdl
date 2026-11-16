@@ -1,0 +1,5 @@
+Picklistentry pending_2nd_closure_approval__c (
+   value('Pending 2nd Closure Approval'),
+   order(16),
+   active(true)
+);

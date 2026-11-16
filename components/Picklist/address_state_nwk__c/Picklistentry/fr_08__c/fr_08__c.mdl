@@ -1,0 +1,5 @@
+Picklistentry fr_08__c (
+   value('FR_Ardennes'),
+   order(283),
+   active(true)
+);

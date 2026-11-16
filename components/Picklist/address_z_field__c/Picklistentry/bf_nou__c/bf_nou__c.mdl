@@ -1,0 +1,5 @@
+Picklistentry bf_nou__c (
+   value('BF-NOU'),
+   order(399),
+   active(true)
+);

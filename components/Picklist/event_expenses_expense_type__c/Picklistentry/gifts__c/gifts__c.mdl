@@ -1,0 +1,5 @@
+Picklistentry gifts__c (
+   value('Gifts'),
+   order(2),
+   active(true)
+);

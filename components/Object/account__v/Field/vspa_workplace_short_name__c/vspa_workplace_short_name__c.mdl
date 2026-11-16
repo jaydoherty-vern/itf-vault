@@ -1,0 +1,19 @@
+Field vspa_workplace_short_name__c (
+   label('Workplace Short Name'),
+   type('String'),
+   active(true),
+   description('Coming from IQVIA'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(364),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

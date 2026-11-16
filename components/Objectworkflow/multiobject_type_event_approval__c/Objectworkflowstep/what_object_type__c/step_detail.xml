@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule key="nt-0-1731784651280">
+      <expression operator="eq" qualifier="veeva.ecm.common.care.condition.metadata.field">
+        <expression operator="field" type="string">
+          <value>Object.em_event__v.object_type__v</value>
+        </expression>
+        <expression operator="value" type="string">
+          <value>Speaker_Program</value>
+        </expression>
+      </expression>
+      <actions>
+        <action type="veeva.ecm.flow.application.impl.decision.FlowNextStepAction">
+          <nextSteps>
+            <nextStep>Objectworkflowstep.update_event_status_to_pending_approval__c</nextStep>
+          </nextSteps>
+        </action>
+      </actions>
+    </vwf:rule>
+    <vwf:rule key="nt-1-1731784654387">
+      <expression operator="eq" qualifier="veeva.ecm.common.care.condition.metadata.field">
+        <expression operator="field" type="string">
+          <value>Object.em_event__v.object_type__v</value>
+        </expression>
+        <expression operator="value" type="string">
+          <value>Congress</value>
+        </expression>
+      </expression>
+      <actions>
+        <action type="veeva.ecm.flow.application.impl.decision.FlowNextStepAction">
+          <nextSteps>
+            <nextStep>Objectworkflowstep.task_for_approver_selection__c</nextStep>
+          </nextSteps>
+        </action>
+      </actions>
+    </vwf:rule>
+    <vwf:rule>
+      <actions>
+        <action type="veeva.ecm.flow.application.impl.decision.FlowNextStepAction">
+          <nextSteps>
+            <nextStep>Objectworkflowstep.entry_criteria_not_met__c</nextStep>
+          </nextSteps>
+        </action>
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

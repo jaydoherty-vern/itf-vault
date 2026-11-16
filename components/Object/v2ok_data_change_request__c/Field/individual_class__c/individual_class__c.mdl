@@ -1,0 +1,18 @@
+Field individual_class__c (
+   label('Individual Class'),
+   type('Picklist'),
+   active(true),
+   description('(called at Cegedim as Ind CLASS)'),
+   required(false),
+   unique(false),
+   help_content('Set this value only in case of CREATE!'),
+   list_column(false),
+   order(27),
+   multi_value(false),
+   picklist('Picklist.v2ok_data_change_reques_individual_class__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

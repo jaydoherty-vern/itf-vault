@@ -1,0 +1,5 @@
+Picklistentry erectile_dysfunction__c (
+   value('Erectile Dysfunction'),
+   order(97),
+   active(true)
+);

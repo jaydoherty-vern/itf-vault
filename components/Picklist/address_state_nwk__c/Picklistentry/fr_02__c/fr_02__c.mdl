@@ -1,0 +1,5 @@
+Picklistentry fr_02__c (
+   value('FR_Aisne'),
+   order(278),
+   active(true)
+);

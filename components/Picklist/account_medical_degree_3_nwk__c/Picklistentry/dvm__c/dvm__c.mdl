@@ -1,0 +1,5 @@
+Picklistentry dvm__c (
+   value('Doctor of Veterinary Medicine'),
+   order(95),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry si__v (
+   value('Slovenia'),
+   order(97),
+   active(true)
+);

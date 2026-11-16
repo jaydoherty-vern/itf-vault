@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:targetDocumentAlias>Target Document</vrp:targetDocumentAlias>
+  <vrp:sourceDocumentAlias>Source Document</vrp:sourceDocumentAlias>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:combineReportPrompts>false</vrp:combineReportPrompts>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:removeLinksFromExport>false</vrp:removeLinksFromExport>
+  <vrp:columns>
+    <vrp:column key="time_off_territory__v.name__v" type="documentProperty" index="0" columnWidth="200" />
+    <vrp:column key="time_off_territory__v.ownerid__v" type="documentProperty" index="1" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.date__v" type="documentProperty" index="2" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.start_time__v" type="documentProperty" index="3" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.territory__v" type="documentProperty" index="4" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.time__v" type="documentProperty" index="5" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.time_off_territory_status__v" type="documentProperty" index="6" columnWidth="164" />
+    <vrp:column key="time_off_territory__v.unavailable_for_engage_scheduling__v" type="documentProperty" index="7" columnWidth="219" />
+    <vrp:column key="time_off_territory__v.reason__v" type="documentProperty" index="8" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.hours__v" type="documentProperty" index="9" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.hours_off__v" type="documentProperty" index="10" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.id" type="documentProperty" index="11" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.created_by__v" type="documentProperty" index="12" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.created_date__v" type="documentProperty" index="13" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.modified_by__v" type="documentProperty" index="14" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.modified_date__v" type="documentProperty" index="15" columnWidth="155" />
+    <vrp:column key="time_off_territory__v___ownerid__v.name__v" type="documentProperty" index="16" columnWidth="200" />
+    <vrp:column key="time_off_territory__v___ownerid__v.isactive__v" type="documentProperty" index="17" columnWidth="155" />
+    <vrp:column key="time_off_territory__v___ownerid__v.email__sys" type="documentProperty" index="18" columnWidth="155" />
+    <vrp:column key="time_off_territory__v___ownerid__v.id" type="documentProperty" index="19" columnWidth="155" />
+    <vrp:column key="time_off_territory__v___ownerid__v.manager__sys" type="documentProperty" index="20" columnWidth="155" />
+    <vrp:column key="time_off_territory__v___ownerid__v.username__sys" type="documentProperty" index="21" columnWidth="155" />
+    <vrp:column key="time_off_territory__v___ownerid__v.status__v" type="documentProperty" index="22" columnWidth="155" />
+  </vrp:columns>
+</vrp:reportFormat>

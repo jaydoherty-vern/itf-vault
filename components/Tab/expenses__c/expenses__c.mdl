@@ -1,0 +1,12 @@
+RECREATE Tab expenses__c (
+   active(true),
+   all_view_label('All Expenses'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Expenses'),
+   my_view_label('My Expenses'),
+   object('expenses__c'),
+   order(1600),
+   parent(),
+   recent_view_label('Recent Expenses')
+);

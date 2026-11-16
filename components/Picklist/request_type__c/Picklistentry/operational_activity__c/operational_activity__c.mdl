@@ -1,0 +1,5 @@
+Picklistentry operational_activity__c (
+   value('Operational Activity'),
+   order(7),
+   active(true)
+);

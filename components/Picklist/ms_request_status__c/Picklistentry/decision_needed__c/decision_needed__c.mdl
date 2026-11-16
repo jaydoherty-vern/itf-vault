@@ -1,0 +1,5 @@
+Picklistentry decision_needed__c (
+   value('Decision needed'),
+   order(4),
+   active(true)
+);

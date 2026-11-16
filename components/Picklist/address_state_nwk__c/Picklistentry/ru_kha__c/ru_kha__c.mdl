@@ -1,0 +1,5 @@
+Picklistentry ru_kha__c (
+   value('RU_Khabarovskiy kray'),
+   order(1509),
+   active(true)
+);

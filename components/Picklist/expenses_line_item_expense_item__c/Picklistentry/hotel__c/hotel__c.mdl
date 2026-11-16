@@ -1,0 +1,5 @@
+Picklistentry hotel__c (
+   value('Hotel'),
+   order(4),
+   active(true)
+);

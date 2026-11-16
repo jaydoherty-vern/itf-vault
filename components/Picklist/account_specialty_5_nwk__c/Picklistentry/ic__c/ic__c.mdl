@@ -1,0 +1,5 @@
+Picklistentry ic__c (
+   value('Interventional Cardiology'),
+   order(222),
+   active(true)
+);

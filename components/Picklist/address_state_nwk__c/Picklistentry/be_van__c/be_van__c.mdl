@@ -1,0 +1,5 @@
+Picklistentry be_van__c (
+   value('BE_Antwerpen'),
+   order(77),
+   active(true)
+);

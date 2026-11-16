@@ -1,0 +1,5 @@
+Picklistentry lv_065__c (
+   value('LV_Neretas novads (Nereta)'),
+   order(1117),
+   active(true)
+);

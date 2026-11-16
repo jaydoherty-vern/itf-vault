@@ -1,0 +1,5 @@
+Picklistentry at_5__c (
+   value('AT-5'),
+   order(160),
+   active(true)
+);

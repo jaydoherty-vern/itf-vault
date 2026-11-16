@@ -1,0 +1,5 @@
+Picklistentry az_qaz__c (
+   value('AZ-QAZ'),
+   order(216),
+   active(true)
+);

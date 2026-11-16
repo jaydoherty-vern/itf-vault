@@ -1,0 +1,17 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.tsf__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="preferred_account__v" />
+            <vault:field reference="address__v" />
+            <vault:field reference="my_target__v" />
+            <vault:spacer />
+            <vault:field reference="number_of_days_since_last_visit_qs__c" />
+            <vault:field reference="last_activity_date__v" readOnly="true" />
+            <vault:field reference="ytd_activity__v" readOnly="true" />
+            <vault:field reference="territory__v" readOnly="true" />
+            <vault:field reference="target_manager_qs__c" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

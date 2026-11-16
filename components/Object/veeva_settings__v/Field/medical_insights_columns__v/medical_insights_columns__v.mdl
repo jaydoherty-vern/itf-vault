@@ -1,0 +1,20 @@
+Field medical_insights_columns__v (
+   label('Medical Insights Columns'),
+   type('String'),
+   active(true),
+   description('This setting holds a comma list of Medical Insights field API names. These fields will show as columns in the home page Medical Insights list on offline platforms.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Comma delimited list of fields to show as columns in the home page Medical Insights list. Maximum number of fields is 15.'),
+   list_column(false),
+   order(212),
+   default_value('"Date__v,Summary__v,Account__v,Medical_Event__v,Clinical_Trial__v,Publication__v"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

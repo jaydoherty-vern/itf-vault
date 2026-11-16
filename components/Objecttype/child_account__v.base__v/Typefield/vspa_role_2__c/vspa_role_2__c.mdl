@@ -1,0 +1,4 @@
+Typefield vspa_role_2__c (
+   source('standard'),
+   required(false)
+);

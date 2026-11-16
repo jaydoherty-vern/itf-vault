@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_sample_opt_in_remote_signature__c (
+   label('VSPA_Sample_Opt_In_Remote_Signature'),
+   active(true),
+   description('Enable: Capturing Remote Signatures for Sample Opt-In'),
+   object.multichannel_consent__v.signature_captured_qr_code__v.field_actions('edit',
+      'read'),
+   object.multichannel_consent__v.signature_captured_share_link__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

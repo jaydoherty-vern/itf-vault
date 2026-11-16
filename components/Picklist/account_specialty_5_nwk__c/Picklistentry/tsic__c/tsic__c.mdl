@@ -1,0 +1,5 @@
+Picklistentry tsic__c (
+   value('Thoracic Surgery Intensive Care'),
+   order(508),
+   active(true)
+);

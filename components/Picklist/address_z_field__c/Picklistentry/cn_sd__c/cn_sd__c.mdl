@@ -1,0 +1,5 @@
+Picklistentry cn_sd__c (
+   value('CN-SD'),
+   order(757),
+   active(true)
+);

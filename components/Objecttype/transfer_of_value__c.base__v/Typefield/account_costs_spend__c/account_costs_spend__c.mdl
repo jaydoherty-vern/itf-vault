@@ -1,0 +1,4 @@
+Typefield account_costs_spend__c (
+   source('standard'),
+   required(true)
+);

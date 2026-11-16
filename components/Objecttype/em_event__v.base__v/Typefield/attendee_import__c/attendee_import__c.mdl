@@ -1,0 +1,4 @@
+Typefield attendee_import__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry sasdr__c (
+   value('SASDR'),
+   order(17),
+   active(true)
+);

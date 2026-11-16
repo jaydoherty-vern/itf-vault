@@ -1,0 +1,14 @@
+RECREATE Picklist account_business_type_nwk__c (
+   label('Type of Business'),
+   active(true),
+   Picklistentry(@Picklistentry/gie__c.mdl),
+   Picklistentry(@Picklistentry/mili__c.mdl),
+   Picklistentry(@Picklistentry/semi__c.mdl),
+   Picklistentry(@Picklistentry/ngo__c.mdl),
+   Picklistentry(@Picklistentry/npo__c.mdl),
+   Picklistentry(@Picklistentry/pr__c.mdl),
+   Picklistentry(@Picklistentry/pb__c.mdl),
+   Picklistentry(@Picklistentry/gip__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

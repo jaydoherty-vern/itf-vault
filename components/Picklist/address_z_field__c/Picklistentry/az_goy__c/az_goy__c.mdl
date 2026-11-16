@@ -1,0 +1,5 @@
+Picklistentry az_goy__c (
+   value('AZ-GOY'),
+   order(195),
+   active(true)
+);

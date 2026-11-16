@@ -1,0 +1,5 @@
+Picklistentry fr_40__c (
+   value('FR_Landes'),
+   order(332),
+   active(true)
+);

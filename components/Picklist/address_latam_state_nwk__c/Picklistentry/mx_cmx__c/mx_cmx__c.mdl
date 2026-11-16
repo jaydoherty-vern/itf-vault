@@ -1,0 +1,5 @@
+Picklistentry mx_cmx__c (
+   value('Mexico City'),
+   order(48),
+   active(true)
+);

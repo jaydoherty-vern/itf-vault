@@ -1,0 +1,10 @@
+RECREATE Picklist product_metrics_formulary_status_qs__c (
+   label('Formulary Status'),
+   active(true),
+   Picklistentry(@Picklistentry/not_targeted__c.mdl),
+   Picklistentry(@Picklistentry/planned__c.mdl),
+   Picklistentry(@Picklistentry/in_development__c.mdl),
+   Picklistentry(@Picklistentry/implemented_or_completed__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

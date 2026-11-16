@@ -1,0 +1,5 @@
+Picklistentry br_ap__c (
+   value('Amapá'),
+   order(17),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cellular_and_molecular_biology_genetics__c (
+   value('Cellular and Molecular Biology, Genetics, Genomics, Research Fellow'),
+   order(117),
+   active(true)
+);

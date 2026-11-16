@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="itf_market_access_request_form__c.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="itf_market_access_request_form__c.itf_territory__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="itf_market_access_request_form__c.itf_request_date__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="itf_market_access_request_form__c.itf_facility_hcp_primary_affiliation__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="itf_market_access_request_form__c.itf_arc_enrolled__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="itf_market_access_request_form__c.itf_additional_information__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="itf_market_access_request_form__c.itf_name_of_the_account_contact__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="itf_market_access_request_form__c.itf_phone_number_of_account_contact__c" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group>
+    <vrp:groupItem index="0" name="itf_market_access_request_form__c.itf_nature_of_request__c" groupBySortOn="itf_market_access_request_form__c.itf_nature_of_request__c" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="1" name="itf_market_access_request_form__c.ownerid__v" groupBySortOn="itf_market_access_request_form__c.ownerid__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order />
+</vrp:query>

@@ -1,0 +1,5 @@
+Picklistentry om_da__c (
+   value('OM_Ad Dākhilīyah'),
+   order(59),
+   active(true)
+);

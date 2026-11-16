@@ -1,0 +1,5 @@
+Picklistentry g_n__c (
+   value('Neurology'),
+   order(5),
+   active(true)
+);

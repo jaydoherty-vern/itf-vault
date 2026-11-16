@@ -1,0 +1,5 @@
+Picklistentry asd__c (
+   value('Associate Specialist Doctor'),
+   order(20),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field system_impacted__c (
+   label('Impacted Applications'),
+   type('Picklist'),
+   active(true),
+   description('List of applications impacted by SFA change requests.'),
+   required(false),
+   unique(false),
+   help_content('List of SaaS applications.'),
+   list_column(false),
+   order(113),
+   multi_value(true),
+   picklist('Picklist.system_impacted__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

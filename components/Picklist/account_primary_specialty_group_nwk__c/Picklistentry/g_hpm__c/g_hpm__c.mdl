@@ -1,0 +1,5 @@
+Picklistentry g_hpm__c (
+   value('Hospice & Palliative Medicine'),
+   order(48),
+   active(true)
+);

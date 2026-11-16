@@ -1,0 +1,5 @@
+Picklistentry it_pv__c (
+   value('IT_Pavia'),
+   order(900),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry af_bgl__c (
+   value('AF-BGL'),
+   order(17),
+   active(true)
+);

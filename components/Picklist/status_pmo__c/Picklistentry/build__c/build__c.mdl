@@ -1,0 +1,5 @@
+Picklistentry build__c (
+   value('Build'),
+   order(2),
+   active(true)
+);

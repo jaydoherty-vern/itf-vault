@@ -1,0 +1,27 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.exception_message__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="error_message__sys" />
+            <vault:field reference="error_type__sys" />
+            <vault:field reference="message_body_json__sys" />
+            <vault:field reference="message_items_failed__sys" />
+            <vault:field reference="message_items_received__sys" />
+            <vault:field reference="message_processor__sys" />
+            <vault:field reference="integration__sys" />
+            <vault:field reference="integration_point__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="User Exception Items" name="user_exception_items__c">
+        <vault:relatedObject relationship="exception_items__sysr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="error_message__sys" width="200px" />
+            <vault:field reference="item__sys" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

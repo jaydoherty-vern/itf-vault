@@ -1,0 +1,4 @@
+Typefield specialty_1_vod__c (
+   source('standard'),
+   required(false)
+);

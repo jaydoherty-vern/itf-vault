@@ -1,0 +1,5 @@
+Picklistentry license_of_the_royal_college_of_physici1__c (
+   value('License of the Royal College of Physicians and Surgeons (LRCPS)'),
+   order(18),
+   active(true)
+);

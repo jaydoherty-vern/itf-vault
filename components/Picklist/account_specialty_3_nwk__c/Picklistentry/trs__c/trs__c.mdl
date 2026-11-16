@@ -1,0 +1,5 @@
+Picklistentry trs__c (
+   value('Trauma Surgery'),
+   order(536),
+   active(true)
+);

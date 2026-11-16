@@ -1,0 +1,5 @@
+Picklistentry fi_al__c (
+   value('FI-AL'),
+   order(271),
+   active(false)
+);

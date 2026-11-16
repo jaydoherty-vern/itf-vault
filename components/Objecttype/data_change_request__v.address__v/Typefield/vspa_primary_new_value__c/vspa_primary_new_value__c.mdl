@@ -1,0 +1,4 @@
+Typefield vspa_primary_new_value__c (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry afghani__c (
+   value('Afghani'),
+   order(0),
+   active(true)
+);

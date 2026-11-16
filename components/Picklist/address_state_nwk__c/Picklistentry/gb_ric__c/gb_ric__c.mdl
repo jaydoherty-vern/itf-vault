@@ -1,0 +1,5 @@
+Picklistentry gb_ric__c (
+   value('GB-RIC'),
+   order(589),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry cv_ca__c (
+   value('CV-CA'),
+   order(823),
+   active(true)
+);

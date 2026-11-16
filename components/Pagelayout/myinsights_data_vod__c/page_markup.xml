@@ -1,0 +1,17 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.myinsights_data__v.myinsights_data__v">
+    <vault:section title="Fields" name="fields__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="html_report__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

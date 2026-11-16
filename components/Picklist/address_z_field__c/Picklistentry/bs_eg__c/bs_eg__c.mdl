@@ -1,0 +1,5 @@
+Picklistentry bs_eg__c (
+   value('BS-EG'),
+   order(531),
+   active(true)
+);

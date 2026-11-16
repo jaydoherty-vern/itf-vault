@@ -1,0 +1,5 @@
+Picklistentry cd_bn__c (
+   value('CD-BN'),
+   order(611),
+   active(true)
+);

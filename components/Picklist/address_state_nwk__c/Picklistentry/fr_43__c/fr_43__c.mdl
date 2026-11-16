@@ -1,0 +1,5 @@
+Picklistentry fr_43__c (
+   value('FR_Haute-Loire'),
+   order(317),
+   active(true)
+);

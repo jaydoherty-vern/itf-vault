@@ -1,0 +1,5 @@
+Picklistentry surgical_critical_care__c (
+   value('SURGICAL CRITICAL CARE'),
+   order(394),
+   active(true)
+);

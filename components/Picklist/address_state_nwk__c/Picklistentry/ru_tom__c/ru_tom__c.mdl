@@ -1,0 +1,5 @@
+Picklistentry ru_tom__c (
+   value('RU_Tomskaya oblast'''),
+   order(1551),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry sample_drop_adjustment__c (
+   value('Sample Drop Adjustment'),
+   order(3),
+   active(true)
+);

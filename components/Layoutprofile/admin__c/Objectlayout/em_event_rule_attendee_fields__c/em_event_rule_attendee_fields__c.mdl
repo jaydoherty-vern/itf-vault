@@ -1,0 +1,8 @@
+Objectlayout em_event_rule_attendee_fields__c (
+   label('em_event_rule_attendee_fields'),
+   active(true),
+   pagelayouts('Pagelayout.attendee_fields_layout__c'),
+   object('Object.em_event_rule__v'),
+   objecttype('Objecttype.em_event_rule__v.attendee_fields__v'),
+   record_creation_layout('Pagelayout.attendee_fields_layout__c')
+);

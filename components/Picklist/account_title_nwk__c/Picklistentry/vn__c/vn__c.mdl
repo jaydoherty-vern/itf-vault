@@ -1,0 +1,5 @@
+Picklistentry vn__c (
+   value('Veterinary Nurse'),
+   order(113),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mbbchbao__c (
+   value('Bachelor of Medicine, Bachelor of Surgery, Bachelor of Art of Obstetrics (MB BCh BAO)'),
+   order(6),
+   active(true)
+);

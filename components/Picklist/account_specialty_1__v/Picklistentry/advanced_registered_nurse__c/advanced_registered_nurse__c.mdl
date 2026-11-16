@@ -1,0 +1,5 @@
+Picklistentry advanced_registered_nurse__c (
+   value('Advanced Registered Nurse'),
+   order(151),
+   active(true)
+);

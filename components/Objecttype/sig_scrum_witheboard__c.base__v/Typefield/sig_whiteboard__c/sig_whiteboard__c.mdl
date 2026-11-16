@@ -1,0 +1,4 @@
+Typefield sig_whiteboard__c (
+   source('standard'),
+   required(false)
+);

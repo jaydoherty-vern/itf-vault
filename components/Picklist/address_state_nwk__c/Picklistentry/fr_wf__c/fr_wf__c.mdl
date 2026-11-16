@@ -1,0 +1,5 @@
+Picklistentry fr_wf__c (
+   value('FR_Wallis-et-Futuna'),
+   order(383),
+   active(true)
+);

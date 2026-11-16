@@ -1,0 +1,5 @@
+Picklistentry fr_57__c (
+   value('FR_Moselle'),
+   order(349),
+   active(true)
+);

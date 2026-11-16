@@ -1,0 +1,7 @@
+RECREATE Permissionset vpro_approval_widget_permissions__c (
+   label('VPRO Approval Widget Permissions'),
+   active(true),
+   description('Permission Set to View Custom Items to Approve Widget'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

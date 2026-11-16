@@ -1,0 +1,5 @@
+Picklistentry cchem__c (
+   value('Clinical Chemistry'),
+   order(73),
+   active(true)
+);

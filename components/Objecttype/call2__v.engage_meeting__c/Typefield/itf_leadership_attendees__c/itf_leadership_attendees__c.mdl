@@ -1,0 +1,9 @@
+Typefield itf_leadership_attendees__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_itf_leadership_attendees__c.bonnie_kiesling__c',
+         'Picklist.call2_itf_leadership_attendees__c.caroline_allen__c',
+         'Picklist.call2_itf_leadership_attendees__c.julie_compton__c',
+         'Picklist.call2_itf_leadership_attendees__c.matt_trudeau__c',
+         'Picklist.call2_itf_leadership_attendees__c.other__c')
+);

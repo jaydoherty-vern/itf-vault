@@ -1,0 +1,5 @@
+Picklistentry de_sh__c (
+   value('DE-SH'),
+   order(980),
+   active(true)
+);

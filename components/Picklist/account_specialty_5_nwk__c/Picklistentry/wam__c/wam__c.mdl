@@ -1,0 +1,5 @@
+Picklistentry wam__c (
+   value('Wild Animal Medicine'),
+   order(566),
+   active(true)
+);

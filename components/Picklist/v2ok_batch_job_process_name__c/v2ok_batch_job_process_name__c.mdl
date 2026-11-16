@@ -1,0 +1,15 @@
+RECREATE Picklist v2ok_batch_job_process_name__c (
+   label('Process Name'),
+   active(true),
+   Picklistentry(@Picklistentry/synchronizeaddress__c.mdl),
+   Picklistentry(@Picklistentry/synchronize_individual_address__c.mdl),
+   Picklistentry(@Picklistentry/clean_and_update_primary_address__c.mdl),
+   Picklistentry(@Picklistentry/synchronize_individual_address_extended__c.mdl),
+   Picklistentry(@Picklistentry/veeva_onekey_batch_getstatistic__c.mdl),
+   Picklistentry(@Picklistentry/process_dcr_response__c.mdl),
+   Picklistentry(@Picklistentry/process_wkp_dummy_name__c.mdl),
+   Picklistentry(@Picklistentry/veeva_batch_onekey_reactivation__c.mdl),
+   Picklistentry(@Picklistentry/veeva_batch_onekey_address_inactivation__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

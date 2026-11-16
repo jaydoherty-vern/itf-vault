@@ -1,0 +1,5 @@
+Picklistentry fr_34__c (
+   value('FR_Hérault'),
+   order(325),
+   active(true)
+);

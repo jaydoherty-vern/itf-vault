@@ -1,0 +1,5 @@
+Picklistentry cz_pr__c (
+   value('CZ-PR'),
+   order(964),
+   active(true)
+);

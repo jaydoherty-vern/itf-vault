@@ -1,0 +1,5 @@
+Picklistentry it_pa__c (
+   value('IT_Palermo'),
+   order(898),
+   active(true)
+);

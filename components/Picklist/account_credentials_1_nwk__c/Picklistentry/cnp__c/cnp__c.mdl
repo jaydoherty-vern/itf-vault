@@ -1,0 +1,5 @@
+Picklistentry cnp__c (
+   value('Certified Nurse Practitioner'),
+   order(4),
+   active(true)
+);

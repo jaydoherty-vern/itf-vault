@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vault:dashboard xmlns:vault="VeevaVault" type="Eighteen-Columns" layoutVersion="V2">
+  <vault:chart name="users_who_have_not_applied_updates_in__c" label="Users who have not Applied Updates in the last 10 days" type="table" report="Report.users_who_have_not_applied_updates_in__c">
+    <vault:position row="9" col="0" sizeX="6" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="20" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="NoGrouping" value="AllValues" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="true">
+      <vault:reportColumn key="user__sys.name__v" label="User &gt; Name" property="link" />
+      <vault:reportColumn key="user__sys.last_ipad_updates_applied__v" label="User &gt; Last iPad Updates Applied" property="data" />
+      <vault:reportColumn key="user__sys.user_type__v" label="User &gt; User Type" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+  <vault:chart name="users_who_have_not_logged_in_in_the_l__c" label="Users who have not logged in in the last 10 days" type="table" report="Report.users_who_have_not_logged_in_in_the_l__c">
+    <vault:position row="0" col="0" sizeX="6" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="20" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="NoGrouping" value="AllValues" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="true">
+      <vault:reportColumn key="user__sys.name__v" label="User &gt; Name" property="link" />
+      <vault:reportColumn key="user__sys.last_login__sys" label="User &gt; Last Login" property="data" />
+      <vault:reportColumn key="user__sys.user_type__v" label="User &gt; User Type" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+  <vault:chart name="users_who_have_not_synced_in_the_last__c" label="Users who have not Synced in the last 10 days" type="table" report="Report.users_who_have_not_synced_in_the_last__c">
+    <vault:position row="0" col="6" sizeX="6" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="20" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="NoGrouping" value="AllValues" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="true">
+      <vault:reportColumn key="user__sys.name__v" label="User &gt; Name" property="link" />
+      <vault:reportColumn key="user__sys.last_ipad_sync__v" label="User &gt; Last iPad Sync" property="data" />
+      <vault:reportColumn key="user__sys.user_type__v" label="User &gt; User Type" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+  <vault:chart name="users_with_ios_versions__c" label="Users with iOS Versions" type="table" report="Report.users_with_ios_versions__c">
+    <vault:position row="9" col="6" sizeX="6" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="20" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="NoGrouping" value="AllValues" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="true">
+      <vault:reportColumn key="user__sys.name__v" label="User &gt; Name" property="link" />
+      <vault:reportColumn key="user__sys.last_ipad_ios_version__v" label="User &gt; Last iPad iOS Version" property="data" />
+      <vault:reportColumn key="user__sys.user_type__v" label="User &gt; User Type" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+  <vault:chart name="unique_login_count_by_month__c" label="Unique Login Count by Month" type="column" report="Report.performance_statistics_report__c">
+    <vault:position row="0" col="12" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Created Date (Month)" yaxislabel="Record Count (Performance Statistics)" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="perf_stats__v.created_date__v" value="" />
+    </vault:series>
+  </vault:chart>
+</vault:dashboard>

@@ -1,0 +1,5 @@
+Picklistentry dbio__c (
+   value('Dr. rer. medic.'),
+   order(129),
+   active(true)
+);

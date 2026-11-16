@@ -1,0 +1,19 @@
+RECREATE Permissionset vspa_next_year_speaker_status_data_admin__c (
+   label('VSPA_Next_Year_Speaker_Status_Data_Admin'),
+   active(true),
+   description('EXTRA_Enables the 18R1 functionality of Next Year Speaker Status for Data Admins. Requires Events Management to be enabled.'),
+   object.em_speaker__v.next_year_committed__v.field_actions('edit',
+      'read'),
+   object.em_speaker__v.next_year_reset_date__v.field_actions('edit',
+      'read'),
+   object.em_speaker__v.next_year_status__v.field_actions('edit',
+      'read'),
+   object.em_speaker__v.upcoming_committed_costs__v.field_actions('edit',
+      'read'),
+   object.em_speaker__v.year_to_date_reset_day__v.field_actions('edit',
+      'read'),
+   object.em_speaker__v.year_to_date_reset_month__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

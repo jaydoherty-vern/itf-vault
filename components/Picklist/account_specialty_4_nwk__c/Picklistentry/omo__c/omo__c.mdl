@@ -1,0 +1,5 @@
+Picklistentry omo__c (
+   value('Musculoskeletal Oncology'),
+   order(278),
+   active(true)
+);

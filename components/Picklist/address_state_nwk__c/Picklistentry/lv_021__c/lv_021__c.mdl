@@ -1,0 +1,5 @@
+Picklistentry lv_021__c (
+   value('LV_Cesvaines novads (Cesvaine)'),
+   order(1068),
+   active(true)
+);

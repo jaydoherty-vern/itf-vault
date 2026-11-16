@@ -1,0 +1,5 @@
+Picklistentry cancer__c (
+   value('Cancer'),
+   order(57),
+   active(true)
+);

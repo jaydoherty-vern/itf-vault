@@ -1,0 +1,6 @@
+Picklistentry otp_other_activity__sys (
+   value('Other Activity'),
+   order(117),
+   active(true),
+   controlling_entries('olc_event__sys')
+);

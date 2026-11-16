@@ -1,0 +1,9 @@
+RECREATE Picklist em_speaker_qualification_cno_decision__c (
+   label('CNO Decision'),
+   active(true),
+   Picklistentry(@Picklistentry/positive__c.mdl),
+   Picklistentry(@Picklistentry/negative_and_suspensive__c.mdl),
+   Picklistentry(@Picklistentry/negative__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

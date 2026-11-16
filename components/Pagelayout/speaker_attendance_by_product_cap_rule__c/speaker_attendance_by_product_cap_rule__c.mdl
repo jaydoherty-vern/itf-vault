@@ -1,0 +1,8 @@
+RECREATE Pagelayout speaker_attendance_by_product_cap_rule__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Speaker Attendance By Product Cap Rule'),
+   page_markup(@page_markup.xml)
+);

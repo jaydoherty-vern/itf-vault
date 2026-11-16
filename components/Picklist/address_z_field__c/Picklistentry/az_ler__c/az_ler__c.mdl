@@ -1,0 +1,5 @@
+Picklistentry az_ler__c (
+   value('AZ-LER'),
+   order(206),
+   active(true)
+);

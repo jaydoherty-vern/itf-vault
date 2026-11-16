@@ -1,0 +1,5 @@
+Picklistentry bs_in__c (
+   value('BS-IN'),
+   order(537),
+   active(true)
+);

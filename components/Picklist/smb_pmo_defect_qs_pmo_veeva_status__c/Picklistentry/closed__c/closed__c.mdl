@@ -1,0 +1,5 @@
+Picklistentry closed__c (
+   value('Closed'),
+   order(4),
+   active(true)
+);

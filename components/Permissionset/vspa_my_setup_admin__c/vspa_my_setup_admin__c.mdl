@@ -1,0 +1,20 @@
+RECREATE Permissionset vspa_my_setup_admin__c (
+   label('VSPA_My_Setup_Admin'),
+   active(true),
+   description('To allow user to create, edit and delete My Setup Products records.'),
+   object.my_setup_products__v.created_by__v.field_actions('read'),
+   object.my_setup_products__v.created_date__v.field_actions('read'),
+   object.my_setup_products__v.favorite__v.field_actions('edit',
+      'read'),
+   object.my_setup_products__v.modified_by__v.field_actions('read'),
+   object.my_setup_products__v.modified_date__v.field_actions('read'),
+   object.my_setup_products__v.object_actions('create',
+      'delete',
+      'edit',
+      'read'),
+   object.my_setup_products__v.ownerid__v.field_actions('read'),
+   object.my_setup_products__v.product__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

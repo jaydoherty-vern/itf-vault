@@ -1,0 +1,5 @@
+Picklistentry tll_meeting_logistics__c (
+   value('TLL Meeting Logistics'),
+   order(13),
+   active(true)
+);

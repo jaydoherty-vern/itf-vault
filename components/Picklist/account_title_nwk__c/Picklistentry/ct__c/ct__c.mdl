@@ -1,0 +1,5 @@
+Picklistentry ct__c (
+   value('Chief Technician'),
+   order(19),
+   active(true)
+);

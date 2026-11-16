@@ -1,0 +1,4 @@
+Typefield itf_confirmation_of_patient_count__c (
+   source('standard'),
+   required(false)
+);

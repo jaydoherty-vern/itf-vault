@@ -1,0 +1,5 @@
+Picklistentry chemical_pathology__c (
+   value('Chemical Pathology'),
+   order(163),
+   active(true)
+);

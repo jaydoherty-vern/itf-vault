@@ -1,0 +1,5 @@
+Picklistentry hu_ny__c (
+   value('HU_Nyíregyháza'),
+   order(701),
+   active(true)
+);

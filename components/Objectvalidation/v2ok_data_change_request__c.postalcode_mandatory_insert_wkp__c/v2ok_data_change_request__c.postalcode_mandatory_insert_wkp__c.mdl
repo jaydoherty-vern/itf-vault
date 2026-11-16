@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.postalcode_mandatory_insert_wkp__c (
+   label('PostalCode_Mandatory_Insert_WKP'),
+   active(true),
+   expression('Not(And(object_type__vr.name__v="Workplaces",Text(change_type__c)="Create",IsBlank(zip_vod__c)))'),
+   description('The postal code is mandatory for insert.'),
+   error_message('Mandatory for "Create" data change request type.'),
+   error_location('zip_vod__c')
+);

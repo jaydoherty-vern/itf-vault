@@ -1,0 +1,5 @@
+Picklistentry pharmacy_technician__c (
+   value('Pharmacy Technician'),
+   order(9),
+   active(true)
+);

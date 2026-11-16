@@ -1,0 +1,5 @@
+Picklistentry hso__c (
+   value('Hand Surgery (Orthopedic)'),
+   order(177),
+   active(true)
+);

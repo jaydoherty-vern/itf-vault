@@ -1,0 +1,5 @@
+Picklistentry 33_2__c (
+   value('Ancillary Services, Medical and Diagnostic Laboratories'),
+   order(6),
+   active(true)
+);

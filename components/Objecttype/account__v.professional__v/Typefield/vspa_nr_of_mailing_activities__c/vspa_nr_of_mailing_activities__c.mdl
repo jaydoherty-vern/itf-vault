@@ -1,0 +1,4 @@
+Typefield vspa_nr_of_mailing_activities__c (
+   source('custom'),
+   required(false)
+);

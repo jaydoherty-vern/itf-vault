@@ -1,0 +1,8 @@
+Objectworkflowstep select_manual_approver__c (
+   label('Select Manual Approver'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.manual_approver_review__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

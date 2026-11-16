@@ -1,0 +1,5 @@
+Picklistentry cm_su__c (
+   value('CM-SU'),
+   order(732),
+   active(true)
+);

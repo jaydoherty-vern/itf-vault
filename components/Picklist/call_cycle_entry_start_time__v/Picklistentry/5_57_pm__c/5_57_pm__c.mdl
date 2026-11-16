@@ -1,0 +1,5 @@
+Picklistentry 5_57_pm__c (
+   value('5:57 PM'),
+   order(43),
+   active(false)
+);

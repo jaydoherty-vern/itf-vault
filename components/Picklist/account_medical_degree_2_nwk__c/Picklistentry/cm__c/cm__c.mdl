@@ -1,0 +1,5 @@
+Picklistentry cm__c (
+   value('Corresponding member'),
+   order(25),
+   active(true)
+);

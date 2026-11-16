@@ -1,0 +1,5 @@
+Picklistentry sarc__c (
+   value('Sarcoma'),
+   order(395),
+   active(true)
+);

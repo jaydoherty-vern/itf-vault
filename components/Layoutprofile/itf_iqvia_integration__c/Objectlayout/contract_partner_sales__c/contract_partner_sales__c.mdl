@@ -1,0 +1,8 @@
+Objectlayout contract_partner_sales__c (
+   label('contract_partner_sales'),
+   active(true),
+   pagelayouts('Pagelayout.sales_contract_partner_layout__c'),
+   object('Object.contract_partner__v'),
+   objecttype('Objecttype.contract_partner__v.sales__v'),
+   record_creation_layout('Pagelayout.sales_contract_partner_layout__c')
+);

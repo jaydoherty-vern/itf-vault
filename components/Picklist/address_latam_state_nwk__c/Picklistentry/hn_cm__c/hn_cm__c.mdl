@@ -1,0 +1,5 @@
+Picklistentry hn_cm__c (
+   value('Comayagua'),
+   order(272),
+   active(true)
+);

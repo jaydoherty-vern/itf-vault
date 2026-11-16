@@ -1,0 +1,5 @@
+Picklistentry reame__c (
+   value('Diploma in Reanimation'),
+   order(85),
+   active(true)
+);

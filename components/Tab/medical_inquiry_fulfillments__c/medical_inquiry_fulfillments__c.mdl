@@ -1,0 +1,15 @@
+RECREATE Tab medical_inquiry_fulfillments__c (
+   active(true),
+   all_view_label('All Medical Inquiry Fulfillments'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Medical Inquiry Fulfillments'),
+   modal_create_record(false),
+   my_view_label('My Medical Inquiry Fulfillments'),
+   object('medical_inquiry_fulfillment__v'),
+   order(8300),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Medical Inquiry Fulfillments')
+);

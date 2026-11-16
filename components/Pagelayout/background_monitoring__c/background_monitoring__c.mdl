@@ -1,0 +1,8 @@
+RECREATE Pagelayout background_monitoring__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Background Monitoring'),
+   page_markup(@page_markup.xml)
+);

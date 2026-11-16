@@ -1,0 +1,41 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.expense_header__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="event__v" readOnly="true" />
+            <vault:field reference="actual__v" />
+            <vault:field reference="payment_date__v" readOnly="true" />
+            <vault:field reference="payment_due_date__v" readOnly="true" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="expense_header_status__v" readOnly="true" />
+            <vault:field reference="split_lines__v" readOnly="true" />
+            <vault:field reference="incurred_expense__v" readOnly="true" />
+            <vault:field reference="payee__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Concur Information" name="concur_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="concur_report__v" readOnly="true" />
+            <vault:field reference="concur_status__v" readOnly="true" />
+            <vault:field reference="transaction_date__v" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Expense Lines" name="expense_lines__c">
+        <vault:relatedObject relationship="expense_lines__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="actual__v" width="200px" />
+            <vault:field reference="expense_type_name__v" width="200px" />
+            <vault:field reference="description__v" width="200px" />
+            <vault:field reference="split_amount_per_person__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

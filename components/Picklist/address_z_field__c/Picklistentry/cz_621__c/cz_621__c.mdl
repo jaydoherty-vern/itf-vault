@@ -1,0 +1,5 @@
+Picklistentry cz_621__c (
+   value('CZ-621'),
+   order(930),
+   active(true)
+);

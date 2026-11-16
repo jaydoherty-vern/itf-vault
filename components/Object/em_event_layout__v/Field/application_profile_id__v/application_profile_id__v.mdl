@@ -1,0 +1,19 @@
+Field application_profile_id__v (
+   label('User Profile Id'),
+   type('String'),
+   active(true),
+   description('Id of the profile this event layout record is valid for. This field gets stamped via trigger based of the User_Profile_vod field, which uses the profile name. If data loading configuration, only upsert data into the User_Profile_vod field.'),
+   required(false),
+   unique(false),
+   max_length(18),
+   help_content('Id of the application profile for this event layout. This field gets stamped via trigger based of the application_profile__v field, which uses the profile name. If data loading configuration, only upsert data into the application_profile__v field'),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

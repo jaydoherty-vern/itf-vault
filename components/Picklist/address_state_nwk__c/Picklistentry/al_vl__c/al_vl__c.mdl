@@ -1,0 +1,5 @@
+Picklistentry al_vl__c (
+   value('AL_Vlorë (District)'),
+   order(54),
+   active(true)
+);

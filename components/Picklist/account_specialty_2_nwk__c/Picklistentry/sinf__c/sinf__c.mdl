@@ -1,0 +1,5 @@
+Picklistentry sinf__c (
+   value('Nursing Care'),
+   order(315),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectlayout survey_coaching_report__c (
+   label('survey_coaching_report'),
+   active(true),
+   pagelayouts('Pagelayout.coaching_report_layout3__c'),
+   object('Object.survey__v'),
+   objecttype('Objecttype.survey__v.coaching_report__v'),
+   record_creation_layout('Pagelayout.coaching_report_layout3__c')
+);

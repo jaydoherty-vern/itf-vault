@@ -1,0 +1,5 @@
+Picklistentry eqd__c (
+   value('Equine Dentistry'),
+   order(134),
+   active(true)
+);

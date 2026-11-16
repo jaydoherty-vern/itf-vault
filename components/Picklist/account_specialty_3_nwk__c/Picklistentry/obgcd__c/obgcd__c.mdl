@@ -1,0 +1,5 @@
+Picklistentry obgcd__c (
+   value('Gynecology and Obstetrics, Cyto-diagnostics'),
+   order(179),
+   active(true)
+);

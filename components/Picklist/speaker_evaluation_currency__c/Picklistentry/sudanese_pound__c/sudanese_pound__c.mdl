@@ -1,0 +1,5 @@
+Picklistentry sudanese_pound__c (
+   value('Sudanese Pound'),
+   order(140),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield vspa_cme_event__c (
+   source('standard'),
+   required(false)
+);

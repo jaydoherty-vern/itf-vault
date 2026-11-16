@@ -1,0 +1,5 @@
+Picklistentry sm_05__c (
+   value('SM_Fiorentino'),
+   order(1663),
+   active(true)
+);

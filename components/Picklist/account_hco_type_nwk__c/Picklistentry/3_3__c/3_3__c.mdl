@@ -1,0 +1,5 @@
+Picklistentry 3_3__c (
+   value('Primary-level Medical and Health Care Institutions, Township Hospital'),
+   order(232),
+   active(true)
+);

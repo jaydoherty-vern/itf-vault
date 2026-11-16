@@ -1,0 +1,5 @@
+Picklistentry hainj__c (
+   value('Hyaluronic Acid Injection'),
+   order(192),
+   active(true)
+);

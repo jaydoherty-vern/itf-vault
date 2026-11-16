@@ -1,0 +1,5 @@
+Picklistentry scientific__c (
+   value('Scientific'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry psic__c (
+   value('Plastic, Aesthetic and Reconstructive Surgery, Intensic Care'),
+   order(422),
+   active(true)
+);

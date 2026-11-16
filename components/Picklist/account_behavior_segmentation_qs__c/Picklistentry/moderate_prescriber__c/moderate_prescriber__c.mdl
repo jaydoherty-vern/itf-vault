@@ -1,0 +1,5 @@
+Picklistentry moderate_prescriber__c (
+   value('Moderate Prescriber'),
+   order(1),
+   active(true)
+);

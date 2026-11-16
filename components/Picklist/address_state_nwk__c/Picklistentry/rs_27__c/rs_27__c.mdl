@@ -1,0 +1,5 @@
+Picklistentry rs_27__c (
+   value('RS_Prizrenski okrug'),
+   order(1470),
+   active(true)
+);

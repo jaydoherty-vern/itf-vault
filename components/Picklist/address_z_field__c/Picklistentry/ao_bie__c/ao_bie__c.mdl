@@ -1,0 +1,5 @@
+Picklistentry ao_bie__c (
+   value('AO-BIE'),
+   order(116),
+   active(true)
+);

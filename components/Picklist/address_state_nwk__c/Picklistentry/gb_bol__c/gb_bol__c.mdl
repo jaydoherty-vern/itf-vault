@@ -1,0 +1,5 @@
+Picklistentry gb_bol__c (
+   value('GB-BOL'),
+   order(440),
+   active(false)
+);

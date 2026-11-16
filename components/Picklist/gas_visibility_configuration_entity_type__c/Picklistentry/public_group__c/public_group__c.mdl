@@ -1,0 +1,5 @@
+Picklistentry public_group__c (
+   value('Public Group'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mrt__c (
+   value('Magnetic Resonance Tomography'),
+   order(223),
+   active(true)
+);

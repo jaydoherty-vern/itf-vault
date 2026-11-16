@@ -1,0 +1,5 @@
+Picklistentry qa_da__c (
+   value('QA_Ad Dawḩah'),
+   order(69),
+   active(true)
+);

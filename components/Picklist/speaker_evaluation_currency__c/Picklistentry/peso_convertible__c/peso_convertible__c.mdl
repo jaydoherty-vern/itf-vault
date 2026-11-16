@@ -1,0 +1,5 @@
+Picklistentry peso_convertible__c (
+   value('Peso Convertible'),
+   order(48),
+   active(true)
+);

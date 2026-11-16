@@ -1,0 +1,9 @@
+Typefield activity_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_activity_type__c.advisory_board__c',
+         'Picklist.call2_activity_type__c.congress_activity__c',
+         'Picklist.call2_activity_type__c.internal_resource__c',
+         'Picklist.call2_activity_type__c.speaker_related_engagement__c',
+         'Picklist.call2_activity_type__c.tll_1_1__c')
+);

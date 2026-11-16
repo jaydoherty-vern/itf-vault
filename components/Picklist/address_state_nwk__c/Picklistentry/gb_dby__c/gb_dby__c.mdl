@@ -1,0 +1,5 @@
+Picklistentry gb_dby__c (
+   value('GB-DBY'),
+   order(469),
+   active(false)
+);

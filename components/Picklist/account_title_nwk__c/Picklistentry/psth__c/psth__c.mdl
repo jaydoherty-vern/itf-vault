@@ -1,0 +1,5 @@
+Picklistentry psth__c (
+   value('Psychotherapist'),
+   order(85),
+   active(true)
+);

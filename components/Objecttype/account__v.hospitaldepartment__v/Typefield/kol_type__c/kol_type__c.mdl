@@ -1,0 +1,7 @@
+Typefield kol_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_kol_type__c.international__c',
+         'Picklist.account_kol_type__c.national__c',
+         'Picklist.account_kol_type__c.unknown__c')
+);

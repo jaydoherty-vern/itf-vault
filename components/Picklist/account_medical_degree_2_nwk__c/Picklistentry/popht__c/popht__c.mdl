@@ -1,0 +1,5 @@
+Picklistentry popht__c (
+   value('Pediatric Ophthalmology Diploma'),
+   order(255),
+   active(true)
+);

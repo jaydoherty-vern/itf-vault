@@ -1,0 +1,5 @@
+Picklistentry hemo__c (
+   value('Disorders of Blood/Red Cell (bone marrow failure, hemoglobinopathies, anemias & autoimmune blood diseases)'),
+   order(112),
+   active(true)
+);

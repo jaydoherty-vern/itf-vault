@@ -1,0 +1,5 @@
+Picklistentry 2_4__c (
+   value('Inactive, Deceased'),
+   order(7),
+   active(true)
+);

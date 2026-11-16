@@ -1,0 +1,5 @@
+Picklistentry chtca__c (
+   value('Diploma in Cardiovascular Surgery'),
+   order(50),
+   active(true)
+);

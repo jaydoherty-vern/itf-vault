@@ -1,0 +1,5 @@
+Picklistentry event__c (
+   value('Event'),
+   order(3),
+   active(true)
+);

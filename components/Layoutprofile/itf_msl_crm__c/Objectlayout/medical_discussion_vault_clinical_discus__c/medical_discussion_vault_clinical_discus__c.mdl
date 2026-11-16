@@ -1,0 +1,8 @@
+Objectlayout medical_discussion_vault_clinical_discus__c (
+   label('medical_discussion_vault_clinical_discussion'),
+   active(true),
+   pagelayouts('Pagelayout.clinical_discussion_layout__c'),
+   object('Object.medical_discussion__v'),
+   objecttype('Objecttype.medical_discussion__v.vault_clinical_discussion__v'),
+   record_creation_layout('Pagelayout.clinical_discussion_layout__c')
+);

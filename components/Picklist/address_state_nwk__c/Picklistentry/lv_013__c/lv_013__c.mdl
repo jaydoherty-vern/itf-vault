@@ -1,0 +1,5 @@
+Picklistentry lv_013__c (
+   value('LV_Baldones novads (Baldone)'),
+   order(1059),
+   active(true)
+);

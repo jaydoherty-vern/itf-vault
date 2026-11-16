@@ -1,0 +1,5 @@
+Picklistentry vmbbm__c (
+   value('Veterinary Microbiology, Bacteriology and Mycology'),
+   order(551),
+   active(true)
+);

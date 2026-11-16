@@ -1,0 +1,5 @@
+Picklistentry pending_validation__c (
+   value('Pending Validation'),
+   order(1),
+   active(true)
+);

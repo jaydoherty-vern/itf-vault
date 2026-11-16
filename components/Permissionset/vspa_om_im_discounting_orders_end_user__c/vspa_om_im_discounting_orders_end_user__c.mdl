@@ -1,0 +1,22 @@
+RECREATE Permissionset vspa_om_im_discounting_orders_end_user__c (
+   label('VSPA_OM_IM_Discounting_Orders_End_User'),
+   active(true),
+   description('Enables Discounting Orders Based on Inventory Monitoring functionality for End-Users'),
+   object.inventory_monitoring__v.override_lock__v.field_actions('read'),
+   object.inventory_monitoring__v.related_order__v.field_actions('edit',
+      'read'),
+   object.inventory_monitoring_line__v.line_rank__v.field_actions('edit',
+      'read'),
+   object.order__v.last_inventory_monitoring__v.field_actions('edit',
+      'read'),
+   object.pricing_subrule__v.comparison_type__v.field_actions('edit',
+      'read'),
+   object.pricing_subrule__v.inventory_monitoring_field_value__v.field_actions('edit',
+      'read'),
+   object.pricing_subrule__v.inventory_monitoring_line_field__v.field_actions('edit',
+      'read'),
+   object.pricing_subrule__v.product__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

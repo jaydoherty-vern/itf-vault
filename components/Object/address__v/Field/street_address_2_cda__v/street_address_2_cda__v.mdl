@@ -1,0 +1,19 @@
+Field street_address_2_cda__v (
+   label('Address Line 2'),
+   type('String'),
+   active(true),
+   description('Second line of street address. The first line is stored in the name field of the address record.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('Second line of street address. The first line is stored in the name field of the address record.'),
+   list_column(true),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry ch_sg__c (
+   value('CH-SG'),
+   order(665),
+   active(true)
+);

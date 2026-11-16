@@ -1,0 +1,5 @@
+Picklistentry do_25__c (
+   value('Santiago'),
+   order(194),
+   active(true)
+);

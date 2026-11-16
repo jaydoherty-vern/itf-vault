@@ -1,0 +1,5 @@
+Picklistentry it_mn__c (
+   value('IT_Mantua'),
+   order(883),
+   active(true)
+);

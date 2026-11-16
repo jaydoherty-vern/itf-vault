@@ -1,0 +1,5 @@
+Picklistentry gb_erw__c (
+   value('GB-ERW'),
+   order(489),
+   active(false)
+);

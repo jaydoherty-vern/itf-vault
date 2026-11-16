@@ -1,0 +1,5 @@
+Picklistentry patient_status_panther_requested_follow__c (
+   value('Patient status - Panther requested follow up'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,23 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.account_overview_layout__v.base__v">
+    <vault:section title="Timeline Message" name="timeline_message_section__c" reference="timeline_message_section__v" />
+    <vault:section title="Timeline Calls" name="timeline_calls_section__c" reference="timeline_calls_section__v" />
+    <vault:section title="Timeline Emails" name="timeline_email_section__c" reference="timeline_email_section__v" />
+    <vault:section title="Timeline Orders" name="timeline_orders_section__c" reference="timeline_orders_section__v" />
+    <vault:section title="Timeline IM" name="timeline_im_section__c" reference="timeline_im_section__v" />
+    <vault:section title="Timeline MI" name="timeline_mi_section__c" reference="timeline_mi_section__v" />
+    <vault:section title="Timeline ME" name="timeline_me_section__c" reference="timeline_me_section__v" />
+    <vault:section title="Timeline Engage" name="timeline_engage_section__c" reference="timeline_engage_section__v" />
+    <vault:section title="Timeline CT" name="timeline_ct_section__c" reference="timeline_ct_section__v" />
+    <vault:section title="Timeline Publications" name="timeline_publication_section__c" reference="timeline_publication_section__v" />
+    <vault:section title="TSF_Details_vod" name="tsf_details_vod__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="zvod_tsf_ytd_activity__c" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

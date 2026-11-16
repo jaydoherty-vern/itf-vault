@@ -1,0 +1,4 @@
+Typefield hcp_opt_out_nwk__c (
+   source('custom'),
+   required(false)
+);

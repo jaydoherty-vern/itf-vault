@@ -1,0 +1,5 @@
+Picklistentry interactive_communication__c (
+   value('Interactive Communication'),
+   order(25),
+   active(true)
+);

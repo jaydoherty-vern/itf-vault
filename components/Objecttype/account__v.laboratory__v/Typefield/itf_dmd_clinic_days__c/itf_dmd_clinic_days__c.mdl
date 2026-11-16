@@ -1,0 +1,9 @@
+Typefield itf_dmd_clinic_days__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_itf_dmd_clinic_days__c.friday__c',
+         'Picklist.account_itf_dmd_clinic_days__c.monday__c',
+         'Picklist.account_itf_dmd_clinic_days__c.thursday__c',
+         'Picklist.account_itf_dmd_clinic_days__c.tuesday__c',
+         'Picklist.account_itf_dmd_clinic_days__c.wednesday__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry lt_52__c (
+   value('LT_Trakai'),
+   order(1032),
+   active(true)
+);

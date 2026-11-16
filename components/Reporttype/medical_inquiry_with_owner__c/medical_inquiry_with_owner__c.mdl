@@ -1,0 +1,9 @@
+RECREATE Reporttype medical_inquiry_with_owner__c (
+   label('Medical Inquiry with Owner'),
+   active(true),
+   description('Medical Inquiry with Owner'),
+   primary_object('medical_inquiry__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

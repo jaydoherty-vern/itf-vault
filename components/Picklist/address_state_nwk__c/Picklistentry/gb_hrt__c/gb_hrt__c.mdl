@@ -1,0 +1,5 @@
+Picklistentry gb_hrt__c (
+   value('GB-HRT'),
+   order(513),
+   active(false)
+);

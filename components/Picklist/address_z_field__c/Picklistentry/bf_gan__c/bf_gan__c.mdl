@@ -1,0 +1,5 @@
+Picklistentry bf_gan__c (
+   value('BF-GAN'),
+   order(380),
+   active(true)
+);

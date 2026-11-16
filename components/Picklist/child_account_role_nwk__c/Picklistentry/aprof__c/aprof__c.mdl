@@ -1,0 +1,5 @@
+Picklistentry aprof__c (
+   value('Associate Professor'),
+   order(19),
+   active(true)
+);

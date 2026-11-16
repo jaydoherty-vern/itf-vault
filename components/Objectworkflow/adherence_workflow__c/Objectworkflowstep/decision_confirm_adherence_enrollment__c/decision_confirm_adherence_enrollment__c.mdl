@@ -1,0 +1,8 @@
+Objectworkflowstep decision_confirm_adherence_enrollment__c (
+   label('Decision: Confirm Adherence Enrollment'),
+   type('decision'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

@@ -1,0 +1,8 @@
+Objectlayout account_partner_price_book__c (
+   label('account_partner_price_book'),
+   active(true),
+   pagelayouts('Pagelayout.price_book_layout_vod__c'),
+   object('Object.account_partner__v'),
+   objecttype('Objecttype.account_partner__v.price_book__v'),
+   record_creation_layout('Pagelayout.price_book_layout_vod__c')
+);

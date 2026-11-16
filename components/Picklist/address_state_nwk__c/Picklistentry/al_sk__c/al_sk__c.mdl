@@ -1,0 +1,5 @@
+Picklistentry al_sk__c (
+   value('AL_Skrapar'),
+   order(48),
+   active(true)
+);

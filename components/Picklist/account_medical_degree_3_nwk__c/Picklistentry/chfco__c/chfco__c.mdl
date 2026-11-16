@@ -1,0 +1,5 @@
+Picklistentry chfco__c (
+   value('Diploma in Head and Neck Surgery'),
+   order(53),
+   active(true)
+);

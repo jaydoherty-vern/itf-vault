@@ -1,0 +1,4 @@
+Typefield tov_transportation_fee__c (
+   source('custom'),
+   required(false)
+);

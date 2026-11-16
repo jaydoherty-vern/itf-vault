@@ -1,0 +1,18 @@
+Field academic_title_qs__c (
+   label('Academic title'),
+   type('Picklist'),
+   active(true),
+   description('Network field -  Academic Title'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(204),
+   multi_value(false),
+   picklist('Picklist.account_academic_title_qs__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

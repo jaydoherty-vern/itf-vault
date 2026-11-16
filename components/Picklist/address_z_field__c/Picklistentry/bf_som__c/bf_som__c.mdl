@@ -1,0 +1,5 @@
+Picklistentry bf_som__c (
+   value('BF-SOM'),
+   order(408),
+   active(true)
+);

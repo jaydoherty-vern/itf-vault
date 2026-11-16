@@ -1,0 +1,8 @@
+Objectlayout contract_line_sales__c (
+   label('contract_line_sales'),
+   active(true),
+   pagelayouts('Pagelayout.listing_contract_line_layout__c'),
+   object('Object.contract_line__v'),
+   objecttype('Objecttype.contract_line__v.sales__v'),
+   record_creation_layout('Pagelayout.listing_contract_line_layout__c')
+);

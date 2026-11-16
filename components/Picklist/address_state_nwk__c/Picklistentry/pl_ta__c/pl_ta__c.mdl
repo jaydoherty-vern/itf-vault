@@ -1,0 +1,5 @@
+Picklistentry pl_ta__c (
+   value('PL_Tarnów'),
+   order(1378),
+   active(true)
+);

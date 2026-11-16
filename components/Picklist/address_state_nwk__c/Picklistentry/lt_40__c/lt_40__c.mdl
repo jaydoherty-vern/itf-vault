@@ -1,0 +1,5 @@
+Picklistentry lt_40__c (
+   value('LT_Rokiškis'),
+   order(1017),
+   active(true)
+);

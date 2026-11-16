@@ -1,0 +1,5 @@
+Picklistentry mb__c (
+   value('Medical Biophysics'),
+   order(255),
+   active(true)
+);

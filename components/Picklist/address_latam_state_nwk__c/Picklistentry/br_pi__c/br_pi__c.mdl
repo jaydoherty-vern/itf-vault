@@ -1,0 +1,5 @@
+Picklistentry br_pi__c (
+   value('Piauí'),
+   order(4),
+   active(true)
+);

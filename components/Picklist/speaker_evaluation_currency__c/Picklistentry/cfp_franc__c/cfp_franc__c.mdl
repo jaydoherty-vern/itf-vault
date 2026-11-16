@@ -1,0 +1,5 @@
+Picklistentry cfp_franc__c (
+   value('CFP Franc'),
+   order(60),
+   active(true)
+);

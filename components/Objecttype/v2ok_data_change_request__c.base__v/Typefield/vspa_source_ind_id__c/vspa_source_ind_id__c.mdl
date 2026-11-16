@@ -1,0 +1,4 @@
+Typefield vspa_source_ind_id__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_rcc__c (
+   value('GB-RCC'),
+   order(583),
+   active(false)
+);

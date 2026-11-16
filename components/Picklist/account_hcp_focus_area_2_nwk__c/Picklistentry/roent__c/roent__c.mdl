@@ -1,0 +1,5 @@
+Picklistentry roent__c (
+   value('Clinical Roentgenology'),
+   order(83),
+   active(true)
+);

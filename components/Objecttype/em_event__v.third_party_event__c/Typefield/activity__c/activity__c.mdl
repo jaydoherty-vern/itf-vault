@@ -1,0 +1,6 @@
+Typefield activity__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_activity__c.not_applicable__c'),
+   default_value('Picklist.em_event_activity__c.not_applicable__c')
+);

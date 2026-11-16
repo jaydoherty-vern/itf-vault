@@ -1,0 +1,5 @@
+Picklistentry bi_ci__c (
+   value('BI-CI'),
+   order(455),
+   active(true)
+);

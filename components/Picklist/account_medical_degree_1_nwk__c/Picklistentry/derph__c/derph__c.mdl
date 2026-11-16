@@ -1,0 +1,5 @@
+Picklistentry derph__c (
+   value('Diploma in Dermatopathology'),
+   order(57),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pediatric_health_psychologist__c (
+   value('PEDIATRIC HEALTH PSYCHOLOGIST'),
+   order(364),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry adhd__c (
+   value('Attention Deficit Hyperactivity Disorder (ADHD)'),
+   order(16),
+   active(true)
+);

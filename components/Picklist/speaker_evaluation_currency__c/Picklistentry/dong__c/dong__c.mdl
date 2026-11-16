@@ -1,0 +1,5 @@
+Picklistentry dong__c (
+   value('Dong'),
+   order(165),
+   active(true)
+);

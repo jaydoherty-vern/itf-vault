@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_oncology_link_integration_admin__c (
+   label('VSPA_Oncology_Link_Integration_Admin'),
+   active(true),
+   description('Gives access to Veeva Oncology Link.'),
+   object.account__v.veeva_link_profile__c.field_actions('read'),
+   object.account__v.vl_link__v.field_actions('read'),
+   object.account__v.vl_url__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

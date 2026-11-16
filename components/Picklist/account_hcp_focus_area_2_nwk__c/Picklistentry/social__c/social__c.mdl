@@ -1,0 +1,5 @@
+Picklistentry social__c (
+   value('Social Medicine'),
+   order(416),
+   active(true)
+);

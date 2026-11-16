@@ -1,0 +1,5 @@
+Picklistentry new_config__c (
+   value('New Configuration Request'),
+   order(0),
+   active(true)
+);

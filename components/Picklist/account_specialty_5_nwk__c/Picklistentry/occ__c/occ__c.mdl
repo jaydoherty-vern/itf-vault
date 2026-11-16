@@ -1,0 +1,5 @@
+Picklistentry occ__c (
+   value('Critical Care Medicine (Ob & Gyn)'),
+   order(100),
+   active(true)
+);

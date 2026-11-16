@@ -1,0 +1,23 @@
+Field network_integration_process_interval__v (
+   label('Network Integration Process Interval'),
+   type('Number'),
+   active(true),
+   description('Determines the interval in hours at which the auxiliary Network Integration processes will run. Each process will check to see if a former process is currently running, if so the process will wait one interval of time before attempting to process again. If Null, the auxiliary process will not be scheduled and any existing processes will be un-scheduled. Values must between 1 and 24. If the values falls outside of that range, the process will not be scheduled and any existing processes will be un-scheduled. Default value is 12.'),
+   required(false),
+   unique(false),
+   max_value(24),
+   min_value(1),
+   scale(0),
+   help_content('Please enter an integer between 1 and 24'),
+   list_column(false),
+   order(24),
+   default_value('12'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry tr_42__c (
+   value('TR_Konya'),
+   order(1719),
+   active(true)
+);

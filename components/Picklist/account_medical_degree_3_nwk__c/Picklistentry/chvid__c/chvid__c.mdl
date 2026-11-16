@@ -1,0 +1,5 @@
+Picklistentry chvid__c (
+   value('Diploma in Digestive Surgery'),
+   order(47),
+   active(true)
+);

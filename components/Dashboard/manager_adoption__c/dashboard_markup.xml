@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vault:dashboard xmlns:vault="VeevaVault" type="Eighteen-Columns" layoutVersion="V2">
+  <vault:chart name="sent_emails_by_user_this_year__c" label="Sent Emails by User This Year" type="column" report="Report.sent_emails_by_sender__c">
+    <vault:position row="0" col="0" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Owner" yaxislabel="Record Count (Sent Email)" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="sent_email__v.ownerid__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="sent_emails_by_user_by_month__c" label="Sent Emails by User by Month" type="column" report="Report.sent_emails_by_sender__c">
+    <vault:position row="0" col="6" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Sent Date (Month)" yaxislabel="Record Count (Sent Email)" stacking="normal" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="sent_email__v.email_sent_date__v" value="" />
+      <vault:grouping key="sent_email__v.ownerid__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="sent_emails_by_product_by_month__c" label="Sent Emails by Product by Month" type="column" report="Report.sent_emails_by_product_by_month__c">
+    <vault:position row="0" col="12" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Sent Date (Month)" yaxislabel="Record Count (Sent Email)" stacking="normal" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="sent_email__v.email_sent_date__v" value="" />
+      <vault:grouping key="sent_email__v.product__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="calls_submitted_with_call_samples_by__c" label="Calls Submitted with Call Samples by Product by Month" type="column" report="Report.calls_with_call_samples_by_month__c">
+    <vault:position row="18" col="0" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Date (Month)" yaxislabel="Record Count (Call Sample)" stacking="normal" />
+    <vault:series metric="RecordCount.call2_sample__v___call2__v">
+      <vault:grouping key="call2__v.call_date__v" value="" />
+      <vault:grouping key="call2_sample__v___call2__v.product__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="calls_submitted_by_channel_by_user__c" label="Calls Submitted by Channel by User " type="column" report="Report.calls_by_channel__c">
+    <vault:position row="9" col="12" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Channel" yaxislabel="Record Count (Call)" stacking="normal" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="call2__v.call_channel__v" value="" />
+      <vault:grouping key="call2__v.ownerid__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="calls_with_clm_by_user__c" label="Calls with CLM by User" type="column" report="Report.calls_with_clm__c">
+    <vault:position row="18" col="12" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="CLM" yaxislabel="Record Count (Call)" stacking="normal" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="call2__v.clm__v" value="" />
+      <vault:grouping key="call2__v.ownerid__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="calls_submitted_by_user_by_month__c" label="Calls Submitted by User by Month" type="column" report="Report.calls_submitted_by_user_by_month__c">
+    <vault:position row="9" col="0" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Date (Month)" yaxislabel="Record Count (Call)" stacking="normal" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="call2__v.call_date__v" value="" />
+      <vault:grouping key="call2__v.ownerid__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="medical_inquiries_by_user_by_month__c" label="Medical Inquiries by User by Month" type="column" report="Report.medical_inquiries_by_user_by_month__c">
+    <vault:position row="18" col="6" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Created Date (Month)" yaxislabel="Record Count (Medical Inquiry)" stacking="normal" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="medical_inquiry__v.created_date__v" value="" />
+      <vault:grouping key="medical_inquiry__v.ownerid__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="calls_submitted_by_product_by_month__c" label="Calls Submitted by Product by Month" type="column" report="Report.calls_submitted_by_product_by_month__c">
+    <vault:position row="9" col="6" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Date (Month)" yaxislabel="Record Count (Call)" stacking="normal" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="call2__v.call_date__v" value="" />
+      <vault:grouping key="call2__v.detailed_products__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="time_off_territory_by_month__c" label="Time Off Territory by Month" type="column" report="Report.time_off_territory__c">
+    <vault:position row="27" col="6" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Date (Month)" yaxislabel="Record Count (Time Off Territory)" stacking="normal" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="time_off_territory__v.date__v" value="" />
+      <vault:grouping key="time_off_territory__v___ownerid__v.username__sys" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="call_discussion_topics_by_month__c" label="Call Discussion Topics by Month" type="column" report="Report.calls_submitted_with_call_discussion2__c">
+    <vault:position row="27" col="0" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Date (Month)" yaxislabel="Record Count (Call Discussion)" />
+    <vault:series metric="RecordCount.call2_discussion__v___call2__v">
+      <vault:grouping key="call2__v.call_date__v" value="" />
+      <vault:grouping key="call2_discussion__v___call2__v.discussion_topics__c" value="" />
+    </vault:series>
+  </vault:chart>
+</vault:dashboard>

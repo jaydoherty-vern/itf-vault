@@ -1,0 +1,5 @@
+Picklistentry broneso__c (
+   value('Broncho-Esophagology'),
+   order(54),
+   active(true)
+);

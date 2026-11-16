@@ -1,0 +1,20 @@
+Field hco_status_nwk__c (
+   label('Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(384),
+   multi_value(false),
+   picklist('Picklist.account_hco_status_nwk__c'),
+   controlling_picklist('country_code__v'),
+   picklist_dependencies('{"gb__v":["c__c","a__c"],"de__v":["i__c","c__c","a__c"],"lu__v":["i__c","c__c","a__c"],"pl__v":["i__c","c__c","a__c"],"se__v":["i__c","c__c","a__c"],"ie__v":["i__c","c__c","a__c"],"at__v":["i__c","c__c","a__c"],"tr__v":["i__c","c__c","a__c"],"cz__v":["i__c","c__c","a__c"],"ad__v":["i__c","c__c","a__c"],"fr__v":["i__c","c__c","a__c"],"nl__v":["i__c","c__c","a__c"],"hu__v":["i__c","c__c","a__c"],"li__v":["i__c","c__c","a__c"],"dk__v":["i__c","c__c","a__c"],"bg__v":["i__c","c__c","a__c"],"be__v":["i__c","c__c","a__c"],"es__v":["i__c","c__c","a__c"],"mc__v":["i__c","c__c","a__c"],"pt__v":["i__c","c__c","a__c"],"ch__v":["i__c","c__c","a__c"],"no__v":["i__c","c__c","a__c"],"it__v":["i__c","c__c","a__c"],"sk__v":["i__c","c__c","a__c"],"fi__v":["i__c","c__c","a__c"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

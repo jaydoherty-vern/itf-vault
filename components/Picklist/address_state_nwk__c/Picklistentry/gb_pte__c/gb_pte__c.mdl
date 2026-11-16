@@ -1,0 +1,5 @@
+Picklistentry gb_pte__c (
+   value('GB-PTE'),
+   order(582),
+   active(false)
+);

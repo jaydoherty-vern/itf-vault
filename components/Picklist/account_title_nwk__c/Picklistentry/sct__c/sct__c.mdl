@@ -1,0 +1,5 @@
+Picklistentry sct__c (
+   value('Scientist'),
+   order(95),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry al_kc__c (
+   value('AL_Kuçovë'),
+   order(29),
+   active(true)
+);

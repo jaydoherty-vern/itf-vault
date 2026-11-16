@@ -1,0 +1,5 @@
+Picklistentry lgs__c (
+   value('Lennox-Gastaut syndrome'),
+   order(218),
+   active(true)
+);

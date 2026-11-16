@@ -1,0 +1,10 @@
+Typefield country__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.ms_request_country__c.all__c',
+         'Picklist.ms_request_country__c.france__c',
+         'Picklist.ms_request_country__c.germany__c',
+         'Picklist.ms_request_country__c.italy__c',
+         'Picklist.ms_request_country__c.spain__c',
+         'Picklist.ms_request_country__c.uk__c')
+);

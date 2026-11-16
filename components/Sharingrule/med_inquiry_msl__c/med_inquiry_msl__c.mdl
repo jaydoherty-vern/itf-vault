@@ -1,0 +1,8 @@
+RECREATE Sharingrule med_inquiry_msl__c (
+   label('Med Inquiry - MSL'),
+   active(true),
+   description(),
+   object('medical_inquiry__v'),
+   criteria([name__v != null]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

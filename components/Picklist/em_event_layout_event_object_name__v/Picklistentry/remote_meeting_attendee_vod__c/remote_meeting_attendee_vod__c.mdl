@@ -1,0 +1,5 @@
+Picklistentry remote_meeting_attendee_vod__c (
+   value('Remote_Meeting_Attendee'),
+   order(10),
+   active(true)
+);

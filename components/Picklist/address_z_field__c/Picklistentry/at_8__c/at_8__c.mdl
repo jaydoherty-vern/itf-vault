@@ -1,0 +1,5 @@
+Picklistentry at_8__c (
+   value('AT-8'),
+   order(163),
+   active(true)
+);

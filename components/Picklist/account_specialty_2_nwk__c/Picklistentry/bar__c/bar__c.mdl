@@ -1,0 +1,5 @@
+Picklistentry bar__c (
+   value('Bariatric Medicine'),
+   order(40),
+   active(true)
+);

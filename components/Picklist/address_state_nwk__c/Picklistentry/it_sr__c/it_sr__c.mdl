@@ -1,0 +1,5 @@
+Picklistentry it_sr__c (
+   value('IT_Siracusa'),
+   order(922),
+   active(true)
+);

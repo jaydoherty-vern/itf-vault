@@ -1,0 +1,5 @@
+Picklistentry mk_69__c (
+   value('MK_Sveti Nikole'),
+   order(1276),
+   active(true)
+);

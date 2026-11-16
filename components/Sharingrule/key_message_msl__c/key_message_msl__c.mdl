@@ -1,0 +1,8 @@
+RECREATE Sharingrule key_message_msl__c (
+   label('Key Message - MSL'),
+   active(true),
+   description(),
+   object('key_message__v'),
+   criteria([( itf_team1__c = 'msl__c' AND key_message_status__v = 'approved__v' ) OR ( vault_doc_id__v = null AND itf_team1__c = 'msl__c' )]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

@@ -1,0 +1,5 @@
+Picklistentry 6__v (
+   value('June'),
+   order(5),
+   active(true)
+);

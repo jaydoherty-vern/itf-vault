@@ -1,0 +1,5 @@
+Picklistentry gb_cov__c (
+   value('GB-COV'),
+   order(463),
+   active(false)
+);

@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_em_sponsorship_event_record_type__c (
+   label('VSPA_EM_Sponsorship_Event_Record_Type'),
+   active(true),
+   description('Permission Set which grants access to the Sponsorship Event record types on Event and Medical Events for the Event Management Module. Assign to the user who needs access to the respective record type.'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

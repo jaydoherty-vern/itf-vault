@@ -1,0 +1,21 @@
+Typefield status__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.ms_request_status__c.cancelled__c',
+         'Picklist.ms_request_status__c.change_needed__c',
+         'Picklist.ms_request_status__c.completed__c',
+         'Picklist.ms_request_status__c.decision_needed__c',
+         'Picklist.ms_request_status__c.deferred__c',
+         'Picklist.ms_request_status__c.duplicate__c',
+         'Picklist.ms_request_status__c.in_progress__c',
+         'Picklist.ms_request_status__c.more_info_needed__c',
+         'Picklist.ms_request_status__c.new__c',
+         'Picklist.ms_request_status__c.not_in_scope__c',
+         'Picklist.ms_request_status__c.pending_approval__c',
+         'Picklist.ms_request_status__c.pending_data__c',
+         'Picklist.ms_request_status__c.pending_migration__c',
+         'Picklist.ms_request_status__c.pending_release_date__c',
+         'Picklist.ms_request_status__c.pending_veeva_support__c',
+         'Picklist.ms_request_status__c.ready_for_test__c',
+         'Picklist.ms_request_status__c.veeva_roadmap__c')
+);

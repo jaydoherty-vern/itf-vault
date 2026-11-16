@@ -1,0 +1,8 @@
+Objectlayout multichannel_consent_content_type__c (
+   label('multichannel_consent_content_type'),
+   active(true),
+   pagelayouts('Pagelayout.content_type_layout3__c'),
+   object('Object.multichannel_consent__v'),
+   objecttype('Objecttype.multichannel_consent__v.content_type_vod__c'),
+   record_creation_layout('Pagelayout.content_type_layout3__c')
+);

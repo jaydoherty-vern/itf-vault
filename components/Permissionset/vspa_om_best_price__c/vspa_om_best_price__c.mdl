@@ -1,0 +1,15 @@
+RECREATE Permissionset vspa_om_best_price__c (
+   label('VSPA_OM_Best_Price'),
+   active(true),
+   description('Enables the Best Price Logic'),
+   object.order__v.best_discount_rule__v.field_actions('edit',
+      'read'),
+   object.order_line__v.brand_best_price_rule__v.field_actions('edit',
+      'read'),
+   object.order_line__v.free_good_best_price_rule__v.field_actions('edit',
+      'read'),
+   object.order_line__v.line_best_price_rule__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

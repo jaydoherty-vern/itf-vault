@@ -1,0 +1,8 @@
+Objectworkflowstep ut_confirm_fulfillment_request__c (
+   label('UT: Confirm Fulfillment Request'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.cs_pending_shipment_confirmation__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

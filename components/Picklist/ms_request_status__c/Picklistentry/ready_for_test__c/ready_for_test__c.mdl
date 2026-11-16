@@ -1,0 +1,5 @@
+Picklistentry ready_for_test__c (
+   value('Ready for Test'),
+   order(2),
+   active(true)
+);

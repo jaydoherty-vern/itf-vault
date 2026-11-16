@@ -1,0 +1,9 @@
+RECREATE Permissionset vspa_sample_brc_link__c (
+   label('VSPA_Sample_BRC_Link'),
+   active(true),
+   description('Enable Capturing Remote Signatures for Sampling with Links'),
+   object.call2__v.signature_captured_share_link__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

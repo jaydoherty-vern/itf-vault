@@ -1,0 +1,5 @@
+Picklistentry no_03__c (
+   value('NO_Oslo'),
+   order(1312),
+   active(true)
+);

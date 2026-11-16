@@ -1,0 +1,20 @@
+Field row_counts__v (
+   label('ROW_COUNTS'),
+   type('String'),
+   active(true),
+   description('String used by application.  Default is: Synchronizing {0} row(s) for {1}. This is a system internal label. DO NOT TRANSLATE.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(260),
+   default_value('"ROW_COUNTS;;TABLET"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

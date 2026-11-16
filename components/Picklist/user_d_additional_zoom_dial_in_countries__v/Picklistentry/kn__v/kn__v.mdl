@@ -1,0 +1,5 @@
+Picklistentry kn__v (
+   value('Saint Kitts And Nevis'),
+   order(92),
+   active(true)
+);

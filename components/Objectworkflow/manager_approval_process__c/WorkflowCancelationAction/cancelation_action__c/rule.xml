@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.em_event__v.em_event_status__v</targetField>
+            <expression>'requested__v'</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+    </actions>
+</rule>

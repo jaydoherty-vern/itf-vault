@@ -1,0 +1,5 @@
+Picklistentry malaysian_ringgit__c (
+   value('Malaysian Ringgit'),
+   order(99),
+   active(true)
+);

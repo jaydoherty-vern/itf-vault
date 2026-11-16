@@ -1,0 +1,15 @@
+RECREATE Picklist smb_pmo_defect_qs_pmo_assigned_to_person__c (
+   label('Assigned to Person'),
+   active(true),
+   Picklistentry(@Picklistentry/benedict__c.mdl),
+   Picklistentry(@Picklistentry/carlos__c.mdl),
+   Picklistentry(@Picklistentry/cheng__c.mdl),
+   Picklistentry(@Picklistentry/david__c.mdl),
+   Picklistentry(@Picklistentry/eduard__c.mdl),
+   Picklistentry(@Picklistentry/fabio__c.mdl),
+   Picklistentry(@Picklistentry/maria__c.mdl),
+   Picklistentry(@Picklistentry/pamela__c.mdl),
+   Picklistentry(@Picklistentry/souleman__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

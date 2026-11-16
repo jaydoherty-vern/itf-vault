@@ -1,0 +1,5 @@
+Picklistentry fr_62__c (
+   value('FR_Pas-de-Calais'),
+   order(356),
+   active(true)
+);

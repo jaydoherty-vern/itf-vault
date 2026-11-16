@@ -1,0 +1,5 @@
+Picklistentry ie_ce__c (
+   value('IE_Clare'),
+   order(722),
+   active(true)
+);

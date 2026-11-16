@@ -1,0 +1,4 @@
+Typefield rate_slides__c (
+   source('standard'),
+   required(false)
+);

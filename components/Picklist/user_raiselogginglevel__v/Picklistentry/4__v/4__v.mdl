@@ -1,0 +1,5 @@
+Picklistentry 4__v (
+   value('Informational'),
+   order(3),
+   active(true)
+);

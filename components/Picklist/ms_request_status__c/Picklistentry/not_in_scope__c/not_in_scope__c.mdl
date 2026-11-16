@@ -1,0 +1,5 @@
+Picklistentry not_in_scope__c (
+   value('Not in scope'),
+   order(10),
+   active(true)
+);

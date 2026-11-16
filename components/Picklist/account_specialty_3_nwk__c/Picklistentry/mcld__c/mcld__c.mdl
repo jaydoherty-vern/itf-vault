@@ -1,0 +1,5 @@
+Picklistentry mcld__c (
+   value('Medical and Chemical Laboratory Diagnostics'),
+   order(252),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry af_pan__c (
+   value('AF-PAN'),
+   order(37),
+   active(true)
+);

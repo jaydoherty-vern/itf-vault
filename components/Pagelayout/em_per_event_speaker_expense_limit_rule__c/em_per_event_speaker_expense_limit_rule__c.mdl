@@ -1,0 +1,8 @@
+RECREATE Pagelayout em_per_event_speaker_expense_limit_rule__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Per Event Speaker Expense Limit Rule Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

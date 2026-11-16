@@ -1,0 +1,5 @@
+Picklistentry es_bi__c (
+   value('ES_Vizcaya'),
+   order(232),
+   active(true)
+);

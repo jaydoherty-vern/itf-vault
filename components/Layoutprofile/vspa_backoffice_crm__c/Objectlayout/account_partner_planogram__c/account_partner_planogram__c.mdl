@@ -1,0 +1,8 @@
+Objectlayout account_partner_planogram__c (
+   label('account_partner_planogram'),
+   active(true),
+   pagelayouts('Pagelayout.planogram_layout_vod__c'),
+   object('Object.account_partner__v'),
+   objecttype('Objecttype.account_partner__v.planogram__v'),
+   record_creation_layout('Pagelayout.planogram_layout_vod__c')
+);

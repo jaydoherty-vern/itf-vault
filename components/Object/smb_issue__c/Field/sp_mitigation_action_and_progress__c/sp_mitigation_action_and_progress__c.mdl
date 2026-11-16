@@ -1,0 +1,17 @@
+Field sp_mitigation_action_and_progress__c (
+   label('Mitigation Action and Progress'),
+   type('LongText'),
+   active(true),
+   description('PMO:: Mitigation Actions'),
+   required(false),
+   max_length(500),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

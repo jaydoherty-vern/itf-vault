@@ -1,0 +1,4 @@
+Typefield itf_payer_policy_insights__c (
+   source('custom'),
+   required(false)
+);

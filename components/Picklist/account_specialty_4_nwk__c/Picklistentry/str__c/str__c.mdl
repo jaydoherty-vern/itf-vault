@@ -1,0 +1,5 @@
+Picklistentry str__c (
+   value('Stroke Medicine'),
+   order(496),
+   active(true)
+);

@@ -1,0 +1,20 @@
+Field summary_view_page_title__c (
+   label('Summary View Page Title'),
+   type('String'),
+   active(true),
+   description('Account Summary Page title'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('Account Summary Page title'),
+   list_column(false),
+   order(46),
+   default_value('''Account Summary'''),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

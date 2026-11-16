@@ -1,0 +1,8 @@
+Objectlayout data_change_request_address__c (
+   label('data_change_request_address'),
+   active(true),
+   pagelayouts('Pagelayout.data_change_request_layout__c'),
+   object('Object.data_change_request__v'),
+   objecttype('Objecttype.data_change_request__v.address__v'),
+   record_creation_layout('Pagelayout.data_change_request_layout__c')
+);

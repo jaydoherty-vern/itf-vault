@@ -1,0 +1,18 @@
+RECREATE Picklist ok_stage_address_country_vod__c (
+   label('Country'),
+   active(true),
+   Picklistentry(@Picklistentry/au__c.mdl),
+   Picklistentry(@Picklistentry/be__c.mdl),
+   Picklistentry(@Picklistentry/lu__c.mdl),
+   Picklistentry(@Picklistentry/fr__c.mdl),
+   Picklistentry(@Picklistentry/ad__c.mdl),
+   Picklistentry(@Picklistentry/mc__c.mdl),
+   Picklistentry(@Picklistentry/it__c.mdl),
+   Picklistentry(@Picklistentry/mx__c.mdl),
+   Picklistentry(@Picklistentry/ru__c.mdl),
+   Picklistentry(@Picklistentry/uk__c.mdl),
+   Picklistentry(@Picklistentry/gb__c.mdl),
+   Picklistentry(@Picklistentry/ie__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

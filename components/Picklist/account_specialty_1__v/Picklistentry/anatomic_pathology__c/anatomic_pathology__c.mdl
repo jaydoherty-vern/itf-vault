@@ -1,0 +1,5 @@
+Picklistentry anatomic_pathology__c (
+   value('Anatomic Pathology'),
+   order(153),
+   active(true)
+);

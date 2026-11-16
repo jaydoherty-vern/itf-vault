@@ -1,0 +1,5 @@
+Picklistentry gb_wrx__c (
+   value('GB-WRX'),
+   order(645),
+   active(false)
+);

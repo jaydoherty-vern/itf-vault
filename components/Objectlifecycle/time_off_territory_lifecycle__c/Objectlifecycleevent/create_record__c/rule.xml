@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="objectLifecycleEntryAction.all.runWorkflow" objectWorkflow="Objectworkflow.time_off_territory__c" />
+    </actions>
+</rule>

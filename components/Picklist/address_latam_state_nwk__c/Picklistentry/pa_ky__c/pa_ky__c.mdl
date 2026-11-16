@@ -1,0 +1,5 @@
+Picklistentry pa_ky__c (
+   value('Guna Yala'),
+   order(332),
+   active(true)
+);

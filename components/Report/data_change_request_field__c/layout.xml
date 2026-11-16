@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true" documentScope="ACTIVE">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:targetDocumentAlias>Target Document</vrp:targetDocumentAlias>
+  <vrp:sourceDocumentAlias>Source Document</vrp:sourceDocumentAlias>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:combineReportPrompts>false</vrp:combineReportPrompts>
+  <vrp:enableMergeCells>false</vrp:enableMergeCells>
+  <vrp:mergeCellsWithinView>false</vrp:mergeCellsWithinView>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:removeLinksFromExport>false</vrp:removeLinksFromExport>
+  <vrp:columns>
+    <vrp:column key="data_change_request__v.name__v" type="documentProperty" index="0" columnWidth="200" />
+    <vrp:column key="data_change_request__v.account__v" type="documentProperty" index="1" columnWidth="155" />
+    <vrp:column key="data_change_request__v.address__v" type="documentProperty" index="2" columnWidth="155" />
+    <vrp:column key="data_change_request__v.created_date__v" type="documentProperty" index="3" columnWidth="155" />
+    <vrp:column key="data_change_request__v.legacy_crm_id__v" type="documentProperty" index="4" columnWidth="155" />
+    <vrp:column key="data_change_request__v.result__v" type="documentProperty" index="5" columnWidth="155" />
+    <vrp:column key="data_change_request__v.status__v" type="documentProperty" index="6" columnWidth="155" />
+    <vrp:column key="data_change_request__v.account_external_id__v" type="documentProperty" index="7" columnWidth="155" />
+    <vrp:column key="data_change_request__v.address_external_id__v" type="documentProperty" index="8" columnWidth="155" />
+    <vrp:column key="data_change_request__v.attachment_status__v" type="documentProperty" index="9" columnWidth="155" />
+    <vrp:column key="data_change_request__v.em_attendee__v" type="documentProperty" index="10" columnWidth="155" />
+    <vrp:column key="data_change_request__v.challenge_reasons__v" type="documentProperty" index="11" columnWidth="155" />
+    <vrp:column key="data_change_request__v.child_account__v" type="documentProperty" index="12" columnWidth="155" />
+    <vrp:column key="data_change_request__v.child_account_external_id__v" type="documentProperty" index="13" columnWidth="170" />
+    <vrp:column key="data_change_request__v.country_mapping__v" type="documentProperty" index="14" columnWidth="155" />
+    <vrp:column key="data_change_request__v.created_by__v" type="documentProperty" index="15" columnWidth="155" />
+    <vrp:column key="data_change_request__v.object_count__v" type="documentProperty" index="16" columnWidth="184" />
+    <vrp:column key="data_change_request__v.data_change_request_status__v" type="documentProperty" index="17" columnWidth="185" />
+    <vrp:column key="data_change_request__v.object_type__v" type="documentProperty" index="18" columnWidth="177" />
+    <vrp:column key="data_change_request__v.date_time__v" type="documentProperty" index="19" columnWidth="155" />
+    <vrp:column key="data_change_request__v.dcr_external_id__v" type="documentProperty" index="20" columnWidth="155" />
+    <vrp:column key="data_change_request__v.error__v" type="documentProperty" index="21" columnWidth="155" />
+    <vrp:column key="data_change_request__v.vspa_error_description__c" type="documentProperty" index="22" columnWidth="155" />
+    <vrp:column key="data_change_request__v.external_status__v" type="documentProperty" index="23" columnWidth="155" />
+    <vrp:column key="data_change_request__v.global_id__sys" type="documentProperty" index="24" columnWidth="155" />
+    <vrp:column key="data_change_request__v.id" type="documentProperty" index="25" columnWidth="155" />
+    <vrp:column key="data_change_request__v.ims_child__c" type="documentProperty" index="26" columnWidth="155" />
+    <vrp:column key="data_change_request__v.ims_parent__c" type="documentProperty" index="27" columnWidth="155" />
+    <vrp:column key="data_change_request__v.ok_ims_response__c" type="documentProperty" index="28" columnWidth="155" />
+    <vrp:column key="data_change_request__v.ok_ims_response_comment__c" type="documentProperty" index="29" columnWidth="164" />
+    <vrp:column key="data_change_request__v.ims__c" type="documentProperty" index="30" columnWidth="155" />
+    <vrp:column key="data_change_request__v.vspa_is_in_error__c" type="documentProperty" index="31" columnWidth="155" />
+    <vrp:column key="data_change_request__v.vspa_is_person_account__c" type="documentProperty" index="32" columnWidth="155" />
+    <vrp:column key="data_change_request__v.modified_by__v" type="documentProperty" index="33" columnWidth="155" />
+    <vrp:column key="data_change_request__v.modified_date__v" type="documentProperty" index="34" columnWidth="155" />
+    <vrp:column key="data_change_request__v.link__sys" type="documentProperty" index="35" columnWidth="155" />
+    <vrp:column key="data_change_request__v.mobile_created_datetime__v" type="documentProperty" index="36" columnWidth="163" />
+    <vrp:column key="data_change_request__v.mobile_id__v" type="documentProperty" index="37" columnWidth="155" />
+    <vrp:column key="data_change_request__v.mobile_last_modified_datetime__v" type="documentProperty" index="38" columnWidth="193" />
+    <vrp:column key="data_change_request__v.network_create_unverified__v" type="documentProperty" index="39" columnWidth="173" />
+    <vrp:column key="data_change_request__v.network_customer_master_mode__v" type="documentProperty" index="40" columnWidth="203" />
+    <vrp:column key="data_change_request__v.network_session_id__v" type="documentProperty" index="41" columnWidth="155" />
+    <vrp:column key="data_change_request__v.long_notes__v" type="documentProperty" index="42" columnWidth="155" />
+    <vrp:column key="data_change_request__v.notes__v" type="documentProperty" index="43" columnWidth="155" />
+    <vrp:column key="data_change_request__v.ok_dcr_counter__c" type="documentProperty" index="44" columnWidth="155" />
+    <vrp:column key="data_change_request__v.ownerid__v" type="documentProperty" index="45" columnWidth="155" />
+    <vrp:column key="data_change_request__v.vspa_parent_account__c" type="documentProperty" index="46" columnWidth="155" />
+    <vrp:column key="data_change_request__v.parent_data_change_request__v" type="documentProperty" index="47" columnWidth="186" />
+    <vrp:column key="data_change_request__v.vspa_primary_dcr_id__c" type="documentProperty" index="48" columnWidth="155" />
+    <vrp:column key="data_change_request__v.vspa_primary_new_value__c" type="documentProperty" index="49" columnWidth="155" />
+    <vrp:column key="data_change_request__v.vspa_primary_only__c" type="documentProperty" index="50" columnWidth="155" />
+    <vrp:column key="data_change_request__v.provisional_account_id__c" type="documentProperty" index="51" columnWidth="155" />
+    <vrp:column key="data_change_request__v.resolution_note__v" type="documentProperty" index="52" columnWidth="155" />
+    <vrp:column key="data_change_request__v.response_datetime__v" type="documentProperty" index="53" columnWidth="155" />
+    <vrp:column key="data_change_request__v.sent_datetime__v" type="documentProperty" index="54" columnWidth="155" />
+    <vrp:column key="data_change_request__v.status__c" type="documentProperty" index="55" columnWidth="155" />
+    <vrp:column key="data_change_request__v.territory_label__v" type="documentProperty" index="56" columnWidth="155" />
+    <vrp:column key="data_change_request__v.territory__v" type="documentProperty" index="57" columnWidth="155" />
+    <vrp:column key="data_change_request__v.type__v" type="documentProperty" index="58" columnWidth="156" />
+  </vrp:columns>
+</vrp:reportFormat>

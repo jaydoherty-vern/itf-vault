@@ -1,0 +1,5 @@
+Picklistentry s__c (
+   value('Student'),
+   order(9),
+   active(true)
+);

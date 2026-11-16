@@ -1,0 +1,5 @@
+Picklistentry gt_hu__c (
+   value('Huehuetenango'),
+   order(267),
+   active(true)
+);

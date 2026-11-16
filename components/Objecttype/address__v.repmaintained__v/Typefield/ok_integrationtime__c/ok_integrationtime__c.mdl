@@ -1,0 +1,4 @@
+Typefield ok_integrationtime__c (
+   source('custom'),
+   required(false)
+);

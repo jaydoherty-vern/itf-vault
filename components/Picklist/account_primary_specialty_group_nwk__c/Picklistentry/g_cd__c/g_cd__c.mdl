@@ -1,0 +1,5 @@
+Picklistentry g_cd__c (
+   value('Cardiology'),
+   order(15),
+   active(true)
+);

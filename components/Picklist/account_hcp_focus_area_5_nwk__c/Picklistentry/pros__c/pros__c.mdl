@@ -1,0 +1,5 @@
+Picklistentry pros__c (
+   value('Prosthetics'),
+   order(363),
+   active(true)
+);

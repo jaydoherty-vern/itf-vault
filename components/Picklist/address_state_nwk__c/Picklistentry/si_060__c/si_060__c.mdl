@@ -1,0 +1,5 @@
+Picklistentry si_060__c (
+   value('SI_Litija'),
+   order(1609),
+   active(true)
+);

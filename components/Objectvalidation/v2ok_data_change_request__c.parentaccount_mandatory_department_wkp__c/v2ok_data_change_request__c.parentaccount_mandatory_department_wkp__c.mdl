@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.parentaccount_mandatory_department_wkp__c (
+   label('ParentAccount_Mandatory_Department_WKP'),
+   active(true),
+   expression('Not(And(Text(change_type__c)="Create",Text(workplace_class__c)="FAD.WES.HD",IsBlank(Id(parent_account__c)),Or(object_type__vr.api_name__v="New_Professional_at_New_Workplace",object_type__vr.api_name__v="Existing_Professional_at_New_Workplace",object_type__vr.api_name__v="Workplaces"))||And(Text(change_type__c)="Create",Text(workplace_class__c)!="FAD.WES.HD",Not(IsBlank(Id(parent_account__c))),Or(object_type__vr.api_name__v="New_Professional_at_New_Workplace",object_type__vr.api_name__v="Existing_Professional_at_New_Workplace",object_type__vr.api_name__v="Workplaces")))'),
+   description(),
+   error_message('Mandatory only for "Create" Department  data change request type.'),
+   error_location('parent_account__c')
+);

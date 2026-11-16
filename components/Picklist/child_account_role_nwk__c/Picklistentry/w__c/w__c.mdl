@@ -1,0 +1,5 @@
+Picklistentry w__c (
+   value('Wholesaler'),
+   order(249),
+   active(true)
+);

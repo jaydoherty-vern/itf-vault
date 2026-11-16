@@ -1,0 +1,5 @@
+Picklistentry dmd__c (
+   value('Doctor of Dental Medicine'),
+   order(97),
+   active(true)
+);

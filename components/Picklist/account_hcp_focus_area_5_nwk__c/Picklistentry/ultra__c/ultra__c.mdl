@@ -1,0 +1,5 @@
+Picklistentry ultra__c (
+   value('Ultrasonography'),
+   order(442),
+   active(true)
+);

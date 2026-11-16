@@ -1,0 +1,5 @@
+Picklistentry cv_pa__c (
+   value('CV-PA'),
+   order(828),
+   active(true)
+);

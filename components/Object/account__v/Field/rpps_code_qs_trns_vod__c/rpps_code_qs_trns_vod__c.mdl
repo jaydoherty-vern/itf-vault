@@ -1,0 +1,19 @@
+Field rpps_code_qs_trns_vod__c (
+   label('RPPS Code'),
+   type('String'),
+   active(true),
+   description('BMI Naya Transparency Field'),
+   required(false),
+   unique(true),
+   max_length(100),
+   help_content('BMI Naya Transparency Field'),
+   list_column(false),
+   order(374),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

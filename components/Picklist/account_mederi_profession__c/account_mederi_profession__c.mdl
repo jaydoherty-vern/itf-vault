@@ -1,0 +1,11 @@
+RECREATE Picklist account_mederi_profession__c (
+   label('Mederi Profession'),
+   active(true),
+   Picklistentry(@Picklistentry/n_a__c.mdl),
+   Picklistentry(@Picklistentry/civil_servant__c.mdl),
+   Picklistentry(@Picklistentry/researcher__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   Picklistentry(@Picklistentry/physician__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

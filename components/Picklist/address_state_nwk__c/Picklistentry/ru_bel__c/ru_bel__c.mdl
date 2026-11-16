@@ -1,0 +1,5 @@
+Picklistentry ru_bel__c (
+   value('RU_Belgorodskaya oblast'''),
+   order(1490),
+   active(true)
+);

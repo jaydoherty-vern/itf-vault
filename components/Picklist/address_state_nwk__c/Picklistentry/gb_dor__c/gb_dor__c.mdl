@@ -1,0 +1,5 @@
+Picklistentry gb_dor__c (
+   value('GB-DOR'),
+   order(477),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry lt_18__c (
+   value('LT_Kėdainiai'),
+   order(992),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry derm__c (
+   value('Dermatology'),
+   order(67),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry admin__c (
+   value('Administrator'),
+   order(2),
+   active(true)
+);

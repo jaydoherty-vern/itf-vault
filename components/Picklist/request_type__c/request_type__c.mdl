@@ -1,0 +1,17 @@
+RECREATE Picklist request_type__c (
+   label('Requirement Type'),
+   active(true),
+   Picklistentry(@Picklistentry/bug_fix__c.mdl),
+   Picklistentry(@Picklistentry/configuration__c.mdl),
+   Picklistentry(@Picklistentry/custom_code__c.mdl),
+   Picklistentry(@Picklistentry/data_enhancement__c.mdl),
+   Picklistentry(@Picklistentry/documentation__c.mdl),
+   Picklistentry(@Picklistentry/exploria_enhancement__c.mdl),
+   Picklistentry(@Picklistentry/interface_enhancement__c.mdl),
+   Picklistentry(@Picklistentry/operational_activity__c.mdl),
+   Picklistentry(@Picklistentry/platform_upgrade__c.mdl),
+   Picklistentry(@Picklistentry/unknown__c.mdl),
+   Picklistentry(@Picklistentry/vendor_enhancement__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

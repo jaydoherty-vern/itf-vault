@@ -1,0 +1,8 @@
+Objectlayout em_event_rule_speaker_portal_events__c (
+   label('em_event_rule_speaker_portal_events'),
+   active(true),
+   pagelayouts('Pagelayout.speaker_portal_events_layout__c'),
+   object('Object.em_event_rule__v'),
+   objecttype('Objecttype.em_event_rule__v.speaker_portal_events__v'),
+   record_creation_layout('Pagelayout.speaker_portal_events_layout__c')
+);

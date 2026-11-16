@@ -1,0 +1,5 @@
+Picklistentry it_is__c (
+   value('IT_Isernia'),
+   order(873),
+   active(true)
+);

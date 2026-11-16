@@ -1,0 +1,5 @@
+Picklistentry cn_hlj__c (
+   value('CN-HLJ'),
+   order(745),
+   active(true)
+);

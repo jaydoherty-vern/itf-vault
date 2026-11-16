@@ -1,0 +1,5 @@
+Picklistentry ccrms_backoffice_crm__c (
+   value('CCRMS_BackOffice_CRM'),
+   order(5),
+   active(true)
+);

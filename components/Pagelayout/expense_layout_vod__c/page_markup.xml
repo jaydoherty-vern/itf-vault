@@ -1,0 +1,33 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.call2_expense__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="note__v" />
+            <vault:field reference="amount__v" />
+            <vault:field reference="call2__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Expenses Line Items" name="expenses_line_items__c">
+        <vault:relatedObject relationship="expenses_line_items__cr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

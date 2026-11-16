@@ -1,0 +1,5 @@
+Picklistentry af_fyb__c (
+   value('AF-FYB'),
+   order(20),
+   active(true)
+);

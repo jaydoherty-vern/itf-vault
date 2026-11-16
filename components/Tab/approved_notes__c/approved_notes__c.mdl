@@ -1,0 +1,13 @@
+RECREATE Tab approved_notes__c (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Approved Notes'),
+   modal_create_record(false),
+   order(7000),
+   parent(),
+   prevent_create(false),
+   Subtab(@Subtab/monitoring_rule__c.mdl),
+   Subtab(@Subtab/monitored_phrase__c.mdl),
+   Subtab(@Subtab/monitored_text__c.mdl)
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_059__c (
+   value('LV_Madonas novads'),
+   order(1111),
+   active(true)
+);

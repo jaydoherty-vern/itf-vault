@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_org_wide_account_search_owas_admin__c (
+   label('VSPA_Org_wide_Account_Search(OWAS)_Admin'),
+   active(true),
+   description('Grants admin to create exclusion filters'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

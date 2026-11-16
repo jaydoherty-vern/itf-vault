@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17842408363592132__c (
+   label('ITF MSL'),
+   active(true),
+   application_role('itf_msl__c'),
+   permission_sets('Permissionset.itf_msl_crm_ps__c')
+);

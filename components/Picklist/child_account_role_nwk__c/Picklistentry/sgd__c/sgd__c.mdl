@@ -1,0 +1,5 @@
+Picklistentry sgd__c (
+   value('Staff Grade Doctor'),
+   order(224),
+   active(true)
+);

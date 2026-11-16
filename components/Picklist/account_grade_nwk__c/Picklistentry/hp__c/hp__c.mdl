@@ -1,0 +1,5 @@
+Picklistentry hp__c (
+   value('HP'),
+   order(10),
+   active(true)
+);

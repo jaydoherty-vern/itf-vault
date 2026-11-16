@@ -1,0 +1,5 @@
+Picklistentry is_lan__c (
+   value('IS_Langanesbyggð'),
+   order(789),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ooto__c (
+   value('Onco-otolaryngology'),
+   order(322),
+   active(true)
+);

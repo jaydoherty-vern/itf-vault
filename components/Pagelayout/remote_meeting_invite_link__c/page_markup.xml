@@ -1,0 +1,21 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sent_message__v.remote_meeting_invite_link__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="object_type__v" />
+            <vault:field reference="transaction_type__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="call__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="capture_datetime__v" />
+            <vault:field reference="engage_link__v" />
+            <vault:field reference="sent_from_platform__v" />
+            <vault:field reference="sent_via__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

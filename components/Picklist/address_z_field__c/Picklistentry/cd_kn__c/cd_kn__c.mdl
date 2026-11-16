@@ -1,0 +1,5 @@
+Picklistentry cd_kn__c (
+   value('CD-KN'),
+   order(615),
+   active(true)
+);

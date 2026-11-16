@@ -1,0 +1,5 @@
+Picklistentry ca_on__c (
+   value('CA-ON'),
+   order(605),
+   active(true)
+);

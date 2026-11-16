@@ -1,0 +1,5 @@
+Picklistentry fellow__c (
+   value('Fellow'),
+   order(82),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry training_team__c (
+   value('Training Team'),
+   order(3),
+   active(true)
+);

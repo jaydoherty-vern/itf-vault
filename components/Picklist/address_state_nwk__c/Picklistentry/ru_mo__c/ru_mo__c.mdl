@@ -1,0 +1,5 @@
+Picklistentry ru_mo__c (
+   value('RU_Mordoviya, Respublika'),
+   order(1523),
+   active(true)
+);

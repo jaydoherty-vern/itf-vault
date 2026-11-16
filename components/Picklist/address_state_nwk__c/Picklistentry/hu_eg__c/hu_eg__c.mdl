@@ -1,0 +1,5 @@
+Picklistentry hu_eg__c (
+   value('HU_Eger'),
+   order(686),
+   active(true)
+);

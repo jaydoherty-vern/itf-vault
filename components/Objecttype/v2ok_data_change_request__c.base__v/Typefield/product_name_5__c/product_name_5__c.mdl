@@ -1,0 +1,4 @@
+Typefield product_name_5__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,19 @@
+Field country_code__v (
+   label('Primary Country'),
+   type('Picklist'),
+   active(true),
+   description('List of countries driven by Global Value Set.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(143),
+   multi_value(false),
+   picklist('Picklist.country_codes__v'),
+   default_value('{us__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

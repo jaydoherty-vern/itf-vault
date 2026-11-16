@@ -1,0 +1,5 @@
+Picklistentry epidys_trial__c (
+   value('EPIDYS Trial'),
+   order(2),
+   active(true)
+);

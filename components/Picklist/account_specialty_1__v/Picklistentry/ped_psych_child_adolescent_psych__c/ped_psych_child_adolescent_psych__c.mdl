@@ -1,0 +1,5 @@
+Picklistentry ped_psych_child_adolescent_psych__c (
+   value('PED/PSYCH/CHILD & ADOLESCENT PSYCH'),
+   order(363),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout vspa_event_budget_layout_w_o_estimated__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('VSPA Event Budget Layout w/o Estimated'),
+   page_markup(@page_markup.xml)
+);

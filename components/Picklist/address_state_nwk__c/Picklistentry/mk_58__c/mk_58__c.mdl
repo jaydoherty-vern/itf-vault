@@ -1,0 +1,5 @@
+Picklistentry mk_58__c (
+   value('MK_Ohrid'),
+   order(1257),
+   active(true)
+);

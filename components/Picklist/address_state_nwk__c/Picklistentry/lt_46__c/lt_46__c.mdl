@@ -1,0 +1,5 @@
+Picklistentry lt_46__c (
+   value('LT_Šilutė'),
+   order(1024),
+   active(true)
+);

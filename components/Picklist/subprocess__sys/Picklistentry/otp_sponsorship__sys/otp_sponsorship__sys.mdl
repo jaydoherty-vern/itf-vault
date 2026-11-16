@@ -1,0 +1,6 @@
+Picklistentry otp_sponsorship__sys (
+   value('Sponsorship'),
+   order(164),
+   active(true),
+   controlling_entries('olc_event__sys')
+);

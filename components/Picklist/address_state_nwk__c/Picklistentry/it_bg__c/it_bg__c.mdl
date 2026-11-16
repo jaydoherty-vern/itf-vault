@@ -1,0 +1,5 @@
+Picklistentry it_bg__c (
+   value('IT_Bergamo'),
+   order(843),
+   active(true)
+);

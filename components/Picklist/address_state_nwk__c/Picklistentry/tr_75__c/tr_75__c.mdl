@@ -1,0 +1,5 @@
+Picklistentry tr_75__c (
+   value('TR_Ardahan'),
+   order(1675),
+   active(true)
+);

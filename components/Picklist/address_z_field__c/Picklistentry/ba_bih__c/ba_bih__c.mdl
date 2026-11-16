@@ -1,0 +1,5 @@
+Picklistentry ba_bih__c (
+   value('BA-BIH'),
+   order(261),
+   active(true)
+);

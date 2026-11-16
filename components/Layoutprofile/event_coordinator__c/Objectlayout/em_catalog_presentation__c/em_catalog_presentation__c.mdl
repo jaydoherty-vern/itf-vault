@@ -1,0 +1,8 @@
+Objectlayout em_catalog_presentation__c (
+   label('em_catalog_presentation'),
+   active(true),
+   pagelayouts('Pagelayout.em_catalog_layout__c'),
+   object('Object.em_catalog__v'),
+   objecttype('Objecttype.em_catalog__v.presentation__v'),
+   record_creation_layout('Pagelayout.em_catalog_layout__c')
+);

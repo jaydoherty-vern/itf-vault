@@ -1,0 +1,5 @@
+Picklistentry cz_pl__c (
+   value('CZ_Plzeňský kraj'),
+   order(125),
+   active(true)
+);

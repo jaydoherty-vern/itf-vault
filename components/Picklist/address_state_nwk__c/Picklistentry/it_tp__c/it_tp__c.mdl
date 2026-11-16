@@ -1,0 +1,5 @@
+Picklistentry it_tp__c (
+   value('IT_Trapani'),
+   order(928),
+   active(true)
+);

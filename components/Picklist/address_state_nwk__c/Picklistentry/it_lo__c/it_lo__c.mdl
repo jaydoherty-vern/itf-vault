@@ -1,0 +1,5 @@
+Picklistentry it_lo__c (
+   value('IT_Lodi'),
+   order(880),
+   active(true)
+);

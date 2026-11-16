@@ -1,0 +1,5 @@
+Picklistentry profile_setup__c (
+   value('Profile Setup'),
+   order(32),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mk_62__c (
+   value('MK_Prilep'),
+   order(1262),
+   active(true)
+);

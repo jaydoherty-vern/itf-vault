@@ -1,0 +1,5 @@
+Picklistentry chemo__c (
+   value('Chemotherapy'),
+   order(73),
+   active(true)
+);

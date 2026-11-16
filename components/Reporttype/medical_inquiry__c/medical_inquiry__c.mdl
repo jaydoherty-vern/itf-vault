@@ -1,0 +1,9 @@
+RECREATE Reporttype medical_inquiry__c (
+   label('Medical Inquiry'),
+   active(true),
+   description('Medical Inquiry'),
+   primary_object('medical_inquiry__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

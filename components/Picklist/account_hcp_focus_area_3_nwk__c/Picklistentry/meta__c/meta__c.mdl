@@ -1,0 +1,5 @@
+Picklistentry meta__c (
+   value('Metabolism'),
+   order(243),
+   active(true)
+);

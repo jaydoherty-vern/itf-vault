@@ -1,0 +1,5 @@
+Picklistentry cf_hm__c (
+   value('CF-HM'),
+   order(626),
+   active(true)
+);

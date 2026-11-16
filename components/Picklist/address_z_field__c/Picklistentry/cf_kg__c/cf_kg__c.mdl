@@ -1,0 +1,5 @@
+Picklistentry cf_kg__c (
+   value('CF-KG'),
+   order(629),
+   active(true)
+);

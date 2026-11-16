@@ -1,0 +1,8 @@
+RECREATE Picklist transfer_of_value_type_of_transfer__c (
+   label('Type of Transfer'),
+   active(true),
+   Picklistentry(@Picklistentry/direct__c.mdl),
+   Picklistentry(@Picklistentry/indirect__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

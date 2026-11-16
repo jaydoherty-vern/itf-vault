@@ -1,0 +1,5 @@
+Picklistentry fr_39__c (
+   value('FR_Jura'),
+   order(330),
+   active(true)
+);

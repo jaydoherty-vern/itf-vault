@@ -1,0 +1,8 @@
+RECREATE Picklist em_event_team_me_notify_team_member_vspa__c (
+   label('Notify Team Member'),
+   active(true),
+   Picklistentry(@Picklistentry/yes__c.mdl),
+   Picklistentry(@Picklistentry/no__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

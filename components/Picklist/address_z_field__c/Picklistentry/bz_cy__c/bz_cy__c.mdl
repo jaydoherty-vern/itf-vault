@@ -1,0 +1,5 @@
+Picklistentry bz_cy__c (
+   value('BZ-CY'),
+   order(591),
+   active(true)
+);

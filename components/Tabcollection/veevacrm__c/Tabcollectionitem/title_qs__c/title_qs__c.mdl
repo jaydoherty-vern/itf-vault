@@ -1,0 +1,8 @@
+Tabcollectionitem title_qs__c (
+   label(),
+   active(true),
+   tabs(),
+   order(2),
+   tab('Tab.title_qs__c'),
+   type('Tab')
+);

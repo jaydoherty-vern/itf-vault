@@ -1,0 +1,5 @@
+Picklistentry vt__c (
+   value('VT'),
+   order(272),
+   active(true)
+);

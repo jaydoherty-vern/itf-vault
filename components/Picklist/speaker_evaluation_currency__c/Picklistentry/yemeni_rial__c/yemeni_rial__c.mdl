@@ -1,0 +1,5 @@
+Picklistentry yemeni_rial__c (
+   value('Yemeni Rial'),
+   order(166),
+   active(true)
+);

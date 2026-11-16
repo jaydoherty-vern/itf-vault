@@ -1,0 +1,5 @@
+Picklistentry si_059__c (
+   value('SI_Lendava'),
+   order(1608),
+   active(true)
+);

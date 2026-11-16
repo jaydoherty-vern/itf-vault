@@ -1,0 +1,5 @@
+Picklistentry mk_48__c (
+   value('MK_Lipkovo'),
+   order(1248),
+   active(true)
+);

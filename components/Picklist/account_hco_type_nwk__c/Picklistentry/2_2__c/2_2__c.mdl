@@ -1,0 +1,5 @@
+Picklistentry 2_2__c (
+   value('Professional Public Health Agencies, Centers for Disease Control and Prevention'),
+   order(241),
+   active(true)
+);

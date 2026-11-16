@@ -1,0 +1,5 @@
+Picklistentry csn__c (
+   value('Aesthetic & Cosmetic Medicine - Non Surgical'),
+   order(23),
+   active(true)
+);

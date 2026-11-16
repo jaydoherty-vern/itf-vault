@@ -1,0 +1,5 @@
+Picklistentry biochemistry_cellular_and_molecular_biol__c (
+   value('BIOCHEMISTRY, CELLULAR AND MOLECULAR BIOLOGY'),
+   order(133),
+   active(true)
+);

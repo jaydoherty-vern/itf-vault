@@ -1,0 +1,8 @@
+RECREATE Pagelayout order_assortment_link_layout_vod__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Order_Assortment_Link_Layout_vod'),
+   page_markup(@page_markup.xml)
+);

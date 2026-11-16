@@ -1,0 +1,5 @@
+Picklistentry ao_bgu__c (
+   value('AO-BGU'),
+   order(115),
+   active(true)
+);

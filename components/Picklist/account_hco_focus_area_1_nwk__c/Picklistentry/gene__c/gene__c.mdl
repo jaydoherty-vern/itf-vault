@@ -1,0 +1,5 @@
+Picklistentry gene__c (
+   value('Gene therapy'),
+   order(101),
+   active(true)
+);

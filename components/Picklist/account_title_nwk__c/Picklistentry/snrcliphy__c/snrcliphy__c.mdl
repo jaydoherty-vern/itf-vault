@@ -1,0 +1,5 @@
+Picklistentry snrcliphy__c (
+   value('Clinical Physiologist'),
+   order(22),
+   active(true)
+);

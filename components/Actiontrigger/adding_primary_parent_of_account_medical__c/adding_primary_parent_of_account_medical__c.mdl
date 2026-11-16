@@ -1,0 +1,9 @@
+RECREATE Actiontrigger adding_primary_parent_of_account_medical__c (
+   label('Adding Primary Parent of Account'),
+   active(true),
+   description(),
+   object('Object.medical_inquiry__v'),
+   event('BEFORE_INSERT'),
+   order(100),
+   Actionblock(@Actionblock/action_block1__c.mdl)
+);

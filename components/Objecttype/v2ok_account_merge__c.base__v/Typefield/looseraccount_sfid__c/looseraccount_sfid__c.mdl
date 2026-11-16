@@ -1,0 +1,4 @@
+Typefield looseraccount_sfid__c (
+   source('standard'),
+   required(false)
+);

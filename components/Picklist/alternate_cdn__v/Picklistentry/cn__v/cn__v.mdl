@@ -1,0 +1,5 @@
+Picklistentry cn__v (
+   value('China CDN'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry dodd__c (
+   value('Dental And Oral Diseases (Dentist) Diploma'),
+   order(30),
+   active(true)
+);

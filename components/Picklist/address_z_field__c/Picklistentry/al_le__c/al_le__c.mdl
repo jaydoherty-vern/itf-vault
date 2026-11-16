@@ -1,0 +1,5 @@
+Picklistentry al_le__c (
+   value('AL-LE'),
+   order(86),
+   active(true)
+);

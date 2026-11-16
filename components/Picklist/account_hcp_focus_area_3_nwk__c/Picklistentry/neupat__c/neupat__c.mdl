@@ -1,0 +1,5 @@
+Picklistentry neupat__c (
+   value('Neuropathology'),
+   order(269),
+   active(true)
+);

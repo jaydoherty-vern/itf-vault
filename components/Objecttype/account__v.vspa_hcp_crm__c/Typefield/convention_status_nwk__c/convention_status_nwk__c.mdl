@@ -1,0 +1,11 @@
+Typefield convention_status_nwk__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_convention_status_nwk__c.s1__c',
+         'Picklist.account_convention_status_nwk__c.s2__c',
+         'Picklist.account_convention_status_nwk__c.s3__c',
+         'Picklist.account_convention_status_nwk__c.s4__c',
+         'Picklist.account_convention_status_nwk__c.s5__c',
+         'Picklist.account_convention_status_nwk__c.s6__c',
+         'Picklist.account_convention_status_nwk__c.u__c')
+);

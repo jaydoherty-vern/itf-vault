@@ -1,0 +1,5 @@
+Picklistentry mk_37__c (
+   value('MK_Karbinci'),
+   order(1236),
+   active(true)
+);

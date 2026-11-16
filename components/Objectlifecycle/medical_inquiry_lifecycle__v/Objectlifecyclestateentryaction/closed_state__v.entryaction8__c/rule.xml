@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="LIFECYCLE_NOTIFICATION_ENTRY_ACTION" notificationTemplateKey="Notificationtemplate.itf_mi_completed__c">
+            <notificationRoleIds>owner__v</notificationRoleIds>
+        </action>
+    </actions>
+</rule>

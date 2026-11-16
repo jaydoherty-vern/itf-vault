@@ -1,0 +1,5 @@
+Picklistentry oeso__c (
+   value('Oesophageal Disorders & Cancer'),
+   order(292),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry minsur__c (
+   value('Minor Surgery (Removal of moles and skin lesions)'),
+   order(141),
+   active(true)
+);

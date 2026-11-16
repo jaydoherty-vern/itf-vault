@@ -1,0 +1,5 @@
+Picklistentry dispharm__c (
+   value('DISPHARM'),
+   order(34),
+   active(true)
+);

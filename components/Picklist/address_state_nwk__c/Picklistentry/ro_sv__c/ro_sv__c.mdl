@@ -1,0 +1,5 @@
+Picklistentry ro_sv__c (
+   value('RO_Suceava'),
+   order(1444),
+   active(true)
+);

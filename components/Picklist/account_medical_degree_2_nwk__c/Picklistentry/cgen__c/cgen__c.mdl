@@ -1,0 +1,5 @@
+Picklistentry cgen__c (
+   value('Clinical Genetics Diploma'),
+   order(21),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry tr_41__c (
+   value('TR_Kocaeli'),
+   order(1718),
+   active(true)
+);

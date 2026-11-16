@@ -1,0 +1,5 @@
+Picklistentry lari__c (
+   value('Lari'),
+   order(62),
+   active(true)
+);

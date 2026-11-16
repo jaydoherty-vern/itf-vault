@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_call_location_stamping_end_user__c (
+   label('VSPA_Call_Location_Stamping_End_User'),
+   active(true),
+   description('Allows a user to designate the location where a Call took place when recording a call for an HCP'),
+   object.call2__v.location__v.field_actions('edit',
+      'read'),
+   object.call2__v.location_text__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

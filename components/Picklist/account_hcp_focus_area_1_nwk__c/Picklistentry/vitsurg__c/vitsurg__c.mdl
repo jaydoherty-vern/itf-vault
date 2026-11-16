@@ -1,0 +1,5 @@
+Picklistentry vitsurg__c (
+   value('Vitreoretinal surgery'),
+   order(477),
+   active(true)
+);

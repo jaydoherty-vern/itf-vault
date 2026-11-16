@@ -1,0 +1,5 @@
+Picklistentry ca_sk__c (
+   value('CA-SK'),
+   order(608),
+   active(true)
+);

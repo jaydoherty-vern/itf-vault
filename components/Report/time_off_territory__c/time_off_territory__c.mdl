@@ -1,0 +1,20 @@
+RECREATE Report time_off_territory__c (
+   label('Time Off Territory by Month'),
+   active(true),
+   description('Veeva Services provided report.  If modifications are needed, please clone the report.'),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.time_off_territory_with_user__c'),
+   editors(),
+   viewers('Group.all_internal_users__v'),
+   owners('Group.vault_owners__v'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags('veeva__sys'),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

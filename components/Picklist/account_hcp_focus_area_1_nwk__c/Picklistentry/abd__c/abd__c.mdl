@@ -1,0 +1,5 @@
+Picklistentry abd__c (
+   value('Special Abdominal Surgery'),
+   order(417),
+   active(true)
+);

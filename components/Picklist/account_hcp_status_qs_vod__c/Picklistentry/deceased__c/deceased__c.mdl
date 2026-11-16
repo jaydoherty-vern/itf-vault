@@ -1,0 +1,5 @@
+Picklistentry deceased__c (
+   value('Deceased'),
+   order(0),
+   active(false)
+);

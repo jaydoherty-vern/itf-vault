@@ -1,0 +1,8 @@
+Objectlayout account_practice__c (
+   label('account_practice'),
+   active(true),
+   pagelayouts('Pagelayout.hospital__c'),
+   object('Object.account__v'),
+   objecttype('Objecttype.account__v.practice__v'),
+   record_creation_layout('Pagelayout.hospital__c')
+);

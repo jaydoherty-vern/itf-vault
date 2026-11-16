@@ -1,0 +1,5 @@
+Picklistentry apple_maps__c (
+   value('Apple Maps'),
+   order(30),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry chs__c (
+   value('Congen Cardiac Surgery (Thoracic Surg)'),
+   order(89),
+   active(true)
+);

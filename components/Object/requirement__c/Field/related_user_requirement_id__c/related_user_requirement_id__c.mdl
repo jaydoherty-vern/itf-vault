@@ -1,0 +1,19 @@
+Field related_user_requirement_id__c (
+   label('Related User Requirement ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(85),
+   help_content(),
+   list_column(false),
+   order(94),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

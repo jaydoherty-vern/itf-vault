@@ -1,0 +1,5 @@
+Picklistentry clinical_nurse_specialist__c (
+   value('CLINICAL NURSE SPECIALIST'),
+   order(324),
+   active(true)
+);

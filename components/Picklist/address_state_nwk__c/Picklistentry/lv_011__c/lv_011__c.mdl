@@ -1,0 +1,5 @@
+Picklistentry lv_011__c (
+   value('LV_Ādažu novads'),
+   order(1046),
+   active(true)
+);

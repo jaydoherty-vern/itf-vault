@@ -1,0 +1,5 @@
+Picklistentry saint_helena_pound__c (
+   value('Saint Helena Pound'),
+   order(127),
+   active(true)
+);

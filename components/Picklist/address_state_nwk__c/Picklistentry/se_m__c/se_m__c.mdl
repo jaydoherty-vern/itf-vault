@@ -1,0 +1,5 @@
+Picklistentry se_m__c (
+   value('SE_Skåne County'),
+   order(1578),
+   active(true)
+);

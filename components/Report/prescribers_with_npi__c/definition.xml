@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.external_id__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.npi__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.object_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.primary_parent__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="address__v___account__v.city_cda__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="address__v___account__v.state_cda__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="account__v.object_type__v" rightValue="Professional" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="ISNOTNULL" leftValue="account__v.npi__v" rightValue="" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="address__v___account__v.primary_cda__v" rightValue="True" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order />
+</vrp:query>

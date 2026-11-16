@@ -1,0 +1,5 @@
+Picklistentry es_sg__c (
+   value('ES_Segovia'),
+   order(224),
+   active(true)
+);

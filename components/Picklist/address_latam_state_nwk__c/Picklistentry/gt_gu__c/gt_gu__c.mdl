@@ -1,0 +1,5 @@
+Picklistentry gt_gu__c (
+   value('Guatemala'),
+   order(253),
+   active(true)
+);

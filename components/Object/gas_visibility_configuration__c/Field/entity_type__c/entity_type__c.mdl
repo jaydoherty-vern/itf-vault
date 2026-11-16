@@ -1,0 +1,19 @@
+Field entity_type__c (
+   label('Entity Type'),
+   type('Picklist'),
+   active(true),
+   description('Specifies Entity type - each entity may only have one record'),
+   required(false),
+   unique(false),
+   help_content('Specifies Entity type - each entity may only have one record'),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.gas_visibility_configuration_entity_type__c'),
+   default_value('{organization__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,25 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sent_message__v.call_sample__v">
+    <vault:section title="Signature Request" name="signature_request__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" readOnly="true" />
+            <vault:field reference="capture_datetime__v" readOnly="true" />
+            <vault:field reference="shortened_engage_link__v" readOnly="true" />
+            <vault:field reference="sent_via__v" readOnly="true" />
+            <vault:field reference="call__v" readOnly="true" />
+            <vault:field reference="vexternal_id__v" readOnly="true" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="user__v" readOnly="true" />
+            <vault:field reference="transaction_type__v" readOnly="true" />
+            <vault:field reference="engage_link__v" readOnly="true" />
+            <vault:field reference="sent_from_platform__v" readOnly="true" />
+            <vault:field reference="mobile_id__v" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

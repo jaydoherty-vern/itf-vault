@@ -1,0 +1,5 @@
+Picklistentry cnwks_local_admin__c (
+   value('CNWKS_Local_Admin'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,11 @@
+RECREATE Actiontrigger updating_owner_and_status_requirement_be__c (
+   label('Updating Owner and Status'),
+   active(true),
+   description(),
+   object('Object.requirement__c'),
+   event('BEFORE_UPDATE'),
+   order(100),
+   Actionblock(@Actionblock/action_block1__c.mdl),
+   Actionblock(@Actionblock/action_block2__c.mdl),
+   Actionblock(@Actionblock/action_block3__c.mdl)
+);

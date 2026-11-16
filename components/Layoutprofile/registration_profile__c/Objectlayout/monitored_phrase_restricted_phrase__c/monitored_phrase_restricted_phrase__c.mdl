@@ -1,0 +1,8 @@
+Objectlayout monitored_phrase_restricted_phrase__c (
+   label('monitored_phrase_restricted_phrase'),
+   active(true),
+   pagelayouts('Pagelayout.monitored_phrase__c'),
+   object('Object.monitored_phrase__v'),
+   objecttype('Objecttype.monitored_phrase__v.restricted_phrase__v'),
+   record_creation_layout('Pagelayout.monitored_phrase__c')
+);

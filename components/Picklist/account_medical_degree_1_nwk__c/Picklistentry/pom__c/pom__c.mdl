@@ -1,0 +1,5 @@
+Picklistentry pom__c (
+   value('Professor of medicine'),
+   order(312),
+   active(true)
+);

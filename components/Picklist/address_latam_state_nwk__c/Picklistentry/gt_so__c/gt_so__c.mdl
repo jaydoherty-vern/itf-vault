@@ -1,0 +1,5 @@
+Picklistentry gt_so__c (
+   value('Sololá'),
+   order(265),
+   active(true)
+);

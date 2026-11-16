@@ -1,0 +1,5 @@
+Picklistentry lv_086__c (
+   value('LV_Salacgrīvas novads (Salacgrīva)'),
+   order(1139),
+   active(true)
+);

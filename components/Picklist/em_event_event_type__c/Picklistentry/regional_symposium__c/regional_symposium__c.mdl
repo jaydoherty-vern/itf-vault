@@ -1,0 +1,5 @@
+Picklistentry regional_symposium__c (
+   value('Regional Symposium'),
+   order(24),
+   active(true)
+);

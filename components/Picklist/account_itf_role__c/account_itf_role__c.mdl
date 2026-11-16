@@ -1,0 +1,13 @@
+RECREATE Picklist account_itf_role__c (
+   label('Customer Role'),
+   active(true),
+   Picklistentry(@Picklistentry/hcp__c.mdl),
+   Picklistentry(@Picklistentry/pa_np__c.mdl),
+   Picklistentry(@Picklistentry/dpt_pt__c.mdl),
+   Picklistentry(@Picklistentry/rn__c.mdl),
+   Picklistentry(@Picklistentry/office_manager__c.mdl),
+   Picklistentry(@Picklistentry/access_contact__c.mdl),
+   Picklistentry(@Picklistentry/pa_appeals_staff__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry co_ces__c (
+   value('Cesar'),
+   order(154),
+   active(true)
+);

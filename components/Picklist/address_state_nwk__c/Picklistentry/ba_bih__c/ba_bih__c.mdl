@@ -1,0 +1,5 @@
+Picklistentry ba_bih__c (
+   value('BA_Federacija Bosna i Hercegovina'),
+   order(66),
+   active(true)
+);

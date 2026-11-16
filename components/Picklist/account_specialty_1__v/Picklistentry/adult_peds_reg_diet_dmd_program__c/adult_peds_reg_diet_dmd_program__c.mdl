@@ -1,0 +1,5 @@
+Picklistentry adult_peds_reg_diet_dmd_program__c (
+   value('ADULT AND PEDIATRIC REGISTERED DIETITIAN, DMD PROGRAM'),
+   order(309),
+   active(true)
+);

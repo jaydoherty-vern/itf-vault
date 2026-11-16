@@ -1,0 +1,5 @@
+Picklistentry rehabiltation__c (
+   value('REHABILTATION'),
+   order(72),
+   active(true)
+);

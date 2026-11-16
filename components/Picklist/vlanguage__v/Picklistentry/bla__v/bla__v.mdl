@@ -1,0 +1,5 @@
+Picklistentry bla__v (
+   value('Siksika'),
+   order(306),
+   active(false)
+);

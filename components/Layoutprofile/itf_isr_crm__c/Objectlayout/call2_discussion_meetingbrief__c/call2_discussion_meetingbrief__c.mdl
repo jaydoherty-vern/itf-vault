@@ -1,0 +1,8 @@
+Objectlayout call2_discussion_meetingbrief__c (
+   label('call2_discussion_meetingbrief'),
+   active(true),
+   pagelayouts('Pagelayout.meeting_brief_layout__c'),
+   object('Object.call2_discussion__v'),
+   objecttype('Objecttype.call2_discussion__v.meetingbrief__v'),
+   record_creation_layout('Pagelayout.meeting_brief_layout__c')
+);

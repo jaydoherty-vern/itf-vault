@@ -1,0 +1,20 @@
+Field enable_market_sales_analysis_report__v (
+   label('Enable Market Sales Analysis Report?'),
+   type('Boolean'),
+   active(true),
+   description('Checkbox to determine whether the Market Sales Analysis
+            Report is enabled'),
+   required(false),
+   checkbox(true),
+   help_content('Checkbox to determine whether the Market Sales Analysis
+            Report is enabled'),
+   list_column(false),
+   order(17),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

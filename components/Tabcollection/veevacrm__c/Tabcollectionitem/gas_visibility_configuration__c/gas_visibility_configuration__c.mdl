@@ -1,0 +1,8 @@
+Tabcollectionitem gas_visibility_configuration__c (
+   label(),
+   active(true),
+   tabs(),
+   order(6),
+   tab('Tab.gas_visibility_configuration__c'),
+   type('Tab')
+);

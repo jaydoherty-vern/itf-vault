@@ -1,0 +1,39 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.view__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="address_scope__v" />
+            <vault:field reference="columns__v" />
+            <vault:field reference="criteria__v" />
+            <vault:field reference="public__v" />
+            <vault:field reference="statement__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="profile__v" />
+            <vault:field reference="ownership_scope__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="external_id__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Preferences (Last Account View Used)" name="preferences1__c">
+        <vault:relatedObject relationship="preferences1__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

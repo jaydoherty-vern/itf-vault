@@ -1,0 +1,5 @@
+Picklistentry declines__c (
+   value('Customer declines the requirement'),
+   order(2),
+   active(true)
+);

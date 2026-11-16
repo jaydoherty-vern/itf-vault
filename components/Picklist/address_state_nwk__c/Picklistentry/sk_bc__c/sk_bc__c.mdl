@@ -1,0 +1,5 @@
+Picklistentry sk_bc__c (
+   value('SK_Banskobystrický Region'),
+   order(1650),
+   active(true)
+);

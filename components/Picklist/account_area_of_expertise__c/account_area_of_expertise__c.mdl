@@ -1,0 +1,11 @@
+RECREATE Picklist account_area_of_expertise__c (
+   label('Area of Expertise'),
+   active(true),
+   Picklistentry(@Picklistentry/migraine__c.mdl),
+   Picklistentry(@Picklistentry/chronic_non_cancer_pain__c.mdl),
+   Picklistentry(@Picklistentry/supportive_care_oncology__c.mdl),
+   Picklistentry(@Picklistentry/acute_pain__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

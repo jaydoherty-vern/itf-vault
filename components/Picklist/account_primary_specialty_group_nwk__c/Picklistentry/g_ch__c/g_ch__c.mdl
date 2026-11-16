@@ -1,0 +1,5 @@
+Picklistentry g_ch__c (
+   value('Chiropractic Medicine'),
+   order(11),
+   active(true)
+);

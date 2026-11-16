@@ -1,0 +1,5 @@
+Picklistentry it_og__c (
+   value('IT_Ogliastra'),
+   order(894),
+   active(true)
+);

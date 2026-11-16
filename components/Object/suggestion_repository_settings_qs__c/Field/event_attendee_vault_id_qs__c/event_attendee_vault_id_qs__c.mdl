@@ -1,0 +1,19 @@
+Field event_attendee_vault_id_qs__c (
+   label('Event Attendee Vault ID'),
+   type('String'),
+   active(true),
+   description('Vault URL to be used on the automatically created Suggestion record(s).'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

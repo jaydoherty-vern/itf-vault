@@ -1,0 +1,5 @@
+Picklistentry ems__c (
+   value('Emergency Medical Services/Technician'),
+   order(143),
+   active(true)
+);

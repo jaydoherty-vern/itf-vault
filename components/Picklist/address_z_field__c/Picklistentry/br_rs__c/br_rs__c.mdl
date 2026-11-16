@@ -1,0 +1,5 @@
+Picklistentry br_rs__c (
+   value('BR-RS'),
+   order(517),
+   active(true)
+);

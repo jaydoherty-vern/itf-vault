@@ -1,0 +1,5 @@
+Picklistentry lv_jkb__c (
+   value('LV_Jēkabpils'),
+   order(1089),
+   active(true)
+);

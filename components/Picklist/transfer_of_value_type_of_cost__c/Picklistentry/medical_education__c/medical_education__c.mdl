@@ -1,0 +1,5 @@
+Picklistentry medical_education__c (
+   value('Medical education'),
+   order(5),
+   active(true)
+);

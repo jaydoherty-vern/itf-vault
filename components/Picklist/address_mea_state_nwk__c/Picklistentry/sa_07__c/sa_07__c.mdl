@@ -1,0 +1,5 @@
+Picklistentry sa_07__c (
+   value('SA_Tabūk'),
+   order(88),
+   active(true)
+);

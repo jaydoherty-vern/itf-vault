@@ -1,0 +1,5 @@
+Picklistentry deo__c (
+   value('Dental Oncology'),
+   order(104),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield enable_cb_filter_retain_mode__c (
+   source('standard'),
+   required(false)
+);

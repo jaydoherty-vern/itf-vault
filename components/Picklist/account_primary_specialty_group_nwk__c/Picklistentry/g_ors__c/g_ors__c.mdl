@@ -1,0 +1,5 @@
+Picklistentry g_ors__c (
+   value('Orthopedic Surgery'),
+   order(39),
+   active(true)
+);

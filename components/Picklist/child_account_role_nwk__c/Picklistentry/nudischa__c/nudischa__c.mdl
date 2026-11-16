@@ -1,0 +1,5 @@
+Picklistentry nudischa__c (
+   value('Discharge Nurse'),
+   order(69),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mx_bcs__c (
+   value('Baja California Sur'),
+   order(46),
+   active(true)
+);

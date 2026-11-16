@@ -1,0 +1,5 @@
+Picklistentry lv_017__c (
+   value('LV_Beverīnas novads (Beverīna)'),
+   order(1063),
+   active(true)
+);

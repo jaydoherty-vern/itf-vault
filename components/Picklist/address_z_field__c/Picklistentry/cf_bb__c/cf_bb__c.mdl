@@ -1,0 +1,5 @@
+Picklistentry cf_bb__c (
+   value('CF-BB'),
+   order(622),
+   active(true)
+);

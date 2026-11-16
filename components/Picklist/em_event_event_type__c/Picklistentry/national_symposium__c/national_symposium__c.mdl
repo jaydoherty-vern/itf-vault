@@ -1,0 +1,5 @@
+Picklistentry national_symposium__c (
+   value('National Symposium'),
+   order(20),
+   active(true)
+);

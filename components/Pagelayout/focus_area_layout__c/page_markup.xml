@@ -1,0 +1,34 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.focus_area__v.kol_focus_area__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="focus_name__v" />
+            <vault:field reference="focus_area_account__v" />
+            <vault:field reference="publications_focus_score__v" />
+            <vault:field reference="clinical_trials_focus_score__v" />
+            <vault:field reference="events_focus_score__v" />
+            <vault:field reference="high_focus_score__v" />
+            <vault:field reference="total_focus_score__v" />
+            <vault:field reference="account__v" required="true" />
+            <vault:field reference="external_id__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

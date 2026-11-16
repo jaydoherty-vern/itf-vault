@@ -1,0 +1,5 @@
+Picklistentry periodontics__c (
+   value('Periodontics'),
+   order(82),
+   active(true)
+);

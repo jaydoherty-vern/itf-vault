@@ -1,0 +1,4 @@
+Typefield hco_focus_area_2_qs__c (
+   source('standard'),
+   required(false)
+);

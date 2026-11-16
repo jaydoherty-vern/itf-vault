@@ -1,0 +1,5 @@
+Picklistentry dent__c (
+   value('Dentist Diploma'),
+   order(24),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry adp__c (
+   value('Addiction Psychiatry'),
+   order(9),
+   active(true)
+);

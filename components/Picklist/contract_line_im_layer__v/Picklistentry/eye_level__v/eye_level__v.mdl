@@ -1,0 +1,5 @@
+Picklistentry eye_level__v (
+   value('Eye Level'),
+   order(1),
+   active(true)
+);

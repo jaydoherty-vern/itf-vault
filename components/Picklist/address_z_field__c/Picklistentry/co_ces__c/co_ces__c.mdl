@@ -1,0 +1,5 @@
+Picklistentry co_ces__c (
+   value('CO-CES'),
+   order(775),
+   active(true)
+);

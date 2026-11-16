@@ -1,0 +1,5 @@
+Picklistentry exotic_wild_animals__c (
+   value('Exotic/Wild animals'),
+   order(45),
+   active(true)
+);

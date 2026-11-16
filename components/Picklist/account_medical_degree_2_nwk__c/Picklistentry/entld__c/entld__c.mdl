@@ -1,0 +1,5 @@
+Picklistentry entld__c (
+   value('Ear, Nose, Throat And Larynx Diseases Diploma'),
+   order(154),
+   active(true)
+);

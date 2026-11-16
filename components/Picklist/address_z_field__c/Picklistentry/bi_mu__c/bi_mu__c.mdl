@@ -1,0 +1,5 @@
+Picklistentry bi_mu__c (
+   value('BI-MU'),
+   order(461),
+   active(true)
+);

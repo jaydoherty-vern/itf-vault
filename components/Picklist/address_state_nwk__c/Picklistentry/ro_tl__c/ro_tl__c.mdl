@@ -1,0 +1,5 @@
+Picklistentry ro_tl__c (
+   value('RO_Tulcea'),
+   order(1447),
+   active(true)
+);

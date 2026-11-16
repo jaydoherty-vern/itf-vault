@@ -1,0 +1,15 @@
+RECREATE Objectvalidation requirement__c.uat_testers_required_fields__c (
+   label('UAT TESTERS REQUIRED FIELDS'),
+   active(true),
+   expression('Not(
+And(
+Or(
+IsChanged(requirement_title__c),
+IsChanged(impacted_business__c),
+IsChanged(requirement_description__c)
+),
+(@User.security_profile__sysr.name__v != ''Vault Owner'')))'),
+   description(),
+   error_message('You do not have permissions to update required fields.'),
+   error_location('id')
+);

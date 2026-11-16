@@ -1,0 +1,5 @@
+Picklistentry rada__c (
+   value('Radiology Assistant'),
+   order(321),
+   active(true)
+);

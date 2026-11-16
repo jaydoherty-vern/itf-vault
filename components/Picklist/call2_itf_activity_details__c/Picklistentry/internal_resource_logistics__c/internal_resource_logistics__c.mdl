@@ -1,0 +1,5 @@
+Picklistentry internal_resource_logistics__c (
+   value('Internal Resource Logistics'),
+   order(22),
+   active(true)
+);

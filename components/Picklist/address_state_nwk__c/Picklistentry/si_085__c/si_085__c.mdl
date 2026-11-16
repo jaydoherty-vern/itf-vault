@@ -1,0 +1,5 @@
+Picklistentry si_085__c (
+   value('SI_Novo Mesto'),
+   order(1618),
+   active(true)
+);

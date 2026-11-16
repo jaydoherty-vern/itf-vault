@@ -1,0 +1,5 @@
+Picklistentry be_wna__c (
+   value('BE-WNA'),
+   order(358),
+   active(true)
+);

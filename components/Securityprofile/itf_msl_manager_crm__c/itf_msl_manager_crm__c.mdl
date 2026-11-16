@@ -1,0 +1,6 @@
+RECREATE Securityprofile itf_msl_manager_crm__c (
+   label('ITF_MSL_MANAGER_CRM'),
+   active(true),
+   description(),
+   permission_sets()
+);

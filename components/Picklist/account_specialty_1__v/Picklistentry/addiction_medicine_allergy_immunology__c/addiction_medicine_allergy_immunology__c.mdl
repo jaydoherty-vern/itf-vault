@@ -1,0 +1,5 @@
+Picklistentry addiction_medicine_allergy_immunology__c (
+   value('ADDICTION MEDICINE, ALLERGY-IMMUNOLOGY'),
+   order(308),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_001__c (
+   value('LV_Aglonas novads (Aglona)'),
+   order(1047),
+   active(true)
+);

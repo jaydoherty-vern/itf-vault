@@ -1,0 +1,5 @@
+Picklistentry br_go__c (
+   value('Goiás'),
+   order(5),
+   active(true)
+);

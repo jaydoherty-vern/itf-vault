@@ -1,0 +1,5 @@
+Picklistentry coordinator__c (
+   value('COORDINATOR'),
+   order(71),
+   active(true)
+);

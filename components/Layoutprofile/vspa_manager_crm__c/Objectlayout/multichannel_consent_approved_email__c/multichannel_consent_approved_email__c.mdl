@@ -1,0 +1,8 @@
+Objectlayout multichannel_consent_approved_email__c (
+   label('multichannel_consent_approved_email'),
+   active(true),
+   pagelayouts('Pagelayout.multichannel_consent_layout__c'),
+   object('Object.multichannel_consent__v'),
+   objecttype('Objecttype.multichannel_consent__v.approved_email__v'),
+   record_creation_layout('Pagelayout.multichannel_consent_layout__c')
+);

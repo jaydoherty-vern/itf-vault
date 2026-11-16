@@ -1,0 +1,5 @@
+Picklistentry pr__c (
+   value('Prosthodontics'),
+   order(423),
+   active(true)
+);

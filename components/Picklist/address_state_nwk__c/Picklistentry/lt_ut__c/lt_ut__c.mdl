@@ -1,0 +1,5 @@
+Picklistentry lt_ut__c (
+   value('LT_Utenos Apskritis'),
+   order(1035),
+   active(true)
+);

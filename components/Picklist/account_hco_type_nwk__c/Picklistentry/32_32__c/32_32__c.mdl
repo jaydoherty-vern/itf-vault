@@ -1,0 +1,5 @@
+Picklistentry 32_32__c (
+   value('Commission for relations with users and the quality of care'),
+   order(16),
+   active(true)
+);

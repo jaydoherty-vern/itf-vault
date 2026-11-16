@@ -1,0 +1,5 @@
+Picklistentry it_vr__c (
+   value('IT_Verona'),
+   order(938),
+   active(true)
+);

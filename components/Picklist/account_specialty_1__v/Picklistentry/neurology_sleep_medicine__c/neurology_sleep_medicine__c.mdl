@@ -1,0 +1,5 @@
+Picklistentry neurology_sleep_medicine__c (
+   value('NEUROLOGY, SLEEP MEDICINE'),
+   order(351),
+   active(true)
+);

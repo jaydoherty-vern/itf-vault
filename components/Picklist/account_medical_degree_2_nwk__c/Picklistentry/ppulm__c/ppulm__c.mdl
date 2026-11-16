@@ -1,0 +1,5 @@
+Picklistentry ppulm__c (
+   value('Pediatric Pulmonology Diploma'),
+   order(259),
+   active(true)
+);

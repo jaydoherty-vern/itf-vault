@@ -1,0 +1,5 @@
+Picklistentry arth__c (
+   value('Arthritis'),
+   order(28),
+   active(true)
+);

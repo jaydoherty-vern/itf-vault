@@ -1,0 +1,5 @@
+Picklistentry truss_fittings__c (
+   value('Truss Fittings'),
+   order(97),
+   active(true)
+);

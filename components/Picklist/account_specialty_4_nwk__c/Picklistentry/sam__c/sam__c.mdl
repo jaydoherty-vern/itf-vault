@@ -1,0 +1,5 @@
+Picklistentry sam__c (
+   value('Small Animal Medicine'),
+   order(476),
+   active(true)
+);

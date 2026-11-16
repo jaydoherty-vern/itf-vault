@@ -1,0 +1,4 @@
+Typefield amount_of_costs__c (
+   source('standard'),
+   required(true)
+);

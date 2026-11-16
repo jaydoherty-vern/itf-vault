@@ -1,0 +1,17 @@
+Field ok_integrationtime__c (
+   label('OK_Integrationtime'),
+   type('DateTime'),
+   active(true),
+   description('Needed by OneKey'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(120),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

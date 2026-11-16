@@ -1,0 +1,5 @@
+Picklistentry president__c (
+   value('President'),
+   order(2),
+   active(true)
+);

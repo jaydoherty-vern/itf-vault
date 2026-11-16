@@ -1,0 +1,5 @@
+Picklistentry gl_ku__c (
+   value('GL_Kommune Kujalleq'),
+   order(651),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry speaker_fees__c (
+   value('Speaker Fees'),
+   order(0),
+   active(true)
+);

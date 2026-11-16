@@ -1,0 +1,5 @@
+Picklistentry outage__c (
+   value('Outage'),
+   order(0),
+   active(true)
+);

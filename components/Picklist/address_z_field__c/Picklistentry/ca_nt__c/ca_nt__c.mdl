@@ -1,0 +1,5 @@
+Picklistentry ca_nt__c (
+   value('CA-NT'),
+   order(603),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry medical_affairs_lead__c (
+   value('Medical Affairs Lead'),
+   order(1),
+   active(false)
+);

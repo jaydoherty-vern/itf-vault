@@ -1,0 +1,5 @@
+Picklistentry asr__c (
+   value('Regional Specialist Assistant (ASR)'),
+   order(30),
+   active(true)
+);

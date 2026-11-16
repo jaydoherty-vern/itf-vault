@@ -1,0 +1,17 @@
+RECREATE Securityprofile vspa_data_steward_crm__c (
+   label('VSPA_Data Steward_CRM'),
+   active(true),
+   description(),
+   permission_sets('itf_base_vault_crm__c',
+      'vspa_accounts_tab__c',
+      'vspa_account_baseline__c',
+      'vspa_atl_end_user__c',
+      'vspa_base_user__c',
+      'vspa_create_reports__c',
+      'vspa_data_steward_crm_ps__c',
+      'vspa_dcr_user_territory_removal__c',
+      'vspa_dcr_user__c',
+      'vspa_enable_reports__c',
+      'vspa_enhanced_lookups__c',
+      'vspa_lightning_user__c')
+);

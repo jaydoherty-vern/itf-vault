@@ -1,0 +1,5 @@
+Picklistentry gt_sa__c (
+   value('Sacatepéquez'),
+   order(260),
+   active(true)
+);

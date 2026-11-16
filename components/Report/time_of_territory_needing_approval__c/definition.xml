@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.time__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.territory__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.time_off_territory_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v___ownerid__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v___ownerid__v.manager__sys" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="time_off_territory__v.time_off_territory_status__v" rightValue="pending__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="LT" leftValue="time_off_territory__v.date__v" rightValue="Today()" labelLanguage="en" type="PROPERTY" rightValueType="FUNCTION" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="time_off_territory__v___ownerid__v.state__v" rightValue="Active" labelValues="Active" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="time_off_territory__v___ownerid__v.manager__sys" groupBySortOn="time_off_territory__v___ownerid__v.manager__sys" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="time_off_territory__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="multichannel_activity_line__v___multichannel_activity__v.clm_presentation__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="multichannel_activity_line__v___multichannel_activity__v.datetime__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="multichannel_activity__v.training__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="multichannel_activity__v.media_preview__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="multichannel_activity__v.total_duration__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="multichannel_activity_line__v___multichannel_activity__v.view_order__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="multichannel_activity__v.client_name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="multichannel_activity_line__v___multichannel_activity__v.event_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="multichannel_activity_line__v___multichannel_activity__v.reaction__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="multichannel_activity_line__v___multichannel_activity__v.product__v" rightValue="DUVYZAT" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="NE" leftValue="multichannel_activity_line__v___multichannel_activity__v.key_message__v" rightValue="xyz_home" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="multichannel_activity_line__v___multichannel_activity__v.clm_presentation__v" rightValue="iVA" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="multichannel_activity__v.ownerid__v" groupBySortOn="multichannel_activity__v.ownerid__v" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="1" name="multichannel_activity__v.name__v" groupBySortOn="multichannel_activity__v.name__v" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="2" name="multichannel_activity_line__v___multichannel_activity__v.key_message__v" groupBySortOn="multichannel_activity_line__v___multichannel_activity__v.key_message__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order />
+</vrp:query>

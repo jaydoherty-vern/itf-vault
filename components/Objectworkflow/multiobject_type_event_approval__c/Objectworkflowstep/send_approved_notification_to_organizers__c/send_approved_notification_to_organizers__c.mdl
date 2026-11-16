@@ -1,0 +1,8 @@
+Objectworkflowstep send_approved_notification_to_organizers__c (
+   label('Send Approved Notification to Organizers'),
+   type('notification'),
+   next_steps('Objectworkflowstep.end__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

@@ -1,0 +1,5 @@
+Picklistentry lt_ku__c (
+   value('LT_Kauno Apskritis'),
+   order(989),
+   active(true)
+);

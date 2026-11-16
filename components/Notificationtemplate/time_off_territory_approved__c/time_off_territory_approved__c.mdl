@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate time_off_territory_approved__c (
+   label('Time Off Territory Approved'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.time_off_territory__v'),
+   subject('Time Off Territory request has been Approved'),
+   notification('${Object.name__v} Time Off Territory is Approved'),
+   email_body('A Time Off Territory request has been Approved in Vault CRM. See details below:<br/> <br/> TOT ID: ${Object.name__v} <br/> Date: ${Object.date__v} <br/> Time: ${Object.time__v} <br/> Reason: ${Object.reason__v}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

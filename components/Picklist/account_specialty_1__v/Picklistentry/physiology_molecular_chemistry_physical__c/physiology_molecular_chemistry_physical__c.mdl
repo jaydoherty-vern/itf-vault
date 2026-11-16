@@ -1,0 +1,5 @@
+Picklistentry physiology_molecular_chemistry_physical__c (
+   value('PHYSIOLOGY, MOLECULAR CHEMISTRY, PHYSICAL CHEMISTRY'),
+   order(144),
+   active(true)
+);

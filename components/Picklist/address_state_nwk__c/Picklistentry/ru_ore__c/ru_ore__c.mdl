@@ -1,0 +1,5 @@
+Picklistentry ru_ore__c (
+   value('RU_Orenburgskaya oblast'''),
+   order(1532),
+   active(true)
+);

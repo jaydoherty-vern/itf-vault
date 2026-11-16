@@ -1,0 +1,5 @@
+Picklistentry is_grn__c (
+   value('IS_Grindavíkurbær'),
+   order(773),
+   active(true)
+);

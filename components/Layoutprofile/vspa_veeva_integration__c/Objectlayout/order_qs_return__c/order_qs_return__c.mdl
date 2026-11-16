@@ -1,0 +1,8 @@
+Objectlayout order_qs_return__c (
+   label('order_qs_return'),
+   active(true),
+   pagelayouts('Pagelayout.return_order_layout__c'),
+   object('Object.order__v'),
+   objecttype('Objecttype.order__v.qs_return__c'),
+   record_creation_layout('Pagelayout.return_order_layout__c')
+);

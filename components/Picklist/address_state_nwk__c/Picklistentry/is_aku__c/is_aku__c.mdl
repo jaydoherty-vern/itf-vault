@@ -1,0 +1,5 @@
+Picklistentry is_aku__c (
+   value('IS_Akureyrarbær'),
+   order(752),
+   active(true)
+);

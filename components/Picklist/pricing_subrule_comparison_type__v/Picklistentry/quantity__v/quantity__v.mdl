@@ -1,0 +1,5 @@
+Picklistentry quantity__v (
+   value('Quantity'),
+   order(1),
+   active(true)
+);

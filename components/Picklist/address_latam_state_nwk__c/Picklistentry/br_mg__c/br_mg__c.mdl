@@ -1,0 +1,5 @@
+Picklistentry br_mg__c (
+   value('Minas Gerais'),
+   order(26),
+   active(true)
+);

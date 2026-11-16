@@ -1,0 +1,5 @@
+Picklistentry physician_investigator_neurologist2__c (
+   value('PHYSICIAN INVESTIGATOR NEUROLOGIST'),
+   order(387),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry it_ci__c (
+   value('IT_Carbonia-Iglesias'),
+   order(852),
+   active(true)
+);

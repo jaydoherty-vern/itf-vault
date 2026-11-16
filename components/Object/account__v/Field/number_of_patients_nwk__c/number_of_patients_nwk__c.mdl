@@ -1,0 +1,22 @@
+Field number_of_patients_nwk__c (
+   label('# of Patients'),
+   type('Number'),
+   active(true),
+   description('Network Field - HCO Number of Patients'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(316),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

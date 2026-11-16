@@ -1,0 +1,5 @@
+Picklistentry crm_auto_published__v (
+   value('CRM_Auto_Published'),
+   order(2),
+   active(true)
+);

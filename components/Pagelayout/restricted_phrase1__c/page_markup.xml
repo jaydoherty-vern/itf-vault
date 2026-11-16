@@ -1,0 +1,30 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.monitoring_rule__v.restricted_phrase__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="category__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="restricted_platforms__v" required="true" />
+            <vault:field reference="external_id__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Monitored Phrases" name="monitored_phrases__c">
+        <vault:relatedObject relationship="monitored_phrases__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="phrase__v" width="200px" />
+            <vault:field reference="match_type__v" width="200px" />
+            <vault:field reference="external_id__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

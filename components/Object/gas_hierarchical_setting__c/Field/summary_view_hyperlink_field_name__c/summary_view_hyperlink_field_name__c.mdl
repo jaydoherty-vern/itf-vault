@@ -1,0 +1,20 @@
+Field summary_view_hyperlink_field_name__c (
+   label('Summary View Hyperlink Field Name'),
+   type('String'),
+   active(true),
+   description('API Field Name of a field on Account object that needs to be hyperlinked in the GAS Results to show the Account Summary'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('API Field Name of a field on Account object that needs to be hyperlinked in the GAS Results to show the Account Summary'),
+   list_column(false),
+   order(45),
+   default_value('''Name'''),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

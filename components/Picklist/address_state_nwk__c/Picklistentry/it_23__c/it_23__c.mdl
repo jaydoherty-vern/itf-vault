@@ -1,0 +1,5 @@
+Picklistentry it_23__c (
+   value('IT-23'),
+   order(943),
+   active(false)
+);

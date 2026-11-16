@@ -1,0 +1,16 @@
+RECREATE Picklist call2_activity_type__c (
+   label('Activity Type'),
+   active(true),
+   Picklistentry(@Picklistentry/leadership_meetings_outside_of_congresse__c.mdl),
+   Picklistentry(@Picklistentry/speaker_related_engagement__c.mdl),
+   Picklistentry(@Picklistentry/congress_activity__c.mdl),
+   Picklistentry(@Picklistentry/tll_1_1__c.mdl),
+   Picklistentry(@Picklistentry/advisory_board__c.mdl),
+   Picklistentry(@Picklistentry/internal_resource__c.mdl),
+   Picklistentry(@Picklistentry/marketing_program__c.mdl),
+   Picklistentry(@Picklistentry/n_a__c.mdl),
+   Picklistentry(@Picklistentry/lunch_learn__c.mdl),
+   Picklistentry(@Picklistentry/mailer__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

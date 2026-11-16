@@ -1,0 +1,5 @@
+Picklistentry clinical_research_coordinator_iii__c (
+   value('CLINICAL RESEARCH COORDINATOR III'),
+   order(50),
+   active(true)
+);

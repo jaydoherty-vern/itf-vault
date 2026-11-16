@@ -1,0 +1,8 @@
+Objectlayout pricing_rule_discount_rule__c (
+   label('pricing_rule_discount_rule'),
+   active(true),
+   pagelayouts('Pagelayout.discount_layout__c'),
+   object('Object.pricing_rule__v'),
+   objecttype('Objecttype.pricing_rule__v.discount_rule__v'),
+   record_creation_layout('Pagelayout.discount_layout__c')
+);

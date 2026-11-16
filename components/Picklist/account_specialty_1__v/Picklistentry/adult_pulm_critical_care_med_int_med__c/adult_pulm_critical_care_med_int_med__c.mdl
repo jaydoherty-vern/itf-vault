@@ -1,0 +1,5 @@
+Picklistentry adult_pulm_critical_care_med_int_med__c (
+   value('ADULT PULMONOLOGY, CRITICAL CARE MEDICINBE, INTERNAL MEDICINE'),
+   order(310),
+   active(true)
+);

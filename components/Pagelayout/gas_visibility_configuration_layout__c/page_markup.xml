@@ -1,0 +1,26 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.gas_visibility_configuration__c">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="entity_type__c" />
+            <vault:field reference="object_api_name__c" required="true" />
+            <vault:field reference="custom_criteria__c" />
+            <vault:field reference="active__c" />
+            <vault:field reference="exclusive_criteria__c" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="account_lookup_field_api_name__c" />
+            <vault:field reference="entity_id__c" readOnly="true" />
+            <vault:field reference="external_id__c" readOnly="true" />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

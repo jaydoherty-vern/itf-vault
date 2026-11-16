@@ -1,0 +1,5 @@
+Picklistentry nustaff__c (
+   value('Staff Nurse'),
+   order(225),
+   active(true)
+);

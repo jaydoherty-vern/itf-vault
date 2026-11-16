@@ -1,0 +1,5 @@
+Picklistentry asr__c (
+   value('ASR'),
+   order(5),
+   active(true)
+);

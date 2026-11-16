@@ -1,0 +1,5 @@
+Picklistentry pt_14__c (
+   value('PT_Santarém'),
+   order(1404),
+   active(true)
+);

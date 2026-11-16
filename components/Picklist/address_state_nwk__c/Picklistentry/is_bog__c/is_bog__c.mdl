@@ -1,0 +1,5 @@
+Picklistentry is_bog__c (
+   value('IS_Borgarbyggð'),
+   order(759),
+   active(true)
+);

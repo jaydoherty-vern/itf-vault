@@ -1,0 +1,5 @@
+Picklistentry ar_x__c (
+   value('Córdoba province'),
+   order(68),
+   active(true)
+);

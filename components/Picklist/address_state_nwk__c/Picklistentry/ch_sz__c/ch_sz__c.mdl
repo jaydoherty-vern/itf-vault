@@ -1,0 +1,5 @@
+Picklistentry ch_sz__c (
+   value('CH_Schwyz'),
+   order(106),
+   active(true)
+);

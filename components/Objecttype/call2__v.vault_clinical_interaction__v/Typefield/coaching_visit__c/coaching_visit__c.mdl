@@ -1,0 +1,4 @@
+Typefield coaching_visit__c (
+   source('custom'),
+   required(false)
+);

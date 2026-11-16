@@ -1,0 +1,4 @@
+Typefield hin_id__c (
+   source('standard'),
+   required(false)
+);

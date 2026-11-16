@@ -1,0 +1,5 @@
+Picklistentry lv_101__c (
+   value('LV_Valkas novads'),
+   order(1155),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield tov_max_amount_per_snack_corp__sys (
+   source('standard'),
+   required(false)
+);

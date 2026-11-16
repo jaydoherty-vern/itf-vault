@@ -1,0 +1,4 @@
+Typefield zvod_cc_usage_start_time__c (
+   source('custom'),
+   required(false)
+);

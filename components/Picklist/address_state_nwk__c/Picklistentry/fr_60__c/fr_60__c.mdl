@@ -1,0 +1,5 @@
+Picklistentry fr_60__c (
+   value('FR_Oise'),
+   order(353),
+   active(true)
+);

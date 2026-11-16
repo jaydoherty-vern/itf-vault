@@ -1,0 +1,20 @@
+Field payer_id__v (
+   label('Payer Id'),
+   type('String'),
+   active(true),
+   description('The textual name of the Account''s Payer Id value accessed through a Formula field based upon the Account_vod__c relationship.  This field is leveraged by the Prescriber Level Formulary control for VMobile.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name('account__vr'),
+   lookup_source_field('payer_id__v'),
+   encrypted(false),
+   editable(false),
+   searchable(true),
+   format_mask(),
+   control_binding()
+);

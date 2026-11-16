@@ -1,0 +1,4 @@
+Typefield ok_account_class__c (
+   source('standard'),
+   required(false)
+);

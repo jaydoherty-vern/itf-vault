@@ -1,0 +1,9 @@
+RECREATE Picklist speaker_evaluat_language_of_presentation__c (
+   label('Language of presentation'),
+   active(true),
+   Picklistentry(@Picklistentry/french__c.mdl),
+   Picklistentry(@Picklistentry/english__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

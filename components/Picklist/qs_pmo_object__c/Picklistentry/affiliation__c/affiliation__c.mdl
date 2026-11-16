@@ -1,0 +1,5 @@
+Picklistentry affiliation__c (
+   value('Affiliation'),
+   order(4),
+   active(true)
+);

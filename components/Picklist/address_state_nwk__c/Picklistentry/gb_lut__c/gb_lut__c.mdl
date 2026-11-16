@@ -1,0 +1,5 @@
+Picklistentry gb_lut__c (
+   value('GB-LUT'),
+   order(541),
+   active(false)
+);

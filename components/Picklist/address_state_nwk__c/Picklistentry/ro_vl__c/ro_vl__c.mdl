@@ -1,0 +1,5 @@
+Picklistentry ro_vl__c (
+   value('RO_Vâlcea'),
+   order(1448),
+   active(true)
+);

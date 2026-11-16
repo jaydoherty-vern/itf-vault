@@ -1,0 +1,5 @@
+Picklistentry rs_25__c (
+   value('RS_Kosovski okrug'),
+   order(1459),
+   active(true)
+);

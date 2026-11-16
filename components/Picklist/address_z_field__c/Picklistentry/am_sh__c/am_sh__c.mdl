@@ -1,0 +1,5 @@
+Picklistentry am_sh__c (
+   value('AM-SH'),
+   order(110),
+   active(true)
+);

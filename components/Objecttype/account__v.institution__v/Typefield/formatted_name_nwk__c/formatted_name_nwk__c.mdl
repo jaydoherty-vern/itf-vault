@@ -1,0 +1,4 @@
+Typefield formatted_name_nwk__c (
+   source('custom'),
+   required(false)
+);

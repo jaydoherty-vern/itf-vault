@@ -1,0 +1,5 @@
+Picklistentry az_sus__c (
+   value('AZ-SUS'),
+   order(236),
+   active(true)
+);

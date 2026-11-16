@@ -1,0 +1,5 @@
+Picklistentry ro_nt__c (
+   value('RO_Neamț'),
+   order(1438),
+   active(true)
+);

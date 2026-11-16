@@ -1,0 +1,5 @@
+Picklistentry external__c (
+   value('External'),
+   order(0),
+   active(true)
+);

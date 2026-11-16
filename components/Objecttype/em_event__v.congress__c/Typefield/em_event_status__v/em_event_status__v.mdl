@@ -1,0 +1,14 @@
+Typefield em_event_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_status__v.approved__v',
+         'Picklist.em_event_status__v.canceled__v',
+         'Picklist.em_event_status__v.closed__v',
+         'Picklist.em_event_status__v.new__c',
+         'Picklist.em_event_status__v.pending_1st_approval__c',
+         'Picklist.em_event_status__v.pending_2nd_approval__c',
+         'Picklist.em_event_status__v.pending_3rd_approval__c',
+         'Picklist.em_event_status__v.pending_4th_approval__c',
+         'Picklist.em_event_status__v.requested__v'),
+   default_value('Picklist.em_event_status__v.requested__v')
+);

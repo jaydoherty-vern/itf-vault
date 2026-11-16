@@ -1,0 +1,4 @@
+Typefield itf_tll_kol__c (
+   source('standard'),
+   required(false)
+);

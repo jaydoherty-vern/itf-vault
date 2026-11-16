@@ -1,0 +1,5 @@
+Picklistentry vei__c (
+   value('Veterinary Infectious Disease'),
+   order(542),
+   active(true)
+);

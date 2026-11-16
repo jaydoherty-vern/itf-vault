@@ -1,0 +1,5 @@
+Picklistentry rs_vo__c (
+   value('RS_Vojvodina'),
+   order(1479),
+   active(true)
+);

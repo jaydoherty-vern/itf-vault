@@ -1,0 +1,5 @@
+Picklistentry gall__c (
+   value('Gall Bladder'),
+   order(150),
+   active(true)
+);

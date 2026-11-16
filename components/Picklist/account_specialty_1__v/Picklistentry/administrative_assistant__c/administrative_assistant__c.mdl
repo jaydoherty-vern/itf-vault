@@ -1,0 +1,5 @@
+Picklistentry administrative_assistant__c (
+   value('Administrative Assistant'),
+   order(109),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry sv_sm__c (
+   value('San Miguel'),
+   order(368),
+   active(true)
+);

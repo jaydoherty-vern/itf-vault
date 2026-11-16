@@ -1,0 +1,4 @@
+Typefield event_expense__c (
+   source('custom'),
+   required(false)
+);

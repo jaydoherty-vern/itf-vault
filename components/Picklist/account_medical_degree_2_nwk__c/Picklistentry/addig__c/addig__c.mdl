@@ -1,0 +1,5 @@
+Picklistentry addig__c (
+   value('Diploma in Addictology'),
+   order(43),
+   active(true)
+);

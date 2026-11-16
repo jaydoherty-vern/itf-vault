@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule key="nt-0-1743817292780">
+      <actions>
+        <action type="platform.all.updateRecordAction">
+          <targetField>Object.em_speaker_nomination__v.em_speaker_nomination_status__v</targetField>
+          <expression>'approved__v'</expression>
+          <updateType>formula_builder</updateType>
+        </action>
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

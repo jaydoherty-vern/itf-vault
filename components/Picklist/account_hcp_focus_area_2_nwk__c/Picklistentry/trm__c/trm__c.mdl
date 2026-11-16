@@ -1,0 +1,5 @@
+Picklistentry trm__c (
+   value('Travel Medicine'),
+   order(441),
+   active(true)
+);

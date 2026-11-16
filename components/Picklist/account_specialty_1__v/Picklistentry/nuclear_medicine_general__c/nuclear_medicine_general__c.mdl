@@ -1,0 +1,5 @@
+Picklistentry nuclear_medicine_general__c (
+   value('NUCLEAR MEDICINE - GENERAL'),
+   order(354),
+   active(true)
+);

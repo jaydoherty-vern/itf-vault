@@ -1,0 +1,5 @@
+Picklistentry indirect__c (
+   value('Indirect'),
+   order(1),
+   active(true)
+);

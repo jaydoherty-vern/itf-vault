@@ -1,0 +1,5 @@
+Picklistentry mo__c (
+   value('Medical Officer'),
+   order(134),
+   active(true)
+);

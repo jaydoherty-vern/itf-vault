@@ -1,0 +1,8 @@
+Objectlayout order_line_direct__c (
+   label('order_line_direct'),
+   active(true),
+   pagelayouts('Pagelayout.order_line_layout__c'),
+   object('Object.order_line__v'),
+   objecttype('Objecttype.order_line__v.direct__v'),
+   record_creation_layout('Pagelayout.order_line_layout__c')
+);

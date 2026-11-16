@@ -1,0 +1,11 @@
+RECREATE Objectlifecyclestagegroup coverage_verification_stage_group__c (
+   label('Coverage Verification Stage Group'),
+   active(true),
+   description(),
+   object_lifecycle('Objectlifecycle.coverage_verification_lifecycle__v'),
+   object_type('Objecttype.coverage_verification__v.coverage_verification__v'),
+   Objectlifecyclestage(@Objectlifecyclestage/appeal__c.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/benefits_verification__c.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/complete__c.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/prior_authorization__c.mdl)
+);

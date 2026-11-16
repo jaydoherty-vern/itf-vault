@@ -1,0 +1,19 @@
+Field tov_national_council_reference_number__c (
+   label('National Council Reference Number'),
+   type('String'),
+   active(true),
+   description('Text field in the Event header to store the dossier number.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(137),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

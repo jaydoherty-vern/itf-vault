@@ -1,0 +1,5 @@
+Picklistentry gb_clr__c (
+   value('GB-CLR'),
+   order(458),
+   active(false)
+);

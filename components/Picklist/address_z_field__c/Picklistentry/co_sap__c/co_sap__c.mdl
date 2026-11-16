@@ -1,0 +1,5 @@
+Picklistentry co_sap__c (
+   value('CO-SAP'),
+   order(792),
+   active(true)
+);

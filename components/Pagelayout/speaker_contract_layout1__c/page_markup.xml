@@ -1,0 +1,40 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_catalog__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="em_catalog_name__v" required="true" />
+            <vault:field reference="em_catalog_status__v" required="true" />
+            <vault:field reference="service_type__v" />
+            <vault:field reference="program_type__v" />
+            <vault:field reference="location_type__v" />
+            <vault:field reference="event_format__v" />
+            <vault:field reference="vspa_country_code__c" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="description__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Event Types Using Material" name="event_rules__c">
+        <vault:relatedObject relationship="event_rules__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="event_configuration__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Topics Using Material" name="topic_materials__c">
+        <vault:relatedObject relationship="topic_materials__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="topic__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

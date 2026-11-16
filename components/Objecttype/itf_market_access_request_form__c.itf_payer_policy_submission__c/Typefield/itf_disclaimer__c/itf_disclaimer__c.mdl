@@ -1,0 +1,4 @@
+Typefield itf_disclaimer__c (
+   source('custom'),
+   required(false)
+);

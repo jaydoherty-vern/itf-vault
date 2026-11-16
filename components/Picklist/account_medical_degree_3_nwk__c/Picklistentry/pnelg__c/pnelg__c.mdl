@@ -1,0 +1,5 @@
+Picklistentry pnelg__c (
+   value('Diploma in Pneumology'),
+   order(72),
+   active(true)
+);

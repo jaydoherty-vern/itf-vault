@@ -1,0 +1,5 @@
+Picklistentry cn_gs__c (
+   value('CN-GS'),
+   order(739),
+   active(true)
+);

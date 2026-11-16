@@ -1,0 +1,5 @@
+Picklistentry lt_vl__c (
+   value('LT_Vilniaus Apskritis'),
+   order(1038),
+   active(true)
+);

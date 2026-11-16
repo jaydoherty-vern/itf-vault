@@ -1,0 +1,5 @@
+Picklistentry analytics__c (
+   value('Analytics'),
+   order(2),
+   active(true)
+);

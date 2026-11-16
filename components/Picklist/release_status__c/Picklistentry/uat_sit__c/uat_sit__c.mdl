@@ -1,0 +1,5 @@
+Picklistentry uat_sit__c (
+   value('UAT & SIT'),
+   order(2),
+   active(true)
+);

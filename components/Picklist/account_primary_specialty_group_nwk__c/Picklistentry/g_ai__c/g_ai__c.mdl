@@ -1,0 +1,5 @@
+Picklistentry g_ai__c (
+   value('Allergy & Immunology'),
+   order(46),
+   active(true)
+);

@@ -1,0 +1,10 @@
+RECREATE Picklist account_itf_kol_sentiment__c (
+   label('KOL Sentiment'),
+   active(true),
+   Picklistentry(@Picklistentry/positive__c.mdl),
+   Picklistentry(@Picklistentry/neutral__c.mdl),
+   Picklistentry(@Picklistentry/negative__c.mdl),
+   Picklistentry(@Picklistentry/unsure__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

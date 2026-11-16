@@ -1,0 +1,8 @@
+Objectlayout reference_document_isi__c (
+   label('reference_document_isi'),
+   active(true),
+   pagelayouts('Pagelayout.isi_vod__c'),
+   object('Object.reference_document__v'),
+   objecttype('Objecttype.reference_document__v.isi__v'),
+   record_creation_layout('Pagelayout.isi_vod__c')
+);

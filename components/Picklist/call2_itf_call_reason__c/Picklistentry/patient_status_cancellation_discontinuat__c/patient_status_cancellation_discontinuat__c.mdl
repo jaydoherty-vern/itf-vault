@@ -1,0 +1,5 @@
+Picklistentry patient_status_cancellation_discontinuat__c (
+   value('Patient status – Cancellation/discontinuation follow up'),
+   order(4),
+   active(true)
+);

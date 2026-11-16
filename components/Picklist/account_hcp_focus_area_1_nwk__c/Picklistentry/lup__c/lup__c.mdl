@@ -1,0 +1,5 @@
+Picklistentry lup__c (
+   value('Lupus care'),
+   order(225),
+   active(true)
+);

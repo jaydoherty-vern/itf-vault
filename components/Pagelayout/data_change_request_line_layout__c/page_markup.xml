@@ -1,0 +1,32 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.data_change_request_line__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="data_change_request__v" />
+            <vault:field reference="field_name__v" readOnly="true" />
+            <vault:field reference="field_api_name__v" />
+            <vault:field reference="ownerid__v" readOnly="true" />
+            <vault:field reference="result__v" />
+            <vault:field reference="resolution_note__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Data Info" name="data_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="old_value__v" readOnly="true" />
+            <vault:field reference="old_localized_value__v" readOnly="true" />
+            <vault:field reference="final_value__v" />
+            <vault:field reference="new_value__v" readOnly="true" />
+            <vault:field reference="new_localized_value__v" readOnly="true" />
+            <vault:field reference="final_localized_value__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

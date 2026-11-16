@@ -1,0 +1,5 @@
+Picklistentry psych__c (
+   value('Psychopathology'),
+   order(370),
+   active(true)
+);

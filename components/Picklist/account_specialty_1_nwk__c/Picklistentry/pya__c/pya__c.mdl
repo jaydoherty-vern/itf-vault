@@ -1,0 +1,5 @@
+Picklistentry pya__c (
+   value('Psychoanalysis'),
+   order(438),
+   active(true)
+);

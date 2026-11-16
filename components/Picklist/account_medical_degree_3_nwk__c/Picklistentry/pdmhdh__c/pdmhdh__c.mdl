@@ -1,0 +1,5 @@
+Picklistentry pdmhdh__c (
+   value('PD Dr. med. habil. Dr. h. c.'),
+   order(206),
+   active(true)
+);

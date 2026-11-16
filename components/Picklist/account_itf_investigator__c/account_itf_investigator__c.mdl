@@ -1,0 +1,7 @@
+RECREATE Picklist account_itf_investigator__c (
+   label('Investigator'),
+   active(true),
+   Picklistentry(@Picklistentry/givinostat__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,8 @@
+Objectlayout contract_partner_smb_data_consent__c (
+   label('contract_partner_smb_data_consent'),
+   active(true),
+   pagelayouts('Pagelayout.smb_data_consent_contract_partner_layout__c'),
+   object('Object.contract_partner__v'),
+   objecttype('Objecttype.contract_partner__v.smb_data_consent__c'),
+   record_creation_layout('Pagelayout.smb_data_consent_contract_partner_layout__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry coaching_report__c (
+   value('Coaching report'),
+   order(9),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry hu_gy__c (
+   value('HU_Győr'),
+   order(689),
+   active(true)
+);

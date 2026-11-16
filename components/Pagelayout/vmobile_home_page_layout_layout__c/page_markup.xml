@@ -1,0 +1,16 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.vmobile_home_page_layout__v.base__v">
+    <vault:section title="My Alerts" name="alerts_section__c" reference="alerts_section__v" />
+    <vault:section title="Information" name="terr_changes_section__c" reference="terr_changes_section__v" />
+    <vault:section title="Information" name="mc_activity_section__c" reference="mc_activity_section__v" />
+    <vault:section title="Information" name="home_page_surveys_section__c" reference="home_page_surveys_section__v" />
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="name__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,8 @@
+Objectlayout em_event_rule_material__c (
+   label('em_event_rule_material'),
+   active(true),
+   pagelayouts('Pagelayout.material_layout__c'),
+   object('Object.em_event_rule__v'),
+   objecttype('Objecttype.em_event_rule__v.material__v'),
+   record_creation_layout('Pagelayout.material_layout__c')
+);

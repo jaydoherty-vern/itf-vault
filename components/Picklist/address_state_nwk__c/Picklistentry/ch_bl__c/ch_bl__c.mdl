@@ -1,0 +1,5 @@
+Picklistentry ch_bl__c (
+   value('CH_Basel-Landschaft'),
+   order(93),
+   active(true)
+);

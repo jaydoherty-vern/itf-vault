@@ -1,0 +1,5 @@
+Picklistentry addiction_medicine__c (
+   value('Addiction Medicine'),
+   order(1),
+   active(true)
+);

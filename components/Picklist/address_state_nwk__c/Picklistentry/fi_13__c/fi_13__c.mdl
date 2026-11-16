@@ -1,0 +1,5 @@
+Picklistentry fi_13__c (
+   value('FI_North Karelia'),
+   order(259),
+   active(true)
+);

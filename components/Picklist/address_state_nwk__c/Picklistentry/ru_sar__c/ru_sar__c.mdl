@@ -1,0 +1,5 @@
+Picklistentry ru_sar__c (
+   value('RU_Saratovskaya oblast'''),
+   order(1544),
+   active(true)
+);

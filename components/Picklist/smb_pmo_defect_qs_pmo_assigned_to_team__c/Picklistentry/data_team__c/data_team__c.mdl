@@ -1,0 +1,5 @@
+Picklistentry data_team__c (
+   value('Data team'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ch_zg__c (
+   value('CH_Zug'),
+   order(114),
+   active(true)
+);

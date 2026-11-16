@@ -1,0 +1,5 @@
+Picklistentry lv_097__c (
+   value('LV_Talsu novads'),
+   order(1151),
+   active(true)
+);

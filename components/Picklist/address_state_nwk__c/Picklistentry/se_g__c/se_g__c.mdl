@@ -1,0 +1,5 @@
+Picklistentry se_g__c (
+   value('SE_Kronobergs County'),
+   order(1574),
+   active(true)
+);

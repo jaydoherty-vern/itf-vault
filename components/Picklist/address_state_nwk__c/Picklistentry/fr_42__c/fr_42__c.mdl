@@ -1,0 +1,5 @@
+Picklistentry fr_42__c (
+   value('FR_Loire'),
+   order(334),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry is_shf__c (
+   value('IS_Sveitarfélagið Hornafjörður'),
+   order(818),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectlayout v2ok_data_change_request_person_account__c (
+   label('v2ok_data_change_request_person_account'),
+   active(true),
+   pagelayouts('Pagelayout.dcr_person_account__c'),
+   object('Object.v2ok_data_change_request__c'),
+   objecttype('Objecttype.v2ok_data_change_request__c.person_account__c'),
+   record_creation_layout('Pagelayout.dcr_person_account__c')
+);

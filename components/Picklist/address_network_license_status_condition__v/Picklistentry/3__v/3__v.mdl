@@ -1,0 +1,5 @@
+Picklistentry 3__v (
+   value('Deceased'),
+   order(3),
+   active(true)
+);

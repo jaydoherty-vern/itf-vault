@@ -1,0 +1,5 @@
+Picklistentry chc__c (
+   value('Chiropractic Pediatrics'),
+   order(67),
+   active(true)
+);

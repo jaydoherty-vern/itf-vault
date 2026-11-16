@@ -1,0 +1,9 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.phone_mandatory_insert__c (
+   label('Phone_Mandatory_Insert'),
+   active(true),
+   expression('Not(And(object_type__vr.name__v="Workplaces",IsBlank(phone__c)))'),
+   description('The workplace phone is mandatory for All WKP
+012K00000008aWN'),
+   error_message('Mandatory for "All" data change request type.'),
+   error_location('phone__c')
+);

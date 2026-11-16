@@ -1,0 +1,9 @@
+RECREATE Permissionset vid_admin__c (
+   label('VID_ADMIN'),
+   active(true),
+   description('Permission set for Veeva Vadmin user.'),
+   object.account__v.matchid__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

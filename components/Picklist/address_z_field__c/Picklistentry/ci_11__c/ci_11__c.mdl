@@ -1,0 +1,5 @@
+Picklistentry ci_11__c (
+   value('CI-11'),
+   order(686),
+   active(true)
+);

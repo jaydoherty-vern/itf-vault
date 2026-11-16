@@ -1,0 +1,5 @@
+Picklistentry 2_5__c (
+   value('Inactive, On Leaves (such as Maternal Leaves or Long Time Sick Leave)'),
+   order(8),
+   active(true)
+);

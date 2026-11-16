@@ -1,0 +1,5 @@
+Picklistentry gb_els__c (
+   value('GB-ELS'),
+   order(487),
+   active(false)
+);

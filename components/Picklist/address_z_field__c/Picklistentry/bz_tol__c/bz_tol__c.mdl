@@ -1,0 +1,5 @@
+Picklistentry bz_tol__c (
+   value('BZ-TOL'),
+   order(595),
+   active(true)
+);

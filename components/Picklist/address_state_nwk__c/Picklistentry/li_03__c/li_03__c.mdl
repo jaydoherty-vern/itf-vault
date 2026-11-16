@@ -1,0 +1,5 @@
+Picklistentry li_03__c (
+   value('LI_Gamprin'),
+   order(964),
+   active(true)
+);

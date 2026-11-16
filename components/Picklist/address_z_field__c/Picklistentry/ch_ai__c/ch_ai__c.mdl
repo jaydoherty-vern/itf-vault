@@ -1,0 +1,5 @@
+Picklistentry ch_ai__c (
+   value('CH-AI'),
+   order(651),
+   active(true)
+);

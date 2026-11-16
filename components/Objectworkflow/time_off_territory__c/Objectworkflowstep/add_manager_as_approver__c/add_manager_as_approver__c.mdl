@@ -1,0 +1,8 @@
+Objectworkflowstep add_manager_as_approver__c (
+   label('Add Manager As Approver'),
+   type('updatesharingsettings'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

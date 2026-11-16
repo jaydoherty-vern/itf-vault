@@ -1,0 +1,5 @@
+Picklistentry medas__c (
+   value('MEDAS'),
+   order(59),
+   active(true)
+);

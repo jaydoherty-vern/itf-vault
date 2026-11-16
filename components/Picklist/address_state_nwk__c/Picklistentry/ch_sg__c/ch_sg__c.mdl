@@ -1,0 +1,5 @@
+Picklistentry ch_sg__c (
+   value('CH_St. Gallen'),
+   order(108),
+   active(true)
+);

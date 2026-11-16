@@ -1,0 +1,5 @@
+Picklistentry is_rkv__c (
+   value('IS_Reykjavíkurborg'),
+   order(800),
+   active(true)
+);

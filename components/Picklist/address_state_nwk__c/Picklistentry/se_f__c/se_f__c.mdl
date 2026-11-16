@@ -1,0 +1,5 @@
+Picklistentry se_f__c (
+   value('SE_Jönköpings County'),
+   order(1572),
+   active(true)
+);

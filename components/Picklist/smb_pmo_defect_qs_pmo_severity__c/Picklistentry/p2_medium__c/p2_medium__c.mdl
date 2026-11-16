@@ -1,0 +1,5 @@
+Picklistentry p2_medium__c (
+   value('P2- Medium'),
+   order(1),
+   active(true)
+);

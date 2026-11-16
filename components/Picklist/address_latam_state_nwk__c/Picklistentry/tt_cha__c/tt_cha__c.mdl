@@ -1,0 +1,5 @@
+Picklistentry tt_cha__c (
+   value('Chaguanas'),
+   order(380),
+   active(true)
+);

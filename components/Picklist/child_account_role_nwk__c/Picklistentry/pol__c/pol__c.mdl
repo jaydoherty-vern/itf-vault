@@ -1,0 +1,5 @@
+Picklistentry pol__c (
+   value('Politician'),
+   order(187),
+   active(true)
+);

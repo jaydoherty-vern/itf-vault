@@ -1,0 +1,5 @@
+Picklistentry do_06__c (
+   value('Duarte'),
+   order(216),
+   active(true)
+);

@@ -1,0 +1,20 @@
+Field profile_catalog__c (
+   label('Profile Catalog'),
+   type('Picklist'),
+   active(true),
+   description('List of all profile PS supported.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.functional_catalog_profile_catalog__c'),
+   controlling_picklist('profile_type__c'),
+   picklist_dependencies('{"network__c":["cnwks_backoffice_nwk__c","cnwks_local_admin__c","cnwks_manager_nwk__c","cnwks_rep_nwk__c","cnwks_msl_nwk__c"],"core__c":["ccrms_local_admin__c","ccrms_msl_crm__c","ccrms_rep_crm__c","ccrms_backoffice_crm__c","ccrms_data_steward_crm__c","ccrms_manager_crm__c"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

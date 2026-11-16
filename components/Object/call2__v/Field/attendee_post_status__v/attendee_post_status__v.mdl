@@ -1,0 +1,19 @@
+Field attendee_post_status__v (
+   label('Attendee Post Status'),
+   type('String'),
+   active(true),
+   description('Holds a Success or Fail status based on the attempt to post this status into Concur.  If the expense was not yet posted, status = null. The attendee post status will only be stored for account records that have their own child call, not other attendees.'),
+   required(false),
+   unique(false),
+   max_length(10),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

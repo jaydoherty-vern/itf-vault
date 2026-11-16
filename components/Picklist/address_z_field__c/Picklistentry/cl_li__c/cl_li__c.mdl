@@ -1,0 +1,5 @@
+Picklistentry cl_li__c (
+   value('CL-LI'),
+   order(716),
+   active(true)
+);

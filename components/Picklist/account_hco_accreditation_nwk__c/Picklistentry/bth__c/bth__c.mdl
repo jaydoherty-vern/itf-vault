@@ -1,0 +1,5 @@
+Picklistentry bth__c (
+   value('Behavioral Therapy'),
+   order(2),
+   active(true)
+);

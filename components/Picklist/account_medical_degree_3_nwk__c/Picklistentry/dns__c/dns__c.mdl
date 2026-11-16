@@ -1,0 +1,5 @@
+Picklistentry dns__c (
+   value('Dr. oec. troph.'),
+   order(119),
+   active(true)
+);

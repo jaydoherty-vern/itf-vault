@@ -1,0 +1,4 @@
+Typefield tov_price_lodging_w_breakfast_trans_corp__sys (
+   source('custom'),
+   required(false)
+);

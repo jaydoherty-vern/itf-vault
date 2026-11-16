@@ -1,0 +1,4 @@
+Typefield total_amount_expenses__c (
+   source('standard'),
+   required(false)
+);

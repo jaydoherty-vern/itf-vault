@@ -1,0 +1,19 @@
+Field attendee_account_type__v (
+   label('Attendee Account Type'),
+   type('String'),
+   active(true),
+   description('Used by EM Business Rules to determine the Attendee Account Type. By default, this field displays the Attendee''s account record type in this field. The formula in this field can be changed based on customer''s definition of Attendee Account Type.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Used by EM Business Rules to determine the Attendee Account Type.'),
+   list_column(false),
+   order(76),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

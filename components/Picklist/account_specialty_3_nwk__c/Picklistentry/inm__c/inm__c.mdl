@@ -1,0 +1,5 @@
+Picklistentry inm__c (
+   value('Residents - Internal/Nuclear Med'),
+   order(468),
+   active(true)
+);

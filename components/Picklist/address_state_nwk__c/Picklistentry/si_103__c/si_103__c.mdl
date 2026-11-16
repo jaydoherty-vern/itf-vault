@@ -1,0 +1,5 @@
+Picklistentry si_103__c (
+   value('SI_Ravne na Koroškem'),
+   order(1629),
+   active(true)
+);

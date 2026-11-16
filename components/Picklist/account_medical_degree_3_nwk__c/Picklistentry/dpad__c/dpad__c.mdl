@@ -1,0 +1,5 @@
+Picklistentry dpad__c (
+   value('Dipl. p�d.'),
+   order(28),
+   active(true)
+);

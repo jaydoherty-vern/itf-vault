@@ -1,0 +1,5 @@
+Picklistentry ci_ym__c (
+   value('CI-YM'),
+   order(707),
+   active(true)
+);

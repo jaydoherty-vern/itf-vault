@@ -1,0 +1,4 @@
+Typefield gas_message_namesearch__c (
+   source('standard'),
+   required(false)
+);

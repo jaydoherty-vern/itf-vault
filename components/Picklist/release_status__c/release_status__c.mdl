@@ -1,0 +1,12 @@
+RECREATE Picklist release_status__c (
+   label('Release Status'),
+   active(true),
+   Picklistentry(@Picklistentry/new__c.mdl),
+   Picklistentry(@Picklistentry/build__c.mdl),
+   Picklistentry(@Picklistentry/uat_sit__c.mdl),
+   Picklistentry(@Picklistentry/deployment__c.mdl),
+   Picklistentry(@Picklistentry/live__c.mdl),
+   Picklistentry(@Picklistentry/cancelled__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

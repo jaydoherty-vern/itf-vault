@@ -1,0 +1,5 @@
+Picklistentry gb_rot__c (
+   value('GB-ROT'),
+   order(590),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry at_6__c (
+   value('AT_Steiermark'),
+   order(60),
+   active(true)
+);

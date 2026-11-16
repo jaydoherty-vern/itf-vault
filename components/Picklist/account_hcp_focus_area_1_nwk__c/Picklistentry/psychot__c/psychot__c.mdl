@@ -1,0 +1,5 @@
+Picklistentry psychot__c (
+   value('Psychotherapy'),
+   order(376),
+   active(true)
+);

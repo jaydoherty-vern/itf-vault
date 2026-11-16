@@ -1,0 +1,7 @@
+RECREATE Securityprofile itf_iqvia_integration__c (
+   label('ITF_IQVIA_INTEGRATION'),
+   active(true),
+   description(),
+   permission_sets('itf_iqvia_integration_ps__c',
+      'loader_api_for_integration_user__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry es_co__c (
+   value('ES_Córdoba (ES)'),
+   order(200),
+   active(true)
+);

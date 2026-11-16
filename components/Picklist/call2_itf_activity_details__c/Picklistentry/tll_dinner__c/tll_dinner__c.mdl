@@ -1,0 +1,5 @@
+Picklistentry tll_dinner__c (
+   value('TLL Meal'),
+   order(10),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectlayout em_event_rule_automated_emails__c (
+   label('em_event_rule_automated_emails'),
+   active(true),
+   pagelayouts('Pagelayout.automated_emails_layout__c'),
+   object('Object.em_event_rule__v'),
+   objecttype('Objecttype.em_event_rule__v.automated_emails__v'),
+   record_creation_layout('Pagelayout.automated_emails_layout__c')
+);

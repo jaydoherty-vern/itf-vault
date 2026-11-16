@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.external_id__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.object_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.primary_parent__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.itf_tll_kol__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.do_not_call__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.target__c" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="account__v.object_type__v" rightValue="Professional" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="account__v.itf_tll_kol__c" rightValue="True" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order />
+</vrp:query>

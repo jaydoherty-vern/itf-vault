@@ -1,0 +1,5 @@
+Picklistentry gb_ntt__c (
+   value('GB-NTT'),
+   order(566),
+   active(false)
+);

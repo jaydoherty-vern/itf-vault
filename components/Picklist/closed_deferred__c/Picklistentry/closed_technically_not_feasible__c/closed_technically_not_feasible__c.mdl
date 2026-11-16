@@ -1,0 +1,5 @@
+Picklistentry closed_technically_not_feasible__c (
+   value('Closed: Technically Not Feasible'),
+   order(7),
+   active(true)
+);

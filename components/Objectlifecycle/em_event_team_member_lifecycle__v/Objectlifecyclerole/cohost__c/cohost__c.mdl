@@ -1,0 +1,5 @@
+Objectlifecyclerole cohost__c (
+   active(true),
+   application_role('Applicationrole.cohost__v'),
+   permissions()
+);

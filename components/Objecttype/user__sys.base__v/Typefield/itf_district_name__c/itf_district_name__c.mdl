@@ -1,0 +1,4 @@
+Typefield itf_district_name__c (
+   source('standard'),
+   required(false)
+);

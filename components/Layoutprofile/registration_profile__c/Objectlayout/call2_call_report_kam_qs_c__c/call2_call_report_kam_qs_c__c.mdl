@@ -1,0 +1,8 @@
+Objectlayout call2_call_report_kam_qs_c__c (
+   label('call2_call_report_kam_qs_c'),
+   active(true),
+   pagelayouts('Pagelayout.sales_layout__c'),
+   object('Object.call2__v'),
+   objecttype('Objecttype.call2__v.call_report_kam_qs_c__c'),
+   record_creation_layout('Pagelayout.sales_layout__c')
+);

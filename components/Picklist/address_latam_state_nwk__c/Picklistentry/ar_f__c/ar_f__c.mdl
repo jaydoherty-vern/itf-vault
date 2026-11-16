@@ -1,0 +1,5 @@
+Picklistentry ar_f__c (
+   value('La Rioja'),
+   order(61),
+   active(true)
+);

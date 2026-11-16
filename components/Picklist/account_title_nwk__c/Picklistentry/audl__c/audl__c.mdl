@@ -1,0 +1,5 @@
+Picklistentry audl__c (
+   value('Audiologist'),
+   order(11),
+   active(true)
+);

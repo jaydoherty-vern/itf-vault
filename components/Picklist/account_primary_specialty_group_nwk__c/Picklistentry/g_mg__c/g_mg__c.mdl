@@ -1,0 +1,5 @@
+Picklistentry g_mg__c (
+   value('Medical Genetics'),
+   order(13),
+   active(true)
+);

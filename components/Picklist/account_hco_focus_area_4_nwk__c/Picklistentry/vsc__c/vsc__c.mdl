@@ -1,0 +1,5 @@
+Picklistentry vsc__c (
+   value('Veterinary Lactating Cattle'),
+   order(258),
+   active(true)
+);

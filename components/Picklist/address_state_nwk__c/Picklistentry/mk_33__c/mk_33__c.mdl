@@ -1,0 +1,5 @@
+Picklistentry mk_33__c (
+   value('MK_Zrnovci'),
+   order(1289),
+   active(true)
+);

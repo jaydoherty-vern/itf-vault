@@ -1,0 +1,5 @@
+Picklistentry pl_kn__c (
+   value('PL_Konin'),
+   order(1344),
+   active(true)
+);

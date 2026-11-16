@@ -1,0 +1,9 @@
+Objectworkflowstep field_update_approved__c (
+   label('Field Update: Approved'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.end__c',
+         'Objectworkflowstep.employee_approved__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

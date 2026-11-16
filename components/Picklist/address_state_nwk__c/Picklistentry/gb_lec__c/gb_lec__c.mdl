@@ -1,0 +1,5 @@
+Picklistentry gb_lec__c (
+   value('GB-LEC'),
+   order(533),
+   active(false)
+);

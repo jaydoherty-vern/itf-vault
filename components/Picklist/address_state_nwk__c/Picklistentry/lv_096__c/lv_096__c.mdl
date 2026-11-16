@@ -1,0 +1,5 @@
+Picklistentry lv_096__c (
+   value('LV_Strenču novads (Strenči)'),
+   order(1150),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield vspa_link_type_code__c (
+   source('standard'),
+   required(false)
+);

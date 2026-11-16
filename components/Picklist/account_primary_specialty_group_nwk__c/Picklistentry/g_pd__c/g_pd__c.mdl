@@ -1,0 +1,5 @@
+Picklistentry g_pd__c (
+   value('Pediatrics'),
+   order(18),
+   active(true)
+);

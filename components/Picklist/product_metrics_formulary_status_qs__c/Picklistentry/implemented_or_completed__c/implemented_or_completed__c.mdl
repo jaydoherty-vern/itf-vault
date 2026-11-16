@@ -1,0 +1,5 @@
+Picklistentry implemented_or_completed__c (
+   value('Implemented or Completed'),
+   order(3),
+   active(true)
+);

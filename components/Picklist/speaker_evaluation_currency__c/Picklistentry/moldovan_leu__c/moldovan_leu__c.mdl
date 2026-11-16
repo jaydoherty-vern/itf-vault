@@ -1,0 +1,5 @@
+Picklistentry moldovan_leu__c (
+   value('Moldovan Leu'),
+   order(106),
+   active(true)
+);

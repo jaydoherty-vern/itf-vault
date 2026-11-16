@@ -1,0 +1,5 @@
+Picklistentry fad_wes_g__c (
+   value('FAD.WES.G'),
+   order(7),
+   active(true)
+);

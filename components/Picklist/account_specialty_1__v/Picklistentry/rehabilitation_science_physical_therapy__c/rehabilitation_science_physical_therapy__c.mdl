@@ -1,0 +1,5 @@
+Picklistentry rehabilitation_science_physical_therapy__c (
+   value('REHABILITATION SCIENCE/PHYSICAL THERAPY'),
+   order(5),
+   active(true)
+);

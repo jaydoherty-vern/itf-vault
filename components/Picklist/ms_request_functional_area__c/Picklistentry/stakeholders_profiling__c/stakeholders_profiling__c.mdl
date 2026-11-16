@@ -1,0 +1,5 @@
+Picklistentry stakeholders_profiling__c (
+   value('Stakeholders profiling'),
+   order(45),
+   active(true)
+);

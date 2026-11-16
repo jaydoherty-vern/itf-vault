@@ -1,0 +1,5 @@
+Picklistentry pdmet__c (
+   value('Pediatric Metabolism'),
+   order(381),
+   active(true)
+);

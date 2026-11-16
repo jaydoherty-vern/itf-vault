@@ -1,0 +1,5 @@
+Picklistentry af_bam__c (
+   value('AF-BAM'),
+   order(14),
+   active(true)
+);

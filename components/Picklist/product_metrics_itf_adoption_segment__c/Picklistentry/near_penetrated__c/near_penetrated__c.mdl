@@ -1,0 +1,5 @@
+Picklistentry near_penetrated__c (
+   value('Near Penetrated'),
+   order(3),
+   active(true)
+);

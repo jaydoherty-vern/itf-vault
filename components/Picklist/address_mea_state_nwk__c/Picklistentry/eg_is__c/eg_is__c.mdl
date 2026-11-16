@@ -1,0 +1,5 @@
+Picklistentry eg_is__c (
+   value('EG_Al Ismā''īlīyah'),
+   order(30),
+   active(true)
+);

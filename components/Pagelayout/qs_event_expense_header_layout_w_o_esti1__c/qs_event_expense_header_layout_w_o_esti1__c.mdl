@@ -1,0 +1,8 @@
+RECREATE Pagelayout qs_event_expense_header_layout_w_o_esti1__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('QS Event Expense Header Layout w/o Estimated/Committed Read Only'),
+   page_markup(@page_markup.xml)
+);

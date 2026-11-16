@@ -1,0 +1,5 @@
+Picklistentry norwegian_krone__c (
+   value('Norwegian Krone'),
+   order(27),
+   active(true)
+);

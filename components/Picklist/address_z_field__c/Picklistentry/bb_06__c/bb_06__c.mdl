@@ -1,0 +1,5 @@
+Picklistentry bb_06__c (
+   value('BB-06'),
+   order(269),
+   active(true)
+);

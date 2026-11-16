@@ -1,0 +1,5 @@
+Picklistentry gb_sos__c (
+   value('GB-SOS'),
+   order(608),
+   active(false)
+);

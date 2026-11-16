@@ -1,0 +1,8 @@
+Objectworkflowstep cs_pending_adherence_enrollment__c (
+   label('CS: Pending Adherence Enrollment'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.ut_confirm_adherence_enrollment1__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

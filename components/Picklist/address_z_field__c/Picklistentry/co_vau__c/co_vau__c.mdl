@@ -1,0 +1,5 @@
+Picklistentry co_vau__c (
+   value('CO-VAU'),
+   order(796),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield vspa_brick_3_name_lookup__c (
+   source('custom'),
+   required(false)
+);

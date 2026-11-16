@@ -1,0 +1,5 @@
+Picklistentry ru_ta__c (
+   value('RU_Tatarstan, Respublika'),
+   order(1550),
+   active(true)
+);

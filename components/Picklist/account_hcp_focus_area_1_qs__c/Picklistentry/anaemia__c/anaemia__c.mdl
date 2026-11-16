@@ -1,0 +1,5 @@
+Picklistentry anaemia__c (
+   value('Anaemia'),
+   order(5),
+   active(true)
+);

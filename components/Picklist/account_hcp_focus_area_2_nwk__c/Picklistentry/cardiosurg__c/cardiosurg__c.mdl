@@ -1,0 +1,5 @@
+Picklistentry cardiosurg__c (
+   value('Cardiovascular Surgery'),
+   order(65),
+   active(true)
+);

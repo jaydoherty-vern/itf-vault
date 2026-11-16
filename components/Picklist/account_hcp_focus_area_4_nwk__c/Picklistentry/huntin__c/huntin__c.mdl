@@ -1,0 +1,5 @@
+Picklistentry huntin__c (
+   value('Huntington Disease'),
+   order(191),
+   active(true)
+);

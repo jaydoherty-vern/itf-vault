@@ -1,0 +1,8 @@
+Tabcollectionitem v2ok_codetable__c (
+   label(),
+   active(true),
+   tabs(),
+   order(7),
+   tab('Tab.v2ok_codetable__c'),
+   type('Tab')
+);

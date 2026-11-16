@@ -1,0 +1,8 @@
+Objectlayout call_objective_smb_call_objective__c (
+   label('call_objective_smb_call_objective'),
+   active(true),
+   pagelayouts('Pagelayout.call_objective_layout__c'),
+   object('Object.call_objective__v'),
+   objecttype('Objecttype.call_objective__v.smb_call_objective__c'),
+   record_creation_layout('Pagelayout.call_objective_layout__c')
+);

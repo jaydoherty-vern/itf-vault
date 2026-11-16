@@ -1,0 +1,5 @@
+Picklistentry mk_41__c (
+   value('MK_Konče'),
+   order(1242),
+   active(true)
+);

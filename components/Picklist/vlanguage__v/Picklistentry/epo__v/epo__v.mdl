@@ -1,0 +1,5 @@
+Picklistentry epo__v (
+   value('Esperanto'),
+   order(148),
+   active(false)
+);

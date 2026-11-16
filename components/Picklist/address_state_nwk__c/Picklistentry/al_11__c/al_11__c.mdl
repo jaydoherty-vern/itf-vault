@@ -1,0 +1,5 @@
+Picklistentry al_11__c (
+   value('AL_Tiranë'),
+   order(50),
+   active(true)
+);

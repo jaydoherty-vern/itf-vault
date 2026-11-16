@@ -1,0 +1,5 @@
+Picklistentry ci__v (
+   value('Cote D''lvoire'),
+   order(43),
+   active(true)
+);

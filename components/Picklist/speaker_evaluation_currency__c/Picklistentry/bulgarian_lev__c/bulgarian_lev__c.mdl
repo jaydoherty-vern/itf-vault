@@ -1,0 +1,5 @@
+Picklistentry bulgarian_lev__c (
+   value('Bulgarian Lev'),
+   order(30),
+   active(true)
+);

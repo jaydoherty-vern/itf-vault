@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_channel__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___account__v.object_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___account__v.specialty_1__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___account__v.kol_cda__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___account__v.primary_parent__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="call2__v.object_type__v" rightValue="MSL Meeting Brief" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="IN" leftValue="call2__v___account__v.object_type__v" rightValue="Professional;;;Staff" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="INLASTDAYS" leftValue="call2__v.call_date__v" rightValue="60" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="call2__v.ownerid__v" groupBySortOn="call2__v.ownerid__v" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="1" name="call2__v.call2_status__v" groupBySortOn="call2__v.call2_status__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order />
+</vrp:query>

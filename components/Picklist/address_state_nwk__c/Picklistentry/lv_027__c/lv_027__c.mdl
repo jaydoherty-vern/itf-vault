@@ -1,0 +1,5 @@
+Picklistentry lv_027__c (
+   value('LV_Dundagas novads (Dundaga)'),
+   order(1075),
+   active(true)
+);

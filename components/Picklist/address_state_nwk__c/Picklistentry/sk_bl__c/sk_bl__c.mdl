@@ -1,0 +1,5 @@
+Picklistentry sk_bl__c (
+   value('SK_Bratislavský Region'),
+   order(1651),
+   active(true)
+);

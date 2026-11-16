@@ -1,0 +1,5 @@
+Picklistentry 11_5__c (
+   value('Pharmacy, Long Term Care Pharmacy Provider'),
+   order(213),
+   active(true)
+);

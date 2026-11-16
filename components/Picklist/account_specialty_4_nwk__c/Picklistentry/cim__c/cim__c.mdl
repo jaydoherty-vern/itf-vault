@@ -1,0 +1,5 @@
+Picklistentry cim__c (
+   value('Clinical Informatics (Preventive Med)'),
+   order(77),
+   active(true)
+);

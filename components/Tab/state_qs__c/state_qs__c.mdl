@@ -1,0 +1,12 @@
+RECREATE Tab state_qs__c (
+   active(true),
+   all_view_label('All States'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('States'),
+   my_view_label('My States'),
+   object('state_qs__c'),
+   order(3400),
+   parent(),
+   recent_view_label('Recent States')
+);

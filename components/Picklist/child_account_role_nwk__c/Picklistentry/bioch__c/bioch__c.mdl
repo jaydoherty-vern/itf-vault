@@ -1,0 +1,5 @@
+Picklistentry bioch__c (
+   value('Biochemist'),
+   order(25),
+   active(true)
+);

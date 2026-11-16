@@ -1,0 +1,5 @@
+Picklistentry lv_083__c (
+   value('LV_Rundāles novads (Rundāle)'),
+   order(1138),
+   active(true)
+);

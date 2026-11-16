@@ -1,0 +1,5 @@
+Picklistentry dan__c (
+   value('Dental Anaesthesiology Diploma'),
+   order(29),
+   active(true)
+);

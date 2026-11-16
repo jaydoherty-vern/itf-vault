@@ -1,0 +1,5 @@
+Picklistentry ag_08__c (
+   value('AG-08'),
+   order(52),
+   active(true)
+);

@@ -1,0 +1,20 @@
+RECREATE Picklist medical_event_event_type__v (
+   label('Event Type'),
+   active(true),
+   Picklistentry(@Picklistentry/regional_symposium__c.mdl),
+   Picklistentry(@Picklistentry/round_table__c.mdl),
+   Picklistentry(@Picklistentry/staff__c.mdl),
+   Picklistentry(@Picklistentry/congress_france_international__c.mdl),
+   Picklistentry(@Picklistentry/association_of_healthcare_professionals__c.mdl),
+   Picklistentry(@Picklistentry/expert_board__c.mdl),
+   Picklistentry(@Picklistentry/pharmacy_presentation__c.mdl),
+   Picklistentry(@Picklistentry/advise_report__c.mdl),
+   Picklistentry(@Picklistentry/region_conference__c.mdl),
+   Picklistentry(@Picklistentry/national_conference__c.mdl),
+   Picklistentry(@Picklistentry/kol__v.mdl),
+   Picklistentry(@Picklistentry/support__v.mdl),
+   Picklistentry(@Picklistentry/research__v.mdl),
+   Picklistentry(@Picklistentry/education__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

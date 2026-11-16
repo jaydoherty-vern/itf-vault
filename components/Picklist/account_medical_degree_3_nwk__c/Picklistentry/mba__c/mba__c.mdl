@@ -1,0 +1,5 @@
+Picklistentry mba__c (
+   value('Master of Business Administration'),
+   order(173),
+   active(true)
+);

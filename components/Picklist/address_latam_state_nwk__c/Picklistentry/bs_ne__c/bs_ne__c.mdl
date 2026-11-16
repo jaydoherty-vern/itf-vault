@@ -1,0 +1,5 @@
+Picklistentry bs_ne__c (
+   value('North Eleuthera'),
+   order(98),
+   active(true)
+);

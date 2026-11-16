@@ -1,0 +1,5 @@
+Picklistentry fi_15__c (
+   value('FI_Northern Savonia'),
+   order(261),
+   active(true)
+);

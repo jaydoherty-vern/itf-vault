@@ -1,0 +1,4 @@
+Typefield vspa_primary_relationship__c (
+   source('custom'),
+   required(false)
+);

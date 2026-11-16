@@ -1,0 +1,5 @@
+Picklistentry r__c (
+   value('Researcher'),
+   order(15),
+   active(true)
+);

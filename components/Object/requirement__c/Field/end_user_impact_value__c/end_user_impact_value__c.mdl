@@ -1,0 +1,30 @@
+Field end_user_impact_value__c (
+   label('End User Impact Value'),
+   type('Number'),
+   active(true),
+   description('Value is calculated by the User Impact of Change field.'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(-999999999),
+   scale(0),
+   help_content('Value is calculated by the User Impact of Change field.'),
+   list_column(false),
+   order(148),
+   formula('Case(
+end_user_impact__c ,
+"HIGH" , 1,
+"MEDIUM", 2,
+"Low", 3,
+0
+)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   rollup(false),
+   control_binding()
+);

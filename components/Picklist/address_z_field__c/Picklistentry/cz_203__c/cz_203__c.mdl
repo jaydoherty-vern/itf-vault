@@ -1,0 +1,5 @@
+Picklistentry cz_203__c (
+   value('CZ-203'),
+   order(869),
+   active(true)
+);

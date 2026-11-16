@@ -1,0 +1,5 @@
+Picklistentry co_vac__c (
+   value('CO-VAC'),
+   order(795),
+   active(true)
+);

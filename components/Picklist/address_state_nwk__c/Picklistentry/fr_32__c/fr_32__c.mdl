@@ -1,0 +1,5 @@
+Picklistentry fr_32__c (
+   value('FR_Gers'),
+   order(310),
+   active(true)
+);

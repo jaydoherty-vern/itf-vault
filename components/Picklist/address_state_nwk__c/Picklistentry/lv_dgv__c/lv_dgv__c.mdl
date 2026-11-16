@@ -1,0 +1,5 @@
+Picklistentry lv_dgv__c (
+   value('LV_Daugavpils'),
+   order(1071),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield winneraccount__c (
+   source('standard'),
+   required(true)
+);

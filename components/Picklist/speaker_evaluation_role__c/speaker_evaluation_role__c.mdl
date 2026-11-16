@@ -1,0 +1,9 @@
+RECREATE Picklist speaker_evaluation_role__c (
+   label('Role'),
+   active(true),
+   Picklistentry(@Picklistentry/speaker__c.mdl),
+   Picklistentry(@Picklistentry/chairman__c.mdl),
+   Picklistentry(@Picklistentry/president__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

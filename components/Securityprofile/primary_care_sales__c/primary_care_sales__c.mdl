@@ -1,0 +1,7 @@
+RECREATE Securityprofile primary_care_sales__c (
+   label('Primary Care Sales'),
+   active(true),
+   description(),
+   permission_sets('clm_end_user_permission_set__c',
+      'primary_care_sales_permissions__c')
+);

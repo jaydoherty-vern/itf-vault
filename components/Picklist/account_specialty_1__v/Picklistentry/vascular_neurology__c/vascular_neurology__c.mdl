@@ -1,0 +1,5 @@
+Picklistentry vascular_neurology__c (
+   value('VASCULAR NEUROLOGY'),
+   order(37),
+   active(true)
+);

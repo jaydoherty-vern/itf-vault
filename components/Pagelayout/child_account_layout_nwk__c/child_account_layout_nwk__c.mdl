@@ -1,0 +1,8 @@
+RECREATE Pagelayout child_account_layout_nwk__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Child Account Layout (NWK)'),
+   page_markup(@page_markup.xml)
+);

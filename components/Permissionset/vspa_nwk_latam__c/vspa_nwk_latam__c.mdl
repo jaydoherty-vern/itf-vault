@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_nwk_latam__c (
+   label('VSPA_NWK_LATAM'),
+   active(true),
+   description('Permission Set created for providing visibility to LATAM Opendata fields.'),
+   object.account__v.tax_id_nwk__c.field_actions('edit',
+      'read'),
+   object.address__v.latam_state_nwk__c.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

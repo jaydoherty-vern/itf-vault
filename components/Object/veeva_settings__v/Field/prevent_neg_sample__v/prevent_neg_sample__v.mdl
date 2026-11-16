@@ -1,0 +1,25 @@
+Field prevent_neg_sample__v (
+   label('Prevent Negative Sample'),
+   type('Number'),
+   active(true),
+   description('Setting to hard block sampling on call when entered lot quantity results in negative inventory balance
+0: Disabled
+1: Enabled to block sampling'),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(334),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

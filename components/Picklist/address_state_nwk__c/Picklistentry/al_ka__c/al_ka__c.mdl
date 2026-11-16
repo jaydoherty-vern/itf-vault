@@ -1,0 +1,5 @@
+Picklistentry al_ka__c (
+   value('AL_Kavajë'),
+   order(24),
+   active(true)
+);

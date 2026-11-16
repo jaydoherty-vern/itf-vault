@@ -1,0 +1,5 @@
+Picklistentry ni_md__c (
+   value('Madriz'),
+   order(310),
+   active(true)
+);

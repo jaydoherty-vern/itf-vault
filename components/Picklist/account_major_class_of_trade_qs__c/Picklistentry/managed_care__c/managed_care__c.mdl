@@ -1,0 +1,5 @@
+Picklistentry managed_care__c (
+   value('Managed Care'),
+   order(20),
+   active(true)
+);

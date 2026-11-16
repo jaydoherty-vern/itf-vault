@@ -1,0 +1,8 @@
+Objectworkflowstep ut_confirm_shipment__c (
+   label('UT: Confirm Shipment'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.cs_shipment_confirmed__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

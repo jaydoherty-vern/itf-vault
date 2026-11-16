@@ -1,0 +1,5 @@
+Picklistentry tr_78__c (
+   value('TR_Karabük'),
+   order(1709),
+   active(true)
+);

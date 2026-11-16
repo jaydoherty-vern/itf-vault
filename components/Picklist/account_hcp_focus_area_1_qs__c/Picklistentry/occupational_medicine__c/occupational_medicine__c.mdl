@@ -1,0 +1,5 @@
+Picklistentry occupational_medicine__c (
+   value('Occupational Medicine'),
+   order(69),
+   active(true)
+);

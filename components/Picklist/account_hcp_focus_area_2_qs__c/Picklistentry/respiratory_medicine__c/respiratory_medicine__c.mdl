@@ -1,0 +1,5 @@
+Picklistentry respiratory_medicine__c (
+   value('Respiratory Medicine'),
+   order(34),
+   active(true)
+);

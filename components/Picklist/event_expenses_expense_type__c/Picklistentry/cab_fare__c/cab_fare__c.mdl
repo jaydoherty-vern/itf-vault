@@ -1,0 +1,5 @@
+Picklistentry cab_fare__c (
+   value('Cab Fare'),
+   order(10),
+   active(true)
+);

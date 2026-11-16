@@ -1,0 +1,5 @@
+Picklistentry pain_medicine_anesthesiology__c (
+   value('Pain Medicine (Anesthesiology)'),
+   order(244),
+   active(true)
+);

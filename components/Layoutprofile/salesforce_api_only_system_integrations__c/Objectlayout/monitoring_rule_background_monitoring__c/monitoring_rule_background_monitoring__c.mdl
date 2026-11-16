@@ -1,0 +1,8 @@
+Objectlayout monitoring_rule_background_monitoring__c (
+   label('monitoring_rule_background_monitoring'),
+   active(true),
+   pagelayouts('Pagelayout.background_monitoring__c'),
+   object('Object.monitoring_rule__v'),
+   objecttype('Objecttype.monitoring_rule__v.background_monitoring__v'),
+   record_creation_layout('Pagelayout.background_monitoring__c')
+);

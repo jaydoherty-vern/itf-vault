@@ -1,0 +1,5 @@
+Picklistentry lv_048__c (
+   value('LV_Krimuldas novads (Krimulda)'),
+   order(1101),
+   active(true)
+);

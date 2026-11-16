@@ -1,0 +1,5 @@
+Picklistentry kw_ah__c (
+   value('KW_Al Aḩmadi'),
+   order(52),
+   active(true)
+);

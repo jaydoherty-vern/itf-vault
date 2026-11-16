@@ -1,0 +1,5 @@
+Picklistentry gb_nfk__c (
+   value('GB-NFK'),
+   order(558),
+   active(false)
+);

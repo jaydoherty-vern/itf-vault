@@ -1,0 +1,8 @@
+RECREATE Picklist address_address_status_nwk__c (
+   label('Status'),
+   active(true),
+   Picklistentry(@Picklistentry/a__c.mdl),
+   Picklistentry(@Picklistentry/i__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

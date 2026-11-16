@@ -1,0 +1,5 @@
+Picklistentry eg_asn__c (
+   value('EG_Aswān'),
+   order(23),
+   active(true)
+);

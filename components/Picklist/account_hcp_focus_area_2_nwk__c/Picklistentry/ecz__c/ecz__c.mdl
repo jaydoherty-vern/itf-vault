@@ -1,0 +1,5 @@
+Picklistentry ecz__c (
+   value('Eczema'),
+   order(124),
+   active(true)
+);

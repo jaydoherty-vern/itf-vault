@@ -1,0 +1,5 @@
+Picklistentry return__c (
+   value('Return'),
+   order(2),
+   active(true)
+);

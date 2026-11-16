@@ -1,0 +1,5 @@
+Picklistentry al_br__c (
+   value('AL_Berat (District)'),
+   order(8),
+   active(true)
+);

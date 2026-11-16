@@ -1,0 +1,18 @@
+Field qs_pmo_notity__c (
+   label('Notity'),
+   type('Boolean'),
+   active(true),
+   description('To notify owner'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

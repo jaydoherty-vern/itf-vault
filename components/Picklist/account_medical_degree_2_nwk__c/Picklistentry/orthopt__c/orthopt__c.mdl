@@ -1,0 +1,5 @@
+Picklistentry orthopt__c (
+   value('Orthopedics-Traumatology Diploma'),
+   order(232),
+   active(true)
+);

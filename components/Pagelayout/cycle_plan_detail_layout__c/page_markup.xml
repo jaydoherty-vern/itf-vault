@@ -1,0 +1,18 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.cycle_plan_detail__v">
+    <vault:section title="Cycle Plan Detail" name="cycle_plan_detail__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="cycle_plan_target__v" />
+            <vault:field reference="product__v" readOnly="true" />
+            <vault:field reference="planned_details__v" />
+            <vault:field reference="actual_details__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="remaining__v" />
+            <vault:field reference="total_remaining__v" />
+            <vault:field reference="status__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

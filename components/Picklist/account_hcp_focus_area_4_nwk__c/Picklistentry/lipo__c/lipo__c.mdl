@@ -1,0 +1,5 @@
+Picklistentry lipo__c (
+   value('Body Contouring (abdominoplasty/liposuction)'),
+   order(44),
+   active(true)
+);

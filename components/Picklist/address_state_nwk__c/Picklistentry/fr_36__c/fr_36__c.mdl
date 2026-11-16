@@ -1,0 +1,5 @@
+Picklistentry fr_36__c (
+   value('FR_Indre'),
+   order(327),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry aschu__c (
+   value('ASCHU'),
+   order(3),
+   active(true)
+);

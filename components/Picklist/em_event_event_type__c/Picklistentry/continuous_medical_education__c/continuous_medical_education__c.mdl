@@ -1,0 +1,5 @@
+Picklistentry continuous_medical_education__c (
+   value('Continuous Medical Education'),
+   order(4),
+   active(true)
+);

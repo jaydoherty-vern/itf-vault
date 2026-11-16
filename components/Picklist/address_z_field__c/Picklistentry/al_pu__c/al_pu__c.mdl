@@ -1,0 +1,5 @@
+Picklistentry al_pu__c (
+   value('AL-PU'),
+   order(95),
+   active(true)
+);

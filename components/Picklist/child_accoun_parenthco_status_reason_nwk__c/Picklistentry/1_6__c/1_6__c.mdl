@@ -1,0 +1,5 @@
+Picklistentry 1_6__c (
+   value('Active, Tentatively'),
+   order(5),
+   active(true)
+);

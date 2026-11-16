@@ -1,0 +1,5 @@
+Picklistentry quetzal__c (
+   value('Quetzal'),
+   order(65),
+   active(true)
+);

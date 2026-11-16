@@ -1,0 +1,5 @@
+Picklistentry om_ma__c (
+   value('OM_Masqaţ'),
+   order(63),
+   active(true)
+);

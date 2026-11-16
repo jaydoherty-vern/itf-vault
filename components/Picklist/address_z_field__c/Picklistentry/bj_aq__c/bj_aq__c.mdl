@@ -1,0 +1,5 @@
+Picklistentry bj_aq__c (
+   value('BJ-AQ'),
+   order(469),
+   active(true)
+);

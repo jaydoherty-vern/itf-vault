@@ -1,0 +1,5 @@
+Picklistentry plm__c (
+   value('Palliative Medicine'),
+   order(352),
+   active(true)
+);

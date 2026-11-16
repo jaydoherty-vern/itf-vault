@@ -1,0 +1,18 @@
+Field vspa_sponsor_type__c (
+   label('Sponsor Type'),
+   type('Picklist'),
+   active(true),
+   description('Used for the Italian VSPA Package.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(140),
+   multi_value(false),
+   picklist('Picklist.em_event_vspa_sponsor_type__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

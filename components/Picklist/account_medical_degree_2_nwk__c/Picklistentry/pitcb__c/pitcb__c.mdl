@@ -1,0 +1,5 @@
+Picklistentry pitcb__c (
+   value('Diploma in Tropical and Infectious Pathology'),
+   order(90),
+   active(true)
+);

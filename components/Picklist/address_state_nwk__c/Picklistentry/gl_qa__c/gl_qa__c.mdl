@@ -1,0 +1,5 @@
+Picklistentry gl_qa__c (
+   value('GL_Qaasuitsup Kommunia'),
+   order(654),
+   active(true)
+);

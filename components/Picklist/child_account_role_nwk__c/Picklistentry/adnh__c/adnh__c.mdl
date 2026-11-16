@@ -1,0 +1,5 @@
+Picklistentry adnh__c (
+   value('ADNH'),
+   order(4),
+   active(true)
+);

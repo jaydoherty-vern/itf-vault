@@ -1,0 +1,4 @@
+Typefield profile_catalog__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry psor__c (
+   value('Psoriasis'),
+   order(212),
+   active(true)
+);

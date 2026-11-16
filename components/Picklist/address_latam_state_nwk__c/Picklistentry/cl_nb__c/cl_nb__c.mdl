@@ -1,0 +1,5 @@
+Picklistentry cl_nb__c (
+   value('Ñuble'),
+   order(127),
+   active(true)
+);

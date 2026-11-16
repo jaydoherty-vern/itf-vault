@@ -1,0 +1,4 @@
+Typefield onekey_ind_specialty__c (
+   source('custom'),
+   required(false)
+);

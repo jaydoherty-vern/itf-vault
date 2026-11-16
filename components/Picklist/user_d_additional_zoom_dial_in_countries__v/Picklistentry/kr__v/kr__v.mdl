@@ -1,0 +1,5 @@
+Picklistentry kr__v (
+   value('Korea, Repulic of'),
+   order(58),
+   active(true)
+);

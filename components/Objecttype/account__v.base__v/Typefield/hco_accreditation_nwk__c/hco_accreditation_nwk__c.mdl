@@ -1,0 +1,4 @@
+Typefield hco_accreditation_nwk__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,19 @@
+Field sp_status__c (
+   label('Status'),
+   type('Picklist'),
+   active(true),
+   description('PMO:: Status. Open by Default and Complete'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.sp_action_sp_status__c'),
+   default_value('{open__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

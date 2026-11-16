@@ -1,0 +1,5 @@
+Picklistentry gl_av__c (
+   value('GL_Avannaata Kommunia'),
+   order(650),
+   active(true)
+);

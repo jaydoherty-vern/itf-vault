@@ -1,0 +1,5 @@
+Picklistentry fr_25__c (
+   value('FR_Doubs'),
+   order(303),
+   active(true)
+);

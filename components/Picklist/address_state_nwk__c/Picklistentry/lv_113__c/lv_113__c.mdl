@@ -1,0 +1,5 @@
+Picklistentry lv_113__c (
+   value('LV_Valmieras Novads'),
+   order(1157),
+   active(true)
+);

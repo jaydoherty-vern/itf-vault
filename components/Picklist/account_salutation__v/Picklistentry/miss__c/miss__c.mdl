@@ -1,0 +1,5 @@
+Picklistentry miss__c (
+   value('Miss'),
+   order(16),
+   active(false)
+);

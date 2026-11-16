@@ -1,0 +1,9 @@
+RECREATE Permissionset vspa_om_product_thumbnails__c (
+   label('VSPA_OM_Product_Thumbnails'),
+   active(true),
+   description('Enables the Product Thumbnails functionality'),
+   object.product__v.product_thumbnail__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

@@ -1,0 +1,5 @@
+Picklistentry af_kdz__c (
+   value('AF-KDZ'),
+   order(29),
+   active(true)
+);

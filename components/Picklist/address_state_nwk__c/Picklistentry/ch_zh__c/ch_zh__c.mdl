@@ -1,0 +1,5 @@
+Picklistentry ch_zh__c (
+   value('CH_Zürich'),
+   order(115),
+   active(true)
+);

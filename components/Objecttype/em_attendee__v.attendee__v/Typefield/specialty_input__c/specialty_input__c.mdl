@@ -1,0 +1,4 @@
+Typefield specialty_input__c (
+   source('custom'),
+   required(false)
+);

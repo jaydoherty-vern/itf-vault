@@ -1,0 +1,5 @@
+Picklistentry djibouti_franc__c (
+   value('Djibouti Franc'),
+   order(52),
+   active(true)
+);

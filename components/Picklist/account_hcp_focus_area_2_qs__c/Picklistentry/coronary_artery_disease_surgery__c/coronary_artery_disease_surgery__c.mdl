@@ -1,0 +1,5 @@
+Picklistentry coronary_artery_disease_surgery__c (
+   value('Coronary Artery Disease & Surgery'),
+   order(75),
+   active(true)
+);

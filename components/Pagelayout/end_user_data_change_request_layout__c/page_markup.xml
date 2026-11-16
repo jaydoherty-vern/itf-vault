@@ -1,0 +1,75 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.data_change_request__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="type__v" readOnly="true" />
+            <vault:field reference="status__c" readOnly="true" />
+            <vault:field reference="ownerid__v" readOnly="true" />
+            <vault:field reference="parent_data_change_request__v" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Request Details" name="request_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__v" readOnly="true" />
+            <vault:field reference="address__v" readOnly="true" />
+            <vault:field reference="child_account__v" readOnly="true" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="country_mapping__v" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Resolution" name="resolution__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="data_change_request_status__v" readOnly="true" />
+            <vault:field reference="result__v" readOnly="true" />
+            <vault:field reference="resolution_note__v" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Network" name="network__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="network_customer_master_mode__v" readOnly="true" />
+            <vault:field reference="dcr_external_id__v" readOnly="true" />
+            <vault:field reference="network_session_id__v" readOnly="true" />
+            <vault:spacer />
+            <vault:field reference="account_external_id__v" readOnly="true" />
+            <vault:field reference="address_external_id__v" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="date_time__v" readOnly="true" />
+            <vault:field reference="response_datetime__v" readOnly="true" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="sent_datetime__v" readOnly="true" />
+            <vault:field reference="error__v" readOnly="true" />
+            <vault:field reference="external_status__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information1__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Data Change Request Lines" name="data_change_request_lines__c">
+        <vault:relatedObject relationship="data_change_request_lines__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="field_api_name__v" width="200px" />
+            <vault:field reference="old_value__v" width="200px" />
+            <vault:field reference="new_value__v" width="200px" />
+            <vault:field reference="old_localized_value__v" width="200px" />
+            <vault:field reference="new_localized_value__v" width="200px" />
+            <vault:field reference="final_value__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="V2OK Data Change Requests" name="v2ok_data_change_requests__c">
+        <vault:relatedObject relationship="v2ok_data_change_requests__cr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

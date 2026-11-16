@@ -1,0 +1,5 @@
+Picklistentry 9_18__c (
+   value('Managed Care, Assistance Programs'),
+   order(85),
+   active(true)
+);

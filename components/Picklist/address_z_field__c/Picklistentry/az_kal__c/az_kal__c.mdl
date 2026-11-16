@@ -1,0 +1,5 @@
+Picklistentry az_kal__c (
+   value('AZ-KAL'),
+   order(200),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield end_user_impact_value__c (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry ghtass__c (
+   value('THG Associate member'),
+   order(237),
+   active(true)
+);

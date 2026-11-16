@@ -1,0 +1,4 @@
+Typefield valid_status__c (
+   source('standard'),
+   required(false)
+);

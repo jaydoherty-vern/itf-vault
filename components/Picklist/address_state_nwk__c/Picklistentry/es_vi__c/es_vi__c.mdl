@@ -1,0 +1,5 @@
+Picklistentry es_vi__c (
+   value('ES_Álava'),
+   order(184),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pl_rz__c (
+   value('PL_Rzeszów'),
+   order(1370),
+   active(true)
+);

@@ -1,0 +1,30 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.sp_deliverable_review__c">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="version__c" required="true" />
+            <vault:field reference="page_section__c" required="true" />
+            <vault:field reference="reviewer_name__c" required="true" />
+            <vault:field reference="comments__c" required="true" />
+            <vault:field reference="project_deliverable__c" />
+            <vault:field reference="date__c" required="true" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Follow Up Information" name="follow_up_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="accept_reject__c" />
+            <vault:field reference="explanation__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

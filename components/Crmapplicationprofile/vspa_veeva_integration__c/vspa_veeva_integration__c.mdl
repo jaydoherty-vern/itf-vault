@@ -1,0 +1,5 @@
+RECREATE Crmapplicationprofile vspa_veeva_integration__c (
+   label('VSPA_Veeva_Integration'),
+   active(true),
+   description()
+);

@@ -1,0 +1,5 @@
+Picklistentry vera__c (
+   value('Insurance Doctor'),
+   order(115),
+   active(true)
+);

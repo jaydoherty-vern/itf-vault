@@ -1,0 +1,5 @@
+Picklistentry pharmc__c (
+   value('Clinical Pharmacology'),
+   order(51),
+   active(true)
+);

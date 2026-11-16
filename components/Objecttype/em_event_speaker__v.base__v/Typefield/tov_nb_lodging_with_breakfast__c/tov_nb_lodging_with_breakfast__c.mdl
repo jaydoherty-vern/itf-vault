@@ -1,0 +1,4 @@
+Typefield tov_nb_lodging_with_breakfast__c (
+   source('standard'),
+   required(false)
+);

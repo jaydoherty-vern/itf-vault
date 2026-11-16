@@ -1,0 +1,5 @@
+Picklistentry it_ch__c (
+   value('IT_Chieti'),
+   order(856),
+   active(true)
+);

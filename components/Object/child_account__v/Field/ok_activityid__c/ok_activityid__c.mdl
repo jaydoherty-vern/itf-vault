@@ -1,0 +1,19 @@
+Field ok_activityid__c (
+   label('OK_ActivityID'),
+   type('String'),
+   active(true),
+   description('Needed by OneKey integration'),
+   required(false),
+   unique(false),
+   max_length(14),
+   help_content(),
+   list_column(false),
+   order(47),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

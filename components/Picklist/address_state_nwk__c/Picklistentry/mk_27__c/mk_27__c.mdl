@@ -1,0 +1,5 @@
+Picklistentry mk_27__c (
+   value('MK_Dolneni'),
+   order(1227),
+   active(true)
+);

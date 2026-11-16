@@ -1,0 +1,5 @@
+Picklistentry is_tal__c (
+   value('IS_Tálknafjarðarhreppur'),
+   order(823),
+   active(true)
+);

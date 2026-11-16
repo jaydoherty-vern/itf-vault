@@ -1,0 +1,8 @@
+Objectlayout itf_market_access_request_form_itf_marf__c (
+   label('itf_market_access_request_form_itf_marf_request'),
+   active(true),
+   pagelayouts('Pagelayout.general_marf_requests__c'),
+   object('Object.itf_market_access_request_form__c'),
+   objecttype('Objecttype.itf_market_access_request_form__c.itf_marf_request__c'),
+   record_creation_layout('Pagelayout.general_marf_requests__c')
+);

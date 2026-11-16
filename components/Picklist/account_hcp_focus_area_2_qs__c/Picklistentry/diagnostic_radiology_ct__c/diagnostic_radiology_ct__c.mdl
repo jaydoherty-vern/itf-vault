@@ -1,0 +1,5 @@
+Picklistentry diagnostic_radiology_ct__c (
+   value('Diagnostic Radiology (CT'),
+   order(57),
+   active(true)
+);

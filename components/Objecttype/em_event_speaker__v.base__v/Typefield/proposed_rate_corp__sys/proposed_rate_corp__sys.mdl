@@ -1,0 +1,4 @@
+Typefield proposed_rate_corp__sys (
+   source('standard'),
+   required(false)
+);

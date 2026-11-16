@@ -1,0 +1,5 @@
+Picklistentry it_bl__c (
+   value('IT_Belluno'),
+   order(841),
+   active(true)
+);

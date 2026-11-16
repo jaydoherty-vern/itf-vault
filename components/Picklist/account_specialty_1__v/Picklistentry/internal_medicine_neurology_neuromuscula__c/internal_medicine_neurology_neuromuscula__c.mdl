@@ -1,0 +1,5 @@
+Picklistentry internal_medicine_neurology_neuromuscula__c (
+   value('INTERNAL MEDICINE, NEUROLOGY, NEUROMUSCULAR MEDICINE'),
+   order(131),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction prior_authorization_denied_state__c.start_prior_authorization_appeal_workflo__c (
+   label('Start Prior Authorization Appeal Workflow'),
+   rule(@rule.xml),
+   order(1000)
+);

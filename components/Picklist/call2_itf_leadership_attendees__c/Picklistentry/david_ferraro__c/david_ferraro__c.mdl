@@ -1,0 +1,5 @@
+Picklistentry david_ferraro__c (
+   value('David Ferraro'),
+   order(1),
+   active(true)
+);

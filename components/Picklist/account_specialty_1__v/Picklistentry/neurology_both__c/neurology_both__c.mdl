@@ -1,0 +1,5 @@
+Picklistentry neurology_both__c (
+   value('NEUROLOGY (BOTH?)'),
+   order(100),
+   active(true)
+);

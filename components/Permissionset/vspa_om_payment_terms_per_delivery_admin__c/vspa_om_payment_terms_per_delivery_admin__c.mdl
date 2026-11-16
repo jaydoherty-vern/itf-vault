@@ -1,0 +1,12 @@
+RECREATE Permissionset vspa_om_payment_terms_per_delivery_admin__c (
+   label('VSPA_OM_Payment_Terms_per_Delivery_Admin'),
+   active(true),
+   description('Enables payment terms for Line Delivery Splitting when an order is split into more than one delivery.'),
+   object.order__v.delivery_payment__v.field_actions('edit',
+      'read'),
+   object.order__v.delivery_payment_rule__v.field_actions('read'),
+   object.pricing_rule__v.delivery_order__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

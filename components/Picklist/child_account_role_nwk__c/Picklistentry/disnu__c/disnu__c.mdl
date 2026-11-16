@@ -1,0 +1,5 @@
+Picklistentry disnu__c (
+   value('District Nurses'),
+   order(72),
+   active(true)
+);

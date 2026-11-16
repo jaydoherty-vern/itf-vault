@@ -1,0 +1,14 @@
+Typefield hcp_reason_nwk__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_hcp_reason_nwk__c.1_3__c',
+         'Picklist.account_hcp_reason_nwk__c.2_1__c',
+         'Picklist.account_hcp_reason_nwk__c.2_10__c',
+         'Picklist.account_hcp_reason_nwk__c.2_11__c',
+         'Picklist.account_hcp_reason_nwk__c.2_12__c',
+         'Picklist.account_hcp_reason_nwk__c.2_3__c',
+         'Picklist.account_hcp_reason_nwk__c.2_4__c',
+         'Picklist.account_hcp_reason_nwk__c.2_5__c',
+         'Picklist.account_hcp_reason_nwk__c.2_6__c',
+         'Picklist.account_hcp_reason_nwk__c.2_7__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry sd__v (
+   value('SD'),
+   order(49),
+   active(true)
+);

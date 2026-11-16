@@ -1,0 +1,5 @@
+Picklistentry ram__c (
+   value('Ruminant Animal Medicine'),
+   order(476),
+   active(true)
+);

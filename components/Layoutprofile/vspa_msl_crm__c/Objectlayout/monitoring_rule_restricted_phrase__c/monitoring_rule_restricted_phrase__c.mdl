@@ -1,0 +1,8 @@
+Objectlayout monitoring_rule_restricted_phrase__c (
+   label('monitoring_rule_restricted_phrase'),
+   active(true),
+   pagelayouts('Pagelayout.restricted_phrase1__c'),
+   object('Object.monitoring_rule__v'),
+   objecttype('Objecttype.monitoring_rule__v.restricted_phrase__v'),
+   record_creation_layout('Pagelayout.restricted_phrase1__c')
+);

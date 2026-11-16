@@ -1,0 +1,5 @@
+Picklistentry mk_53__c (
+   value('MK_Mogila'),
+   order(1253),
+   active(true)
+);

@@ -1,0 +1,15 @@
+RECREATE Layoutrule user_survey_layout__c.survey_require_assignment_type_field__c (
+   active(true),
+   description('Requires Assignment Type filed'),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields('assignment_type__v'),
+   expression('TRUE'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections(),
+   hide_layout(false),
+   label('Survey Require Assignment Type Field '),
+   order(100)
+);

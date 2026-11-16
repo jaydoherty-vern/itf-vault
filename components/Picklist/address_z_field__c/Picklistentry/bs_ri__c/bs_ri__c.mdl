@@ -1,0 +1,5 @@
+Picklistentry bs_ri__c (
+   value('BS-RI'),
+   order(547),
+   active(true)
+);

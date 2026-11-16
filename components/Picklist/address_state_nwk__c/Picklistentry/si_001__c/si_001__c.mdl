@@ -1,0 +1,5 @@
+Picklistentry si_001__c (
+   value('SI_Ajdovščina'),
+   order(1587),
+   active(true)
+);

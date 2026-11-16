@@ -1,0 +1,5 @@
+Picklistentry ca_qc__c (
+   value('CA-QC'),
+   order(607),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry chotr__c (
+   value('Diploma in Orthopedic Surgery'),
+   order(79),
+   active(true)
+);

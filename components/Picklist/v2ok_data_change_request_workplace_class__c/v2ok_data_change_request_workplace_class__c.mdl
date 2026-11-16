@@ -1,0 +1,21 @@
+RECREATE Picklist v2ok_data_change_request_workplace_class__c (
+   label('Workplace Class'),
+   active(true),
+   Picklistentry(@Picklistentry/fad_wch_e__c.mdl),
+   Picklistentry(@Picklistentry/fad_wch_f__c.mdl),
+   Picklistentry(@Picklistentry/fad_wch_g__c.mdl),
+   Picklistentry(@Picklistentry/fad_wch_h__c.mdl),
+   Picklistentry(@Picklistentry/fad_wch_hd__c.mdl),
+   Picklistentry(@Picklistentry/fad_wes_e__c.mdl),
+   Picklistentry(@Picklistentry/fad_wes_f__c.mdl),
+   Picklistentry(@Picklistentry/fad_wes_g__c.mdl),
+   Picklistentry(@Picklistentry/fad_wes_h__c.mdl),
+   Picklistentry(@Picklistentry/fad_wes_hd__c.mdl),
+   Picklistentry(@Picklistentry/fad_wnl_e__c.mdl),
+   Picklistentry(@Picklistentry/fad_wnl_f__c.mdl),
+   Picklistentry(@Picklistentry/fad_wnl_g__c.mdl),
+   Picklistentry(@Picklistentry/fad_wnl_h__c.mdl),
+   Picklistentry(@Picklistentry/fad_wnl_hd__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

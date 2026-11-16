@@ -1,0 +1,5 @@
+Picklistentry vcp__c (
+   value('Veterinary Corporate Group'),
+   order(270),
+   active(true)
+);

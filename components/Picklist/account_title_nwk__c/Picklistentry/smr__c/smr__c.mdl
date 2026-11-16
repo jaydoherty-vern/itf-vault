@@ -1,0 +1,5 @@
+Picklistentry smr__c (
+   value('SMR'),
+   order(98),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry it_tr__c (
+   value('IT_Terni'),
+   order(927),
+   active(true)
+);

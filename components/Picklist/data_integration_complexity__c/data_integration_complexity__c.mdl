@@ -1,0 +1,9 @@
+RECREATE Picklist data_integration_complexity__c (
+   label('Data Integration Complexity'),
+   active(true),
+   Picklistentry(@Picklistentry/high__c.mdl),
+   Picklistentry(@Picklistentry/medium__c.mdl),
+   Picklistentry(@Picklistentry/low__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

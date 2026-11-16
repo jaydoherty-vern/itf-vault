@@ -1,0 +1,5 @@
+Picklistentry mbg__c (
+   value('Medical Biochemical Genetics'),
+   order(254),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry aso__c (
+   value('Advanced Surgical Oncology'),
+   order(26),
+   active(true)
+);

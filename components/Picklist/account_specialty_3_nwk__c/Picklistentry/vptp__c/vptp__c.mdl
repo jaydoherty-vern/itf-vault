@@ -1,0 +1,5 @@
+Picklistentry vptp__c (
+   value('Veterinary Pathology, Toxico-pathology'),
+   order(587),
+   active(true)
+);

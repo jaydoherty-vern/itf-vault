@@ -1,0 +1,23 @@
+RECREATE Layoutrule question_response_layout__c.text_and_long_text_question_response__c (
+   active(true),
+   description(),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('type__v = ''OOT00000000V760'' || type__v = ''OOT00000000V755'''),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields('answer_choice__v',
+      'date__v',
+      'response_hash__v',
+      'datetime__v',
+      'response__v',
+      'decimal__v',
+      'score__v',
+      'max_score__v',
+      'number__v'),
+   hide_sections(),
+   hide_layout(false),
+   label('Text and Long Text Question Response'),
+   order(700)
+);

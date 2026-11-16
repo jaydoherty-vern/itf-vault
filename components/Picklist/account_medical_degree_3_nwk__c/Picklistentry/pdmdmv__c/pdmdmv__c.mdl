@@ -1,0 +1,5 @@
+Picklistentry pdmdmv__c (
+   value('Prof. Dr. med. Dr. med. vet.'),
+   order(235),
+   active(true)
+);

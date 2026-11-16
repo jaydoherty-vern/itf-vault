@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.address__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.created_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.legacy_crm_id__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.result__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.account_external_id__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.address_external_id__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.attachment_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.em_attendee__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.challenge_reasons__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.child_account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.child_account_external_id__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.country_mapping__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.created_by__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.object_count__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.data_change_request_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.object_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.date_time__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.dcr_external_id__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.error__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.vspa_error_description__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.external_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.global_id__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.id" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.ims_child__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.ims_parent__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.ok_ims_response__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.ok_ims_response_comment__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.ims__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.vspa_is_in_error__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.vspa_is_person_account__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.modified_by__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.modified_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.link__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.mobile_created_datetime__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.mobile_id__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.mobile_last_modified_datetime__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.network_create_unverified__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.network_customer_master_mode__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.network_session_id__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.long_notes__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.notes__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.ok_dcr_counter__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.ownerid__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.vspa_parent_account__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.parent_data_change_request__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.vspa_primary_dcr_id__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.vspa_primary_new_value__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.vspa_primary_only__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.provisional_account_id__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.resolution_note__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.response_datetime__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.sent_datetime__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.status__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.territory_label__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.territory__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.type__v" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="data_change_request__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

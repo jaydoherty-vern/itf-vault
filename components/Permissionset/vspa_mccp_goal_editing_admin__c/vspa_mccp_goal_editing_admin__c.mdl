@@ -1,0 +1,18 @@
+RECREATE Permissionset vspa_mccp_goal_editing_admin__c (
+   label('VSPA_MCCP_Goal_Editing_Admin'),
+   active(true),
+   description('Enabling the Goal editing functionality for reps of their MCCP for admin users.'),
+   object.mc_cycle__v.activate_edited_goals__v.field_actions('edit',
+      'read'),
+   object.mc_cycle_plan__v.goal_edit_status__v.field_actions('edit',
+      'read'),
+   object.mc_cycle_plan__v.lock__v.field_actions('edit',
+      'read'),
+   object.mc_cycle_plan_channel__v.activity_goal_edit__v.field_actions('edit',
+      'read'),
+   object.mc_cycle_plan_product__v.activity_goal_edit__v.field_actions('edit',
+      'read'),
+   object.mc_cycle_plan_product__v.detail_group_name__v.field_actions('read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

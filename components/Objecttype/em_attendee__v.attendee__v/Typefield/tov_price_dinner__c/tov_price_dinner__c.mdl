@@ -1,0 +1,4 @@
+Typefield tov_price_dinner__c (
+   source('custom'),
+   required(false)
+);

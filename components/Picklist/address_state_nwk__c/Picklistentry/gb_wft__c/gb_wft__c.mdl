@@ -1,0 +1,5 @@
+Picklistentry gb_wft__c (
+   value('GB-WFT'),
+   order(632),
+   active(false)
+);

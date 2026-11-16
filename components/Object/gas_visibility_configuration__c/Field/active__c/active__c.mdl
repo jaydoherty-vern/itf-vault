@@ -1,0 +1,18 @@
+Field active__c (
+   label('Active'),
+   type('Boolean'),
+   active(true),
+   description('Only Active CVCs are used to build criteria for Available lists. Please note that all validations relating to uniqueness still apply even for inactive records. So you may still not have two CVCs for the same Entity in active and inactive state. This is just convenience to turn on/off for a certain entity something.'),
+   required(false),
+   checkbox(true),
+   help_content('Only Active CVCs are used to build criteria for Available lists'),
+   list_column(false),
+   order(10),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

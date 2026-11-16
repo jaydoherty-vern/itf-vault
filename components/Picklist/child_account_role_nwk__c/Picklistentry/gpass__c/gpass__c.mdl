@@ -1,0 +1,5 @@
+Picklistentry gpass__c (
+   value('Associate GP'),
+   order(18),
+   active(true)
+);

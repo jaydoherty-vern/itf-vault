@@ -1,0 +1,5 @@
+Typefield academic_title_qs__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_academic_title_qs__c.dr_biol_anim__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry ami__c (
+   value('Adolescent Medicine (Internal Medicine)'),
+   order(13),
+   active(true)
+);

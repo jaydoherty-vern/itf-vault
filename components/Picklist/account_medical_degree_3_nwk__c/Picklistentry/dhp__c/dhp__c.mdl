@@ -1,0 +1,5 @@
+Picklistentry dhp__c (
+   value('Dr. biol. hom.'),
+   order(98),
+   active(true)
+);

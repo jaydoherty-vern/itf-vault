@@ -1,0 +1,5 @@
+Picklistentry sa_09__c (
+   value('SA_Jīzān'),
+   order(82),
+   active(true)
+);

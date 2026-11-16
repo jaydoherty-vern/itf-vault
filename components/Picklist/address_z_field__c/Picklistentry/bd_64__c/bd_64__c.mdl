@@ -1,0 +1,5 @@
+Picklistentry bd_64__c (
+   value('BD-64'),
+   order(338),
+   active(true)
+);

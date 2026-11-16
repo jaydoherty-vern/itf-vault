@@ -1,0 +1,5 @@
+Picklistentry 30__c (
+   value('Laboratory Medicine'),
+   order(225),
+   active(true)
+);

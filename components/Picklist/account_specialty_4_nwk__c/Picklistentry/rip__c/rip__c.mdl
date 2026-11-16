@@ -1,0 +1,5 @@
+Picklistentry rip__c (
+   value('Pathology/Radioisotopic'),
+   order(353),
+   active(true)
+);

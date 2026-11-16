@@ -1,0 +1,5 @@
+Picklistentry it_bt__c (
+   value('IT_Barletta-Andria-Trani'),
+   order(840),
+   active(true)
+);

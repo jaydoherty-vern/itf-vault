@@ -1,0 +1,4 @@
+Typefield enable_summary_view__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry genet__c (
+   value('Genetics'),
+   order(157),
+   active(true)
+);

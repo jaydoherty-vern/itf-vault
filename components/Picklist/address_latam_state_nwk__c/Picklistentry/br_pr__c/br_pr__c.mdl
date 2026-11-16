@@ -1,0 +1,5 @@
+Picklistentry br_pr__c (
+   value('Paraná'),
+   order(22),
+   active(true)
+);

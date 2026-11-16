@@ -1,0 +1,5 @@
+Picklistentry rs_06__c (
+   value('RS_Južnobački okrug'),
+   order(1455),
+   active(true)
+);

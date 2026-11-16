@@ -1,0 +1,21 @@
+Field short_object_list_metadata_only__v (
+   label('Short_OBJECT_LIST_Metadata_Only'),
+   type('String'),
+   active(true),
+   description('Only meta data (not records) for these objects will be downloaded to the device when # accounts exceeds Short_Account_Level.
+	This makes it easy for customers to control data volumes by not sending certain objects.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(280),
+   default_value('"Short_OBJECT_LIST_Metadata_Only;;Blackberry"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

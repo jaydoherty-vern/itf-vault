@@ -1,0 +1,8 @@
+Objectlayout v2ok_data_change_request_hierarchy__c (
+   label('v2ok_data_change_request_hierarchy'),
+   active(true),
+   pagelayouts('Pagelayout.dcr_hierarchy__c'),
+   object('Object.v2ok_data_change_request__c'),
+   objecttype('Objecttype.v2ok_data_change_request__c.hierarchy__c'),
+   record_creation_layout('Pagelayout.dcr_hierarchy__c')
+);

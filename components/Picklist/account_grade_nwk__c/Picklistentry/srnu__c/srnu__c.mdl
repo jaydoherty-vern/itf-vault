@@ -1,0 +1,5 @@
+Picklistentry srnu__c (
+   value('SRNU'),
+   order(19),
+   active(true)
+);

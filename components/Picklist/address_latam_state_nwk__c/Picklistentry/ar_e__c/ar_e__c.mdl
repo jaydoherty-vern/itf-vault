@@ -1,0 +1,5 @@
+Picklistentry ar_e__c (
+   value('Entre Ríos'),
+   order(65),
+   active(true)
+);

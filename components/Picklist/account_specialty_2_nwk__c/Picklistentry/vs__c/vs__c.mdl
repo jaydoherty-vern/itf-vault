@@ -1,0 +1,5 @@
+Picklistentry vs__c (
+   value('Vascular Surgery'),
+   order(550),
+   active(true)
+);

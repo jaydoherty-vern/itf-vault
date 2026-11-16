@@ -1,0 +1,6 @@
+Typefield event_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_event_type__c.donation__c',
+         'Picklist.em_event_event_type__c.grant__c')
+);

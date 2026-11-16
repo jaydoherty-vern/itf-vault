@@ -1,0 +1,4 @@
+Typefield itf_private_email_address__c (
+   source('standard'),
+   required(false)
+);

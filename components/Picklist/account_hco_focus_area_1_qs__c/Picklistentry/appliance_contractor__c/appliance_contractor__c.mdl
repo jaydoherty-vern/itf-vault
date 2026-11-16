@@ -1,0 +1,5 @@
+Picklistentry appliance_contractor__c (
+   value('Appliance Contractor'),
+   order(6),
+   active(true)
+);

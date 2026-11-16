@@ -1,0 +1,5 @@
+Picklistentry tet__c (
+   value('TET'),
+   order(8),
+   active(true)
+);

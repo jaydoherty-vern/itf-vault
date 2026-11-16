@@ -1,0 +1,5 @@
+Picklistentry lt_36__c (
+   value('LT_Prienai'),
+   order(1013),
+   active(true)
+);

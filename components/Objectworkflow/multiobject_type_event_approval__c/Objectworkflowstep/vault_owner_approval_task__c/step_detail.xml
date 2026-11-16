@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="task">
+    <vwf:label>Approve or Reject the Event</vwf:label>
+    <vwf:hideHomePageLink>false</vwf:hideHomePageLink>
+    <vwf:controls>
+      <vwf:control name="accept_the_task_and_review_the_event_det__c" label="Accept the task and review the Event Details. Select the Complete button to Approve or Reject the Event" type="instructions">
+        <vwf:instructions>Accept the task and review the Event Details. Select the Complete button to Approve or Reject the Event</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="verdict_public_key__c" type="verdict">
+        <vwf:verdict label="Approve" name="verdict_approve__c">
+          <vwf:comment label="Approval Comments" required="false" />
+        </vwf:verdict>
+        <vwf:verdict label="Reject" name="verdict_reject__c">
+          <vwf:comment label="Rejection Comments" required="true" />
+          <vwf:reasons label="Rejection Reason" required="true">
+            <vwf:reason name="reason_1_0__c" label="Non-Compliant" />
+            <vwf:reason name="reason_1_1__c" label="Missing Information" />
+            <vwf:reason name="reason_1_2__c" label="Too Expensive" />
+            <vwf:reason name="reason_1_3__c" label="Does not align with our objectives" />
+            <vwf:reason name="reason_1_4__c" label="Other" />
+          </vwf:reasons>
+        </vwf:verdict>
+      </vwf:control>
+      <vwf:control name="task_creation_date__v" label="label" type="date">
+        <vwf:datefield type="date" />
+        <vwf:offset>
+          <vwf:amount>7</vwf:amount>
+          <vwf:unit>days</vwf:unit>
+        </vwf:offset>
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+  <vwf:assignment participant="part_vault_owners_group__c" excludeowner="false" />
+  <vwf:assignmentType type="any" />
+  <vwf:notifications>
+    <vwf:notification template="Notificationtemplate.event_pending_approval__c" />
+  </vwf:notifications>
+  <vwf:reminders>
+    <vwf:reminder name="trn__c" template="Notificationtemplate.object_task_reminder_notification__v" sendon="taskDueDate" operator="plus" days="0">
+      <vwf:recipients>
+        <vwf:recipient>task_owner__v</vwf:recipient>
+      </vwf:recipients>
+    </vwf:reminder>
+  </vwf:reminders>
+  <vwf:recordWorkflowActions>
+    <vwf:recordWorkflowAction reference="Recordworkflowaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.CreateEventTeamMemberAndEventHistoryAction" />
+  </vwf:recordWorkflowActions>
+  <vwf:completeWithoutViewing value="false" />
+  <vwf:taskRequirement requirement="required" />
+</vwf:stepdetails>

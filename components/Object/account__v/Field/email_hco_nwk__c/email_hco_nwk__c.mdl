@@ -1,0 +1,19 @@
+Field email_hco_nwk__c (
+   label('Email'),
+   type('String'),
+   active(true),
+   description('Network field - Email 1'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(224),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

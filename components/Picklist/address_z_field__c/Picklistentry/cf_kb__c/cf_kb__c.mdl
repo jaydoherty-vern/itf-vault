@@ -1,0 +1,5 @@
+Picklistentry cf_kb__c (
+   value('CF-KB'),
+   order(628),
+   active(true)
+);

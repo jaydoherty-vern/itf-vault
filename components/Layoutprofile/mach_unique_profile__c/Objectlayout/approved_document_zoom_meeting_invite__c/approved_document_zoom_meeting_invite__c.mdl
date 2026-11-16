@@ -1,0 +1,8 @@
+Objectlayout approved_document_zoom_meeting_invite__c (
+   label('approved_document_zoom_meeting_invite'),
+   active(true),
+   pagelayouts('Pagelayout.admin_email_fragment__c'),
+   object('Object.approved_document__v'),
+   objecttype('Objecttype.approved_document__v.zoom_meeting_invite__v'),
+   record_creation_layout('Pagelayout.admin_email_fragment__c')
+);

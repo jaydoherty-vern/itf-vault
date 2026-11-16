@@ -1,0 +1,5 @@
+Picklistentry unit_test_in_progress__c (
+   value('Unit Test in Progress'),
+   order(4),
+   active(true)
+);

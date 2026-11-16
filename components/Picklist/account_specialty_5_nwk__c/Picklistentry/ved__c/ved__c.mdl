@@ -1,0 +1,5 @@
+Picklistentry ved__c (
+   value('Veterinary Dentistry'),
+   order(539),
+   active(true)
+);

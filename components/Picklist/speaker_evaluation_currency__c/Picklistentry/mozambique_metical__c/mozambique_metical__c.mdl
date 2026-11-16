@@ -1,0 +1,5 @@
+Picklistentry mozambique_metical__c (
+   value('Mozambique Metical'),
+   order(109),
+   active(true)
+);

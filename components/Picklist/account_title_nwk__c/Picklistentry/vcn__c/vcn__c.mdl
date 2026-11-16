@@ -1,0 +1,5 @@
+Picklistentry vcn__c (
+   value('Vice Chief Nurse'),
+   order(114),
+   active(true)
+);

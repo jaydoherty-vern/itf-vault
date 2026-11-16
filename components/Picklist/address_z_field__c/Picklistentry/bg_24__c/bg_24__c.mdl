@@ -1,0 +1,5 @@
+Picklistentry bg_24__c (
+   value('BG-24'),
+   order(440),
+   active(true)
+);

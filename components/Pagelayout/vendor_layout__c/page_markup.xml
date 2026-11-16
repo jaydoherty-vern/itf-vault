@@ -1,0 +1,40 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_vendor__v.vendor__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="em_vendor_status__v" />
+            <vault:field reference="key_contact__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="email__v" />
+            <vault:field reference="phone_number__v" />
+            <vault:field reference="vspa_country_code__c" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Events" name="em_event_vendor__c">
+        <vault:relatedObject relationship="em_event_vendor__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="external_id__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

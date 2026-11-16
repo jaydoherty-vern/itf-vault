@@ -1,0 +1,5 @@
+Picklistentry cz_ol__c (
+   value('CZ-OL'),
+   order(961),
+   active(true)
+);

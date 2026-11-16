@@ -1,0 +1,5 @@
+Picklistentry lv_069__c (
+   value('LV_Ozolnieku novads (Ozolnieki)'),
+   order(1121),
+   active(true)
+);

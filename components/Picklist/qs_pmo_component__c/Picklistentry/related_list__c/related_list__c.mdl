@@ -1,0 +1,5 @@
+Picklistentry related_list__c (
+   value('Related List'),
+   order(10),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_040__c (
+   value('LV_Jaunpils novads (Jaunpils)'),
+   order(1088),
+   active(true)
+);

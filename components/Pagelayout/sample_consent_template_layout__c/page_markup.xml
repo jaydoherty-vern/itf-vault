@@ -1,0 +1,17 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.consent_template__v.sample_consent_template__v">
+    <vault:section title="Fields" name="fields__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="expiration_type__v" required="true" />
+            <vault:field reference="expiration_threshold__v" />
+            <vault:field reference="calendar_effective_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

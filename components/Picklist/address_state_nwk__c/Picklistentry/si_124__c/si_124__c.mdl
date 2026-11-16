@@ -1,0 +1,5 @@
+Picklistentry si_124__c (
+   value('SI_Šmarje pri Jelšah'),
+   order(1640),
+   active(true)
+);

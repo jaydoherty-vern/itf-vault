@@ -1,0 +1,5 @@
+Picklistentry chiin__c (
+   value('Diploma in Child Surgery'),
+   order(42),
+   active(true)
+);

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrt:reportType xmlns:vrt="VaultReporttype">
+  <vrt:downRelationships>
+    <vrt:downRelationship key="account_territory__v.account__v">
+      <vrt:upRelationships>
+        <vrt:upRelationship key="account_territory__v.territory__v" />
+      </vrt:upRelationships>
+    </vrt:downRelationship>
+  </vrt:downRelationships>
+</vrt:reportType>

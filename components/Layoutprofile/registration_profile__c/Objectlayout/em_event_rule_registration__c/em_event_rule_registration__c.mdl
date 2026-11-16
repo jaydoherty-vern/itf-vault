@@ -1,0 +1,8 @@
+Objectlayout em_event_rule_registration__c (
+   label('em_event_rule_registration'),
+   active(true),
+   pagelayouts('Pagelayout.speaker_fields_layout__c'),
+   object('Object.em_event_rule__v'),
+   objecttype('Objecttype.em_event_rule__v.registration__v'),
+   record_creation_layout('Pagelayout.speaker_fields_layout__c')
+);

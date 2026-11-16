@@ -1,0 +1,5 @@
+Picklistentry vpe__c (
+   value('Veterinary Pathology (Equine)'),
+   order(585),
+   active(true)
+);

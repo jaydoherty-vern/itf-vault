@@ -1,0 +1,6 @@
+Typefield notify_team_member_vspa__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_team_me_notify_team_member_vspa__c.no__c',
+         'Picklist.em_event_team_me_notify_team_member_vspa__c.yes__c')
+);

@@ -1,0 +1,11 @@
+RECREATE Picklist itf_current_owner_team__c (
+   label('Current Owner / Team'),
+   active(true),
+   Picklistentry(@Picklistentry/itf__c.mdl),
+   Picklistentry(@Picklistentry/veeva__c.mdl),
+   Picklistentry(@Picklistentry/lifespan__c.mdl),
+   Picklistentry(@Picklistentry/solutions_159__c.mdl),
+   Picklistentry(@Picklistentry/uat_testers__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

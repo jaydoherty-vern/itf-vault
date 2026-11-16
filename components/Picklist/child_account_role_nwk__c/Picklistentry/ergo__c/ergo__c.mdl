@@ -1,0 +1,5 @@
+Picklistentry ergo__c (
+   value('ERGO'),
+   order(79),
+   active(true)
+);

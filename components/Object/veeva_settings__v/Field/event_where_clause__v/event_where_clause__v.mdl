@@ -1,0 +1,20 @@
+Field event_where_clause__v (
+   label('EVENT_WHERE_CLAUSE'),
+   type('String'),
+   active(true),
+   description('Blackberry WHERE CLAUSE filter for Event object.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Blackberry WHERE CLAUSE filter for Event object.'),
+   list_column(false),
+   order(171),
+   default_value('"EVENT_WHERE_CLAUSE;;Blackberry"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

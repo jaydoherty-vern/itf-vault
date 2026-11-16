@@ -1,0 +1,5 @@
+Picklistentry mn__c (
+   value('Internal Medicine/Neurology'),
+   order(224),
+   active(true)
+);

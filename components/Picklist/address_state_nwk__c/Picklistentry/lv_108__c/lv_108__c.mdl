@@ -1,0 +1,5 @@
+Picklistentry lv_108__c (
+   value('LV_Viļakas novads (Viļaka)'),
+   order(1165),
+   active(true)
+);

@@ -1,0 +1,9 @@
+Typefield itf_call_outcome__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_itf_call_outcome__c.agrees_to_use_duvyzat__c',
+         'Picklist.call2_itf_call_outcome__c.need_to_identify_patients__c',
+         'Picklist.call2_itf_call_outcome__c.not_clinically_convinced__c',
+         'Picklist.call2_itf_call_outcome__c.not_willing_to_prescribe__c',
+         'Picklist.call2_itf_call_outcome__c.patients_identified_ready_to_prescribe__c')
+);

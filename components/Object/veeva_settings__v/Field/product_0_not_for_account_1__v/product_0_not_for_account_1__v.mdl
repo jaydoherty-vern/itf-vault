@@ -1,0 +1,20 @@
+Field product_0_not_for_account_1__v (
+   label('PRODUCT_0_IS_NOT_ALLOWED_FOR_ACCOUNT_1'),
+   type('String'),
+   active(true),
+   description('Warning message used when alerting of restricted product detailing for one of the Attendees.  Param 0 is product name, 1 is attendee name.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(247),
+   default_value('"PRODUCT_0_IS_NOT_ALLOWED_FOR_ACCOUNT_1;;Blackberry"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

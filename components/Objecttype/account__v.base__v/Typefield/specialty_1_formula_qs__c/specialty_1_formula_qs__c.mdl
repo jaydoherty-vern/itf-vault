@@ -1,0 +1,4 @@
+Typefield specialty_1_formula_qs__c (
+   source('standard'),
+   required(false)
+);

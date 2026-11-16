@@ -1,0 +1,15 @@
+RECREATE Layoutrule cycle_plan_detail_page_layout__c.hide_target_standard_related_list__c (
+   active(true),
+   description('Hide the standard Cycle Plan Target related list.'),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('true'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections('cycle_plan_targets__c'),
+   hide_layout(false),
+   label('Hide Target Standard Related List'),
+   order(100)
+);

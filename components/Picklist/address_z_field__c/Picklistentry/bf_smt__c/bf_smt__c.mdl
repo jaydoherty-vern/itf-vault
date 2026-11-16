@@ -1,0 +1,5 @@
+Picklistentry bf_smt__c (
+   value('BF-SMT'),
+   order(406),
+   active(true)
+);

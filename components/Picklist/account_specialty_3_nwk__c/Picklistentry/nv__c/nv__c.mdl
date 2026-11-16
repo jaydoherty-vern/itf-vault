@@ -1,0 +1,5 @@
+Picklistentry nv__c (
+   value('In Vivo & In Vitro Nuclear Medicine'),
+   order(211),
+   active(true)
+);

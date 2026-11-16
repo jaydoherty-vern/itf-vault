@@ -1,0 +1,10 @@
+RECREATE Picklist v2ok_data_change_request_change_type__c (
+   label('Change Type'),
+   active(true),
+   Picklistentry(@Picklistentry/create__c.mdl),
+   Picklistentry(@Picklistentry/deactivate__c.mdl),
+   Picklistentry(@Picklistentry/delete__c.mdl),
+   Picklistentry(@Picklistentry/update__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

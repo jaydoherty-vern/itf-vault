@@ -1,0 +1,5 @@
+Picklistentry al_er__c (
+   value('AL_Kolonjë'),
+   order(25),
+   active(true)
+);

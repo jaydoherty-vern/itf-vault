@@ -1,0 +1,19 @@
+Field hcp_link_id_nwk__c (
+   label('Link ID'),
+   type('String'),
+   active(true),
+   description('Network field - HCP Link ID (Cross-Country ID)'),
+   required(false),
+   unique(false),
+   max_length(25),
+   help_content(),
+   list_column(false),
+   order(239),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

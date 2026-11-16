@@ -1,0 +1,5 @@
+Picklistentry me_01__c (
+   value('ME_Andrijevica'),
+   order(1185),
+   active(true)
+);

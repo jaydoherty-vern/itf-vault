@@ -1,0 +1,5 @@
+Picklistentry bs_li__c (
+   value('Long Island'),
+   order(109),
+   active(true)
+);

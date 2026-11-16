@@ -1,0 +1,5 @@
+Picklistentry pulm__c (
+   value('Pulmonology Diploma'),
+   order(318),
+   active(true)
+);

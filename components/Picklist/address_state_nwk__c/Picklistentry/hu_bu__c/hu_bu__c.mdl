@@ -1,0 +1,5 @@
+Picklistentry hu_bu__c (
+   value('HU_Budapest'),
+   order(682),
+   active(true)
+);

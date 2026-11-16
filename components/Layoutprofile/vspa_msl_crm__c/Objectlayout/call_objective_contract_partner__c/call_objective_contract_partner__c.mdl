@@ -1,0 +1,8 @@
+Objectlayout call_objective_contract_partner__c (
+   label('call_objective_contract_partner'),
+   active(true),
+   pagelayouts('Pagelayout.contract_call_objective_layout__c'),
+   object('Object.call_objective__v'),
+   objecttype('Objecttype.call_objective__v.contract_partner__v'),
+   record_creation_layout('Pagelayout.contract_call_objective_layout__c')
+);

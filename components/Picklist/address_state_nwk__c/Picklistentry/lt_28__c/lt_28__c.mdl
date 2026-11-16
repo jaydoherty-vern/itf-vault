@@ -1,0 +1,5 @@
+Picklistentry lt_28__c (
+   value('LT_Neringa'),
+   order(1004),
+   active(true)
+);

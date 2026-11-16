@@ -1,0 +1,5 @@
+Picklistentry dalasi__c (
+   value('Dalasi'),
+   order(61),
+   active(true)
+);

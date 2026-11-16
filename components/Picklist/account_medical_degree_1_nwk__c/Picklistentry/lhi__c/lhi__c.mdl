@@ -1,0 +1,5 @@
+Picklistentry lhi__c (
+   value('Laboratory Haematology And Immunology Diploma'),
+   order(190),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectworkflowstep cs_delivered__c (
+   label('CS: Delivered'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.end__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

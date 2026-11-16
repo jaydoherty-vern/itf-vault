@@ -1,0 +1,5 @@
+Picklistentry training_support__c (
+   value('Training Support'),
+   order(42),
+   active(true)
+);

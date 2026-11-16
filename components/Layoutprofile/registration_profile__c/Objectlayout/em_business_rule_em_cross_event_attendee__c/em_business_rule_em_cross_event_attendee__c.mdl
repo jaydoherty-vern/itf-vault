@@ -1,0 +1,8 @@
+Objectlayout em_business_rule_em_cross_event_attendee__c (
+   label('em_business_rule_em_cross_event_attendee_expense_cap_r'),
+   active(true),
+   pagelayouts('Pagelayout.expense_estimate_av_equipment_rule__c'),
+   object('Object.em_business_rule__v'),
+   objecttype('Objecttype.em_business_rule__v.em_cross_event_attendee_expense_cap_r__v'),
+   record_creation_layout('Pagelayout.expense_estimate_av_equipment_rule__c')
+);

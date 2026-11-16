@@ -1,0 +1,5 @@
+Picklistentry lt_17__c (
+   value('LT_Kazlų Rūdos'),
+   order(991),
+   active(true)
+);

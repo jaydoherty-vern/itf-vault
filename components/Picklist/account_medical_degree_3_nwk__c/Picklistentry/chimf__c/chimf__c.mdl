@@ -1,0 +1,5 @@
+Picklistentry chimf__c (
+   value('Diploma in Maxilo-Facial Surgery'),
+   order(56),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mc_mu__c (
+   value('MC_Moulins'),
+   order(1179),
+   active(true)
+);

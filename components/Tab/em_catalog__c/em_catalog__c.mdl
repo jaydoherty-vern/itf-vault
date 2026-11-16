@@ -1,0 +1,15 @@
+RECREATE Tab em_catalog__c (
+   active(true),
+   all_view_label('All EM Catalog'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('EM Catalog'),
+   modal_create_record(true),
+   my_view_label('My EM Catalog'),
+   object('em_catalog__v'),
+   order(8400),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent EM Catalog')
+);

@@ -1,0 +1,5 @@
+Picklistentry al_ku__c (
+   value('AL_Kukës (District)'),
+   order(31),
+   active(true)
+);

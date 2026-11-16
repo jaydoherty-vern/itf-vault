@@ -1,0 +1,5 @@
+Picklistentry hong_kong_dollar__c (
+   value('Hong Kong Dollar'),
+   order(71),
+   active(true)
+);

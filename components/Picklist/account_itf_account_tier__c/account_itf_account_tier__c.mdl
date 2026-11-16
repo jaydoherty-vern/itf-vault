@@ -1,0 +1,10 @@
+RECREATE Picklist account_itf_account_tier__c (
+   label('Account Tier'),
+   active(true),
+   Picklistentry(@Picklistentry/1__c.mdl),
+   Picklistentry(@Picklistentry/2__c.mdl),
+   Picklistentry(@Picklistentry/3__c.mdl),
+   Picklistentry(@Picklistentry/4__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

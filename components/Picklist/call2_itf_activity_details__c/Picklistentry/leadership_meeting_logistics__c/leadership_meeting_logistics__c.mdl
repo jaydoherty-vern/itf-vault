@@ -1,0 +1,5 @@
+Picklistentry leadership_meeting_logistics__c (
+   value('Leadership Meeting Logistics'),
+   order(29),
+   active(false)
+);

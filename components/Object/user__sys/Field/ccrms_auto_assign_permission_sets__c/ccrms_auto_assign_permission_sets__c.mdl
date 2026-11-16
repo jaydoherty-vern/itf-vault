@@ -1,0 +1,18 @@
+Field ccrms_auto_assign_permission_sets__c (
+   label('Auto Assign Permission Sets'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('It assigns Permission Sets based on the Functional Profile field and the Permission Set Map object assignment'),
+   list_column(false),
+   order(174),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,9 @@
+RECREATE Reporttype account_with_call_and_medical_insight__c (
+   label('Account with Call and Medical Insight'),
+   active(true),
+   description('Account with Calls (Account) (Account) and Medical Insights'),
+   primary_object('account__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

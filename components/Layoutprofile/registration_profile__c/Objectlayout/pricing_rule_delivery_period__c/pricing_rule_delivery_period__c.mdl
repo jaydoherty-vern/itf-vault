@@ -1,0 +1,8 @@
+Objectlayout pricing_rule_delivery_period__c (
+   label('pricing_rule_delivery_period'),
+   active(true),
+   pagelayouts('Pagelayout.pricing_rule_layout1__c'),
+   object('Object.pricing_rule__v'),
+   objecttype('Objecttype.pricing_rule__v.delivery_period__v'),
+   record_creation_layout('Pagelayout.pricing_rule_layout1__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry tr_57__c (
+   value('TR_Sinop'),
+   order(1736),
+   active(true)
+);

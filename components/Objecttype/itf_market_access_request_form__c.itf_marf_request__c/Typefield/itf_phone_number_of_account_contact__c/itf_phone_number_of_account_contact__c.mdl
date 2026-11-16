@@ -1,0 +1,4 @@
+Typefield itf_phone_number_of_account_contact__c (
+   source('custom'),
+   required(false)
+);

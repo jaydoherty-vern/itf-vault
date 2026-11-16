@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:template>Notificationtemplate.speaker_nomination_approved__c</vwf:template>
+  <vwf:recipient>workflow_initiator__v</vwf:recipient>
+  <vwf:referencedtasks>
+    <vwf:task>manual_approver_review__c</vwf:task>
+  </vwf:referencedtasks>
+</vwf:stepdetails>

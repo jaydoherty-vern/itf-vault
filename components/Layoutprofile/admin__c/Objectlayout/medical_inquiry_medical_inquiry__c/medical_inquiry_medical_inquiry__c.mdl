@@ -1,0 +1,8 @@
+Objectlayout medical_inquiry_medical_inquiry__c (
+   label('medical_inquiry_medical_inquiry'),
+   active(true),
+   pagelayouts('Pagelayout.itf_medical_inquiry__c'),
+   object('Object.medical_inquiry__v'),
+   objecttype('Objecttype.medical_inquiry__v.medical_inquiry__v'),
+   record_creation_layout('Pagelayout.itf_medical_inquiry__c')
+);

@@ -1,0 +1,6 @@
+Typefield itf_nature_of_request__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.itf_market_access_itf_nature_of_request__c.providing_payer_policy_insight__c'),
+   default_value('Picklist.itf_market_access_itf_nature_of_request__c.providing_payer_policy_insight__c')
+);

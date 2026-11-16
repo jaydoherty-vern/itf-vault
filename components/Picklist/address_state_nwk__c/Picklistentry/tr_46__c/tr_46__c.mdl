@@ -1,0 +1,5 @@
+Picklistentry tr_46__c (
+   value('TR_Kahramanmaraş'),
+   order(1708),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry hardware_hq__c (
+   value('Hardware - HQ User'),
+   order(2),
+   active(true)
+);

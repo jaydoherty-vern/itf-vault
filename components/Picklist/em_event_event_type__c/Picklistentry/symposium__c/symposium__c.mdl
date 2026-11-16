@@ -1,0 +1,5 @@
+Picklistentry symposium__c (
+   value('Symposium'),
+   order(32),
+   active(true)
+);

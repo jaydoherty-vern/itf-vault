@@ -1,0 +1,5 @@
+Picklistentry si_102__c (
+   value('SI_Radovljica'),
+   order(1628),
+   active(true)
+);

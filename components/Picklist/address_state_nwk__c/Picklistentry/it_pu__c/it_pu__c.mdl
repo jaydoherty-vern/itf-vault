@@ -1,0 +1,5 @@
+Picklistentry it_pu__c (
+   value('IT_Pesaro and Urbino'),
+   order(902),
+   active(true)
+);

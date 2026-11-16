@@ -1,0 +1,4 @@
+Typefield itf_test_comments_flow__c (
+   source('standard'),
+   required(false)
+);

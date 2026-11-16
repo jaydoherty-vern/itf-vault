@@ -1,0 +1,5 @@
+Picklistentry bs_cs__c (
+   value('Central Andros'),
+   order(120),
+   active(true)
+);

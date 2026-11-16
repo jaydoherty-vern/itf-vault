@@ -1,0 +1,10 @@
+RECREATE Actiontrigger set_mif_status_to_completed_medical_inqu__c (
+   label('Set MIF Status to In Progress/Completed'),
+   active(true),
+   description(),
+   object('Object.medical_inquiry__v'),
+   event('BEFORE_UPDATE'),
+   order(200),
+   Actionblock(@Actionblock/action_block1__c.mdl),
+   Actionblock(@Actionblock/action_block2__c.mdl)
+);

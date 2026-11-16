@@ -1,0 +1,5 @@
+Picklistentry be_wht__c (
+   value('BE-WHT'),
+   order(355),
+   active(true)
+);

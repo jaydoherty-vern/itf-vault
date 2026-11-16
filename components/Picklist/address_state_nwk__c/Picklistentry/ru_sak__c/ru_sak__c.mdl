@@ -1,0 +1,5 @@
+Picklistentry ru_sak__c (
+   value('RU_Sakhalinskaya oblast'''),
+   order(1541),
+   active(true)
+);

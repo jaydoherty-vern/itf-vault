@@ -1,0 +1,11 @@
+Typefield hcp_status_qs_vod__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_hcp_status_qs_vod__c.active__c',
+         'Picklist.account_hcp_status_qs_vod__c.dead__c',
+         'Picklist.account_hcp_status_qs_vod__c.inactive__c',
+         'Picklist.account_hcp_status_qs_vod__c.retired__c',
+         'Picklist.account_hcp_status_qs_vod__c.undetermined__c',
+         'Picklist.account_hcp_status_qs_vod__c.unverified__c'),
+   default_value('Picklist.account_hcp_status_qs_vod__c.unverified__c')
+);

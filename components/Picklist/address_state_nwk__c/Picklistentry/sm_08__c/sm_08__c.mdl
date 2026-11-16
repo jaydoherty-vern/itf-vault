@@ -1,0 +1,5 @@
+Picklistentry sm_08__c (
+   value('SM_Montegiardino'),
+   order(1664),
+   active(true)
+);

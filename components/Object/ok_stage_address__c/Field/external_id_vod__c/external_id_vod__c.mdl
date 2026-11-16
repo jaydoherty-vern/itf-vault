@@ -1,0 +1,20 @@
+Field external_id_vod__c (
+   label('External ID'),
+   type('String'),
+   active(true),
+   description('This field is loaded from the Cegedim One Key data file. This is an out-of-the box veeva field used by the Professional Account layout. In the Nordics, all users have access to this field.
+Used only for data-loading'),
+   required(false),
+   unique(true),
+   max_length(120),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

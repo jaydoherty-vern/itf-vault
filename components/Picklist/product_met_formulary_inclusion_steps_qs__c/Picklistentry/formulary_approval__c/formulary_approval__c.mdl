@@ -1,0 +1,5 @@
+Picklistentry formulary_approval__c (
+   value('Formulary approval'),
+   order(5),
+   active(true)
+);

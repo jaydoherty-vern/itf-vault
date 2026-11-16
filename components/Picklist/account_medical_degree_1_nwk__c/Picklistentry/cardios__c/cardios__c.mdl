@@ -1,0 +1,5 @@
+Picklistentry cardios__c (
+   value('Cardiosurgery Diploma'),
+   order(18),
+   active(true)
+);

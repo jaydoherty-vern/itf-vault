@@ -1,0 +1,5 @@
+Picklistentry tala__c (
+   value('Tala'),
+   order(128),
+   active(true)
+);

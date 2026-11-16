@@ -1,0 +1,5 @@
+Picklistentry it_pt__c (
+   value('IT_Pistoia'),
+   order(906),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mcuph__c (
+   value('MCUPH'),
+   order(16),
+   active(true)
+);

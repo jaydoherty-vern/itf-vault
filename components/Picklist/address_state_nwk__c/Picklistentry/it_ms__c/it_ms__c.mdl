@@ -1,0 +1,5 @@
+Picklistentry it_ms__c (
+   value('IT_Massa-Carrara'),
+   order(884),
+   active(true)
+);

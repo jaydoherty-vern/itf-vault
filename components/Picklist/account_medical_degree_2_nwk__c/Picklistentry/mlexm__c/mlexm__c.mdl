@@ -1,0 +1,5 @@
+Picklistentry mlexm__c (
+   value('Diploma in Forensic Medicine'),
+   order(60),
+   active(true)
+);

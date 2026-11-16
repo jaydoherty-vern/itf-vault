@@ -1,0 +1,28 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.signature_request__v.base__v">
+    <vault:section title="Signature Request Information" name="signature_request_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="signature_request_uuid__v" />
+            <vault:field reference="call2__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="call_date__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="signature_request_status__v" />
+            <vault:field reference="requested_datetime__v" />
+            <vault:field reference="signature_captured_datetime__v" />
+            <vault:field reference="signature_accepted_datetime__v" />
+            <vault:field reference="request_canceled_datetime__v" />
+            <vault:field reference="signature_declined_datetime__v" />
+            <vault:field reference="request_expired_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

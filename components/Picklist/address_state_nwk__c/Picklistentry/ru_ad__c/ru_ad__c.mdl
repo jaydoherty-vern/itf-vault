@@ -1,0 +1,5 @@
+Picklistentry ru_ad__c (
+   value('RU_Adygeya, Respublika'),
+   order(1483),
+   active(true)
+);

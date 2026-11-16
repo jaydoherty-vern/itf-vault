@@ -1,0 +1,5 @@
+Picklistentry customer__c (
+   value('Customer'),
+   order(1),
+   active(true)
+);

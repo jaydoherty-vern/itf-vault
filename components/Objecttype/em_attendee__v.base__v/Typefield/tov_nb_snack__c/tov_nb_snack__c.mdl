@@ -1,0 +1,4 @@
+Typefield tov_nb_snack__c (
+   source('standard'),
+   required(false)
+);

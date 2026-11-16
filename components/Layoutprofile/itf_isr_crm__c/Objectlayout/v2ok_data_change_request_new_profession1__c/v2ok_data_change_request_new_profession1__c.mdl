@@ -1,0 +1,8 @@
+Objectlayout v2ok_data_change_request_new_profession1__c (
+   label('v2ok_data_change_request_new_professional_at_new_workplace'),
+   active(true),
+   pagelayouts('Pagelayout.data_change_request_layout1__c'),
+   object('Object.v2ok_data_change_request__c'),
+   objecttype('Objecttype.v2ok_data_change_request__c.new_professional_at_new_workplace__c'),
+   record_creation_layout('Pagelayout.data_change_request_layout1__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry fellow_of_the_faculty_of_pharmaceutical__c (
+   value('Fellow of the Faculty of Pharmaceutical Medicine (FFPH)'),
+   order(10),
+   active(true)
+);

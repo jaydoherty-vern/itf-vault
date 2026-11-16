@@ -1,0 +1,6 @@
+RECREATE Tabcollection events_management__c (
+   label('Events Management'),
+   active(true),
+   help_content(),
+   Tabcollectionitem(@Tabcollectionitem/tov_health_authority__c.mdl)
+);

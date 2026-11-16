@@ -1,0 +1,5 @@
+Picklistentry do_04__c (
+   value('Barahona'),
+   order(185),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ch_lu__c (
+   value('CH_Lucerne'),
+   order(101),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield tov_speaker_fee__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry az_ism__c (
+   value('AZ-ISM'),
+   order(199),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mk_07__c (
+   value('MK_Bosilovo'),
+   order(1212),
+   active(true)
+);

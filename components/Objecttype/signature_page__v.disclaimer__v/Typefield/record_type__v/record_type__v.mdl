@@ -1,0 +1,8 @@
+Typefield record_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.signature_page_record_type__v.congress__v',
+         'Picklist.signature_page_record_type__v.investigator_meeting__v',
+         'Picklist.signature_page_record_type__v.round_table__v',
+         'Picklist.signature_page_record_type__v.speaker_program__v')
+);

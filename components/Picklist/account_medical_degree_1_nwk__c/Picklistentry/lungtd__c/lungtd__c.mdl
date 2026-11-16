@@ -1,0 +1,5 @@
+Picklistentry lungtd__c (
+   value('Lung And Tuberculosis Diseases Diploma'),
+   order(197),
+   active(true)
+);

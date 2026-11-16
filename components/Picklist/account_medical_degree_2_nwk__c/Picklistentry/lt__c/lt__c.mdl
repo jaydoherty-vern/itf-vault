@@ -1,0 +1,5 @@
+Picklistentry lt__c (
+   value('LÃ¤Ã¤ketieteen tohtorintutkinto'),
+   order(189),
+   active(true)
+);

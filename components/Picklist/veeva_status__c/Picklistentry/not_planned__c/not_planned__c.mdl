@@ -1,0 +1,5 @@
+Picklistentry not_planned__c (
+   value('Not Planned'),
+   order(8),
+   active(true)
+);

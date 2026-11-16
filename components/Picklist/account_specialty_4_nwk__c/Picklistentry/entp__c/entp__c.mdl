@@ -1,0 +1,5 @@
+Picklistentry entp__c (
+   value('Ear, Nose and Throat Diseases, Phoniatrics'),
+   order(118),
+   active(true)
+);

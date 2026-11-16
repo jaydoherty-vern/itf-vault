@@ -1,0 +1,5 @@
+Picklistentry endocrinology_diabetes__c (
+   value('Endocrinology, Diabetes'),
+   order(5),
+   active(true)
+);

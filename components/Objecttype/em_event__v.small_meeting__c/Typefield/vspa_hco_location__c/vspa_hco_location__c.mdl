@@ -1,0 +1,4 @@
+Typefield vspa_hco_location__c (
+   source('custom'),
+   required(false)
+);

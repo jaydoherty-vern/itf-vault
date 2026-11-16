@@ -1,0 +1,4 @@
+Typefield rate_qualities__c (
+   source('standard'),
+   required(false)
+);

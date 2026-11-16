@@ -1,0 +1,5 @@
+Picklistentry rs_15__c (
+   value('RS_Zaječarski okrug'),
+   order(1480),
+   active(true)
+);

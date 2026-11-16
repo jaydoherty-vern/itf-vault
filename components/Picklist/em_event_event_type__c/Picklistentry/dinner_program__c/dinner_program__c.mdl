@@ -1,0 +1,5 @@
+Picklistentry dinner_program__c (
+   value('Dinner Program'),
+   order(7),
+   active(true)
+);

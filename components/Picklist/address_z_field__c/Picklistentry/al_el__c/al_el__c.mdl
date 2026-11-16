@@ -1,0 +1,5 @@
+Picklistentry al_el__c (
+   value('AL-EL'),
+   order(73),
+   active(true)
+);

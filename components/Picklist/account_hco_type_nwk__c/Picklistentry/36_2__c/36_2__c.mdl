@@ -1,0 +1,5 @@
+Picklistentry 36_2__c (
+   value('Health Care System Administration, Social Health Insurance Agencies'),
+   order(47),
+   active(true)
+);

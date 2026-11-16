@@ -1,0 +1,5 @@
+Picklistentry hmd__c (
+   value('Doctor of Homeopathic Medicine'),
+   order(87),
+   active(true)
+);

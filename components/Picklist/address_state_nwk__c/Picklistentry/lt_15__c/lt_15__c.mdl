@@ -1,0 +1,5 @@
+Picklistentry lt_15__c (
+   value('LT_Kauno miestas'),
+   order(990),
+   active(true)
+);

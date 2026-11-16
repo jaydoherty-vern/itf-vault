@@ -1,0 +1,4 @@
+Typefield integration_date__c (
+   source('standard'),
+   required(false)
+);

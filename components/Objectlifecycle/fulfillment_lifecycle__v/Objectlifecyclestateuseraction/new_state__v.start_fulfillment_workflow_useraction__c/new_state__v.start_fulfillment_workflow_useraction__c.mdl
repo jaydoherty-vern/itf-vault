@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction new_state__v.start_fulfillment_workflow_useraction__c (
+   label('Start Fulfillment Workflow'),
+   rule(@rule.xml),
+   order(1000)
+);

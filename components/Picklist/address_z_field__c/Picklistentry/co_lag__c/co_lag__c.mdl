@@ -1,0 +1,5 @@
+Picklistentry co_lag__c (
+   value('CO-LAG'),
+   order(783),
+   active(true)
+);

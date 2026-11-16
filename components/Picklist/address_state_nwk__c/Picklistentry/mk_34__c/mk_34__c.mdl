@@ -1,0 +1,5 @@
+Picklistentry mk_34__c (
+   value('MK_Ilinden'),
+   order(1234),
+   active(true)
+);

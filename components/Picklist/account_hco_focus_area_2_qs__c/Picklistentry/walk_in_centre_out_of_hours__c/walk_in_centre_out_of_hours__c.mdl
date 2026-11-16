@@ -1,0 +1,5 @@
+Picklistentry walk_in_centre_out_of_hours__c (
+   value('Walk-In Centre & Out of Hours'),
+   order(104),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cv_pr__c (
+   value('CV-PR'),
+   order(830),
+   active(true)
+);

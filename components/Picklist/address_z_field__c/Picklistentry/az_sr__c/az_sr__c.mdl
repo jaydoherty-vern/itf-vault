@@ -1,0 +1,5 @@
+Picklistentry az_sr__c (
+   value('AZ-SR'),
+   order(235),
+   active(true)
+);

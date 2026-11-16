@@ -1,0 +1,5 @@
+Picklistentry hu_mi__c (
+   value('HU_Miskolc'),
+   order(698),
+   active(true)
+);

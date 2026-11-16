@@ -1,0 +1,28 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_speaker_cap__v.product_cap__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="speaker__v" required="true" />
+            <vault:field reference="starting_year__v" required="true" />
+            <vault:field reference="start_date__v" readOnly="true" />
+            <vault:field reference="year_to_date_spend__v" readOnly="true" />
+            <vault:field reference="predicted_spend__v" />
+            <vault:field reference="cap_remaining_committed__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="product__v" required="true" />
+            <vault:field reference="annual_cap__v" required="true" />
+            <vault:field reference="end_date__v" readOnly="true" />
+            <vault:field reference="upcoming_committed_costs__v" readOnly="true" />
+            <vault:field reference="cap_remaining__v" />
+            <vault:field reference="year_to_date_utilization__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry paint__c (
+   value('Special Pain Therapy'),
+   order(420),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mk_51__c (
+   value('MK_Makedonska Kamenica'),
+   order(1250),
+   active(true)
+);

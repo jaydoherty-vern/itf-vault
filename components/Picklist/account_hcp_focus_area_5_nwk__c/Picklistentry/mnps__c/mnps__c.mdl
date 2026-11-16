@@ -1,0 +1,5 @@
+Picklistentry mnps__c (
+   value('MNPS'),
+   order(249),
+   active(true)
+);

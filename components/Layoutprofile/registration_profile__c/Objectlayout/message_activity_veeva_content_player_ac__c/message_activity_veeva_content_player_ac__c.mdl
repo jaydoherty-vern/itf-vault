@@ -1,0 +1,8 @@
+Objectlayout message_activity_veeva_content_player_ac__c (
+   label('message_activity_veeva_content_player_activity'),
+   active(true),
+   pagelayouts('Pagelayout.message_activity_vod__c'),
+   object('Object.message_activity__v'),
+   objecttype('Objecttype.message_activity__v.veeva_content_player_activity__v'),
+   record_creation_layout('Pagelayout.message_activity_vod__c')
+);

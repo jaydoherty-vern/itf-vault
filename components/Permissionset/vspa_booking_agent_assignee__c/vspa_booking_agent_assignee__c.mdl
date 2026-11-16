@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_booking_agent_assignee__c (
+   label('VSPA_Booking_Agent_Assignee'),
+   active(true),
+   description('Enable the correct page layout to end user that have assigned call.'),
+   object.call2__v.assigner__v.field_actions('read'),
+   object.call2__v.assignment_datetime__v.field_actions('read'),
+   object.call2__v.call2_status__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

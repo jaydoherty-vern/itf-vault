@@ -1,0 +1,5 @@
+Picklistentry allergology_immunology__c (
+   value('Allergology & Immunology'),
+   order(3),
+   active(true)
+);

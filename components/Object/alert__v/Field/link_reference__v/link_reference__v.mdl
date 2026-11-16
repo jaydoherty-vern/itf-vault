@@ -1,0 +1,29 @@
+Field link_reference__v (
+   label('Link Reference'),
+   type('String'),
+   active(true),
+   description('This field can be populated with three possible values.
+
+An absolute URL and the text to display separated by a comma. The format is ABS_URL,DISPLAY_TEXT (e.g. "http://www.cnn.com, CNN"). 
+
+A relative SFDC URL and the text to display separated by a comma. The format is REL_URL,DISPLAY_TEXT (e.g. "/home/home.jsp, Veeva CRM"). 
+
+An 18 character SFDC Id. This will drill into the detail page for the record offline. The display text for the link is the value of the Name field for the record. If the system cannot determine the source object or the referenced record is not available offline, then the link does not display.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('This field can be populated with three possible values.
+
+An absolute URL and the text to display separated by a comma. The format is ABS_URL,DISPLAY_TEXT (e.g. "http://www.cnn.com, CNN"). 
+
+A relative SFDC URL and the text to display separated by a comma.'),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry euro__c (
+   value('Euro'),
+   order(1),
+   active(true)
+);

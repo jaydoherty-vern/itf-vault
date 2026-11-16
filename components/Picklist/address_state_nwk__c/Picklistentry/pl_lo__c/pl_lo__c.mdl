@@ -1,0 +1,5 @@
+Picklistentry pl_lo__c (
+   value('PL_Łomża'),
+   order(1352),
+   active(true)
+);

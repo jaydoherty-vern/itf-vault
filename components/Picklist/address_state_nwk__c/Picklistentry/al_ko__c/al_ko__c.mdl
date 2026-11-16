@@ -1,0 +1,5 @@
+Picklistentry al_ko__c (
+   value('AL_Korçë (District)'),
+   order(27),
+   active(true)
+);

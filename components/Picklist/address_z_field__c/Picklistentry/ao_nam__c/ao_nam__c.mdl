@@ -1,0 +1,5 @@
+Picklistentry ao_nam__c (
+   value('AO-NAM'),
+   order(129),
+   active(true)
+);

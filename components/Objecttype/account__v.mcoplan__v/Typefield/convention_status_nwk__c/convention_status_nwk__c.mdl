@@ -1,0 +1,5 @@
+Typefield convention_status_nwk__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_convention_status_nwk__c.test__c')
+);

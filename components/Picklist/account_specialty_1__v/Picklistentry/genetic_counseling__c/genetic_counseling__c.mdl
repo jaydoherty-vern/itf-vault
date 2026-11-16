@@ -1,0 +1,5 @@
+Picklistentry genetic_counseling__c (
+   value('GENETIC COUNSELING'),
+   order(99),
+   active(true)
+);

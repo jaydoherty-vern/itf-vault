@@ -1,0 +1,5 @@
+Picklistentry it_ro__c (
+   value('IT_Rovigo'),
+   order(917),
+   active(true)
+);

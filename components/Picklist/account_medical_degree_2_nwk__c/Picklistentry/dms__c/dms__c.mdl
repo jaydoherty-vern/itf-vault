@@ -1,0 +1,5 @@
+Picklistentry dms__c (
+   value('Dr. rer. hum.'),
+   order(138),
+   active(true)
+);

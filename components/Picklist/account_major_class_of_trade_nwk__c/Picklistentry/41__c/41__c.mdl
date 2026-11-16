@@ -1,0 +1,5 @@
+Picklistentry 41__c (
+   value('Providers of Stationary Health Care'),
+   order(18),
+   active(true)
+);

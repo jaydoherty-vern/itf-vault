@@ -1,0 +1,5 @@
+Picklistentry mk_56__c (
+   value('MK_Novo Selo'),
+   order(1256),
+   active(true)
+);

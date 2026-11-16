@@ -1,0 +1,5 @@
+Picklistentry 11_97__c (
+   value('Pharmacy, Other Specialty Clinic'),
+   order(219),
+   active(true)
+);

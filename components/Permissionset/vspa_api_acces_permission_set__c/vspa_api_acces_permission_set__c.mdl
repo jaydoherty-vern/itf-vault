@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_api_acces_permission_set__c (
+   label('VSPA_API_Acces_Permission_Set'),
+   active(true),
+   description('Enables API functions.'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

@@ -1,0 +1,5 @@
+Picklistentry guinea_franc__c (
+   value('Guinea Franc'),
+   order(67),
+   active(true)
+);

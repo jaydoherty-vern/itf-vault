@@ -1,0 +1,5 @@
+Picklistentry in_development__c (
+   value('In development'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,19 @@
+RECREATE Layoutrule content_acknowledgement_layout__c.readonly_fields_received_by__c (
+   active(true),
+   description('Layout rule to mark Received By fields on AOC record as read-only when signature date is populated.'),
+   displayed_as_readonly_fields('received_by__v',
+      'received_by_firstname__v',
+      'received_by_lastname__v',
+      'received_by_middle__v',
+      'received_title__v'),
+   displayed_as_required_fields(),
+   expression('Not(IsBlank(signature_date__v))'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections(),
+   hide_layout(false),
+   label('Read-Only Fields: Received By'),
+   order(200)
+);

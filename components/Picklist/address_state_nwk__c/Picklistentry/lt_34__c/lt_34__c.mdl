@@ -1,0 +1,5 @@
+Picklistentry lt_34__c (
+   value('LT_Pasvalys'),
+   order(1011),
+   active(true)
+);

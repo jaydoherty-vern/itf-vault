@@ -1,0 +1,5 @@
+Picklistentry hu_vm__c (
+   value('HU_Veszprém (City)'),
+   order(716),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectlayout remote_meeting_attendee_on24__c (
+   label('remote_meeting_attendee_on24'),
+   active(true),
+   pagelayouts('Pagelayout.remote_meeting_attendee_layout__c'),
+   object('Object.remote_meeting_attendee__v'),
+   objecttype('Objecttype.remote_meeting_attendee__v.on24__v'),
+   record_creation_layout('Pagelayout.remote_meeting_attendee_layout__c')
+);

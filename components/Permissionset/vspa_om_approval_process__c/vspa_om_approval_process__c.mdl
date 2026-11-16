@@ -1,0 +1,13 @@
+RECREATE Permissionset vspa_om_approval_process__c (
+   label('VSPA_OM_Approval_Process'),
+   active(true),
+   description('Enables the Approval Process functionality for Order Management'),
+   object.order__v.approval_status__v.field_actions('edit',
+      'read'),
+   object.order__v.lock__v.field_actions('edit',
+      'read'),
+   object.order__v.order_status__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

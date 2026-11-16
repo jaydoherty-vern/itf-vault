@@ -1,0 +1,5 @@
+Picklistentry alz__c (
+   value('Alzheimer''s Disease'),
+   order(16),
+   active(true)
+);

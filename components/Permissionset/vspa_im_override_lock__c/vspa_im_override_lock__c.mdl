@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_im_override_lock__c (
+   label('VSPA_IM_Override_Lock'),
+   active(true),
+   description('EXTRA_Enables the 18R1 Override Lock for Inventory Monitoring functionality.'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

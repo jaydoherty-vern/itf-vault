@@ -1,0 +1,5 @@
+Picklistentry gb_bkm__c (
+   value('GB-BKM'),
+   order(432),
+   active(false)
+);

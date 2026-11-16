@@ -1,0 +1,5 @@
+Picklistentry si_190__c (
+   value('SI_Žalec'),
+   order(1649),
+   active(true)
+);

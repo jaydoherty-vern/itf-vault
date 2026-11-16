@@ -1,0 +1,20 @@
+RECREATE Report medical_inquiry_by_delivery_method__c (
+   label('Medical Inquiries by Delivery Method'),
+   active(true),
+   description('Veeva Services provided report.  If modifications are needed, please clone the report.'),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.medical_inquiry__c'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags('veeva__sys'),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

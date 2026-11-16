@@ -1,0 +1,18 @@
+Field itf_kam_handoff__c (
+   label('KAM Handoff'),
+   type('Boolean'),
+   active(true),
+   description('https://itftherapeutics.lightning.force.com/lightning/r/Requirement_vod__c/a1uVy00000RuSDNIA3/view'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(264),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry pharasst__c (
+   value('Pharmacy Assistance'),
+   order(400),
+   active(true)
+);

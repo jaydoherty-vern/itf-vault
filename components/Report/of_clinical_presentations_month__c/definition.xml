@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.ownerid__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.call_datetime__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.call2_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___key_message__v.name__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="call2_key_message__v___call2__v.call2_status__v" rightValue="submitted__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="call2_key_message__v___call2__v.is_parent_call__v" rightValue="1" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="call2_key_message__v.key_message__v" rightValue="Group Presentation" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="call2_key_message__v___call2__v.object_type__v" rightValue="MSL Meeting Brief" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="call2_key_message__v___call2__v.call_date__v" period="MONTH" groupBySortOn="call2_key_message__v___call2__v.call_date__v" groupBySortOrder="DESCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="call2_key_message__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

@@ -1,0 +1,5 @@
+Picklistentry as__c (
+   value('Abdominal Surgery'),
+   order(1),
+   active(true)
+);

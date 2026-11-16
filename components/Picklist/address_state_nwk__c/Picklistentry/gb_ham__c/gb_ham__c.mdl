@@ -1,0 +1,5 @@
+Picklistentry gb_ham__c (
+   value('GB-HAM'),
+   order(504),
+   active(false)
+);

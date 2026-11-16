@@ -1,0 +1,5 @@
+Picklistentry cz_pa__c (
+   value('CZ-PA'),
+   order(962),
+   active(true)
+);

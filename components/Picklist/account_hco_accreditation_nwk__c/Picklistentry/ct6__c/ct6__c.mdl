@@ -1,0 +1,5 @@
+Picklistentry ct6__c (
+   value('Advanced Cancer Treatment (Regional)'),
+   order(0),
+   active(true)
+);

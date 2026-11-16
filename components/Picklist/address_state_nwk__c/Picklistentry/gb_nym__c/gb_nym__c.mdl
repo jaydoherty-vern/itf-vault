@@ -1,0 +1,5 @@
+Picklistentry gb_nym__c (
+   value('GB-NYM'),
+   order(571),
+   active(false)
+);

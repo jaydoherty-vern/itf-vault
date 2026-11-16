@@ -1,0 +1,5 @@
+Picklistentry es_ga__c (
+   value('ES-GA'),
+   order(244),
+   active(false)
+);

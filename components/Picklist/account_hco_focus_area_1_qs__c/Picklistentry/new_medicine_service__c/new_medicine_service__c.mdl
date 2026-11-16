@@ -1,0 +1,5 @@
+Picklistentry new_medicine_service__c (
+   value('New Medicine Service'),
+   order(90),
+   active(true)
+);

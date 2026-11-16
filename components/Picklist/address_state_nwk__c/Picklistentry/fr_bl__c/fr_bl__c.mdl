@@ -1,0 +1,5 @@
+Picklistentry fr_bl__c (
+   value('FR_Saint-Barthélemy'),
+   order(362),
+   active(true)
+);

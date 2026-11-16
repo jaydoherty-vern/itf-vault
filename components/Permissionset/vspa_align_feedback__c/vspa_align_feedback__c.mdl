@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_align_feedback__c (
+   label('VSPA_ALIGN_Feedback'),
+   active(true),
+   description('feedback permission set https://crmhelp.veeva.com/doc/Content/CRM_topics/Accounts/Territory_Management/TerritoryFeedback.htm'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

@@ -1,0 +1,17 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.user_detail__v.user_detail__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="additional_zoom_dial_in_countries__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

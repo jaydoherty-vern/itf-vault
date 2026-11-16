@@ -1,0 +1,5 @@
+Picklistentry endoc__c (
+   value('Endocrinology'),
+   order(126),
+   active(true)
+);

@@ -1,0 +1,18 @@
+RECREATE Picklist smb_pmo_defect_qs_pmo_country__c (
+   label('Country'),
+   active(true),
+   Picklistentry(@Picklistentry/belgium__c.mdl),
+   Picklistentry(@Picklistentry/core__c.mdl),
+   Picklistentry(@Picklistentry/france__c.mdl),
+   Picklistentry(@Picklistentry/germany__c.mdl),
+   Picklistentry(@Picklistentry/ireland__c.mdl),
+   Picklistentry(@Picklistentry/italy__c.mdl),
+   Picklistentry(@Picklistentry/netherlands__c.mdl),
+   Picklistentry(@Picklistentry/portugal__c.mdl),
+   Picklistentry(@Picklistentry/russia__c.mdl),
+   Picklistentry(@Picklistentry/spain__c.mdl),
+   Picklistentry(@Picklistentry/turkey__c.mdl),
+   Picklistentry(@Picklistentry/uk__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

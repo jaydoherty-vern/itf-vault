@@ -1,0 +1,5 @@
+Picklistentry bi_weekly__c (
+   value('Bi-Weekly'),
+   order(1),
+   active(true)
+);

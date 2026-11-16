@@ -1,0 +1,5 @@
+Picklistentry mor__c (
+   value('Morphology'),
+   order(284),
+   active(true)
+);

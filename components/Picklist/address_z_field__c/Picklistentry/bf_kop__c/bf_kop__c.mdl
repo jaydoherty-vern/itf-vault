@@ -1,0 +1,5 @@
+Picklistentry bf_kop__c (
+   value('BF-KOP'),
+   order(389),
+   active(true)
+);

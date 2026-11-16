@@ -1,0 +1,5 @@
+Picklistentry user__v (
+   value('System User'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ct4__c (
+   value('Cancer Treatment (Special Focus)'),
+   order(7),
+   active(true)
+);

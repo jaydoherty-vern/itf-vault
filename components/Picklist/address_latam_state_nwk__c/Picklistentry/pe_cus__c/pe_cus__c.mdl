@@ -1,0 +1,5 @@
+Picklistentry pe_cus__c (
+   value('Cusco'),
+   order(345),
+   active(true)
+);

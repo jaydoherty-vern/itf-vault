@@ -1,0 +1,5 @@
+Picklistentry nakfa__c (
+   value('Nakfa'),
+   order(56),
+   active(true)
+);

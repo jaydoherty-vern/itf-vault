@@ -1,0 +1,5 @@
+Picklistentry si__v (
+   value('Sinhalese'),
+   order(308),
+   active(false)
+);

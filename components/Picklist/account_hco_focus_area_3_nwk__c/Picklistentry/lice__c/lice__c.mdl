@@ -1,0 +1,5 @@
+Picklistentry lice__c (
+   value('Head Lice and Nits Management'),
+   order(101),
+   active(true)
+);

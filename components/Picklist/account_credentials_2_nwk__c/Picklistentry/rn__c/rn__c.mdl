@@ -1,0 +1,5 @@
+Picklistentry rn__c (
+   value('Registered Nurse'),
+   order(31),
+   active(true)
+);

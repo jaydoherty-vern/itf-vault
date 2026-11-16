@@ -1,0 +1,5 @@
+Picklistentry 32_11__c (
+   value('Medical Image_Electro-cardio Diagnosis'),
+   order(252),
+   active(true)
+);

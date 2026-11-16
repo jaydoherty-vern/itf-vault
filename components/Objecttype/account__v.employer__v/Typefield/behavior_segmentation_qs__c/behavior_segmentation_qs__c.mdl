@@ -1,0 +1,8 @@
+Typefield behavior_segmentation_qs__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_behavior_segmentation_qs__c.frequent_prescriber__c',
+         'Picklist.account_behavior_segmentation_qs__c.has_never_prescribed__c',
+         'Picklist.account_behavior_segmentation_qs__c.infrequent_prescriber__c',
+         'Picklist.account_behavior_segmentation_qs__c.moderate_prescriber__c')
+);

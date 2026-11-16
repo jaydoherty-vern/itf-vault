@@ -1,0 +1,5 @@
+Picklistentry gb_cmn__c (
+   value('GB-CMN'),
+   order(461),
+   active(false)
+);

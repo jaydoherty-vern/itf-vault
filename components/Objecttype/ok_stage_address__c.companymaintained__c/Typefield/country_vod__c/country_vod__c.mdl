@@ -1,0 +1,16 @@
+Typefield country_vod__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.ok_stage_address_country_vod__c.ad__c',
+         'Picklist.ok_stage_address_country_vod__c.au__c',
+         'Picklist.ok_stage_address_country_vod__c.be__c',
+         'Picklist.ok_stage_address_country_vod__c.fr__c',
+         'Picklist.ok_stage_address_country_vod__c.gb__c',
+         'Picklist.ok_stage_address_country_vod__c.ie__c',
+         'Picklist.ok_stage_address_country_vod__c.it__c',
+         'Picklist.ok_stage_address_country_vod__c.lu__c',
+         'Picklist.ok_stage_address_country_vod__c.mc__c',
+         'Picklist.ok_stage_address_country_vod__c.mx__c',
+         'Picklist.ok_stage_address_country_vod__c.ru__c',
+         'Picklist.ok_stage_address_country_vod__c.uk__c')
+);

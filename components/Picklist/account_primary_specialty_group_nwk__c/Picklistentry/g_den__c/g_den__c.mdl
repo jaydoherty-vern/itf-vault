@@ -1,0 +1,5 @@
+Picklistentry g_den__c (
+   value('Dentistry'),
+   order(47),
+   active(true)
+);

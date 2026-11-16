@@ -1,0 +1,5 @@
+Picklistentry pharm__c (
+   value('PHARM'),
+   order(210),
+   active(true)
+);

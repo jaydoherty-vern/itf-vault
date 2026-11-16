@@ -1,0 +1,5 @@
+Picklistentry ao_lua__c (
+   value('AO-LUA'),
+   order(126),
+   active(true)
+);

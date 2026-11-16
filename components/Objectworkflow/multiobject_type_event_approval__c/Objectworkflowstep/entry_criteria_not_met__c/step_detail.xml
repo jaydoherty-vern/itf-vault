@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule>
+      <actions>
+        <action type="Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.EntryCriteriaNotMetSystemAction" />
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

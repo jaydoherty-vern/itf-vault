@@ -1,0 +1,6 @@
+Typefield country__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.v2ok_data_change_request_country__c.au__c'),
+   default_value('Picklist.v2ok_data_change_request_country__c.au__c')
+);

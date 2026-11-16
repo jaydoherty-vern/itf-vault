@@ -1,0 +1,10 @@
+RECREATE Picklist account_behavior_segmentation_qs__c (
+   label('Behavior Segmentation'),
+   active(true),
+   Picklistentry(@Picklistentry/frequent_prescriber__c.mdl),
+   Picklistentry(@Picklistentry/moderate_prescriber__c.mdl),
+   Picklistentry(@Picklistentry/infrequent_prescriber__c.mdl),
+   Picklistentry(@Picklistentry/has_never_prescribed__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

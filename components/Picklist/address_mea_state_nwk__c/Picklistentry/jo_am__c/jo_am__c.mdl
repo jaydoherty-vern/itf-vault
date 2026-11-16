@@ -1,0 +1,5 @@
+Picklistentry jo_am__c (
+   value('JO_Al ‘A̅şimah'),
+   order(36),
+   active(true)
+);

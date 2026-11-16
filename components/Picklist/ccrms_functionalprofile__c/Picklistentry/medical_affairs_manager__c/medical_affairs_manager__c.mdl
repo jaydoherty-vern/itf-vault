@@ -1,0 +1,5 @@
+Picklistentry medical_affairs_manager__c (
+   value('Medical Affairs Manager'),
+   order(2),
+   active(false)
+);

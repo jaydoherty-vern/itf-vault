@@ -1,0 +1,6 @@
+Typefield session_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_session_session_type__c.lunch_learn__c',
+         'Picklist.em_event_session_session_type__c.symposium__c')
+);

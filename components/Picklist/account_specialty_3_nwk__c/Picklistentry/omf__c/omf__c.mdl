@@ -1,0 +1,5 @@
+Picklistentry omf__c (
+   value('Oral & Maxillofacial Surgery (Medicine)'),
+   order(337),
+   active(true)
+);

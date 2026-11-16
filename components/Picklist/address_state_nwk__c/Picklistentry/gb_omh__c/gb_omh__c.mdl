@@ -1,0 +1,5 @@
+Picklistentry gb_omh__c (
+   value('GB-OMH'),
+   order(573),
+   active(false)
+);

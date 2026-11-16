@@ -1,0 +1,6 @@
+Typefield address_status_nwk__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.address_address_status_nwk__c.a__c',
+         'Picklist.address_address_status_nwk__c.i__c')
+);

@@ -1,0 +1,19 @@
+Field veeva_nwk_id_qs__c (
+   label('Network ID'),
+   type('String'),
+   active(true),
+   description('CCQS Network External ID for CRM account'),
+   required(false),
+   unique(true),
+   max_length(120),
+   help_content(),
+   list_column(false),
+   order(365),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry dnus__c (
+   value('Dr. rer. cur.'),
+   order(137),
+   active(true)
+);

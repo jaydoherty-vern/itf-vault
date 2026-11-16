@@ -1,0 +1,5 @@
+Picklistentry al_ku__c (
+   value('AL-KU'),
+   order(84),
+   active(true)
+);

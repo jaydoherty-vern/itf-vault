@@ -1,0 +1,5 @@
+Picklistentry elec__c (
+   value('Cardiac Electrophysiology'),
+   order(36),
+   active(true)
+);

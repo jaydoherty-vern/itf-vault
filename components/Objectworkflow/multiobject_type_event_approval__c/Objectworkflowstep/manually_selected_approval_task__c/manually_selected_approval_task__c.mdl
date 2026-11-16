@@ -1,0 +1,8 @@
+Objectworkflowstep manually_selected_approval_task__c (
+   label('Manually Selected Approval Task'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.approve_or_reject_decision1__c'),
+   tags('ManuallySelectedApprovalTask'),
+   step_detail(@step_detail.xml),
+   description()
+);

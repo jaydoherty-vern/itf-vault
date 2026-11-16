@@ -1,0 +1,5 @@
+Picklistentry scientific_material__c (
+   value('Scientific Material'),
+   order(43),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry honp__c (
+   value('HONP'),
+   order(109),
+   active(true)
+);

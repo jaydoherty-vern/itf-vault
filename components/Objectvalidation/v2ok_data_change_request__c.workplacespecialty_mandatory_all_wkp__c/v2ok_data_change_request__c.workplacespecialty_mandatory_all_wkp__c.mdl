@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.workplacespecialty_mandatory_all_wkp__c (
+   label('WorkplaceSpecialty_Mandatory_All_WKP'),
+   active(true),
+   expression('Not(And(object_type__vr.name__v="Workplaces",IsBlank(Text(workplace_specialty__c))))'),
+   description('Workplace specialty Mandatory for "All" data change request type'),
+   error_message('Mandatory for "All" data change request type'),
+   error_location('workplace_specialty__c')
+);

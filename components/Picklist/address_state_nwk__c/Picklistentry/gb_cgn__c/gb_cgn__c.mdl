@@ -1,0 +1,5 @@
+Picklistentry gb_cgn__c (
+   value('GB-CGN'),
+   order(450),
+   active(false)
+);

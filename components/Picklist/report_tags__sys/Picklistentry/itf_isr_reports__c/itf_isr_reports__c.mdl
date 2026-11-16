@@ -1,0 +1,5 @@
+Picklistentry itf_isr_reports__c (
+   value('ITF ISR Reports'),
+   order(5),
+   active(true)
+);

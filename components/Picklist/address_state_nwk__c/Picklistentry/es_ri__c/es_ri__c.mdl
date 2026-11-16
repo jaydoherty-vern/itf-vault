@@ -1,0 +1,5 @@
+Picklistentry es_ri__c (
+   value('ES-RI'),
+   order(250),
+   active(false)
+);

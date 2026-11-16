@@ -1,0 +1,5 @@
+Picklistentry bcects__c (
+   value('Rolandic Childhood epilepsy'),
+   order(398),
+   active(true)
+);

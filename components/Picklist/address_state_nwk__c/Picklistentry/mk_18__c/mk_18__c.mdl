@@ -1,0 +1,5 @@
+Picklistentry mk_18__c (
+   value('MK_Gevgelija'),
+   order(1230),
+   active(true)
+);

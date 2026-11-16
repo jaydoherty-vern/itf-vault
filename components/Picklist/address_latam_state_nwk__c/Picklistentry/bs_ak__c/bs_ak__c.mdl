@@ -1,0 +1,5 @@
+Picklistentry bs_ak__c (
+   value('Acklins'),
+   order(123),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry veeva_support_fix__c (
+   value('Veeva Support fix'),
+   order(7),
+   active(true)
+);

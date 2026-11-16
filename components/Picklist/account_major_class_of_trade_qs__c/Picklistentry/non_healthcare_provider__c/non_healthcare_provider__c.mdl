@@ -1,0 +1,5 @@
+Picklistentry non_healthcare_provider__c (
+   value('Non Healthcare Provider'),
+   order(0),
+   active(true)
+);

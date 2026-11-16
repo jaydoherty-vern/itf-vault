@@ -1,0 +1,5 @@
+Picklistentry sso__c (
+   value('SSO'),
+   order(16),
+   active(true)
+);

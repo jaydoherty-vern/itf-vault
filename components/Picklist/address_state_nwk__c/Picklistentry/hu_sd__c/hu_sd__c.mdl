@@ -1,0 +1,5 @@
+Picklistentry hu_sd__c (
+   value('HU_Szeged'),
+   order(708),
+   active(true)
+);

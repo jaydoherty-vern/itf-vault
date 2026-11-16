@@ -1,0 +1,5 @@
+Picklistentry ppmd_mda_safety_efficacy_posters__c (
+   value('PPMD/MDA Safety-Efficacy Posters'),
+   order(0),
+   active(true)
+);

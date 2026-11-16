@@ -1,0 +1,5 @@
+Picklistentry accomodation__c (
+   value('Accomodation'),
+   order(0),
+   active(true)
+);

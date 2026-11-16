@@ -1,0 +1,5 @@
+Picklistentry gdt__c (
+   value('Genetic Disorder (Thalassemia)'),
+   order(158),
+   active(true)
+);

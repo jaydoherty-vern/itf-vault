@@ -1,0 +1,5 @@
+Picklistentry pediatric_rehabilitation_medicine__c (
+   value('Pediatric Rehabilitation Medicine'),
+   order(263),
+   active(true)
+);

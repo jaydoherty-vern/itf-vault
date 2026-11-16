@@ -1,0 +1,5 @@
+Picklistentry al_vl__c (
+   value('AL-VL'),
+   order(102),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout one_time_layout__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('One-Time Layout'),
+   page_markup(@page_markup.xml)
+);

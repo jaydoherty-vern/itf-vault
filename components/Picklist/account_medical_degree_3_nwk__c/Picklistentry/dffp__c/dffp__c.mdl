@@ -1,0 +1,5 @@
+Picklistentry dffp__c (
+   value('Diploma of the Faculty of Family Planning (DFFP)'),
+   order(83),
+   active(true)
+);

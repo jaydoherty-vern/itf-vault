@@ -1,0 +1,5 @@
+Picklistentry gb_fer__c (
+   value('GB-FER'),
+   order(494),
+   active(false)
+);

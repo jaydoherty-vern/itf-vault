@@ -1,0 +1,5 @@
+Picklistentry bmt__c (
+   value('Bone Marrow Transplantation'),
+   order(47),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_051__c (
+   value('LV_Ķeguma novads (Ķegums)'),
+   order(1096),
+   active(true)
+);

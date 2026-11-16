@@ -1,0 +1,5 @@
+Picklistentry company_sponsored_trials__c (
+   value('Company-Sponsored Trials'),
+   order(3),
+   active(true)
+);

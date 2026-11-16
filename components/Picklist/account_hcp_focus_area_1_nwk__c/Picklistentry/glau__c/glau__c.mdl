@@ -1,0 +1,5 @@
+Picklistentry glau__c (
+   value('Glaucoma'),
+   order(166),
+   active(true)
+);

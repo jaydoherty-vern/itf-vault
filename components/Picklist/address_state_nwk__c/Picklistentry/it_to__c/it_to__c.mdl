@@ -1,0 +1,5 @@
+Picklistentry it_to__c (
+   value('IT_Turin'),
+   order(932),
+   active(true)
+);

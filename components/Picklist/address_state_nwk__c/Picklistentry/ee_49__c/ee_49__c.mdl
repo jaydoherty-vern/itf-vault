@@ -1,0 +1,5 @@
+Picklistentry ee_49__c (
+   value('EE_Jõgevamaa'),
+   order(172),
+   active(true)
+);

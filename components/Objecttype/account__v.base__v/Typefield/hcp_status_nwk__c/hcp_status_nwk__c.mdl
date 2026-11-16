@@ -1,0 +1,4 @@
+Typefield hcp_status_nwk__c (
+   source('standard'),
+   required(false)
+);

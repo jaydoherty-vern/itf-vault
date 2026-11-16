@@ -1,0 +1,5 @@
+Picklistentry lm__c (
+   value('Legal Medicine'),
+   order(235),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gay__v (
+   value('Gayo'),
+   order(163),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry russia__c (
+   value('Russia'),
+   order(8),
+   active(true)
+);

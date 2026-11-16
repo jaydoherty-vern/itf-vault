@@ -1,0 +1,5 @@
+Picklistentry approval_validated__c (
+   value('Approval validated'),
+   order(6),
+   active(true)
+);

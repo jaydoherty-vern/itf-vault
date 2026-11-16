@@ -1,0 +1,5 @@
+Picklistentry fr_33__c (
+   value('FR_Gironde'),
+   order(311),
+   active(true)
+);

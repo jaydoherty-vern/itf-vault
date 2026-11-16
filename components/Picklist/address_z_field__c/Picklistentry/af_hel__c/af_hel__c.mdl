@@ -1,0 +1,5 @@
+Picklistentry af_hel__c (
+   value('AF-HEL'),
+   order(23),
+   active(true)
+);

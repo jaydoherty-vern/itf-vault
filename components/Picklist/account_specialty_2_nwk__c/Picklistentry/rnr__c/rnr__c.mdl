@@ -1,0 +1,5 @@
+Picklistentry rnr__c (
+   value('Neuroradiology'),
+   order(308),
+   active(true)
+);

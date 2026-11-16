@@ -1,0 +1,6 @@
+Typefield vspa_cme_event__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_vspa_cme_event__c.no__c',
+         'Picklist.em_event_vspa_cme_event__c.yes__c')
+);

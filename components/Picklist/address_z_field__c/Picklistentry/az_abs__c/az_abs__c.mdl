@@ -1,0 +1,5 @@
+Picklistentry az_abs__c (
+   value('AZ-ABS'),
+   order(173),
+   active(true)
+);

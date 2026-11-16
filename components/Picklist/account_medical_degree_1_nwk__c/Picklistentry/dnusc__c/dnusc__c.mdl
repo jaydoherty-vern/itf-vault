@@ -1,0 +1,5 @@
+Picklistentry dnusc__c (
+   value('Dr. troph.'),
+   order(153),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry yen__c (
+   value('Yen'),
+   order(80),
+   active(true)
+);

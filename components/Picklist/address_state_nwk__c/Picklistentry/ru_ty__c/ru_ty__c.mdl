@@ -1,0 +1,5 @@
+Picklistentry ru_ty__c (
+   value('RU_Tyva, Respublika [Tuva]'),
+   order(1555),
+   active(true)
+);

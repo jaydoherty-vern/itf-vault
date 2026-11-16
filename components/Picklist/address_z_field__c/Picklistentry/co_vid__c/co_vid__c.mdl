@@ -1,0 +1,5 @@
+Picklistentry co_vid__c (
+   value('CO-VID'),
+   order(797),
+   active(true)
+);

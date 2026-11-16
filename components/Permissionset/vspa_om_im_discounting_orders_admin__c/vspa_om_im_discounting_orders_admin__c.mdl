@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_om_im_discounting_orders_admin__c (
+   label('VSPA_OM_IM_Discounting_Orders_Admin'),
+   active(true),
+   description('Enables Discounting Orders Based on Inventory Monitoring functionality for Admin'),
+   object.pricing_subrule__v.inventory_monitoring_field_value__v.field_actions('edit',
+      'read'),
+   object.pricing_subrule__v.inventory_monitoring_line_field__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

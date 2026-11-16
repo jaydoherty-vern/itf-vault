@@ -1,0 +1,5 @@
+Picklistentry cadadm__c (
+   value('Administrative Department Head'),
+   order(2),
+   active(true)
+);

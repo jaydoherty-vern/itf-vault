@@ -1,0 +1,8 @@
+Objectlayout account_itf_staff__c (
+   label('account_itf_staff'),
+   active(true),
+   pagelayouts('Pagelayout.professional_msl__c'),
+   object('Object.account__v'),
+   objecttype('Objecttype.account__v.itf_staff__c'),
+   record_creation_layout('Pagelayout.professional_msl__c')
+);

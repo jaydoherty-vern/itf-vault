@@ -1,0 +1,5 @@
+Picklistentry kuna__c (
+   value('Kuna'),
+   order(46),
+   active(true)
+);

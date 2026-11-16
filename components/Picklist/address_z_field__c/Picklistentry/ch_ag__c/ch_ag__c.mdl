@@ -1,0 +1,5 @@
+Picklistentry ch_ag__c (
+   value('CH-AG'),
+   order(650),
+   active(true)
+);

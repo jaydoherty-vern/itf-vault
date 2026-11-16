@@ -1,0 +1,5 @@
+Picklistentry pa_em__c (
+   value('Emberá'),
+   order(328),
+   active(true)
+);

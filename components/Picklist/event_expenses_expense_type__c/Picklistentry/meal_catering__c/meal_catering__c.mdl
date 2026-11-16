@@ -1,0 +1,5 @@
+Picklistentry meal_catering__c (
+   value('Meal/Catering'),
+   order(4),
+   active(true)
+);

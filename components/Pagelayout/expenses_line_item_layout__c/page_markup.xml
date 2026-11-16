@@ -1,0 +1,36 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.expenses_line_item__c.expenses_line_item__c">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="expense_item__c" required="true" />
+            <vault:field reference="value__c" required="true" />
+            <vault:field reference="comments__c" />
+            <vault:field reference="medical_event__c" />
+            <vault:field reference="call__c" />
+            <vault:field reference="ctrl_call2__c" />
+            <vault:field reference="call_expense__c" />
+            <vault:field reference="ctrl_medical_event__c" />
+            <vault:field reference="event_expense__c" />
+            <vault:field reference="local_currency__sys" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="expenses__c" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry speaker_training__c (
+   value('Speaker Training'),
+   order(28),
+   active(true)
+);

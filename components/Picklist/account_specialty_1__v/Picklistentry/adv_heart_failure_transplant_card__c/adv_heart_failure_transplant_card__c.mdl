@@ -1,0 +1,5 @@
+Picklistentry adv_heart_failure_transplant_card__c (
+   value('ADVANCED HEART FAILURE AND TRANSPLANT CARDIOLOGY'),
+   order(311),
+   active(true)
+);

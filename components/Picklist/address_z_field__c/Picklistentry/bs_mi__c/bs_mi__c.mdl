@@ -1,0 +1,5 @@
+Picklistentry bs_mi__c (
+   value('BS-MI'),
+   order(541),
+   active(true)
+);

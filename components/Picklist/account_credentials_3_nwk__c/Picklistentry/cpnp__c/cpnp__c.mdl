@@ -1,0 +1,5 @@
+Picklistentry cpnp__c (
+   value('CPNP'),
+   order(9),
+   active(true)
+);

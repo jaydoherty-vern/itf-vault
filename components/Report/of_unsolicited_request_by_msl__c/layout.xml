@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true" documentScope="ACTIVE">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:columns>
+    <vrp:column key="medical_inquiry__v.name__v" type="documentProperty" index="0" columnWidth="200" />
+    <vrp:column key="medical_inquiry__v.account__v" type="documentProperty" index="1" columnWidth="155" />
+    <vrp:column key="medical_inquiry__v.created_date__v" type="documentProperty" index="2" columnWidth="155" />
+    <vrp:column key="medical_inquiry__v.assign_to_user__v" type="documentProperty" index="3" columnWidth="155" />
+    <vrp:column key="medical_inquiry__v.call2__v" type="documentProperty" index="4" columnWidth="155" />
+    <vrp:column key="medical_inquiry__v.delivery_method__v" type="documentProperty" index="5" columnWidth="155" />
+    <vrp:column key="medical_inquiry__v.itf_msl_follow_up__c" type="documentProperty" index="6" columnWidth="155" />
+    <vrp:column key="medical_inquiry__v.status__v" type="documentProperty" index="7" columnWidth="155" />
+    <vrp:column key="medical_inquiry__v.inquiry_text__v" type="documentProperty" index="8" columnWidth="155" />
+  </vrp:columns>
+</vrp:reportFormat>

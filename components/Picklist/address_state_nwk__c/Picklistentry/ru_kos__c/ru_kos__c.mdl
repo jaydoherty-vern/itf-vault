@@ -1,0 +1,5 @@
+Picklistentry ru_kos__c (
+   value('RU_Kostromskaya oblast'''),
+   order(1514),
+   active(true)
+);

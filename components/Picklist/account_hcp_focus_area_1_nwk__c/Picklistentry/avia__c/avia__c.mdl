@@ -1,0 +1,5 @@
+Picklistentry avia__c (
+   value('Aviation Medicine'),
+   order(36),
+   active(true)
+);

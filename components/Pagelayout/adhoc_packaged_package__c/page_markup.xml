@@ -1,0 +1,39 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.tov_event_hospitality_package__c.adhoc_packaged_package__c">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="tov_event_name__c" />
+            <vault:field reference="tov_entry_total_package_amount__c" />
+            <vault:field reference="tov_subscription_fee__c" />
+            <vault:field reference="tov_event__c" />
+            <vault:field reference="tov_entry_description__c" />
+            <vault:field reference="tov_entry_package_additions__c" />
+            <vault:field reference="local_currency__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Transport" name="transport__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="tov_entry_transfer__c" />
+            <vault:field reference="tov_transportation_fee__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Packaged Hospitality" name="packaged_hospitality__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="tov_entry_nb_package_night__c" />
+            <vault:field reference="tov_entry_nb_package_meal__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attendees" name="attendees__c">
+        <vault:relatedObject relationship="attendees__cr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

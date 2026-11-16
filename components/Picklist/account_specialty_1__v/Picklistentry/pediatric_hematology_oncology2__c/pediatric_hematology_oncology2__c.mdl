@@ -1,0 +1,5 @@
+Picklistentry pediatric_hematology_oncology2__c (
+   value('PEDIATRIC HEMATOLOGY-ONCOLOGY'),
+   order(365),
+   active(true)
+);

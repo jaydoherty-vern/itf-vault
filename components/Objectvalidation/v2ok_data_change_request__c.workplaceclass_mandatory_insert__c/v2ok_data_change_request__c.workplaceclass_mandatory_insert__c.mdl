@@ -1,0 +1,17 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.workplaceclass_mandatory_insert__c (
+   label('WorkplaceClass_Mandatory_Insert'),
+   active(false),
+   expression('Not(
+And(
+Or(
+object_type__vr.api_name__v = ''person_account__c'',
+object_type__vr.api_name__v = ''workplaces__c''
+),
+change_type__c = ''create__c'',
+IsBlank(workplace_class__c)
+)
+)'),
+   description('Workplace Class is mandatory for Insert.'),
+   error_message('Workplace Class is mandatory for Insert.'),
+   error_location('workplace_class__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry hr_13__c (
+   value('HR_Zadarska županija'),
+   order(675),
+   active(true)
+);

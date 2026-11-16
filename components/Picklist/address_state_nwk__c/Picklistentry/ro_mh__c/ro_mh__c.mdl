@@ -1,0 +1,5 @@
+Picklistentry ro_mh__c (
+   value('RO_Mehedinți'),
+   order(1436),
+   active(true)
+);

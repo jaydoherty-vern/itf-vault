@@ -1,0 +1,5 @@
+Picklistentry bs_ck__c (
+   value('Crooked Island and Long Cay'),
+   order(96),
+   active(true)
+);

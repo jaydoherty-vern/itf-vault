@@ -1,0 +1,5 @@
+Picklistentry adl__c (
+   value('Adolescent Medicine (Pediatrics)'),
+   order(19),
+   active(true)
+);

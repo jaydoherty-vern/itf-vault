@@ -1,0 +1,5 @@
+Picklistentry radhyg__c (
+   value('Radiation Hygiene Diploma'),
+   order(320),
+   active(true)
+);

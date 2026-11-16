@@ -1,0 +1,5 @@
+Picklistentry neurology_neuro_opthamology_neuromuscula__c (
+   value('NEUROLOGY, NEURO-OPTHAMOLOGY, NEUROMUSCULAR DISORDERS'),
+   order(77),
+   active(true)
+);

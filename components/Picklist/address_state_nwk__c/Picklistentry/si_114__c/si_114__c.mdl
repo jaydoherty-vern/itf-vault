@@ -1,0 +1,5 @@
+Picklistentry si_114__c (
+   value('SI_Slovenske Konjice'),
+   order(1639),
+   active(true)
+);

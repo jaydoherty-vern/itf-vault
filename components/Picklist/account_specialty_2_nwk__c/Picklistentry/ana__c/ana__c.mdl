@@ -1,0 +1,5 @@
+Picklistentry ana__c (
+   value('Anatomy'),
+   order(31),
+   active(true)
+);

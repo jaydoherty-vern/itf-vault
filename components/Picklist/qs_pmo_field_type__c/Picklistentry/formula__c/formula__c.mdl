@@ -1,0 +1,5 @@
+Picklistentry formula__c (
+   value('Formula'),
+   order(1),
+   active(true)
+);

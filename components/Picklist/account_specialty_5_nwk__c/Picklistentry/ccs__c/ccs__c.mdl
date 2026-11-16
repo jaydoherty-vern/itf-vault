@@ -1,0 +1,5 @@
+Picklistentry ccs__c (
+   value('Surgical Critical Care'),
+   order(500),
+   active(true)
+);

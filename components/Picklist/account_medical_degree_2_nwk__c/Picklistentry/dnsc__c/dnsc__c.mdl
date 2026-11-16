@@ -1,0 +1,5 @@
+Picklistentry dnsc__c (
+   value('Doctor of natural science'),
+   order(100),
+   active(true)
+);

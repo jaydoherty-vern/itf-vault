@@ -1,0 +1,5 @@
+Picklistentry si_023__c (
+   value('SI_Domžale'),
+   order(1592),
+   active(true)
+);

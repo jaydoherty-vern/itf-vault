@@ -1,0 +1,5 @@
+Picklistentry ctr__c (
+   value('Cardiothoracic Radiology'),
+   order(55),
+   active(true)
+);

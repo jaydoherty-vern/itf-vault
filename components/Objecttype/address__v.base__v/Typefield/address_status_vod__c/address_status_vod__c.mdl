@@ -1,0 +1,4 @@
+Typefield address_status_vod__c (
+   source('standard'),
+   required(false)
+);

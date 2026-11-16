@@ -1,0 +1,5 @@
+Picklistentry buyer__c (
+   value('Buyer / Purchasing / Procurement Specialist'),
+   order(28),
+   active(true)
+);

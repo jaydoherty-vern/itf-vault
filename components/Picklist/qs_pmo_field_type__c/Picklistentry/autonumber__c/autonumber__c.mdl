@@ -1,0 +1,5 @@
+Picklistentry autonumber__c (
+   value('Auto Number'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,16 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.profiling_template__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="due_date__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="instructions__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="user_type__v" />
+            <vault:control reference="account_types_field_control__v" name="account_types_field_control__c" label="Account Types" />
+            <vault:control reference="product_field_control__v" name="product_field_control__c" label="Product" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Columns" name="columns_section_control__c" reference="columns_section_control__v" />
+</vault:page>

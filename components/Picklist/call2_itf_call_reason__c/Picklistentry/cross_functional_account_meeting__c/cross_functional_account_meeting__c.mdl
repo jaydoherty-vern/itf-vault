@@ -1,0 +1,5 @@
+Picklistentry cross_functional_account_meeting__c (
+   value('Cross-functional account meeting'),
+   order(7),
+   active(true)
+);

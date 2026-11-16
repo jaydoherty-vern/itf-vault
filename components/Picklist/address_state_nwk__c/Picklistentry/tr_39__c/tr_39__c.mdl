@@ -1,0 +1,5 @@
+Picklistentry tr_39__c (
+   value('TR_Kırklareli'),
+   order(1716),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry dr_biol_anim__c (
+   value('Dr. biol. anim.'),
+   order(0),
+   active(true)
+);

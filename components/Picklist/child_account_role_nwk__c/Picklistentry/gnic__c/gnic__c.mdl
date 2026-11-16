@@ -1,0 +1,5 @@
+Picklistentry gnic__c (
+   value('General Nurse in Charge'),
+   order(89),
+   active(true)
+);

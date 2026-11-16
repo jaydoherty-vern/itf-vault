@@ -1,0 +1,5 @@
+Picklistentry cd__c (
+   value('Chief or Head or Chairman of Department'),
+   order(34),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry bj_li__c (
+   value('BJ-LI'),
+   order(474),
+   active(true)
+);

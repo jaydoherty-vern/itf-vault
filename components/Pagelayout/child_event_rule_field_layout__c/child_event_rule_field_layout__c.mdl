@@ -1,0 +1,8 @@
+RECREATE Pagelayout child_event_rule_field_layout__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Child Event Rule Field Layout'),
+   page_markup(@page_markup.xml)
+);

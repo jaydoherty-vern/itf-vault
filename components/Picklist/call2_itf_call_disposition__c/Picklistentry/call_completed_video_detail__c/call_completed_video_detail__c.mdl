@@ -1,0 +1,5 @@
+Picklistentry call_completed_video_detail__c (
+   value('Call Completed - Video Detail'),
+   order(15),
+   active(true)
+);

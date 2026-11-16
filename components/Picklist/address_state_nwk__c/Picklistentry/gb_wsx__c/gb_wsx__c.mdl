@@ -1,0 +1,5 @@
+Picklistentry gb_wsx__c (
+   value('GB-WSX'),
+   order(647),
+   active(false)
+);

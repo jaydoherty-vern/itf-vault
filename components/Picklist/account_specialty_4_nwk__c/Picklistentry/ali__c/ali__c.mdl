@@ -1,0 +1,5 @@
+Picklistentry ali__c (
+   value('Clinical Lab Immunology (Allergy & Imm)'),
+   order(78),
+   active(true)
+);

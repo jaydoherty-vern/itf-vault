@@ -1,0 +1,5 @@
+Picklistentry kidney__c (
+   value('Kidney Disease & Cancer'),
+   order(207),
+   active(true)
+);

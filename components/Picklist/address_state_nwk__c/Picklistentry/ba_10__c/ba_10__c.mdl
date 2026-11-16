@@ -1,0 +1,5 @@
+Picklistentry ba_10__c (
+   value('BA_Kanton br. 10 (Livanjski kanton)'),
+   order(68),
+   active(true)
+);

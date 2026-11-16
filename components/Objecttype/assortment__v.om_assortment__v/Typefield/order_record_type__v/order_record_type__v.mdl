@@ -1,0 +1,7 @@
+Typefield order_record_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.assortment_order_record_type__v.direct__v',
+         'Picklist.assortment_order_record_type__v.return__c',
+         'Picklist.assortment_order_record_type__v.transfer__v')
+);

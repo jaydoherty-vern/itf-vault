@@ -1,0 +1,4 @@
+Typefield initial_risk_rating_pick_list__c (
+   source('standard'),
+   required(false)
+);

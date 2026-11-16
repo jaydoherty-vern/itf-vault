@@ -1,0 +1,19 @@
+Field ok_validated_ind_id__c (
+   label('OK_Validated_IND_ID'),
+   type('String'),
+   active(true),
+   description('Validated OneKey ID'),
+   required(false),
+   unique(false),
+   max_length(12),
+   help_content(),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

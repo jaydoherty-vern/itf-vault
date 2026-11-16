@@ -1,0 +1,5 @@
+Picklistentry lv_111__c (
+   value('LV_Augšdaugavas novads'),
+   order(1057),
+   active(true)
+);

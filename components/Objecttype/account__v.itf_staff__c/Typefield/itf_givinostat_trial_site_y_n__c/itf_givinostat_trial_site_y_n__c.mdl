@@ -1,0 +1,4 @@
+Typefield itf_givinostat_trial_site_y_n__c (
+   source('custom'),
+   required(false)
+);

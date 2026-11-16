@@ -1,0 +1,7 @@
+Picklistentry dty_case_document__sys (
+   value('Case Document'),
+   order(22),
+   active(true),
+   controlling_entries('dlc_unclassified__sys',
+         'dlc_general__sys')
+);

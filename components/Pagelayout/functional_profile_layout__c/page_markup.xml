@@ -1,0 +1,72 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_functional_profile__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="description__v" />
+            <vault:spacer />
+            <vault:field reference="crm_security_profile__v" />
+            <vault:field reference="crm_application_profile__v" />
+            <vault:field reference="crm_layout_profile__v" />
+            <vault:field reference="crm_security_policy__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="id" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Application Roles Assigned to Functional Profile" name="application_roles__c">
+        <vault:relatedObject relationship="aln_functional_profile_application_role__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="crm_application_role__v" width="200px" />
+            <vault:field reference="modified_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Groups Assigned to Functional Profile" name="groups__c">
+        <vault:relatedObject relationship="aln_functional_profile_group__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="crm_group__v" width="200px" />
+            <vault:field reference="modified_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Field Forces Assigned to Functional Profile" name="field_forces__c">
+        <vault:relatedObject relationship="aln_functional_profile_field_force__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="field_force__v" width="200px" />
+            <vault:field reference="hierarchy_level__v" width="200px" />
+            <vault:field reference="modified_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Territories Assigned to Functional Profile (inherited from Field Force)" name="inherited_territories__c">
+        <vault:relatedObject relationship="inherited_aln_territories__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="description__v" width="200px" />
+            <vault:field reference="hierarchy_level__v" width="200px" />
+            <vault:field reference="parent_territory__v" width="200px" />
+            <vault:field reference="field_force__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+            <vault:field reference="country__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Territories Assigned to Functional Profile (overrides inherited Functional Profiles)" name="overridden_territories__c">
+        <vault:relatedObject relationship="aln_territories__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="description__v" width="200px" />
+            <vault:field reference="hierarchy_level__v" width="200px" />
+            <vault:field reference="parent_territory__v" width="200px" />
+            <vault:field reference="field_force__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+            <vault:field reference="country__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

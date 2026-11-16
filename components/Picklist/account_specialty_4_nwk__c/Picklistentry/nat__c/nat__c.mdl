@@ -1,0 +1,5 @@
+Picklistentry nat__c (
+   value('Naturopathic Medicine'),
+   order(282),
+   active(true)
+);

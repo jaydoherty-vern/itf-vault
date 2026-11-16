@@ -1,0 +1,5 @@
+Picklistentry forensic_pathology__c (
+   value('Forensic Pathology'),
+   order(188),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pt_11__c (
+   value('PT_Lisboa'),
+   order(1399),
+   active(true)
+);

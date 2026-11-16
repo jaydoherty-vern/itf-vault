@@ -1,0 +1,5 @@
+Picklistentry closed_existing_functionality__c (
+   value('Closed: Existing Functionality'),
+   order(8),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout end_user_data_change_request_layout__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('End-User Data Change Request Layout'),
+   page_markup(@page_markup.xml)
+);

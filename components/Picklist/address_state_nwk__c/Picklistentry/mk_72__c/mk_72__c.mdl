@@ -1,0 +1,5 @@
+Picklistentry mk_72__c (
+   value('MK_Struga'),
+   order(1272),
+   active(true)
+);

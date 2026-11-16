@@ -1,0 +1,5 @@
+Picklistentry is_blo__c (
+   value('IS_Blönduósbær'),
+   order(757),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ae_uq__c (
+   value('AE_Umm al Qaywayn'),
+   order(75),
+   active(true)
+);

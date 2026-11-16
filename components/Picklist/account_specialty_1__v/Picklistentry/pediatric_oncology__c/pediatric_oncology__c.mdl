@@ -1,0 +1,5 @@
+Picklistentry pediatric_oncology__c (
+   value('PEDIATRIC ONCOLOGY'),
+   order(374),
+   active(true)
+);

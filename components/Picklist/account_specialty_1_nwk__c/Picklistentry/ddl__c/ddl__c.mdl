@@ -1,0 +1,5 @@
+Picklistentry ddl__c (
+   value('Clinical & Lab Dermatological Immunology'),
+   order(67),
+   active(true)
+);

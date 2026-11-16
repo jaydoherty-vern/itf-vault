@@ -1,0 +1,5 @@
+Picklistentry lt_38__c (
+   value('LT_Raseiniai'),
+   order(1015),
+   active(true)
+);

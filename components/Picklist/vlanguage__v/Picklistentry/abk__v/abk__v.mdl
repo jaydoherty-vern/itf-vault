@@ -1,0 +1,5 @@
+Picklistentry abk__v (
+   value('Abkhazian'),
+   order(80),
+   active(false)
+);

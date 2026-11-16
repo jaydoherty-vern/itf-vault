@@ -1,0 +1,25 @@
+Field custom_criteria__c (
+   label('Custom Exclusion Criteria'),
+   type('String'),
+   active(true),
+   description('Supported special Keywords: VOD_SF_USER_ID - Salesforce ID of the mobile user
+VOD_SF_PROFILEID - Profile ID of the mobile user
+VOD_MY_ORGID - Salesforce organization ID
+VOD_USER_LANG_CD - Value of User.LanuageLocaleKey
+VOD_MY_TERRITORY - Returns a comma-separated list of the mobile user''s territory names (NOT Ids)
+VOD_RECORDTYPE_ID - Retrieve a RecordType ID by name, e.g. @@VOD_RECORDTYPE_ID:Professional@@ corresponding to Object API Name 
+VOD_SF_USER:<fieldName> - Retrieves the value of the Logged In User''s User.fieldName. For eg: User.Country_code__c will return a single quote encapsulated ''US'' from the Logged in User''s User Record'),
+   required(true),
+   unique(false),
+   max_length(255),
+   help_content('SOQL where (without the word "where") clause that will execute on the specified Object API Name. Keywords (see desc for details):VOD_SF_USER:<fieldName> , VOD_SF_USER_ID, VOD_SF_PROFILEID .... more in Description'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

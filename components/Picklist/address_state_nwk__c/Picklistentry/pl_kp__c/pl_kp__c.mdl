@@ -1,0 +1,5 @@
+Picklistentry pl_kp__c (
+   value('PL_Kujawsko-pomorskie'),
+   order(1348),
+   active(true)
+);

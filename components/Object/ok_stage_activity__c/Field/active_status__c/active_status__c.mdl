@@ -1,0 +1,19 @@
+Field active_status__c (
+   label('Active Status'),
+   type('String'),
+   active(true),
+   description('Used to see if the doctor still work at the workPlace'),
+   required(false),
+   unique(false),
+   max_length(10),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

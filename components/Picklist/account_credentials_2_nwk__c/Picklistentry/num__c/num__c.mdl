@@ -1,0 +1,5 @@
+Picklistentry num__c (
+   value('Nurse Unit Manager'),
+   order(23),
+   active(true)
+);

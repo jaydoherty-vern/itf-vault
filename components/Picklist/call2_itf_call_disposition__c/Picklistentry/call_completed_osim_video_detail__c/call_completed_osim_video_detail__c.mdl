@@ -1,0 +1,5 @@
+Picklistentry call_completed_osim_video_detail__c (
+   value('Call Completed - OSIM Video Detail'),
+   order(14),
+   active(true)
+);

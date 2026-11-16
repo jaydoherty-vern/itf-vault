@@ -1,0 +1,5 @@
+Picklistentry is_5__c (
+   value('IS_Norðurland vestra'),
+   order(793),
+   active(true)
+);

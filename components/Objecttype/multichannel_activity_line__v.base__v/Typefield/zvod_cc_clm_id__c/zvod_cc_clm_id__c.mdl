@@ -1,0 +1,4 @@
+Typefield zvod_cc_clm_id__c (
+   source('standard'),
+   required(false)
+);

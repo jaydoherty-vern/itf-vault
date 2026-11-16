@@ -1,0 +1,5 @@
+Picklistentry attempt_deceased__c (
+   value('Attempt - Deceased'),
+   order(3),
+   active(true)
+);

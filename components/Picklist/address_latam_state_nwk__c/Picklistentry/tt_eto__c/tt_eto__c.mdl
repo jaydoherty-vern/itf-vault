@@ -1,0 +1,5 @@
+Picklistentry tt_eto__c (
+   value('Eastern Tobago'),
+   order(388),
+   active(true)
+);

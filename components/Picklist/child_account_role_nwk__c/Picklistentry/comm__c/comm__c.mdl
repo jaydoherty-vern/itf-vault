@@ -1,0 +1,5 @@
+Picklistentry comm__c (
+   value('Committee'),
+   order(42),
+   active(true)
+);

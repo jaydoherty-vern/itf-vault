@@ -1,0 +1,5 @@
+Picklistentry vot__v (
+   value('Votic'),
+   order(352),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry clinic_coordinator__c (
+   value('CLINIC COORDINATOR'),
+   order(87),
+   active(true)
+);

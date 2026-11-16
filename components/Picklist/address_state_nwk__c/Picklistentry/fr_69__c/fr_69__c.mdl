@@ -1,0 +1,5 @@
+Picklistentry fr_69__c (
+   value('FR_Rhône'),
+   order(361),
+   active(true)
+);

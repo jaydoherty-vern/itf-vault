@@ -1,0 +1,5 @@
+Picklistentry dnn__c (
+   value('Residents - Diag Radiology/Nuclear Med'),
+   order(451),
+   active(true)
+);

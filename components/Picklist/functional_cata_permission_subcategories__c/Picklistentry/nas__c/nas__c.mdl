@@ -1,0 +1,5 @@
+Picklistentry nas__c (
+   value('NAS'),
+   order(52),
+   active(true)
+);

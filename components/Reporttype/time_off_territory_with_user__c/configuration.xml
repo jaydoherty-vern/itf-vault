@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrt:reportType xmlns:vrt="VaultReporttype">
+  <vrt:upRelationships>
+    <vrt:upRelationship key="time_off_territory__v.ownerid__v" />
+  </vrt:upRelationships>
+</vrt:reportType>

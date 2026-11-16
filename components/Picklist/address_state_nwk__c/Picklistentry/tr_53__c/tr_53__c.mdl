@@ -1,0 +1,5 @@
+Picklistentry tr_53__c (
+   value('TR_Rize'),
+   order(1731),
+   active(true)
+);

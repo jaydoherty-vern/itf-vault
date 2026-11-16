@@ -1,0 +1,5 @@
+Picklistentry fi_18__c (
+   value('FI_Uusimaa'),
+   order(270),
+   active(true)
+);

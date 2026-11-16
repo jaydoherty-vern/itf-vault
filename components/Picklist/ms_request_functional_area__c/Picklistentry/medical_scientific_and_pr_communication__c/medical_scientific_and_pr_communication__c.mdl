@@ -1,0 +1,5 @@
+Picklistentry medical_scientific_and_pr_communication__c (
+   value('Medical Scientific and PR Communication'),
+   order(31),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry veu__c (
+   value('Veterinary Neurology'),
+   order(578),
+   active(true)
+);

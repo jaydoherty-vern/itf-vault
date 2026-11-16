@@ -1,0 +1,17 @@
+RECREATE Picklist functional_catalog_profile_catalog__c (
+   label('Profile Catalog'),
+   active(true),
+   Picklistentry(@Picklistentry/cnwks_backoffice_nwk__c.mdl),
+   Picklistentry(@Picklistentry/cnwks_local_admin__c.mdl),
+   Picklistentry(@Picklistentry/cnwks_manager_nwk__c.mdl),
+   Picklistentry(@Picklistentry/cnwks_rep_nwk__c.mdl),
+   Picklistentry(@Picklistentry/cnwks_msl_nwk__c.mdl),
+   Picklistentry(@Picklistentry/ccrms_backoffice_crm__c.mdl),
+   Picklistentry(@Picklistentry/ccrms_local_admin__c.mdl),
+   Picklistentry(@Picklistentry/ccrms_manager_crm__c.mdl),
+   Picklistentry(@Picklistentry/ccrms_rep_crm__c.mdl),
+   Picklistentry(@Picklistentry/ccrms_msl_crm__c.mdl),
+   Picklistentry(@Picklistentry/ccrms_data_steward_crm__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

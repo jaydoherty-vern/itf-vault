@@ -1,0 +1,5 @@
+Picklistentry ph__c (
+   value('Pharmacist'),
+   order(6),
+   active(true)
+);

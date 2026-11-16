@@ -1,0 +1,5 @@
+Picklistentry cs__c (
+   value('Candidate of Science'),
+   order(15),
+   active(true)
+);

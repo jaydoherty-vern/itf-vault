@@ -1,0 +1,5 @@
+Picklistentry em_event_material__v (
+   value('Event Material'),
+   order(6),
+   active(true)
+);

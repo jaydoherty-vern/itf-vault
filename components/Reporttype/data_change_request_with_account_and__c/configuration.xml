@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrt:reportType xmlns:vrt="VaultReporttype">
+  <vrt:upRelationships>
+    <vrt:upRelationship key="data_change_request__v.account__v" />
+  </vrt:upRelationships>
+  <vrt:downRelationships>
+    <vrt:downRelationship key="data_change_request_line__v.data_change_request__v" />
+  </vrt:downRelationships>
+</vrt:reportType>

@@ -1,0 +1,5 @@
+Picklistentry spincord__c (
+   value('Spinal Cord Injury Rehabilitation'),
+   order(232),
+   active(true)
+);

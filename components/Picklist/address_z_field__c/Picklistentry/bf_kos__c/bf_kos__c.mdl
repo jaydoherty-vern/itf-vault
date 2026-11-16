@@ -1,0 +1,5 @@
+Picklistentry bf_kos__c (
+   value('BF-KOS'),
+   order(390),
+   active(true)
+);

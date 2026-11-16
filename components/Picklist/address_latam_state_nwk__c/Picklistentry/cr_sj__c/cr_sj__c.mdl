@@ -1,0 +1,5 @@
+Picklistentry cr_sj__c (
+   value('San José (CR)'),
+   order(176),
+   active(true)
+);

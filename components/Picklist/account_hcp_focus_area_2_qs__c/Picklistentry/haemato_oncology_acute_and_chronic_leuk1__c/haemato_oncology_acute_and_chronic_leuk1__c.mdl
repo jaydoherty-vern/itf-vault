@@ -1,0 +1,5 @@
+Picklistentry haemato_oncology_acute_and_chronic_leuk1__c (
+   value('Haemato-Oncology (Acute and Chronic Leukaemias, Lymphoma, Multiple Myeloma)'),
+   order(108),
+   active(true)
+);

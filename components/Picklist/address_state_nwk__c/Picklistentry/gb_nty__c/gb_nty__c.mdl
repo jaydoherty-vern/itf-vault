@@ -1,0 +1,5 @@
+Picklistentry gb_nty__c (
+   value('GB-NTY'),
+   order(567),
+   active(false)
+);

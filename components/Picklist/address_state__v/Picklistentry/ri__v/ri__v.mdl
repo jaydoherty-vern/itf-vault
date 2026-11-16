@@ -1,0 +1,5 @@
+Picklistentry ri__v (
+   value('RI'),
+   order(47),
+   active(true)
+);

@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation time_off_territory_initial_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.time_off_territory_lifecycle__c'),
+   object_lifecycle_state('Objectlifecyclestate.in_progress_state__c'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

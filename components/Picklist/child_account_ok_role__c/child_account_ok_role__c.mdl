@@ -1,0 +1,7 @@
+RECREATE Picklist child_account_ok_role__c (
+   label('OK_Role'),
+   active(true),
+   Picklistentry(@Picklistentry/tbd__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

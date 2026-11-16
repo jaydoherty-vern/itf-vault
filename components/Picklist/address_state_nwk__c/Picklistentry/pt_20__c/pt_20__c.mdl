@@ -1,0 +1,5 @@
+Picklistentry pt_20__c (
+   value('PT_Região Autónoma dos Açores'),
+   order(1403),
+   active(true)
+);

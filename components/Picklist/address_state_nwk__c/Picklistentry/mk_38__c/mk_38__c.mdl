@@ -1,0 +1,5 @@
+Picklistentry mk_38__c (
+   value('MK_Karpoš'),
+   order(1237),
+   active(true)
+);

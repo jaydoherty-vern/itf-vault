@@ -1,0 +1,5 @@
+Picklistentry cc20__c (
+   value('Critical Care (Regional)'),
+   order(16),
+   active(true)
+);

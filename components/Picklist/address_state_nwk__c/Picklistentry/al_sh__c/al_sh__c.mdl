@@ -1,0 +1,5 @@
+Picklistentry al_sh__c (
+   value('AL_Shkodër (District)'),
+   order(47),
+   active(true)
+);

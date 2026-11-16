@@ -1,0 +1,6 @@
+Typefield product_preference__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.consent_type_product_preference__v.all_lines__v'),
+   default_value('Picklist.consent_type_product_preference__v.all_lines__v')
+);

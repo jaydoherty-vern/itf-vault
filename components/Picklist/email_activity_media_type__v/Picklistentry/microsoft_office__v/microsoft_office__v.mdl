@@ -1,0 +1,5 @@
+Picklistentry microsoft_office__v (
+   value('Microsoft Office'),
+   order(5),
+   active(true)
+);

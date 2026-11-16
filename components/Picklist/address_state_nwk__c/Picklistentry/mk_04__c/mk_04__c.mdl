@@ -1,0 +1,5 @@
+Picklistentry mk_04__c (
+   value('MK_Bitola'),
+   order(1209),
+   active(true)
+);

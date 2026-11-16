@@ -1,0 +1,5 @@
+Picklistentry ci_lg__c (
+   value('CI-LG'),
+   order(701),
+   active(true)
+);

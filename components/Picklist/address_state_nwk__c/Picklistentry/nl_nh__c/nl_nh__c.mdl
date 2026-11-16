@@ -1,0 +1,5 @@
+Picklistentry nl_nh__c (
+   value('NL_Noord-Holland'),
+   order(1300),
+   active(true)
+);

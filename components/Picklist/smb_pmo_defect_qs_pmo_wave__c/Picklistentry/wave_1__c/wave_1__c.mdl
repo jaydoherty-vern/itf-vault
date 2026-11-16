@@ -1,0 +1,5 @@
+Picklistentry wave_1__c (
+   value('Wave 1'),
+   order(1),
+   active(true)
+);

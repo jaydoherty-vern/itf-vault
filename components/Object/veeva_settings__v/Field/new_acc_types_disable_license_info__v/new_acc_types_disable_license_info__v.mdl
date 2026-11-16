@@ -1,0 +1,20 @@
+Field new_acc_types_disable_license_info__v (
+   label('NEW_ACCOUNT_TYPES_DISABLE_LICENSE_INFO'),
+   type('String'),
+   active(true),
+   description('Contains a comma-delimited list of non-translated  Account Record Types (denoted as "Record Type Label" in the SFDC UI-App Setup/Customize/Accounts/Person Accounts/Record Types).  This prevents users from capturing license info for these account types.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(226),
+   default_value('"NEW_ACCOUNT_TYPES_DISABLE_LICENSE_INFO;;Account"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

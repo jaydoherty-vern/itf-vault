@@ -1,0 +1,5 @@
+Picklistentry administrator_neuromusuclar_division_nm__c (
+   value('Administrator, Neuromusuclar Division, NM Disease team member'),
+   order(110),
+   active(true)
+);

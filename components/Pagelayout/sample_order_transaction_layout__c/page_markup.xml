@@ -1,0 +1,42 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sample_order_transaction__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="call_name__v" />
+            <vault:field reference="account_name__v" />
+            <vault:field reference="sample_order_transaction_status__v" />
+            <vault:field reference="ship_license__v" />
+            <vault:field reference="signature_date__v" />
+            <vault:field reference="unlock__v" />
+            <vault:field reference="delivery_status__v" />
+            <vault:field reference="ship_address_line_1__v" />
+            <vault:field reference="ship_address_line_2__v" />
+            <vault:field reference="ship_city__v" />
+            <vault:field reference="ship_state__v" />
+            <vault:field reference="ship_country__v" />
+            <vault:field reference="ship_zip__v" />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Sample Information" name="sample_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:control reference="sot_sample_field_control__v" name="sot_sample_field_control__c" />
+            <vault:control reference="sot_quantity_field_control__v" name="sot_quantity_field_control__c" />
+            <vault:field reference="sample_u_m__v" />
+            <vault:field reference="distributor__v" />
+            <vault:field reference="confirmed_quantity__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="territory__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry af_uru__c (
+   value('AF-URU'),
+   order(44),
+   active(true)
+);

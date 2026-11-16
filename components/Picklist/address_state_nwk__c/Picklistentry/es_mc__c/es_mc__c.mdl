@@ -1,0 +1,5 @@
+Picklistentry es_mc__c (
+   value('ES-MC'),
+   order(246),
+   active(false)
+);

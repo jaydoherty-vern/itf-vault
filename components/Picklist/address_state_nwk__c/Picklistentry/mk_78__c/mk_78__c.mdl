@@ -1,0 +1,5 @@
+Picklistentry mk_78__c (
+   value('MK_Centar Župa'),
+   order(1218),
+   active(true)
+);

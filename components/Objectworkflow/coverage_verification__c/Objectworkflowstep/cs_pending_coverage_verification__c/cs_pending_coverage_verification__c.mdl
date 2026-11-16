@@ -1,0 +1,8 @@
+Objectworkflowstep cs_pending_coverage_verification__c (
+   label('CS: Pending Coverage Verification'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.ut_verify_patients_coverage__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

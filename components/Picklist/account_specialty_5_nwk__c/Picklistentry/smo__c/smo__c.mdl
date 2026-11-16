@@ -1,0 +1,5 @@
+Picklistentry smo__c (
+   value('Sleep Medicine (Otolaryngology)'),
+   order(472),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field billing_vod__c (
+   label('Billing'),
+   type('Boolean'),
+   active(true),
+   description('Checkbox to determine if an Address serves as a billing address.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(15),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

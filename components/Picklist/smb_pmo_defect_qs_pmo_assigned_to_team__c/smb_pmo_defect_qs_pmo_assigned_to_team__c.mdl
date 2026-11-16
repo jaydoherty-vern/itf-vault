@@ -1,0 +1,11 @@
+RECREATE Picklist smb_pmo_defect_qs_pmo_assigned_to_team__c (
+   label('Assigned to Team'),
+   active(true),
+   Picklistentry(@Picklistentry/data_team__c.mdl),
+   Picklistentry(@Picklistentry/vdc_team__c.mdl),
+   Picklistentry(@Picklistentry/configuration_team__c.mdl),
+   Picklistentry(@Picklistentry/training_team__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

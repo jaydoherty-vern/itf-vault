@@ -1,0 +1,5 @@
+Picklistentry cts__c (
+   value('Cardiothoracic Surgery'),
+   order(63),
+   active(true)
+);

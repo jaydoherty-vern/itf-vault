@@ -1,0 +1,5 @@
+Picklistentry submitted__c (
+   value('Submitted'),
+   order(3),
+   active(true)
+);

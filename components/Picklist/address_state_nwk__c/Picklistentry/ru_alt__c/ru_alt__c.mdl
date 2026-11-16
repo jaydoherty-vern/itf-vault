@@ -1,0 +1,5 @@
+Picklistentry ru_alt__c (
+   value('RU_Altayskiy kray'),
+   order(1485),
+   active(true)
+);

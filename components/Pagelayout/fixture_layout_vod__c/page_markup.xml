@@ -1,0 +1,20 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.planogram_line__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="planogram__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="fixture_type__v" />
+            <vault:field reference="height__v" />
+            <vault:field reference="width__v" />
+            <vault:field reference="position_from_base__v" />
+            <vault:field reference="position_from_left__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

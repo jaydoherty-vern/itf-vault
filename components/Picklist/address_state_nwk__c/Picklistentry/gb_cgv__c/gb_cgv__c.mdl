@@ -1,0 +1,5 @@
+Picklistentry gb_cgv__c (
+   value('GB-CGV'),
+   order(451),
+   active(false)
+);

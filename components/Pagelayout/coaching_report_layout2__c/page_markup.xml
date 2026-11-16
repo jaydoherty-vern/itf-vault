@@ -1,0 +1,41 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.survey_target__v.coaching_report__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Coaching Details" name="coaching_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="coach__v" />
+            <vault:field reference="report_status__v" readOnly="true" />
+            <vault:field reference="submitted_datetime__v" />
+            <vault:spacer />
+            <vault:field reference="employee__v" />
+            <vault:field reference="employee_comment__v" />
+            <vault:field reference="review_date__v" />
+            <vault:field reference="share_team__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Product Information" name="product_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="product__v" readOnly="true" />
+            <vault:field reference="detail_group__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="survey__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Questions" name="survey_target_questions_section__c" reference="survey_target_questions_section__v" />
+</vault:page>

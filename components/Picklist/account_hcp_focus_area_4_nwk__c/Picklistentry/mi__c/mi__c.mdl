@@ -1,0 +1,5 @@
+Picklistentry mi__c (
+   value('Medical Informatics'),
+   order(231),
+   active(true)
+);

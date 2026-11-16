@@ -1,0 +1,5 @@
+Picklistentry cl_vs__c (
+   value('CL-VS'),
+   order(723),
+   active(true)
+);

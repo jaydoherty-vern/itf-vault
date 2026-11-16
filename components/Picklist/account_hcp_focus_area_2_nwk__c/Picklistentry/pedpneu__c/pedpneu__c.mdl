@@ -1,0 +1,5 @@
+Picklistentry pedpneu__c (
+   value('Pediatric Pneumology'),
+   order(334),
+   active(true)
+);

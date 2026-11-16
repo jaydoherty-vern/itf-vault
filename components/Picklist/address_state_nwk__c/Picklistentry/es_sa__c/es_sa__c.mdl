@@ -1,0 +1,5 @@
+Picklistentry es_sa__c (
+   value('ES_Salamanca'),
+   order(222),
+   active(true)
+);

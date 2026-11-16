@@ -1,0 +1,23 @@
+RECREATE Picklist ms_request_status__c (
+   label('Status'),
+   active(true),
+   Picklistentry(@Picklistentry/new__c.mdl),
+   Picklistentry(@Picklistentry/in_progress__c.mdl),
+   Picklistentry(@Picklistentry/ready_for_test__c.mdl),
+   Picklistentry(@Picklistentry/more_info_needed__c.mdl),
+   Picklistentry(@Picklistentry/decision_needed__c.mdl),
+   Picklistentry(@Picklistentry/deferred__c.mdl),
+   Picklistentry(@Picklistentry/completed__c.mdl),
+   Picklistentry(@Picklistentry/duplicate__c.mdl),
+   Picklistentry(@Picklistentry/cancelled__c.mdl),
+   Picklistentry(@Picklistentry/veeva_roadmap__c.mdl),
+   Picklistentry(@Picklistentry/not_in_scope__c.mdl),
+   Picklistentry(@Picklistentry/change_needed__c.mdl),
+   Picklistentry(@Picklistentry/pending_data__c.mdl),
+   Picklistentry(@Picklistentry/pending_migration__c.mdl),
+   Picklistentry(@Picklistentry/pending_approval__c.mdl),
+   Picklistentry(@Picklistentry/pending_release_date__c.mdl),
+   Picklistentry(@Picklistentry/pending_veeva_support__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

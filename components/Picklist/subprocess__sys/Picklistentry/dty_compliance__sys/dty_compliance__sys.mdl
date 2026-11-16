@@ -1,0 +1,7 @@
+Picklistentry dty_compliance__sys (
+   value('Compliance'),
+   order(29),
+   active(true),
+   controlling_entries('dlc_unclassified__sys',
+         'dlc_general__sys')
+);

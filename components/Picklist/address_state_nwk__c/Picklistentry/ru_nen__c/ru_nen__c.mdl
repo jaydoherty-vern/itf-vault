@@ -1,0 +1,5 @@
+Picklistentry ru_nen__c (
+   value('RU_Nenetskiy avtonomnyy okrug'),
+   order(1527),
+   active(true)
+);

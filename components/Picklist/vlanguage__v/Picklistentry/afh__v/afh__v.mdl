@@ -1,0 +1,5 @@
+Picklistentry afh__v (
+   value('Afrihili'),
+   order(86),
+   active(false)
+);

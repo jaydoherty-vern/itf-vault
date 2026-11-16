@@ -1,0 +1,5 @@
+Picklistentry ec_e__c (
+   value('Esmeraldas'),
+   order(247),
+   active(true)
+);

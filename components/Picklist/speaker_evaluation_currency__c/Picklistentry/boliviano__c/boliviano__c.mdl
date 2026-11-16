@@ -1,0 +1,5 @@
+Picklistentry boliviano__c (
+   value('Boliviano'),
+   order(23),
+   active(true)
+);

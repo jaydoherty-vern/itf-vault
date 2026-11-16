@@ -1,0 +1,5 @@
+Picklistentry gb_mdb__c (
+   value('GB-MDB'),
+   order(543),
+   active(false)
+);

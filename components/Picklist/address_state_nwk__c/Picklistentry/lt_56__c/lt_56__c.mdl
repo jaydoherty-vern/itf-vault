@@ -1,0 +1,5 @@
+Picklistentry lt_56__c (
+   value('LT_Vilkaviškis'),
+   order(1037),
+   active(true)
+);

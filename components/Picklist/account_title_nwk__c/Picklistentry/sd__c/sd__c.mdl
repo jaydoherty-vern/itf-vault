@@ -1,0 +1,5 @@
+Picklistentry sd__c (
+   value('Specialist Doctor'),
+   order(101),
+   active(true)
+);

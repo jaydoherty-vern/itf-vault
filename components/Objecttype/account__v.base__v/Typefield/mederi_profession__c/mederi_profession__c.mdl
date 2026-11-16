@@ -1,0 +1,4 @@
+Typefield mederi_profession__c (
+   source('standard'),
+   required(false)
+);

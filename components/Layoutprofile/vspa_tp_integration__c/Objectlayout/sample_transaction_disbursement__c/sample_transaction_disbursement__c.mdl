@@ -1,0 +1,8 @@
+Objectlayout sample_transaction_disbursement__c (
+   label('sample_transaction_disbursement'),
+   active(true),
+   pagelayouts('Pagelayout.sample_disbursement_layout_vod__c'),
+   object('Object.sample_transaction__v'),
+   objecttype('Objecttype.sample_transaction__v.disbursement__v'),
+   record_creation_layout('Pagelayout.sample_disbursement_layout_vod__c')
+);

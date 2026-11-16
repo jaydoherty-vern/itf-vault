@@ -1,0 +1,5 @@
+Picklistentry mvasu__c (
+   value('Diploma in Vascular Medicine'),
+   order(81),
+   active(true)
+);

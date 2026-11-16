@@ -1,0 +1,15 @@
+RECREATE Permissionset loader_api_for_integration_user__c (
+   label('Loader API for Integration User'),
+   active(true),
+   description(),
+   vault_actions.api('all_api'),
+   vault_actions.audit_trail('export_audit_trail'),
+   vault_actions.document('bulk_update',
+      'download_document'),
+   vault_actions.object('bulk_action',
+      'merge_records'),
+   vault_actions.search('suggest'),
+   vault_actions.user('allow_as_delegate'),
+   vault_owner_actions('vault_loader'),
+   vault_owner_actions.all_object_records('all_object_record_actions')
+);

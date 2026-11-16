@@ -1,0 +1,5 @@
+Picklistentry radiot__c (
+   value('Radiotherapy Diploma'),
+   order(323),
+   active(true)
+);

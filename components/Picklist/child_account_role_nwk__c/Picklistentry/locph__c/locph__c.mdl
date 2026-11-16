@@ -1,0 +1,5 @@
+Picklistentry locph__c (
+   value('Locum Pharmacist'),
+   order(129),
+   active(true)
+);

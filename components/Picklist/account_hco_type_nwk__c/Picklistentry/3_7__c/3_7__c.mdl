@@ -1,0 +1,5 @@
+Picklistentry 3_7__c (
+   value('Resorts'),
+   order(254),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry homeo__c (
+   value('Homeopathic Pharmacy'),
+   order(111),
+   active(true)
+);

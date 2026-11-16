@@ -1,0 +1,5 @@
+Picklistentry ru_ast__c (
+   value('RU_Astrakhanskaya oblast'''),
+   order(1488),
+   active(true)
+);

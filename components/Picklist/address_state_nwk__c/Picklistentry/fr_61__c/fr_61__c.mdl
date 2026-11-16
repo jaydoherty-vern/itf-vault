@@ -1,0 +1,5 @@
+Picklistentry fr_61__c (
+   value('FR_Orne'),
+   order(354),
+   active(true)
+);

@@ -1,0 +1,12 @@
+RECREATE Tab smb_issue__c (
+   active(true),
+   all_view_label('All Risks and Issues'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Risks and Issues'),
+   my_view_label('My Risks and Issues'),
+   object('smb_issue__c'),
+   order(2600),
+   parent(),
+   recent_view_label('Recent Risks and Issues')
+);

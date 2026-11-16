@@ -1,0 +1,5 @@
+Picklistentry medtech__c (
+   value('Medical Technical Assistant'),
+   order(135),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry es_ba__c (
+   value('ES_Badajoz'),
+   order(190),
+   active(true)
+);

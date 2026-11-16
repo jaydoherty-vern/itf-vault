@@ -1,0 +1,5 @@
+RECREATE Crmapplicationprofile vspa_data_steward_crm__c (
+   label('VSPA_Data Steward_CRM'),
+   active(true),
+   description()
+);

@@ -1,0 +1,5 @@
+Picklistentry cn_bj__c (
+   value('CN-BJ'),
+   order(735),
+   active(true)
+);

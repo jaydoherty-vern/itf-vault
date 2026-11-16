@@ -1,0 +1,5 @@
+Picklistentry co_bol__c (
+   value('Bolívar (CO)'),
+   order(143),
+   active(true)
+);

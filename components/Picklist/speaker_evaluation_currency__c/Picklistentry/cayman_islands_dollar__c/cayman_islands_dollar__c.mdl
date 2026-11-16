@@ -1,0 +1,5 @@
+Picklistentry cayman_islands_dollar__c (
+   value('Cayman Islands Dollar'),
+   order(36),
+   active(true)
+);

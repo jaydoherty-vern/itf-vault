@@ -1,0 +1,5 @@
+Picklistentry lv_098__c (
+   value('LV_Tērvetes novads (Tērvete)'),
+   order(1152),
+   active(true)
+);

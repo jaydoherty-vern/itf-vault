@@ -1,0 +1,40 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sent_email__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="approved_email_template__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="content_type__v" />
+            <vault:field reference="email_sent_date__v" />
+            <vault:field reference="sent_email_status__v" />
+            <vault:field reference="failure_msg__v" />
+            <vault:field reference="sender_email__v" />
+            <vault:field reference="account_email__v" />
+            <vault:field reference="subject__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Open &amp; Click Details" name="open_click_details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="opened__v" />
+            <vault:field reference="last_open_date__v" />
+            <vault:field reference="open_count__v" />
+            <vault:field reference="approved_document_views__v" />
+            <vault:field reference="clicked__v" />
+            <vault:field reference="last_click_date__v" />
+            <vault:field reference="click_count__v" />
+            <vault:field reference="last_device__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

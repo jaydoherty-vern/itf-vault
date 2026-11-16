@@ -1,0 +1,5 @@
+Picklistentry cgp__c (
+   value('Consultant Physician'),
+   order(90),
+   active(true)
+);

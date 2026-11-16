@@ -1,0 +1,5 @@
+Picklistentry mx_que__c (
+   value('Querétaro'),
+   order(56),
+   active(true)
+);

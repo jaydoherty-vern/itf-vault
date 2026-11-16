@@ -1,0 +1,4 @@
+Typefield zip_4_vod__c (
+   source('custom'),
+   required(false)
+);

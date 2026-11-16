@@ -1,0 +1,5 @@
+Picklistentry peds_pulmonary__c (
+   value('PEDS PULMONARY'),
+   order(83),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry jo_ma__c (
+   value('JO_Al Mafraq'),
+   order(43),
+   active(true)
+);

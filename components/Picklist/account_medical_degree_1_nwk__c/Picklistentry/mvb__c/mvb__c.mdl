@@ -1,0 +1,5 @@
+Picklistentry mvb__c (
+   value('Bachelor of Veterinary Medicine (MVB)'),
+   order(8),
+   active(true)
+);

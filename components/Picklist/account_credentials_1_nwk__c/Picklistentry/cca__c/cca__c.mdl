@@ -1,0 +1,5 @@
+Picklistentry cca__c (
+   value('Clinical Assistant (CCA-AHU)'),
+   order(8),
+   active(true)
+);

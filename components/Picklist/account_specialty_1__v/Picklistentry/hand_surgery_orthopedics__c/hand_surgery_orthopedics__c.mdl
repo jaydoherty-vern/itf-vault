@@ -1,0 +1,5 @@
+Picklistentry hand_surgery_orthopedics__c (
+   value('Hand Surgery (Orthopedics)'),
+   order(197),
+   active(true)
+);

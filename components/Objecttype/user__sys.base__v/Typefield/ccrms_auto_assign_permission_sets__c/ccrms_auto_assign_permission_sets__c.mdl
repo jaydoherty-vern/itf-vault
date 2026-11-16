@@ -1,0 +1,4 @@
+Typefield ccrms_auto_assign_permission_sets__c (
+   source('standard'),
+   required(false)
+);

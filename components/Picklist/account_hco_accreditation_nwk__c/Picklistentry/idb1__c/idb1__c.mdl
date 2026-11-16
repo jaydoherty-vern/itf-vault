@@ -1,0 +1,5 @@
+Picklistentry idb1__c (
+   value('Category 2 Infectious Disease Capable'),
+   order(9),
+   active(true)
+);

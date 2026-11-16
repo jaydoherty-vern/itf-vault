@@ -1,0 +1,5 @@
+Picklistentry ccglay__c (
+   value('PCO - Lay Member'),
+   order(165),
+   active(true)
+);

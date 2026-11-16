@@ -1,0 +1,5 @@
+Picklistentry co_ara__c (
+   value('Arauca'),
+   order(171),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry neurology_neuropsychiatry_peds_med__c (
+   value('NEUROLOGY, NEUROPSYCHIATRY, PEDIATRIC MEDICINE'),
+   order(347),
+   active(true)
+);

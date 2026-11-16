@@ -1,0 +1,5 @@
+Picklistentry gb_pkn__c (
+   value('GB-PKN'),
+   order(577),
+   active(false)
+);

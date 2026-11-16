@@ -1,0 +1,5 @@
+Picklistentry lv_008__c (
+   value('LV_Amatas novads (Amata)'),
+   order(1054),
+   active(true)
+);

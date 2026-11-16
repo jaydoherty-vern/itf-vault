@@ -1,0 +1,5 @@
+Picklistentry cneuro__c (
+   value('Child Neurology Diploma'),
+   order(20),
+   active(true)
+);

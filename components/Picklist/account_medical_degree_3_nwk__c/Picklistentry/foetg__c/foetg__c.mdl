@@ -1,0 +1,5 @@
+Picklistentry foetg__c (
+   value('Diploma in Reproduction Medicine'),
+   order(76),
+   active(true)
+);

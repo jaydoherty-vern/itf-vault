@@ -1,0 +1,19 @@
+Field date__c (
+   label('Date'),
+   type('Date'),
+   active(true),
+   description('Event Date'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(148),
+   formula('Date(1900, 1, 1)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   enhanced_blank_handling('blanks_as_blanks'),
+   rollup(false),
+   control_binding()
+);

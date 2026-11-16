@@ -1,0 +1,5 @@
+Picklistentry uzbekistan_sum__c (
+   value('Uzbekistan Sum'),
+   order(162),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry dpt_wes_0097__c (
+   value('DPT.WES.0097'),
+   order(54),
+   active(true)
+);

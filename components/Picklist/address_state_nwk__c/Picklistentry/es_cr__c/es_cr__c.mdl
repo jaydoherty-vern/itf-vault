@@ -1,0 +1,5 @@
+Picklistentry es_cr__c (
+   value('ES_Ciudad Real'),
+   order(199),
+   active(true)
+);

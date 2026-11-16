@@ -1,0 +1,5 @@
+Picklistentry fr_88__c (
+   value('FR_Vosges'),
+   order(382),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cz_zl__c (
+   value('CZ_Zlínský kraj'),
+   order(130),
+   active(true)
+);

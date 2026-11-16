@@ -1,0 +1,5 @@
+Picklistentry obs__c (
+   value('Obstetrics'),
+   order(164),
+   active(true)
+);

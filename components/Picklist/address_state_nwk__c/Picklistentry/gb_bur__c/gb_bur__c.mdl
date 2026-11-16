@@ -1,0 +1,5 @@
+Picklistentry gb_bur__c (
+   value('GB-BUR'),
+   order(446),
+   active(false)
+);

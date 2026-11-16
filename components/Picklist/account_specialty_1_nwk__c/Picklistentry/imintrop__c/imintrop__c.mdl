@@ -1,0 +1,5 @@
+Picklistentry imintrop__c (
+   value('Internal Medicine, Infectiology and Tropical Medicine'),
+   order(221),
+   active(true)
+);

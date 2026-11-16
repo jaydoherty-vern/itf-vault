@@ -1,0 +1,5 @@
+Picklistentry bcanc__c (
+   value('Breast Cancer'),
+   order(29),
+   active(true)
+);

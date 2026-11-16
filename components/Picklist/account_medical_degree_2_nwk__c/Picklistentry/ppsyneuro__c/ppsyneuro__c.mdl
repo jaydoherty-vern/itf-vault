@@ -1,0 +1,5 @@
+Picklistentry ppsyneuro__c (
+   value('Pediatric Psychiatry And Neurology Diploma'),
+   order(257),
+   active(true)
+);

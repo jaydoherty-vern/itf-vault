@@ -1,0 +1,5 @@
+Picklistentry eg_sin__c (
+   value('EG_Shamāl Sīnā'''),
+   order(15),
+   active(true)
+);

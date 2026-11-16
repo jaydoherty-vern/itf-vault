@@ -1,0 +1,5 @@
+Picklistentry gb_wil__c (
+   value('GB-WIL'),
+   order(634),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_net__c (
+   value('GB-NET'),
+   order(557),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry si_041__c (
+   value('SI_Jesenice'),
+   order(1600),
+   active(true)
+);

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true" documentScope="ACTIVE">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:targetDocumentAlias>Target Document</vrp:targetDocumentAlias>
+  <vrp:sourceDocumentAlias>Source Document</vrp:sourceDocumentAlias>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:combineReportPrompts>false</vrp:combineReportPrompts>
+  <vrp:enableMergeCells>false</vrp:enableMergeCells>
+  <vrp:mergeCellsWithinView>false</vrp:mergeCellsWithinView>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:removeLinksFromExport>false</vrp:removeLinksFromExport>
+  <vrp:columns>
+    <vrp:column key="data_change_request__v.name__v" type="documentProperty" index="0" columnWidth="200" />
+    <vrp:column key="data_change_request__v.object_type__v" type="documentProperty" index="1" columnWidth="177" />
+    <vrp:column key="data_change_request__v.created_by__v" type="documentProperty" index="2" columnWidth="155" />
+    <vrp:column key="data_change_request__v___account__v.name__v" type="documentProperty" index="3" columnWidth="200" />
+    <vrp:column key="data_change_request__v___account__v.external_id__v" type="documentProperty" index="4" columnWidth="155" />
+    <vrp:column key="data_change_request__v___account__v.itf_isr_target__c" type="documentProperty" index="5" columnWidth="155" />
+    <vrp:column key="data_change_request__v___account__v.itf_confirmation_of_patient_count__c" type="documentProperty" index="6" columnWidth="191" />
+    <vrp:column key="data_change_request__v___account__v.itf_number_of_patients_per_year__c" type="documentProperty" index="7" columnWidth="185" />
+    <vrp:column key="data_change_request_line__v___data_change_request__v.name__v" type="documentProperty" index="8" columnWidth="200" />
+    <vrp:column key="data_change_request_line__v___data_change_request__v.field_name__v" type="documentProperty" index="9" columnWidth="155" />
+    <vrp:column key="data_change_request_line__v___data_change_request__v.result__v" type="documentProperty" index="10" columnWidth="155" />
+    <vrp:column key="data_change_request_line__v___data_change_request__v.old_value__v" type="documentProperty" index="11" columnWidth="155" />
+    <vrp:column key="data_change_request_line__v___data_change_request__v.new_value__v" type="documentProperty" index="12" columnWidth="155" />
+    <vrp:column key="data_change_request_line__v___data_change_request__v.final_value__v" type="documentProperty" index="13" columnWidth="155" />
+  </vrp:columns>
+  <vrp:relationshipObjectJoinTypes>
+    <vrp:relationshipObjectJoinType relationshipKeyRef="reportTypeRef1784977880515" vobjectJoinType="NONE" />
+  </vrp:relationshipObjectJoinTypes>
+</vrp:reportFormat>

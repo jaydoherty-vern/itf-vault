@@ -1,0 +1,18 @@
+Field student_type_qs_trns_vod__c (
+   label('Student Type'),
+   type('Picklist'),
+   active(true),
+   description('BMI Naya Transparency Field'),
+   required(false),
+   unique(false),
+   help_content('BMI Naya Transparency Field'),
+   list_column(false),
+   order(376),
+   multi_value(false),
+   picklist('Picklist.account_student_type_qs_trns_vod__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

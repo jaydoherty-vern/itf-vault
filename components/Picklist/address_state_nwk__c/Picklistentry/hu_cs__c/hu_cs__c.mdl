@@ -1,0 +1,5 @@
+Picklistentry hu_cs__c (
+   value('HU_Csongrád'),
+   order(683),
+   active(true)
+);

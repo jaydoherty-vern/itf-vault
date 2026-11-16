@@ -1,0 +1,5 @@
+Picklistentry email__c (
+   value('E-mail'),
+   order(7),
+   active(true)
+);

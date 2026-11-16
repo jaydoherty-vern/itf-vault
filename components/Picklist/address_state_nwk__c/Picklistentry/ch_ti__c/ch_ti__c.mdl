@@ -1,0 +1,5 @@
+Picklistentry ch_ti__c (
+   value('CH_Ticino'),
+   order(110),
+   active(true)
+);

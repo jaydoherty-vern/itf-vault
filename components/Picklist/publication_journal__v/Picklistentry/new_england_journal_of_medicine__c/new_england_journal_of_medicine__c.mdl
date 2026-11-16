@@ -1,0 +1,5 @@
+Picklistentry new_england_journal_of_medicine__c (
+   value('New England Journal of Medicine'),
+   order(3),
+   active(true)
+);

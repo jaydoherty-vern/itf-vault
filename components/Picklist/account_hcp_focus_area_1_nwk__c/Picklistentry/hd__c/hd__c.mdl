@@ -1,0 +1,5 @@
+Picklistentry hd__c (
+   value('Horses and Deer'),
+   order(193),
+   active(true)
+);

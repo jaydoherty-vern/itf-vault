@@ -1,0 +1,11 @@
+Typefield event_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.medical_event_event_type__v.advise_report__c',
+         'Picklist.medical_event_event_type__v.education__v',
+         'Picklist.medical_event_event_type__v.national_conference__c',
+         'Picklist.medical_event_event_type__v.pharmacy_presentation__c',
+         'Picklist.medical_event_event_type__v.region_conference__c',
+         'Picklist.medical_event_event_type__v.round_table__c',
+         'Picklist.medical_event_event_type__v.staff__c')
+);

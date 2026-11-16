@@ -1,0 +1,5 @@
+Picklistentry fr_68__c (
+   value('FR_Haut-Rhin'),
+   order(314),
+   active(true)
+);

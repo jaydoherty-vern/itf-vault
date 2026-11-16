@@ -1,0 +1,5 @@
+Picklistentry rehabp__c (
+   value('Rehabilitation Psychiatry'),
+   order(445),
+   active(true)
+);

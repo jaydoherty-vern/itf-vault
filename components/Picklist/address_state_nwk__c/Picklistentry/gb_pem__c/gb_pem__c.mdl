@@ -1,0 +1,5 @@
+Picklistentry gb_pem__c (
+   value('GB-PEM'),
+   order(576),
+   active(false)
+);

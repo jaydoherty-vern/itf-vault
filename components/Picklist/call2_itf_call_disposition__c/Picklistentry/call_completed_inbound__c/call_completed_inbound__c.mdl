@@ -1,0 +1,5 @@
+Picklistentry call_completed_inbound__c (
+   value('Call Completed - Inbound'),
+   order(13),
+   active(true)
+);

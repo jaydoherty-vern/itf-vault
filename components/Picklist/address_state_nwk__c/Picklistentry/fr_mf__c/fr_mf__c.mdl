@@ -1,0 +1,5 @@
+Picklistentry fr_mf__c (
+   value('FR_Saint-Martin'),
+   order(363),
+   active(true)
+);

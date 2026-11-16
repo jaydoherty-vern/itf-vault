@@ -1,0 +1,5 @@
+Picklistentry 3_4__c (
+   value('Primary-level Medical and Health Care Institutions, Clinic/Healthy Center'),
+   order(230),
+   active(true)
+);

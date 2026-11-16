@@ -1,0 +1,9 @@
+RECREATE Actiontrigger send_notification_on_update_medical_inqu__c (
+   label('Send Notification on Update'),
+   active(true),
+   description(),
+   object('Object.medical_inquiry__v'),
+   event('AFTER_UPDATE'),
+   order(100),
+   Actionblock(@Actionblock/action_block1__c.mdl)
+);

@@ -1,0 +1,18 @@
+Field target_manager_qs__c (
+   label('Download to iRep'),
+   type('Boolean'),
+   active(true),
+   description('This field will be used by manager profiles to download specific accounts'),
+   required(false),
+   checkbox(true),
+   help_content('Check this field to have Account''s information accessible on iRep'),
+   list_column(false),
+   order(27),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

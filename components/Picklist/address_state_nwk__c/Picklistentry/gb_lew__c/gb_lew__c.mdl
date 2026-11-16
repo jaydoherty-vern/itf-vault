@@ -1,0 +1,5 @@
+Picklistentry gb_lew__c (
+   value('GB-LEW'),
+   order(534),
+   active(false)
+);

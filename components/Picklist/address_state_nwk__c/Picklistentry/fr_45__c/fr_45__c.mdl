@@ -1,0 +1,5 @@
+Picklistentry fr_45__c (
+   value('FR_Loiret'),
+   order(336),
+   active(true)
+);

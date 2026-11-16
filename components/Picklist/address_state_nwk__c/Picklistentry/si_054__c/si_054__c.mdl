@@ -1,0 +1,5 @@
+Picklistentry si_054__c (
+   value('SI_Krško'),
+   order(1605),
+   active(true)
+);

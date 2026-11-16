@@ -1,0 +1,5 @@
+Picklistentry az_smi__c (
+   value('AZ-SMI'),
+   order(233),
+   active(true)
+);

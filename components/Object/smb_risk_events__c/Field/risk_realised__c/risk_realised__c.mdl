@@ -1,0 +1,19 @@
+Field risk_realised__c (
+   label('Risk Realised'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   multi_value(false),
+   picklist('Picklist.smb_risk_events_risk_realised__c'),
+   default_value('{open__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

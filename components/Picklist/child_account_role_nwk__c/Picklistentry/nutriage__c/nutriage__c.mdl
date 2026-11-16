@@ -1,0 +1,5 @@
+Picklistentry nutriage__c (
+   value('Triage Nurse'),
+   order(239),
+   active(true)
+);

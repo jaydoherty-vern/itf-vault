@@ -1,0 +1,5 @@
+Picklistentry podiatry__c (
+   value('Podiatry'),
+   order(82),
+   active(true)
+);

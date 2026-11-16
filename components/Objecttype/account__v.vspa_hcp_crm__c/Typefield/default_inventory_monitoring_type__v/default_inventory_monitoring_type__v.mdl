@@ -1,0 +1,6 @@
+Typefield default_inventory_monitoring_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.accoun_default_inventory_monitoring_type__v.inventory_monitoring__v',
+         'Picklist.accoun_default_inventory_monitoring_type__v.none__v')
+);

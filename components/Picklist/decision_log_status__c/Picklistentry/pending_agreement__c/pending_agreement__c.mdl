@@ -1,0 +1,5 @@
+Picklistentry pending_agreement__c (
+   value('Pending Agreement'),
+   order(0),
+   active(true)
+);

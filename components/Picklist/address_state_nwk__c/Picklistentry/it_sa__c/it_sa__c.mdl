@@ -1,0 +1,5 @@
+Picklistentry it_sa__c (
+   value('IT_Salerno'),
+   order(918),
+   active(true)
+);

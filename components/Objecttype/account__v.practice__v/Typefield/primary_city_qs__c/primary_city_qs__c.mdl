@@ -1,0 +1,4 @@
+Typefield primary_city_qs__c (
+   source('custom'),
+   required(false)
+);

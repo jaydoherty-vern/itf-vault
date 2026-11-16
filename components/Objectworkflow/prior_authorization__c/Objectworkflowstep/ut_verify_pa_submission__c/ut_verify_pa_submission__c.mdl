@@ -1,0 +1,8 @@
+Objectworkflowstep ut_verify_pa_submission__c (
+   label('UT: Verify PA Submission'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.cs_pending_pa_outcome__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

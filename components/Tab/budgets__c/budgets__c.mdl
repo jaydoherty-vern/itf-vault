@@ -1,0 +1,15 @@
+RECREATE Tab budgets__c (
+   active(true),
+   all_view_label('All Budgets'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Budgets'),
+   modal_create_record(true),
+   my_view_label('My Budgets'),
+   object('em_budget__v'),
+   order(6000),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Budgets')
+);

@@ -1,0 +1,5 @@
+Picklistentry fr_59__c (
+   value('FR_Nord (FR)'),
+   order(351),
+   active(true)
+);

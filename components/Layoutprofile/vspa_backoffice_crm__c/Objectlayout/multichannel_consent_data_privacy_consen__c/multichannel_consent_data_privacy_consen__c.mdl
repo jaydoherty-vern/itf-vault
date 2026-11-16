@@ -1,0 +1,8 @@
+Objectlayout multichannel_consent_data_privacy_consen__c (
+   label('multichannel_consent_data_privacy_consent'),
+   active(true),
+   pagelayouts('Pagelayout.multichannel_consent_layout__c'),
+   object('Object.multichannel_consent__v'),
+   objecttype('Objecttype.multichannel_consent__v.data_privacy_consent__c'),
+   record_creation_layout('Pagelayout.multichannel_consent_layout__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry tr_08__c (
+   value('TR_Artvin'),
+   order(1676),
+   active(true)
+);

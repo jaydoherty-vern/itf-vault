@@ -1,0 +1,8 @@
+RECREATE Pagelayout em_business_rule_configuration__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('EM Business Rule Configuration'),
+   page_markup(@page_markup.xml)
+);

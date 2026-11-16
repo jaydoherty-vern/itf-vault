@@ -1,0 +1,5 @@
+Picklistentry ru_khm__c (
+   value('RU_Khanty-Mansiyskiy avtonomnyy okrug-Yugra'),
+   order(1511),
+   active(true)
+);

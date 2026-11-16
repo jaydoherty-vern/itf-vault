@@ -1,0 +1,18 @@
+Field profile_type__c (
+   label('Functional Profile Type'),
+   type('Picklist'),
+   active(true),
+   description('Type of functional profile, i.e. Network or Core User.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(9),
+   multi_value(false),
+   picklist('Picklist.functional_catalog_profile_type__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

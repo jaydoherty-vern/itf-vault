@@ -1,0 +1,5 @@
+Picklistentry gb_wlv__c (
+   value('GB-WLV'),
+   order(638),
+   active(false)
+);

@@ -1,0 +1,18 @@
+Field multiselectlimitenforced__v (
+   label('MultiselectLimitEnforced'),
+   type('Boolean'),
+   active(true),
+   description('When set to true, a maximum of 15 items can be selected in the different VInsights report options (Display Products / Call Types / Territories). If set to False, an unlimited number of items can be selected in VInsights multi-select picklists.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(224),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

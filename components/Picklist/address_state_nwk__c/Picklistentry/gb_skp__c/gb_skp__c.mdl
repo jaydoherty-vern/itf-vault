@@ -1,0 +1,5 @@
+Picklistentry gb_skp__c (
+   value('GB-SKP'),
+   order(601),
+   active(false)
+);

@@ -1,0 +1,28 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.call_cycle_entry__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="week__v" readOnly="true" />
+            <vault:field reference="day_of_week__v" readOnly="true" />
+            <vault:field reference="day_title__v" readOnly="true" />
+            <vault:field reference="start_time__v" />
+            <vault:field reference="duration__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="color__v" />
+            <vault:field reference="name__v" />
+            <vault:field reference="ownerid__v" readOnly="true" />
+            <vault:field reference="product_priority_1__v" />
+            <vault:field reference="product_priority_2__v" />
+            <vault:field reference="product_priority_3__v" />
+            <vault:field reference="product_priority_4__v" />
+            <vault:field reference="product_priority_5__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

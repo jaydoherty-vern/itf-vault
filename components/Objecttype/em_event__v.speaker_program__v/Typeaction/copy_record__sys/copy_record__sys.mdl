@@ -1,0 +1,3 @@
+Typeaction copy_record__sys (
+   action('em_event__v.copy_record__sys')
+);

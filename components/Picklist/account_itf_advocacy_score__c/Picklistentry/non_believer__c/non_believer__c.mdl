@@ -1,0 +1,5 @@
+Picklistentry non_believer__c (
+   value('Non-Believer'),
+   order(3),
+   active(true)
+);

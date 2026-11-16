@@ -1,0 +1,5 @@
+Picklistentry pakistan_rupee__c (
+   value('Pakistan Rupee'),
+   order(116),
+   active(true)
+);

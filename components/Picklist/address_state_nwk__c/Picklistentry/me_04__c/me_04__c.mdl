@@ -1,0 +1,5 @@
+Picklistentry me_04__c (
+   value('ME_Bijelo Polje'),
+   order(1188),
+   active(true)
+);

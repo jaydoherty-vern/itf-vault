@@ -1,0 +1,4 @@
+Typefield brick_name_lookup__c (
+   source('standard'),
+   required(false)
+);

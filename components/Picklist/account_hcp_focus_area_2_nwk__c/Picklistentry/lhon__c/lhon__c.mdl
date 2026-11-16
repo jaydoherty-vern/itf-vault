@@ -1,0 +1,5 @@
+Picklistentry lhon__c (
+   value('Leber''s Hereditary Optic Neuropathy (LHON)'),
+   order(216),
+   active(true)
+);

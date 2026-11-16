@@ -1,0 +1,5 @@
+Picklistentry se_h__c (
+   value('SE_Kalmar County'),
+   order(1573),
+   active(true)
+);

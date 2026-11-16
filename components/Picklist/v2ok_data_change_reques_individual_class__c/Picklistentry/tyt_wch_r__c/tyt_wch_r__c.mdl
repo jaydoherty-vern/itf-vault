@@ -1,0 +1,5 @@
+Picklistentry tyt_wch_r__c (
+   value('TYT.WCH.R'),
+   order(9),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry phartech__c (
+   value('Pharmacy Technician'),
+   order(183),
+   active(true)
+);

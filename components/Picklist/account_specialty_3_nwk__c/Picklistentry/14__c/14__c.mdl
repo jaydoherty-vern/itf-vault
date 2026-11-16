@@ -1,0 +1,5 @@
+Picklistentry 14__c (
+   value('Cosmetology'),
+   order(95),
+   active(true)
+);

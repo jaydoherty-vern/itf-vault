@@ -1,0 +1,5 @@
+Picklistentry it_vc__c (
+   value('IT_Vercelli'),
+   order(937),
+   active(true)
+);

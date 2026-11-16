@@ -1,0 +1,5 @@
+Picklistentry chief_of_service__c (
+   value('CHIEF OF SERVICE'),
+   order(119),
+   active(true)
+);

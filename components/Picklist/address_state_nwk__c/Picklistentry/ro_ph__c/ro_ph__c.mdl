@@ -1,0 +1,5 @@
+Picklistentry ro_ph__c (
+   value('RO_Prahova'),
+   order(1440),
+   active(true)
+);

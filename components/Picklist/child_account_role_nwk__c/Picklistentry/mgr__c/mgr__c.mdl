@@ -1,0 +1,5 @@
+Picklistentry mgr__c (
+   value('Manager'),
+   order(130),
+   active(true)
+);

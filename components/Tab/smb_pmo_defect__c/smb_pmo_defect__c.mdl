@@ -1,0 +1,12 @@
+RECREATE Tab smb_pmo_defect__c (
+   active(true),
+   all_view_label('All Defects'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Defects'),
+   my_view_label('My Defects'),
+   object('smb_pmo_defect__c'),
+   order(2200),
+   parent(),
+   recent_view_label('Recent Defects')
+);

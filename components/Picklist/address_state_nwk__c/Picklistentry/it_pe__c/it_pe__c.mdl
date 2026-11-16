@@ -1,0 +1,5 @@
+Picklistentry it_pe__c (
+   value('IT_Pescara'),
+   order(903),
+   active(true)
+);

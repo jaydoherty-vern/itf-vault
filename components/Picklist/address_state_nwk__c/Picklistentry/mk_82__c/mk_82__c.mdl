@@ -1,0 +1,5 @@
+Picklistentry mk_82__c (
+   value('MK_Čučer Sandevo'),
+   order(1220),
+   active(true)
+);

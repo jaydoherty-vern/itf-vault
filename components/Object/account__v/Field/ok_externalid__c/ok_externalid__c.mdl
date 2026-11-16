@@ -1,0 +1,20 @@
+Field ok_externalid__c (
+   label('OK ExternalID'),
+   type('String'),
+   active(true),
+   description('/*DO NOT MODIFY*/
+/*THE OK INTEGRATION DEPENDS ON THIS*/'),
+   required(false),
+   unique(false),
+   max_length(30),
+   help_content(),
+   list_column(false),
+   order(318),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

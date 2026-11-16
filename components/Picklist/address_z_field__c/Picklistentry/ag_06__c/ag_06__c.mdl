@@ -1,0 +1,5 @@
+Picklistentry ag_06__c (
+   value('AG-06'),
+   order(50),
+   active(true)
+);

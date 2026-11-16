@@ -1,0 +1,5 @@
+Picklistentry 50__c (
+   value('Traditional Chinese Medicine'),
+   order(511),
+   active(true)
+);

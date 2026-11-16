@@ -1,0 +1,5 @@
+Picklistentry it_re__c (
+   value('IT_Reggio Emilia'),
+   order(913),
+   active(true)
+);

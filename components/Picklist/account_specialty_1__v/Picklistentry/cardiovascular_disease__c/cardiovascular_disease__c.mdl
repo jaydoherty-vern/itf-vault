@@ -1,0 +1,5 @@
+Picklistentry cardiovascular_disease__c (
+   value('Cardiovascular Disease'),
+   order(160),
+   active(true)
+);

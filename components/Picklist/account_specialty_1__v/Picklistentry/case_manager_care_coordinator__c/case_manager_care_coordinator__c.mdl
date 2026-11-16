@@ -1,0 +1,5 @@
+Picklistentry case_manager_care_coordinator__c (
+   value('Case Manager / Care Coordinator'),
+   order(161),
+   active(true)
+);

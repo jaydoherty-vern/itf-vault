@@ -1,0 +1,5 @@
+Picklistentry uri__c (
+   value('Urinary Tract Symptoms'),
+   order(256),
+   active(true)
+);

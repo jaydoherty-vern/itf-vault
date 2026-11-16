@@ -1,0 +1,8 @@
+Objectworkflowstep update_event_status_to_pending_approval__c (
+   label('Update Event Status to Pending Approval'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.vault_owner_approval_task__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

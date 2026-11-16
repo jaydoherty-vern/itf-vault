@@ -1,0 +1,5 @@
+Picklistentry br_mg__c (
+   value('BR-MG'),
+   order(505),
+   active(true)
+);

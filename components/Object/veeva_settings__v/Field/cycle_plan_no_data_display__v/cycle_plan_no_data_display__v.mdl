@@ -1,0 +1,18 @@
+Field cycle_plan_no_data_display__v (
+   label('CYCLE_PLAN_NO_DATA_DISPLAY'),
+   type('Boolean'),
+   active(true),
+   description('When checked, a message will display to the user when no cycle plan data exists. The message is configured through the CYCLE_PLAN_NO_DATA_MESSAGE Veeva message.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(66),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

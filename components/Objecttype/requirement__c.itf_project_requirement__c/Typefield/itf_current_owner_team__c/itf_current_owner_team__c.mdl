@@ -1,0 +1,4 @@
+Typefield itf_current_owner_team__c (
+   source('custom'),
+   required(false)
+);

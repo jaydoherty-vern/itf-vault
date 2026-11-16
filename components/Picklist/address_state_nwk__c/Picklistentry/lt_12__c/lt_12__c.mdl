@@ -1,0 +1,5 @@
+Picklistentry lt_12__c (
+   value('LT_Jurbarkas'),
+   order(985),
+   active(true)
+);

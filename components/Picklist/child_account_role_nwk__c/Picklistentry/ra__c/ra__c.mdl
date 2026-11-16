@@ -1,0 +1,5 @@
+Picklistentry ra__c (
+   value('Research Associate'),
+   order(205),
+   active(true)
+);

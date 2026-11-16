@@ -1,0 +1,4 @@
+Typefield primary_zip_postal_code_qs__c (
+   source('custom'),
+   required(false)
+);

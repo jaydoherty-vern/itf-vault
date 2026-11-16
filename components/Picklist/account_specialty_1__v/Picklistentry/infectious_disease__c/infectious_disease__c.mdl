@@ -1,0 +1,5 @@
+Picklistentry infectious_disease__c (
+   value('Infectious Disease'),
+   order(206),
+   active(true)
+);

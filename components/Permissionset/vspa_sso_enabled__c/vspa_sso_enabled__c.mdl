@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_sso_enabled__c (
+   label('VSPA_SSO_ENABLED'),
+   active(true),
+   description('Enables the SSO. NOTE: need to enable the Org SSO.'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

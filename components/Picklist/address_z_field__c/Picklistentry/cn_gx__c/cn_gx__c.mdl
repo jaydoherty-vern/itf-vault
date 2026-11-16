@@ -1,0 +1,5 @@
+Picklistentry cn_gx__c (
+   value('CN-GX'),
+   order(740),
+   active(true)
+);

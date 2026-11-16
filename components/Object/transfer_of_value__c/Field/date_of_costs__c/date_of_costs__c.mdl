@@ -1,0 +1,17 @@
+Field date_of_costs__c (
+   label('Date of Cost'),
+   type('Date'),
+   active(true),
+   description(),
+   required(true),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

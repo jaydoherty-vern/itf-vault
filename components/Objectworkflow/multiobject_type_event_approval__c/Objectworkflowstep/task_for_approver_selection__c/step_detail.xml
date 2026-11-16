@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="task">
+    <vwf:label>Select Approver</vwf:label>
+    <vwf:hideHomePageLink>false</vwf:hideHomePageLink>
+    <vwf:controls>
+      <vwf:control name="choose_the_user_or_group_who_will_review__c" label="Choose the User or Group who will review the Event" type="instructions">
+        <vwf:instructions>Choose the User or Group who will review the Event</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="participant_prompt_control__c" type="participantprompt">
+        <vwf:participant reference="part_manually_selected_approver__c" />
+      </vwf:control>
+      <vwf:control name="task_creation_date__v" label="label" type="date">
+        <vwf:datefield type="date" />
+        <vwf:offset>
+          <vwf:amount>1</vwf:amount>
+          <vwf:unit>days</vwf:unit>
+        </vwf:offset>
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+  <vwf:assignment participant="workflow_initiator__v" excludeowner="false" />
+  <vwf:assignmentType type="every" />
+  <vwf:notifications />
+  <vwf:reminders>
+    <vwf:reminder name="trn__c" template="Notificationtemplate.object_task_reminder_notification__v" sendon="taskDueDate" operator="plus" days="0">
+      <vwf:recipients>
+        <vwf:recipient>task_owner__v</vwf:recipient>
+      </vwf:recipients>
+    </vwf:reminder>
+  </vwf:reminders>
+  <vwf:recordWorkflowActions>
+    <vwf:recordWorkflowAction reference="Recordworkflowaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.CreateWorkflowTaskEventHistoryAction" />
+  </vwf:recordWorkflowActions>
+  <vwf:completeWithoutViewing value="false" />
+  <vwf:taskRequirement requirement="required" />
+</vwf:stepdetails>

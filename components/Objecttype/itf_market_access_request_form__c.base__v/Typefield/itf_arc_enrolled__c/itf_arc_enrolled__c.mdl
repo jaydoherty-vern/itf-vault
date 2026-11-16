@@ -1,0 +1,4 @@
+Typefield itf_arc_enrolled__c (
+   source('standard'),
+   required(false)
+);

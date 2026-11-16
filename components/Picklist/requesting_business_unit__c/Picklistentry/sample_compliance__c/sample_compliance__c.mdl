@@ -1,0 +1,5 @@
+Picklistentry sample_compliance__c (
+   value('Sample Compliance'),
+   order(4),
+   active(true)
+);

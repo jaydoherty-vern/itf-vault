@@ -1,0 +1,5 @@
+Picklistentry cystic_fibrosis__c (
+   value('Cystic Fibrosis'),
+   order(18),
+   active(true)
+);

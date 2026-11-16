@@ -1,0 +1,5 @@
+Picklistentry allergy_immunology_general__c (
+   value('ALLERGY & IMMUNOLOGY - GENERAL'),
+   order(43),
+   active(true)
+);

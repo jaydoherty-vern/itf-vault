@@ -1,0 +1,5 @@
+Picklistentry dpt_wch_0001__c (
+   value('DPT.WCH.0001'),
+   order(0),
+   active(true)
+);

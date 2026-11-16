@@ -1,0 +1,5 @@
+Picklistentry bs_ex__c (
+   value('Exuma'),
+   order(124),
+   active(true)
+);

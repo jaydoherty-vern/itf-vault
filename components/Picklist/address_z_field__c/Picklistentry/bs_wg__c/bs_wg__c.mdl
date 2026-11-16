@@ -1,0 +1,5 @@
+Picklistentry bs_wg__c (
+   value('BS-WG'),
+   order(553),
+   active(true)
+);

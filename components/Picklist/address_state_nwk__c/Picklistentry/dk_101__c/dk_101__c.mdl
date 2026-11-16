@@ -1,0 +1,5 @@
+Picklistentry dk_101__c (
+   value('DK-101'),
+   order(166),
+   active(false)
+);

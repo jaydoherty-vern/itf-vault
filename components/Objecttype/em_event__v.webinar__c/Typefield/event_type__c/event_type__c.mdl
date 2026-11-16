@@ -1,0 +1,8 @@
+Typefield event_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_event_type__c.continuous_medical_education__c',
+         'Picklist.em_event_event_type__c.remote_event_with_speaker__c',
+         'Picklist.em_event_event_type__c.symposium__c',
+         'Picklist.em_event_event_type__c.webinar__c')
+);

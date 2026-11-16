@@ -1,0 +1,5 @@
+Picklistentry ins__c (
+   value('Idiopathic nephrotic syndrome'),
+   order(196),
+   active(true)
+);

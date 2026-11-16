@@ -1,0 +1,5 @@
+Picklistentry ida1__c (
+   value('Category 1 Infectious Disease'),
+   order(8),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry leone__c (
+   value('Leone'),
+   order(133),
+   active(true)
+);

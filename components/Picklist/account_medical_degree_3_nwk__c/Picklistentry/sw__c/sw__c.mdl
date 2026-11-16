@@ -1,0 +1,5 @@
+Picklistentry sw__c (
+   value('SW'),
+   order(268),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield quick_hit__c (
+   source('standard'),
+   required(false)
+);

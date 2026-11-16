@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_event__v.small_meeting_actual_costs__c (
+   label('Small_Meeting_Actual_Costs'),
+   active(true),
+   expression('Not(And(object_type__vr.api_name__v="Small_Meeting",(em_event_status__v="closed__v"),IsBlank(actual_cost__v)))'),
+   description('Small Meetings are required to have Actual Costs entered'),
+   error_message('Enter actual costs before closing the event.'),
+   error_location('id')
+);

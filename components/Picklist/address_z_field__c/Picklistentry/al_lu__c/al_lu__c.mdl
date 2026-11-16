@@ -1,0 +1,5 @@
+Picklistentry al_lu__c (
+   value('AL-LU'),
+   order(87),
+   active(true)
+);

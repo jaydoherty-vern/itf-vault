@@ -1,0 +1,4 @@
+Typefield zvod_pm_segment__c (
+   source('standard'),
+   required(false)
+);

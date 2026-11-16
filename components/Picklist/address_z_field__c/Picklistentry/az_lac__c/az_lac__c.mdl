@@ -1,0 +1,5 @@
+Picklistentry az_lac__c (
+   value('AZ-LAC'),
+   order(204),
+   active(true)
+);

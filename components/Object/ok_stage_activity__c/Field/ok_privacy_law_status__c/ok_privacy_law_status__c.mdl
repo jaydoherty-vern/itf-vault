@@ -1,0 +1,18 @@
+Field ok_privacy_law_status__c (
+   label('OK_Privacy_Law_Status'),
+   type('Boolean'),
+   active(true),
+   description('Needed by Nordics preferred mailing address calculation'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(18),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

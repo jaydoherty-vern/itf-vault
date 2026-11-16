@@ -1,0 +1,5 @@
+Picklistentry mk_76__c (
+   value('MK_Tetovo'),
+   order(1278),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry si_101__c (
+   value('SI_Radlje ob Dravi'),
+   order(1627),
+   active(true)
+);

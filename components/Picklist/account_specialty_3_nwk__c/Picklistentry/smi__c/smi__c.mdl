@@ -1,0 +1,5 @@
+Picklistentry smi__c (
+   value('Sleep Medicine (Internal Medicine)'),
+   order(484),
+   active(true)
+);

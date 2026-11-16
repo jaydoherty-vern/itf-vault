@@ -1,0 +1,4 @@
+Typefield venue_location__c (
+   source('custom'),
+   required(false)
+);

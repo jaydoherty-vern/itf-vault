@@ -1,0 +1,5 @@
+Picklistentry li_04__c (
+   value('LI_Mauren'),
+   order(965),
+   active(true)
+);

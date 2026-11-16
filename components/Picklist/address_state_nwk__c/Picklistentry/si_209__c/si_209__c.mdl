@@ -1,0 +1,5 @@
+Picklistentry si_209__c (
+   value('SI_Rečica ob Savinji'),
+   order(1630),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ophtl__c (
+   value('Diploma in Ophtalmology'),
+   order(78),
+   active(true)
+);

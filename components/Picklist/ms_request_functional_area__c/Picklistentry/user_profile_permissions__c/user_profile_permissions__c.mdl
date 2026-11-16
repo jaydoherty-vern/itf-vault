@@ -1,0 +1,5 @@
+Picklistentry user_profile_permissions__c (
+   value('User Profile Permissions'),
+   order(53),
+   active(true)
+);

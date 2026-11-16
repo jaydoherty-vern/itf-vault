@@ -1,0 +1,5 @@
+Picklistentry ghana_cedi__c (
+   value('Ghana Cedi'),
+   order(63),
+   active(true)
+);

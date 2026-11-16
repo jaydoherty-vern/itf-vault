@@ -1,0 +1,5 @@
+Picklistentry orals__c (
+   value('Oral Surgery Diploma'),
+   order(229),
+   active(true)
+);

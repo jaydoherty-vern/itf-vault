@@ -1,0 +1,5 @@
+Picklistentry ch_vd__c (
+   value('CH_Vaud'),
+   order(113),
+   active(true)
+);

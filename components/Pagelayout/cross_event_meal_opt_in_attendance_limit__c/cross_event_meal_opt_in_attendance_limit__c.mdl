@@ -1,0 +1,8 @@
+RECREATE Pagelayout cross_event_meal_opt_in_attendance_limit__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Cross-Event Meal Opt-In Attendance Limit Rule'),
+   page_markup(@page_markup.xml)
+);

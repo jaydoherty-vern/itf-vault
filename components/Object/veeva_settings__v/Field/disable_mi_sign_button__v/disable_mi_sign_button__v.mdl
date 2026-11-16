@@ -1,0 +1,18 @@
+Field disable_mi_sign_button__v (
+   label('DISABLE_MI_SIGN_BUTTON'),
+   type('Boolean'),
+   active(true),
+   description('Value should be true to disable the sign button on a medical inquiry page after a signature.  Value should be false otherwise.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(94),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

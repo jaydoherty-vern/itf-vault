@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="task">
+    <vwf:label>Verify Prior Authorization Submission</vwf:label>
+    <vwf:hideHomePageLink>false</vwf:hideHomePageLink>
+    <vwf:controls>
+      <vwf:control name="please_verify_the_submission_of_the_prio__c" label="Please verify the submission of the Prior Authorization by contacting the prescriber." type="instructions">
+        <vwf:instructions>Please verify the submission of the Prior Authorization by contacting the prescriber.</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="workflow_creation_date__v" label="label" type="date">
+        <vwf:datefield type="date" />
+        <vwf:offset>
+          <vwf:amount>7</vwf:amount>
+          <vwf:unit>days</vwf:unit>
+        </vwf:offset>
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+  <vwf:assignment participant="part_benefits_specialist__c" excludeowner="false" />
+  <vwf:assignmentType type="every" />
+  <vwf:notifications />
+  <vwf:reminders />
+  <vwf:completeWithoutViewing value="false" />
+  <vwf:taskRequirement requirement="required" />
+</vwf:stepdetails>

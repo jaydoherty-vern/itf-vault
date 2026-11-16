@@ -1,0 +1,5 @@
+Picklistentry cosm__c (
+   value('Aesthetic & Cosmetic Medicine - Surgical'),
+   order(10),
+   active(true)
+);

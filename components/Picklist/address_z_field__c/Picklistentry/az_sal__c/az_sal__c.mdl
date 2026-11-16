@@ -1,0 +1,5 @@
+Picklistentry az_sal__c (
+   value('AZ-SAL'),
+   order(226),
+   active(true)
+);

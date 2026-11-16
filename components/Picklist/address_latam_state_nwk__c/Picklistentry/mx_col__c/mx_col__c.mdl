@@ -1,0 +1,5 @@
+Picklistentry mx_col__c (
+   value('Colima'),
+   order(36),
+   active(true)
+);

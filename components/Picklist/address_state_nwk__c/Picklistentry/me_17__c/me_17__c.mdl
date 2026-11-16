@@ -1,0 +1,5 @@
+Picklistentry me_17__c (
+   value('ME_Rožaje'),
+   order(1201),
+   active(true)
+);

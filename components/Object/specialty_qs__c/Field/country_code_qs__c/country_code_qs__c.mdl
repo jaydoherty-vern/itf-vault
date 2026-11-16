@@ -1,0 +1,19 @@
+Field country_code_qs__c (
+   label('Country Code'),
+   type('String'),
+   active(true),
+   description('QS - The country code will be used in sharing rules to determine who can see the related Specialty. Refer to the ISO 3166-1 for the list of country codes.'),
+   required(false),
+   unique(false),
+   max_length(2),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

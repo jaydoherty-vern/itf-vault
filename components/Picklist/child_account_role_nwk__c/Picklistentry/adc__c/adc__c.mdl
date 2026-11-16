@@ -1,0 +1,5 @@
+Picklistentry adc__c (
+   value('Assistant Department Chair'),
+   order(14),
+   active(true)
+);

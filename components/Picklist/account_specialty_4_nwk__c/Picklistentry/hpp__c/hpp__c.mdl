@@ -1,0 +1,5 @@
+Picklistentry hpp__c (
+   value('Hospice & Palliative Medicine (Ped)'),
+   order(198),
+   active(true)
+);

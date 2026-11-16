@@ -1,0 +1,5 @@
+Picklistentry lv_019__c (
+   value('LV_Burtnieku novads (Burtnieki)'),
+   order(1065),
+   active(true)
+);

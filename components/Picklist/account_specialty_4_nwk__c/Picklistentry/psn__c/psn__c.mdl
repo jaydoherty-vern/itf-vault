@@ -1,0 +1,5 @@
+Picklistentry psn__c (
+   value('Neuropsychology'),
+   order(299),
+   active(true)
+);

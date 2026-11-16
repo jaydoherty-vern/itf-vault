@@ -1,0 +1,16 @@
+RECREATE Permissionset vspa_survey_internal_end_user__c (
+   label('VSPA_Survey_Internal_End_User'),
+   active(true),
+   description(),
+   object.survey_question__v.order__v.field_actions('edit',
+      'read'),
+   object.survey_target__v.coach__v.field_actions('read'),
+   object.survey_target__v.employee__v.field_actions('edit',
+      'read'),
+   object.survey_target__v.employee_comment__v.field_actions('edit',
+      'read'),
+   object.survey_target__v.enable_employee_comment__v.field_actions('read'),
+   object.survey_target__v.region__v.field_actions('read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

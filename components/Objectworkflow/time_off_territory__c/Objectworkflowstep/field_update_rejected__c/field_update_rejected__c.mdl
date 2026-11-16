@@ -1,0 +1,9 @@
+Objectworkflowstep field_update_rejected__c (
+   label('Field Update: Rejected'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.end__c',
+         'Objectworkflowstep.employee_rejected__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

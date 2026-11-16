@@ -1,0 +1,10 @@
+Typefield em_event_speaker_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_speaker_status__v.accepted__v',
+         'Picklist.em_event_speaker_status__v.attended__v',
+         'Picklist.em_event_speaker_status__v.canceled__c',
+         'Picklist.em_event_speaker_status__v.invited__v',
+         'Picklist.em_event_speaker_status__v.rejected__v'),
+   default_value('Picklist.em_event_speaker_status__v.invited__v')
+);

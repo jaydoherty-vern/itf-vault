@@ -1,0 +1,5 @@
+Picklistentry mailer__c (
+   value('Mailer'),
+   order(9),
+   active(true)
+);

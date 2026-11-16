@@ -1,0 +1,5 @@
+Picklistentry cz_ol__c (
+   value('CZ_Olomoucký kraj'),
+   order(122),
+   active(true)
+);

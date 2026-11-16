@@ -1,0 +1,6 @@
+RECREATE Securityprofile vspa_local_admin__c (
+   label('VSPA_Local_Admin'),
+   active(true),
+   description(),
+   permission_sets('vspa_local_admin_ps__c')
+);

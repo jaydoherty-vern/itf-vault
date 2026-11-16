@@ -1,0 +1,4 @@
+Typefield fax_2_vod__c (
+   source('custom'),
+   required(false)
+);

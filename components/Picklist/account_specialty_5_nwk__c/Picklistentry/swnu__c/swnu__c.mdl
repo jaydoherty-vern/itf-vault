@@ -1,0 +1,5 @@
+Picklistentry swnu__c (
+   value('Social Work Nurse'),
+   order(480),
+   active(true)
+);

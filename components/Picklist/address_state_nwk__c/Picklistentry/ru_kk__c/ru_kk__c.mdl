@@ -1,0 +1,5 @@
+Picklistentry ru_kk__c (
+   value('RU_Khakasiya, Respublika'),
+   order(1510),
+   active(true)
+);

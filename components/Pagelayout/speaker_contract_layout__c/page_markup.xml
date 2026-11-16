@@ -1,0 +1,42 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.contract__v.em_speaker_contract__v">
+    <vault:section title="Fields" name="fields__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="template__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="contract_status__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="em_catalog__v" />
+            <vault:field reference="disclaimer__v" />
+            <vault:field reference="em_tier__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Contract Partners" name="contract_partners__c">
+        <vault:relatedObject relationship="contract_partners__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="em_speaker__v" width="200px" />
+            <vault:field reference="contract_partner_status__v" width="200px" />
+            <vault:field reference="signature_datetime__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Contract Lines" name="contract_lines__c">
+        <vault:relatedObject relationship="contract_lines__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="service__v" width="200px" />
+            <vault:field reference="service_name__v" width="200px" />
+            <vault:field reference="em_rate__v" width="200px" />
+            <vault:field reference="em_rate_type__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

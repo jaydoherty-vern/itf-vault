@@ -1,0 +1,5 @@
+Picklistentry hu_tb__c (
+   value('HU_Tatabánya'),
+   order(713),
+   active(true)
+);

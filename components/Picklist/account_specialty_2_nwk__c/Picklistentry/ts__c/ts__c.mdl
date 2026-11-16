@@ -1,0 +1,5 @@
+Picklistentry ts__c (
+   value('Thoracic Surgery'),
+   order(524),
+   active(true)
+);

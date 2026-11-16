@@ -1,0 +1,5 @@
+Picklistentry products_assignment__c (
+   value('Products assignment'),
+   order(28),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry internal_medicine_genetics_pediatrics_cl__c (
+   value('INTERNAL MEDICINE, GENETICS, PEDIATRICS, CLINICAL GENETICS'),
+   order(127),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry hr_01__c (
+   value('HR_Zagrebačka županija'),
+   order(676),
+   active(true)
+);

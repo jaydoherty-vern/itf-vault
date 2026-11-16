@@ -1,0 +1,5 @@
+Picklistentry militr__c (
+   value('MILITR'),
+   order(18),
+   active(true)
+);

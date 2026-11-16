@@ -1,0 +1,5 @@
+Picklistentry cv_br__c (
+   value('CV-BR'),
+   order(821),
+   active(true)
+);

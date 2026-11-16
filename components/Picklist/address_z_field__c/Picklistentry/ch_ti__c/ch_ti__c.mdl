@@ -1,0 +1,5 @@
+Picklistentry ch_ti__c (
+   value('CH-TI'),
+   order(670),
+   active(true)
+);

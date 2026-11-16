@@ -1,0 +1,5 @@
+Picklistentry mx_nay__c (
+   value('Nayarit'),
+   order(30),
+   active(true)
+);

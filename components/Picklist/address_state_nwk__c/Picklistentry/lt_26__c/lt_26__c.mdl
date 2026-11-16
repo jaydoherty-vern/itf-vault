@@ -1,0 +1,5 @@
+Picklistentry lt_26__c (
+   value('LT_Mažeikiai'),
+   order(1002),
+   active(true)
+);

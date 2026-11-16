@@ -1,0 +1,4 @@
+Typefield phone_2_vod__c (
+   source('standard'),
+   required(false)
+);

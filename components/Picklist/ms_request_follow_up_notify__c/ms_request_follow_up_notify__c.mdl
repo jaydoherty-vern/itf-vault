@@ -1,0 +1,9 @@
+RECREATE Picklist ms_request_follow_up_notify__c (
+   label('Notify?'),
+   active(true),
+   Picklistentry(@Picklistentry/customer__c.mdl),
+   Picklistentry(@Picklistentry/veeva__c.mdl),
+   Picklistentry(@Picklistentry/no__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,8 @@
+Objectworkflowstep cs_shipment_confirmed__c (
+   label('CS: Shipment Confirmed'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.ut_confirm_delivery__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

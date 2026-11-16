@@ -1,0 +1,4 @@
+Typefield vspa_workplace_short_name__c (
+   source('custom'),
+   required(false)
+);

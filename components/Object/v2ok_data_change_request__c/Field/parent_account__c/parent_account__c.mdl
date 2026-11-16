@@ -1,0 +1,27 @@
+Field parent_account__c (
+   label('Parent Account'),
+   type('Object'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Parent WorKPlace of the Organisation Account.  
+Set this value only when Organisation is a Department'),
+   list_column(false),
+   create_object_inline(false),
+   order(88),
+   object('account__v'),
+   relationship_type('reference'),
+   relationship_outbound_name('parent_account__cr'),
+   relationship_inbound_name('data_change_requests_a__cr'),
+   relationship_inbound_label('parent_account__c'),
+   relationship_deletion('setnull'),
+   relationship_criteria(),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   secure_relationship(false),
+   editable(true),
+   predefault_reference(false),
+   control_binding()
+);

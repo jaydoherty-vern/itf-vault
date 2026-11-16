@@ -1,0 +1,5 @@
+Picklistentry data_collection_and_management__c (
+   value('Data Collection and Management'),
+   order(16),
+   active(true)
+);

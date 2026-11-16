@@ -1,0 +1,8 @@
+Objectworkflowstep ut_verify_pa_outcome__c (
+   label('UT: Verify PA Outcome'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.decision_pa_outcome__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

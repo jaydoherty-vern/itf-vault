@@ -1,0 +1,8 @@
+Typefield webinar_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_webinar_status__v.failed__v',
+         'Picklist.em_event_webinar_status__v.off__v',
+         'Picklist.em_event_webinar_status__v.on__v',
+         'Picklist.em_event_webinar_status__v.sending__v')
+);

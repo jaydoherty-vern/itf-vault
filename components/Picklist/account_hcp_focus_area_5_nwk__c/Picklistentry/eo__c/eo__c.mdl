@@ -1,0 +1,5 @@
+Picklistentry eo__c (
+   value('Equine Ophthalmology'),
+   order(134),
+   active(true)
+);

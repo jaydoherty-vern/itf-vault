@@ -1,0 +1,5 @@
+Picklistentry specialist_technologist_technician_other__c (
+   value('Specialist/Technologist/Technician-Other'),
+   order(292),
+   active(true)
+);

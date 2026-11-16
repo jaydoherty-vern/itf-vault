@@ -1,0 +1,5 @@
+Picklistentry rs_19__c (
+   value('RS_Rasinski okrug'),
+   order(1471),
+   active(true)
+);

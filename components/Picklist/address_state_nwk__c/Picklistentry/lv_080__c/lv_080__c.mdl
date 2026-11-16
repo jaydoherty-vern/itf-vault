@@ -1,0 +1,5 @@
+Picklistentry lv_080__c (
+   value('LV_Ropažu novads'),
+   order(1134),
+   active(true)
+);

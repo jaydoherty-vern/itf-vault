@@ -1,0 +1,5 @@
+Picklistentry nprac__c (
+   value('Nurse Practitioner'),
+   order(146),
+   active(true)
+);

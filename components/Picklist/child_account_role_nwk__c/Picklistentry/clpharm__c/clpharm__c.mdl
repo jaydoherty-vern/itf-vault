@@ -1,0 +1,5 @@
+Picklistentry clpharm__c (
+   value('CLPHARM'),
+   order(40),
+   active(true)
+);

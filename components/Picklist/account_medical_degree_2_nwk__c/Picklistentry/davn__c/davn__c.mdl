@@ -1,0 +1,5 @@
+Picklistentry davn__c (
+   value('Diploma in Advanced Veterinary Nursing (DipAVN)'),
+   order(44),
+   active(true)
+);

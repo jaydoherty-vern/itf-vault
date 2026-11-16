@@ -1,0 +1,9 @@
+RECREATE Reporttype account_with_account_territory_and_t1__c (
+   label('Account with Account Territory and Territory'),
+   active(true),
+   description('Account with Account Territories (Child) and Territory'),
+   primary_object('account__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

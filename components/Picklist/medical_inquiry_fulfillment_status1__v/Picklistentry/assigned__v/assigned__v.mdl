@@ -1,0 +1,5 @@
+Picklistentry assigned__v (
+   value('In Progress'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry amyo__c (
+   value('Amyotrophic Lateral Sclerosis'),
+   order(10),
+   active(true)
+);

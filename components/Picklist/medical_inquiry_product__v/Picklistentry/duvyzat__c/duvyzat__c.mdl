@@ -1,0 +1,5 @@
+Picklistentry duvyzat__c (
+   value('DUVYZAT'),
+   order(0),
+   active(true)
+);

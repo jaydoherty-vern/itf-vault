@@ -1,0 +1,5 @@
+Picklistentry fr_10__c (
+   value('FR_Aube'),
+   order(285),
+   active(true)
+);

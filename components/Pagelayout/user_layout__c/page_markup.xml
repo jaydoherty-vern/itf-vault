@@ -1,0 +1,99 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.user__sys">
+    <vault:section title="Functional Profile settings" name="functional_profile_settings__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="itf_private_email_address__c" />
+            <vault:field reference="itf_gender__c" />
+            <vault:field reference="ccrms_functionalprofile__c" />
+            <vault:field reference="country_code__v" />
+            <vault:field reference="ccrms_countrycode__c" />
+            <vault:field reference="country_code_qs__c" readOnly="true" />
+            <vault:field reference="ccrms_auto_assign_permission_sets__c" />
+            <vault:spacer />
+            <vault:field reference="custom_application__v" />
+            <vault:field reference="user_type__v" />
+            <vault:field reference="itf_region__c" />
+            <vault:field reference="itf_region_name__c" />
+            <vault:field reference="itf_district__c" />
+            <vault:field reference="itf_district_name__c" />
+            <vault:field reference="primary_territory__v" />
+            <vault:field reference="itf_territory_name__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Engage" name="engage__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="engage_group__v" />
+            <vault:field reference="engage_group_provisioning_status__v" />
+            <vault:field reference="engage_group_request__v" />
+            <vault:field reference="engage_connect_group__v" />
+            <vault:field reference="engage_connect_group_status__v" />
+            <vault:field reference="engage_connect_group_request__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Veeva Admin" name="veeva_admin__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="content_admin__v" />
+            <vault:field reference="approved_email_admin__v" />
+            <vault:field reference="consent_admin__v" />
+            <vault:field reference="mccp_admin__v" />
+            <vault:field reference="analytics_admin__v" />
+            <vault:field reference="network_admin__v" />
+            <vault:field reference="enable_clm_testing_features__v" />
+            <vault:field reference="test_user__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Additional Information" name="additional_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="share_team__v" />
+            <vault:field reference="smb_alias_external_id__c" />
+            <vault:field reference="override_systemmodstamp_timestamp__v" />
+            <vault:field reference="count__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Connection information" name="connection_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="last_ipad_connect__v" />
+            <vault:field reference="last_ipad_connect_version__v" />
+            <vault:field reference="last_ipad_ios_version__v" />
+            <vault:field reference="last_iphone_connect__v" />
+            <vault:field reference="last_iphone_sync__v" />
+            <vault:field reference="last_iphone_connect_version__v" />
+            <vault:field reference="last_iphone_ios_version__v" />
+            <vault:spacer />
+            <vault:field reference="webinar_host_id__v" />
+            <vault:field reference="webinar_host_token__v" />
+            <vault:spacer />
+            <vault:field reference="force_full_refresh__v" />
+            <vault:field reference="raiselogginglevel__v" />
+            <vault:field reference="senddetailedlog__v" />
+            <vault:field reference="upload_vtrans__v" />
+            <vault:spacer />
+            <vault:field reference="concur_user_id__v" />
+            <vault:field reference="remote_meeting_host_token__v" />
+            <vault:field reference="remote_meeting_host_id__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+            <vault:field reference="first_name__sys" />
+            <vault:field reference="last_name__sys" />
+            <vault:field reference="name__v" />
+            <vault:field reference="username__sys" />
+            <vault:field reference="email__sys" />
+            <vault:field reference="language__sys" />
+            <vault:field reference="locale__sys" />
+            <vault:field reference="timezone__sys" />
+            <vault:field reference="country__v" />
+            <vault:field reference="license_type__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Domain User" name="domain_user__v">
+        <vault:domainUser />
+    </vault:section>
+    <vault:section title="Application Licensing" name="application_licensing__c" helpContent="At least one application license type must be selected. If none are selected, all application licenses are set by default.">
+        <vault:detailform type="One-Column">
+            <vault:control reference="vaultcrmalign_lic_control__sys" name="vaultcrmalign_lic_control__c" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

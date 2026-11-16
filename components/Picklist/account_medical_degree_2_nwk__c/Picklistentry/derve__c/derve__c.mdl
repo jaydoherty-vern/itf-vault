@@ -1,0 +1,5 @@
+Picklistentry derve__c (
+   value('Diploma in Dermatology and venerology'),
+   order(56),
+   active(true)
+);

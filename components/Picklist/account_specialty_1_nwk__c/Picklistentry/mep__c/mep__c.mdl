@@ -1,0 +1,5 @@
+Picklistentry mep__c (
+   value('Medical Physics'),
+   order(269),
+   active(true)
+);

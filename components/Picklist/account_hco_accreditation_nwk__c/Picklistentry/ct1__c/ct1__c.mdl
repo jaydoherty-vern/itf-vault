@@ -1,0 +1,5 @@
+Picklistentry ct1__c (
+   value('Cancer Treatment (Public)'),
+   order(4),
+   active(true)
+);

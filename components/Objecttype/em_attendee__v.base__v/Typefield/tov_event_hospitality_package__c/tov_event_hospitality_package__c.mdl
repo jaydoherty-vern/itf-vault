@@ -1,0 +1,4 @@
+Typefield tov_event_hospitality_package__c (
+   source('standard'),
+   required(false)
+);

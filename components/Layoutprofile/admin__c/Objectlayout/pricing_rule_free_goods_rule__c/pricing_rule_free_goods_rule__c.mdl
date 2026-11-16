@@ -1,0 +1,8 @@
+Objectlayout pricing_rule_free_goods_rule__c (
+   label('pricing_rule_free_goods_rule'),
+   active(true),
+   pagelayouts('Pagelayout.free_goods_layout__c'),
+   object('Object.pricing_rule__v'),
+   objecttype('Objecttype.pricing_rule__v.free_goods_rule__v'),
+   record_creation_layout('Pagelayout.free_goods_layout__c')
+);

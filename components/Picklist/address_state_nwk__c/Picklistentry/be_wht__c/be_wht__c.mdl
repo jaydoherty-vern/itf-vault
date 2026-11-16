@@ -1,0 +1,5 @@
+Picklistentry be_wht__c (
+   value('BE_Hainaut'),
+   order(80),
+   active(true)
+);

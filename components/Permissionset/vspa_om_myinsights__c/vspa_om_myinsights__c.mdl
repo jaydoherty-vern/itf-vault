@@ -1,0 +1,9 @@
+RECREATE Permissionset vspa_om_myinsights__c (
+   label('VSPA_OM_MyInsights'),
+   active(true),
+   description('Permission set to enable access to MyInsights OM reports'),
+   object.html_report__v.review_before_submit__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

@@ -1,0 +1,8 @@
+Typefield itf_role__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_itf_role__c.access_contact__c',
+         'Picklist.account_itf_role__c.dpt_pt__c',
+         'Picklist.account_itf_role__c.office_manager__c',
+         'Picklist.account_itf_role__c.rn__c')
+);

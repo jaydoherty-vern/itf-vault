@@ -1,0 +1,5 @@
+Picklistentry stat__c (
+   value('Statistician'),
+   order(104),
+   active(true)
+);

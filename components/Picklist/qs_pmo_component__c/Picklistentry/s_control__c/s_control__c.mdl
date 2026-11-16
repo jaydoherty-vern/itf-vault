@@ -1,0 +1,5 @@
+Picklistentry s_control__c (
+   value('S-Control'),
+   order(8),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry obes__c (
+   value('Obesity'),
+   order(280),
+   active(true)
+);

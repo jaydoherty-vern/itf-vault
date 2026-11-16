@@ -1,0 +1,5 @@
+Picklistentry fiji_dollar__c (
+   value('Fiji Dollar'),
+   order(59),
+   active(true)
+);

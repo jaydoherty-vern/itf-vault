@@ -1,0 +1,5 @@
+Picklistentry it_ar__c (
+   value('IT_Arezzo'),
+   order(835),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 30_6__c (
+   value('Laboratory Medicine_Laboratory Medicine Others'),
+   order(230),
+   active(true)
+);

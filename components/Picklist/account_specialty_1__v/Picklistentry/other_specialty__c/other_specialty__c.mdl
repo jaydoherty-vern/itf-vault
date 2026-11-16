@@ -1,0 +1,5 @@
+Picklistentry other_specialty__c (
+   value('OTHER SPECIALTY'),
+   order(361),
+   active(true)
+);

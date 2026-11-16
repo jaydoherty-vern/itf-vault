@@ -1,0 +1,5 @@
+Picklistentry colcan__c (
+   value('Colorectal Cancer'),
+   order(84),
+   active(true)
+);

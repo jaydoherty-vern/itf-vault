@@ -1,0 +1,4 @@
+Typefield tov_subscription_fee__c (
+   source('standard'),
+   required(false)
+);

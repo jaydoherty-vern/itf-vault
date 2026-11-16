@@ -1,0 +1,5 @@
+Picklistentry candmed__c (
+   value('Candidate of Medicine'),
+   order(13),
+   active(true)
+);

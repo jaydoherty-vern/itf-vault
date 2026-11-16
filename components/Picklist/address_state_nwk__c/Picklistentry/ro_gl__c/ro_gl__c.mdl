@@ -1,0 +1,5 @@
+Picklistentry ro_gl__c (
+   value('RO_Galați'),
+   order(1427),
+   active(true)
+);

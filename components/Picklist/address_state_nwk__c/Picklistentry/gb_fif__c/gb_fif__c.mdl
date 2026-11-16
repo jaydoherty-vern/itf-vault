@@ -1,0 +1,5 @@
+Picklistentry gb_fif__c (
+   value('GB-FIF'),
+   order(495),
+   active(false)
+);

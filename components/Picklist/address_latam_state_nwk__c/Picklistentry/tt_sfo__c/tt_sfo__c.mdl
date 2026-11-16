@@ -1,0 +1,5 @@
+Picklistentry tt_sfo__c (
+   value('San Fernando'),
+   order(375),
+   active(true)
+);

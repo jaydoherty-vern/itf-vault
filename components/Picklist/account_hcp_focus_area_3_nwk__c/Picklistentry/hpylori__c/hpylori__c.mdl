@@ -1,0 +1,5 @@
+Picklistentry hpylori__c (
+   value('Helicobacter Pylori (H.pylori) Detection'),
+   order(175),
+   active(true)
+);

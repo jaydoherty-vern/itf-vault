@@ -1,0 +1,5 @@
+Picklistentry gb_mft__c (
+   value('GB-MFT'),
+   order(545),
+   active(false)
+);

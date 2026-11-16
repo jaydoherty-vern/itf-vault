@@ -1,0 +1,5 @@
+Picklistentry lv_050__c (
+   value('LV_Kuldīgas novads'),
+   order(1103),
+   active(true)
+);

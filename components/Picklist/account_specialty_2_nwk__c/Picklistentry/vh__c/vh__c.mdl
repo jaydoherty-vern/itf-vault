@@ -1,0 +1,5 @@
+Picklistentry vh__c (
+   value('Veterinary Hygiene'),
+   order(564),
+   active(true)
+);

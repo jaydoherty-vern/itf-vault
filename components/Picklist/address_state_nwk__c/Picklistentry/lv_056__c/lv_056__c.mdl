@@ -1,0 +1,5 @@
+Picklistentry lv_056__c (
+   value('LV_Līvānu novads'),
+   order(1108),
+   active(true)
+);

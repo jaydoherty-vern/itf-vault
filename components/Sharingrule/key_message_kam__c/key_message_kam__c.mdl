@@ -1,0 +1,8 @@
+RECREATE Sharingrule key_message_kam__c (
+   label('Key Message - KAM'),
+   active(true),
+   description(),
+   object('key_message__v'),
+   criteria([itf_team1__c CONTAINS ('kam__c')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

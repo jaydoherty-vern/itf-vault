@@ -1,0 +1,5 @@
+Picklistentry cl_ma__c (
+   value('CL-MA'),
+   order(719),
+   active(true)
+);

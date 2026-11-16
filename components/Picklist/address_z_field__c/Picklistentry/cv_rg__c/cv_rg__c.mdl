@@ -1,0 +1,5 @@
+Picklistentry cv_rg__c (
+   value('CV-RG'),
+   order(832),
+   active(true)
+);

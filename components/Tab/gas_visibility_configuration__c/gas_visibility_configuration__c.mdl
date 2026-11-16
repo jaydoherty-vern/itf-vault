@@ -1,0 +1,12 @@
+RECREATE Tab gas_visibility_configuration__c (
+   active(true),
+   all_view_label('All GAS Criteria-Based Filters'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('GAS Criteria-Based Filters'),
+   my_view_label('My GAS Criteria-Based Filters'),
+   object('gas_visibility_configuration__c'),
+   order(1800),
+   parent(),
+   recent_view_label('Recent GAS Criteria-Based Filters')
+);

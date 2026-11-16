@@ -1,0 +1,5 @@
+Picklistentry dls__c (
+   value('Dr. sc. hum.'),
+   order(136),
+   active(true)
+);

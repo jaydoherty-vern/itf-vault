@@ -1,0 +1,5 @@
+Picklistentry mednu__c (
+   value('Diploma in Nuclear Medicine'),
+   order(66),
+   active(true)
+);

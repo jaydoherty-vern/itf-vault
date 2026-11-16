@@ -1,0 +1,5 @@
+Picklistentry ccs__c (
+   value('Candidate of Chemical Sciences'),
+   order(11),
+   active(true)
+);

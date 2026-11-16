@@ -1,0 +1,60 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.v2ok_data_change_request__c.new_professional_at_new_workplace__c">
+    <vault:section title="DCR Information" name="dcr_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="change_type__c" required="true" />
+            <vault:field reference="ntw_dcr_parent__c" />
+            <vault:field reference="description__c" />
+            <vault:field reference="data_change_request__c" readOnly="true" />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Person Account Detail" name="person_account_detail__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="first_name__c" required="true" />
+            <vault:field reference="last_name__c" required="true" />
+            <vault:field reference="professionaltype__c" />
+            <vault:field reference="specialty_1_vod__c" required="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Organisation Account details" name="organisation_account_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="new_account_name__c" required="true" />
+            <vault:field reference="workplace_type__c" />
+            <vault:field reference="workplace_specialty__c" required="true" />
+            <vault:field reference="parent_account__c" />
+            <vault:field reference="phone__c" required="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Address Details" name="address_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="new_address_line_1__c" required="true" />
+            <vault:field reference="city_vod__c" required="true" />
+            <vault:field reference="zip_vod__c" required="true" />
+            <vault:field reference="country__c" required="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Validation Request Response (Section wil" name="validation_request_response_section_w__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="connector_id__c" readOnly="true" />
+            <vault:field reference="request_date__c" readOnly="true" />
+            <vault:field reference="integration_date__c" readOnly="true" />
+            <vault:field reference="response_date__c" readOnly="true" />
+            <vault:field reference="data_request_response__c" readOnly="true" />
+            <vault:field reference="response_comment__c" readOnly="true" />
+            <vault:field reference="request_sent__c" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

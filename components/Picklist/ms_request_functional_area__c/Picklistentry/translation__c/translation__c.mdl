@@ -1,0 +1,5 @@
+Picklistentry translation__c (
+   value('Translation'),
+   order(52),
+   active(true)
+);

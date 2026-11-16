@@ -1,0 +1,5 @@
+Picklistentry pl_lg__c (
+   value('PL_Legnica'),
+   order(1349),
+   active(true)
+);

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.specialty_1__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.itf_investigator__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.kol_cda__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.speaker__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.target__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="product_metrics__v___account__v.speaker_skills__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="product_metrics__v___account__v.engagements__c" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="account__v.kol_cda__v" rightValue="True" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order />
+</vrp:query>

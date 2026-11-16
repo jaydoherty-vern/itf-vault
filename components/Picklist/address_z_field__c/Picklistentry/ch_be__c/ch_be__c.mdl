@@ -1,0 +1,5 @@
+Picklistentry ch_be__c (
+   value('CH-BE'),
+   order(653),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry palliative_care__c (
+   value('PALLIATIVE CARE'),
+   order(67),
+   active(true)
+);

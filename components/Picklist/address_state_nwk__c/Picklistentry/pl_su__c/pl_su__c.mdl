@@ -1,0 +1,5 @@
+Picklistentry pl_su__c (
+   value('PL_Suwałki'),
+   order(1374),
+   active(true)
+);

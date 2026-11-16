@@ -1,0 +1,5 @@
+Picklistentry unidad_de_fomento__c (
+   value('Unidad de Fomento'),
+   order(38),
+   active(true)
+);

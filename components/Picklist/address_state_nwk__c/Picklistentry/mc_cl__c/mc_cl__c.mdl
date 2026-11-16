@@ -1,0 +1,5 @@
+Picklistentry mc_cl__c (
+   value('MC_La Colle'),
+   order(1170),
+   active(true)
+);

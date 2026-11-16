@@ -1,0 +1,5 @@
+Picklistentry acute_pain__c (
+   value('Acute Pain'),
+   order(3),
+   active(true)
+);

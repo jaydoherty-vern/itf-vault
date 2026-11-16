@@ -1,0 +1,19 @@
+Field veevaid__v (
+   label('Veeva ID'),
+   type('String'),
+   active(true),
+   description('A single, Veeva-wide identifier for HCPs and HCOs across Veeva OpenData, Network and Vault CRM. This value is the actual OpenData reference value and will be populated for OpenData customers only.'),
+   required(false),
+   unique(false),
+   max_length(25),
+   help_content('A single, Veeva-wide identifier for HCPs and HCOs across Veeva OpenData, Network and Vault CRM. This value is the actual OpenData reference value and will be populated for OpenData customers only.'),
+   list_column(false),
+   order(148),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

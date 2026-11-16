@@ -1,0 +1,5 @@
+Picklistentry diploma_of_the_royal_college_of_obstetri__c (
+   value('Diploma of the Royal College of Obstetricians and Gynaecologists (DRCOG)'),
+   order(6),
+   active(true)
+);

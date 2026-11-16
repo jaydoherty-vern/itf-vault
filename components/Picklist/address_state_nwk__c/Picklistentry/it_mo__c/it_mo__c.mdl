@@ -1,0 +1,5 @@
+Picklistentry it_mo__c (
+   value('IT_Modena'),
+   order(889),
+   active(true)
+);

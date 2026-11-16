@@ -1,0 +1,5 @@
+Picklistentry differed__c (
+   value('Differed'),
+   order(2),
+   active(true)
+);

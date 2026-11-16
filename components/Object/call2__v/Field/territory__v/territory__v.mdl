@@ -1,0 +1,19 @@
+Field territory__v (
+   label('Territory'),
+   type('String'),
+   active(true),
+   description('The Territory of the User at the time of the Account Call.  If the User and Account are in more than one territory, it uses the first territory from the User that matches a Territory of the Account.  If no match between User and Rep, do not populate the Territory on the Call'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(true),
+   order(162),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

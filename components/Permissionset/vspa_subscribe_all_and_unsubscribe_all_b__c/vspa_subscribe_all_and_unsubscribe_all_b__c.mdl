@@ -1,0 +1,8 @@
+RECREATE Permissionset vspa_subscribe_all_and_unsubscribe_all_b__c (
+   label('VSPA_Subscribe_All_and_Unsubscribe_All_Button_Visibility'),
+   active(true),
+   description('Enables Button Visibility -  Subscribe All and Unsubscribe All functionalities.'),
+   object.consent_header__v.subscription_option__v.field_actions('read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

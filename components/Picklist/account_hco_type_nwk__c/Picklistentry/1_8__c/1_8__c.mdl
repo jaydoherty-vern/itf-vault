@@ -1,0 +1,5 @@
+Picklistentry 1_8__c (
+   value('Hospital, Recovery'),
+   order(77),
+   active(true)
+);

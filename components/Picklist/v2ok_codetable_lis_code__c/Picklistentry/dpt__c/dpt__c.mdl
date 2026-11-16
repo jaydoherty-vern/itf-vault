@@ -1,0 +1,5 @@
+Picklistentry dpt__c (
+   value('DPT'),
+   order(2),
+   active(true)
+);

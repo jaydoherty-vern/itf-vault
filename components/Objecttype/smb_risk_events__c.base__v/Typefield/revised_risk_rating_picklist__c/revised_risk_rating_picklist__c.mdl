@@ -1,0 +1,4 @@
+Typefield revised_risk_rating_picklist__c (
+   source('standard'),
+   required(false)
+);

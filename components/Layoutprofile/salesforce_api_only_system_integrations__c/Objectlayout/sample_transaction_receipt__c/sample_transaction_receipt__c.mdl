@@ -1,0 +1,8 @@
+Objectlayout sample_transaction_receipt__c (
+   label('sample_transaction_receipt'),
+   active(true),
+   pagelayouts('Pagelayout.sample_receipt_layout_vod__c'),
+   object('Object.sample_transaction__v'),
+   objecttype('Objecttype.sample_transaction__v.receipt__v'),
+   record_creation_layout('Pagelayout.sample_receipt_layout_vod__c')
+);

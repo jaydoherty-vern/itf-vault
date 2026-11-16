@@ -1,0 +1,5 @@
+Picklistentry lt_24__c (
+   value('LT_Lazdijai'),
+   order(999),
+   active(true)
+);

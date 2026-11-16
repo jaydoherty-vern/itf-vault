@@ -1,0 +1,5 @@
+Picklistentry inject__c (
+   value('Other Injectable Treatment (Rejuvenation, Wrinkle Relaxing & Dermal Fillers)'),
+   order(302),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field itf_current_owner_team__c (
+   label('Current Owner / Team'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(60),
+   multi_value(false),
+   picklist('Picklist.itf_current_owner_team__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

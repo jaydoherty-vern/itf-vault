@@ -1,0 +1,5 @@
+Picklistentry it_rm__c (
+   value('IT_Rome'),
+   order(916),
+   active(true)
+);

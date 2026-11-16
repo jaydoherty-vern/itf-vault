@@ -1,0 +1,5 @@
+Picklistentry srpharm__c (
+   value('SRPHARM'),
+   order(20),
+   active(true)
+);

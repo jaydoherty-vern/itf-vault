@@ -1,0 +1,5 @@
+Picklistentry 13_6__c (
+   value('Healthcare Manufacturer, Ophthalmic'),
+   order(55),
+   active(true)
+);

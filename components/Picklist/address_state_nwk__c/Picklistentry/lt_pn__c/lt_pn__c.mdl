@@ -1,0 +1,5 @@
+Picklistentry lt_pn__c (
+   value('LT_Panevėžio Apskritis'),
+   order(1008),
+   active(true)
+);

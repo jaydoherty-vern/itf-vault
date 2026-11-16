@@ -1,0 +1,5 @@
+Picklistentry is_hve__c (
+   value('IS_Hveragerðisbær'),
+   order(784),
+   active(true)
+);

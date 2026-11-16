@@ -1,0 +1,18 @@
+Field zvod_pm_segment__c (
+   label('Segment'),
+   type('Picklist'),
+   active(true),
+   description('Pull-through field from Product Metrics.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(70),
+   multi_value(false),
+   picklist('Picklist.mc_cycle_plan_product_zvod_pm_segment__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

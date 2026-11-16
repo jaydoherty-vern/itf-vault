@@ -1,0 +1,5 @@
+Picklistentry al_mr__c (
+   value('AL-MR'),
+   order(90),
+   active(true)
+);

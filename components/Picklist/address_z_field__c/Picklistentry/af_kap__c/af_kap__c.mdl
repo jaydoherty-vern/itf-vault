@@ -1,0 +1,5 @@
+Picklistentry af_kap__c (
+   value('AF-KAP'),
+   order(28),
+   active(true)
+);

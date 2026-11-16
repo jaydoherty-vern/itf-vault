@@ -1,0 +1,5 @@
+Picklistentry app_wxx_2__c (
+   value('APP.WXX.2'),
+   order(0),
+   active(true)
+);

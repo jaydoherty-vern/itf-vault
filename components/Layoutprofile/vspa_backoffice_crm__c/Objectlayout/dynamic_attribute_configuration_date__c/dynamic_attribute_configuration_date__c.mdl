@@ -1,0 +1,8 @@
+Objectlayout dynamic_attribute_configuration_date__c (
+   label('dynamic_attribute_configuration_date'),
+   active(true),
+   pagelayouts('Pagelayout.dynamic_attribute_configuration_layout_v__c'),
+   object('Object.dynamic_attribute_configuration__v'),
+   objecttype('Objecttype.dynamic_attribute_configuration__v.date__v'),
+   record_creation_layout('Pagelayout.dynamic_attribute_configuration_layout_v__c')
+);

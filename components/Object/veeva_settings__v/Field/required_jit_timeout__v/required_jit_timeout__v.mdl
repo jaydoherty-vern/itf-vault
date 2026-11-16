@@ -1,0 +1,23 @@
+Field required_jit_timeout__v (
+   label('REQUIRED_JIT_TIMEOUT'),
+   type('Number'),
+   active(true),
+   description('Timeout value to control how long the JIT Sync of Call Data update should take before failing on a call which is partially on the device. Default value is 60 and should be minimum of 10.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(254),
+   default_value('60'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

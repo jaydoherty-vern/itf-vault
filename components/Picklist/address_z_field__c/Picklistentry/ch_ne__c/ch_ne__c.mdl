@@ -1,0 +1,5 @@
+Picklistentry ch_ne__c (
+   value('CH-NE'),
+   order(662),
+   active(true)
+);

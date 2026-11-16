@@ -1,0 +1,5 @@
+Picklistentry nutrition_and_special_food_pharmacy__c (
+   value('Nutrition and Special Food Pharmacy'),
+   order(47),
+   active(true)
+);

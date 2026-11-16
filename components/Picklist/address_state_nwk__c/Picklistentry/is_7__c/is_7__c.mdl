@@ -1,0 +1,5 @@
+Picklistentry is_7__c (
+   value('IS_Austurland'),
+   order(755),
+   active(true)
+);

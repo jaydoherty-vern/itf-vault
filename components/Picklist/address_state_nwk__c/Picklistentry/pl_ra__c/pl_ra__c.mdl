@@ -1,0 +1,5 @@
+Picklistentry pl_ra__c (
+   value('PL_Radom'),
+   order(1369),
+   active(true)
+);

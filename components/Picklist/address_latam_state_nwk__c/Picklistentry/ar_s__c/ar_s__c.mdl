@@ -1,0 +1,5 @@
+Picklistentry ar_s__c (
+   value('Santa Fe'),
+   order(83),
+   active(true)
+);

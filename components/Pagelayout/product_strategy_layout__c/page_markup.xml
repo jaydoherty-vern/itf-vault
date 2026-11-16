@@ -1,0 +1,42 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.product_strategy__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="product_plan__v" required="true" />
+            <vault:field reference="strategy_type__v" />
+            <vault:field reference="active__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Description" name="description__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="description__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Key Messages" name="key_message__c">
+        <vault:relatedObject relationship="key_message__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="description__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Product Tactics" name="product_tactic__c">
+        <vault:relatedObject relationship="product_tactic__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="active__v" width="200px" />
+            <vault:field reference="product__c" width="200px" />
+            <vault:field reference="description__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

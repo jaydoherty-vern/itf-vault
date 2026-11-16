@@ -1,0 +1,5 @@
+Picklistentry mdr__v (
+   value('Mandar'),
+   order(240),
+   active(false)
+);

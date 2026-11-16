@@ -1,0 +1,10 @@
+Objectlifecyclepermission benefits_specialist_edit__v (
+   states('Objectlifecyclestate.new_state__v',
+         'Objectlifecyclestate.pending_coverage_verification_state__c',
+         'Objectlifecyclestate.pending_pa_appeal_outcome_state__c',
+         'Objectlifecyclestate.pending_pa_appeal_submission_state__c',
+         'Objectlifecyclestate.pending_prior_authorization_outcome_stat__c',
+         'Objectlifecyclestate.pending_prior_authorization_submission__c'),
+   role('Objectlifecyclerole.benefits_specialist__v'),
+   permission('Edit')
+);

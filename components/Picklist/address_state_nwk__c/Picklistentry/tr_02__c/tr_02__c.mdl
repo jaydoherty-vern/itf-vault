@@ -1,0 +1,5 @@
+Picklistentry tr_02__c (
+   value('TR_Adıyaman'),
+   order(1668),
+   active(true)
+);

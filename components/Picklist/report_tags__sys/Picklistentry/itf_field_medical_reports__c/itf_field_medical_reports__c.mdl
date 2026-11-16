@@ -1,0 +1,5 @@
+Picklistentry itf_field_medical_reports__c (
+   value('ITF Field Medical Reports'),
+   order(4),
+   active(true)
+);

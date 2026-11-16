@@ -1,0 +1,5 @@
+Picklistentry cm_ce__c (
+   value('CM-CE'),
+   order(725),
+   active(true)
+);

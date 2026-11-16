@@ -1,0 +1,5 @@
+Picklistentry me__c (
+   value('Medical Ethics'),
+   order(256),
+   active(true)
+);

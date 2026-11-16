@@ -1,0 +1,5 @@
+Picklistentry mk_22__c (
+   value('MK_Debarca'),
+   order(1222),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pediatric_orthopaedic_surgery__c (
+   value('PEDIATRIC ORTHOPAEDIC SURGERY'),
+   order(375),
+   active(true)
+);

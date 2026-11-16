@@ -1,0 +1,8 @@
+Objectlayout em_event_rule_stage_settings__c (
+   label('em_event_rule_stage_settings'),
+   active(true),
+   pagelayouts('Pagelayout.stage_setting_layout__c'),
+   object('Object.em_event_rule__v'),
+   objecttype('Objecttype.em_event_rule__v.stage_settings__v'),
+   record_creation_layout('Pagelayout.stage_setting_layout__c')
+);

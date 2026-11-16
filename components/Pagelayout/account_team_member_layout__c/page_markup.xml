@@ -1,0 +1,18 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.account_team_member__v.account_team_member__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account_plan__v" />
+            <vault:field reference="team_member__v" />
+            <vault:field reference="team_member_name__v" />
+            <vault:field reference="access__v" />
+            <vault:field reference="role__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

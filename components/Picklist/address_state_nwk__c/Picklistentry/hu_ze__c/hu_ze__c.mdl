@@ -1,0 +1,5 @@
+Picklistentry hu_ze__c (
+   value('HU_Zalaegerszeg'),
+   order(719),
+   active(true)
+);

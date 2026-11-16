@@ -1,0 +1,5 @@
+Picklistentry sd__c (
+   value('Surgery Diploma'),
+   order(267),
+   active(true)
+);

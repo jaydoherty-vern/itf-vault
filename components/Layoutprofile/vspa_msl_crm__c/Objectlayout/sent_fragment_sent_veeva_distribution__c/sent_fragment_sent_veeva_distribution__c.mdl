@@ -1,0 +1,8 @@
+Objectlayout sent_fragment_sent_veeva_distribution__c (
+   label('sent_fragment_sent_veeva_distribution'),
+   active(true),
+   pagelayouts('Pagelayout.veeva_distribution_vod__c'),
+   object('Object.sent_fragment__v'),
+   objecttype('Objecttype.sent_fragment__v.sent_veeva_distribution__v'),
+   record_creation_layout('Pagelayout.veeva_distribution_vod__c')
+);

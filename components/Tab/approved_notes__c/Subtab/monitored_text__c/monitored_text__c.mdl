@@ -1,0 +1,15 @@
+Subtab monitored_text__c (
+   active(true),
+   all_view_label('All Monitored Text'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Monitored Text'),
+   modal_create_record(false),
+   my_view_label('My Monitored Text'),
+   object('monitored_text__v'),
+   order(200),
+   parent('approved_notes__c'),
+   prevent_create(false),
+   recent_view_label('Recent Monitored Text')
+);

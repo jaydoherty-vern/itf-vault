@@ -1,0 +1,5 @@
+Picklistentry pt_12__c (
+   value('PT_Portalegre'),
+   order(1400),
+   active(true)
+);

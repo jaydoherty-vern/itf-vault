@@ -1,0 +1,4 @@
+Typefield vol_hyperlink__c (
+   source('custom'),
+   required(false)
+);

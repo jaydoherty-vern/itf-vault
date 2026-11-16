@@ -1,0 +1,5 @@
+Picklistentry fad_wnl_e__c (
+   value('FAD.WNL.E'),
+   order(10),
+   active(true)
+);

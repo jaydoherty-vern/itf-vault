@@ -1,0 +1,6 @@
+Picklistentry otp_thirdparty_event__sys (
+   value('Third-Party Event'),
+   order(173),
+   active(true),
+   controlling_entries('olc_event__sys')
+);

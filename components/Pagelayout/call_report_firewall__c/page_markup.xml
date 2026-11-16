@@ -1,0 +1,42 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.call2__v.base__v">
+    <vault:section title="zvod_buttons" name="buttons__c">
+        <vault:detailform type="Two-Columns">
+            <vault:control reference="save__v" name="save__c" />
+            <vault:control reference="savenew__v" name="savenew__c" />
+            <vault:control reference="delete__v" name="delete__c" />
+            <vault:control reference="submit__v" name="submit__c" />
+            <vault:control reference="more_actions__v" name="more_actions__c" />
+            <vault:field reference="controlling_parent_account__v" />
+            <vault:field reference="parent_address__v" />
+            <vault:field reference="allowed_products__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Professional Information" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__v" required="true" />
+            <vault:control reference="business_account__v" name="business_account__c" label="Location" />
+            <vault:field reference="address__v" />
+            <vault:field reference="call_datetime__v" />
+            <vault:field reference="call2_status__v" readOnly="true" />
+            <vault:field reference="call_channel__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="General Call Section" name="general_call_section__c" reference="general_call_section__v">
+        <vault:bind property="rem" value="true" />
+        <vault:bind property="nab" value="true" />
+        <vault:bind property="nap" value="true" />
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

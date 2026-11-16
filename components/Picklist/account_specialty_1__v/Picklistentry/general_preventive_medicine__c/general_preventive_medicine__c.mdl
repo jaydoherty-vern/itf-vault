@@ -1,0 +1,5 @@
+Picklistentry general_preventive_medicine__c (
+   value('General Preventive Medicine'),
+   order(191),
+   active(true)
+);

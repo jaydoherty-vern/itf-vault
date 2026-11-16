@@ -1,0 +1,5 @@
+Picklistentry wol__v (
+   value('Wolof'),
+   order(357),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry content_management__c (
+   value('Content Management'),
+   order(10),
+   active(true)
+);

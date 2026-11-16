@@ -1,0 +1,5 @@
+Picklistentry uro__c (
+   value('Urology Diploma'),
+   order(271),
+   active(true)
+);

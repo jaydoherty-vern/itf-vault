@@ -1,0 +1,5 @@
+Picklistentry major__c (
+   value('Major'),
+   order(1),
+   active(true)
+);

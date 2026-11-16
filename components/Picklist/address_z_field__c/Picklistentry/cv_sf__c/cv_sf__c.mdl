@@ -1,0 +1,5 @@
+Picklistentry cv_sf__c (
+   value('CV-SF'),
+   order(836),
+   active(true)
+);

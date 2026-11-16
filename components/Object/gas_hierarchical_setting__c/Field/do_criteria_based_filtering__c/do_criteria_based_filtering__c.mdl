@@ -1,0 +1,18 @@
+Field do_criteria_based_filtering__c (
+   label('Do Criteria Based Filtering'),
+   type('Boolean'),
+   active(true),
+   description('If unchecked, criteria based filtering is completely turned off'),
+   required(false),
+   checkbox(true),
+   help_content('If unchecked, criteria based filtering is completely turned off'),
+   list_column(false),
+   order(12),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

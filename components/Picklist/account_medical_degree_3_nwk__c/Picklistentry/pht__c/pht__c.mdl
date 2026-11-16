@@ -1,0 +1,5 @@
+Picklistentry pht__c (
+   value('PHT'),
+   order(211),
+   active(true)
+);

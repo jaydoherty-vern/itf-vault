@@ -1,0 +1,8 @@
+Objectlayout customer_journey_execution_stage_activit__c (
+   label('customer_journey_execution_stage_activity_completion'),
+   active(true),
+   pagelayouts('Pagelayout.stage_activity_completion_layout__c'),
+   object('Object.customer_journey_execution__v'),
+   objecttype('Objecttype.customer_journey_execution__v.stage_activity_completion__v'),
+   record_creation_layout('Pagelayout.stage_activity_completion_layout__c')
+);

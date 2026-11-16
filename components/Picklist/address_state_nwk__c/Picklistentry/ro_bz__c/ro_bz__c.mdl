@@ -1,0 +1,5 @@
+Picklistentry ro_bz__c (
+   value('RO_Buzău'),
+   order(1419),
+   active(true)
+);

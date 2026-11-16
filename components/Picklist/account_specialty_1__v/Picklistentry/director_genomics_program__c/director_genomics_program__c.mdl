@@ -1,0 +1,5 @@
+Picklistentry director_genomics_program__c (
+   value('DIRECTOR, GENOMICS PROGRAM'),
+   order(73),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ar_w__c (
+   value('AR-W'),
+   order(152),
+   active(true)
+);

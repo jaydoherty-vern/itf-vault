@@ -1,0 +1,4 @@
+Typefield major_class_of_trade_qs__c (
+   source('standard'),
+   required(false)
+);

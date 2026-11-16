@@ -1,0 +1,23 @@
+Field cont__c (
+   label('Overall Contingency(%)'),
+   type('Number'),
+   active(true),
+   description('Overall Contingency allowed.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999),
+   min_value(-999999999999999),
+   scale(2),
+   help_content('Overall Contingency allowed in percentage.'),
+   list_column(false),
+   order(36),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

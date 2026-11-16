@@ -1,0 +1,5 @@
+Picklistentry 34_2__c (
+   value('Rest of Economy, All other industries as secondary providers'),
+   order(255),
+   active(true)
+);

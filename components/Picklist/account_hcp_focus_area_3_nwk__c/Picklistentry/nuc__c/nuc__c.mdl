@@ -1,0 +1,5 @@
+Picklistentry nuc__c (
+   value('Nuclear Medicine'),
+   order(278),
+   active(true)
+);

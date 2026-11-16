@@ -1,0 +1,5 @@
+Picklistentry chronic_non_cancer_pain__c (
+   value('Chronic Non-cancer Pain'),
+   order(1),
+   active(true)
+);

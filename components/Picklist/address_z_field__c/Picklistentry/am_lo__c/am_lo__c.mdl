@@ -1,0 +1,5 @@
+Picklistentry am_lo__c (
+   value('AM-LO'),
+   order(109),
+   active(true)
+);

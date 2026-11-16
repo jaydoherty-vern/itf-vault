@@ -1,0 +1,5 @@
+Picklistentry af_par__c (
+   value('AF-PAR'),
+   order(38),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry vmh__c (
+   value('Veterinary Milk Hygiene'),
+   order(576),
+   active(true)
+);

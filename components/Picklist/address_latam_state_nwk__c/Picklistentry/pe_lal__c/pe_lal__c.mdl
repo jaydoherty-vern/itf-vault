@@ -1,0 +1,5 @@
+Picklistentry pe_lal__c (
+   value('La Libertad (PE)'),
+   order(339),
+   active(true)
+);

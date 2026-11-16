@@ -1,0 +1,5 @@
+Picklistentry it_pi__c (
+   value('IT_Pisa'),
+   order(905),
+   active(true)
+);

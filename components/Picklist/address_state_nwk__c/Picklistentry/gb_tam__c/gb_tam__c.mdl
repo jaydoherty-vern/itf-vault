@@ -1,0 +1,5 @@
+Picklistentry gb_tam__c (
+   value('GB-TAM'),
+   order(621),
+   active(false)
+);

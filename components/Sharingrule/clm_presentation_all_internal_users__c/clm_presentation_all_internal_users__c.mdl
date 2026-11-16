@@ -1,0 +1,8 @@
+RECREATE Sharingrule clm_presentation_all_internal_users__c (
+   label('CLM Presentation - All Internal Users'),
+   active(true),
+   description(),
+   object('clm_presentation__v'),
+   criteria([type__v = 'hq__v' AND clm_presentation_status__v = 'approved__v']),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

@@ -1,0 +1,18 @@
+Field disable_new_calendar__v (
+   label('DISABLE_NEW_CALENDAR'),
+   type('Boolean'),
+   active(true),
+   description('When true, this disables the new calendar and shows the old my schedule in VMobile.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(95),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

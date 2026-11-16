@@ -1,0 +1,5 @@
+Picklistentry gb_cam__c (
+   value('GB-CAM'),
+   order(447),
+   active(false)
+);

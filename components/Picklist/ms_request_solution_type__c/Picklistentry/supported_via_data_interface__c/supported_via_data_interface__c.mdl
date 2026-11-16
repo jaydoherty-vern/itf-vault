@@ -1,0 +1,5 @@
+Picklistentry supported_via_data_interface__c (
+   value('Supported via Data Interface'),
+   order(1),
+   active(true)
+);

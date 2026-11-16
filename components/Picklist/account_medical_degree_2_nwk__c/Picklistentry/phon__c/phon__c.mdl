@@ -1,0 +1,5 @@
+Picklistentry phon__c (
+   value('Phoniatry Diploma'),
+   order(266),
+   active(true)
+);

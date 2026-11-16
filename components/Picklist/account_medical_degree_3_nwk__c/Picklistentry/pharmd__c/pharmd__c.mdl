@@ -1,0 +1,5 @@
+Picklistentry pharmd__c (
+   value('Doctor of Pharmacy'),
+   order(91),
+   active(true)
+);

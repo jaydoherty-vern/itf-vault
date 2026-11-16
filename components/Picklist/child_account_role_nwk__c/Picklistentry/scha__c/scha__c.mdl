@@ -1,0 +1,5 @@
+Picklistentry scha__c (
+   value('School Doctor'),
+   order(208),
+   active(true)
+);

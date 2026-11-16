@@ -1,0 +1,5 @@
+Picklistentry turkish_lira__c (
+   value('Turkish Lira'),
+   order(154),
+   active(true)
+);

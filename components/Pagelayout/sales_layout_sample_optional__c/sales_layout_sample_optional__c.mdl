@@ -1,0 +1,8 @@
+RECREATE Pagelayout sales_layout_sample_optional__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Sales Layout Sample Optional'),
+   page_markup(@page_markup.xml)
+);

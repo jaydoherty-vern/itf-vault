@@ -1,0 +1,8 @@
+Objectworkflowstep ut_confirm_adherence_enrollment1__c (
+   label('UT: Confirm Adherence Enrollment'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.decision_confirm_adherence_enrollment__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

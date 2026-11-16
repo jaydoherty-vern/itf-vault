@@ -1,0 +1,5 @@
+Picklistentry neuromuscular_specialist__c (
+   value('NEUROMUSCULAR SPECIALIST'),
+   order(91),
+   active(true)
+);

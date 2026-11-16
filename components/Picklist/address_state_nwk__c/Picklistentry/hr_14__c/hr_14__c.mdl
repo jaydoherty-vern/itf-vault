@@ -1,0 +1,5 @@
+Picklistentry hr_14__c (
+   value('HR_Osječko-baranjska županija'),
+   order(666),
+   active(true)
+);

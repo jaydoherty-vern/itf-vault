@@ -1,0 +1,5 @@
+Picklistentry yuan_renminbi__c (
+   value('Yuan Renminbi'),
+   order(39),
+   active(true)
+);

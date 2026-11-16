@@ -1,0 +1,5 @@
+Picklistentry bonnie_kiesling__c (
+   value('Bonnie Kiesling'),
+   order(3),
+   active(true)
+);

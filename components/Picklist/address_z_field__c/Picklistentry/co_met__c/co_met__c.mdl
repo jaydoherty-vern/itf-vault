@@ -1,0 +1,5 @@
+Picklistentry co_met__c (
+   value('CO-MET'),
+   order(785),
+   active(true)
+);

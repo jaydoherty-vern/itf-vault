@@ -1,0 +1,8 @@
+Objectlayout dynamic_attribute_configuration_text_are__c (
+   label('dynamic_attribute_configuration_text_area'),
+   active(true),
+   pagelayouts('Pagelayout.dynamic_attribute_configuration_layout_v__c'),
+   object('Object.dynamic_attribute_configuration__v'),
+   objecttype('Objecttype.dynamic_attribute_configuration__v.text_area__v'),
+   record_creation_layout('Pagelayout.dynamic_attribute_configuration_layout_v__c')
+);

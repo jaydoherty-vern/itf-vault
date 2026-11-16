@@ -1,0 +1,19 @@
+Field veeva_network_id__v (
+   label('Veeva Network ID'),
+   type('String'),
+   active(true),
+   description('Used in Vault CRM-Network integrations, this identifier links a Vault CRM account to an HCP/HCO record in Network. The recommended mapping is Vault CRM’s veeva_network_id__v field to Network’s vid__v field.'),
+   required(false),
+   unique(true),
+   max_length(30),
+   help_content('Used in Vault CRM-Network integrations, this identifier links a Vault CRM account to an HCP/HCO record in Network. The recommended mapping is Vault CRM’s veeva_network_id__v field to Network’s vid__v field,'),
+   list_column(false),
+   order(141),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

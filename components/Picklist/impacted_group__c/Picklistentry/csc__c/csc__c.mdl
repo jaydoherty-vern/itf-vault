@@ -1,0 +1,5 @@
+Picklistentry csc__c (
+   value('CSC'),
+   order(0),
+   active(true)
+);

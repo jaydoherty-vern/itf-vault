@@ -1,0 +1,5 @@
+Picklistentry trn__c (
+   value('Transitional Year Experience'),
+   order(513),
+   active(true)
+);

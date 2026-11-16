@@ -1,0 +1,19 @@
+Field roi__c (
+   label('Request Rationale'),
+   type('String'),
+   active(true),
+   description('Populate the Request Rationale field in order to capture the purpose of the requirement and the benefit it will serve.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Populate the Request Rationale field in order to capture the purpose of the requirement and the benefit it will serve.'),
+   list_column(false),
+   order(89),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry do_20__c (
+   value('Samaná'),
+   order(195),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry du__c (
+   value('Diagnostic Ultrasound'),
+   order(115),
+   active(true)
+);

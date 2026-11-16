@@ -1,0 +1,8 @@
+Typefield event_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_event_type__c.exhibition_booth__c',
+         'Picklist.em_event_event_type__c.individual_support__c',
+         'Picklist.em_event_event_type__c.sponsorship__c',
+         'Picklist.em_event_event_type__c.symposium__c')
+);

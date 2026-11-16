@@ -1,0 +1,5 @@
+Picklistentry hospnu__c (
+   value('Hospital Nurse'),
+   order(50),
+   active(true)
+);

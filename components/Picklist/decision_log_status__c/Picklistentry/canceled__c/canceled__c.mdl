@@ -1,0 +1,5 @@
+Picklistentry canceled__c (
+   value('Canceled'),
+   order(2),
+   active(true)
+);

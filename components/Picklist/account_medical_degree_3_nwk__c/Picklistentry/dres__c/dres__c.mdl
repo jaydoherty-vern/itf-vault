@@ -1,0 +1,5 @@
+Picklistentry dres__c (
+   value('Dr. sc. oec.'),
+   order(138),
+   active(true)
+);

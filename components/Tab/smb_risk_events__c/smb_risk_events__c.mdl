@@ -1,0 +1,12 @@
+RECREATE Tab smb_risk_events__c (
+   active(true),
+   all_view_label('All Risk Events'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Risk Events'),
+   my_view_label('My Risk Events'),
+   object('smb_risk_events__c'),
+   order(1000),
+   parent(),
+   recent_view_label('Recent Risk Events')
+);

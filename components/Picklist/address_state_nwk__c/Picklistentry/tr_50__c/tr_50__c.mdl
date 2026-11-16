@@ -1,0 +1,5 @@
+Picklistentry tr_50__c (
+   value('TR_Nevşehir'),
+   order(1727),
+   active(true)
+);

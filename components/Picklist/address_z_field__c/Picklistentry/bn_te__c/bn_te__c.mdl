@@ -1,0 +1,5 @@
+Picklistentry bn_te__c (
+   value('BN-TE'),
+   order(481),
+   active(true)
+);

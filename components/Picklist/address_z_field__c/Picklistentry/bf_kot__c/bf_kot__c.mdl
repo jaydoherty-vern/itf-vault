@@ -1,0 +1,5 @@
+Picklistentry bf_kot__c (
+   value('BF-KOT'),
+   order(391),
+   active(true)
+);

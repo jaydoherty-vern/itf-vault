@@ -1,0 +1,5 @@
+Picklistentry cv_cr__c (
+   value('CV-CR'),
+   order(825),
+   active(true)
+);

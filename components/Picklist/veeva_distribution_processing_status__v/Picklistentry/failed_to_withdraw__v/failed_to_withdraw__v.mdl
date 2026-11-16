@@ -1,0 +1,5 @@
+Picklistentry failed_to_withdraw__v (
+   value('Failed_to_Withdraw'),
+   order(6),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pediatric_medicine_pulmonary_disease__c (
+   value('PEDIATRIC MEDICINE, PULMONARY DISEASE'),
+   order(370),
+   active(true)
+);

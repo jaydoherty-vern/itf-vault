@@ -1,0 +1,5 @@
+Picklistentry az_gad__c (
+   value('AZ-GAD'),
+   order(193),
+   active(true)
+);

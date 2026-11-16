@@ -1,0 +1,5 @@
+Picklistentry mmta__c (
+   value('Air Medical Service'),
+   order(10),
+   active(true)
+);

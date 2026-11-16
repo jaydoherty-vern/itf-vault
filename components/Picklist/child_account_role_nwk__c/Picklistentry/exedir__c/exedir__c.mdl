@@ -1,0 +1,5 @@
+Picklistentry exedir__c (
+   value('Executive Director'),
+   order(80),
+   active(true)
+);

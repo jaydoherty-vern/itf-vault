@@ -1,0 +1,5 @@
+Picklistentry lt_03__c (
+   value('LT_Alytus'),
+   order(976),
+   active(true)
+);

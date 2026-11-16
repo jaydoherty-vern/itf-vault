@@ -1,0 +1,5 @@
+Picklistentry trinidad_and_tobago_dollar__c (
+   value('Trinidad and Tobago Dollar'),
+   order(152),
+   active(true)
+);

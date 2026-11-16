@@ -1,0 +1,8 @@
+RECREATE Pagelayout dcr_new_professiona_at_existing_workplac__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('DCR New Professiona at Existing Workplace'),
+   page_markup(@page_markup.xml)
+);

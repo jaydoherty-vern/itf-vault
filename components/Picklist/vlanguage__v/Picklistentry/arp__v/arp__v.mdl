@@ -1,0 +1,5 @@
+Picklistentry arp__v (
+   value('Arapaho'),
+   order(93),
+   active(false)
+);

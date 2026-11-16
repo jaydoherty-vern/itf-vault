@@ -1,0 +1,6 @@
+Typefield contact_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.v2ok_data_change_request_contact_type__c.tct_rp__c',
+         'Picklist.v2ok_data_change_request_contact_type__c.tct_vis__c')
+);

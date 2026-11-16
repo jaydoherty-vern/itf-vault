@@ -1,0 +1,5 @@
+Picklistentry pediatrics_general__c (
+   value('PEDIATRICS - GENERAL'),
+   order(42),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Typefield itf_nature_of_request__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.itf_market_access_itf_nature_of_request__c.itf_arc_service_issue__c',
+         'Picklist.itf_market_access_itf_nature_of_request__c.pantherx_question_issue__c',
+         'Picklist.itf_market_access_itf_nature_of_request__c.payer_coverage_question_issue__c',
+         'Picklist.itf_market_access_itf_nature_of_request__c.question_about_itf_arc_case__c')
+);

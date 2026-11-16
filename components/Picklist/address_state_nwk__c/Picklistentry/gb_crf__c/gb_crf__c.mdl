@@ -1,0 +1,5 @@
+Picklistentry gb_crf__c (
+   value('GB-CRF'),
+   order(464),
+   active(false)
+);

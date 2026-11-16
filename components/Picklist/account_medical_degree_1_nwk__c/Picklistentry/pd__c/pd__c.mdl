@@ -1,0 +1,5 @@
+Picklistentry pd__c (
+   value('Pediatrics Diploma'),
+   order(262),
+   active(true)
+);

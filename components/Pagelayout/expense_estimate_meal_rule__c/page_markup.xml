@@ -1,0 +1,35 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_business_rule__v.expense_estimate_meal_rule__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Rule Definition" name="rule_definition__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="run_rule_event_action__v" />
+            <vault:field reference="expense_type__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Rule Parameters" name="rule_parameters__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="meal_type__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="external_id__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Event Business Rule Configurations" name="em_business_rule_configuration__c">
+        <vault:relatedObject relationship="em_business_rule_configuration__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="event_type__v" width="200px" />
+            <vault:field reference="country__v" width="200px" />
+            <vault:field reference="rule_start_date__v" width="200px" />
+            <vault:field reference="rule_end_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

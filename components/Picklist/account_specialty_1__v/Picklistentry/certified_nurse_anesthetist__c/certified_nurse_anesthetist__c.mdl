@@ -1,0 +1,5 @@
+Picklistentry certified_nurse_anesthetist__c (
+   value('Certified Nurse Anesthetist'),
+   order(162),
+   active(true)
+);

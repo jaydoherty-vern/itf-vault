@@ -1,0 +1,5 @@
+Picklistentry nl_aw__c (
+   value('NL_Aruba'),
+   order(1290),
+   active(true)
+);

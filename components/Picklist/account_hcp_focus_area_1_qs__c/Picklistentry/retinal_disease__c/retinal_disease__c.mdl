@@ -1,0 +1,5 @@
+Picklistentry retinal_disease__c (
+   value('Retinal Disease'),
+   order(43),
+   active(true)
+);

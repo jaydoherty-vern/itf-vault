@@ -1,0 +1,5 @@
+Picklistentry ro_sj__c (
+   value('RO_Sălaj'),
+   order(1441),
+   active(true)
+);

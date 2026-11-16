@@ -1,0 +1,5 @@
+Picklistentry jpr__v (
+   value('Judeo-Persian'),
+   order(192),
+   active(false)
+);

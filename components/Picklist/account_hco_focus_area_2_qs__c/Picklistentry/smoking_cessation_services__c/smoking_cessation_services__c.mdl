@@ -1,0 +1,5 @@
+Picklistentry smoking_cessation_services__c (
+   value('Smoking Cessation Services'),
+   order(17),
+   active(true)
+);

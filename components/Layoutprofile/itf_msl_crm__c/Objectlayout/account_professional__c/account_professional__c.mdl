@@ -1,0 +1,8 @@
+Objectlayout account_professional__c (
+   label('account_professional'),
+   active(true),
+   pagelayouts('Pagelayout.professional_msl__c'),
+   object('Object.account__v'),
+   objecttype('Objecttype.account__v.professional__v'),
+   record_creation_layout('Pagelayout.professional_msl__c')
+);

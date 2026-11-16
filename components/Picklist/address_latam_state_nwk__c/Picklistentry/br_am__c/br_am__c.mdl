@@ -1,0 +1,5 @@
+Picklistentry br_am__c (
+   value('Amazonas (BR)'),
+   order(2),
+   active(true)
+);

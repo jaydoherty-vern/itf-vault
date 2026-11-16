@@ -1,0 +1,24 @@
+Field summary_view_section_background_color__c (
+   label('Summary View Section Background Color'),
+   type('String'),
+   active(true),
+   description('Background color as specified by HTML CSS Standards. For eg: .#880000
+
+Reference URL: http://www.w3schools.com/cssref/css_colors.asp for details'),
+   required(false),
+   unique(false),
+   max_length(10),
+   help_content('Background color as specified by HTML CSS Standards. For eg: .#880000
+
+Reference URL: http://www.w3schools.com/cssref/css_colors.asp for details'),
+   list_column(false),
+   order(47),
+   default_value('''#880000'''),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

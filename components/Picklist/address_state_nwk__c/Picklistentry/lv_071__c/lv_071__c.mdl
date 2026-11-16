@@ -1,0 +1,5 @@
+Picklistentry lv_071__c (
+   value('LV_Pāvilostas novads (Pāvilosta)'),
+   order(1123),
+   active(true)
+);

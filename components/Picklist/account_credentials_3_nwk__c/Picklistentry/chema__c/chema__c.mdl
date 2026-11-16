@@ -1,0 +1,5 @@
+Picklistentry chema__c (
+   value('CHEMA'),
+   order(7),
+   active(true)
+);

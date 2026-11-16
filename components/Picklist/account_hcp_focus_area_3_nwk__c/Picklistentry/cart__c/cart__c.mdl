@@ -1,0 +1,5 @@
+Picklistentry cart__c (
+   value('CAR-T therapy'),
+   order(56),
+   active(true)
+);

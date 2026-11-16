@@ -1,0 +1,5 @@
+Picklistentry ro_ar__c (
+   value('RO_Arad'),
+   order(1410),
+   active(true)
+);

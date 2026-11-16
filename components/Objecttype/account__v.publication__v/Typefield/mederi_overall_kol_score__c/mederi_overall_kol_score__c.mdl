@@ -1,0 +1,4 @@
+Typefield mederi_overall_kol_score__c (
+   source('custom'),
+   required(false)
+);

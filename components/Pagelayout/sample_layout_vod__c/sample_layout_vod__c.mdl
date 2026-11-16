@@ -1,0 +1,8 @@
+RECREATE Pagelayout sample_layout_vod__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Sample Layout_vod'),
+   page_markup(@page_markup.xml)
+);

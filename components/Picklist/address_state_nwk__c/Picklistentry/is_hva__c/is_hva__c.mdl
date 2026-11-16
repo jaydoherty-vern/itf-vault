@@ -1,0 +1,5 @@
+Picklistentry is_hva__c (
+   value('IS_Hvalfjarðarsveit'),
+   order(783),
+   active(true)
+);

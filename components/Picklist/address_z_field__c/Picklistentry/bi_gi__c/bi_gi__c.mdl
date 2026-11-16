@@ -1,0 +1,5 @@
+Picklistentry bi_gi__c (
+   value('BI-GI'),
+   order(456),
+   active(true)
+);

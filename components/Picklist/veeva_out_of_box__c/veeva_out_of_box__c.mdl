@@ -1,0 +1,8 @@
+RECREATE Picklist veeva_out_of_box__c (
+   label('Veeva Out Of Box'),
+   active(true),
+   Picklistentry(@Picklistentry/yes__c.mdl),
+   Picklistentry(@Picklistentry/no__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

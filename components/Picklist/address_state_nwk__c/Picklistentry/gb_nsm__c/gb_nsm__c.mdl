@@ -1,0 +1,5 @@
+Picklistentry gb_nsm__c (
+   value('GB-NSM'),
+   order(562),
+   active(false)
+);

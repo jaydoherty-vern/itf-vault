@@ -1,0 +1,5 @@
+Picklistentry gb_rut__c (
+   value('GB-RUT'),
+   order(591),
+   active(false)
+);

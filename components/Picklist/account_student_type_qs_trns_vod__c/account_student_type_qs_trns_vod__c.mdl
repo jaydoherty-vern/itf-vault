@@ -1,0 +1,9 @@
+RECREATE Picklist account_student_type_qs_trns_vod__c (
+   label('Student Type'),
+   active(true),
+   Picklistentry(@Picklistentry/external__c.mdl),
+   Picklistentry(@Picklistentry/internal__c.mdl),
+   Picklistentry(@Picklistentry/unknown__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,17 @@
+Field role_opd_nwk__c (
+   label('Role'),
+   type('LongText'),
+   active(true),
+   description('Network field - Role'),
+   required(false),
+   max_length(300),
+   help_content(),
+   list_column(false),
+   order(55),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

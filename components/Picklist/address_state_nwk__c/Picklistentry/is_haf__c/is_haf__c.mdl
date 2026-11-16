@@ -1,0 +1,5 @@
+Picklistentry is_haf__c (
+   value('IS_Hafnarfjarðarkaupstaður'),
+   order(776),
+   active(true)
+);

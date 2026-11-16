@@ -1,0 +1,5 @@
+Picklistentry pt_08__c (
+   value('PT_Faro'),
+   order(1396),
+   active(true)
+);

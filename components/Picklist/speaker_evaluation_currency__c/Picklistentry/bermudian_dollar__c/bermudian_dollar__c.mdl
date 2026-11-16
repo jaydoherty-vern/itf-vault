@@ -1,0 +1,5 @@
+Picklistentry bermudian_dollar__c (
+   value('Bermudian Dollar'),
+   order(20),
+   active(true)
+);

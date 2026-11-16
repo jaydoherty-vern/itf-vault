@@ -1,0 +1,5 @@
+Picklistentry 50_7__c (
+   value('Animal Health Organization, Private Veterinary Practice'),
+   order(8),
+   active(true)
+);

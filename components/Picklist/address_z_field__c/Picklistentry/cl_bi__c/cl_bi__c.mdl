@@ -1,0 +1,5 @@
+Picklistentry cl_bi__c (
+   value('CL-BI'),
+   order(714),
+   active(true)
+);

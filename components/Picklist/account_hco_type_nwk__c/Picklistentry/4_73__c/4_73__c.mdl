@@ -1,0 +1,5 @@
+Picklistentry 4_73__c (
+   value('Sanatorium'),
+   order(260),
+   active(true)
+);

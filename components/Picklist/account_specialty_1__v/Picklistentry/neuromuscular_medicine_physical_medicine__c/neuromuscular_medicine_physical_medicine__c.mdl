@@ -1,0 +1,5 @@
+Picklistentry neuromuscular_medicine_physical_medicine__c (
+   value('Neuromuscular Medicine (Physical Medicine & Rehabilitation)'),
+   order(227),
+   active(true)
+);

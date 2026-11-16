@@ -1,0 +1,104 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_roster_member__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="first_name__v" />
+            <vault:field reference="last_name__v" />
+            <vault:field reference="external_id__v" />
+            <vault:spacer />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="employee_number__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Contact Information" name="contact_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="address_line_1__v" />
+            <vault:field reference="address_line_2__v" />
+            <vault:field reference="city__v" />
+            <vault:field reference="state_province__v" />
+            <vault:field reference="postal_code__v" />
+            <vault:field reference="vcountry__v" />
+            <vault:field reference="mobile_phone__v" />
+            <vault:field reference="phone__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="CRM User Management" name="crm_user_management__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="mastered_by_align__v" />
+            <vault:field reference="crm_user_status__v" />
+            <vault:field reference="username__v" />
+            <vault:field reference="email__v" />
+            <vault:field reference="saml_federation_id__v" />
+            <vault:field reference="crm_user_type__v" />
+            <vault:field reference="custom_application__v" />
+            <vault:field reference="enable_ms_outlook_calendar__v" />
+            <vault:field reference="reset_crm_password__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="crm_time_zone__v" />
+            <vault:field reference="crm_locale__v" />
+            <vault:field reference="crm_language__v" />
+            <vault:field reference="crm_currency__v" />
+            <vault:field reference="manager__v" />
+            <vault:field reference="delegated_approver__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="CRM User Management Overrides" name="crm_user_management_overrides__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="crm_security_profile__v" />
+            <vault:field reference="crm_application_profile_override__v" />
+            <vault:field reference="crm_layout_profile_override__v" />
+            <vault:field reference="crm_security_policy_override__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Engage" name="engage__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="engage_group_request__v" />
+            <vault:field reference="engage_group_provisioning_status__v" />
+            <vault:field reference="engage_connect_group_request__v" />
+            <vault:field reference="engage_connect_group_status__v" />
+            <vault:field reference="engage_group__v" />
+            <vault:spacer />
+            <vault:field reference="engage_connect_group__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Events Preferences" name="events_preferences__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="crm_events_user__v" />
+            <vault:field reference="crm_event_country_selection__v" />
+            <vault:field reference="preferences_timezone__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="last_received_crm_datetime__v" readOnly="true" />
+            <vault:field reference="status__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="last_sent_to_crm__v" readOnly="true" />
+            <vault:field reference="source__v" />
+            <vault:field reference="id" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Territories Assigned to Roster Member" name="territories__c">
+        <vault:relatedObject relationship="aln_roster_member__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="primary__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Additional Application Roles Assigned to Roster Member (not inherited from Territory's Functional Profile)" name="application_roles__c" helpContent="Related list contains all Application Roles assigned directly to the Roster Member.&#xA;Related list does not contain Application Roles inherited from the Functional Profile associated to the Roster Member's Territory.">
+        <vault:relatedObject relationship="aln_roster_member_application_role__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="crm_application_role__v" width="200px" />
+            <vault:field reference="modified_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

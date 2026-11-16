@@ -1,0 +1,5 @@
+Picklistentry af_kan__c (
+   value('AF-KAN'),
+   order(27),
+   active(true)
+);

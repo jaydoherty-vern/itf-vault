@@ -1,0 +1,8 @@
+RECREATE Pagelayout attendee_layout_read_only__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Attendee Layout Read Only'),
+   page_markup(@page_markup.xml)
+);

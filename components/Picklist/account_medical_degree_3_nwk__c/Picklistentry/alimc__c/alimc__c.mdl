@@ -1,0 +1,5 @@
+Picklistentry alimc__c (
+   value('Diploma in Allergology'),
+   order(34),
+   active(true)
+);

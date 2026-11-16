@@ -1,0 +1,8 @@
+Objectlayout analytics_layouts_account_summary__c (
+   label('analytics_layouts_account_summary'),
+   active(true),
+   pagelayouts('Pagelayout.account_summary_layout__c'),
+   object('Object.analytics_layouts__v'),
+   objecttype('Objecttype.analytics_layouts__v.account_summary__v'),
+   record_creation_layout('Pagelayout.account_summary_layout__c')
+);

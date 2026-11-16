@@ -1,0 +1,5 @@
+Picklistentry iceland_krona__c (
+   value('Iceland Krona'),
+   order(73),
+   active(true)
+);

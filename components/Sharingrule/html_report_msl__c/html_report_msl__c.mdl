@@ -1,0 +1,8 @@
+RECREATE Sharingrule html_report_msl__c (
+   label('HTML Report - MSL'),
+   active(true),
+   description(),
+   object('html_report__v'),
+   criteria([itf_sharing_group__c CONTAINS ('msl__c')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

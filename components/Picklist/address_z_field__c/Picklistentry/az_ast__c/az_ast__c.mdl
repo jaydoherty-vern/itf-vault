@@ -1,0 +1,5 @@
+Picklistentry az_ast__c (
+   value('AZ-AST'),
+   order(180),
+   active(true)
+);

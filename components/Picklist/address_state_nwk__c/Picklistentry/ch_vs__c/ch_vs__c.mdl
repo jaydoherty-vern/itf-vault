@@ -1,0 +1,5 @@
+Picklistentry ch_vs__c (
+   value('CH_Valais'),
+   order(112),
+   active(true)
+);

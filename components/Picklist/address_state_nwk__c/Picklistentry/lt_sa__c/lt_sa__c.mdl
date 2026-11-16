@@ -1,0 +1,5 @@
+Picklistentry lt_sa__c (
+   value('LT_Šiaulių Apskritis'),
+   order(1021),
+   active(true)
+);

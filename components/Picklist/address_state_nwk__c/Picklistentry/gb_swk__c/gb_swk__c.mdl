@@ -1,0 +1,5 @@
+Picklistentry gb_swk__c (
+   value('GB-SWK'),
+   order(620),
+   active(false)
+);

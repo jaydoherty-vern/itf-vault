@@ -1,0 +1,5 @@
+RECREATE Crmapplicationprofile vspa_manager_nwk__c (
+   label('VSPA_Manager_NWK'),
+   active(true),
+   description()
+);

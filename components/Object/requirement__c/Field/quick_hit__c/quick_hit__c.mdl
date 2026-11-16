@@ -1,0 +1,18 @@
+Field quick_hit__c (
+   label('Quick Hit'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('A request is a quick hit if IT effort is low, priority is high, urgency is immediate, and integration is unaffected.'),
+   list_column(false),
+   order(88),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

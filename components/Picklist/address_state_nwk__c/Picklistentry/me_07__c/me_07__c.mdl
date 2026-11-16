@@ -1,0 +1,5 @@
+Picklistentry me_07__c (
+   value('ME_Danilovgrad'),
+   order(1191),
+   active(true)
+);

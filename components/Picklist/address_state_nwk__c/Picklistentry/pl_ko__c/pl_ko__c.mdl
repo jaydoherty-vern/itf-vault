@@ -1,0 +1,5 @@
+Picklistentry pl_ko__c (
+   value('PL_Koszalin'),
+   order(1345),
+   active(true)
+);

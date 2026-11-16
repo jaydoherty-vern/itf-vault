@@ -1,0 +1,5 @@
+Picklistentry fr_48__c (
+   value('FR_Lozère'),
+   order(339),
+   active(true)
+);

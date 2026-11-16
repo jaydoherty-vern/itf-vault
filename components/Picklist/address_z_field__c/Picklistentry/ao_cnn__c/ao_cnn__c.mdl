@@ -1,0 +1,5 @@
+Picklistentry ao_cnn__c (
+   value('AO-CNN'),
+   order(119),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ao_ccu__c (
+   value('AO-CCU'),
+   order(118),
+   active(true)
+);

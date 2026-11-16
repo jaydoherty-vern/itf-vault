@@ -1,0 +1,21 @@
+Field title_formula_qs__c (
+   label('Title (formula)'),
+   type('String'),
+   active(true),
+   description('QuickStart field - can be used as View filter (lookup fields can''t in My Customers)'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(436),
+   formula('title_qs__cr.name__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

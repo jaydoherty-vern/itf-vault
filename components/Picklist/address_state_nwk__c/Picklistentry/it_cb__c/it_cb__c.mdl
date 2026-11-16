@@ -1,0 +1,5 @@
+Picklistentry it_cb__c (
+   value('IT_Campobasso'),
+   order(851),
+   active(true)
+);

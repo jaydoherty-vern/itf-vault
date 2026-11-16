@@ -1,0 +1,5 @@
+Picklistentry ct5__c (
+   value('Cancer Treatment (Regional Diagnosis)'),
+   order(5),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry carmyo__c (
+   value('Cardiomyopathy / Heart Muscle Disease'),
+   order(60),
+   active(true)
+);

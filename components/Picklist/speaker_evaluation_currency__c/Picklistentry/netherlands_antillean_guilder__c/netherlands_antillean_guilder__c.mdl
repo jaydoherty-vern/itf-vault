@@ -1,0 +1,5 @@
+Picklistentry netherlands_antillean_guilder__c (
+   value('Netherlands Antillean Guilder'),
+   order(49),
+   active(true)
+);

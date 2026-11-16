@@ -1,0 +1,5 @@
+Picklistentry 12__c (
+   value('Stomatology'),
+   order(495),
+   active(true)
+);

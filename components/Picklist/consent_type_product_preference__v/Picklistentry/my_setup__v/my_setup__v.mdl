@@ -1,0 +1,5 @@
+Picklistentry my_setup__v (
+   value('My Setup'),
+   order(3),
+   active(true)
+);

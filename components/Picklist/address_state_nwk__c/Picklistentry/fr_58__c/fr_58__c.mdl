@@ -1,0 +1,5 @@
+Picklistentry fr_58__c (
+   value('FR_Nièvre'),
+   order(350),
+   active(true)
+);

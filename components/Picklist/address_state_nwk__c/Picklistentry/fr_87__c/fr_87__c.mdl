@@ -1,0 +1,5 @@
+Picklistentry fr_87__c (
+   value('FR_Haute-Vienne'),
+   order(321),
+   active(true)
+);

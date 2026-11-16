@@ -1,0 +1,9 @@
+Objectlifecyclestage benefits_verification__c (
+   label('Benefits Verification'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.coverage_verification_complete_state__c',
+         'Objectlifecyclestate.new_state__v',
+         'Objectlifecyclestate.pending_coverage_verification_state__c'),
+   order(1)
+);

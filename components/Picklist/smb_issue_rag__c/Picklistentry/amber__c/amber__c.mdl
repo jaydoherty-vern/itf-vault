@@ -1,0 +1,5 @@
+Picklistentry amber__c (
+   value('Amber'),
+   order(1),
+   active(true)
+);

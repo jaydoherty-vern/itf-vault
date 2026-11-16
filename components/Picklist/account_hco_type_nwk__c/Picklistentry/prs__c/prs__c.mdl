@@ -1,0 +1,5 @@
+Picklistentry prs__c (
+   value('Pet Retail Store'),
+   order(203),
+   active(true)
+);

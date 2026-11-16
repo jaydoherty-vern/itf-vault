@@ -1,0 +1,5 @@
+Picklistentry chir__c (
+   value('Chiropody'),
+   order(43),
+   active(true)
+);

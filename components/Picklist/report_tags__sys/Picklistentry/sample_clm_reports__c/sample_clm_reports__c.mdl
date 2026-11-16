@@ -1,0 +1,5 @@
+Picklistentry sample_clm_reports__c (
+   value('Sample CLM Reports'),
+   order(8),
+   active(true)
+);

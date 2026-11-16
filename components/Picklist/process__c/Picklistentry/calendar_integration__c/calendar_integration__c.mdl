@@ -1,0 +1,5 @@
+Picklistentry calendar_integration__c (
+   value('Calendar Integration'),
+   order(5),
+   active(true)
+);

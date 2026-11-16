@@ -1,0 +1,5 @@
+Picklistentry clinical_pharmacology_general__c (
+   value('CLINICAL PHARMACOLOGY - GENERAL'),
+   order(325),
+   active(true)
+);

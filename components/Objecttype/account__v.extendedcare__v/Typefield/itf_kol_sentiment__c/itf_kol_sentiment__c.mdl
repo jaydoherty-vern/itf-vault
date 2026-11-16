@@ -1,0 +1,8 @@
+Typefield itf_kol_sentiment__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_itf_kol_sentiment__c.negative__c',
+         'Picklist.account_itf_kol_sentiment__c.neutral__c',
+         'Picklist.account_itf_kol_sentiment__c.positive__c',
+         'Picklist.account_itf_kol_sentiment__c.unsure__c')
+);

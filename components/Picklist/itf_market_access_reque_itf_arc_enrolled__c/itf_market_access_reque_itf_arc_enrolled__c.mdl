@@ -1,0 +1,9 @@
+RECREATE Picklist itf_market_access_reque_itf_arc_enrolled__c (
+   label('ARC Enrolled'),
+   active(true),
+   Picklistentry(@Picklistentry/yes__c.mdl),
+   Picklistentry(@Picklistentry/no__c.mdl),
+   Picklistentry(@Picklistentry/unkown__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

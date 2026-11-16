@@ -1,0 +1,5 @@
+Picklistentry it_ge__c (
+   value('IT_Genoa'),
+   order(869),
+   active(true)
+);

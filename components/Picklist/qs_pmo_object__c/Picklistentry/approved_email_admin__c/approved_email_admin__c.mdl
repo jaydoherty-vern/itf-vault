@@ -1,0 +1,5 @@
+Picklistentry approved_email_admin__c (
+   value('Approved Email Administration'),
+   order(23),
+   active(true)
+);

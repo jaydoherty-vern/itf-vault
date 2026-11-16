@@ -1,0 +1,18 @@
+Field itf_kol_sentiment__c (
+   label('KOL Sentiment'),
+   type('Picklist'),
+   active(true),
+   description('https://itftherapeutics.lightning.force.com/lightning/r/Requirement_vod__c/a1ual000002oYQLAA2/view'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(265),
+   multi_value(false),
+   picklist('Picklist.account_itf_kol_sentiment__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

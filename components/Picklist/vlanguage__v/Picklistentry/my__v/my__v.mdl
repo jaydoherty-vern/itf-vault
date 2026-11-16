@@ -1,0 +1,5 @@
+Picklistentry my__v (
+   value('Burmese'),
+   order(48),
+   active(true)
+);

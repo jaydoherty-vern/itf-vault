@@ -1,0 +1,5 @@
+Picklistentry lv_043__c (
+   value('LV_Kandavas novads (Kandava)'),
+   order(1094),
+   active(true)
+);

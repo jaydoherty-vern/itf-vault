@@ -1,0 +1,5 @@
+Picklistentry cdt__c (
+   value('Transplant Cardiology'),
+   order(531),
+   active(true)
+);

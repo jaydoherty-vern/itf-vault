@@ -1,0 +1,4 @@
+Typefield statistic_message__c (
+   source('standard'),
+   required(false)
+);

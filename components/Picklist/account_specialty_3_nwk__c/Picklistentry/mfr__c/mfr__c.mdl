@@ -1,0 +1,5 @@
+Picklistentry mfr__c (
+   value('Maxillofacial and Oral Radiology'),
+   order(245),
+   active(true)
+);

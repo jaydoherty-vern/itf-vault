@@ -1,0 +1,5 @@
+Picklistentry spo__c (
+   value('Sports Medicine - General'),
+   order(488),
+   active(true)
+);

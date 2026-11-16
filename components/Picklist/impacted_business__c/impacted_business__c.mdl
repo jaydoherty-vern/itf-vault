@@ -1,0 +1,12 @@
+RECREATE Picklist impacted_business__c (
+   label('Impacted Business Units'),
+   active(true),
+   Picklistentry(@Picklistentry/all__c.mdl),
+   Picklistentry(@Picklistentry/kam__c.mdl),
+   Picklistentry(@Picklistentry/isr__c.mdl),
+   Picklistentry(@Picklistentry/msl__c.mdl),
+   Picklistentry(@Picklistentry/tll__c.mdl),
+   Picklistentry(@Picklistentry/frm__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

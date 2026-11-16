@@ -1,0 +1,5 @@
+Picklistentry headache__c (
+   value('Headache'),
+   order(88),
+   active(true)
+);

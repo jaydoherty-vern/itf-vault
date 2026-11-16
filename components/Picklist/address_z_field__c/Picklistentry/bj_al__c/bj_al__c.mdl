@@ -1,0 +1,5 @@
+Picklistentry bj_al__c (
+   value('BJ-AL'),
+   order(468),
+   active(true)
+);

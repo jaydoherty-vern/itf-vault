@@ -1,0 +1,5 @@
+Picklistentry ar_u__c (
+   value('AR-U'),
+   order(150),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry interactions__c (
+   value('Interactions'),
+   order(24),
+   active(true)
+);

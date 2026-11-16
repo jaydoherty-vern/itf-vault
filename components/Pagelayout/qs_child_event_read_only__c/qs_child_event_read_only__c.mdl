@@ -1,0 +1,8 @@
+RECREATE Pagelayout qs_child_event_read_only__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('QS_Child_Event_Read_only'),
+   page_markup(@page_markup.xml)
+);

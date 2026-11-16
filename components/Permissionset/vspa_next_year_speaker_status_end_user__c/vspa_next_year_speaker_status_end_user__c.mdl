@@ -1,0 +1,9 @@
+RECREATE Permissionset vspa_next_year_speaker_status_end_user__c (
+   label('VSPA_Next_Year_Speaker_Status_End_User'),
+   active(true),
+   description('EXTRA_Enables the 18R1 functionality of Next Year Speaker Status for End Users and Managers. Requires Events Management to be enabled.'),
+   object.em_speaker__v.next_year_reset_date__v.field_actions('read'),
+   object.em_speaker__v.next_year_status__v.field_actions('read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

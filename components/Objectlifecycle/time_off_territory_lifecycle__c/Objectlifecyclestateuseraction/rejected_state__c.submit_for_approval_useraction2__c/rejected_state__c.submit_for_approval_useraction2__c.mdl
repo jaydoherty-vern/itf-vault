@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction rejected_state__c.submit_for_approval_useraction2__c (
+   label('Submit for Approval'),
+   rule(@rule.xml),
+   order(1000)
+);

@@ -1,0 +1,5 @@
+Picklistentry is_nor__c (
+   value('IS_Norðurþing'),
+   order(794),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry hai__v (
+   value('Haida'),
+   order(173),
+   active(false)
+);

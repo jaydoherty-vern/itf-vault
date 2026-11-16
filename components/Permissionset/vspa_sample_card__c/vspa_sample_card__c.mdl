@@ -1,0 +1,19 @@
+RECREATE Permissionset vspa_sample_card__c (
+   label('VSPA_Sample_Card'),
+   active(true),
+   description('Enable FLS to the Sample Card # on Call Page Layouts.'),
+   object.call2__v.sample_card__v.field_actions('edit',
+      'read'),
+   object.call2__v.sample_card_reason__v.field_actions('edit',
+      'read'),
+   object.call2__v.sample_send_card__v.field_actions('edit',
+      'read'),
+   object.call2__v.ship_license__v.field_actions('edit',
+      'read'),
+   object.call2__v.ship_license_expiration_date__v.field_actions('edit',
+      'read'),
+   object.call2__v.ship_license_status__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

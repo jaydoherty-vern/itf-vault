@@ -1,0 +1,8 @@
+Objectlayout remote_meeting_attendee_ms_teams_call_me__c (
+   label('remote_meeting_attendee_ms_teams_call_meeting'),
+   active(true),
+   pagelayouts('Pagelayout.ms_teams_call_meeting_attendee__c'),
+   object('Object.remote_meeting_attendee__v'),
+   objecttype('Objecttype.remote_meeting_attendee__v.ms_teams_call_meeting__v'),
+   record_creation_layout('Pagelayout.ms_teams_call_meeting_attendee__c')
+);

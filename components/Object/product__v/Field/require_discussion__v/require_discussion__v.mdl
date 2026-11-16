@@ -1,0 +1,22 @@
+Field require_discussion__v (
+   label('Require Discussion'),
+   type('Picklist'),
+   active(true),
+   description('Indicates whether or not a product discussion is required when this product is detailed.
+No - No discussion is required when detailing this product.
+Yes - A discussion record will always be required when detailing this product.'),
+   required(false),
+   unique(false),
+   help_content('Indicates whether or not a product discussion is required when detailing this product.
+No - No discussion required
+Yes - Discussion required'),
+   list_column(false),
+   order(39),
+   multi_value(false),
+   picklist('Picklist.product_require_discussion__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

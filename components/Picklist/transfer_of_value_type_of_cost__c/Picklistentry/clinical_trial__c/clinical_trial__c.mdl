@@ -1,0 +1,5 @@
+Picklistentry clinical_trial__c (
+   value('Clinical trial'),
+   order(1),
+   active(true)
+);

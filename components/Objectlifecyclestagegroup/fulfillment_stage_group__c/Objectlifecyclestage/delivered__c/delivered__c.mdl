@@ -1,0 +1,7 @@
+Objectlifecyclestage delivered__c (
+   label('Delivered'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.delivered_state__v'),
+   order(3)
+);

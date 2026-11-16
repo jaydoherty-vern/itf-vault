@@ -1,0 +1,5 @@
+Picklistentry adb_unit_of_account__c (
+   value('ADB Unit of Account'),
+   order(103),
+   active(true)
+);

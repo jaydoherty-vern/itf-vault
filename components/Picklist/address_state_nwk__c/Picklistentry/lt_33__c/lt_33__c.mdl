@@ -1,0 +1,5 @@
+Picklistentry lt_33__c (
+   value('LT_Panevėžys'),
+   order(1010),
+   active(true)
+);

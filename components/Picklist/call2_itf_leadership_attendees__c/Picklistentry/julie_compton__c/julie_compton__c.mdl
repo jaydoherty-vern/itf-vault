@@ -1,0 +1,5 @@
+Picklistentry julie_compton__c (
+   value('Julie Compton'),
+   order(2),
+   active(true)
+);

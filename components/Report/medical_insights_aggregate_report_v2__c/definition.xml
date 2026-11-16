@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.ownerid__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.summary__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.description__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v___account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v___account__v.itf_msl_top_priority__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v___account__v.specialty_1__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v___account__v.primary_parent__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v___account__v.npi__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v___interaction__v.name__v" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="medical_insight__v.date__v" sortDirection="DESCENDING" />
+  </vrp:order>
+</vrp:query>

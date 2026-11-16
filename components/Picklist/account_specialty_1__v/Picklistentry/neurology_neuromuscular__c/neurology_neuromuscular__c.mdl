@@ -1,0 +1,5 @@
+Picklistentry neurology_neuromuscular__c (
+   value('NEUROLOGY, NEUROMUSCULAR'),
+   order(122),
+   active(true)
+);

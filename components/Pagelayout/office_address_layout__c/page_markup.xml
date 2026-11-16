@@ -1,0 +1,47 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.address__v.companymaintained__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__v" />
+            <vault:field reference="name__v" />
+            <vault:field reference="street_address_2_cda__v" />
+            <vault:field reference="city_cda__v" />
+            <vault:field reference="state_province__v" />
+            <vault:field reference="postal_code_cda__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="primary_cda__v" />
+            <vault:field reference="include_in_territory_assignment__v" />
+            <vault:field reference="status_cda__v" />
+            <vault:field reference="phone_cda__v" />
+            <vault:field reference="fax_cda__v" />
+            <vault:spacer />
+            <vault:field reference="appt_required__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Office Best Times" name="office_best_times_section_control__c" reference="office_best_times_section_control__v" />
+    <vault:section title="Data Change Requests" name="data_change_requests__c">
+        <vault:relatedObject relationship="data_change_requests__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="created_date__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="country_mapping__v" width="200px" />
+            <vault:field reference="error__v" width="200px" />
+            <vault:field reference="resolution_note__v" width="200px" />
+            <vault:field reference="result__v" width="200px" />
+            <vault:field reference="data_change_request_status__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="id" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="veeva_network_id__v" />
+            <vault:field reference="status__v" readOnly="true" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

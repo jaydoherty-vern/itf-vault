@@ -1,0 +1,8 @@
+RECREATE Sharingrule product_catalog_frm__c (
+   label('Product Catalog - FRM'),
+   active(true),
+   description(),
+   object('product__v'),
+   criteria([itf_share_team1__c CONTAINS ('tll__c')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

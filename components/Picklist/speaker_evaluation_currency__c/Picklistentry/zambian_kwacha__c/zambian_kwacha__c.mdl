@@ -1,0 +1,5 @@
+Picklistentry zambian_kwacha__c (
+   value('Zambian Kwacha'),
+   order(167),
+   active(true)
+);

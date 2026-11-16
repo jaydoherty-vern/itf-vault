@@ -1,0 +1,5 @@
+Picklistentry bs_mg__c (
+   value('Mayaguana'),
+   order(122),
+   active(true)
+);

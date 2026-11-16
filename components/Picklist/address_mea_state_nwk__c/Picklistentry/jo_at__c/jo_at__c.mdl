@@ -1,0 +1,5 @@
+Picklistentry jo_at__c (
+   value('JO_Aţ Ţafīlah'),
+   order(37),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 11_1__c (
+   value('Pharmacy, Retail'),
+   order(221),
+   active(true)
+);

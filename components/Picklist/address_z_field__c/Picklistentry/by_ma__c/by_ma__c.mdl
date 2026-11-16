@@ -1,0 +1,5 @@
+Picklistentry by_ma__c (
+   value('BY-MA'),
+   order(587),
+   active(true)
+);

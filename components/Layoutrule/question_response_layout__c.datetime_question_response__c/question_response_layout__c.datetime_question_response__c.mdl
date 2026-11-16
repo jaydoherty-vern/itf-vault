@@ -1,0 +1,23 @@
+RECREATE Layoutrule question_response_layout__c.datetime_question_response__c (
+   active(true),
+   description(),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('type__v = ''OOT00000000V752'''),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields('answer_choice__v',
+      'date__v',
+      'response_hash__v',
+      'response__v',
+      'decimal__v',
+      'score__v',
+      'text__v',
+      'max_score__v',
+      'number__v'),
+   hide_sections(),
+   hide_layout(false),
+   label('Datetime Question Response'),
+   order(300)
+);

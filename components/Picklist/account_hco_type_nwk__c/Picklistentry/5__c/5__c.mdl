@@ -1,0 +1,5 @@
+Picklistentry 5__c (
+   value('Department'),
+   order(23),
+   active(true)
+);

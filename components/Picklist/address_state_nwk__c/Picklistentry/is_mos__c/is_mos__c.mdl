@@ -1,0 +1,5 @@
+Picklistentry is_mos__c (
+   value('IS_Mosfellsbær'),
+   order(790),
+   active(true)
+);

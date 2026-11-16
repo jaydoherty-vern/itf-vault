@@ -1,0 +1,5 @@
+Picklistentry licentiate_of_apothecaries_hall_lah__c (
+   value('Licentiate of Apothecaries'' Hall (LAH)'),
+   order(15),
+   active(true)
+);

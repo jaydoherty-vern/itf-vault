@@ -1,0 +1,5 @@
+Picklistentry clinical_informatics_ped__c (
+   value('CLINICAL INFORMATICS (PED)'),
+   order(31),
+   active(true)
+);

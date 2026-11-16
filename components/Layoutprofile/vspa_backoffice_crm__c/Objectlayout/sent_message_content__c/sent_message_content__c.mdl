@@ -1,0 +1,8 @@
+Objectlayout sent_message_content__c (
+   label('sent_message_content'),
+   active(true),
+   pagelayouts('Pagelayout.content_vod__c'),
+   object('Object.sent_message__v'),
+   objecttype('Objecttype.sent_message__v.content__v'),
+   record_creation_layout('Pagelayout.content_vod__c')
+);

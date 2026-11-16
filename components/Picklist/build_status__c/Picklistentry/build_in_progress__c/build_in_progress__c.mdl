@@ -1,0 +1,5 @@
+Picklistentry build_in_progress__c (
+   value('Build in Progress'),
+   order(1),
+   active(true)
+);

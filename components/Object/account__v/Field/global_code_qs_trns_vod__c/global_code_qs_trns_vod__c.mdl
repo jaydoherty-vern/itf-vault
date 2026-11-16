@@ -1,0 +1,19 @@
+Field global_code_qs_trns_vod__c (
+   label('Global Code'),
+   type('String'),
+   active(true),
+   description('BMI Naya Transparency Field'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('BMI Naya Transparency Field'),
+   list_column(false),
+   order(368),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

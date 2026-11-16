@@ -1,0 +1,5 @@
+Picklistentry 42__c (
+   value('Wholesaler & Other Providers of Medical Goods'),
+   order(23),
+   active(true)
+);

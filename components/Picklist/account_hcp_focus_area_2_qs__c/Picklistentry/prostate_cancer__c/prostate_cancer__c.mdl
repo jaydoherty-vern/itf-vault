@@ -1,0 +1,5 @@
+Picklistentry prostate_cancer__c (
+   value('Prostate Cancer'),
+   order(28),
+   active(true)
+);

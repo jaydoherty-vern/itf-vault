@@ -1,0 +1,5 @@
+Picklistentry is_akh__c (
+   value('IS_Akrahreppur'),
+   order(750),
+   active(true)
+);

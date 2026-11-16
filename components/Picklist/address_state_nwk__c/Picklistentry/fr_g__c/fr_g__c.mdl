@@ -1,0 +1,5 @@
+Picklistentry fr_g__c (
+   value('FR-G'),
+   order(392),
+   active(false)
+);

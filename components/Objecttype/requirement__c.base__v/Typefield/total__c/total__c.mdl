@@ -1,0 +1,4 @@
+Typefield total__c (
+   source('standard'),
+   required(false)
+);

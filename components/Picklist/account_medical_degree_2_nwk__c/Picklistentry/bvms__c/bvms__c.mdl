@@ -1,0 +1,5 @@
+Picklistentry bvms__c (
+   value('Bachelor of Veterinary Medicine and Surgery (BVMS)'),
+   order(9),
+   active(true)
+);

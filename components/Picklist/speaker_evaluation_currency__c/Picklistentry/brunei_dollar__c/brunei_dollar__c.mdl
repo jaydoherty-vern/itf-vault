@@ -1,0 +1,5 @@
+Picklistentry brunei_dollar__c (
+   value('Brunei Dollar'),
+   order(29),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Sharingrule product_catalog_kam__c (
+   label('Product Catalog - KAM'),
+   active(true),
+   description(),
+   object('product__v'),
+   criteria([itf_share_team1__c CONTAINS ('kam__c', 'frm__c')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

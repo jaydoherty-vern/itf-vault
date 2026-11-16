@@ -1,0 +1,5 @@
+Picklistentry haemostasis_and_thrombosis__c (
+   value('Haemostasis and Thrombosis'),
+   order(65),
+   active(true)
+);

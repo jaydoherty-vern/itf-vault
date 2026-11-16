@@ -1,0 +1,5 @@
+Picklistentry east_caribbean_dollar__c (
+   value('East Caribbean Dollar'),
+   order(6),
+   active(true)
+);

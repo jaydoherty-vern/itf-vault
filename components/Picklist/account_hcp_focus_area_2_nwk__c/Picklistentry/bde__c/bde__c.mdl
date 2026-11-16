@@ -1,0 +1,5 @@
+Picklistentry bde__c (
+   value('Body Damage Evaluation'),
+   order(46),
+   active(true)
+);

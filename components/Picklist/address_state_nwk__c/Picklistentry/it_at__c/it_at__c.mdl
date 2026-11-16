@@ -1,0 +1,5 @@
+Picklistentry it_at__c (
+   value('IT_Asti'),
+   order(837),
+   active(true)
+);

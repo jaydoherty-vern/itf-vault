@@ -1,0 +1,5 @@
+Picklistentry cre__v (
+   value('Cree'),
+   order(131),
+   active(false)
+);

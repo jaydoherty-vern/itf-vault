@@ -1,0 +1,5 @@
+Picklistentry call2__v (
+   value('Call2_vod__c'),
+   order(2),
+   active(true)
+);

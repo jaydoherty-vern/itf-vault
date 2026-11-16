@@ -1,0 +1,5 @@
+Picklistentry it_te__c (
+   value('IT_Teramo'),
+   order(926),
+   active(true)
+);

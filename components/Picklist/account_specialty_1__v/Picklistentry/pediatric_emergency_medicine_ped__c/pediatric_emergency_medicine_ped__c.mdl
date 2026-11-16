@@ -1,0 +1,5 @@
+Picklistentry pediatric_emergency_medicine_ped__c (
+   value('PEDIATRIC EMERGENCY MEDICINE (PED)'),
+   order(24),
+   active(true)
+);

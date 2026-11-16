@@ -1,0 +1,5 @@
+Picklistentry lv_018__c (
+   value('LV_Brocēnu novads (Brocēni)'),
+   order(1064),
+   active(true)
+);

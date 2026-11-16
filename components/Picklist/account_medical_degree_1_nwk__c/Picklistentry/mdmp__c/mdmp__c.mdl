@@ -1,0 +1,5 @@
+Picklistentry mdmp__c (
+   value('Diploma in Pain Medicine'),
+   order(80),
+   active(true)
+);

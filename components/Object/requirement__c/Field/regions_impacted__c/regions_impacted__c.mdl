@@ -1,0 +1,18 @@
+Field regions_impacted__c (
+   label('Regions Impacted'),
+   type('Picklist'),
+   active(true),
+   description('Regions that get impacted due to this requirement.'),
+   required(false),
+   unique(false),
+   help_content('Regions that get impacted due to this requirement.'),
+   list_column(false),
+   order(91),
+   multi_value(true),
+   picklist('Picklist.regions_impacted__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

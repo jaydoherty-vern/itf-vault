@@ -1,0 +1,5 @@
+Picklistentry mo__v (
+   value('Montenegrin'),
+   order(68),
+   active(true)
+);

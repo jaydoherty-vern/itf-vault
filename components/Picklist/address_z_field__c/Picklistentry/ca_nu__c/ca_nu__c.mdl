@@ -1,0 +1,5 @@
+Picklistentry ca_nu__c (
+   value('CA-NU'),
+   order(604),
+   active(true)
+);

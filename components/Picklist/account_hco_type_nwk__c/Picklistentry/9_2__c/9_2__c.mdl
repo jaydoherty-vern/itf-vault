@@ -1,0 +1,5 @@
+Picklistentry 9_2__c (
+   value('Managed Care, Independent Physicians Assoc'),
+   order(91),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry medid__c (
+   value('Medicine for the Intellectually Disabled'),
+   order(267),
+   active(true)
+);

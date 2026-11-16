@@ -1,0 +1,5 @@
+Picklistentry vpr__c (
+   value('Veterinary Physiotherapy and Rehabilitation'),
+   order(560),
+   active(true)
+);

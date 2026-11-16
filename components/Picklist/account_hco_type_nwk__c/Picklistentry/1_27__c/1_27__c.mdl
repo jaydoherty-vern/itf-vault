@@ -1,0 +1,5 @@
+Picklistentry 1_27__c (
+   value('Hospital, Private / Rest Home'),
+   order(76),
+   active(true)
+);

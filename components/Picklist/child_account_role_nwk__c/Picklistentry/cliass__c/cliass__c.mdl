@@ -1,0 +1,5 @@
+Picklistentry cliass__c (
+   value('Hospital Practitioner / Clinical Assistant'),
+   order(111),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry in_progress__c (
+   value('In Progress'),
+   order(0),
+   active(true)
+);

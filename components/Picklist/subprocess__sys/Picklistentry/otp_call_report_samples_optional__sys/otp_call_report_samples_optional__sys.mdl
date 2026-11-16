@@ -1,0 +1,6 @@
+Picklistentry otp_call_report_samples_optional__sys (
+   value('Call Report Samples Optional'),
+   order(21),
+   active(true),
+   controlling_entries('olc_call__sys')
+);

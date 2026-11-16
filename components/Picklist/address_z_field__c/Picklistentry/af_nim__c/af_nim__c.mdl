@@ -1,0 +1,5 @@
+Picklistentry af_nim__c (
+   value('AF-NIM'),
+   order(35),
+   active(true)
+);

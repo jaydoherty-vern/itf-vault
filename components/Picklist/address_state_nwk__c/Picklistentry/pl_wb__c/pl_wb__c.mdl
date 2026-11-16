@@ -1,0 +1,5 @@
+Picklistentry pl_wb__c (
+   value('PL_Wałbrzych'),
+   order(1380),
+   active(true)
+);

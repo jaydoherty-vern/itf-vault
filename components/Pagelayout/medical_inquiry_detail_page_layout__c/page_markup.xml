@@ -1,0 +1,41 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.medical_inquiry__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="medical_inquiry_status__v" readOnly="true" />
+            <vault:control reference="mi_assign_to_user_field_control__v" name="mi_assign_to_user_field_control__c" label="Assign To User" />
+            <vault:field reference="signature_date__v" readOnly="true" />
+            <vault:field reference="fulfillment_status__v" readOnly="true" />
+            <vault:field reference="owner_security_profile__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Inquiry and Delivery Method Information" name="details1__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="product__v" required="true" />
+            <vault:field reference="inquiry_text__v" required="true" />
+            <vault:field reference="delivery_method__v" required="true" />
+            <vault:control reference="delivery_method_field_control__v" name="delivery_method_field_control__c" label="Delivery Method">
+                <vault:bind property="eom" value="false" />
+                <vault:bind property="eoe" value="false" />
+                <vault:bind property="eop" value="false" />
+                <vault:bind property="eof" value="false" />
+                <vault:bind property="ana" value="true" />
+                <vault:bind property="ane" value="true" />
+                <vault:bind property="anp" value="true" />
+                <vault:bind property="anf" value="true" />
+            </vault:control>
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

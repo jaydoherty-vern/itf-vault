@@ -1,0 +1,5 @@
+Picklistentry gb_dry__c (
+   value('GB-DRY'),
+   order(479),
+   active(false)
+);

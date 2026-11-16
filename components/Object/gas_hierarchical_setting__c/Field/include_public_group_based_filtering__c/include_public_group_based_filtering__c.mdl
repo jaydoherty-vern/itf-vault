@@ -1,0 +1,18 @@
+Field include_public_group_based_filtering__c (
+   label('Include Public Group based filtering'),
+   type('Boolean'),
+   active(true),
+   description('If checked, then Public Group Entity type filtering is enabled. Since this feature is resource intensive and involves loading up the Territory tree, Role tree and Public Group tree for EVERY GAS Search, it is turned off by default. Should only be turned ON if Public Groups based filtering is being used'),
+   required(false),
+   checkbox(true),
+   help_content('If checked, then Public Group Entity type filtering is enabled. Should only be turned ON if Public Groups based filtering is being used.'),
+   list_column(false),
+   order(39),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

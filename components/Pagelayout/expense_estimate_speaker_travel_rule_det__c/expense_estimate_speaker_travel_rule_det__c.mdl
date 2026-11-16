@@ -1,0 +1,8 @@
+RECREATE Pagelayout expense_estimate_speaker_travel_rule_det__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Expense Estimate Speaker Travel Rule Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

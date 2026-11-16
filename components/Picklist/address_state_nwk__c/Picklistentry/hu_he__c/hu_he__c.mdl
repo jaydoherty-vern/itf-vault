@@ -1,0 +1,5 @@
+Picklistentry hu_he__c (
+   value('HU_Heves'),
+   order(692),
+   active(true)
+);

@@ -1,0 +1,13 @@
+RECREATE Objectvalidation call2__v.itf_leadership_attendees_required__c (
+   label('ITF_LEADERSHIP_ATTENDEES_REQUIRED'),
+   active(true),
+   expression('Not(
+And(
+Not(IsBlank(itf_activity_details__c)),
+Includes(itf_activity_details__c, ''leadership_engagement__c''),
+IsBlank(itf_leadership_attendees__c),
+IsBlank(itf_other_leadership__c)))'),
+   description('https://itftherapeutics.lightning.force.com/lightning/r/Requirement_vod__c/a1uVy00000D7r8AIAR/view'),
+   error_message('Leadership Attendees or Other Leadership must be filled out.'),
+   error_location('id')
+);

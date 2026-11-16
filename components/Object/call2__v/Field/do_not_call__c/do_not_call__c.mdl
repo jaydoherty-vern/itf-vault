@@ -1,0 +1,19 @@
+Field do_not_call__c (
+   label('Do Not Call?'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(260),
+   multi_value(false),
+   picklist('Picklist.account_do_not_call__v'),
+   no_copy(false),
+   lookup_relationship_name('account__vr'),
+   lookup_source_field('do_not_call__v'),
+   editable(false),
+   searchable(true),
+   control_binding()
+);

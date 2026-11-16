@@ -1,0 +1,5 @@
+Picklistentry ru_vlg__c (
+   value('RU_Vologodskaya oblast'''),
+   order(1560),
+   active(true)
+);

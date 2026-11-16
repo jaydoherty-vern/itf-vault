@@ -1,0 +1,5 @@
+Picklistentry pl_si__c (
+   value('PL_Sieradz'),
+   order(1372),
+   active(true)
+);

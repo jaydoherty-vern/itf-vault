@@ -1,0 +1,5 @@
+Picklistentry be_vli__c (
+   value('BE-VLI'),
+   order(350),
+   active(true)
+);

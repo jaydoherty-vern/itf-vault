@@ -1,0 +1,18 @@
+Field itf_gender__c (
+   label('Gender'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(180),
+   multi_value(false),
+   picklist('Picklist.user_itf_gender__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

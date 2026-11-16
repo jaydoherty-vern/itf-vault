@@ -1,0 +1,5 @@
+Picklistentry fi_14__c (
+   value('FI_Northern Ostrobothnia'),
+   order(260),
+   active(true)
+);

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.object_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_channel__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_datetime__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call2_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.itf_call_outcome__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_sample__v___call2__v.quantity__v" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group />
+  <vrp:order />
+</vrp:query>

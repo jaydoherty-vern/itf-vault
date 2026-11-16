@@ -1,0 +1,5 @@
+Picklistentry dk_83__c (
+   value('DK_Region of Southern Denmark'),
+   order(150),
+   active(true)
+);

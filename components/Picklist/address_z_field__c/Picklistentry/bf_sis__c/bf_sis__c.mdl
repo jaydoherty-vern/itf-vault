@@ -1,0 +1,5 @@
+Picklistentry bf_sis__c (
+   value('BF-SIS'),
+   order(405),
+   active(true)
+);

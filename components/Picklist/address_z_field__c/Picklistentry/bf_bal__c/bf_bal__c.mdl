@@ -1,0 +1,5 @@
+Picklistentry bf_bal__c (
+   value('BF-BAL'),
+   order(372),
+   active(true)
+);

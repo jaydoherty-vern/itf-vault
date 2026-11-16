@@ -1,0 +1,5 @@
+Picklistentry thorsurg__c (
+   value('Thoracic Surgery'),
+   order(429),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry li_01__c (
+   value('LI_Balzers'),
+   order(962),
+   active(true)
+);

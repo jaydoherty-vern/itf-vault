@@ -1,0 +1,5 @@
+Picklistentry de_th__c (
+   value('DE-TH'),
+   order(984),
+   active(true)
+);

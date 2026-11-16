@@ -1,0 +1,5 @@
+Picklistentry hr_08__c (
+   value('HR_Primorsko-goranska županija'),
+   order(668),
+   active(true)
+);

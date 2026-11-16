@@ -1,0 +1,5 @@
+Picklistentry swiss_franc__c (
+   value('Swiss Franc'),
+   order(94),
+   active(true)
+);

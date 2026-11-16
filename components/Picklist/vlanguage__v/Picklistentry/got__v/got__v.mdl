@@ -1,0 +1,5 @@
+Picklistentry got__v (
+   value('Gothic'),
+   order(169),
+   active(false)
+);

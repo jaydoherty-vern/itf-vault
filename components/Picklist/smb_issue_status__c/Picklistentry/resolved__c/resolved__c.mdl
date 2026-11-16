@@ -1,0 +1,5 @@
+Picklistentry resolved__c (
+   value('Resolved'),
+   order(2),
+   active(true)
+);

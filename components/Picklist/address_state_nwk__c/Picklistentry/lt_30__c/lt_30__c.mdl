@@ -1,0 +1,5 @@
+Picklistentry lt_30__c (
+   value('LT_Pakruojis'),
+   order(1006),
+   active(true)
+);

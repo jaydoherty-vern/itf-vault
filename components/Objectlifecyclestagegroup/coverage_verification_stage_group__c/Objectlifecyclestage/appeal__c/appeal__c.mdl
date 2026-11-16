@@ -1,0 +1,9 @@
+Objectlifecyclestage appeal__c (
+   label('Appeal'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.pa_appeal_denied_state__c',
+         'Objectlifecyclestate.pending_pa_appeal_outcome_state__c',
+         'Objectlifecyclestate.pending_pa_appeal_submission_state__c'),
+   order(3)
+);

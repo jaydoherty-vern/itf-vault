@@ -1,0 +1,5 @@
+Picklistentry acm__c (
+   value('Alternative/Complementary Medicine'),
+   order(6),
+   active(true)
+);

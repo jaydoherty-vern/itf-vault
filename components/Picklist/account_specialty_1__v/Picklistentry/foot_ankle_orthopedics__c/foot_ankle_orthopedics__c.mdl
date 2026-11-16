@@ -1,0 +1,5 @@
+Picklistentry foot_ankle_orthopedics__c (
+   value('Foot & Ankle, Orthopedics'),
+   order(187),
+   active(true)
+);

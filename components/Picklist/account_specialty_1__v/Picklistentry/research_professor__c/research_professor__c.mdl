@@ -1,0 +1,5 @@
+Picklistentry research_professor__c (
+   value('RESEARCH PROFESSOR'),
+   order(57),
+   active(true)
+);

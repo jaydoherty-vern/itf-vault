@@ -1,0 +1,5 @@
+Picklistentry north_korean_won__c (
+   value('North Korean Won'),
+   order(84),
+   active(true)
+);

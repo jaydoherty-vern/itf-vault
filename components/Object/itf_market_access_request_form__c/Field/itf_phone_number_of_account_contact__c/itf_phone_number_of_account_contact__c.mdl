@@ -1,0 +1,20 @@
+Field itf_phone_number_of_account_contact__c (
+   label('Phone Number of Account Contact'),
+   type('String'),
+   subtype('Phone'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(true),
+   order(7),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

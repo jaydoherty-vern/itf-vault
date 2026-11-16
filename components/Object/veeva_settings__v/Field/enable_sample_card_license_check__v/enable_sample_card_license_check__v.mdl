@@ -1,0 +1,18 @@
+Field enable_sample_card_license_check__v (
+   label('ENABLE_SAMPLE_CARD_LICENSE_CHECK'),
+   type('Boolean'),
+   active(true),
+   description('If true then users will not be able to submit calls with sample card info with an address without a valid license.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(154),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry ru_kda__c (
+   value('RU_Krasnodarskiy kray'),
+   order(1515),
+   active(true)
+);

@@ -1,0 +1,38 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.remote_meeting_attendee__v.ms_teams_call_meeting__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="remote_meeting__v" />
+            <vault:field reference="meeting_duration__v" />
+            <vault:field reference="vexternal_id__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="call__v" />
+            <vault:field reference="display_name__v" />
+            <vault:field reference="join_time__v" />
+            <vault:field reference="leave_time__v" />
+            <vault:field reference="meeting_start_time__v" />
+            <vault:field reference="meeting_end_time__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="system_reconciled_account_id__v" />
+            <vault:field reference="attendee_email__v" />
+            <vault:field reference="system_reconciled_rule__v" />
+            <vault:field reference="user_reconciled_datetime__v" />
+            <vault:field reference="attendee_not_on_call_report__v" />
+            <vault:field reference="system_reconciled_user_id__v" />
+            <vault:field reference="system_reconciliation_processed_datetime__v" />
+            <vault:field reference="external_user_id__v" />
+            <vault:field reference="ms_graph_tenant_id__v" />
+            <vault:field reference="account__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

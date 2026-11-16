@@ -1,0 +1,5 @@
+Picklistentry romanian_leu__c (
+   value('Romanian Leu'),
+   order(124),
+   active(true)
+);

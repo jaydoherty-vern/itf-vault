@@ -1,0 +1,5 @@
+Picklistentry flex_day__c (
+   value('Flex Day'),
+   order(3),
+   active(true)
+);

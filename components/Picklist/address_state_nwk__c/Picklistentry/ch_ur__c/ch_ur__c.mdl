@@ -1,0 +1,5 @@
+Picklistentry ch_ur__c (
+   value('CH_Uri'),
+   order(111),
+   active(true)
+);

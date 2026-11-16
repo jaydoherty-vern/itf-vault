@@ -1,0 +1,5 @@
+Picklistentry speaker_related_engagement__c (
+   value('Speaker Related Engagement'),
+   order(1),
+   active(true)
+);

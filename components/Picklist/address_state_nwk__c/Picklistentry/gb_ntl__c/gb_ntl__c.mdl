@@ -1,0 +1,5 @@
+Picklistentry gb_ntl__c (
+   value('GB-NTL'),
+   order(565),
+   active(false)
+);

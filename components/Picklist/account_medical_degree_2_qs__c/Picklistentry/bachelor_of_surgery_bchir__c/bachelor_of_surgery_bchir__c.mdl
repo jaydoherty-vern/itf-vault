@@ -1,0 +1,5 @@
+Picklistentry bachelor_of_surgery_bchir__c (
+   value('Bachelor of Surgery (BChir)'),
+   order(0),
+   active(true)
+);

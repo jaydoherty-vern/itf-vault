@@ -1,0 +1,5 @@
+Picklistentry gb_liv__c (
+   value('GB-LIV'),
+   order(536),
+   active(false)
+);

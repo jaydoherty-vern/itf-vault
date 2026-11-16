@@ -1,0 +1,8 @@
+RECREATE Picklist v2ok_data_change_request_contact_type__c (
+   label('Contact Type'),
+   active(true),
+   Picklistentry(@Picklistentry/tct_rp__c.mdl),
+   Picklistentry(@Picklistentry/tct_vis__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

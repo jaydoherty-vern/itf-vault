@@ -1,0 +1,8 @@
+Objectlayout consent_line_sub_channel__c (
+   label('consent_line_sub_channel'),
+   active(true),
+   pagelayouts('Pagelayout.sub_channel_consent_line_layout__c'),
+   object('Object.consent_line__v'),
+   objecttype('Objecttype.consent_line__v.sub_channel__v'),
+   record_creation_layout('Pagelayout.sub_channel_consent_line_layout__c')
+);

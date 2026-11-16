@@ -1,0 +1,8 @@
+Objectlayout em_business_rule_em_cross_event_per_spea__c (
+   label('em_business_rule_em_cross_event_per_speaker_engagement'),
+   active(true),
+   pagelayouts('Pagelayout.cross_event_per_speaker_engagement_limit__c'),
+   object('Object.em_business_rule__v'),
+   objecttype('Objecttype.em_business_rule__v.em_cross_event_per_speaker_engagement__v'),
+   record_creation_layout('Pagelayout.cross_event_per_speaker_engagement_limit__c')
+);

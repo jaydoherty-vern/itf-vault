@@ -1,0 +1,6 @@
+Picklistentry otp_content_type1__sys (
+   value('Content Type'),
+   order(32),
+   active(true),
+   controlling_entries('olc_consent_type__sys')
+);

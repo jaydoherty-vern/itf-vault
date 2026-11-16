@@ -1,0 +1,5 @@
+Picklistentry resus__c (
+   value('Resuscitation'),
+   order(393),
+   active(true)
+);

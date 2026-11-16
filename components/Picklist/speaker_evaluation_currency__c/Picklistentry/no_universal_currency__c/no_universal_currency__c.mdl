@@ -1,0 +1,5 @@
+Picklistentry no_universal_currency__c (
+   value('No universal currency'),
+   order(7),
+   active(true)
+);

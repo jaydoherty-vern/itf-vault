@@ -1,0 +1,5 @@
+Picklistentry mk_73__c (
+   value('MK_Strumica'),
+   order(1273),
+   active(true)
+);

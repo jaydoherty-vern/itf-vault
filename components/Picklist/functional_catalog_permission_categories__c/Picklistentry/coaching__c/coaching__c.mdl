@@ -1,0 +1,5 @@
+Picklistentry coaching__c (
+   value('Coaching'),
+   order(3),
+   active(true)
+);

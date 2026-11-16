@@ -1,0 +1,4 @@
+Typefield build_status__c (
+   source('standard'),
+   required(false)
+);

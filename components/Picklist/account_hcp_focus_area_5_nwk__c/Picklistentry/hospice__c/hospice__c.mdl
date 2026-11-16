@@ -1,0 +1,5 @@
+Picklistentry hospice__c (
+   value('Hospice'),
+   order(190),
+   active(true)
+);

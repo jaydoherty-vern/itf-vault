@@ -1,0 +1,9 @@
+RECREATE Reporttype sent_email_opens_clicks_multi_pass__c (
+   label('Sent Email Opens & Clicks Multi-Pass'),
+   active(true),
+   description(),
+   primary_object('sent_email_view__c.sent_email__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('MultiPass')
+);

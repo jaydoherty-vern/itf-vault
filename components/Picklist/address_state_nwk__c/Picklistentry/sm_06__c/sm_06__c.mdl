@@ -1,0 +1,5 @@
+Picklistentry sm_06__c (
+   value('SM_Borgo Maggiore'),
+   order(1659),
+   active(true)
+);

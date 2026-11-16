@@ -1,0 +1,5 @@
+Picklistentry de_sl__c (
+   value('DE_Saarland'),
+   order(142),
+   active(true)
+);

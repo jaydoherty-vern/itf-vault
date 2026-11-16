@@ -1,0 +1,5 @@
+Picklistentry is_sdv__c (
+   value('IS_Súðavíkurhreppur'),
+   order(811),
+   active(true)
+);

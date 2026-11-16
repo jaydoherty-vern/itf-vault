@@ -1,0 +1,5 @@
+Picklistentry managed_markets__c (
+   value('Managed Markets'),
+   order(3),
+   active(true)
+);

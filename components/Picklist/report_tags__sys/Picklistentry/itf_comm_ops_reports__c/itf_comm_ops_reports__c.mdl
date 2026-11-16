@@ -1,0 +1,5 @@
+Picklistentry itf_comm_ops_reports__c (
+   value('ITF Comm Ops Reports'),
+   order(3),
+   active(true)
+);

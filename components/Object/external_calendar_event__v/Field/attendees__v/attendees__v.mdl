@@ -1,0 +1,17 @@
+Field attendees__v (
+   label('Attendees'),
+   type('LongText'),
+   active(true),
+   description('Attendees for an External Calendar Event. Value is concatenated with a comma (,) delimiter, and multiple attendees are separated with a ;; delimiter (e.g., "type", "status response", "status time", "emailAddress name", "emailAddress address";;"type", "status response", "status time", "emailAddress name", "emailAddress address").'),
+   required(false),
+   max_length(10000),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

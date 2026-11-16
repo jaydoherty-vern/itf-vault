@@ -1,0 +1,5 @@
+Picklistentry molecular_phys__c (
+   value('MOLECULAR PHYS'),
+   order(92),
+   active(true)
+);

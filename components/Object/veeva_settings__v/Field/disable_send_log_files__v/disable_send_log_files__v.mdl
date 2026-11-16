@@ -1,0 +1,18 @@
+Field disable_send_log_files__v (
+   label('DISABLE_SEND_LOG_FILES'),
+   type('Boolean'),
+   active(true),
+   description('If true then the Send Log Files button on the Options dialog on the tablet will be hidden.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(101),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

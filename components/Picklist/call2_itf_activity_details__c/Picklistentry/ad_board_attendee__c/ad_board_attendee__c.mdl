@@ -1,0 +1,5 @@
+Picklistentry ad_board_attendee__c (
+   value('Ad Board Attendee'),
+   order(15),
+   active(true)
+);

@@ -1,0 +1,26 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.html_report__v.remote_meeting__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="external_id__v" required="true" />
+            <vault:spacer />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="profile__v" />
+            <vault:field reference="platform__v" />
+            <vault:field reference="visibility_criteria__v" />
+            <vault:field reference="itf_sharing_group__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

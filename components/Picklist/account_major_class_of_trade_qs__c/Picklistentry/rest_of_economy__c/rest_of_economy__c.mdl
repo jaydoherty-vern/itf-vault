@@ -1,0 +1,5 @@
+Picklistentry rest_of_economy__c (
+   value('Rest of Economy'),
+   order(13),
+   active(true)
+);

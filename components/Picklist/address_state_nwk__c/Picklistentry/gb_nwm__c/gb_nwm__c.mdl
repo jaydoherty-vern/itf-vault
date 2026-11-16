@@ -1,0 +1,5 @@
+Picklistentry gb_nwm__c (
+   value('GB-NWM'),
+   order(568),
+   active(false)
+);

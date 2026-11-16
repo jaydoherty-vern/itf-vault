@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction new_state__v.start_adherence_workflow_useraction__c (
+   label('Start Adherence Workflow'),
+   rule(@rule.xml),
+   order(1000)
+);

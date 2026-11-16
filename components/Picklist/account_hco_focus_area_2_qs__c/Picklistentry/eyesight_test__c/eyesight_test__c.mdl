@@ -1,0 +1,5 @@
+Picklistentry eyesight_test__c (
+   value('Eyesight Test'),
+   order(44),
+   active(true)
+);

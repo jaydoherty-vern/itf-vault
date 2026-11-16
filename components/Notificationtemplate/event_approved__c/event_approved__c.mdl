@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate event_approved__c (
+   label('Event Approved'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.em_event__v'),
+   subject('Your Event has been Approved!'),
+   notification('The Event ''${Object.name__v}'' has been approved!
+'),
+   email_body('The Event ''${Object.name__v}'' has been approved!'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

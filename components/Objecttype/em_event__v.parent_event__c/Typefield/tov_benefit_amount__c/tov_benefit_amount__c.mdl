@@ -1,0 +1,4 @@
+Typefield tov_benefit_amount__c (
+   source('custom'),
+   required(false)
+);

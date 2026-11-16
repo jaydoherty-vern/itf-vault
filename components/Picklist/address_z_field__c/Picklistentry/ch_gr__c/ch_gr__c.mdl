@@ -1,0 +1,5 @@
+Picklistentry ch_gr__c (
+   value('CH-GR'),
+   order(659),
+   active(true)
+);

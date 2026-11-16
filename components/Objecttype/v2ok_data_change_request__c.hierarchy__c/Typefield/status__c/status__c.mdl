@@ -1,0 +1,9 @@
+Typefield status__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.v2ok_data_change_request_status__c.approved__c',
+         'Picklist.v2ok_data_change_request_status__c.in_progress__c',
+         'Picklist.v2ok_data_change_request_status__c.rejected__c',
+         'Picklist.v2ok_data_change_request_status__c.submitted__c'),
+   default_value('Picklist.v2ok_data_change_request_status__c.in_progress__c')
+);

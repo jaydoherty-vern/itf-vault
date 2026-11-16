@@ -1,0 +1,5 @@
+Picklistentry mc_ma__c (
+   value('MC_Malbousquet'),
+   order(1175),
+   active(true)
+);

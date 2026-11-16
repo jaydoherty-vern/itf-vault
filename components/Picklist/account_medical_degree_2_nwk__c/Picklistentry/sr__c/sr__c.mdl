@@ -1,0 +1,5 @@
+Picklistentry sr__c (
+   value('Senior Researcher'),
+   order(331),
+   active(true)
+);

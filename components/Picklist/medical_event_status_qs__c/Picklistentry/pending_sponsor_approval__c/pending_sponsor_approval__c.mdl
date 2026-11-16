@@ -1,0 +1,5 @@
+Picklistentry pending_sponsor_approval__c (
+   value('Pending Sponsor Approval'),
+   order(7),
+   active(true)
+);

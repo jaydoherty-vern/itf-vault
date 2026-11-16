@@ -1,0 +1,5 @@
+Picklistentry ru_nvs__c (
+   value('RU_Novosibirskaya oblast'''),
+   order(1530),
+   active(true)
+);

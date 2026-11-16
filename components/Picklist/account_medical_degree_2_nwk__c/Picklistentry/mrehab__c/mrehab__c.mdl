@@ -1,0 +1,5 @@
+Picklistentry mrehab__c (
+   value('Medical Rehabilitation Diploma'),
+   order(211),
+   active(true)
+);

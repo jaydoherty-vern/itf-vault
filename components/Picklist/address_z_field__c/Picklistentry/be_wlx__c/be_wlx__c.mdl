@@ -1,0 +1,5 @@
+Picklistentry be_wlx__c (
+   value('BE-WLX'),
+   order(357),
+   active(true)
+);

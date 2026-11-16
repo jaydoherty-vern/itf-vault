@@ -1,0 +1,5 @@
+Picklistentry kos__v (
+   value('Kosraean'),
+   order(213),
+   active(false)
+);

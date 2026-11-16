@@ -1,0 +1,5 @@
+Picklistentry mx_tla__c (
+   value('Tlaxcala'),
+   order(45),
+   active(true)
+);

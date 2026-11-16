@@ -1,0 +1,5 @@
+Picklistentry es_ex__c (
+   value('ES-EX'),
+   order(243),
+   active(false)
+);

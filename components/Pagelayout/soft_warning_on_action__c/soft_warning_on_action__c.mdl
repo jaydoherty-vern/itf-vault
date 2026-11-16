@@ -1,0 +1,8 @@
+RECREATE Pagelayout soft_warning_on_action__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Soft Warning on Action'),
+   page_markup(@page_markup.xml)
+);

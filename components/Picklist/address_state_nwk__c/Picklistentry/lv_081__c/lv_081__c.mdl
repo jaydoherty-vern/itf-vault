@@ -1,0 +1,5 @@
+Picklistentry lv_081__c (
+   value('LV_Rucavas novads (Rucava)'),
+   order(1135),
+   active(true)
+);

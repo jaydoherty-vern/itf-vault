@@ -1,0 +1,5 @@
+Picklistentry reg__c (
+   value('REG'),
+   order(14),
+   active(true)
+);

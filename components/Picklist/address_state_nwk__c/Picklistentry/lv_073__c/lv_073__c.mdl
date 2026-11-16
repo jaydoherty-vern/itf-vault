@@ -1,0 +1,5 @@
+Picklistentry lv_073__c (
+   value('LV_Preiļu novads'),
+   order(1125),
+   active(true)
+);

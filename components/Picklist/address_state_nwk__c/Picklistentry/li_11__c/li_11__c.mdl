@@ -1,0 +1,5 @@
+Picklistentry li_11__c (
+   value('LI_Vaduz'),
+   order(972),
+   active(true)
+);

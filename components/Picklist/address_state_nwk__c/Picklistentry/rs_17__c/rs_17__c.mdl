@@ -1,0 +1,5 @@
+Picklistentry rs_17__c (
+   value('RS_Moravički okrug'),
+   order(1463),
+   active(true)
+);

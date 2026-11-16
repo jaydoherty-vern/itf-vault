@@ -1,0 +1,5 @@
+Picklistentry mk_06__c (
+   value('MK_Bogovinje'),
+   order(1211),
+   active(true)
+);

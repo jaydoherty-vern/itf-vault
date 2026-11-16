@@ -1,0 +1,5 @@
+Picklistentry pe_ama__c (
+   value('Amazonas (PE)'),
+   order(346),
+   active(true)
+);

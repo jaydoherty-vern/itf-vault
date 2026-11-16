@@ -1,0 +1,5 @@
+Picklistentry system_administration__c (
+   value('System Administration'),
+   order(39),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry family_practice__c (
+   value('FAMILY PRACTICE'),
+   order(333),
+   active(true)
+);

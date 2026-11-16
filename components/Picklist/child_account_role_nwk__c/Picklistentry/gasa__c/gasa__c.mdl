@@ -1,0 +1,5 @@
+Picklistentry gasa__c (
+   value('Visiting Doctor'),
+   order(246),
+   active(true)
+);

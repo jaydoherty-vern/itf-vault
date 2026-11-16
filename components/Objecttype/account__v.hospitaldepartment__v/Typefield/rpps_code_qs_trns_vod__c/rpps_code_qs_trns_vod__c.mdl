@@ -1,0 +1,4 @@
+Typefield rpps_code_qs_trns_vod__c (
+   source('custom'),
+   required(false)
+);

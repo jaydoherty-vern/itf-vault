@@ -1,0 +1,8 @@
+Objectworkflowstep notification_rejected__c (
+   label('Notification - Rejected'),
+   type('notification'),
+   next_steps('Objectworkflowstep.end__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

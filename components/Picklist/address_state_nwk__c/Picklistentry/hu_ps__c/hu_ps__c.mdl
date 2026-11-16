@@ -1,0 +1,5 @@
+Picklistentry hu_ps__c (
+   value('HU_Pécs'),
+   order(702),
+   active(true)
+);

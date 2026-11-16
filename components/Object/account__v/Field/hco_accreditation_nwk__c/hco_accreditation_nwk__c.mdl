@@ -1,0 +1,20 @@
+Field hco_accreditation_nwk__c (
+   label('Accreditation 1'),
+   type('Picklist'),
+   active(true),
+   description('Network Field - HCO Accreditation 1'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(393),
+   multi_value(false),
+   picklist('Picklist.account_hco_accreditation_nwk__c'),
+   controlling_picklist('country_code__v'),
+   picklist_dependencies('{"al__v":["oph__c"],"gb__v":["vfh__c","bth__c","cst__c","rso__c","evh__c","vnt__c","sap__c","wholes__c","egp__c","sah__c","gpa__c","esc__c","vth__c","ems__c","ref__c","fap__c","cme__c","oph__c"],"de__v":["oph__c"],"lu__v":["oph__c"],"si__v":["oph__c"],"pl__v":["oph__c"],"se__v":["oph__c"],"rs__v":["oph__c"],"ie__v":["oph__c"],"at__v":["oph__c"],"tr__v":["oph__c"],"cz__v":["oph__c"],"ad__v":["oph__c"],"fr__v":["oph__c"],"nl__v":["oph__c"],"hu__v":["oph__c"],"li__v":["oph__c"],"dk__v":["oph__c"],"hr__v":["oph__c"],"ba__v":["oph__c"],"be__v":["oph__c"],"gr__v":["oph__c"],"es__v":["oph__c"],"mc__v":["oph__c"],"pt__v":["oph__c"],"ch__v":["oph__c"],"no__v":["oph__c"],"it__v":["oph__c"],"sk__v":["oph__c"],"fi__v":["oph__c"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

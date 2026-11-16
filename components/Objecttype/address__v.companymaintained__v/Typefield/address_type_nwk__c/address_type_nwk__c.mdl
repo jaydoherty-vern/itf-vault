@@ -1,0 +1,8 @@
+Typefield address_type_nwk__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.address_address_type_nwk__c.b__c',
+         'Picklist.address_address_type_nwk__c.m__c',
+         'Picklist.address_address_type_nwk__c.p__c',
+         'Picklist.address_address_type_nwk__c.u__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_055__c (
+   value('LV_Līgatnes novads (Līgatne)'),
+   order(1106),
+   active(true)
+);

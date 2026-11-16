@@ -1,0 +1,5 @@
+Picklistentry it_ct__c (
+   value('IT_Catania'),
+   order(854),
+   active(true)
+);

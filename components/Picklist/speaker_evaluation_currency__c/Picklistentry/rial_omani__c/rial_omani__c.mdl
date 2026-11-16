@@ -1,0 +1,5 @@
+Picklistentry rial_omani__c (
+   value('Rial Omani'),
+   order(115),
+   active(true)
+);

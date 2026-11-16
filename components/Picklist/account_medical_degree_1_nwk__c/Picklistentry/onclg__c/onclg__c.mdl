@@ -1,0 +1,5 @@
+Picklistentry onclg__c (
+   value('Diploma in Oncology'),
+   order(77),
+   active(true)
+);

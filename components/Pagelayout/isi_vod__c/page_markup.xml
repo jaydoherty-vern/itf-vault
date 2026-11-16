@@ -1,0 +1,25 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.reference_document__v.base__v">
+    <vault:section title="Fields" name="fields__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="reference_document_status__v" />
+            <vault:field reference="cdn_path__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="vault_dns__v" />
+            <vault:field reference="vault_last_modified_date_time__v" />
+            <vault:field reference="vexternal_id__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="version__v" />
+            <vault:field reference="veeva_distribution__v" />
+            <vault:field reference="language__v" />
+            <vault:field reference="vault_guid__v" />
+            <vault:field reference="vault_external_id__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

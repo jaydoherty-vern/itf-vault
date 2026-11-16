@@ -1,0 +1,13 @@
+Typefield mederi_person_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_mederi_person_type__c.access_decider__c',
+         'Picklist.account_mederi_person_type__c.access_influencer__c',
+         'Picklist.account_mederi_person_type__c.association__c',
+         'Picklist.account_mederi_person_type__c.event__c',
+         'Picklist.account_mederi_person_type__c.hospital__c',
+         'Picklist.account_mederi_person_type__c.journal__c',
+         'Picklist.account_mederi_person_type__c.person__c',
+         'Picklist.account_mederi_person_type__c.publication__c',
+         'Picklist.account_mederi_person_type__c.university__c')
+);

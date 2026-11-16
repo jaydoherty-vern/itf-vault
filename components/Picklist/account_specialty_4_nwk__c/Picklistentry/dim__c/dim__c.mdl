@@ -1,0 +1,5 @@
+Picklistentry dim__c (
+   value('Medical information'),
+   order(256),
+   active(true)
+);

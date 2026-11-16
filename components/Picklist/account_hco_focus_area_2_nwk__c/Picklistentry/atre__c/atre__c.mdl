@@ -1,0 +1,5 @@
+Picklistentry atre__c (
+   value('Biliary artesia'),
+   order(24),
+   active(true)
+);

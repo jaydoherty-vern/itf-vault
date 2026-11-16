@@ -1,0 +1,5 @@
+Picklistentry lt_22__c (
+   value('LT_Kretinga'),
+   order(997),
+   active(true)
+);

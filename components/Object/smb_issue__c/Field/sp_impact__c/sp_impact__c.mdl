@@ -1,0 +1,22 @@
+Field sp_impact__c (
+   label('Impact'),
+   type('Number'),
+   active(true),
+   description('PMO:: Level of impact of the Risk in the Project'),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

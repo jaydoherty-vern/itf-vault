@@ -1,0 +1,5 @@
+Picklistentry prac__c (
+   value('Practice Nurse Prescriber'),
+   order(190),
+   active(true)
+);

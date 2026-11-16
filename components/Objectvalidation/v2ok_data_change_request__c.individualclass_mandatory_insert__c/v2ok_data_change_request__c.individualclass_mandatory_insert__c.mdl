@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.individualclass_mandatory_insert__c (
+   label('IndividualClass_Mandatory_Insert'),
+   active(false),
+   expression('Not(And(Text(change_type__c)="Create",IsBlank(Text(individual_class__c)),object_type__vr.name__v="Professional"))'),
+   description('Individual Class should be mandatory for Insert.'),
+   error_message('Mandatory for "Create" data change request type.'),
+   error_location('individual_class__c')
+);

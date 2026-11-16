@@ -1,0 +1,5 @@
+Picklistentry hu_de__c (
+   value('HU_Debrecen'),
+   order(684),
+   active(true)
+);

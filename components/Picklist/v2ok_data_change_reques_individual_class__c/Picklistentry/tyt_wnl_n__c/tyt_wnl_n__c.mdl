@@ -1,0 +1,5 @@
+Picklistentry tyt_wnl_n__c (
+   value('TYT.WNL.N'),
+   order(7),
+   active(true)
+);

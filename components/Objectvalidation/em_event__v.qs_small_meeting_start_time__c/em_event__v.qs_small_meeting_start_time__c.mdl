@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_event__v.qs_small_meeting_start_time__c (
+   label('QS_Small_Meeting_Start_Time'),
+   active(true),
+   expression('Not(DateValue(start_time__v,@User.timezone__sys)>Today("user")&&object_type__vr.api_name__v="Small_Meeting")'),
+   description('Cannot create events in the future'),
+   error_message('Small Events cannot be created in the future.'),
+   error_location('id')
+);

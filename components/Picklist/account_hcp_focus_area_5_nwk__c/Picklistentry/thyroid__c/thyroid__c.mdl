@@ -1,0 +1,5 @@
+Picklistentry thyroid__c (
+   value('Thyroid'),
+   order(430),
+   active(true)
+);

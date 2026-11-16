@@ -1,0 +1,5 @@
+Picklistentry ae_aj__c (
+   value('AE_''Ajmān'),
+   order(76),
+   active(true)
+);

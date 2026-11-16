@@ -1,0 +1,5 @@
+Picklistentry khm__v (
+   value('Khmer'),
+   order(61),
+   active(true)
+);

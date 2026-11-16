@@ -1,0 +1,5 @@
+Picklistentry co_gua__c (
+   value('CO-GUA'),
+   order(780),
+   active(true)
+);

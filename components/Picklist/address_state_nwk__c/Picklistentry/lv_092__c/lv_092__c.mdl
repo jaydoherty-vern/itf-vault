@@ -1,0 +1,5 @@
+Picklistentry lv_092__c (
+   value('LV_Skrīveru novads (Skrīveri)'),
+   order(1146),
+   active(true)
+);

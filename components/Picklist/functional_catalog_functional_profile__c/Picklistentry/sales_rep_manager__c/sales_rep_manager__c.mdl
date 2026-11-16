@@ -1,0 +1,5 @@
+Picklistentry sales_rep_manager__c (
+   value('Sales Rep Manager'),
+   order(7),
+   active(true)
+);

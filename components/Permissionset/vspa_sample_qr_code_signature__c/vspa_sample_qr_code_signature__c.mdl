@@ -1,0 +1,9 @@
+RECREATE Permissionset vspa_sample_qr_code_signature__c (
+   label('VSPA_Sample_QR_Code_Signature'),
+   active(true),
+   description('Capturing Remote Signatures for Sampling with QR Codes'),
+   object.call2__v.signature_captured_qr_code__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

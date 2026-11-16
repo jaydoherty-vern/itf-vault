@@ -1,0 +1,5 @@
+Picklistentry call_other_attendees_concur__c (
+   value('Call other attendees (Concur)'),
+   order(20),
+   active(true)
+);

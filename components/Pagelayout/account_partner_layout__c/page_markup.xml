@@ -1,0 +1,25 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.account_partner__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" required="true" />
+            <vault:field reference="account_partner_id__v" />
+            <vault:field reference="qs_partner_account__c" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="contract__v" />
+            <vault:field reference="default__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

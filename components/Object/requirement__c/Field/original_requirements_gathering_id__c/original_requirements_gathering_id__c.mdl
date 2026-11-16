@@ -1,0 +1,19 @@
+Field original_requirements_gathering_id__c (
+   label('Original Requirements Gathering ID'),
+   type('String'),
+   active(true),
+   description('Functional ID (FX.XX) captured during requirements gathering sessions.'),
+   required(false),
+   unique(false),
+   max_length(6),
+   help_content('If blank, requirement was documented during design or later stages.'),
+   list_column(false),
+   order(77),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

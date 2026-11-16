@@ -1,0 +1,5 @@
+Picklistentry ao_cab__c (
+   value('AO-CAB'),
+   order(117),
+   active(true)
+);

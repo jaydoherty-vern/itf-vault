@@ -1,0 +1,19 @@
+Field expense_iso_country_code_vspa__c (
+   label('Expense ISO Country Code'),
+   type('String'),
+   active(true),
+   description('ISO country code of the expense to leverage for sharing rules'),
+   required(false),
+   unique(false),
+   max_length(2),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

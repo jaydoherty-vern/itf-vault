@@ -1,0 +1,5 @@
+Picklistentry tr_73__c (
+   value('TR_Şırnak'),
+   order(1738),
+   active(true)
+);

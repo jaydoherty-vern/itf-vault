@@ -1,0 +1,5 @@
+Picklistentry bw_kg__c (
+   value('BW-KG'),
+   order(576),
+   active(true)
+);

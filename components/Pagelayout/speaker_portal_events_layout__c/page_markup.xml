@@ -1,0 +1,15 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_event_rule__v.speaker_portal_events__v">
+    <vault:section title="Information Section" name="information_section__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="event_configuration__v" required="true" />
+            <vault:field reference="country_override__v" />
+            <vault:field reference="event_status__v" required="true" />
+            <vault:field reference="event_speaker_status__v" required="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

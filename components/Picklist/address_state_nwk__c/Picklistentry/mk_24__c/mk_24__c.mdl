@@ -1,0 +1,5 @@
+Picklistentry mk_24__c (
+   value('MK_Demir Kapija'),
+   order(1225),
+   active(true)
+);

@@ -1,0 +1,16 @@
+Typefield hcp_type_qs__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_hcp_type_qs__c.animal_health__c',
+         'Picklist.account_hcp_type_qs__c.business_professional__c',
+         'Picklist.account_hcp_type_qs__c.dentist__c',
+         'Picklist.account_hcp_type_qs__c.doctor__c',
+         'Picklist.account_hcp_type_qs__c.military__c',
+         'Picklist.account_hcp_type_qs__c.non_prescribing_health_care_professional__c',
+         'Picklist.account_hcp_type_qs__c.nurse__c',
+         'Picklist.account_hcp_type_qs__c.pharmacist__c',
+         'Picklist.account_hcp_type_qs__c.prescriber__c',
+         'Picklist.account_hcp_type_qs__c.resident__c',
+         'Picklist.account_hcp_type_qs__c.student__c',
+         'Picklist.account_hcp_type_qs__c.technician__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry ho__c (
+   value('Health Organization Diploma'),
+   order(177),
+   active(true)
+);

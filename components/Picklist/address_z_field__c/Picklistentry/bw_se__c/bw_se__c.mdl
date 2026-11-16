@@ -1,0 +1,5 @@
+Picklistentry bw_se__c (
+   value('BW-SE'),
+   order(581),
+   active(true)
+);

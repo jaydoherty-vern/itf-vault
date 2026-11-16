@@ -1,0 +1,5 @@
+Picklistentry gb_lmv__c (
+   value('GB-LMV'),
+   order(537),
+   active(false)
+);

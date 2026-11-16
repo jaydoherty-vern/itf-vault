@@ -1,0 +1,5 @@
+Picklistentry ee_86__c (
+   value('EE_Võrumaa'),
+   order(182),
+   active(true)
+);

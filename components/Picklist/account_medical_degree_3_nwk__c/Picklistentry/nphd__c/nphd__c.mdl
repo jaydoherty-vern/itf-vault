@@ -1,0 +1,5 @@
+Picklistentry nphd__c (
+   value('Docent / Junior Lecturer / Nominated PhD'),
+   order(85),
+   active(true)
+);

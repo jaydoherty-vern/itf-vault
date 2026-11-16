@@ -1,0 +1,5 @@
+Picklistentry discussion__c (
+   value('Discussion'),
+   order(2),
+   active(true)
+);

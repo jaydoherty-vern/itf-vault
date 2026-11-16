@@ -1,0 +1,5 @@
+Picklistentry it_lu__c (
+   value('IT_Lucca'),
+   order(881),
+   active(true)
+);

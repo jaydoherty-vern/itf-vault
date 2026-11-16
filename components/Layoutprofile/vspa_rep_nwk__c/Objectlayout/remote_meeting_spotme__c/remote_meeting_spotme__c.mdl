@@ -1,0 +1,8 @@
+Objectlayout remote_meeting_spotme__c (
+   label('remote_meeting_spotme'),
+   active(true),
+   pagelayouts('Pagelayout.spotme1__c'),
+   object('Object.remote_meeting__v'),
+   objecttype('Objecttype.remote_meeting__v.spotme__v'),
+   record_creation_layout('Pagelayout.spotme1__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry advanced_heart_failure__c (
+   value('Advanced Heart Failure'),
+   order(50),
+   active(true)
+);

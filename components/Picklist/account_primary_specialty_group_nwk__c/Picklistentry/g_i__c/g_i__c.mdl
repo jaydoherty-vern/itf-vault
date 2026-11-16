@@ -1,0 +1,5 @@
+Picklistentry g_i__c (
+   value('Imaging'),
+   order(42),
+   active(true)
+);

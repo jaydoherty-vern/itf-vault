@@ -1,0 +1,5 @@
+Picklistentry al_dv__c (
+   value('AL_Devoll'),
+   order(11),
+   active(true)
+);

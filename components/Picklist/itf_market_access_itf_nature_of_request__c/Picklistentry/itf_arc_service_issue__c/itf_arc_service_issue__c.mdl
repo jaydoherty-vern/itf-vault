@@ -1,0 +1,5 @@
+Picklistentry itf_arc_service_issue__c (
+   value('ITF ARC Service Issue'),
+   order(0),
+   active(true)
+);

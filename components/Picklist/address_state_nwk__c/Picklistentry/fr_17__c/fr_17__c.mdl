@@ -1,0 +1,5 @@
+Picklistentry fr_17__c (
+   value('FR_Charente-Maritime'),
+   order(293),
+   active(true)
+);

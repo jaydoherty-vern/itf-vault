@@ -1,0 +1,5 @@
+Picklistentry ar_w__c (
+   value('Corrientes'),
+   order(70),
+   active(true)
+);

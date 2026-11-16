@@ -1,0 +1,5 @@
+Picklistentry az_yev__c (
+   value('AZ-YEV'),
+   order(247),
+   active(true)
+);

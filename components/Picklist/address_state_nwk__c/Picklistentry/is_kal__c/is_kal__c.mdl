@@ -1,0 +1,5 @@
+Picklistentry is_kal__c (
+   value('IS_Kaldrananeshreppur'),
+   order(786),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry fr_19__c (
+   value('FR_Corrèze'),
+   order(296),
+   active(true)
+);

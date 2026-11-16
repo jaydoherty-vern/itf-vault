@@ -1,0 +1,6 @@
+Typefield integrated_survey_entry_point__v (
+   source('custom'),
+   required(true),
+   pickentries('Picklist.integrated_integrated_survey_entry_point__v.hcp_post_engage_meeting__v',
+         'Picklist.integrated_integrated_survey_entry_point__v.hcp_post_event__v')
+);

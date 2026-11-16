@@ -1,0 +1,5 @@
+Picklistentry build_complete__c (
+   value('Build Complete'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ca_pe__c (
+   value('CA-PE'),
+   order(606),
+   active(true)
+);

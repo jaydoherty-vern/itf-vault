@@ -1,0 +1,5 @@
+Picklistentry tih_wes_dn__c (
+   value('TIH.WES.DN'),
+   order(18),
+   active(true)
+);

@@ -1,0 +1,17 @@
+RECREATE Picklist event_expenses_expense_type__c (
+   label('Expense Type'),
+   active(true),
+   Picklistentry(@Picklistentry/speaker_fees__c.mdl),
+   Picklistentry(@Picklistentry/speaker_expenses__c.mdl),
+   Picklistentry(@Picklistentry/gifts__c.mdl),
+   Picklistentry(@Picklistentry/promotional_materials__c.mdl),
+   Picklistentry(@Picklistentry/meal_catering__c.mdl),
+   Picklistentry(@Picklistentry/av__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   Picklistentry(@Picklistentry/transportation__c.mdl),
+   Picklistentry(@Picklistentry/food__c.mdl),
+   Picklistentry(@Picklistentry/entertainment__c.mdl),
+   Picklistentry(@Picklistentry/cab_fare__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

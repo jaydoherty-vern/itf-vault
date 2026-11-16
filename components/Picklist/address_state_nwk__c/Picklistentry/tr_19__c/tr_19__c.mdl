@@ -1,0 +1,5 @@
+Picklistentry tr_19__c (
+   value('TR_Çorum'),
+   order(1690),
+   active(true)
+);

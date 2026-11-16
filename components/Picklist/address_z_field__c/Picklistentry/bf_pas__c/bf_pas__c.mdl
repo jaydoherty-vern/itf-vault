@@ -1,0 +1,5 @@
+Picklistentry bf_pas__c (
+   value('BF-PAS'),
+   order(402),
+   active(true)
+);

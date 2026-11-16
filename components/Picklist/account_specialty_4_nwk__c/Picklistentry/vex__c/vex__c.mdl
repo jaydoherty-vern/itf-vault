@@ -1,0 +1,5 @@
+Picklistentry vex__c (
+   value('Veterinary Medicine, Regulatory'),
+   order(547),
+   active(true)
+);

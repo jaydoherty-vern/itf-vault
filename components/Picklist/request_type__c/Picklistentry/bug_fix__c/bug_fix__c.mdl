@@ -1,0 +1,5 @@
+Picklistentry bug_fix__c (
+   value('Bug Fix'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield remote_meeting_attendee_reconcile_vod__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,14 @@
+RECREATE Picklist call2_itf_call_reason__c (
+   label('Call Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/patient_status_pa_follow_up__c.mdl),
+   Picklistentry(@Picklistentry/patient_status_appeal_follow_up__c.mdl),
+   Picklistentry(@Picklistentry/patient_status_active_patient_follow_up__c.mdl),
+   Picklistentry(@Picklistentry/patient_status_panther_requested_follow__c.mdl),
+   Picklistentry(@Picklistentry/patient_status_cancellation_discontinuat__c.mdl),
+   Picklistentry(@Picklistentry/account_case_review__c.mdl),
+   Picklistentry(@Picklistentry/sent_account_case_status_report__c.mdl),
+   Picklistentry(@Picklistentry/cross_functional_account_meeting__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

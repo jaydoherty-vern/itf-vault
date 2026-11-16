@@ -1,0 +1,5 @@
+Picklistentry hu_kv__c (
+   value('HU_Kaposvár'),
+   order(695),
+   active(true)
+);

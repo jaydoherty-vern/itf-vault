@@ -1,0 +1,5 @@
+Picklistentry physiatry_in_chief__c (
+   value('PHYSIATRY IN CHIEF'),
+   order(138),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry colombian_peso__c (
+   value('Colombian Peso'),
+   order(40),
+   active(true)
+);

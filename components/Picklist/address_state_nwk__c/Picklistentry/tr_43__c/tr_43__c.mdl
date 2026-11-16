@@ -1,0 +1,5 @@
+Picklistentry tr_43__c (
+   value('TR_Kütahya'),
+   order(1720),
+   active(true)
+);

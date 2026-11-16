@@ -1,0 +1,5 @@
+Picklistentry gb_dal__c (
+   value('GB-DAL'),
+   order(468),
+   active(false)
+);

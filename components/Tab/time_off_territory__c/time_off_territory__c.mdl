@@ -1,0 +1,15 @@
+RECREATE Tab time_off_territory__c (
+   active(true),
+   all_view_label('All Time Off Territory'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Time Off Territory'),
+   modal_create_record(false),
+   my_view_label('My Time Off Territory'),
+   object('time_off_territory__v'),
+   order(8950),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Time Off Territory')
+);

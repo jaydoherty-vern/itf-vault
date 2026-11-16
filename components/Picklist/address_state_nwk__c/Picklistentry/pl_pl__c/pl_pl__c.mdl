@@ -1,0 +1,5 @@
+Picklistentry pl_pl__c (
+   value('PL_Płock'),
+   order(1363),
+   active(true)
+);

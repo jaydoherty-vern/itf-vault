@@ -1,0 +1,56 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_attendee__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="attendee_name__v" required="true" />
+            <vault:field reference="event__v" required="true" />
+            <vault:field reference="em_attendee_status__v" required="true" />
+            <vault:field reference="meal_opt_in__v" />
+            <vault:field reference="signature_datetime__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Contact Details" name="contact_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__v" readOnly="true" />
+            <vault:field reference="user__v" readOnly="true" />
+            <vault:field reference="phone__v" />
+            <vault:field reference="email__v" />
+            <vault:field reference="address_line_1__v" />
+            <vault:field reference="address_line_2__v" />
+            <vault:field reference="city__v" />
+            <vault:field reference="zip__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Sent Email" name="sent_email__c">
+        <vault:relatedObject relationship="sent_email__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="product_display__v" width="200px" />
+            <vault:field reference="email_sent_date__v" width="200px" />
+            <vault:field reference="sent_email_status__v" width="200px" />
+            <vault:field reference="open_count__v" width="200px" />
+            <vault:field reference="last_open_date__v" width="200px" />
+            <vault:field reference="click_count__v" width="200px" />
+            <vault:field reference="last_click_date__v" width="200px" />
+            <vault:field reference="approved_document_views__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Survey Targets" name="survey_targets__c">
+        <vault:relatedObject relationship="survey_targets__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="survey_target_status__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="modified_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

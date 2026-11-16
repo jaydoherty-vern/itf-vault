@@ -1,0 +1,5 @@
+Picklistentry cl_ll__c (
+   value('Los Lagos'),
+   order(138),
+   active(true)
+);

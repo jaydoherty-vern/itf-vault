@@ -1,0 +1,5 @@
+Picklistentry stem__c (
+   value('Stem cell transplants'),
+   order(420),
+   active(true)
+);

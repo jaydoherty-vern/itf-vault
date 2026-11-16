@@ -1,0 +1,5 @@
+Picklistentry neuromuscular_medicine__c (
+   value('NEUROMUSCULAR MEDICINE'),
+   order(21),
+   active(true)
+);

@@ -1,0 +1,10 @@
+RECREATE Picklist smb_risk_e_initial_risk_rating_pick_list__c (
+   label('Initial Risk Rating Pick List'),
+   active(true),
+   Picklistentry(@Picklistentry/severe__c.mdl),
+   Picklistentry(@Picklistentry/high__c.mdl),
+   Picklistentry(@Picklistentry/medium__c.mdl),
+   Picklistentry(@Picklistentry/low__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

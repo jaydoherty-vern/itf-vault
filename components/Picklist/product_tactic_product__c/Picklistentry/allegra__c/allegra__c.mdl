@@ -1,0 +1,5 @@
+Picklistentry allegra__c (
+   value('Allegra'),
+   order(0),
+   active(true)
+);

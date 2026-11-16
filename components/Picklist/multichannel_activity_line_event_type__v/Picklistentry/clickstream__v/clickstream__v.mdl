@@ -1,0 +1,5 @@
+Picklistentry clickstream__v (
+   value('Clickstream'),
+   order(0),
+   active(true)
+);

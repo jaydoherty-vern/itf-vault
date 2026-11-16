@@ -1,0 +1,11 @@
+RECREATE Picklist qs_pmo_customer_status__c (
+   label('Customer Status'),
+   active(true),
+   Picklistentry(@Picklistentry/reviewing__c.mdl),
+   Picklistentry(@Picklistentry/approves__c.mdl),
+   Picklistentry(@Picklistentry/declines__c.mdl),
+   Picklistentry(@Picklistentry/cancel__c.mdl),
+   Picklistentry(@Picklistentry/next_phase__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

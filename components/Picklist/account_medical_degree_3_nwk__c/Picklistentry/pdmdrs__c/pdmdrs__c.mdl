@@ -1,0 +1,5 @@
+Picklistentry pdmdrs__c (
+   value('Prof. Dr. med. Dr. rer. soc.'),
+   order(240),
+   active(true)
+);

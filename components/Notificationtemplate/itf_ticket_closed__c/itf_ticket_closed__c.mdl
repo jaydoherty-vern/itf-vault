@@ -1,0 +1,14 @@
+RECREATE Notificationtemplate itf_ticket_closed__c (
+   label('ITF_TICKET_CLOSED'),
+   active(true),
+   description('ITF_TICKET_CLOSED'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.requirement__c'),
+   subject('TICKET CLOSED - ${Object.name__v} - ${Object.requirement_title__c}'),
+   notification('The following ticket has been successfully deployed to Production.</br>
+${Object.name__v}'),
+   email_body('The following ticket has been successfully deployed to Production.</br>
+${Object.name__v}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

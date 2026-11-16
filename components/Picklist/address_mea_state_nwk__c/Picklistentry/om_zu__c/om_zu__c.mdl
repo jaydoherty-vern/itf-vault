@@ -1,0 +1,5 @@
+Picklistentry om_zu__c (
+   value('OM_Z̧ufār'),
+   order(66),
+   active(true)
+);

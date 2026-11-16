@@ -1,0 +1,5 @@
+Picklistentry avm__c (
+   value('Aviation Medicine Diploma'),
+   order(4),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry bf_gna__c (
+   value('BF-GNA'),
+   order(381),
+   active(true)
+);

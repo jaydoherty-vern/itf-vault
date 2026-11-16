@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="wad" name="start__c">
+    <vwf:label>Start</vwf:label>
+    <vwf:controls>
+      <vwf:control name="part_manager__c" label="Manager" type="participant">
+        <vwf:userreferencefields>
+          <vwf:userreferencefield reference="Object.time_off_territory__v.ownerid__v" field="user__sys.manager__sys" />
+        </vwf:userreferencefields>
+      </vwf:control>
+      <vwf:control name="part_employee__c" label="Employee" type="participant">
+        <vwf:userreferencefields>
+          <vwf:userreferencefield reference="Object.time_off_territory__v.ownerid__v" />
+        </vwf:userreferencefields>
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+</vwf:stepdetails>

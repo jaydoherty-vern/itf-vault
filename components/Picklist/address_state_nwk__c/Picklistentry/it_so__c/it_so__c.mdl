@@ -1,0 +1,5 @@
+Picklistentry it_so__c (
+   value('IT_Sondrio'),
+   order(923),
+   active(true)
+);

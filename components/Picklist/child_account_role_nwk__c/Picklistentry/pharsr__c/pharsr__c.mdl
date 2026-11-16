@@ -1,0 +1,5 @@
+Picklistentry pharsr__c (
+   value('Senior / Lead Pharmacist'),
+   order(212),
+   active(true)
+);

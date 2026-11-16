@@ -1,0 +1,5 @@
+Picklistentry carmeta__c (
+   value('Cardio-Metabolic Diseases'),
+   order(58),
+   active(true)
+);

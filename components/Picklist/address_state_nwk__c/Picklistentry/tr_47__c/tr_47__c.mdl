@@ -1,0 +1,5 @@
+Picklistentry tr_47__c (
+   value('TR_Mardin'),
+   order(1723),
+   active(true)
+);

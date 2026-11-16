@@ -1,0 +1,5 @@
+Picklistentry fr_92__c (
+   value('FR_Hauts-de-Seine'),
+   order(324),
+   active(true)
+);

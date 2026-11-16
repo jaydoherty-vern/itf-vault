@@ -1,0 +1,5 @@
+Picklistentry jo_mn__c (
+   value('JO_Ma‘ān'),
+   order(40),
+   active(true)
+);

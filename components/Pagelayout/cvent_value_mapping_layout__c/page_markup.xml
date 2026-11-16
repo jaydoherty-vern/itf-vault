@@ -1,0 +1,16 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.cvent_value_mapping__v.cvent_value_mapping__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="cvent_field_mapping__v" />
+            <vault:field reference="cvent_value__v" />
+            <vault:field reference="salesforce_value__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

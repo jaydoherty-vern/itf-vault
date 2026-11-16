@@ -1,0 +1,4 @@
+Typefield tov_entry_price_lodging_with_breakf_corp__sys (
+   source('standard'),
+   required(false)
+);

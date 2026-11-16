@@ -1,0 +1,9 @@
+RECREATE Picklist account_vspa_data_source__c (
+   label('Data Source'),
+   active(true),
+   Picklistentry(@Picklistentry/vspa_data_provider__c.mdl),
+   Picklistentry(@Picklistentry/vspa_internally_managed__c.mdl),
+   Picklistentry(@Picklistentry/na__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

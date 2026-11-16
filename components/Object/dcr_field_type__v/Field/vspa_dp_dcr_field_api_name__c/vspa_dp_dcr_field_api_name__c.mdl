@@ -1,0 +1,19 @@
+Field vspa_dp_dcr_field_api_name__c (
+   label('DP DCR Field API Name'),
+   type('String'),
+   active(true),
+   description('Data Provider Field API Name'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

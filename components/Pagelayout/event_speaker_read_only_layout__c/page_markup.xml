@@ -1,0 +1,101 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_event_speaker__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="event__v" readOnly="true" />
+            <vault:field reference="speaker_name__v" />
+            <vault:field reference="speaker__v" />
+            <vault:field reference="start_time__v" readOnly="true" />
+            <vault:field reference="end_time__v" readOnly="true" />
+            <vault:field reference="tov_health_authority__c" readOnly="true" />
+            <vault:field reference="tov_health_authority_reference__c" readOnly="true" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="hcp_type__c" />
+            <vault:field reference="primary_parent__c" />
+            <vault:field reference="meal_opt_in__v" readOnly="true" />
+            <vault:field reference="em_event_speaker_status__v" readOnly="true" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="signature_datetime__v" readOnly="true" />
+            <vault:field reference="webinar_panelist_url__v" />
+            <vault:field reference="webinar_panelist_id__v" />
+            <vault:field reference="session_title__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Hospitality" name="hospitality__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="ctrl_em_event__c" />
+            <vault:field reference="tov_event_hospitality_package__c" readOnly="true" />
+            <vault:field reference="tov_entry_subscription__c" readOnly="true" />
+            <vault:field reference="tov_subscription_fee__c" />
+            <vault:field reference="speaker_lodging_nights__v" readOnly="true" />
+            <vault:field reference="tov_total_package_amount__c" />
+            <vault:field reference="tov_entry_total_package_amount__c" readOnly="true" />
+            <vault:field reference="tov_entry_package_additions__c" readOnly="true" />
+            <vault:field reference="speaker_lodging_type__v" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Transport" name="transport__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="tov_entry_transfer__c" readOnly="true" />
+            <vault:field reference="tov_transportation_fee__c" />
+            <vault:field reference="speaker_travel_distance__v" readOnly="true" />
+            <vault:field reference="tov_entry_transport__c" readOnly="true" />
+            <vault:field reference="speaker_transportation_method__v" readOnly="true" />
+            <vault:field reference="distance_unit_type__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Packaged Hospitality" name="packaged_hospitality__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="tov_entry_nb_package_meal__c" readOnly="true" />
+            <vault:field reference="tov_entry_nb_package_night__c" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Meal Details" name="meal_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="tov_entry_nb_meal__c" readOnly="true" />
+            <vault:field reference="tov_entry_nb_lunch__c" readOnly="true" />
+            <vault:field reference="tov_entry_nb_dinner__c" readOnly="true" />
+            <vault:field reference="tov_entry_nb_snack__c" readOnly="true" />
+            <vault:field reference="tov_total_meal_amount__c" />
+            <vault:field reference="tov_entry_price_meal__c" readOnly="true" />
+            <vault:field reference="tov_entry_price_lunch__c" readOnly="true" />
+            <vault:field reference="tov_entry_price_dinner__c" readOnly="true" />
+            <vault:field reference="tov_entry_price_snack__c" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Lodging Details" name="lodging_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="tov_lodging_check_in__c" readOnly="true" />
+            <vault:field reference="tov_entry_nb_lodging_breakfast_transport__c" readOnly="true" />
+            <vault:field reference="tov_entry_nb_lodging_with_breakfast__c" readOnly="true" />
+            <vault:field reference="tov_total_lodging_amount__c" />
+            <vault:field reference="tov_lodging_check_out__c" readOnly="true" />
+            <vault:field reference="tov_entry_price_lodging_breakfast_transp__c" readOnly="true" />
+            <vault:field reference="tov_entry_price_lodging_with_breakfast__c" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Contract Partners" name="contract_partners__c">
+        <vault:relatedObject relationship="contract_partners__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="contract__v" width="200px" />
+            <vault:field reference="em_speaker__v" width="200px" />
+            <vault:field reference="contract_partner_status__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

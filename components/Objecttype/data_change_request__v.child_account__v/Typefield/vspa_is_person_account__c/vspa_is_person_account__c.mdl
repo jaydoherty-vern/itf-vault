@@ -1,0 +1,4 @@
+Typefield vspa_is_person_account__c (
+   source('custom'),
+   required(false)
+);

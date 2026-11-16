@@ -1,0 +1,5 @@
+Picklistentry bi_kr__c (
+   value('BI-KR'),
+   order(458),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pdi__c (
+   value('Pediatric Infectious Disease'),
+   order(368),
+   active(true)
+);

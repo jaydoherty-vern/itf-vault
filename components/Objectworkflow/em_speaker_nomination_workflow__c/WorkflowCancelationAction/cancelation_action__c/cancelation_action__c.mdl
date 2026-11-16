@@ -1,0 +1,4 @@
+WorkflowCancelationAction cancelation_action__c (
+   rule(@rule.xml),
+   order(1000)
+);

@@ -1,0 +1,5 @@
+Picklistentry genetics_biology__c (
+   value('GENETICS, BIOLOGY'),
+   order(128),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry project_partnership__c (
+   value('Project/ Partnership'),
+   order(22),
+   active(true)
+);

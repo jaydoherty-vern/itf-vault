@@ -1,0 +1,5 @@
+Picklistentry professional_and_preferred_mail__c (
+   value('Professional and Preferred Mail'),
+   order(0),
+   active(true)
+);

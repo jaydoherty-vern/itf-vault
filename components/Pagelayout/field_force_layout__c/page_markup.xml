@@ -1,0 +1,98 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_field_force__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="parent_field_force__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="field_force_group__v" />
+            <vault:field reference="assignment_priority__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="id" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Territories Assigned to Field Force" name="territories__c">
+        <vault:relatedObject relationship="aln_territories__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="description__v" width="200px" />
+            <vault:field reference="hierarchy_level__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="country__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+            <vault:field reference="functional_profile__v" width="200px" />
+            <vault:field reference="functional_profile_inherited__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Rules Assigned to Field Force" name="rules__c">
+        <vault:relatedObject relationship="aln_account_rules__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="rule_type__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+            <vault:field reference="state__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Products Assigned to Field Force" name="products__c">
+        <vault:relatedObject relationship="aln_field_force_products__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="grouping_product__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+            <vault:field reference="favorite__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="MC Cycles Assigned to Field Force" name="mc_cycles_assigned_to_field_force__c">
+        <vault:relatedObject relationship="aln_mc_cycles__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Functional Profiles Assigned to Field Force" name="functional_profiles__c">
+        <vault:relatedObject relationship="aln_functional_profile_field_force__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="functional_profile__v" width="200px" />
+            <vault:field reference="hierarchy_level__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Accounts/Targets Excluded from Field Force" name="exclusions__c">
+        <vault:relatedObject relationship="aln_field_force_account_exclusions__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="exclusion_type__v" width="200px" />
+            <vault:field reference="exclusion_reason__v" width="200px" />
+            <vault:field reference="assignment_type__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Feedback Approval Rules Assigned to Field Force" name="feedback_approval_rules_assigned__c">
+        <vault:relatedObject relationship="aln_approval_rule_prod__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="approval_rule_type__v" width="200px" />
+            <vault:field reference="challenge_type__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Account Search Rules Assigned to Field Force" name="account_search_rules_assigned_to_ff__c">
+        <vault:relatedObject relationship="aln_account_search_rules__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="status__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

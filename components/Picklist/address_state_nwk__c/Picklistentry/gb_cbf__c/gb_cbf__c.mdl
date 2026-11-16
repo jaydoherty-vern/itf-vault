@@ -1,0 +1,5 @@
+Picklistentry gb_cbf__c (
+   value('GB-CBF'),
+   order(449),
+   active(false)
+);

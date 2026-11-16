@@ -1,0 +1,18 @@
+Field business_benefit__c (
+   label('Business Benefit'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Low: Does Not Drive Revenue or Reduce Costs; Medium: Drives Revenue or Reduces Costs; High: Drives Revenue and Reduces Costs'),
+   list_column(false),
+   order(29),
+   multi_value(false),
+   picklist('Picklist.business_benefit__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

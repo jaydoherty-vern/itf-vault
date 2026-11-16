@@ -1,0 +1,18 @@
+Field request_sent__c (
+   label('Request Sent'),
+   type('Boolean'),
+   active(true),
+   description('Use to show if a Data change request was already sent to Cegedi or not.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(45),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield ok_stage_workplace__c (
+   source('standard'),
+   required(false)
+);

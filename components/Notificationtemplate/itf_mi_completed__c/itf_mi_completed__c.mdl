@@ -1,0 +1,28 @@
+RECREATE Notificationtemplate itf_mi_completed__c (
+   label('ITF MI Completed'),
+   active(true),
+   description('Notifies the Field User upon Completion of the MI'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.medical_inquiry__v'),
+   subject('Medical Inquiry ${Object.name__v} has been completed by the Medical Information Team'),
+   notification('Medical Inquiry: ${Object.name__v} has been completed by the Medical Information Team.
+<br>
+Inquiry Details:
+<ul>
+   <li>Requester: ${Object.account__v}</li>
+   <li>Product: ${Object.product__v}</li>
+   <li>Inquiry Text: ${Object.inquiry_text__v}</li>
+   <li>Created Date:  ${Object.created_date__v}</li>
+</ul>'),
+   email_body('Medical Inquiry ${Object.name__v} has been completed by the Medical Information Team.
+<br>
+Inquiry Details:
+<ul>
+   <li>Requester: ${Object.account__v}</li>
+   <li>Product: ${Object.product__v}</li>
+   <li>Inquiry Text: ${Object.inquiry_text__v}</li>
+   <li>Created Date:  ${Object.created_date__v}</li>
+</ul>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

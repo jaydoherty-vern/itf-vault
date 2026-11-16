@@ -1,0 +1,5 @@
+Picklistentry lv_053__c (
+   value('LV_Lielvārdes novads (Lielvārde)'),
+   order(1104),
+   active(true)
+);

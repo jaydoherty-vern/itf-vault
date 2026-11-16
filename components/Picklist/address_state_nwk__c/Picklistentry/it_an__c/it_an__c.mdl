@@ -1,0 +1,5 @@
+Picklistentry it_an__c (
+   value('IT_Ancona'),
+   order(833),
+   active(true)
+);

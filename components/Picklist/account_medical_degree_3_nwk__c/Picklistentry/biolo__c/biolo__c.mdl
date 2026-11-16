@@ -1,0 +1,5 @@
+Picklistentry biolo__c (
+   value('Diploma in Medical Biology'),
+   order(57),
+   active(true)
+);

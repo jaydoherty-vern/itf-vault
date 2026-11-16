@@ -1,0 +1,5 @@
+Picklistentry hu_no__c (
+   value('HU_Nógrád'),
+   order(700),
+   active(true)
+);

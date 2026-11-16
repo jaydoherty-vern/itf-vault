@@ -1,0 +1,5 @@
+Picklistentry it_co__c (
+   value('IT_Como'),
+   order(857),
+   active(true)
+);

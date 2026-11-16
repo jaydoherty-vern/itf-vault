@@ -1,0 +1,4 @@
+Typefield specialty_3_nwk__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,4 @@
+Typefield external_id_qs__c (
+   source('standard'),
+   required(false)
+);

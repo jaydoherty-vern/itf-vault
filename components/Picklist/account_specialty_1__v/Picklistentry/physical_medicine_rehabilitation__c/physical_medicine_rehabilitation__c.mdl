@@ -1,0 +1,5 @@
+Picklistentry physical_medicine_rehabilitation__c (
+   value('Physical Medicine & Rehabilitation'),
+   order(274),
+   active(true)
+);

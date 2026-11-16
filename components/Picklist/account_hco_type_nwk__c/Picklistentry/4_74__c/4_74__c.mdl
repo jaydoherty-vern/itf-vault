@@ -1,0 +1,5 @@
+Picklistentry 4_74__c (
+   value('Organization, Clinic at Hospital'),
+   order(155),
+   active(true)
+);

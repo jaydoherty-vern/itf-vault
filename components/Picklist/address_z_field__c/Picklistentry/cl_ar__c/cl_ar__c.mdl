@@ -1,0 +1,5 @@
+Picklistentry cl_ar__c (
+   value('CL-AR'),
+   order(712),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectworkflowstep auto_approve__c (
+   label('Auto Approve?'),
+   type('decision'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description('Auto approves the nomination if the submitting workflow owner has a Vault Owner or System Administrator security profile.')
+);

@@ -1,0 +1,5 @@
+Picklistentry pl_po__c (
+   value('PL_Poznań'),
+   order(1367),
+   active(true)
+);

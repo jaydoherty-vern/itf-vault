@@ -1,0 +1,5 @@
+Picklistentry case_manager__c (
+   value('CASE MANAGER'),
+   order(319),
+   active(true)
+);

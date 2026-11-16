@@ -1,0 +1,5 @@
+Picklistentry hu_be__c (
+   value('HU_Békés'),
+   order(679),
+   active(true)
+);

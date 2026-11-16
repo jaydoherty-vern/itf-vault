@@ -1,0 +1,8 @@
+Objectlayout em_event_history_stage_history__c (
+   label('em_event_history_stage_history'),
+   active(true),
+   pagelayouts('Pagelayout.event_history_layout__c'),
+   object('Object.em_event_history__v'),
+   objecttype('Objecttype.em_event_history__v.stage_history__v'),
+   record_creation_layout('Pagelayout.event_history_layout__c')
+);

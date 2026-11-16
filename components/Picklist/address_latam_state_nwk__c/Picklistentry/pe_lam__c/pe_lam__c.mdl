@@ -1,0 +1,5 @@
+Picklistentry pe_lam__c (
+   value('Lambayeque'),
+   order(334),
+   active(true)
+);

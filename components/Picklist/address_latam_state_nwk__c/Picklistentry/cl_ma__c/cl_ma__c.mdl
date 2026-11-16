@@ -1,0 +1,5 @@
+Picklistentry cl_ma__c (
+   value('Magallanes'),
+   order(141),
+   active(true)
+);

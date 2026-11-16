@@ -1,0 +1,5 @@
+Picklistentry sports_medicine_family_medicine__c (
+   value('Sports Medicine (Family Medicine)'),
+   order(295),
+   active(true)
+);

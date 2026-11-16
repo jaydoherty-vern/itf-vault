@@ -1,0 +1,5 @@
+Picklistentry bf_ban__c (
+   value('BF-BAN'),
+   order(374),
+   active(true)
+);

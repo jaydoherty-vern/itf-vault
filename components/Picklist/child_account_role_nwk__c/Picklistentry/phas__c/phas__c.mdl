@@ -1,0 +1,5 @@
+Picklistentry phas__c (
+   value('PHAS'),
+   order(184),
+   active(true)
+);

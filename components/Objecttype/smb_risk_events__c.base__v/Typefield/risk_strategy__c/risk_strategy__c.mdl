@@ -1,0 +1,4 @@
+Typefield risk_strategy__c (
+   source('standard'),
+   required(false)
+);

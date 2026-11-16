@@ -1,0 +1,8 @@
+Objectlayout remote_meeting_call__c (
+   label('remote_meeting_call'),
+   active(true),
+   pagelayouts('Pagelayout.remote_meeting_layout__c'),
+   object('Object.remote_meeting__v'),
+   objecttype('Objecttype.remote_meeting__v.call__v'),
+   record_creation_layout('Pagelayout.remote_meeting_layout__c')
+);

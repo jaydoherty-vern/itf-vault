@@ -1,0 +1,5 @@
+Picklistentry it_im__c (
+   value('IT_Imperia'),
+   order(872),
+   active(true)
+);

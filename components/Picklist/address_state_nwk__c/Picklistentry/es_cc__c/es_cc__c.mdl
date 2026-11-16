@@ -1,0 +1,5 @@
+Picklistentry es_cc__c (
+   value('ES_Cáceres'),
+   order(194),
+   active(true)
+);

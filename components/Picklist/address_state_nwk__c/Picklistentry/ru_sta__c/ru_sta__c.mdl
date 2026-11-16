@@ -1,0 +1,5 @@
+Picklistentry ru_sta__c (
+   value('RU_Stavropol''skiy kray'),
+   order(1547),
+   active(true)
+);

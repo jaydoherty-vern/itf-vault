@@ -1,0 +1,5 @@
+Picklistentry pediatric_health_psychologist_assistant__c (
+   value('PEDIATRIC HEALTH PSYCHOLOGIST, ASSISTANT PROFESSOR OF CLINICAL PEDS AT YALE, YALE SITE DIRECTOR, COMFORT ABILITY PROGRAM, CHILD STUDY CENTER'),
+   order(140),
+   active(true)
+);

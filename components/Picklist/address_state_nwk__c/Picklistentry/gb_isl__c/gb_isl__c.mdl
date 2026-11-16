@@ -1,0 +1,5 @@
+Picklistentry gb_isl__c (
+   value('GB-ISL'),
+   order(518),
+   active(false)
+);

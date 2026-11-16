@@ -1,0 +1,5 @@
+Picklistentry zimbabwe_dollar__c (
+   value('Zimbabwe Dollar'),
+   order(168),
+   active(true)
+);

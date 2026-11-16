@@ -1,0 +1,5 @@
+Picklistentry hu_ba__c (
+   value('HU_Baranya'),
+   order(678),
+   active(true)
+);

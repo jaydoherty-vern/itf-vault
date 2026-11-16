@@ -1,0 +1,5 @@
+Picklistentry cz_vy__c (
+   value('CZ_Vysočina'),
+   order(129),
+   active(true)
+);

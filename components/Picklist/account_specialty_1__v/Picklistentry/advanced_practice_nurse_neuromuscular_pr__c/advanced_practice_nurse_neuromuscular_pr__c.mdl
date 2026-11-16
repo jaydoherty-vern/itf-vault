@@ -1,0 +1,5 @@
+Picklistentry advanced_practice_nurse_neuromuscular_pr__c (
+   value('ADVANCED PRACTICE NURSE, NEUROMUSCULAR PROGRAM'),
+   order(51),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry call_medical_discussions__c (
+   value('Call Medical Discussions'),
+   order(42),
+   active(true)
+);

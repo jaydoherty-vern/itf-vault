@@ -1,0 +1,18 @@
+Field unavailable_for_engage_scheduling__v (
+   label('Unavailable for Scheduling'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if a Time Off Territory record should create an Unavailable Time on the Engage Scheduling Site. When marked as True, an Unavailable_Time_vod record is created.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(20),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

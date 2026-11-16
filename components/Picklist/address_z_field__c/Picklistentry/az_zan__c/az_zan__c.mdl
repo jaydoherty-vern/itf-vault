@@ -1,0 +1,5 @@
+Picklistentry az_zan__c (
+   value('AZ-ZAN'),
+   order(248),
+   active(true)
+);

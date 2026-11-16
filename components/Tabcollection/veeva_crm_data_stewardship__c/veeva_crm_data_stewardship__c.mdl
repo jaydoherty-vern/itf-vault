@@ -1,0 +1,5 @@
+RECREATE Tabcollection veeva_crm_data_stewardship__c (
+   label('Veeva CRM Data Stewardship'),
+   active(true),
+   help_content()
+);

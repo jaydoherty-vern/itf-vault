@@ -1,0 +1,8 @@
+Tabcollectionitem targeting__c (
+   label(),
+   active(true),
+   tabs(),
+   order(4),
+   tab('Tab.aln_targeting__v'),
+   type('Tab')
+);

@@ -1,0 +1,5 @@
+Picklistentry palliative_medicine__c (
+   value('Palliative Medicine'),
+   order(74),
+   active(true)
+);

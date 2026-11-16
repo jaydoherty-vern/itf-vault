@@ -1,0 +1,5 @@
+Picklistentry es_le__c (
+   value('ES_León (ES)'),
+   order(211),
+   active(true)
+);

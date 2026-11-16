@@ -1,0 +1,5 @@
+Picklistentry sv_ch__c (
+   value('Chalatenango'),
+   order(370),
+   active(true)
+);

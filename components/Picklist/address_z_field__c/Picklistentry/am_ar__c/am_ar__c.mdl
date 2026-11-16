@@ -1,0 +1,5 @@
+Picklistentry am_ar__c (
+   value('AM-AR'),
+   order(104),
+   active(true)
+);

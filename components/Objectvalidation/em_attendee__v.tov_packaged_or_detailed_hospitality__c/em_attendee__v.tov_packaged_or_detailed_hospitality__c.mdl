@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_attendee__v.tov_packaged_or_detailed_hospitality__c (
+   label('TOV_Packaged_or_Detailed_Hospitality'),
+   active(true),
+   expression('Not(And(Or((tov_entry_nb_package_meal__c+tov_entry_nb_package_night__c)!=0,tov_entry_total_package_amount__c!=0),(tov_entry_nb_lodging_breakfast_transport__c+tov_entry_nb_lodging_with_breakfast__c+tov_entry_nb_dinner__c+tov_entry_nb_lunch__c+tov_entry_nb_snack__c+tov_entry_nb_meal__c)!=0))'),
+   description('If any field of the Packaged hospitality section is populated, then the fields of sections Meal Details and Lodging Details should be empty'),
+   error_message('You have to choose between Packaged or Detailed Hospitality'),
+   error_location('id')
+);

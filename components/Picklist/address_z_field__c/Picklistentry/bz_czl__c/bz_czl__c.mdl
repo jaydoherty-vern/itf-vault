@@ -1,0 +1,5 @@
+Picklistentry bz_czl__c (
+   value('BZ-CZL'),
+   order(592),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_esx__c (
+   value('GB-ESX'),
+   order(492),
+   active(false)
+);

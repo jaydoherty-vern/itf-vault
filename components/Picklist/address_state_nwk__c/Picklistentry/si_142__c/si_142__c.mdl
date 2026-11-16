@@ -1,0 +1,5 @@
+Picklistentry si_142__c (
+   value('SI_Zagorje ob Savi'),
+   order(1648),
+   active(true)
+);

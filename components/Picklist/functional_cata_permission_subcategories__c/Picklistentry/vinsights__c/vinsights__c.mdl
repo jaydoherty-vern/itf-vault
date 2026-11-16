@@ -1,0 +1,5 @@
+Picklistentry vinsights__c (
+   value('Vinsights'),
+   order(50),
+   active(true)
+);

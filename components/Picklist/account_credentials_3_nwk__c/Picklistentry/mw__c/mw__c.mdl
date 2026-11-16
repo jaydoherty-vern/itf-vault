@@ -1,0 +1,5 @@
+Picklistentry mw__c (
+   value('MW'),
+   order(19),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ct2__c (
+   value('Cancer Treatment (Prefectural)'),
+   order(3),
+   active(true)
+);

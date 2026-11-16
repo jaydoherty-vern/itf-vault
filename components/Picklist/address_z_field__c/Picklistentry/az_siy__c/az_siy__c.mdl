@@ -1,0 +1,5 @@
+Picklistentry az_siy__c (
+   value('AZ-SIY'),
+   order(230),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pa_2__c (
+   value('Coclé'),
+   order(321),
+   active(true)
+);

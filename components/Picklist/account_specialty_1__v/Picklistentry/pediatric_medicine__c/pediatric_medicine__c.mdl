@@ -1,0 +1,5 @@
+Picklistentry pediatric_medicine__c (
+   value('PEDIATRIC MEDICINE'),
+   order(368),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield itf_nurse_patient_liason__c (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry fr_65__c (
+   value('FR_Hautes-Pyrénées'),
+   order(323),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry al_mk__c (
+   value('AL_Mallakastër'),
+   order(38),
+   active(true)
+);

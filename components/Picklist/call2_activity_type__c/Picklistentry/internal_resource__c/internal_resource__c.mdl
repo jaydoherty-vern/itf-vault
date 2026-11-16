@@ -1,0 +1,5 @@
+Picklistentry internal_resource__c (
+   value('Internal Resource'),
+   order(5),
+   active(true)
+);

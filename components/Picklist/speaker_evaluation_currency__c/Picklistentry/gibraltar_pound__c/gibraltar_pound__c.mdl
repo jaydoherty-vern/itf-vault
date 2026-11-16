@@ -1,0 +1,5 @@
+Picklistentry gibraltar_pound__c (
+   value('Gibraltar Pound'),
+   order(64),
+   active(true)
+);

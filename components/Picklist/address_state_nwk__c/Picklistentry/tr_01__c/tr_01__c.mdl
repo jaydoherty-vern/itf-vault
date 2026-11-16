@@ -1,0 +1,5 @@
+Picklistentry tr_01__c (
+   value('TR_Adana'),
+   order(1667),
+   active(true)
+);

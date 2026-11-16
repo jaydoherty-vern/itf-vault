@@ -1,0 +1,5 @@
+Picklistentry se_d__c (
+   value('SE_Södermanlands County'),
+   order(1579),
+   active(true)
+);

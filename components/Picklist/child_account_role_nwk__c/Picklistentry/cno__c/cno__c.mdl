@@ -1,0 +1,5 @@
+Picklistentry cno__c (
+   value('Chief Nurse'),
+   order(31),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry nic__c (
+   value('Nurse-in-charge'),
+   order(66),
+   active(true)
+);

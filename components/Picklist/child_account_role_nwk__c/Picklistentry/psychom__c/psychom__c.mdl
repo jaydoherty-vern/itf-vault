@@ -1,0 +1,5 @@
+Picklistentry psychom__c (
+   value('PSYCHOM'),
+   order(199),
+   active(true)
+);

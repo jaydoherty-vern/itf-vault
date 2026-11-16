@@ -1,0 +1,5 @@
+Picklistentry pl_se__c (
+   value('PL_Siedlce'),
+   order(1371),
+   active(true)
+);

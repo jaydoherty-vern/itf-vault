@@ -1,0 +1,5 @@
+Picklistentry gb_wls__c (
+   value('GB_Wales [Cymru]'),
+   order(413),
+   active(true)
+);

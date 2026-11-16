@@ -1,0 +1,5 @@
+Picklistentry neurosc__c (
+   value('Neuroscience / Neurobiology'),
+   order(279),
+   active(true)
+);

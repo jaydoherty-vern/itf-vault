@@ -1,0 +1,23 @@
+Field sync_warn_interval__v (
+   label('SYNC_WARN_INTERVAL'),
+   type('Number'),
+   active(true),
+   description('Number of days without syncing until a warning is displayed to the user on start and exit of the tablet app.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(275),
+   default_value('14'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

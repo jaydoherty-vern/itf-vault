@@ -1,0 +1,5 @@
+Picklistentry nau__v (
+   value('Nauru'),
+   order(259),
+   active(false)
+);

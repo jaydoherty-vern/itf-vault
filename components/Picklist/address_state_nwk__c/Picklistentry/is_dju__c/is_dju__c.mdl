@@ -1,0 +1,5 @@
+Picklistentry is_dju__c (
+   value('IS_Djúpavogshreppur'),
+   order(763),
+   active(true)
+);

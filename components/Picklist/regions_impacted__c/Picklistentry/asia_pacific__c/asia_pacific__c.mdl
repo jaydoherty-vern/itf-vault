@@ -1,0 +1,5 @@
+Picklistentry asia_pacific__c (
+   value('Asia Pacific'),
+   order(4),
+   active(true)
+);

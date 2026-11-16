@@ -1,0 +1,5 @@
+Picklistentry 14_14__c (
+   value('Medical School, Psychology'),
+   order(131),
+   active(true)
+);

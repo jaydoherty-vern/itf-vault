@@ -1,0 +1,5 @@
+Picklistentry hiv__c (
+   value('HIV & AIDS Treatment'),
+   order(186),
+   active(true)
+);

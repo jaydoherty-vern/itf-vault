@@ -1,0 +1,4 @@
+Typefield summary_view_delimiter_string__c (
+   source('standard'),
+   required(false)
+);

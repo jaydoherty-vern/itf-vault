@@ -1,0 +1,5 @@
+Picklistentry lockdown__c (
+   value('Finalized Requirement (lockdown)'),
+   order(9),
+   active(true)
+);

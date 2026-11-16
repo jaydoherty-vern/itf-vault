@@ -1,0 +1,5 @@
+Picklistentry pl_ch__c (
+   value('PL_Chelm'),
+   order(1333),
+   active(true)
+);

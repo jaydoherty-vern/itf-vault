@@ -1,0 +1,12 @@
+RECREATE Permissionset itf_kam_specific_fields__c (
+   label('ITF_KAM_SPECIFIC_FIELDS'),
+   active(true),
+   description(),
+   object.account__v.base__v.object_actions('read'),
+   object.account__v.hcp_sln__c.field_actions('read'),
+   object.call2__v.base__v.object_actions('edit'),
+   object.call2__v.itf_call_outcome__c.field_actions('edit'),
+   object.call2__v.itf_conference__c.field_actions('edit'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

@@ -1,0 +1,5 @@
+Picklistentry frm__c (
+   value('FRM'),
+   order(12),
+   active(true)
+);

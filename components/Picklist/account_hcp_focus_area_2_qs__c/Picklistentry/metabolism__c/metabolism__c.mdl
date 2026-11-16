@@ -1,0 +1,5 @@
+Picklistentry metabolism__c (
+   value('Metabolism'),
+   order(16),
+   active(true)
+);

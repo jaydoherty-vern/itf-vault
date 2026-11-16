@@ -1,0 +1,5 @@
+Picklistentry pl_sz__c (
+   value('PL_Szczecin'),
+   order(1376),
+   active(true)
+);

@@ -1,0 +1,22 @@
+Field vol_hyperlink__c (
+   label('VOL Hyperlink'),
+   type('String'),
+   subtype('Link'),
+   active(true),
+   description('OpenData ID for dynamic URL generation'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(437),
+   formula('Hyperlink("https://login.veevalink.com/#/00Dal000005xp21/profiles/"&external_id__v&"/","Veeva Oncology Link Profile","new_window")'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

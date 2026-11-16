@@ -1,0 +1,5 @@
+Picklistentry ppm__c (
+   value('Preventive And Public Medicine Diploma'),
+   order(271),
+   active(true)
+);

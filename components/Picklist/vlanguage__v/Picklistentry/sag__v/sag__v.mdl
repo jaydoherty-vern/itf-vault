@@ -1,0 +1,5 @@
+Picklistentry sag__v (
+   value('Sango'),
+   order(291),
+   active(false)
+);

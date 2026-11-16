@@ -1,0 +1,5 @@
+Picklistentry australian_dollar__c (
+   value('Australian Dollar'),
+   order(11),
+   active(true)
+);

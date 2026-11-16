@@ -1,0 +1,5 @@
+Picklistentry fr_12__c (
+   value('FR_Aveyron'),
+   order(287),
+   active(true)
+);

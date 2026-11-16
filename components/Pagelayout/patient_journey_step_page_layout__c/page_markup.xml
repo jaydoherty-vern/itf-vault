@@ -1,0 +1,41 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.patient_journey_step__v.patient_journey_step__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="patient_journey_step_phase__v" />
+            <vault:field reference="patient_journey__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="patient_journey_step_status__v" />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Patient Journey Step Details" name="patient_journey_step_detail__c">
+        <vault:relatedObject relationship="patient_journey_step_detail__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="description__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Patient Journey Step Relationships (From" name="patient_journey_step_relationship2__c">
+        <vault:relatedObject relationship="patient_journey_step_relationship2__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="from_step__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Patient Journey Step Relationships (To S" name="patient_journey_step_relationship1__c">
+        <vault:relatedObject relationship="patient_journey_step_relationship1__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="to_step__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

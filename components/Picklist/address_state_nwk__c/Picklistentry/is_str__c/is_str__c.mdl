@@ -1,0 +1,5 @@
+Picklistentry is_str__c (
+   value('IS_Strandabyggð'),
+   order(809),
+   active(true)
+);

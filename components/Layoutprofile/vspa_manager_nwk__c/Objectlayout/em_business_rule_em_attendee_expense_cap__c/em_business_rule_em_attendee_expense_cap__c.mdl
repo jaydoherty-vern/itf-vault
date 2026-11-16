@@ -1,0 +1,8 @@
+Objectlayout em_business_rule_em_attendee_expense_cap__c (
+   label('em_business_rule_em_attendee_expense_cap_rule'),
+   active(true),
+   pagelayouts('Pagelayout.attendee_expense_cap_rule__c'),
+   object('Object.em_business_rule__v'),
+   objecttype('Objecttype.em_business_rule__v.em_attendee_expense_cap_rule__v'),
+   record_creation_layout('Pagelayout.attendee_expense_cap_rule__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry es_o__c (
+   value('ES_Asturias'),
+   order(188),
+   active(true)
+);

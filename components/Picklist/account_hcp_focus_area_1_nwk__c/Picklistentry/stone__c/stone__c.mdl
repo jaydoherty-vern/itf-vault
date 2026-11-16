@@ -1,0 +1,5 @@
+Picklistentry stone__c (
+   value('Stone Disease & Surgery'),
+   order(426),
+   active(true)
+);

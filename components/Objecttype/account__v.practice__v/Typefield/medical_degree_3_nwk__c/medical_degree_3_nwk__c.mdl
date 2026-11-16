@@ -1,0 +1,5 @@
+Typefield medical_degree_3_nwk__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_medical_degree_3_nwk__c.test__c')
+);

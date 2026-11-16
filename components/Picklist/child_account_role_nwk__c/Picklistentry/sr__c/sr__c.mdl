@@ -1,0 +1,5 @@
+Picklistentry sr__c (
+   value('Supervisor'),
+   order(231),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry page_layouts__c (
+   value('Pages Layout'),
+   order(3),
+   active(true)
+);

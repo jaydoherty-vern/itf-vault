@@ -1,0 +1,5 @@
+Picklistentry blood_banking_transfusion_medicine__c (
+   value('Blood Banking/Transfusion Medicine'),
+   order(159),
+   active(true)
+);

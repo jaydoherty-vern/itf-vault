@@ -1,0 +1,8 @@
+Typefield criticality__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.ms_request_criticality__c.business_critical_priority_1__c',
+         'Picklist.ms_request_criticality__c.business_critical_priority_2__c',
+         'Picklist.ms_request_criticality__c.business_critical_priority_3__c',
+         'Picklist.ms_request_criticality__c.useful__c')
+);

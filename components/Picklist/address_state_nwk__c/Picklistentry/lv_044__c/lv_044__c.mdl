@@ -1,0 +1,5 @@
+Picklistentry lv_044__c (
+   value('LV_Kārsavas novads (Kārsava)'),
+   order(1095),
+   active(true)
+);

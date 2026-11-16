@@ -1,0 +1,5 @@
+Picklistentry business_critical_priority_2__c (
+   value('Business Critical - Priority 2'),
+   order(2),
+   active(true)
+);

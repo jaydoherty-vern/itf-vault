@@ -1,0 +1,5 @@
+Picklistentry suggestions__c (
+   value('Suggestions'),
+   order(7),
+   active(true)
+);

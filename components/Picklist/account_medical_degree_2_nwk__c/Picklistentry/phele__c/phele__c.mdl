@@ -1,0 +1,5 @@
+Picklistentry phele__c (
+   value('Public Health, Epidemic Laboratory Examinations Diploma'),
+   order(317),
+   active(true)
+);

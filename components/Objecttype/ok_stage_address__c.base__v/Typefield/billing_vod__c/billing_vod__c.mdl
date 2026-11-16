@@ -1,0 +1,4 @@
+Typefield billing_vod__c (
+   source('standard'),
+   required(false)
+);

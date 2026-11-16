@@ -1,0 +1,8 @@
+Tabcollectionitem v2ok_data_change_request__c (
+   label(),
+   active(true),
+   tabs(),
+   order(2),
+   tab('Tab.v2ok_data_change_request__c'),
+   type('Tab')
+);

@@ -1,0 +1,9 @@
+Objectlifecyclestage fulfillment_request__c (
+   label('Fulfillment Request'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.fulfillment_request_sent_state__v',
+         'Objectlifecyclestate.new_state__v',
+         'Objectlifecyclestate.pending_triage_state__c'),
+   order(1)
+);

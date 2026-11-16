@@ -1,0 +1,8 @@
+Objectlayout call2_itf_tll_interaction__c (
+   label('call2_itf_tll_interaction'),
+   active(true),
+   pagelayouts('Pagelayout.itf_tll_meeting_brief__c'),
+   object('Object.call2__v'),
+   objecttype('Objecttype.call2__v.itf_tll_interaction__c'),
+   record_creation_layout('Pagelayout.itf_tll_meeting_brief__c')
+);

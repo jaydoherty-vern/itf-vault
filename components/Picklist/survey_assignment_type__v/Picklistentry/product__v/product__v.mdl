@@ -1,0 +1,5 @@
+Picklistentry product__v (
+   value('Product and Territory'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry hospice_palliative_med_family_med__c (
+   value('HOSPICE & PALLIATIVE MED (FAMILY MED)'),
+   order(28),
+   active(true)
+);

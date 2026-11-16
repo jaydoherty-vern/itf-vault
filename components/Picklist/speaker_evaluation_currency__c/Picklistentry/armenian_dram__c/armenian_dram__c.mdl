@@ -1,0 +1,5 @@
+Picklistentry armenian_dram__c (
+   value('Armenian Dram'),
+   order(9),
+   active(true)
+);

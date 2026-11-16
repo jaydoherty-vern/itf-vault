@@ -1,0 +1,60 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_budget__v.budget__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="product__v" required="true" />
+            <vault:field reference="territory__v" />
+            <vault:field reference="parent_budget__v" />
+            <vault:spacer />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="em_budget_status__v" required="true" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="budget_identifier__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Totals" name="totals__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="total_budget__v" required="true" />
+            <vault:field reference="child_budget_allocation__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Utilization" name="utilization__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="estimated_expenses__v" readOnly="true" />
+            <vault:field reference="committed_expenses__v" readOnly="true" />
+            <vault:field reference="actual_expenses__v" readOnly="true" />
+            <vault:field reference="estimated_remaining__v" />
+            <vault:field reference="committed_remaining__v" />
+            <vault:field reference="actual_remaining__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Budgets" name="parent_budget__c">
+        <vault:relatedObject relationship="parent_budget__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="em_budget_status__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="total_budget__v" width="200px" />
+            <vault:field reference="estimated_expenses__v" width="200px" />
+            <vault:field reference="actual_expenses__v" width="200px" />
+            <vault:field reference="actual_remaining__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Event Budgets" name="em_event_budget__c">
+        <vault:relatedObject relationship="em_event_budget__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="event__v" width="200px" />
+            <vault:field reference="estimate__v" width="200px" />
+            <vault:field reference="actual__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

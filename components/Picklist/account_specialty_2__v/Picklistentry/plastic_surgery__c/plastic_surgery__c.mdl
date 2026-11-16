@@ -1,0 +1,5 @@
+Picklistentry plastic_surgery__c (
+   value('Plastic Surgery'),
+   order(26),
+   active(true)
+);

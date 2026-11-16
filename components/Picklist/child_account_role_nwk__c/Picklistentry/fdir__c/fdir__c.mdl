@@ -1,0 +1,5 @@
+Picklistentry fdir__c (
+   value('FDIR'),
+   order(81),
+   active(true)
+);

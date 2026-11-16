@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.professional_mandatory_not_insert__c (
+   label('Professional_Mandatory_Not_Insert'),
+   active(false),
+   expression('Not(And(Text(change_type__c)!="Create",IsBlank(Id(professional__c)),object_type__vr.name__v="Professional"))'),
+   description('The Professional is mandatory for Update and Delete.'),
+   error_message('Mandatory for "Update/Delete" data change request type.'),
+   error_location('professional__c')
+);

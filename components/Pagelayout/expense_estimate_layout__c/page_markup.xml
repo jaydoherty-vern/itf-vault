@@ -1,0 +1,28 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_expense_estimate__v.expense_estimate__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="expense_type__v" required="true" />
+            <vault:field reference="estimate__v" required="true" />
+            <vault:field reference="event_budget__v" required="true" />
+            <vault:field reference="event__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Utilization" name="utilization__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="actual__v" readOnly="true" />
+            <vault:field reference="committed__v" readOnly="true" />
+            <vault:field reference="event_business_rule__v" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

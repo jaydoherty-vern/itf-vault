@@ -1,0 +1,5 @@
+Picklistentry peds_psych__c (
+   value('PEDS PSYCH'),
+   order(107),
+   active(true)
+);

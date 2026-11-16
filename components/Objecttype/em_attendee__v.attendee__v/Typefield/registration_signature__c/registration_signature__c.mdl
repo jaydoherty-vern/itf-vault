@@ -1,0 +1,4 @@
+Typefield registration_signature__c (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,18 @@
+Field add_detail__v (
+   label('Add Detail'),
+   type('LongText'),
+   active(true),
+   description('Field used to assist in the creation of Call2 Detail records to a Call2 record. The 18-digit Product Ids are ordered from left to right and are comma-delimited. The field will be blanked out after each save.  A trigger on Call2 Header will parse the delimited list and create Call2 Detail records for the Call2 record with priorities set from left to right.  This field is intended to assist in the creation of the child Call2 Detail records, but is not required for loading data.
+E.g., A00T0000000HFNHYET,A00T0000000HFNOYER'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

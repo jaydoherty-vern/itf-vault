@@ -1,0 +1,19 @@
+Field requirement_title__c (
+   label('Requirement Title'),
+   type('String'),
+   active(true),
+   description('Captures the requirement title'),
+   required(true),
+   unique(false),
+   max_length(255),
+   help_content('Captures the requirement title'),
+   list_column(true),
+   order(3),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

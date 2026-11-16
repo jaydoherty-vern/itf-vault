@@ -1,0 +1,6 @@
+Typefield address_status_vod__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.address_address_status_vod__c.active__c',
+         'Picklist.address_address_status_vod__c.inactive__c')
+);

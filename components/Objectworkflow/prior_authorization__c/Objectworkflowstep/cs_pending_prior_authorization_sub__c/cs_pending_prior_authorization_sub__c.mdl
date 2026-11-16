@@ -1,0 +1,8 @@
+Objectworkflowstep cs_pending_prior_authorization_sub__c (
+   label('CS: Pending Prior Authorization Sub'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.ut_verify_pa_submission__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

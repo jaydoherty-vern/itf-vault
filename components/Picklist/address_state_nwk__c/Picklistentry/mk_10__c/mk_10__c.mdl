@@ -1,0 +1,5 @@
+Picklistentry mk_10__c (
+   value('MK_Valandovo'),
+   order(1279),
+   active(true)
+);

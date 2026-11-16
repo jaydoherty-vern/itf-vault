@@ -1,0 +1,5 @@
+Picklistentry vnt__c (
+   value('VN Training Practice'),
+   order(38),
+   active(true)
+);

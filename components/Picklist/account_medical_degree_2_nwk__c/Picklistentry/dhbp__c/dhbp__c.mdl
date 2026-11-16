@@ -1,0 +1,5 @@
+Picklistentry dhbp__c (
+   value('Dr. rer. physiol.'),
+   order(143),
+   active(true)
+);

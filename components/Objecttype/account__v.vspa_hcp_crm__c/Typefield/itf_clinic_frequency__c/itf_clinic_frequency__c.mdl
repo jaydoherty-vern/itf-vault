@@ -1,0 +1,7 @@
+Typefield itf_clinic_frequency__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_itf_clinic_frequency__c.bi_weekly__c',
+         'Picklist.account_itf_clinic_frequency__c.monthly__c',
+         'Picklist.account_itf_clinic_frequency__c.weekly__c')
+);

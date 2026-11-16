@@ -1,0 +1,5 @@
+Picklistentry ec_sd__c (
+   value('Santo Domingo de los Tsáchilas'),
+   order(244),
+   active(true)
+);

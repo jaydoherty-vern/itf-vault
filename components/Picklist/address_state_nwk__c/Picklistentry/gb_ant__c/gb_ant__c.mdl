@@ -1,0 +1,5 @@
+Picklistentry gb_ant__c (
+   value('GB-ANT'),
+   order(419),
+   active(false)
+);

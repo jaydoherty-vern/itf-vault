@@ -1,0 +1,5 @@
+Picklistentry om_ba__c (
+   value('OM_Al Bāţinah'),
+   order(68),
+   active(true)
+);

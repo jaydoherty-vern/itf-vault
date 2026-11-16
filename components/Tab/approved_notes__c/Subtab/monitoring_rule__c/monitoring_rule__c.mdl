@@ -1,0 +1,15 @@
+Subtab monitoring_rule__c (
+   active(true),
+   all_view_label('All Monitoring Rule'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Monitoring Rule'),
+   modal_create_record(false),
+   my_view_label('My Monitoring Rule'),
+   object('monitoring_rule__v'),
+   order(0),
+   parent('approved_notes__c'),
+   prevent_create(false),
+   recent_view_label('Recent Monitoring Rule')
+);

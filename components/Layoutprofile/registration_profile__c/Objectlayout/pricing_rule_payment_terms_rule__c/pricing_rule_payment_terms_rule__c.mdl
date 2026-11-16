@@ -1,0 +1,8 @@
+Objectlayout pricing_rule_payment_terms_rule__c (
+   label('pricing_rule_payment_terms_rule'),
+   active(true),
+   pagelayouts('Pagelayout.pricing_rule_layout1__c'),
+   object('Object.pricing_rule__v'),
+   objecttype('Objecttype.pricing_rule__v.payment_terms_rule__v'),
+   record_creation_layout('Pagelayout.pricing_rule_layout1__c')
+);

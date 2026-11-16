@@ -1,0 +1,5 @@
+Picklistentry gb_bdf__c (
+   value('GB-BDF'),
+   order(424),
+   active(false)
+);

@@ -1,0 +1,4 @@
+Typefield city_vod__c (
+   source('custom'),
+   required(false)
+);

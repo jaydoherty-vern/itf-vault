@@ -1,0 +1,5 @@
+Picklistentry amd__c (
+   value('Ambulance Doctor'),
+   order(12),
+   active(true)
+);

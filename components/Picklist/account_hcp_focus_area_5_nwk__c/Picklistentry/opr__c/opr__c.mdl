@@ -1,0 +1,5 @@
+Picklistentry opr__c (
+   value('OPR'),
+   order(290),
+   active(true)
+);

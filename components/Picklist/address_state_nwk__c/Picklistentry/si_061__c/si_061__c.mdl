@@ -1,0 +1,5 @@
+Picklistentry si_061__c (
+   value('SI_Ljubljana'),
+   order(1610),
+   active(true)
+);

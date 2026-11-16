@@ -1,0 +1,5 @@
+Picklistentry address_vod__c (
+   value('Address_vod__c'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout qualtrics_survey_vod__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Qualtrics_Survey_vod'),
+   page_markup(@page_markup.xml)
+);

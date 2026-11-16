@@ -1,0 +1,5 @@
+Picklistentry pulmonary_disease__c (
+   value('Pulmonary Disease'),
+   order(284),
+   active(true)
+);

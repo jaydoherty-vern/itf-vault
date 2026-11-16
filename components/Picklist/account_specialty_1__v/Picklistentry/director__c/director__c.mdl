@@ -1,0 +1,5 @@
+Picklistentry director__c (
+   value('DIRECTOR'),
+   order(124),
+   active(true)
+);

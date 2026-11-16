@@ -1,0 +1,5 @@
+Picklistentry kip__c (
+   value('Kip'),
+   order(88),
+   active(true)
+);

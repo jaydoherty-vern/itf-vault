@@ -1,0 +1,5 @@
+Picklistentry cn_js__c (
+   value('CN-JS'),
+   order(749),
+   active(true)
+);

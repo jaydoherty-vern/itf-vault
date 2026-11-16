@@ -1,0 +1,5 @@
+Picklistentry lt_11__c (
+   value('LT_Joniškis'),
+   order(984),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cliphy__c (
+   value('Clinical Physiologist'),
+   order(38),
+   active(true)
+);

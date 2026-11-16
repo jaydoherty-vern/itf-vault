@@ -1,0 +1,5 @@
+Picklistentry bf_kad__c (
+   value('BF-KAD'),
+   order(385),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ec_s__c (
+   value('Morona-Santiago'),
+   order(230),
+   active(true)
+);

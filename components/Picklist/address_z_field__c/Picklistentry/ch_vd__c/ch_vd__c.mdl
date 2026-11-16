@@ -1,0 +1,5 @@
+Picklistentry ch_vd__c (
+   value('CH-VD'),
+   order(672),
+   active(true)
+);

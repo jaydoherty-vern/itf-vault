@@ -1,0 +1,5 @@
+Picklistentry fatigue_syndrome__c (
+   value('Fatigue Syndrome'),
+   order(101),
+   active(true)
+);

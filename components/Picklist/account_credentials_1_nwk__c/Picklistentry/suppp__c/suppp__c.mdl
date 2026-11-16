@@ -1,0 +1,5 @@
+Picklistentry suppp__c (
+   value('Supplemental Prescriber'),
+   order(35),
+   active(true)
+);

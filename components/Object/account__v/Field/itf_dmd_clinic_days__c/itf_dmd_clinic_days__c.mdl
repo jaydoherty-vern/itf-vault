@@ -1,0 +1,18 @@
+Field itf_dmd_clinic_days__c (
+   label('DMD Clinic days'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(254),
+   multi_value(false),
+   picklist('Picklist.account_itf_dmd_clinic_days__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

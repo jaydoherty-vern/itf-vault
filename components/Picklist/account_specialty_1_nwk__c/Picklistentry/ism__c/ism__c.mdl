@@ -1,0 +1,5 @@
+Picklistentry ism__c (
+   value('Sports Medicine (Internal Medicine)'),
+   order(506),
+   active(true)
+);

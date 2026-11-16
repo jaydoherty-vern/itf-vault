@@ -1,0 +1,9 @@
+RECREATE Reporttype call_key_message_with_call_and_key_me__c (
+   label('Call Key Message with Call and Key Message'),
+   active(true),
+   description('Call Key Message with Call (Parent) and Key Message'),
+   primary_object('call2_key_message__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

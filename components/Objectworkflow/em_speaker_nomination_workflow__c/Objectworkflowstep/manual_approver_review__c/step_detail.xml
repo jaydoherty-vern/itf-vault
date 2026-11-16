@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="task">
+    <vwf:label>Approve or Reject Speaker Nomination</vwf:label>
+    <vwf:hideHomePageLink>false</vwf:hideHomePageLink>
+    <vwf:controls>
+      <vwf:control name="please_review_this_speaker_nomination_s__c" label="Please review this speaker nomination. Select the Complete button to Approve or Reject the nomination." type="instructions">
+        <vwf:instructions>Please review this speaker nomination. Select the Complete button to Approve or Reject the nomination.</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="verdict_public_key__c" type="verdict">
+        <vwf:verdict label="Approve" name="verdict_approve__c">
+          <vwf:comment label="Approval Comments" required="false" />
+        </vwf:verdict>
+        <vwf:verdict label="Reject" name="verdict_reject__c">
+          <vwf:comment label="Rejection Comments" required="true" />
+        </vwf:verdict>
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+  <vwf:assignment participant="part_manual_approver__c" excludeowner="false" />
+  <vwf:assignmentType type="every" />
+  <vwf:notifications>
+    <vwf:notification template="Notificationtemplate.speaker_nomination_pending_approval__c" />
+  </vwf:notifications>
+  <vwf:reminders />
+  <vwf:completeWithoutViewing value="false" />
+  <vwf:taskRequirement requirement="required" />
+</vwf:stepdetails>

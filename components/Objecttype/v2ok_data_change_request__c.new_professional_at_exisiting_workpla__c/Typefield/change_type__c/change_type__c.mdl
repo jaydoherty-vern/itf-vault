@@ -1,0 +1,6 @@
+Typefield change_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.v2ok_data_change_request_change_type__c.create__c'),
+   default_value('Picklist.v2ok_data_change_request_change_type__c.create__c')
+);

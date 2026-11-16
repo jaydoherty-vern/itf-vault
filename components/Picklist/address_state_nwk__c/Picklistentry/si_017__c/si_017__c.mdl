@@ -1,0 +1,5 @@
+Picklistentry si_017__c (
+   value('SI_Črnomelj'),
+   order(1591),
+   active(true)
+);

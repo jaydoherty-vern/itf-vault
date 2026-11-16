@@ -1,0 +1,5 @@
+Picklistentry deferred_product_enhancement__c (
+   value('Deferred: Product Enhancement Request'),
+   order(1),
+   active(true)
+);

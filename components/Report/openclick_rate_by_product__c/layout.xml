@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:targetDocumentAlias>Target Document</vrp:targetDocumentAlias>
+  <vrp:sourceDocumentAlias>Source Document</vrp:sourceDocumentAlias>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:combineReportPrompts>false</vrp:combineReportPrompts>
+  <vrp:enableMergeCells>false</vrp:enableMergeCells>
+  <vrp:mergeCellsWithinView>false</vrp:mergeCellsWithinView>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:removeLinksFromExport>false</vrp:removeLinksFromExport>
+  <vrp:columns>
+    <vrp:column key="sent_email_view__c.sent_email__v.product__v" type="documentProperty" index="0" columnWidth="200" />
+    <vrp:column key="sent_email_view__c.sent_email__v.AGG_SUM_object_count__v" type="documentProperty" index="1" columnWidth="310" />
+    <vrp:column key="sent_email_view__c.sent_email__v.FF_MP_click_rate__c" type="documentProperty" index="2" columnWidth="231" />
+    <vrp:column key="sent_email_view__c.sent_email__v.FF_MP_click_rate_count__c" type="documentProperty" index="3" columnWidth="277" />
+  </vrp:columns>
+</vrp:reportFormat>

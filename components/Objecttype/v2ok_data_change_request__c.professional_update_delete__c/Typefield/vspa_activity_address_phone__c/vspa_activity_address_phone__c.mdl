@@ -1,0 +1,4 @@
+Typefield vspa_activity_address_phone__c (
+   source('custom'),
+   required(false)
+);

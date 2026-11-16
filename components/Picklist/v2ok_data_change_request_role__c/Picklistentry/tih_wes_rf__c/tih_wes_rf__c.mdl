@@ -1,0 +1,5 @@
+Picklistentry tih_wes_rf__c (
+   value('TIH.WES.RF'),
+   order(60),
+   active(true)
+);

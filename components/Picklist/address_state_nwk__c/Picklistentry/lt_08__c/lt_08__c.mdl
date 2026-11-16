@@ -1,0 +1,5 @@
+Picklistentry lt_08__c (
+   value('LT_Elektrėnai'),
+   order(981),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry neurology_nm_disease_team_member__c (
+   value('NEUROLOGY, NM DISEASE TEAM MEMBER'),
+   order(118),
+   active(true)
+);

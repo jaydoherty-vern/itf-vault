@@ -1,0 +1,5 @@
+Picklistentry cc21__c (
+   value('Critical Care (Regional With Helicopter)'),
+   order(15),
+   active(true)
+);

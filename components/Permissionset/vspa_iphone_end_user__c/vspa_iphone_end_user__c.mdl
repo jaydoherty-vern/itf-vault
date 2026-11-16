@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_iphone_end_user__c (
+   label('VSPA_IPhone_End_User'),
+   active(true),
+   description('Permission set to enable iPhone use'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

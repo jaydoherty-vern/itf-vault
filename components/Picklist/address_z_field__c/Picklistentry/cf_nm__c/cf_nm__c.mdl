@@ -1,0 +1,5 @@
+Picklistentry cf_nm__c (
+   value('CF-NM'),
+   order(633),
+   active(true)
+);

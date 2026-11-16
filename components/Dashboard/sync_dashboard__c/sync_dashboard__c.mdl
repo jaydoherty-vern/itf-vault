@@ -1,0 +1,10 @@
+RECREATE Dashboard sync_dashboard__c (
+   active(true),
+   label('Sync Dashboard'),
+   description('Key metrics related to non-admin users syncs.  Created by Veeva Services.'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   dashboard_markup(@dashboard_markup.xml),
+   tags('veeva__sys')
+);

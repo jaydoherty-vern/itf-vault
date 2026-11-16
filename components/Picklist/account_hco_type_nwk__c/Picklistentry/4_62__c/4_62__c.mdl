@@ -1,0 +1,5 @@
+Picklistentry 4_62__c (
+   value('Orthopedic Supply Store'),
+   order(197),
+   active(true)
+);

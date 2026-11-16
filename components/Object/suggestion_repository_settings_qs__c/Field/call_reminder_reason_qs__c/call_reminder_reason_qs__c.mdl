@@ -1,0 +1,19 @@
+Field call_reminder_reason_qs__c (
+   label('Call Reminder Reason'),
+   type('String'),
+   active(true),
+   description('Text to be displayed on the automatically created Suggestion record(s) as Reason.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

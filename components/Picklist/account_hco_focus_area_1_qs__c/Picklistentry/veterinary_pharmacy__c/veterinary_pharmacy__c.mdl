@@ -1,0 +1,5 @@
+Picklistentry veterinary_pharmacy__c (
+   value('Veterinary Pharmacy'),
+   order(101),
+   active(true)
+);

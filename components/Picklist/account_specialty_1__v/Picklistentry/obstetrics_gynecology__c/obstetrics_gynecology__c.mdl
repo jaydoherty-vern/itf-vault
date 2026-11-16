@@ -1,0 +1,5 @@
+Picklistentry obstetrics_gynecology__c (
+   value('Obstetrics & Gynecology'),
+   order(234),
+   active(true)
+);

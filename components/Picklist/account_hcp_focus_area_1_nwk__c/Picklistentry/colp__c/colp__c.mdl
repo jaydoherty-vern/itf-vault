@@ -1,0 +1,5 @@
+Picklistentry colp__c (
+   value('Colposcopy'),
+   order(88),
+   active(true)
+);

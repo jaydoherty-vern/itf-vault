@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_lightning_user__c (
+   label('VSPA_LIGHTNING_USER'),
+   active(true),
+   description('Enables lightning access for users'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

@@ -1,0 +1,5 @@
+Picklistentry ru_bu__c (
+   value('RU_Buryatiya, Respublika'),
+   order(1492),
+   active(true)
+);

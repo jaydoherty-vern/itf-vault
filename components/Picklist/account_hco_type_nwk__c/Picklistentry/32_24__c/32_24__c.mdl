@@ -1,0 +1,5 @@
+Picklistentry 32_24__c (
+   value('Safety and Hygiene Committee'),
+   order(259),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry fr_75__c (
+   value('FR_Paris'),
+   order(355),
+   active(true)
+);

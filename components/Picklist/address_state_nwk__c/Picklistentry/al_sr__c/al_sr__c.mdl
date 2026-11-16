@@ -1,0 +1,5 @@
+Picklistentry al_sr__c (
+   value('AL_Sarandë'),
+   order(45),
+   active(true)
+);

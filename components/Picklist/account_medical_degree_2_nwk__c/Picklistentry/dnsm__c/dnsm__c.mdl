@@ -1,0 +1,5 @@
+Picklistentry dnsm__c (
+   value('Dr. nat. med.'),
+   order(126),
+   active(true)
+);

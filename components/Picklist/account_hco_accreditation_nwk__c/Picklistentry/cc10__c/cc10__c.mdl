@@ -1,0 +1,5 @@
+Picklistentry cc10__c (
+   value('Critical Care (Advanced)'),
+   order(12),
+   active(true)
+);

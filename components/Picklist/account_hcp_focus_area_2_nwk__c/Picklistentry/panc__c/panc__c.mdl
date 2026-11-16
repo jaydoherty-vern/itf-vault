@@ -1,0 +1,5 @@
+Picklistentry panc__c (
+   value('Pancreatic Cancer'),
+   order(312),
+   active(true)
+);

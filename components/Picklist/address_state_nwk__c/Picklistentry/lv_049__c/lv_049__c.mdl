@@ -1,0 +1,5 @@
+Picklistentry lv_049__c (
+   value('LV_Krustpils novads (Krustpils)'),
+   order(1102),
+   active(true)
+);

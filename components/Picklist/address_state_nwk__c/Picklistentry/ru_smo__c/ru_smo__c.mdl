@@ -1,0 +1,5 @@
+Picklistentry ru_smo__c (
+   value('RU_Smolenskaya oblast'''),
+   order(1546),
+   active(true)
+);

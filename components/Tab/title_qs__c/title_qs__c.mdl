@@ -1,0 +1,12 @@
+RECREATE Tab title_qs__c (
+   active(true),
+   all_view_label('All Titles'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Titles'),
+   my_view_label('My Titles'),
+   object('title_qs__c'),
+   order(3300),
+   parent(),
+   recent_view_label('Recent Titles')
+);

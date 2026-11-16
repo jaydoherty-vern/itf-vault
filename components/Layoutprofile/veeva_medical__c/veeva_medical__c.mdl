@@ -1,0 +1,9 @@
+RECREATE Layoutprofile veeva_medical__c (
+   label('VEEVA_MEDICAL'),
+   active(true),
+   description('Layout Profile for the Veeva Medical persona'),
+   Objectlayout(@Objectlayout/call2_callreport__c.mdl),
+   Objectlayout(@Objectlayout/call2_medical_inquiry_fulfillment__c.mdl),
+   Objectlayout(@Objectlayout/call2_mslmeetingbrief__c.mdl),
+   Objectlayout(@Objectlayout/medical_inquiry_medical_inquiry__c.mdl)
+);

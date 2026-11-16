@@ -1,0 +1,5 @@
+Picklistentry fr_63__c (
+   value('FR_Puy-de-Dôme'),
+   order(358),
+   active(true)
+);

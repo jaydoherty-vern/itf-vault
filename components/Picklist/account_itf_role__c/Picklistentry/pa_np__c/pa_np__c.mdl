@@ -1,0 +1,5 @@
+Picklistentry pa_np__c (
+   value('PA/NP'),
+   order(1),
+   active(true)
+);

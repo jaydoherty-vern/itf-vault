@@ -1,0 +1,48 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.itf_market_access_request_form__c.itf_payer_policy_submission__c">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="itf_request_date__c" required="true" />
+            <vault:field reference="itf_additional_information__c" />
+            <vault:field reference="ownerid__v" readOnly="true" />
+            <vault:field reference="itf_nature_of_request__c" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="KAM" name="kam__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="itf_region__c" readOnly="true" />
+            <vault:field reference="itf_territory__c" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Provider" name="provider__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="itf_hcp__c" />
+            <vault:field reference="itf_arc_enrolled__c" />
+            <vault:field reference="itf_facility_hcp_primary_affiliation__c" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Contact Details" name="contact_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="itf_name_of_the_account_contact__c" />
+            <vault:field reference="itf_hcp_email__c" />
+            <vault:field reference="itf_phone_number_of_account_contact__c" />
+            <vault:field reference="itf_hcp_phone__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Payer/Policy Insights" name="payer_policy_insights__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="itf_payer_policy_insights__c" required="true" />
+            <vault:field reference="itf_disclaimer__c" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

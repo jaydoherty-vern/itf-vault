@@ -1,0 +1,5 @@
+Picklistentry lipid__c (
+   value('Lipidology'),
+   order(220),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield sp_exposure__c (
+   source('standard'),
+   required(false)
+);

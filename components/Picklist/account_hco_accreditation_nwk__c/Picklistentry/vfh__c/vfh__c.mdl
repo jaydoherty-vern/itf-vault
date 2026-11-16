@@ -1,0 +1,5 @@
+Picklistentry vfh__c (
+   value('Vet Food Hygiene/Public Health'),
+   order(37),
+   active(true)
+);

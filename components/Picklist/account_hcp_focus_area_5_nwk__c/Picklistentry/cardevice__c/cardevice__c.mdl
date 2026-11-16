@@ -1,0 +1,5 @@
+Picklistentry cardevice__c (
+   value('Heart Devices (Pacemakers, Biventricular device...)'),
+   order(173),
+   active(true)
+);

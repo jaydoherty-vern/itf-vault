@@ -1,0 +1,14 @@
+Typefield last_device__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_last_device__v.ipad__v',
+         'Picklist.call2_last_device__v.blackberry_vod__c',
+         'Picklist.call2_last_device__v.data_load__v',
+         'Picklist.call2_last_device__v.iphone__v',
+         'Picklist.call2_last_device__v.online__v',
+         'Picklist.call2_last_device__v.tablet__v',
+         'Picklist.call2_last_device__v.crm_desktop_macos__v',
+         'Picklist.call2_last_device__v.crm_desktop_windows__v',
+         'Picklist.call2_last_device__v.winmodern__v',
+         'Picklist.call2_last_device__v.mobile_vod__c')
+);

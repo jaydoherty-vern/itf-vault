@@ -1,0 +1,6 @@
+Objectlifecyclepermission organizer_edit__c (
+   states('Objectlifecyclestate.active_state__v',
+         'Objectlifecyclestate.inactive_state__v'),
+   role('Objectlifecyclerole.organizer__c'),
+   permission('Edit')
+);

@@ -1,0 +1,5 @@
+Picklistentry pharmind__c (
+   value('Pharmaceutical Industry'),
+   order(397),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry diagrad__c (
+   value('Diagnostic Radiology (CT, MRI, x-ray)'),
+   order(108),
+   active(true)
+);

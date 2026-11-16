@@ -1,0 +1,12 @@
+RECREATE Tab transfer_of_value__c (
+   active(true),
+   all_view_label('All Transfer of Values'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Transfer of Values'),
+   my_view_label('My Transfer of Values'),
+   object('transfer_of_value__c'),
+   order(3500),
+   parent(),
+   recent_view_label('Recent Transfer of Values')
+);

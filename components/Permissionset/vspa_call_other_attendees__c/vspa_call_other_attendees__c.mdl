@@ -1,0 +1,9 @@
+RECREATE Permissionset vspa_call_other_attendees__c (
+   label('VSPA_Call_Other_Attendees'),
+   active(true),
+   description('Veeva created an optional section for Other Attendees on the Call Report to capture non-target persons.'),
+   object.call2__v.attendee_list__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

@@ -1,0 +1,5 @@
+Picklistentry ancyt__c (
+   value('Diploma in Anatomy and Cytology'),
+   order(46),
+   active(true)
+);

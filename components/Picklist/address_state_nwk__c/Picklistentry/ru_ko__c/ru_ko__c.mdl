@@ -1,0 +1,5 @@
+Picklistentry ru_ko__c (
+   value('RU_Komi, Respublika'),
+   order(1513),
+   active(true)
+);

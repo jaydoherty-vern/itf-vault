@@ -1,0 +1,18 @@
+Field order_type__v (
+   label('Order Type'),
+   type('Picklist'),
+   active(true),
+   description('Types of orders allowed to be placed against this account. If All_vod or not populated, then any type of Order can be placed against the account. This picklist defines the record type of the orders created against the account.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(69),
+   multi_value(true),
+   picklist('Picklist.account_order_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

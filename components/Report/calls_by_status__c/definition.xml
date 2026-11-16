@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.ownerid__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_channel__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call2_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___ownerid__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___ownerid__v.security_profile__sys" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="CURRENTCY" leftValue="call2__v.call_date__v" rightValue="2024-01-01;;;2024-12-31" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="call2__v.call_date__v" period="MONTH" groupBySortOn="call2__v.call_date__v" groupBySortOrder="DESCENDING" />
+    <vrp:groupItem index="1" name="call2__v.call2_status__v" groupBySortOn="call2__v.call2_status__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="call2__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

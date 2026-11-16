@@ -1,0 +1,5 @@
+Picklistentry ee_44__c (
+   value('EE_Ida-Virumaa'),
+   order(170),
+   active(true)
+);

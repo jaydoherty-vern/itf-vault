@@ -1,0 +1,5 @@
+Picklistentry cv_ta__c (
+   value('CV-TA'),
+   order(842),
+   active(true)
+);

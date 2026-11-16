@@ -1,0 +1,8 @@
+RECREATE Sharingrule clm_presentation_staged_clm_testers__c (
+   label('CLM Presentation - Staged CLM Testers'),
+   active(true),
+   description(),
+   object('clm_presentation__v'),
+   criteria([clm_presentation_status__v CONTAINS ('approved__v', 'staged__v')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

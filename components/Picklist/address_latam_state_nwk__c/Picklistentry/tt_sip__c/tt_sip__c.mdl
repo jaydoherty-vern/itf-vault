@@ -1,0 +1,5 @@
+Picklistentry tt_sip__c (
+   value('Siparia'),
+   order(373),
+   active(true)
+);

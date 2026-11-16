@@ -1,0 +1,5 @@
+Picklistentry naturopathic_doctor__c (
+   value('Naturopathic Doctor'),
+   order(219),
+   active(true)
+);

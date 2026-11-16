@@ -1,0 +1,10 @@
+Typefield individual_class__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.v2ok_data_change_reques_individual_class__c.tyt_wes_a__c',
+         'Picklist.v2ok_data_change_reques_individual_class__c.tyt_wes_m__c',
+         'Picklist.v2ok_data_change_reques_individual_class__c.tyt_wes_p__c',
+         'Picklist.v2ok_data_change_reques_individual_class__c.tyt_wes_r__c',
+         'Picklist.v2ok_data_change_reques_individual_class__c.tyt_wes_v__c',
+         'Picklist.v2ok_data_change_reques_individual_class__c.tyt_wes_w__c')
+);

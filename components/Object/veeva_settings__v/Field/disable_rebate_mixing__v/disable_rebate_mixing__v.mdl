@@ -1,0 +1,18 @@
+Field disable_rebate_mixing__v (
+   label('Disable Rebate Mixing'),
+   type('Boolean'),
+   active(true),
+   description('Determines if discount is reduced to „0%“ if free goods are given in that order line'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(116),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

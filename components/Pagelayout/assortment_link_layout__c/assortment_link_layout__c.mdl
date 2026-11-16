@@ -1,0 +1,8 @@
+RECREATE Pagelayout assortment_link_layout__c (
+   active(true),
+   default_layout(true),
+   description('Veeva provided standard layout for Assortment Link. This layout cannot be edited and may be updated by Veeva during releases. Use "Save As" to create a custom layout from this template. '),
+   display_lifecycle_stages(false),
+   label('Assortment Link Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,5 @@
+Picklistentry fr_24__c (
+   value('FR_Dordogne'),
+   order(302),
+   active(true)
+);

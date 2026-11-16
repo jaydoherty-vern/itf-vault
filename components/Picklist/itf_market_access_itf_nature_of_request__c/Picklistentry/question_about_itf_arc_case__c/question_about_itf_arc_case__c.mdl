@@ -1,0 +1,5 @@
+Picklistentry question_about_itf_arc_case__c (
+   value('Question about ITF ARC Case'),
+   order(3),
+   active(true)
+);

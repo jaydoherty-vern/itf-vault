@@ -1,0 +1,5 @@
+Picklistentry mk_77__c (
+   value('MK_Centar'),
+   order(1217),
+   active(true)
+);

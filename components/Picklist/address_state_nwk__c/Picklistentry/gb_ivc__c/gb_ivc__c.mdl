@@ -1,0 +1,5 @@
+Picklistentry gb_ivc__c (
+   value('GB-IVC'),
+   order(519),
+   active(false)
+);

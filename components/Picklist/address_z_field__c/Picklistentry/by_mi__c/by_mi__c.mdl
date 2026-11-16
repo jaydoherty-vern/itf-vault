@@ -1,0 +1,5 @@
+Picklistentry by_mi__c (
+   value('BY-MI'),
+   order(588),
+   active(true)
+);

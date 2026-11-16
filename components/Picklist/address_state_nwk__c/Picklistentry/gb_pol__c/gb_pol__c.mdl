@@ -1,0 +1,5 @@
+Picklistentry gb_pol__c (
+   value('GB-POL'),
+   order(579),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry hu_er__c (
+   value('HU_Érd'),
+   order(687),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry is_svg__c (
+   value('IS_Sveitarfélagið Vogar'),
+   order(822),
+   active(true)
+);

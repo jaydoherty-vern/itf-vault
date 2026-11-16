@@ -1,0 +1,5 @@
+Picklistentry hu_bz__c (
+   value('HU_Borsod-Abaúj-Zemplén'),
+   order(681),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_031__c (
+   value('LV_Garkalnes novads (Garkalne)'),
+   order(1079),
+   active(true)
+);

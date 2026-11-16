@@ -1,0 +1,8 @@
+RECREATE Sharingrule survey_msl__c (
+   label('Survey - MSL'),
+   active(true),
+   description(),
+   object('survey__v'),
+   criteria([itf_share_team__c CONTAINS ('msl__c')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

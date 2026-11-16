@@ -1,0 +1,5 @@
+Picklistentry do__c (
+   value('DO'),
+   order(9),
+   active(true)
+);

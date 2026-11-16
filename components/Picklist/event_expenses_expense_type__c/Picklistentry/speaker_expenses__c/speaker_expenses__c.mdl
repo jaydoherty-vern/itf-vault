@@ -1,0 +1,5 @@
+Picklistentry speaker_expenses__c (
+   value('Speaker Expenses'),
+   order(1),
+   active(true)
+);

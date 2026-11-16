@@ -1,0 +1,7 @@
+Typefield target_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_target_type__c.a__c',
+         'Picklist.account_target_type__c.b__c',
+         'Picklist.account_target_type__c.c__c')
+);

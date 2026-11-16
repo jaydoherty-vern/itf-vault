@@ -1,0 +1,5 @@
+Picklistentry cl_ap__c (
+   value('CL-AP'),
+   order(711),
+   active(true)
+);

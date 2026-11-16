@@ -1,0 +1,6 @@
+RECREATE Securityprofile vspa_backoffice_crm__c (
+   label('VSPA_BackOffice_CRM'),
+   active(true),
+   description('Use in conjunction with CCRMS_Back_Office permission set for OLS'),
+   permission_sets('vspa_backoffice_crm_ps__c')
+);

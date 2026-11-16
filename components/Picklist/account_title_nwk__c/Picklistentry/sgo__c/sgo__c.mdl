@@ -1,0 +1,5 @@
+Picklistentry sgo__c (
+   value('SGO'),
+   order(97),
+   active(true)
+);

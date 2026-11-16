@@ -1,0 +1,6 @@
+Typefield virtual_role__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_team_member_virtual_role__v.alternative_host__v',
+         'Picklist.em_event_team_member_virtual_role__v.host__v')
+);

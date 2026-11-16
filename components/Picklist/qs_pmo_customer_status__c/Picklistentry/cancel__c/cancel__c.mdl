@@ -1,0 +1,5 @@
+Picklistentry cancel__c (
+   value('Customer ask Veeva to Cancel the requirement'),
+   order(3),
+   active(true)
+);

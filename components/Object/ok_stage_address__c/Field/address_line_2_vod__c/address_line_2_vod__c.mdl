@@ -1,0 +1,20 @@
+Field address_line_2_vod__c (
+   label('Address line 2'),
+   type('String'),
+   active(true),
+   description('This field is loaded from the Cegedim One Key data file. This is an out-of-the box veeva field used by the Professional Account layout. In the Nordics, all users have access to this field.
+Second line of street address. The first line is stored in the name field of the address record.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

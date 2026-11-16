@@ -1,0 +1,5 @@
+Picklistentry gen__c (
+   value('GEN'),
+   order(4),
+   active(true)
+);

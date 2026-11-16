@@ -1,0 +1,22 @@
+RECREATE Permissionset vspa_call_signature__c (
+   label('VSPA_Call_Signature'),
+   active(true),
+   description('Enables the Signature functionalities on the call report.'),
+   object.call2__v.signature__v.field_actions('edit',
+      'read'),
+   object.call2__v.signature_date__v.field_actions('edit',
+      'read'),
+   object.call2__v.signature_location_latitude__v.field_actions('edit',
+      'read'),
+   object.call2__v.signature_location_longitude__v.field_actions('edit',
+      'read'),
+   object.call2__v.signature_on_sync__v.field_actions('read'),
+   object.call2__v.signature_page_display_name__v.field_actions('edit',
+      'read'),
+   object.call2__v.signature_page_image__v.field_actions('edit',
+      'read'),
+   object.call2__v.signature_timestamp__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

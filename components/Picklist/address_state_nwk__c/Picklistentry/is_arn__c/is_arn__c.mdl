@@ -1,0 +1,5 @@
+Picklistentry is_arn__c (
+   value('IS_Árneshreppur'),
+   order(753),
+   active(true)
+);

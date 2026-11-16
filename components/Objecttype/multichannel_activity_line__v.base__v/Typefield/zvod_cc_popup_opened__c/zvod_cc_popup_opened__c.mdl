@@ -1,0 +1,4 @@
+Typefield zvod_cc_popup_opened__c (
+   source('standard'),
+   required(false)
+);

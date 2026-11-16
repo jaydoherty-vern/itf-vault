@@ -1,0 +1,5 @@
+Picklistentry product_detailing__c (
+   value('Product detailing'),
+   order(33),
+   active(true)
+);

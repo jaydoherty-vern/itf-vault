@@ -1,0 +1,19 @@
+Field account_lookup_field_api_name__c (
+   label('Account Lookup Field API Name'),
+   type('String'),
+   active(true),
+   description('This is the lookup field''s API name that references the Account object in cases where the criteria is specified for a Child object like Address_vod__c. For eg, for Address_vod__c, the value for this field will be Account_vod__c'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('This is the lookup field''s API name that references the Account object in cases where the criteria is specified for a Child object like Address_vod__c. For eg, for Address_vod__c, the value for this field will be Account_vod__c'),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

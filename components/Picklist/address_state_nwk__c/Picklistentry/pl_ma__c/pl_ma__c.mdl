@@ -1,0 +1,5 @@
+Picklistentry pl_ma__c (
+   value('PL_Małopolskie'),
+   order(1355),
+   active(true)
+);

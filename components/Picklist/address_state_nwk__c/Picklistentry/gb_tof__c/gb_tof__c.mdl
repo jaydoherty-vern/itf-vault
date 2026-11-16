@@ -1,0 +1,5 @@
+Picklistentry gb_tof__c (
+   value('GB-TOF'),
+   order(625),
+   active(false)
+);

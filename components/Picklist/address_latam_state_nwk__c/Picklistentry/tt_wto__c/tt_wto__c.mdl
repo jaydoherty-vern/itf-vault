@@ -1,0 +1,5 @@
+Picklistentry tt_wto__c (
+   value('Western Tobago'),
+   order(374),
+   active(true)
+);

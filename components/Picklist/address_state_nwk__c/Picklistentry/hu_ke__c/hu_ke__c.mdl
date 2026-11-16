@@ -1,0 +1,5 @@
+Picklistentry hu_ke__c (
+   value('HU_Komárom-Esztergom'),
+   order(697),
+   active(true)
+);

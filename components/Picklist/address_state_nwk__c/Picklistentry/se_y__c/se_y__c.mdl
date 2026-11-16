@@ -1,0 +1,5 @@
+Picklistentry se_y__c (
+   value('SE_Västernorrlands County'),
+   order(1584),
+   active(true)
+);

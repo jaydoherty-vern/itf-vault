@@ -1,0 +1,5 @@
+Picklistentry es_za__c (
+   value('ES_Zamora'),
+   order(233),
+   active(true)
+);

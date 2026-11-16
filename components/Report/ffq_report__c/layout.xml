@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true" documentScope="ACTIVE">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:columns>
+    <vrp:column key="survey__v.id" type="documentProperty" index="0" columnWidth="155" />
+  </vrp:columns>
+</vrp:reportFormat>

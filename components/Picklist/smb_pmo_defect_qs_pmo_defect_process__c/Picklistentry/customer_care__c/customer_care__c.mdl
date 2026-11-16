@@ -1,0 +1,5 @@
+Picklistentry customer_care__c (
+   value('Customer Care'),
+   order(11),
+   active(true)
+);

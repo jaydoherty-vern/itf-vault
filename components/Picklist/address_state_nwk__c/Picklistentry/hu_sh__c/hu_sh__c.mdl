@@ -1,0 +1,5 @@
+Picklistentry hu_sh__c (
+   value('HU_Szombathely'),
+   order(712),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ni_ca__c (
+   value('Carazo'),
+   order(314),
+   active(true)
+);

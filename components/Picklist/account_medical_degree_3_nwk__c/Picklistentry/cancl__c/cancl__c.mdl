@@ -1,0 +1,5 @@
+Picklistentry cancl__c (
+   value('Diploma in Cancer'),
+   order(37),
+   active(true)
+);

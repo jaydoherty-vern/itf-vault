@@ -1,0 +1,5 @@
+Picklistentry gmed__c (
+   value('General Medicine'),
+   order(159),
+   active(true)
+);

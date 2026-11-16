@@ -1,0 +1,18 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.connection_value_mapping__v.value_mapping__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="connection_field_mapping__v" />
+            <vault:field reference="crm_value__v" required="true" />
+            <vault:field reference="connection_value__v" required="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

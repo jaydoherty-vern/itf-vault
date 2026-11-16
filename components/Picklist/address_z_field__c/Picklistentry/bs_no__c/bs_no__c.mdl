@@ -1,0 +1,5 @@
+Picklistentry bs_no__c (
+   value('BS-NO'),
+   order(543),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry hu_hv__c (
+   value('HU_Hódmezővásárhely'),
+   order(693),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry week_end__c (
+   value('Week-end'),
+   order(2),
+   active(true)
+);

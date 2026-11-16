@@ -1,0 +1,5 @@
+Picklistentry tr_69__c (
+   value('TR_Bayburt'),
+   order(1681),
+   active(true)
+);

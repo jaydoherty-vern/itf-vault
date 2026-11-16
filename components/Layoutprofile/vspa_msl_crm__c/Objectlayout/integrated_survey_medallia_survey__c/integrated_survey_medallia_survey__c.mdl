@@ -1,0 +1,8 @@
+Objectlayout integrated_survey_medallia_survey__c (
+   label('integrated_survey_medallia_survey'),
+   active(true),
+   pagelayouts('Pagelayout.medallia_survey_vod__c'),
+   object('Object.integrated_survey__v'),
+   objecttype('Objecttype.integrated_survey__v.medallia_survey__v'),
+   record_creation_layout('Pagelayout.medallia_survey_vod__c')
+);

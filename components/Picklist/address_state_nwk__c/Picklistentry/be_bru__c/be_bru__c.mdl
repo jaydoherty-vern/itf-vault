@@ -1,0 +1,5 @@
+Picklistentry be_bru__c (
+   value('BE_Bruxelles-Capitale, Région de'),
+   order(79),
+   active(true)
+);

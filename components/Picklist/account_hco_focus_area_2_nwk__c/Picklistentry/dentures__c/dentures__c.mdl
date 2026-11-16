@@ -1,0 +1,5 @@
+Picklistentry dentures__c (
+   value('Dentures'),
+   order(72),
+   active(true)
+);

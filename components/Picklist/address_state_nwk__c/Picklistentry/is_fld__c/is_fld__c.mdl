@@ -1,0 +1,5 @@
+Picklistentry is_fld__c (
+   value('IS_Fljótsdalshérað'),
+   order(768),
+   active(true)
+);

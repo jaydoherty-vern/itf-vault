@@ -1,0 +1,5 @@
+Picklistentry physical_medicine__c (
+   value('PHYSICAL MEDICINE'),
+   order(384),
+   active(true)
+);

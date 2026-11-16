@@ -1,0 +1,5 @@
+Picklistentry selective_pathology__c (
+   value('Selective Pathology'),
+   order(290),
+   active(true)
+);

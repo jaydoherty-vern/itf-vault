@@ -1,0 +1,5 @@
+Picklistentry 1_22__c (
+   value('Hospital, General'),
+   order(66),
+   active(true)
+);

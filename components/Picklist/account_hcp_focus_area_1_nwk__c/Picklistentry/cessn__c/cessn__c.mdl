@@ -1,0 +1,5 @@
+Picklistentry cessn__c (
+   value('Smoking Cessation Services'),
+   order(415),
+   active(true)
+);

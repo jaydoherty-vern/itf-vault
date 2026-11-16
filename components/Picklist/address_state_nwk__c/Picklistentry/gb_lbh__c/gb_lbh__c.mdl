@@ -1,0 +1,5 @@
+Picklistentry gb_lbh__c (
+   value('GB-LBH'),
+   order(530),
+   active(false)
+);

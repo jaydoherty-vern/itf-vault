@@ -1,0 +1,4 @@
+Typefield major_class_of_trade_nwk__c (
+   source('standard'),
+   required(false)
+);

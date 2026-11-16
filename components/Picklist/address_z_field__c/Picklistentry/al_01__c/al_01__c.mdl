@@ -1,0 +1,5 @@
+Picklistentry al_01__c (
+   value('AL-01'),
+   order(55),
+   active(true)
+);

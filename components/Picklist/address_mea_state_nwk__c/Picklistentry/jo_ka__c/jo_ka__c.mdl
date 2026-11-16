@@ -1,0 +1,5 @@
+Picklistentry jo_ka__c (
+   value('JO_Al Karak'),
+   order(35),
+   active(true)
+);

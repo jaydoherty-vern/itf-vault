@@ -1,0 +1,5 @@
+Picklistentry slt__c (
+   value('SLT'),
+   order(218),
+   active(true)
+);

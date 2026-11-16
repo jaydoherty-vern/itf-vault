@@ -1,0 +1,8 @@
+Objectworkflowstep uf_prior_authorization_not_required__c (
+   label('UF: Prior Authorization Not Required'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.cs_complete__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

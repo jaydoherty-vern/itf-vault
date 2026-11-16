@@ -1,0 +1,5 @@
+Picklistentry gb_eay__c (
+   value('GB-EAY'),
+   order(483),
+   active(false)
+);

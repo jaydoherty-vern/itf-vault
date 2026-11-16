@@ -1,0 +1,5 @@
+Picklistentry 11_96__c (
+   value('Pharmacy, Retail Sellers and Suppliers'),
+   order(223),
+   active(true)
+);

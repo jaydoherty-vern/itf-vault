@@ -1,0 +1,4 @@
+Typefield itf_clinic_frequency__c (
+   source('standard'),
+   required(false)
+);

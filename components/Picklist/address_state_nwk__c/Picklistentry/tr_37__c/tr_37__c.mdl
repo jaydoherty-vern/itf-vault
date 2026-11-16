@@ -1,0 +1,5 @@
+Picklistentry tr_37__c (
+   value('TR_Kastamonu'),
+   order(1712),
+   active(true)
+);

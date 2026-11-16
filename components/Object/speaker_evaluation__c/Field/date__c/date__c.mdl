@@ -1,0 +1,17 @@
+Field date__c (
+   label('Date'),
+   type('Date'),
+   active(true),
+   description('Date of the evaluation'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

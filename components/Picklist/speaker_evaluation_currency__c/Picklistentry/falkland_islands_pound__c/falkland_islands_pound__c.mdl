@@ -1,0 +1,5 @@
+Picklistentry falkland_islands_pound__c (
+   value('Falkland Islands Pound'),
+   order(58),
+   active(true)
+);

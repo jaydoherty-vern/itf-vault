@@ -1,0 +1,5 @@
+Picklistentry br_sc__c (
+   value('BR-SC'),
+   order(518),
+   active(true)
+);

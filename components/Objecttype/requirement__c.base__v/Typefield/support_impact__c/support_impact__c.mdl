@@ -1,0 +1,4 @@
+Typefield support_impact__c (
+   source('standard'),
+   required(false)
+);

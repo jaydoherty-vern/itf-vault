@@ -1,0 +1,4 @@
+Typefield mederi_brand_advocate_score__c (
+   source('standard'),
+   required(false)
+);

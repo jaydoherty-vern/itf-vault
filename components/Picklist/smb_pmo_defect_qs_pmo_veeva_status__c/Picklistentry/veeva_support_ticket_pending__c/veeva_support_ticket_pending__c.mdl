@@ -1,0 +1,5 @@
+Picklistentry veeva_support_ticket_pending__c (
+   value('Veeva Support Ticket Pending'),
+   order(2),
+   active(true)
+);

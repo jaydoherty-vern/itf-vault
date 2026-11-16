@@ -1,0 +1,5 @@
+Picklistentry lv_vmr__c (
+   value('LV_Valmiera'),
+   order(1156),
+   active(true)
+);

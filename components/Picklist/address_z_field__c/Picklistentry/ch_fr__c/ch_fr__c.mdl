@@ -1,0 +1,5 @@
+Picklistentry ch_fr__c (
+   value('CH-FR'),
+   order(656),
+   active(true)
+);

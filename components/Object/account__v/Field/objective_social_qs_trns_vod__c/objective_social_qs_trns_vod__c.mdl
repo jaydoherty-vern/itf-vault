@@ -1,0 +1,19 @@
+Field objective_social_qs_trns_vod__c (
+   label('Social Objective'),
+   type('String'),
+   active(true),
+   description('BMI Naya transparency Field'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('BMI Naya transparency Field'),
+   list_column(false),
+   order(371),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

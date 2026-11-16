@@ -1,0 +1,20 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.scientific_interest__v.scientific_interest__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="interest_category__v" />
+            <vault:field reference="active__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="di_expiration_duration__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,7 @@
+Typefield event_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_event_type__c.congress_dinner__c',
+         'Picklist.em_event_event_type__c.congress_meal__c',
+         'Picklist.em_event_event_type__c.work_meeting_meal__c')
+);

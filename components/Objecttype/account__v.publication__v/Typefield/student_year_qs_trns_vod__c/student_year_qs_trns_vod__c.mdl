@@ -1,0 +1,4 @@
+Typefield student_year_qs_trns_vod__c (
+   source('custom'),
+   required(false)
+);

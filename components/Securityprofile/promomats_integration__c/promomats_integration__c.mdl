@@ -1,0 +1,7 @@
+RECREATE Securityprofile promomats_integration__c (
+   label('Promomats Integration'),
+   active(true),
+   description(),
+   permission_sets('clm_integration_user_permissions1__c',
+      'itf_promomats_integration__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry sri_lanka_rupee__c (
+   value('Sri Lanka Rupee'),
+   order(139),
+   active(true)
+);

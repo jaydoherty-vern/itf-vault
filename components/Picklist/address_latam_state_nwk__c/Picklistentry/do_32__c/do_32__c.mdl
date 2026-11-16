@@ -1,0 +1,5 @@
+Picklistentry do_32__c (
+   value('Santo Domingo'),
+   order(217),
+   active(true)
+);

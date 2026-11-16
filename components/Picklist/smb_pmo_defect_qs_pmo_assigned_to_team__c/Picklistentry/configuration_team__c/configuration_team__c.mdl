@@ -1,0 +1,5 @@
+Picklistentry configuration_team__c (
+   value('Configuration Team'),
+   order(2),
+   active(true)
+);

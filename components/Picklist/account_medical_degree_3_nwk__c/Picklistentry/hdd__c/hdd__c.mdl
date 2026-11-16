@@ -1,0 +1,5 @@
+Picklistentry hdd__c (
+   value('Dr. h.c.'),
+   order(104),
+   active(true)
+);

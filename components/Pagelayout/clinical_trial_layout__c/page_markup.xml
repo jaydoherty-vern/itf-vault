@@ -1,0 +1,29 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.clinical_trial__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="date__v" />
+            <vault:field reference="phase__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="account__v" required="true" />
+            <vault:field reference="role__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="sponsor__v" />
+            <vault:field reference="clinical_trial_status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Account Clinical Trials" name="account_clinical_trials__c">
+        <vault:relatedObject relationship="account_clinical_trials__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="role__v" width="200px" />
+            <vault:field reference="participant__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

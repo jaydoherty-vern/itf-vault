@@ -1,0 +1,5 @@
+Picklistentry diabt__c (
+   value('Diabetes'),
+   order(105),
+   active(true)
+);

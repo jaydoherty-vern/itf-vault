@@ -1,0 +1,5 @@
+Picklistentry g_oph__c (
+   value('Ophthalmology & Vision'),
+   order(27),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Typefield vspa_childaccount_status__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.v2ok_data_chang_vspa_childaccount_status__c.invalid__c',
+         'Picklist.v2ok_data_chang_vspa_childaccount_status__c.valid__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry pending_migration__c (
+   value('Pending Migration'),
+   order(13),
+   active(true)
+);

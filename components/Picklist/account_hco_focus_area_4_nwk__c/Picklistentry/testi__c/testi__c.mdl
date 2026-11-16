@@ -1,0 +1,5 @@
+Picklistentry testi__c (
+   value('Testicular cancer'),
+   order(237),
+   active(true)
+);

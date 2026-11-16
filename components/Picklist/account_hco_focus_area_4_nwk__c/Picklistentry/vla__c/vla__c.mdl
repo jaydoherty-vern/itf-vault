@@ -1,0 +1,5 @@
+Picklistentry vla__c (
+   value('Veterinary Laboratory Animals'),
+   order(257),
+   active(true)
+);

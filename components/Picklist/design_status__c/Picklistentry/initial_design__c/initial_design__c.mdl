@@ -1,0 +1,5 @@
+Picklistentry initial_design__c (
+   value('Initial Design'),
+   order(3),
+   active(true)
+);

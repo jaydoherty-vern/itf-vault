@@ -1,0 +1,5 @@
+Picklistentry disposal_of_unwanted_or_out_of_date_medi__c (
+   value('Disposal of Unwanted or Out-Of-Date Medicines'),
+   order(39),
+   active(true)
+);

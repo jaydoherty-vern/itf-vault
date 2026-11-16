@@ -1,0 +1,5 @@
+RECREATE Crmapplicationprofile event_coordinator__c (
+   label('Event Coordinator'),
+   active(true),
+   description()
+);

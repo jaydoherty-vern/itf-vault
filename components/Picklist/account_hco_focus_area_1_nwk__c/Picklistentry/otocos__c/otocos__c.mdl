@@ -1,0 +1,5 @@
+Picklistentry otocos__c (
+   value('Otoplasty ( Cosmetic Ear Surgery / Pinning )'),
+   order(186),
+   active(true)
+);

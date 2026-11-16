@@ -1,0 +1,5 @@
+Picklistentry mk_57__c (
+   value('MK_Oslomej'),
+   order(1258),
+   active(true)
+);

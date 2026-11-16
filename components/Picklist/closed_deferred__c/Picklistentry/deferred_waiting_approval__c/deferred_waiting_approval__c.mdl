@@ -1,0 +1,5 @@
+Picklistentry deferred_waiting_approval__c (
+   value('Deferred: Waiting Approval'),
+   order(2),
+   active(true)
+);

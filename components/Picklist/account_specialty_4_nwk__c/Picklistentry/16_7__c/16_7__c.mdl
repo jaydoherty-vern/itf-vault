@@ -1,0 +1,5 @@
+Picklistentry 16_7__c (
+   value('Epidemiology_Helminthiasis'),
+   order(131),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Typefield attendee_reconciliation_status_vod__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.remote_me_attendee_reconciliation_status__c.pending_reconciliation_vod__c',
+         'Picklist.remote_me_attendee_reconciliation_status__c.reconciled_vod__c')
+);

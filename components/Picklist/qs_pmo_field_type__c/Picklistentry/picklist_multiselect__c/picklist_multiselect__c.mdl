@@ -1,0 +1,5 @@
+Picklistentry picklist_multiselect__c (
+   value('Picklist Multi Select'),
+   order(12),
+   active(true)
+);

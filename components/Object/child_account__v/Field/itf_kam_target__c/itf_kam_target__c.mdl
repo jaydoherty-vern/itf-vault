@@ -1,0 +1,19 @@
+Field itf_kam_target__c (
+   label('KAM Target'),
+   type('Boolean'),
+   active(true),
+   description('https://itftherapeutics.lightning.force.com/lightning/r/Requirement_vod__c/a1uVy00000NUhwkIAD/view'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(78),
+   formula('child_account__vr.target__c'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

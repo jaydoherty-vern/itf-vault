@@ -1,0 +1,5 @@
+Picklistentry ru_kam__c (
+   value('RU_Kamchatskiy kray'),
+   order(1505),
+   active(true)
+);

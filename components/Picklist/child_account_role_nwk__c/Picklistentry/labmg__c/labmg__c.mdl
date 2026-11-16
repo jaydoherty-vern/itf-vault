@@ -1,0 +1,5 @@
+Picklistentry labmg__c (
+   value('Laboratory Manager'),
+   order(117),
+   active(true)
+);

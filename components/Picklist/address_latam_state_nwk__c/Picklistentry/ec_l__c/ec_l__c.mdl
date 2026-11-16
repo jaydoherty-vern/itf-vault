@@ -1,0 +1,5 @@
+Picklistentry ec_l__c (
+   value('Loja'),
+   order(242),
+   active(true)
+);

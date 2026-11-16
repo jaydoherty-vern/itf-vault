@@ -1,0 +1,5 @@
+Picklistentry pur__c (
+   value('Purchasing Officer'),
+   order(88),
+   active(true)
+);

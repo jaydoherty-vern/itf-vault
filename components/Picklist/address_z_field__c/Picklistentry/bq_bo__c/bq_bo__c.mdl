@@ -1,0 +1,5 @@
+Picklistentry bq_bo__c (
+   value('BQ-BO'),
+   order(492),
+   active(true)
+);

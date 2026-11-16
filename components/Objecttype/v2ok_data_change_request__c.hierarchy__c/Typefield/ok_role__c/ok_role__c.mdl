@@ -1,0 +1,4 @@
+Typefield ok_role__c (
+   source('custom'),
+   required(false)
+);

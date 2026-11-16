@@ -1,0 +1,5 @@
+Picklistentry rhumtphysio__c (
+   value('Rheumatology And Physiotherapy Diploma'),
+   order(327),
+   active(true)
+);

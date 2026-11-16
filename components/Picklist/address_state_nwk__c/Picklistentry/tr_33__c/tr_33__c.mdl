@@ -1,0 +1,5 @@
+Picklistentry tr_33__c (
+   value('TR_Mersin'),
+   order(1724),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry at_2__c (
+   value('AT_Kärnten'),
+   order(56),
+   active(true)
+);

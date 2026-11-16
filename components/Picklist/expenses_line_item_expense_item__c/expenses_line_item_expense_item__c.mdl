@@ -1,0 +1,19 @@
+RECREATE Picklist expenses_line_item_expense_item__c (
+   label('Expense Item'),
+   active(true),
+   Picklistentry(@Picklistentry/consumption__c.mdl),
+   Picklistentry(@Picklistentry/dinner__c.mdl),
+   Picklistentry(@Picklistentry/entertainment__c.mdl),
+   Picklistentry(@Picklistentry/food__c.mdl),
+   Picklistentry(@Picklistentry/hotel__c.mdl),
+   Picklistentry(@Picklistentry/lunch__c.mdl),
+   Picklistentry(@Picklistentry/mailing__c.mdl),
+   Picklistentry(@Picklistentry/mileage__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   Picklistentry(@Picklistentry/paper__c.mdl),
+   Picklistentry(@Picklistentry/stationary__c.mdl),
+   Picklistentry(@Picklistentry/toll__c.mdl),
+   Picklistentry(@Picklistentry/transportation__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

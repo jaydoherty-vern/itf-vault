@@ -1,0 +1,5 @@
+Picklistentry bi_ca__c (
+   value('BI-CA'),
+   order(454),
+   active(true)
+);

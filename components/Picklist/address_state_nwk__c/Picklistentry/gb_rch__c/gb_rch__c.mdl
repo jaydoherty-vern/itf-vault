@@ -1,0 +1,5 @@
+Picklistentry gb_rch__c (
+   value('GB-RCH'),
+   order(584),
+   active(false)
+);

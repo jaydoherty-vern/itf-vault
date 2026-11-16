@@ -1,0 +1,5 @@
+Picklistentry walk__c (
+   value('Walk-In Center'),
+   order(275),
+   active(true)
+);

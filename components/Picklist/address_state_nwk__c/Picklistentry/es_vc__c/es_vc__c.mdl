@@ -1,0 +1,5 @@
+Picklistentry es_vc__c (
+   value('ES-VC'),
+   order(251),
+   active(false)
+);

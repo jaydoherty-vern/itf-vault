@@ -1,0 +1,4 @@
+Typefield project_deliverable__c (
+   source('standard'),
+   required(true)
+);

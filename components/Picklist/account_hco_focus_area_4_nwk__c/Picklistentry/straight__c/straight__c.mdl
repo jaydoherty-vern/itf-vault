@@ -1,0 +1,5 @@
+Picklistentry straight__c (
+   value('Tooth Straightening'),
+   order(239),
+   active(true)
+);

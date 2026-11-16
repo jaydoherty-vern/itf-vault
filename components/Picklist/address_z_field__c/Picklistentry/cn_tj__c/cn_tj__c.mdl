@@ -1,0 +1,5 @@
+Picklistentry cn_tj__c (
+   value('CN-TJ'),
+   order(760),
+   active(true)
+);

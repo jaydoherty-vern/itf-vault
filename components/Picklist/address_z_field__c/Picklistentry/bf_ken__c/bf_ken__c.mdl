@@ -1,0 +1,5 @@
+Picklistentry bf_ken__c (
+   value('BF-KEN'),
+   order(386),
+   active(true)
+);

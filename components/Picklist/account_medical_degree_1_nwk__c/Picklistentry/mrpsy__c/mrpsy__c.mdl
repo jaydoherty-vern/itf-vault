@@ -1,0 +1,5 @@
+Picklistentry mrpsy__c (
+   value('Medical Rehabilitation (Psychiatry) Diploma'),
+   order(210),
+   active(true)
+);

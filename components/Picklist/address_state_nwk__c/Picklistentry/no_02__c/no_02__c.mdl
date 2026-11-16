@@ -1,0 +1,5 @@
+Picklistentry no_02__c (
+   value('NO-02'),
+   order(1317),
+   active(false)
+);

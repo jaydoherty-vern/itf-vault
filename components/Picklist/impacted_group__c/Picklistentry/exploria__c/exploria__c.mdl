@@ -1,0 +1,5 @@
+Picklistentry exploria__c (
+   value('Exploria'),
+   order(2),
+   active(true)
+);

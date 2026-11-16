@@ -1,0 +1,5 @@
+Picklistentry me_03__c (
+   value('ME_Berane'),
+   order(1187),
+   active(true)
+);

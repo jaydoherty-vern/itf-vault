@@ -1,0 +1,5 @@
+Picklistentry mk__v (
+   value('Macedonian'),
+   order(5),
+   active(true)
+);

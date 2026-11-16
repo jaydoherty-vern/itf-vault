@@ -1,0 +1,8 @@
+Objectlayout sent_message_engage_connection_invite__c (
+   label('sent_message_engage_connection_invite'),
+   active(true),
+   pagelayouts('Pagelayout.sent_message_layout__c'),
+   object('Object.sent_message__v'),
+   objecttype('Objecttype.sent_message__v.engage_connection_invite__v'),
+   record_creation_layout('Pagelayout.sent_message_layout__c')
+);

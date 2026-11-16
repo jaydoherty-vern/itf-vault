@@ -1,0 +1,5 @@
+Picklistentry resi__c (
+   value('Doctor in Training/Resident'),
+   order(118),
+   active(true)
+);

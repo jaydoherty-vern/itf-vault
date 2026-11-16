@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_call_channel_autopopulate__c (
+   label('VSPA_Call_Channel_Autopopulate'),
+   active(true),
+   description('VSPA_Call_Call_Channel permission set grants access to Call_Channel_vod field and should be assigned as a pre-requisite.'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

@@ -1,0 +1,5 @@
+Picklistentry pl_tg__c (
+   value('PL_Tarnobrzeg'),
+   order(1377),
+   active(true)
+);

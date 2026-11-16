@@ -1,0 +1,5 @@
+Picklistentry ci_sm__c (
+   value('CI-SM'),
+   order(703),
+   active(true)
+);

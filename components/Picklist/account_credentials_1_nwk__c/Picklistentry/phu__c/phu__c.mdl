@@ -1,0 +1,5 @@
+Picklistentry phu__c (
+   value('University Hospital Practitioner (PHU)'),
+   order(37),
+   active(true)
+);

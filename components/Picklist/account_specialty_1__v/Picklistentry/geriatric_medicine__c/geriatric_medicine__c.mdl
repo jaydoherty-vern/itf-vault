@@ -1,0 +1,5 @@
+Picklistentry geriatric_medicine__c (
+   value('GERIATRIC MEDICINE'),
+   order(336),
+   active(true)
+);

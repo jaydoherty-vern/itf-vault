@@ -1,0 +1,5 @@
+Picklistentry refractive_laser_surgery__c (
+   value('Refractive (Laser) Surgery'),
+   order(52),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cl_ar__c (
+   value('Araucanía'),
+   order(134),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield hco_focus_area_1_nwk__c (
+   source('standard'),
+   required(false)
+);

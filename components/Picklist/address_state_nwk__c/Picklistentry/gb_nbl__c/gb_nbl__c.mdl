@@ -1,0 +1,5 @@
+Picklistentry gb_nbl__c (
+   value('GB-NBL'),
+   order(554),
+   active(false)
+);

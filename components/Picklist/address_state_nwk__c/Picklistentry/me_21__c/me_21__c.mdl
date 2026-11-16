@@ -1,0 +1,5 @@
+Picklistentry me_21__c (
+   value('ME_Žabljak'),
+   order(1205),
+   active(true)
+);

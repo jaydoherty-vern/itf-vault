@@ -1,0 +1,8 @@
+Objectlayout survey_recurring__c (
+   label('survey_recurring'),
+   active(true),
+   pagelayouts('Pagelayout.survey_layout__c'),
+   object('Object.survey__v'),
+   objecttype('Objecttype.survey__v.recurring__v'),
+   record_creation_layout('Pagelayout.survey_layout__c')
+);

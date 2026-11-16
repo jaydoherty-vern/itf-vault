@@ -1,0 +1,5 @@
+Picklistentry profiling_segmentation__c (
+   value('Profiling, Segmentation, Targeting'),
+   order(33),
+   active(true)
+);

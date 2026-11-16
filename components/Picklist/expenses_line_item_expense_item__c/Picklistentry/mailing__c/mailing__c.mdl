@@ -1,0 +1,5 @@
+Picklistentry mailing__c (
+   value('Mailing'),
+   order(6),
+   active(true)
+);

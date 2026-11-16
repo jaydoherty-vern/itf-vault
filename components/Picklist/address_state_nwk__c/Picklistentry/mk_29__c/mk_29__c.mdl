@@ -1,0 +1,5 @@
+Picklistentry mk_29__c (
+   value('MK_Gjorče Petrov'),
+   order(1231),
+   active(true)
+);

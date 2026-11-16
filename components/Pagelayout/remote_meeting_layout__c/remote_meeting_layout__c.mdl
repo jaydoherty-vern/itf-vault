@@ -1,0 +1,8 @@
+RECREATE Pagelayout remote_meeting_layout__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Remote Meeting Layout'),
+   page_markup(@page_markup.xml)
+);

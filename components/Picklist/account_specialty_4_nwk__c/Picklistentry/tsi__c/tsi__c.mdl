@@ -1,0 +1,5 @@
+Picklistentry tsi__c (
+   value('Thoracic Surgery-Integrated'),
+   order(509),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pl_ns__c (
+   value('PL_Nowy Sącz'),
+   order(1357),
+   active(true)
+);

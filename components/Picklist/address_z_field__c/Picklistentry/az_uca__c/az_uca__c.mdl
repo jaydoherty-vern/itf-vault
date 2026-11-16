@@ -1,0 +1,5 @@
+Picklistentry az_uca__c (
+   value('AZ-UCA'),
+   order(239),
+   active(true)
+);

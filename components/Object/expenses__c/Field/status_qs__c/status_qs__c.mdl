@@ -1,0 +1,19 @@
+Field status_qs__c (
+   label('Status'),
+   type('Picklist'),
+   active(true),
+   description('Status field, which can be controlled through approval process if needed.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.expenses_status_qs__c'),
+   default_value('{saved__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

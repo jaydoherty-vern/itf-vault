@@ -1,0 +1,5 @@
+Picklistentry mk_64__c (
+   value('MK_Radoviš'),
+   order(1264),
+   active(true)
+);

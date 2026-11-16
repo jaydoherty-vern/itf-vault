@@ -1,0 +1,5 @@
+Picklistentry cf_uk__c (
+   value('CF-UK'),
+   order(636),
+   active(true)
+);

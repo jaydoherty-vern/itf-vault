@@ -1,0 +1,5 @@
+Picklistentry riel__c (
+   value('Riel'),
+   order(33),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry sp_wch_01__c (
+   value('SP.WCH.01'),
+   order(0),
+   active(true)
+);

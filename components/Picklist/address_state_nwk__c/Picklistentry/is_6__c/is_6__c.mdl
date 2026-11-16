@@ -1,0 +1,5 @@
+Picklistentry is_6__c (
+   value('IS_Norðurland eystra'),
+   order(792),
+   active(true)
+);

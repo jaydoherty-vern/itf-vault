@@ -1,0 +1,16 @@
+RECREATE Layoutrule professional_data_steward__c.hide_firstlast_name__c (
+   active(true),
+   description('Hide first and last name on read'),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('DisplayMode()=''VIEW'''),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields('first_name_cda__v',
+      'last_name_cda__v'),
+   hide_sections(),
+   hide_layout(false),
+   label('Hide First/Last Name'),
+   order(100)
+);

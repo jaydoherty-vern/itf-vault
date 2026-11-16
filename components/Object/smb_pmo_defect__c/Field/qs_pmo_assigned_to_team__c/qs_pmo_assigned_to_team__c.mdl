@@ -1,0 +1,18 @@
+Field qs_pmo_assigned_to_team__c (
+   label('Assigned to Team'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.smb_pmo_defect_qs_pmo_assigned_to_team__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield itf_reported_number_of_pts_treated__c (
+   source('standard'),
+   required(false)
+);

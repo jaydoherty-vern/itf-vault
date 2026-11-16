@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.professional_empty_insert__c (
+   label('Professional_Empty_Insert'),
+   active(false),
+   expression('Not(And(Text(change_type__c)="Create",Not(IsBlank(Id(professional__c))),object_type__vr.name__v="Professional"))'),
+   description('The Professional must be empty for Insert request type.'),
+   error_message('Empty for "Insert" data change request type.'),
+   error_location('professional__c')
+);

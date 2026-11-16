@@ -1,0 +1,5 @@
+Picklistentry tic__c (
+   value('Technician-in-charge'),
+   order(109),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cv_sl__c (
+   value('CV-SL'),
+   order(837),
+   active(true)
+);

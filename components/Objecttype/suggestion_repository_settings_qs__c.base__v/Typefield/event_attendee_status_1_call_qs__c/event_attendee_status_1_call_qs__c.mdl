@@ -1,0 +1,4 @@
+Typefield event_attendee_status_1_call_qs__c (
+   source('standard'),
+   required(false)
+);

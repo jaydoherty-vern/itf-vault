@@ -1,0 +1,8 @@
+RECREATE Pagelayout inventory_order_allocation_layout1__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Inventory Order Allocation Layout'),
+   page_markup(@page_markup.xml)
+);

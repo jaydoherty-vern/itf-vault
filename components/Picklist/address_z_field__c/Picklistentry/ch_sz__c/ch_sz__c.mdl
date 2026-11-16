@@ -1,0 +1,5 @@
+Picklistentry ch_sz__c (
+   value('CH-SZ'),
+   order(668),
+   active(true)
+);

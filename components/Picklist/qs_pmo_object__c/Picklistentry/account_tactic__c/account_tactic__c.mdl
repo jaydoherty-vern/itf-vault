@@ -1,0 +1,5 @@
+Picklistentry account_tactic__c (
+   value('Account Tactic'),
+   order(2),
+   active(true)
+);

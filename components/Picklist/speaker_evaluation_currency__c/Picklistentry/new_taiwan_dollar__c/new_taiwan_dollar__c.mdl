@@ -1,0 +1,5 @@
+Picklistentry new_taiwan_dollar__c (
+   value('New Taiwan Dollar'),
+   order(147),
+   active(true)
+);

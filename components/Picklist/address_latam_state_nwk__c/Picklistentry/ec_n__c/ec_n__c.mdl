@@ -1,0 +1,5 @@
+Picklistentry ec_n__c (
+   value('Napo'),
+   order(235),
+   active(true)
+);

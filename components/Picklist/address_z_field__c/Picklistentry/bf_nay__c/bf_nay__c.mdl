@@ -1,0 +1,5 @@
+Picklistentry bf_nay__c (
+   value('BF-NAY'),
+   order(398),
+   active(true)
+);

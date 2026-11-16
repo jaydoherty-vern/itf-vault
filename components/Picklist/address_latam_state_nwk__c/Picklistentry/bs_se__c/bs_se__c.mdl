@@ -1,0 +1,5 @@
+Picklistentry bs_se__c (
+   value('South Eleuthera'),
+   order(121),
+   active(true)
+);

@@ -1,0 +1,11 @@
+RECREATE Picklist account_hcp_status_nwk__c (
+   label('Status'),
+   active(true),
+   Picklistentry(@Picklistentry/a__c.mdl),
+   Picklistentry(@Picklistentry/d__c.mdl),
+   Picklistentry(@Picklistentry/i__c.mdl),
+   Picklistentry(@Picklistentry/r__c.mdl),
+   Picklistentry(@Picklistentry/u__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

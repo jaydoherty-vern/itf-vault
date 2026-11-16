@@ -1,0 +1,10 @@
+Typefield interests__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_interests__c.advisor__c',
+         'Picklist.account_interests__c.company_sponsored_trials__c',
+         'Picklist.account_interests__c.education_speaker__c',
+         'Picklist.account_interests__c.iis__c',
+         'Picklist.account_interests__c.other__c',
+         'Picklist.account_interests__c.publications__c')
+);

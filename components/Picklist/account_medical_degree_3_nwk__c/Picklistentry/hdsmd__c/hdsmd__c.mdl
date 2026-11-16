@@ -1,0 +1,5 @@
+Picklistentry hdsmd__c (
+   value('Habilitated Doctor of Science Medical Doctor'),
+   order(158),
+   active(true)
+);

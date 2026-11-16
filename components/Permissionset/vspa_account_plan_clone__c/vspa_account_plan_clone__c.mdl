@@ -1,0 +1,9 @@
+RECREATE Permissionset vspa_account_plan_clone__c (
+   label('VSPA_Account_Plan_Clone'),
+   active(true),
+   description('Permission Set for enabling Account Plan Deep Cloning.'),
+   object.account_plan__v.clones__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

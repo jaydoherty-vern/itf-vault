@@ -1,0 +1,5 @@
+Picklistentry pan__c (
+   value('Pediatric Anesthesia'),
+   order(185),
+   active(true)
+);

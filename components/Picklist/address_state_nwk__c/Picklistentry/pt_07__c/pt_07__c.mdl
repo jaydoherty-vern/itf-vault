@@ -1,0 +1,5 @@
+Picklistentry pt_07__c (
+   value('PT_Évora'),
+   order(1395),
+   active(true)
+);

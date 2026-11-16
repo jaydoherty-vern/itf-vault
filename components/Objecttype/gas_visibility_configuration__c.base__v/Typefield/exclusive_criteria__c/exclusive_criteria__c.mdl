@@ -1,0 +1,4 @@
+Typefield exclusive_criteria__c (
+   source('standard'),
+   required(false)
+);

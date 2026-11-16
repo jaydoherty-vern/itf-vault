@@ -1,0 +1,8 @@
+Tabcollectionitem state_qs__c (
+   label(),
+   active(true),
+   tabs(),
+   order(3),
+   tab('Tab.state_qs__c'),
+   type('Tab')
+);

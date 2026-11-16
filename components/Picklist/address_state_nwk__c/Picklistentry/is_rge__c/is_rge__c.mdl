@@ -1,0 +1,5 @@
+Picklistentry is_rge__c (
+   value('IS_Rangárþing eystra'),
+   order(795),
+   active(true)
+);

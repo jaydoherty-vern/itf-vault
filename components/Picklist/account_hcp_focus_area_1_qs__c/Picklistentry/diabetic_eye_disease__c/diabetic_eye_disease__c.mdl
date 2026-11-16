@@ -1,0 +1,5 @@
+Picklistentry diabetic_eye_disease__c (
+   value('Diabetic Eye Disease'),
+   order(103),
+   active(true)
+);

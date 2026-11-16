@@ -1,0 +1,5 @@
+Picklistentry g_oth__c (
+   value('Other Medical Specialties'),
+   order(34),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gud__c (
+   value('Genito-Urinary Diseases (Urology) Diploma'),
+   order(173),
+   active(true)
+);

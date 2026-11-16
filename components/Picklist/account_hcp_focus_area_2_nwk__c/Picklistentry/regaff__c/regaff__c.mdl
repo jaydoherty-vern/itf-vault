@@ -1,0 +1,5 @@
+Picklistentry regaff__c (
+   value('Regulatory Affairs'),
+   order(386),
+   active(true)
+);

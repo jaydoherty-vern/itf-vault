@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrt:reportType xmlns:vrt="VaultReporttype">
+  <vrt:upRelationships>
+    <vrt:upRelationship key="survey_target__v.account__v" />
+  </vrt:upRelationships>
+  <vrt:downRelationships>
+    <vrt:downRelationship key="question_response__v.survey_target__v" />
+  </vrt:downRelationships>
+</vrt:reportType>

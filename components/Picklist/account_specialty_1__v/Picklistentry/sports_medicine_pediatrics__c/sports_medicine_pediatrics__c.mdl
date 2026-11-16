@@ -1,0 +1,5 @@
+Picklistentry sports_medicine_pediatrics__c (
+   value('SPORTS MEDICINE (PEDIATRICS)'),
+   order(8),
+   active(true)
+);

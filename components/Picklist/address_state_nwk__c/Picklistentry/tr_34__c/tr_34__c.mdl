@@ -1,0 +1,5 @@
+Picklistentry tr_34__c (
+   value('TR_İstanbul'),
+   order(1706),
+   active(true)
+);

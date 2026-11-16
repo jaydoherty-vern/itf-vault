@@ -1,0 +1,5 @@
+Picklistentry ar_y__c (
+   value('Jujuy'),
+   order(76),
+   active(true)
+);

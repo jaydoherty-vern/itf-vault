@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.ownerid__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.start_time__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.territory__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.time__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.time_off_territory_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.unavailable_for_engage_scheduling__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.reason__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.hours__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.hours_off__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.id" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.created_by__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.created_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.modified_by__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v.modified_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v___ownerid__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v___ownerid__v.isactive__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v___ownerid__v.email__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v___ownerid__v.id" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v___ownerid__v.manager__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v___ownerid__v.username__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="time_off_territory__v___ownerid__v.status__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="time_off_territory__v___ownerid__v.status__v" rightValue="active__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="CURRENTCY" leftValue="time_off_territory__v.date__v" rightValue="2024-01-01;;;2024-12-31" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="time_off_territory__v___ownerid__v.username__sys" groupBySortOn="time_off_territory__v___ownerid__v.username__sys" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="1" name="time_off_territory__v.date__v" period="MONTH" groupBySortOn="time_off_territory__v.date__v" groupBySortOrder="DESCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="time_off_territory__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

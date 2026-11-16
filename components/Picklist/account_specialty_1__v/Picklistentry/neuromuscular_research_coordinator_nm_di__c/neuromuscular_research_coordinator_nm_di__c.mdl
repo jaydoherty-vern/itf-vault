@@ -1,0 +1,5 @@
+Picklistentry neuromuscular_research_coordinator_nm_di__c (
+   value('Neuromuscular Research Coordinator, NM Disease team member'),
+   order(111),
+   active(true)
+);

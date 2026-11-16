@@ -1,0 +1,5 @@
+Picklistentry hospice_palliative_medicine_physical_med__c (
+   value('Hospice & Palliative Medicine (Physical Medicine & Rehabilitation)'),
+   order(204),
+   active(true)
+);

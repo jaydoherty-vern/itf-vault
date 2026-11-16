@@ -1,0 +1,22 @@
+RECREATE Permissionset vspa_engage_meeting_clm_hosted_online__c (
+   label('VSPA_Engage_Meeting_CLM hosted online'),
+   active(true),
+   description(),
+   object.call2_key_message__v.clm_presentation__v.field_actions('edit',
+      'read'),
+   object.call2_key_message__v.clm_presentation_name__v.field_actions('edit',
+      'read'),
+   object.call2_key_message__v.clm_presentation_version__v.field_actions('edit',
+      'read'),
+   object.call2_key_message__v.key_message__v.field_actions('edit',
+      'read'),
+   object.clm_presentation__v.clm_presentation_status__v.field_actions('read'),
+   object.clm_presentation__v.vault_external_id__v.field_actions('read'),
+   object.clm_presentation__v.version__v.field_actions('read'),
+   object.key_message__v.cdn_path__v.field_actions('read'),
+   object.key_message__v.key_message_status__v.field_actions('read'),
+   object.key_message__v.vault_external_id__v.field_actions('read'),
+   object.key_message__v.vault_guid__v.field_actions('read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

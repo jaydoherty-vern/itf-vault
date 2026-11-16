@@ -1,0 +1,5 @@
+Picklistentry vac__c (
+   value('Veterinary NAC'),
+   order(270),
+   active(true)
+);

@@ -1,0 +1,15 @@
+RECREATE Picklist veeva_status__c (
+   label('Veeva Status'),
+   active(true),
+   Picklistentry(@Picklistentry/current__c.mdl),
+   Picklistentry(@Picklistentry/submit_roadmap__c.mdl),
+   Picklistentry(@Picklistentry/roadmap_approved__c.mdl),
+   Picklistentry(@Picklistentry/roadmap_design__c.mdl),
+   Picklistentry(@Picklistentry/roadmap_build__c.mdl),
+   Picklistentry(@Picklistentry/roadmap_test__c.mdl),
+   Picklistentry(@Picklistentry/roadmap_production__c.mdl),
+   Picklistentry(@Picklistentry/roadmap_deployed__c.mdl),
+   Picklistentry(@Picklistentry/not_planned__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

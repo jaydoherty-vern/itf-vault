@@ -1,0 +1,5 @@
+Picklistentry mhtpa__c (
+   value('Dual and mixed activity'),
+   order(1),
+   active(true)
+);

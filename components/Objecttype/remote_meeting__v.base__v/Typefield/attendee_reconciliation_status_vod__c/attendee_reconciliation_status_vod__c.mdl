@@ -1,0 +1,4 @@
+Typefield attendee_reconciliation_status_vod__c (
+   source('standard'),
+   required(false)
+);

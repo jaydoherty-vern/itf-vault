@@ -1,0 +1,5 @@
+Picklistentry oral_maxillofacial_surgery__c (
+   value('Oral & Maxillofacial Surgery'),
+   order(87),
+   active(true)
+);

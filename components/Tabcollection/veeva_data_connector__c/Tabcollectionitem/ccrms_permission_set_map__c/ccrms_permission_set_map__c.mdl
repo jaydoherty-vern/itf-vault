@@ -1,0 +1,8 @@
+Tabcollectionitem ccrms_permission_set_map__c (
+   label(),
+   active(true),
+   tabs(),
+   order(3),
+   tab('Tab.ccrms_permission_set_map__c'),
+   type('Tab')
+);

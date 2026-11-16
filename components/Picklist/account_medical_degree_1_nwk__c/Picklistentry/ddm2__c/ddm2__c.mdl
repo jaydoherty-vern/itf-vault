@@ -1,0 +1,5 @@
+Picklistentry ddm2__c (
+   value('Dr. Dr. med. dent.'),
+   order(113),
+   active(true)
+);

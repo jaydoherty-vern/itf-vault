@@ -1,0 +1,18 @@
+Field country__v (
+   label('Country'),
+   type('Picklist'),
+   active(true),
+   description('The country or countries for the integrated survey. HCPs can only see integrated surveys targeted to their country. Multiple countries can be selected or the field can be left blank to indicate that the integrated survey can be accessed by HCPs from any country.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(14),
+   multi_value(true),
+   picklist('Picklist.country_codes__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

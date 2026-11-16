@@ -1,0 +1,5 @@
+Picklistentry endovascular_surgical_neuroradiology_neu__c (
+   value('ENDOVASCULAR SURGICAL NEURORADIOLOGY (NEUROLOGY)'),
+   order(38),
+   active(true)
+);

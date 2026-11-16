@@ -1,0 +1,5 @@
+Picklistentry 9_27__c (
+   value('Managed Care, Nurse Medicine Management Group'),
+   order(100),
+   active(true)
+);

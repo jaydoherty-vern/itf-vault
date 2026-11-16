@@ -1,0 +1,5 @@
+Picklistentry dcm__c (
+   value('Defense And Catastrophe Medicine Diploma'),
+   order(28),
+   active(true)
+);

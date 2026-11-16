@@ -1,0 +1,5 @@
+Picklistentry facial__c (
+   value('Aesthetic Facial (eyelids, nose, facelift, ears)'),
+   order(11),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ch_fr__c (
+   value('CH_Freiburg'),
+   order(97),
+   active(true)
+);

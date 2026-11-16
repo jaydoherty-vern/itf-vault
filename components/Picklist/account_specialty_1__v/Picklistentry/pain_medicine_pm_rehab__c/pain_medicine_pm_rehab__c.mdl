@@ -1,0 +1,5 @@
+Picklistentry pain_medicine_pm_rehab__c (
+   value('PAIN MEDICINE (PM & REHAB)'),
+   order(32),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_enf__c (
+   value('GB-ENF'),
+   order(488),
+   active(false)
+);

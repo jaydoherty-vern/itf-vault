@@ -1,0 +1,5 @@
+Picklistentry fr_66__c (
+   value('FR_Pyrénées-Orientales'),
+   order(360),
+   active(true)
+);

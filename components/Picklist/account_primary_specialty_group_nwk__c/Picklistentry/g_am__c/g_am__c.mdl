@@ -1,0 +1,5 @@
+Picklistentry g_am__c (
+   value('Aesthetic Medicine'),
+   order(2),
+   active(true)
+);

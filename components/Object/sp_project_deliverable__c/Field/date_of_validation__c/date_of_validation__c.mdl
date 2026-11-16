@@ -1,0 +1,17 @@
+Field date_of_validation__c (
+   label('Date of Validation'),
+   type('Date'),
+   active(true),
+   description('PMO:: Date of Validation'),
+   required(false),
+   help_content('Date of the final validation of the doc'),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

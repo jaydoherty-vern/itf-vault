@@ -1,0 +1,5 @@
+Picklistentry vem__c (
+   value('Veterinary Emergency Medicine'),
+   order(541),
+   active(true)
+);

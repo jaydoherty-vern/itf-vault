@@ -1,0 +1,5 @@
+Picklistentry gb_iow__c (
+   value('GB-IOW'),
+   order(517),
+   active(false)
+);

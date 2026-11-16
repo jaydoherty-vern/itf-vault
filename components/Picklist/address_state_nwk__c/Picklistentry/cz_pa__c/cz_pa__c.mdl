@@ -1,0 +1,5 @@
+Picklistentry cz_pa__c (
+   value('CZ_Pardubický kraj'),
+   order(123),
+   active(true)
+);

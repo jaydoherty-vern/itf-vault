@@ -1,0 +1,5 @@
+Picklistentry virology__c (
+   value('Virology'),
+   order(102),
+   active(true)
+);

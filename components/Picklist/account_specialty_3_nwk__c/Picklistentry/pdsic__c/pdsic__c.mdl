@@ -1,0 +1,5 @@
+Picklistentry pdsic__c (
+   value('Pediatric Surgery, Pediatric Intensive Care'),
+   order(396),
+   active(true)
+);

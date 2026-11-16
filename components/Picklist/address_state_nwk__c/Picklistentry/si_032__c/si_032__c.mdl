@@ -1,0 +1,5 @@
+Picklistentry si_032__c (
+   value('SI_Grosuplje'),
+   order(1595),
+   active(true)
+);

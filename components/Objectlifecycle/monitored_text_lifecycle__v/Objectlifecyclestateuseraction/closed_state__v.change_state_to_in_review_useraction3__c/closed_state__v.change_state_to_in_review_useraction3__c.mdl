@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction closed_state__v.change_state_to_in_review_useraction3__c (
+   label('Change State to In Review'),
+   rule(@rule.xml),
+   order(1002)
+);

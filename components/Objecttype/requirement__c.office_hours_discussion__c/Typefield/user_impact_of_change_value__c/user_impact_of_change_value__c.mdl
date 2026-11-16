@@ -1,0 +1,4 @@
+Typefield user_impact_of_change_value__c (
+   source('custom'),
+   required(false)
+);

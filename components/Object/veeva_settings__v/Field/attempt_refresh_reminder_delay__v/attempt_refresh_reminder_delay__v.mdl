@@ -1,0 +1,23 @@
+Field attempt_refresh_reminder_delay__v (
+   label('ATTEMPT_REFRESH_REMINDER_DELAY'),
+   type('Number'),
+   active(true),
+   description('Number of minutes to wait for the next Refresh reminder to user if the current data needs new Refresh.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(24),
+   default_value('60'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,10 @@
+RECREATE Permissionset vspa_enable_reports__c (
+   label('VSPA_Enable_Reports'),
+   active(true),
+   description('Allows to run reports.'),
+   object.report__sys.object_actions('edit'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view'),
+   vault_actions.reporting('read_run_reports',
+      'schedule')
+);

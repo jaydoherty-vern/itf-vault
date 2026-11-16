@@ -1,0 +1,5 @@
+Picklistentry ee_70__c (
+   value('EE_Raplamaa'),
+   order(177),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field enable_enhanced_sync__v (
+   label('Enable Enhanced Sync'),
+   type('Boolean'),
+   active(true),
+   description('Enable for objects which use a Private sharing model or have an updated Where clause. Forces a full comparison of all the object''s records the user has access to with the records on the device. Note: This has the potential to significantly increase sync times. This field is ignored for the Account Object and any child objects of Account, which always has this enabled.'),
+   required(false),
+   checkbox(true),
+   help_content('Enable to force a refresh on objects which use a Private sharing model or have an updated Where clause. May cause an in increase sync times.'),
+   list_column(false),
+   order(15),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

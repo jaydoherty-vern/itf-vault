@@ -1,0 +1,91 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.mc_cycle_plan__v.cycle_plan__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="territory__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:spacer />
+            <vault:field reference="mc_cycle_plan_status__v" required="true" />
+            <vault:field reference="lock__v" />
+            <vault:field reference="cycle__v" />
+            <vault:field reference="last_calculated__v" />
+            <vault:field reference="goal_edit_status__v" />
+            <vault:field reference="country_code__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Calculations" name="calculations__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="days_remaining__v" readOnly="true" />
+            <vault:field reference="days_total__v" readOnly="true" />
+            <vault:spacer />
+            <vault:field reference="channel_interactions_goal__v" readOnly="true" />
+            <vault:field reference="channel_interactions_earned__v" readOnly="true" />
+            <vault:field reference="channel_interaction_attainment__v" readOnly="true" />
+            <vault:field reference="channel_interaction_status__v" readOnly="true" />
+            <vault:field reference="percent_cycle_completed__v" readOnly="true" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="product_interactions_goal__v" readOnly="true" />
+            <vault:field reference="product_interactions_earned__v" readOnly="true" />
+            <vault:field reference="product_interaction_attainment__v" readOnly="true" />
+            <vault:field reference="product_interaction_status__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Team Calculations" name="team_calculations__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="team_channel_interactions_goal__v" />
+            <vault:field reference="team_channel_interactions_earned__v" />
+            <vault:field reference="team_channel_attainment__v" />
+            <vault:field reference="team_channel_status__v" />
+            <vault:field reference="team_product_interactions_goal__v" />
+            <vault:field reference="team_product_interactions_earned__v" />
+            <vault:field reference="team_product_attainment__v" />
+            <vault:field reference="team_product_status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Description" name="description__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="description__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="vexternal_id__v" readOnly="true" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Cycle Plan Summary" name="mc_cycle_plan_summaries__c">
+        <vault:relatedObject relationship="mc_cycle_plan_summaries__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="summary_for__v" width="200px" />
+            <vault:field reference="attainment__v" width="200px" />
+            <vault:field reference="interactions_earned__v" width="200px" />
+            <vault:field reference="interactions_goal__v" width="200px" />
+            <vault:field reference="percent_all_goals__v" width="200px" />
+            <vault:field reference="cycle_channel__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="MC Cycle Plan Targets" name="mc_cycle_plan_targets__c">
+        <vault:relatedObject relationship="mc_cycle_plan_targets__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="target__v" width="200px" />
+            <vault:field reference="zvod_add_postal_code_cda__c" width="200px" />
+            <vault:field reference="zvod_add_city_cda__c" width="200px" />
+            <vault:field reference="zvod_add_phone_cda__c" width="200px" />
+            <vault:field reference="channel_attainment__v" width="200px" />
+            <vault:field reference="channel_interactions_earned__v" width="200px" />
+            <vault:field reference="channel_interactions_goal__v" width="200px" />
+            <vault:field reference="channel_interactions_remaining__v" width="200px" />
+            <vault:field reference="product_attainment__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

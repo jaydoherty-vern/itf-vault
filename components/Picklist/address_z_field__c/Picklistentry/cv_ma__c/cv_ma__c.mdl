@@ -1,0 +1,5 @@
+Picklistentry cv_ma__c (
+   value('CV-MA'),
+   order(826),
+   active(true)
+);

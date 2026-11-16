@@ -1,0 +1,5 @@
+Picklistentry oncor__c (
+   value('Oncoradiology Diploma'),
+   order(228),
+   active(true)
+);

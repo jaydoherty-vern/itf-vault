@@ -1,0 +1,5 @@
+Picklistentry rwanda_franc__c (
+   value('Rwanda Franc'),
+   order(126),
+   active(true)
+);

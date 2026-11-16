@@ -1,0 +1,8 @@
+Objectlayout em_speaker_nomination_renominate__c (
+   label('em_speaker_nomination_renominate'),
+   active(true),
+   pagelayouts('Pagelayout.new_speaker_layout__c'),
+   object('Object.em_speaker_nomination__v'),
+   objecttype('Objecttype.em_speaker_nomination__v.renominate__v'),
+   record_creation_layout('Pagelayout.new_speaker_layout__c')
+);

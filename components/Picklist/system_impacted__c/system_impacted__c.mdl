@@ -1,0 +1,10 @@
+RECREATE Picklist system_impacted__c (
+   label('Impacted Applications'),
+   active(true),
+   Picklistentry(@Picklistentry/data_warehouse__c.mdl),
+   Picklistentry(@Picklistentry/hardware_field__c.mdl),
+   Picklistentry(@Picklistentry/hardware_hq__c.mdl),
+   Picklistentry(@Picklistentry/hq__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

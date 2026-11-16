@@ -1,0 +1,4 @@
+Typefield tov_total_lodging_amount__c (
+   source('standard'),
+   required(false)
+);

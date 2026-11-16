@@ -1,0 +1,4 @@
+Typefield actual_cost_per_attendee__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry dmed__c (
+   value('Dipl.-Med.'),
+   order(39),
+   active(true)
+);

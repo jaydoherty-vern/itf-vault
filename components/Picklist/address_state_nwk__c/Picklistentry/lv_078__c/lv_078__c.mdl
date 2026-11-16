@@ -1,0 +1,5 @@
+Picklistentry lv_078__c (
+   value('LV_Riebiņu novads (Riebiņi)'),
+   order(1131),
+   active(true)
+);

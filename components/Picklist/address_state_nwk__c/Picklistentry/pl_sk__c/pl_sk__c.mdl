@@ -1,0 +1,5 @@
+Picklistentry pl_sk__c (
+   value('PL_Świętokrzyskie'),
+   order(1375),
+   active(true)
+);

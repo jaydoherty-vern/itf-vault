@@ -1,0 +1,5 @@
+Picklistentry hu_bk__c (
+   value('HU_Bács-Kiskun'),
+   order(677),
+   active(true)
+);

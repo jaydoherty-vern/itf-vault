@@ -1,0 +1,5 @@
+Picklistentry it_fr__c (
+   value('IT_Frosinone'),
+   order(868),
+   active(true)
+);

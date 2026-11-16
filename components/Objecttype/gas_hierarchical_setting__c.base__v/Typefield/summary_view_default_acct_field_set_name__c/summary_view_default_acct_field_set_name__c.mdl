@@ -1,0 +1,4 @@
+Typefield summary_view_default_acct_field_set_name__c (
+   source('standard'),
+   required(false)
+);

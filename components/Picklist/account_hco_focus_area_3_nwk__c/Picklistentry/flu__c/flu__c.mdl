@@ -1,0 +1,5 @@
+Picklistentry flu__c (
+   value('Vaccinations/Immunizations'),
+   order(248),
+   active(true)
+);

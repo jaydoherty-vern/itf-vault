@@ -1,0 +1,5 @@
+Picklistentry nl_gr__c (
+   value('NL_Groningen'),
+   order(1297),
+   active(true)
+);

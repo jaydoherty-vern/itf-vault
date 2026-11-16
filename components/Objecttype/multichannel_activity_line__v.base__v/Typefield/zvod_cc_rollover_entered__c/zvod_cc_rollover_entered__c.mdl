@@ -1,0 +1,4 @@
+Typefield zvod_cc_rollover_entered__c (
+   source('standard'),
+   required(false)
+);

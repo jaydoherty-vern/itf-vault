@@ -1,0 +1,5 @@
+Picklistentry must_have__c (
+   value('Must Have'),
+   order(1),
+   active(true)
+);

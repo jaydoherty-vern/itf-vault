@@ -1,0 +1,5 @@
+Picklistentry completed__c (
+   value('Request Completed'),
+   order(1),
+   active(true)
+);

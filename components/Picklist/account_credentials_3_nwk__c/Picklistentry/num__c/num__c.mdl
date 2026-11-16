@@ -1,0 +1,5 @@
+Picklistentry num__c (
+   value('NUM'),
+   order(24),
+   active(true)
+);

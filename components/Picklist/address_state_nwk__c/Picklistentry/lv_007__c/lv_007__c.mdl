@@ -1,0 +1,5 @@
+Picklistentry lv_007__c (
+   value('LV_Alūksnes novads'),
+   order(1053),
+   active(true)
+);

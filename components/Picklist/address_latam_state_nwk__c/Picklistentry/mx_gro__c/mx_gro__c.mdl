@@ -1,0 +1,5 @@
+Picklistentry mx_gro__c (
+   value('Guerrero'),
+   order(27),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_den__c (
+   value('GB-DEN'),
+   order(470),
+   active(false)
+);

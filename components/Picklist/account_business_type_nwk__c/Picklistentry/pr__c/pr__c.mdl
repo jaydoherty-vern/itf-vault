@@ -1,0 +1,5 @@
+Picklistentry pr__c (
+   value('Private'),
+   order(5),
+   active(true)
+);

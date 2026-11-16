@@ -1,0 +1,5 @@
+Picklistentry auxpue__c (
+   value('Childcare assistant'),
+   order(20),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry travel__c (
+   value('Travel'),
+   order(8),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry liver__c (
+   value('Liver Cancer'),
+   order(124),
+   active(true)
+);

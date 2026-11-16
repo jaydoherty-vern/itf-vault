@@ -1,0 +1,5 @@
+Picklistentry gb_mty__c (
+   value('GB-MTY'),
+   order(551),
+   active(false)
+);

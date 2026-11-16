@@ -1,0 +1,8 @@
+Objectlayout remote_meeting_ms_teams_call_meeting__c (
+   label('remote_meeting_ms_teams_call_meeting'),
+   active(true),
+   pagelayouts('Pagelayout.ms_teams_call_meeting__c'),
+   object('Object.remote_meeting__v'),
+   objecttype('Objecttype.remote_meeting__v.ms_teams_call_meeting__v'),
+   record_creation_layout('Pagelayout.ms_teams_call_meeting__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry fr_nc__c (
+   value('FR_Nouvelle-Calédonie'),
+   order(352),
+   active(true)
+);

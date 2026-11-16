@@ -1,0 +1,5 @@
+Picklistentry 2_8__c (
+   value('Inactive, Undetermined'),
+   order(18),
+   active(true)
+);

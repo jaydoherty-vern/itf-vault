@@ -1,0 +1,5 @@
+Picklistentry con__c (
+   value('CON'),
+   order(6),
+   active(true)
+);

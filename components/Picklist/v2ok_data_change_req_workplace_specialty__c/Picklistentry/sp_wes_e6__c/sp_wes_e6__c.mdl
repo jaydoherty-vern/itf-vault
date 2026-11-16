@@ -1,0 +1,5 @@
+Picklistentry sp_wes_e6__c (
+   value('SP.WES.E6'),
+   order(161),
+   active(true)
+);

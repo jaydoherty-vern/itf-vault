@@ -1,0 +1,8 @@
+Objectlayout address_repmaintained__c (
+   label('address_repmaintained'),
+   active(true),
+   pagelayouts('Pagelayout.rep_address_layout_nwk__c'),
+   object('Object.address__v'),
+   objecttype('Objecttype.address__v.repmaintained__v'),
+   record_creation_layout('Pagelayout.rep_address_layout_nwk__c')
+);

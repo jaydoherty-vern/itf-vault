@@ -1,0 +1,5 @@
+Picklistentry bd_32__c (
+   value('BD-32'),
+   order(306),
+   active(true)
+);

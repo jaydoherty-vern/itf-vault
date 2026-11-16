@@ -1,0 +1,5 @@
+Picklistentry cv_rs__c (
+   value('CV-RS'),
+   order(833),
+   active(true)
+);

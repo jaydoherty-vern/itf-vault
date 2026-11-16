@@ -1,0 +1,8 @@
+RECREATE Picklist potential_veeva_roadmap__c (
+   label('Potential Veeva Roadmap'),
+   active(true),
+   Picklistentry(@Picklistentry/yes__c.mdl),
+   Picklistentry(@Picklistentry/no__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

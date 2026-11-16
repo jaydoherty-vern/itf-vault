@@ -1,0 +1,5 @@
+Picklistentry 13_7__c (
+   value('Healthcare Manufacturer, Medical-Surgical'),
+   order(53),
+   active(true)
+);

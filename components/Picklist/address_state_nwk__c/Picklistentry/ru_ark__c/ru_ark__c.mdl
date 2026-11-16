@@ -1,0 +1,5 @@
+Picklistentry ru_ark__c (
+   value('RU_Arkhangel''skaya oblast'''),
+   order(1487),
+   active(true)
+);

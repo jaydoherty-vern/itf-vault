@@ -1,0 +1,5 @@
+Picklistentry tcm__c (
+   value('Traditional Chinese Medicine'),
+   order(437),
+   active(true)
+);

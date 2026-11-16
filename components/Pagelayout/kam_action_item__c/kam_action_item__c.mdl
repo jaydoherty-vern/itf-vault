@@ -1,0 +1,8 @@
+RECREATE Pagelayout kam_action_item__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('KAM Action Item'),
+   page_markup(@page_markup.xml)
+);

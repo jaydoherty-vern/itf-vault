@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call2_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_channel__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___account__v.object_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___account__v.primary_parent__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___account__v.segmentations__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___account__v.target__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v___account__v.npi__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.name__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="IN" leftValue="call2__v.call2_status__v" rightValue="submitted__v;;;planned__v;;;saved__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="call2__v.territory__v" groupBySortOn="call2__v.territory__v" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="1" name="call2__v.ownerid__v" groupBySortOn="call2__v.ownerid__v" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="2" name="call2__v.itf_call_outcome__c" groupBySortOn="call2__v.itf_call_outcome__c" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="call2__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

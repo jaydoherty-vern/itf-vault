@@ -1,0 +1,5 @@
+Picklistentry physiology_muscle_physiology_biology_kun__c (
+   value('PHYSIOLOGY, MUSCLE PHYSIOLOGY, BIOLOGY, KUNKEL LAB'),
+   order(95),
+   active(true)
+);

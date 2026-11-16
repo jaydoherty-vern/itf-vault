@@ -1,0 +1,5 @@
+Picklistentry 11_19__c (
+   value('Pharmacy, Main branch'),
+   order(215),
+   active(true)
+);

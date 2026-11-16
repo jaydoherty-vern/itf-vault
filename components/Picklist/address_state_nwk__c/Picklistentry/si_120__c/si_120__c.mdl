@@ -1,0 +1,5 @@
+Picklistentry si_120__c (
+   value('SI_Šentjur'),
+   order(1633),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry wir_franc__c (
+   value('WIR Franc'),
+   order(145),
+   active(true)
+);

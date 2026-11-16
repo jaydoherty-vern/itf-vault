@@ -1,0 +1,5 @@
+Picklistentry vpc__c (
+   value('Veterinary Pathology (Clinical) and Laboratory'),
+   order(584),
+   active(true)
+);

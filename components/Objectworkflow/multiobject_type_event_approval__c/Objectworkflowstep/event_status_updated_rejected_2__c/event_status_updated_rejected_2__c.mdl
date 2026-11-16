@@ -1,0 +1,8 @@
+Objectworkflowstep event_status_updated_rejected_2__c (
+   label('Event Status Updated Rejected 2'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.send_rejected_notification_to_organizer__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

@@ -1,0 +1,5 @@
+Picklistentry gi_hepatology_adult_dmd_program__c (
+   value('GI- HEPATOLOGY, ADULT, DMD PROGRAM'),
+   order(69),
+   active(true)
+);

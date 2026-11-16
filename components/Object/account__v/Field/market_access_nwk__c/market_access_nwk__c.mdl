@@ -1,0 +1,18 @@
+Field market_access_nwk__c (
+   label('Market Access?'),
+   type('Boolean'),
+   active(true),
+   description('Network field - Market Access'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(286),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_066__c (
+   value('LV_Nīcas novads (Nīca)'),
+   order(1118),
+   active(true)
+);

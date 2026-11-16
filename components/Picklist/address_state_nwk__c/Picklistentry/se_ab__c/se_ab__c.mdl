@@ -1,0 +1,5 @@
+Picklistentry se_ab__c (
+   value('SE_Stockholms County'),
+   order(1580),
+   active(true)
+);

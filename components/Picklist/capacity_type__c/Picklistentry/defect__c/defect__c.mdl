@@ -1,0 +1,5 @@
+Picklistentry defect__c (
+   value('Defect'),
+   order(0),
+   active(true)
+);

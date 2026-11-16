@@ -1,0 +1,5 @@
+Picklistentry belize_dollar__c (
+   value('Belize Dollar'),
+   order(18),
+   active(true)
+);

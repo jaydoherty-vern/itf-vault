@@ -1,0 +1,18 @@
+Field hco_status_qs_vod__c (
+   label('HCO Status'),
+   type('Picklist'),
+   active(true),
+   description('HCO Status - Active or not'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(369),
+   multi_value(false),
+   picklist('Picklist.account_hco_status_qs_vod__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,32 @@
+Field user_impact_of_change_value__c (
+   label('User Impact of Change Value'),
+   type('Number'),
+   active(true),
+   description('Value is calculated by the User Impact of Change field.'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(-999999999),
+   scale(0),
+   help_content('Value is calculated by the User Impact of Change field:
+High = 1
+Medium = 2
+Low = 3'),
+   list_column(false),
+   order(147),
+   formula('Case(
+user_impact_of_change__c ,
+"High",1,
+"Medium",2,
+3
+)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   rollup(false),
+   control_binding()
+);

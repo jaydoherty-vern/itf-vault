@@ -1,0 +1,5 @@
+Picklistentry gb_kkd__c (
+   value('GB-KKD'),
+   order(526),
+   active(false)
+);

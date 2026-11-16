@@ -1,0 +1,5 @@
+Picklistentry ru_irk__c (
+   value('RU_Irkutskaya oblast'''),
+   order(1499),
+   active(true)
+);

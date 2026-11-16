@@ -1,0 +1,5 @@
+Picklistentry cbg__c (
+   value('Clinical Biochemical Genetics'),
+   order(70),
+   active(true)
+);

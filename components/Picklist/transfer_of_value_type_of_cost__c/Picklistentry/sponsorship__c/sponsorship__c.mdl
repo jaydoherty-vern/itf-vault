@@ -1,0 +1,5 @@
+Picklistentry sponsorship__c (
+   value('Sponsorship'),
+   order(7),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectlayout v2ok_data_change_request_professional_up__c (
+   label('v2ok_data_change_request_professional_update_delete'),
+   active(true),
+   pagelayouts('Pagelayout.dcr_person_update_delete__c'),
+   object('Object.v2ok_data_change_request__c'),
+   objecttype('Objecttype.v2ok_data_change_request__c.professional_update_delete__c'),
+   record_creation_layout('Pagelayout.dcr_person_update_delete__c')
+);

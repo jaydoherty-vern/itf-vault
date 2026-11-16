@@ -1,0 +1,5 @@
+Picklistentry ostheo__c (
+   value('Osteopathic Manipulative Medicine'),
+   order(304),
+   active(true)
+);

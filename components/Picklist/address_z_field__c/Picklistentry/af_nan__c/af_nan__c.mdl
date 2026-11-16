@@ -1,0 +1,5 @@
+Picklistentry af_nan__c (
+   value('AF-NAN'),
+   order(34),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield zvod_cc_track_element_type__c (
+   source('standard'),
+   required(false)
+);

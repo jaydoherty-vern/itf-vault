@@ -1,0 +1,5 @@
+Picklistentry lb_bh__c (
+   value('LB_Baalbek-Hermel'),
+   order(54),
+   active(true)
+);

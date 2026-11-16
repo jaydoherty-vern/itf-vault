@@ -1,0 +1,5 @@
+Picklistentry is_hel__c (
+   value('IS_Helgafellssveit'),
+   order(777),
+   active(true)
+);

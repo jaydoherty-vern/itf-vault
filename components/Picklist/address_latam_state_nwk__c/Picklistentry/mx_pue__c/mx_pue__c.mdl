@@ -1,0 +1,5 @@
+Picklistentry mx_pue__c (
+   value('Puebla'),
+   order(53),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pl_os__c (
+   value('PL_Ostrołęka'),
+   order(1360),
+   active(true)
+);

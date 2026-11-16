@@ -1,0 +1,5 @@
+Picklistentry eam__c (
+   value('Exotic Animal Medicine'),
+   order(137),
+   active(true)
+);

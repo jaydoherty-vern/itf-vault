@@ -1,0 +1,5 @@
+Picklistentry it_tn__c (
+   value('IT_Trento'),
+   order(929),
+   active(true)
+);

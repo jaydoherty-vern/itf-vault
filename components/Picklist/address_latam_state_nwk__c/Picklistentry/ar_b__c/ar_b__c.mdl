@@ -1,0 +1,5 @@
+Picklistentry ar_b__c (
+   value('Buenos Aires'),
+   order(60),
+   active(true)
+);

@@ -1,0 +1,5 @@
+RECREATE Tabcollection itf_requirements_issue_tracker__c (
+   label('Requirements & Issue Tracker'),
+   active(true),
+   help_content()
+);

@@ -1,0 +1,4 @@
+Typefield zvod_cc_usage_duration__c (
+   source('standard'),
+   required(false)
+);

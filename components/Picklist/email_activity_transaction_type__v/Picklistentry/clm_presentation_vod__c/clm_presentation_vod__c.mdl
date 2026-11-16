@@ -1,0 +1,5 @@
+Picklistentry clm_presentation_vod__c (
+   value('CLM Presentation'),
+   order(2),
+   active(true)
+);

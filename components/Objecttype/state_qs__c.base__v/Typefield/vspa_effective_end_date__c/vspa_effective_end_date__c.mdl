@@ -1,0 +1,4 @@
+Typefield vspa_effective_end_date__c (
+   source('standard'),
+   required(false)
+);

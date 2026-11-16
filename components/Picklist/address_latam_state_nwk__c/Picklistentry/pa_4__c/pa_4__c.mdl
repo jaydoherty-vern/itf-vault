@@ -1,0 +1,5 @@
+Picklistentry pa_4__c (
+   value('Chiriquí'),
+   order(330),
+   active(true)
+);

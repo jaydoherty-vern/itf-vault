@@ -1,0 +1,5 @@
+Picklistentry ar_p__c (
+   value('Formosa'),
+   order(78),
+   active(true)
+);

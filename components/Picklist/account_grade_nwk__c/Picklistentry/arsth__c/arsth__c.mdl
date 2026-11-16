@@ -1,0 +1,5 @@
+Picklistentry arsth__c (
+   value('ARSTH'),
+   order(1),
+   active(true)
+);

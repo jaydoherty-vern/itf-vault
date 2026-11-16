@@ -1,0 +1,5 @@
+Picklistentry neugen__c (
+   value('Neurogenetic'),
+   order(264),
+   active(true)
+);

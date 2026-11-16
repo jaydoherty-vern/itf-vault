@@ -1,0 +1,5 @@
+Picklistentry pl_ld__c (
+   value('PL_Łódzkie'),
+   order(1351),
+   active(true)
+);

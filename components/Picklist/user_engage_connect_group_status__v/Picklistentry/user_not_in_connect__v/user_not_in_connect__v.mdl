@@ -1,0 +1,5 @@
+Picklistentry user_not_in_connect__v (
+   value('User not in Connect'),
+   order(1),
+   active(true)
+);

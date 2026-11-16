@@ -1,0 +1,5 @@
+Picklistentry mx_chp__c (
+   value('Chiapas'),
+   order(57),
+   active(true)
+);

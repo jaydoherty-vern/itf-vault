@@ -1,0 +1,5 @@
+Picklistentry me_12__c (
+   value('ME_Nikšić'),
+   order(1196),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mk_84__c (
+   value('MK_Šuto Orizari'),
+   order(1275),
+   active(true)
+);

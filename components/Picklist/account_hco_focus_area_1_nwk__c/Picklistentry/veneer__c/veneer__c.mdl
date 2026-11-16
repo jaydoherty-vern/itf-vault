@@ -1,0 +1,5 @@
+Picklistentry veneer__c (
+   value('Porcelain Veneers'),
+   order(216),
+   active(true)
+);

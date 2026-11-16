@@ -1,0 +1,5 @@
+Picklistentry pharmg__c (
+   value('Pharmacy Manager'),
+   order(181),
+   active(true)
+);

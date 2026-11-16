@@ -1,0 +1,5 @@
+Picklistentry mmicrob__c (
+   value('Medical Microbiology Diploma'),
+   order(209),
+   active(true)
+);

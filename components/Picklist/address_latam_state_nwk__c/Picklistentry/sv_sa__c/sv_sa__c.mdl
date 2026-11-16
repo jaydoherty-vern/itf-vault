@@ -1,0 +1,5 @@
+Picklistentry sv_sa__c (
+   value('Santa Ana'),
+   order(372),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry hk__v (
+   value('Hong Kong SAR'),
+   order(45),
+   active(true)
+);

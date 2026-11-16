@@ -1,0 +1,5 @@
+Picklistentry moroccan_dirham__c (
+   value('Moroccan Dirham'),
+   order(108),
+   active(true)
+);

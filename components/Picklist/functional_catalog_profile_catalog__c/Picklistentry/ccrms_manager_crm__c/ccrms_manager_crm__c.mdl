@@ -1,0 +1,5 @@
+Picklistentry ccrms_manager_crm__c (
+   value('CCRMS_Manager_CRM'),
+   order(7),
+   active(true)
+);

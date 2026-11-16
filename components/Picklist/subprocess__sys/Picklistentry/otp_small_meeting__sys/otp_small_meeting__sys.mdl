@@ -1,0 +1,6 @@
+Picklistentry otp_small_meeting__sys (
+   value('Small Meeting'),
+   order(157),
+   active(true),
+   controlling_entries('olc_event__sys')
+);

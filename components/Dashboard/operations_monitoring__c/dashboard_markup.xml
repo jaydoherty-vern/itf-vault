@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vault:dashboard xmlns:vault="VeevaVault" type="Eighteen-Columns" layoutVersion="V2">
+  <vault:chart name="calls_by_product__c" label="Calls By Product" type="bar" report="Report.calls_by_product_matrix__c">
+    <vault:position row="18" col="12" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Date (Month)" yaxislabel="Record Count (Call Detail)" />
+    <vault:series metric="RecordCount.call2_detail__v___call2__v">
+      <vault:grouping key="call2__v.call_date__v" value="" />
+      <vault:grouping key="call2_detail__v___call2__v.product__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="medical_inquiries_by_status_month__c" label="Medical Inquiries By Status &amp; Month" type="bar" report="Report.medical_inquiries_by_status_and_month__c">
+    <vault:position row="0" col="12" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Created Date (Month)" yaxislabel="Record Count (Medical Inquiry)" stacking="normal" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="medical_inquiry__v.created_date__v" value="" />
+      <vault:grouping key="medical_inquiry__v.medical_inquiry_status__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="call_channel_by_month__c" label="Call Channel by Month" type="column" report="Report.call_channel_by_month_matrix__c">
+    <vault:position row="9" col="0" sizeX="18" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Date (Month)" yaxislabel="Record Count (Call)" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="call2__v.call_date__v" value="" />
+      <vault:grouping key="call2__v.call_channel__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="dcrs_by_month__c" label="DCRs by Month" type="column" report="Report.data_change_requests_by_month__c">
+    <vault:position row="18" col="0" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Type" yaxislabel="Record Count (Data Change Request)" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="data_change_request__v.type__v" value="" />
+      <vault:grouping key="data_change_request__v.created_date__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="users_not_logged_for_10_days__c" label="Users Not Logged for 10 Days" type="table" report="Report.users_who_have_not_logged_in_in_the_l__c">
+    <vault:position row="18" col="6" sizeX="6" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="20" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="NoGrouping" value="AllValues" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="true">
+      <vault:reportColumn key="user__sys.name__v" label="User &gt; Name" property="link" />
+      <vault:reportColumn key="user__sys.security_profile__sys" label="User &gt; Security Profile" property="data" />
+      <vault:reportColumn key="user__sys.user_type__v" label="User &gt; User Type" property="data" />
+      <vault:reportColumn key="user__sys.last_login__sys" label="User &gt; Last Login" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+  <vault:chart name="calls_by_status_month__c" label="Calls By Status &amp; Month" type="bar" report="Report.calls_by_status__c">
+    <vault:position row="0" col="0" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Date (Month)" yaxislabel="Record Count (Call)" stacking="normal" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="call2__v.call_date__v" value="" />
+      <vault:grouping key="call2__v.call2_status__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="email_by_status_month__c" label="Email by Status &amp; Month" type="bar" report="Report.sent_email_by_status_and_month__c">
+    <vault:position row="0" col="6" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Created Date (Month)" yaxislabel="Record Count (Sent Email)" stacking="normal" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="sent_email__v.created_date__v" value="" />
+      <vault:grouping key="sent_email__v.sent_email_status__v" value="" />
+    </vault:series>
+  </vault:chart>
+</vault:dashboard>

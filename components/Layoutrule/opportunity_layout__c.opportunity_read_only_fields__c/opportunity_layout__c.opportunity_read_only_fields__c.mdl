@@ -1,0 +1,18 @@
+RECREATE Layoutrule opportunity_layout__c.opportunity_read_only_fields__c (
+   active(true),
+   description('These fields are automatically set and should not be manually edited by users.'),
+   displayed_as_readonly_fields('product__v',
+      'total_amount__v',
+      'total_quantity__v',
+      'previous_state__v'),
+   displayed_as_required_fields(),
+   expression('TRUE'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections(),
+   hide_layout(false),
+   label('Opportunity Read Only Fields'),
+   order(100)
+);

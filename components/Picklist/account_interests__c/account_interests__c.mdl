@@ -1,0 +1,12 @@
+RECREATE Picklist account_interests__c (
+   label('Interests'),
+   active(true),
+   Picklistentry(@Picklistentry/advisor__c.mdl),
+   Picklistentry(@Picklistentry/publications__c.mdl),
+   Picklistentry(@Picklistentry/iis__c.mdl),
+   Picklistentry(@Picklistentry/company_sponsored_trials__c.mdl),
+   Picklistentry(@Picklistentry/education_speaker__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

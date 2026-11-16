@@ -1,0 +1,8 @@
+Objectlayout em_catalog_print_invitation_template__c (
+   label('em_catalog_print_invitation_template'),
+   active(true),
+   pagelayouts('Pagelayout.print_invitation_layout__c'),
+   object('Object.em_catalog__v'),
+   objecttype('Objecttype.em_catalog__v.print_invitation_template__v'),
+   record_creation_layout('Pagelayout.print_invitation_layout__c')
+);

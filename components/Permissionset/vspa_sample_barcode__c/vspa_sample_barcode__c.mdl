@@ -1,0 +1,8 @@
+RECREATE Permissionset vspa_sample_barcode__c (
+   label('VSPA_Sample_Barcode'),
+   active(true),
+   description(),
+   object.sample_lot__v.batch_lot_id__v.field_actions('read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

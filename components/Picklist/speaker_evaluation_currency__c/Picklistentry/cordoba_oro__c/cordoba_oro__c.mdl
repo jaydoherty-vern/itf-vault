@@ -1,0 +1,5 @@
+Picklistentry cordoba_oro__c (
+   value('Cordoba Oro'),
+   order(113),
+   active(true)
+);

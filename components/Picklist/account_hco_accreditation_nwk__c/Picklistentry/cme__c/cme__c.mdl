@@ -1,0 +1,5 @@
+Picklistentry cme__c (
+   value('Complementary Medicine'),
+   order(10),
+   active(true)
+);

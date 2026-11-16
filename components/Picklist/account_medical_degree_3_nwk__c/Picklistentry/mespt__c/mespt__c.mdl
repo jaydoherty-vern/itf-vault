@@ -1,0 +1,5 @@
+Picklistentry mespt__c (
+   value('Diploma in Sport Medicine'),
+   order(78),
+   active(true)
+);

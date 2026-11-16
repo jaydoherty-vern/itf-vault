@@ -1,0 +1,4 @@
+Typefield workplace_cegedim_id__c (
+   source('standard'),
+   required(false)
+);

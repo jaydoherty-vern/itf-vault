@@ -1,0 +1,5 @@
+Picklistentry ppsy__c (
+   value('Pediatric psychology'),
+   order(377),
+   active(true)
+);

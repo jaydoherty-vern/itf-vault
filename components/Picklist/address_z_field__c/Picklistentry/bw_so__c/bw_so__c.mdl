@@ -1,0 +1,5 @@
+Picklistentry bw_so__c (
+   value('BW-SO'),
+   order(582),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_cld__c (
+   value('GB-CLD'),
+   order(456),
+   active(false)
+);

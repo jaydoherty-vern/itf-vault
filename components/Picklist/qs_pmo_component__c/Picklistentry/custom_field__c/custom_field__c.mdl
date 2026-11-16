@@ -1,0 +1,5 @@
+Picklistentry custom_field__c (
+   value('Custom Field'),
+   order(0),
+   active(true)
+);

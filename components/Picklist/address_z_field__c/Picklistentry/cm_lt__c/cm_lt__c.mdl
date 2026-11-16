@@ -1,0 +1,5 @@
+Picklistentry cm_lt__c (
+   value('CM-LT'),
+   order(728),
+   active(true)
+);

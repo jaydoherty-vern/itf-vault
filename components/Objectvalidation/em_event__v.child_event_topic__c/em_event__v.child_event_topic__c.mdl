@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_event__v.child_event_topic__c (
+   label('Child_Event_Topic'),
+   active(true),
+   expression('Not(And(Not(IsBlank(Id(parent_event__v))),object_type__vr.name__v="Child Event",Id(topic__v)!=Id(parent_event__vr.topic__v)))'),
+   description('The "Topic" of the child event must be equal to the topic of the parent event.'),
+   error_message('The topic of the Child Event has to match the topic of the Parent Event.'),
+   error_location('id')
+);

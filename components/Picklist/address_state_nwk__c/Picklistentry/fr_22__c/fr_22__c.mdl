@@ -1,0 +1,5 @@
+Picklistentry fr_22__c (
+   value('FR_Côtes-d''Armor'),
+   order(299),
+   active(true)
+);

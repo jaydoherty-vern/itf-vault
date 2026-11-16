@@ -1,0 +1,18 @@
+Field major_class_of_trade_qs__c (
+   label('Major Class of Trade'),
+   type('Picklist'),
+   active(true),
+   description('Network field - Major Class of Trade'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(285),
+   multi_value(false),
+   picklist('Picklist.account_major_class_of_trade_qs__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

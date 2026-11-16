@@ -1,0 +1,7 @@
+Typefield status__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.data_change_request_status__c.invalid__c',
+         'Picklist.data_change_request_status__c.provisional__c',
+         'Picklist.data_change_request_status__c.valid__c')
+);

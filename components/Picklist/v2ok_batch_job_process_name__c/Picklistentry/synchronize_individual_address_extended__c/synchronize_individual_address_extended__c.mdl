@@ -1,0 +1,5 @@
+Picklistentry synchronize_individual_address_extended__c (
+   value('Synchronize_Individual_Address_extended'),
+   order(3),
+   active(true)
+);

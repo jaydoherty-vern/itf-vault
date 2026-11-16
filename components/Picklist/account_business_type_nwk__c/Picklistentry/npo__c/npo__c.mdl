@@ -1,0 +1,5 @@
+Picklistentry npo__c (
+   value('Non-Profit Organization (NPO)'),
+   order(4),
+   active(true)
+);

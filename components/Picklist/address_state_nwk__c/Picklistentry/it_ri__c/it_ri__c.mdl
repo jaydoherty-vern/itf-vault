@@ -1,0 +1,5 @@
+Picklistentry it_ri__c (
+   value('IT_Rieti'),
+   order(914),
+   active(true)
+);

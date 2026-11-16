@@ -1,0 +1,8 @@
+RECREATE Pagelayout monitored_text_flagged_text_layout__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(true),
+   label('Monitored Text Flagged Text Page Layout'),
+   page_markup(@page_markup.xml)
+);

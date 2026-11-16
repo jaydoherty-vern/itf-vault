@@ -1,0 +1,5 @@
+Picklistentry pe_anc__c (
+   value('Ancash'),
+   order(337),
+   active(true)
+);

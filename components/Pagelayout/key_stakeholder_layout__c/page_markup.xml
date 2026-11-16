@@ -1,0 +1,18 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.key_stakeholder__v.key_stakeholder__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="key_stakeholder_name__v" />
+            <vault:field reference="key_stakeholder__v" required="true" />
+            <vault:field reference="role__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="account_plan__v" required="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,8 @@
+RECREATE Pagelayout vspa_commercial_call_report__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('VSPA Commercial Call Report'),
+   page_markup(@page_markup.xml)
+);

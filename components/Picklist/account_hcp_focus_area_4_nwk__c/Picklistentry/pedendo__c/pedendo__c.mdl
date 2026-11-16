@@ -1,0 +1,5 @@
+Picklistentry pedendo__c (
+   value('Pediatric Endocrinology & Diabetology'),
+   order(316),
+   active(true)
+);

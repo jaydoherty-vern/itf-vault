@@ -1,0 +1,5 @@
+Picklistentry 2_2__c (
+   value('Inactive, Resigned or Transferred'),
+   order(16),
+   active(true)
+);

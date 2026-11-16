@@ -1,0 +1,5 @@
+Picklistentry co_ama__c (
+   value('Amazonas (CO)'),
+   order(156),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry is_kop__c (
+   value('IS_Kópavogsbær'),
+   order(788),
+   active(true)
+);

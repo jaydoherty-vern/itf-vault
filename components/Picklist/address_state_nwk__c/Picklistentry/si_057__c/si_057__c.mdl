@@ -1,0 +1,5 @@
+Picklistentry si_057__c (
+   value('SI_Laško'),
+   order(1606),
+   active(true)
+);

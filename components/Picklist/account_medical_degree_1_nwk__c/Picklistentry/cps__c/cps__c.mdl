@@ -1,0 +1,5 @@
+Picklistentry cps__c (
+   value('Candidate of Physical Sciences'),
+   order(14),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field tov_transfer__c (
+   label('Transfer'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(159),
+   formula('If(IsBlank(Id(tov_event_hospitality_package__c)),tov_entry_transfer__c,tov_event_hospitality_package__cr.tov_entry_transfer__c)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry bi_ng__c (
+   value('BI-NG'),
+   order(464),
+   active(true)
+);

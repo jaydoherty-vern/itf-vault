@@ -1,0 +1,8 @@
+RECREATE Pagelayout vec_closed_coordinator__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('VEC_Closed_Coordinator'),
+   page_markup(@page_markup.xml)
+);

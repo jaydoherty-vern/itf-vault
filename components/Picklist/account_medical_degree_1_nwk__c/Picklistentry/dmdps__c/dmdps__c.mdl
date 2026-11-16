@@ -1,0 +1,5 @@
+Picklistentry dmdps__c (
+   value('Dr. med. Dipl. Psych.'),
+   order(120),
+   active(true)
+);

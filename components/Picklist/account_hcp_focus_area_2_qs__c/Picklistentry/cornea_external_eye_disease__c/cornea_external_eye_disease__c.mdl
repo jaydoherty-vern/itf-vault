@@ -1,0 +1,5 @@
+Picklistentry cornea_external_eye_disease__c (
+   value('Cornea & External Eye Disease'),
+   order(91),
+   active(true)
+);

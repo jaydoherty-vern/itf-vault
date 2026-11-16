@@ -1,0 +1,5 @@
+Picklistentry gb_bex__c (
+   value('GB-BEX'),
+   order(427),
+   active(false)
+);

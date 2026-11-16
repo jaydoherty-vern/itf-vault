@@ -1,0 +1,5 @@
+Picklistentry eg_mt__c (
+   value('EG_Maţrūḩ'),
+   order(13),
+   active(true)
+);

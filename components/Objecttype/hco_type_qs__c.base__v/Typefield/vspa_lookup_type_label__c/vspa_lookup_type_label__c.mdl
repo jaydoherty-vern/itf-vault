@@ -1,0 +1,4 @@
+Typefield vspa_lookup_type_label__c (
+   source('standard'),
+   required(false)
+);

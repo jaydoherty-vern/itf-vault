@@ -1,0 +1,5 @@
+Picklistentry lv_064__c (
+   value('LV_Naukšēnu novads (Naukšēni)'),
+   order(1116),
+   active(true)
+);

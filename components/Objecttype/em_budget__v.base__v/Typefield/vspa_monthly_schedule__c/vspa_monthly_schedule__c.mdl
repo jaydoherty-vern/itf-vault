@@ -1,0 +1,4 @@
+Typefield vspa_monthly_schedule__c (
+   source('standard'),
+   required(false)
+);

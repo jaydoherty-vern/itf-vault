@@ -1,0 +1,19 @@
+Field itf_additional_information__c (
+   label('Additional Logistical Information'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('For ARC-related requests, have you identified who within the facility is working with ITF ARC or Pantherx on the patient case? Generally, this is someone other than the prescriber; for example, the person listed on the enrollment form as the key contact. '),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

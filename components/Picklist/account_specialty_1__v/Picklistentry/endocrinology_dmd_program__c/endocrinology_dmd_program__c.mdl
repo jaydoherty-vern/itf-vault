@@ -1,0 +1,5 @@
+Picklistentry endocrinology_dmd_program__c (
+   value('ENDOCRINOLOGY, DMD PROGRAM'),
+   order(331),
+   active(true)
+);

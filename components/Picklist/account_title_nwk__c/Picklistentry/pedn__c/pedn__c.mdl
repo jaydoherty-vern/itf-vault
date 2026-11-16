@@ -1,0 +1,5 @@
+Picklistentry pedn__c (
+   value('Pediatric Nurse'),
+   order(73),
+   active(true)
+);

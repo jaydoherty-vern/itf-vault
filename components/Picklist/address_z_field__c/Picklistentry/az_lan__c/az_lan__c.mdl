@@ -1,0 +1,5 @@
+Picklistentry az_lan__c (
+   value('AZ-LAN'),
+   order(205),
+   active(true)
+);

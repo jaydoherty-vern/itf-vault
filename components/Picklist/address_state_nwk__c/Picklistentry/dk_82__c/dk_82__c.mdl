@@ -1,0 +1,5 @@
+Picklistentry dk_82__c (
+   value('DK_Central Denmark Region'),
+   order(148),
+   active(true)
+);

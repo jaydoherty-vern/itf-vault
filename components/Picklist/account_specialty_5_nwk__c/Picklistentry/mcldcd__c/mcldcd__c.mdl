@@ -1,0 +1,5 @@
+Picklistentry mcldcd__c (
+   value('Medical and Chemical Laboratory Diagnostics, Cyto-Diagnostics'),
+   order(246),
+   active(true)
+);

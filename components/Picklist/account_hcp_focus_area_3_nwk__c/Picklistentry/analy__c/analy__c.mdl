@@ -1,0 +1,5 @@
+Picklistentry analy__c (
+   value('Psychoanalysis'),
+   order(368),
+   active(true)
+);

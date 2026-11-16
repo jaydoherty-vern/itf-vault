@@ -1,0 +1,8 @@
+Tabcollectionitem v2ok_batch_job__c (
+   label(),
+   active(true),
+   tabs(),
+   order(0),
+   tab('Tab.v2ok_batch_job__c'),
+   type('Tab')
+);

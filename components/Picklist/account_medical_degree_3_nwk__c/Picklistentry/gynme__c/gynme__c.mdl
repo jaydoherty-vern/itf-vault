@@ -1,0 +1,5 @@
+Picklistentry gynme__c (
+   value('Diploma in Medical Gynecology'),
+   order(59),
+   active(true)
+);

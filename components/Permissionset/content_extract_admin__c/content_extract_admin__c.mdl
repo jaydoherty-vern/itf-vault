@@ -1,0 +1,7 @@
+RECREATE Permissionset content_extract_admin__c (
+   label('CONTENT_EXTRACT_ADMIN'),
+   active(true),
+   description('Ensure the Veeva CRM migration user has permissions to extract content.'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

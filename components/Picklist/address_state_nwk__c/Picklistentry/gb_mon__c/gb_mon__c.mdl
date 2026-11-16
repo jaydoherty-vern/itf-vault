@@ -1,0 +1,5 @@
+Picklistentry gb_mon__c (
+   value('GB-MON'),
+   order(548),
+   active(false)
+);

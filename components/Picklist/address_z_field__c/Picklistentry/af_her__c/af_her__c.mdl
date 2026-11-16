@@ -1,0 +1,5 @@
+Picklistentry af_her__c (
+   value('AF-HER'),
+   order(24),
+   active(true)
+);

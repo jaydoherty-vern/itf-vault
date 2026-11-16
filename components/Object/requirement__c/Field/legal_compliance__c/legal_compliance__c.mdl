@@ -1,0 +1,18 @@
+Field legal_compliance__c (
+   label('Legal & Compliance'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Required to Implement the Change to Stay Compliant with Federal Regulations'),
+   list_column(false),
+   order(70),
+   multi_value(false),
+   picklist('Picklist.legal_compliance__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

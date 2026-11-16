@@ -1,0 +1,5 @@
+Picklistentry it_ra__c (
+   value('IT_Ravenna'),
+   order(911),
+   active(true)
+);

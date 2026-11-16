@@ -1,0 +1,5 @@
+Picklistentry gb_say__c (
+   value('GB-SAY'),
+   order(593),
+   active(false)
+);

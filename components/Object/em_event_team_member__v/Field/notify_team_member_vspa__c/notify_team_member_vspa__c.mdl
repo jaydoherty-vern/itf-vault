@@ -1,0 +1,19 @@
+Field notify_team_member_vspa__c (
+   label('Notify Team Member'),
+   type('Picklist'),
+   active(true),
+   description('Picklist field to indicate if an automated email notification to the Event Team Member should be sent'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(37),
+   multi_value(false),
+   picklist('Picklist.em_event_team_me_notify_team_member_vspa__c'),
+   default_value('{no__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

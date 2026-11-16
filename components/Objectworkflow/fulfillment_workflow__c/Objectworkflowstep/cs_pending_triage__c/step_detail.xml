@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule key="nt-0-1755182374657">
+      <actions>
+        <action type="workflowContentAction.base.changeContentRecordLifecycleSt">
+          <lifecycle>fulfillment_lifecycle__v</lifecycle>
+          <lifecycleState>pending_triage_state__c</lifecycleState>
+        </action>
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

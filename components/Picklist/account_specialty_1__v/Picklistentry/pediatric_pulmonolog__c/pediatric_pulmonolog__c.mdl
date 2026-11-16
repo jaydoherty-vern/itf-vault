@@ -1,0 +1,5 @@
+Picklistentry pediatric_pulmonolog__c (
+   value('PEDIATRIC PULMONOLOG'),
+   order(377),
+   active(true)
+);

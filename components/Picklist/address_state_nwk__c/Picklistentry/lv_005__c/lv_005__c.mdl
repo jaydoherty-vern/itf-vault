@@ -1,0 +1,5 @@
+Picklistentry lv_005__c (
+   value('LV_Alojas novads (Aloja)'),
+   order(1051),
+   active(true)
+);

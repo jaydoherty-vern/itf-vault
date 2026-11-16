@@ -1,0 +1,5 @@
+Picklistentry dan__c (
+   value('Dental Anesthesiology'),
+   order(103),
+   active(true)
+);

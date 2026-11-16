@@ -1,0 +1,77 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.call2__v.callreport__v">
+    <vault:section title="Buttons" name="buttons__c">
+        <vault:detailform type="One-Column">
+            <vault:control reference="save__v" name="save__c" />
+            <vault:control reference="submit__v" name="submit__c" />
+            <vault:control reference="delete__v" name="delete__c" label="Delete" />
+            <vault:control reference="more_actions__v" name="more_actions__c" label="More Actions" />
+            <vault:field reference="itf_call_outcome__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__v" />
+            <vault:field reference="territory__v" />
+            <vault:control reference="business_account__v" name="business_account__c" label="Location" />
+            <vault:field reference="address__v" />
+            <vault:control reference="call_conflict_status__v" name="call_conflict_status__c" label="Call Conflict Status" />
+            <vault:field reference="call_datetime__v" />
+            <vault:field reference="duration__v" />
+            <vault:field reference="call2_status__v" />
+            <vault:field reference="call_channel__v" />
+            <vault:field reference="do_not_call__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="X-Pages" name="xpages_section__c" reference="xpages_section__v" />
+    <vault:section title="Attendees" name="call_attendees_section__c" reference="call_attendees_section__v">
+        <vault:bind property="paa" value="true" />
+        <vault:bind property="ao" value="true" />
+        <vault:bind property="atf" value="false" />
+        <vault:bind property="st" value="false" />
+        <vault:bind property="su" value="true" />
+        <vault:bind property="ns" value="true" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Survey Target" name="survey_target_section__c" reference="survey_target_section__v" />
+    <vault:section title="Call Details" name="call_details_section__c" reference="call_details_section__v">
+        <vault:bind property="rd" value="true" />
+        <vault:bind property="eed" value="false" />
+        <vault:bind property="htp" value="false" />
+        <vault:bind property="sd" value="false" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Key Messages" name="key_messages_section__c" reference="key_messages_section__v">
+        <vault:bind property="cat" value="true" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Product Discussion" name="product_discussion_section__c" reference="product_discussion_section__v">
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="CLM Details" name="clmdetails_section__c" reference="clmdetails_section__v">
+        <vault:bind property="ded" value="false" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Followup" name="followup_section__c" reference="followup_section__v" />
+    <vault:section title="Attachments" name="call_attachments_section__c" reference="call_attachments_section__v" />
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry si_079__c (
+   value('SI_Mozirje'),
+   order(1615),
+   active(true)
+);

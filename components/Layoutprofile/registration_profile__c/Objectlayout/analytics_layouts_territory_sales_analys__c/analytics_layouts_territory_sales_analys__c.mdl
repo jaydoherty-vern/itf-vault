@@ -1,0 +1,8 @@
+Objectlayout analytics_layouts_territory_sales_analys__c (
+   label('analytics_layouts_territory_sales_analysis'),
+   active(true),
+   pagelayouts('Pagelayout.territory_sales_analysis__c'),
+   object('Object.analytics_layouts__v'),
+   objecttype('Objecttype.analytics_layouts__v.territory_sales_analysis__v'),
+   record_creation_layout('Pagelayout.territory_sales_analysis__c')
+);

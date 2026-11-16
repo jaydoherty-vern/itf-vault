@@ -1,0 +1,5 @@
+Picklistentry tr_21__c (
+   value('TR_Diyarbakır'),
+   order(1692),
+   active(true)
+);

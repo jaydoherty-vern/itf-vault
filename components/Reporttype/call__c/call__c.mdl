@@ -1,0 +1,9 @@
+RECREATE Reporttype call__c (
+   label('Call'),
+   active(true),
+   description('Call'),
+   primary_object('call2__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

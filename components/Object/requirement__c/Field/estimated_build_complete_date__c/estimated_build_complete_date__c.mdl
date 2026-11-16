@@ -1,0 +1,17 @@
+Field estimated_build_complete_date__c (
+   label('Estimated Build Complete Date'),
+   type('Date'),
+   active(true),
+   description('Estimated date when this component of Build is completed and is ready for Code Review'),
+   required(false),
+   help_content('Estimated date when this component of Build is completed and is ready for Code Review'),
+   list_column(false),
+   order(53),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

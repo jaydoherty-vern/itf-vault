@@ -1,0 +1,5 @@
+Picklistentry andlg__c (
+   value('Diploma in Andrology'),
+   order(36),
+   active(true)
+);

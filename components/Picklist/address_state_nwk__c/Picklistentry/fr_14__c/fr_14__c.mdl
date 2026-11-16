@@ -1,0 +1,5 @@
+Picklistentry fr_14__c (
+   value('FR_Calvados'),
+   order(290),
+   active(true)
+);

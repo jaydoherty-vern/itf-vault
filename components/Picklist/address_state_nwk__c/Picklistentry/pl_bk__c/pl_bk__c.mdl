@@ -1,0 +1,5 @@
+Picklistentry pl_bk__c (
+   value('PL_Bialystok'),
+   order(1330),
+   active(true)
+);

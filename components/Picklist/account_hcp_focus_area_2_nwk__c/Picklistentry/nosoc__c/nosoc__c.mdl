@@ -1,0 +1,5 @@
+Picklistentry nosoc__c (
+   value('Nosocomial Infections'),
+   order(282),
+   active(true)
+);

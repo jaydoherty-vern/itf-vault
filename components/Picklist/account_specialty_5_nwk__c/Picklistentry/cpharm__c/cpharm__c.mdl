@@ -1,0 +1,5 @@
+Picklistentry cpharm__c (
+   value('Community Pharmacy'),
+   order(87),
+   active(true)
+);

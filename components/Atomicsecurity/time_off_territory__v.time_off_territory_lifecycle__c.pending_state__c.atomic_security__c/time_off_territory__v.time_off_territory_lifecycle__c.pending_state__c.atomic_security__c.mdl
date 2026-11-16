@@ -1,0 +1,8 @@
+RECREATE Atomicsecurity time_off_territory__v.time_off_territory_lifecycle__c.pending_state__c.atomic_security__c (
+   label('Time Off Territory-Time off Territory-Pending'),
+   active(true),
+   object('Object.time_off_territory__v'),
+   object_lifecycle('Objectlifecycle.time_off_territory_lifecycle__c'),
+   state('Objectlifecyclestate.pending_state__c'),
+   Fieldsecurity(@Fieldsecurity/approver1__c.read__v.field_security__c.mdl)
+);

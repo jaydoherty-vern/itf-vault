@@ -1,0 +1,20 @@
+Field state_province__v (
+   label('State'),
+   type('Picklist'),
+   active(true),
+   description('State of the Address'),
+   required(false),
+   unique(false),
+   help_content('State of the Address'),
+   list_column(false),
+   order(76),
+   multi_value(false),
+   picklist('Picklist.address_state__v'),
+   controlling_picklist('country__v'),
+   picklist_dependencies('{"us__v":["al__v","or__v","ms__v","mo__v","ri__v","tx__v","gu__v","nv__v","pr__v","ia__v","co__v","wv__v","dc__v","nd__v","la__v","hi__v","nh__v","ak__v","ga__v","sd__v","mp__v","va__v","as__v","in__v","mh__v","ct__v","vt__v","ny__v","ma__v","wy__v","md__v","ut__v","az__v","vi__v","nm__v","wa__v","ks__v","mt__v","wi__v","fm__v","ne__v","sc__v","de__v","ar__v","tn__v","mi__v","pw__v","oh__v","me__v","pa__v","ca__v","fl__v","nj__v","mn__v","il__v","id__v","ok__v","ky__v","nc__v"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

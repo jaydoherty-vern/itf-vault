@@ -1,0 +1,5 @@
+Picklistentry cv_so__c (
+   value('CV-SO'),
+   order(839),
+   active(true)
+);

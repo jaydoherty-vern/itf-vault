@@ -1,0 +1,5 @@
+Picklistentry pe_piu__c (
+   value('Piura'),
+   order(338),
+   active(true)
+);

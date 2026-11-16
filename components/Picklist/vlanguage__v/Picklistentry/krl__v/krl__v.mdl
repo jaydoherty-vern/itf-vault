@@ -1,0 +1,5 @@
+Picklistentry krl__v (
+   value('Karelian'),
+   order(200),
+   active(false)
+);

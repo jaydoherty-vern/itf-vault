@@ -1,0 +1,9 @@
+RECREATE Reporttype call_key_message_with_clm_presentatio__c (
+   label('Call Key Message with CLM Presentation and Key Message'),
+   active(true),
+   description('Call Key Message with CLM Presentation and Key Message'),
+   primary_object('call2_key_message__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

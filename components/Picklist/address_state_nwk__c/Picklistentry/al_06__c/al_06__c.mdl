@@ -1,0 +1,5 @@
+Picklistentry al_06__c (
+   value('AL_Korçë'),
+   order(26),
+   active(true)
+);

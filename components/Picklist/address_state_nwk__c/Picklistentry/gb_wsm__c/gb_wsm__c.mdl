@@ -1,0 +1,5 @@
+Picklistentry gb_wsm__c (
+   value('GB-WSM'),
+   order(646),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry alc__c (
+   value('Alcohology'),
+   order(26),
+   active(true)
+);

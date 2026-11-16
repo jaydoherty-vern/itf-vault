@@ -1,0 +1,8 @@
+Objectlayout ms_request_incidents__c (
+   label('ms_request_incidents'),
+   active(true),
+   pagelayouts('Pagelayout.incidents_layout__c'),
+   object('Object.ms_request__c'),
+   objecttype('Objecttype.ms_request__c.incidents__c'),
+   record_creation_layout('Pagelayout.incidents_layout__c')
+);

@@ -1,0 +1,9 @@
+RECREATE Reporttype call_with_owner__c (
+   label('Call with Owner'),
+   active(true),
+   description('Call with Owner'),
+   primary_object('call2__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

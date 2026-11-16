@@ -1,0 +1,5 @@
+Picklistentry lt_02__c (
+   value('LT_Alytaus miestas'),
+   order(975),
+   active(true)
+);

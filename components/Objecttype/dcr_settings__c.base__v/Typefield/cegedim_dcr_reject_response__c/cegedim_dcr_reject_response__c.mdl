@@ -1,0 +1,4 @@
+Typefield cegedim_dcr_reject_response__c (
+   source('standard'),
+   required(false)
+);

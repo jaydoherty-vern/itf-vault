@@ -1,0 +1,5 @@
+Picklistentry immunology__c (
+   value('IMMUNOLOGY'),
+   order(341),
+   active(true)
+);

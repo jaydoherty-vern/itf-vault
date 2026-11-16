@@ -1,0 +1,5 @@
+Picklistentry msc__c (
+   value('Multiple Sclerosis'),
+   order(144),
+   active(true)
+);

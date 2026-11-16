@@ -1,0 +1,5 @@
+Picklistentry tr_14__c (
+   value('TR_Bolu'),
+   order(1685),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry fdn__c (
+   value('Forensic Odontology'),
+   order(155),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pl_pt__c (
+   value('PL_Piotrków'),
+   order(1362),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry it_vb__c (
+   value('IT_Verbano-Cusio-Ossola'),
+   order(936),
+   active(true)
+);

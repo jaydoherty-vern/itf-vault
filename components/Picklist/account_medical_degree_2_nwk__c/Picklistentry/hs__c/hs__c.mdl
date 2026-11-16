@@ -1,0 +1,5 @@
+Picklistentry hs__c (
+   value('Hand Surgery Diploma'),
+   order(175),
+   active(true)
+);

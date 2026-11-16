@@ -1,0 +1,5 @@
+Picklistentry eg_js__c (
+   value('EG_Janūb Sīnā'''),
+   order(18),
+   active(true)
+);

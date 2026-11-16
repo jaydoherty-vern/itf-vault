@@ -1,0 +1,4 @@
+Typefield gas_message_notaligned__c (
+   source('standard'),
+   required(false)
+);

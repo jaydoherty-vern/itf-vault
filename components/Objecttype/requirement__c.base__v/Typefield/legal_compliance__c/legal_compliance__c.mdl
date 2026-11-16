@@ -1,0 +1,4 @@
+Typefield legal_compliance__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_event__v.child_event_start_time__c (
+   label('Child_Event_Start_Time'),
+   active(true),
+   expression('Not(And(Not(IsBlank(Id(parent_event__v))),object_type__vr.name__v="Child Event",start_time__v<=parent_event__vr.start_time__v))'),
+   description('The "Start Time" of the child event must be equal to or greater than the start time of the parent event.'),
+   error_message('The start time of the Child Event cannot be after the start time of the Parent Event.'),
+   error_location('id')
+);

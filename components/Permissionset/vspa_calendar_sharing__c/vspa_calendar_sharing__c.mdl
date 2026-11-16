@@ -1,0 +1,14 @@
+RECREATE Permissionset vspa_calendar_sharing__c (
+   label('VSPA_Calendar_Sharing'),
+   active(true),
+   description('Permission set to allow Calendar Sharing.'),
+   object.preferences__v.created_by__v.field_actions('read'),
+   object.preferences__v.created_date__v.field_actions('read'),
+   object.preferences__v.modified_by__v.field_actions('read'),
+   object.preferences__v.modified_date__v.field_actions('read'),
+   object.preferences__v.object_actions('edit',
+      'read'),
+   object.preferences__v.ownerid__v.field_actions('read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

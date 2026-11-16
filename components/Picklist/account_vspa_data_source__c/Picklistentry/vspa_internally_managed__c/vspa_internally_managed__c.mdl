@@ -1,0 +1,5 @@
+Picklistentry vspa_internally_managed__c (
+   value('Internally managed'),
+   order(1),
+   active(true)
+);

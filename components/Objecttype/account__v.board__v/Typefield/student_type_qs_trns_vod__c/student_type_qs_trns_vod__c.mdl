@@ -1,0 +1,7 @@
+Typefield student_type_qs_trns_vod__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_student_type_qs_trns_vod__c.external__c',
+         'Picklist.account_student_type_qs_trns_vod__c.internal__c',
+         'Picklist.account_student_type_qs_trns_vod__c.unknown__c')
+);

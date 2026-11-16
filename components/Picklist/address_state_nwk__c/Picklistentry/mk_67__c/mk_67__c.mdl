@@ -1,0 +1,5 @@
+Picklistentry mk_67__c (
+   value('MK_Rosoman'),
+   order(1267),
+   active(true)
+);

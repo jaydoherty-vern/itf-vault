@@ -1,0 +1,23 @@
+Field cache_timeout__v (
+   label('CACHE_TIMEOUT'),
+   type('Number'),
+   active(true),
+   description('Time in minutes before an object stored in VOD cache is expired.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(37),
+   default_value('960'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

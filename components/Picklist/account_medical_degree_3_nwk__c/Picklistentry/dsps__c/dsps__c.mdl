@@ -1,0 +1,5 @@
+Picklistentry dsps__c (
+   value('Dr. Sportwiss.'),
+   order(141),
+   active(true)
+);

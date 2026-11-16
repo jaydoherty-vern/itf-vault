@@ -1,0 +1,19 @@
+Field disable_parent_wizard_acct_types__v (
+   label('DISABLE_PARENT_WIZARD_ACCT_TYPES'),
+   type('String'),
+   active(true),
+   description('This setting designates the account types for which the Parent Account Wizard should not display. Account record types should be entered in a comma delimited list based on the Record Type Label.  For example, Hospital_vod.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('This setting designates the account types for which the Parent Account Wizard should not display. Account record types should be entered in a comma delimited list based on the Record Type Label.  For example, Hospital_vod.'),
+   list_column(false),
+   order(96),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

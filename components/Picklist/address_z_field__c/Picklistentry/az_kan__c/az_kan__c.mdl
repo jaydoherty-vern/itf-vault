@@ -1,0 +1,5 @@
+Picklistentry az_kan__c (
+   value('AZ-KAN'),
+   order(201),
+   active(true)
+);

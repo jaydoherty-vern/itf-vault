@@ -1,0 +1,8 @@
+RECREATE Pagelayout transfer_detail_page_layout__c (
+   active(true),
+   default_layout(true),
+   description('Default transfer order page layout'),
+   display_lifecycle_stages(false),
+   label('Transfer Order Layout'),
+   page_markup(@page_markup.xml)
+);

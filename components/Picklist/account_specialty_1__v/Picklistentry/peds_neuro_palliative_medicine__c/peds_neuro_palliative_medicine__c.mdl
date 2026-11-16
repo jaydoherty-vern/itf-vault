@@ -1,0 +1,5 @@
+Picklistentry peds_neuro_palliative_medicine__c (
+   value('PEDS NEURO & PALLIATIVE MEDICINE'),
+   order(85),
+   active(true)
+);

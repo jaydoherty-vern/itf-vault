@@ -1,0 +1,5 @@
+Picklistentry new_israeli_sheqel__c (
+   value('New Israeli Sheqel'),
+   order(78),
+   active(true)
+);

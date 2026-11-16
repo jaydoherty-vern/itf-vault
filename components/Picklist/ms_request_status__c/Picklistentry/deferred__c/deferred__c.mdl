@@ -1,0 +1,5 @@
+Picklistentry deferred__c (
+   value('Deferred'),
+   order(5),
+   active(true)
+);

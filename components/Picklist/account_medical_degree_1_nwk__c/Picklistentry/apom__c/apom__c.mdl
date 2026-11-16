@@ -1,0 +1,5 @@
+Picklistentry apom__c (
+   value('Associate Professor of medicine'),
+   order(2),
+   active(true)
+);

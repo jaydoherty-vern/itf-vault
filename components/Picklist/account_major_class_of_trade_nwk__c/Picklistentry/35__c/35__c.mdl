@@ -1,0 +1,5 @@
+Picklistentry 35__c (
+   value('Rest of World'),
+   order(22),
+   active(true)
+);

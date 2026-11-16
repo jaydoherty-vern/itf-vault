@@ -1,0 +1,5 @@
+Picklistentry sm_02__c (
+   value('SM_Chiesanuova'),
+   order(1660),
+   active(true)
+);

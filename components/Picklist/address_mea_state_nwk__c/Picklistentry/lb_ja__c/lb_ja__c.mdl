@@ -1,0 +1,5 @@
+Picklistentry lb_ja__c (
+   value('LB_Liban-Sud'),
+   order(47),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry is_influenced__v (
+   value('Referred by'),
+   order(2),
+   active(true)
+);

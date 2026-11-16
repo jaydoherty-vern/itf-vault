@@ -1,0 +1,5 @@
+Picklistentry 7349__c (
+   value('Subsidiary'),
+   order(229),
+   active(true)
+);

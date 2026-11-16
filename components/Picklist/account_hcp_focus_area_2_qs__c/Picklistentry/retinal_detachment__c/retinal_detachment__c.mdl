@@ -1,0 +1,5 @@
+Picklistentry retinal_detachment__c (
+   value('Retinal Detachment'),
+   order(61),
+   active(true)
+);

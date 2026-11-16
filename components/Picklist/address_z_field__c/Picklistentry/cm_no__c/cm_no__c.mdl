@@ -1,0 +1,5 @@
+Picklistentry cm_no__c (
+   value('CM-NO'),
+   order(729),
+   active(true)
+);

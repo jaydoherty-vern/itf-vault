@@ -1,0 +1,15 @@
+RECREATE Tab account_plans__c (
+   active(true),
+   all_view_label('All Account Plans'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Account Plans'),
+   modal_create_record(false),
+   my_view_label('My Account Plans'),
+   object('account_plan__v'),
+   order(8000),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Account Plans')
+);

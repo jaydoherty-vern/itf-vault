@@ -1,0 +1,5 @@
+Picklistentry clinbio__c (
+   value('Clinical Biochemistry'),
+   order(55),
+   active(true)
+);

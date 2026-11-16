@@ -1,0 +1,5 @@
+Picklistentry is_3__c (
+   value('IS_Vesturland'),
+   order(828),
+   active(true)
+);

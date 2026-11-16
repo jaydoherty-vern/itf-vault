@@ -1,0 +1,5 @@
+Picklistentry camelids__c (
+   value('Camelids'),
+   order(13),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry medin__c (
+   value('Diploma in Internal Medicine'),
+   order(65),
+   active(true)
+);

@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_survey_clm_end_user__c (
+   label('VSPA_Survey_CLM_End_User'),
+   active(true),
+   description(),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

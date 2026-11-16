@@ -1,0 +1,14 @@
+RECREATE Picklist smb_pmo_defect_qs_pmo_defect_type__c (
+   label('Defect Type'),
+   active(true),
+   Picklistentry(@Picklistentry/script_defect__c.mdl),
+   Picklistentry(@Picklistentry/defect__c.mdl),
+   Picklistentry(@Picklistentry/evolution__c.mdl),
+   Picklistentry(@Picklistentry/change_request__c.mdl),
+   Picklistentry(@Picklistentry/training_issue__c.mdl),
+   Picklistentry(@Picklistentry/translation__c.mdl),
+   Picklistentry(@Picklistentry/data_issue__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_wbk__c (
+   value('GB-WBK'),
+   order(630),
+   active(false)
+);

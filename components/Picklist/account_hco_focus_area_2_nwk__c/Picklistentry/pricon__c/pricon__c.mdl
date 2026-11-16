@@ -1,0 +1,5 @@
+Picklistentry pricon__c (
+   value('Private Consultation'),
+   order(221),
+   active(true)
+);

@@ -1,0 +1,57 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.smb_issue__c">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="risk_or_issue__c" />
+            <vault:field reference="sp_risk_issue__c" />
+            <vault:field reference="sp_impact__c" />
+            <vault:field reference="sp_likelihood__c" />
+            <vault:field reference="date_identified__c" />
+            <vault:field reference="raised_by__c" />
+            <vault:field reference="sp_exposure__c" />
+            <vault:field reference="status__c" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Description" name="description__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="issue_description__c" />
+            <vault:field reference="sp_ultimate_impact__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Follow Up" name="follow_up__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="owner_del__c" />
+            <vault:field reference="sp_mitigation_action_and_progress__c" />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Result" name="result__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="resolution__c" />
+            <vault:field reference="date_closed__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Actions Related" name="actions__c">
+        <vault:relatedObject relationship="actions__cr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="sp_description__c" width="200px" />
+            <vault:field reference="sp_assigned_to__c" width="200px" />
+            <vault:field reference="sp_target_date__c" width="200px" />
+            <vault:field reference="sp_status__c" width="200px" />
+            <vault:field reference="sp_importance__c" width="200px" />
+            <vault:field reference="sp_urgency__c" width="200px" />
+            <vault:field reference="sp_days_open__c" width="200px" />
+            <vault:field reference="sp_days_overdue__c" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

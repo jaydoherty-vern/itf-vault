@@ -1,0 +1,5 @@
+Picklistentry nephr__c (
+   value('Diploma in Nephrology'),
+   order(62),
+   active(true)
+);

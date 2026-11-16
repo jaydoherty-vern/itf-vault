@@ -1,0 +1,5 @@
+Picklistentry ch_sh__c (
+   value('CH-SH'),
+   order(666),
+   active(true)
+);

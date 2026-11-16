@@ -1,0 +1,5 @@
+Picklistentry exercise_physiology__c (
+   value('EXERCISE PHYSIOLOGY'),
+   order(65),
+   active(true)
+);

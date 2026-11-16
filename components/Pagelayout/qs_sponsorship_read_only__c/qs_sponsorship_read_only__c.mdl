@@ -1,0 +1,8 @@
+RECREATE Pagelayout qs_sponsorship_read_only__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('QS_Sponsorship_Read_Only'),
+   page_markup(@page_markup.xml)
+);

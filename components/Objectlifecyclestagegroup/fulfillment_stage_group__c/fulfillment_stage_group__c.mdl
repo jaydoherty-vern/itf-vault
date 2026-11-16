@@ -1,0 +1,10 @@
+RECREATE Objectlifecyclestagegroup fulfillment_stage_group__c (
+   label('Fulfillment Stage Group'),
+   active(true),
+   description(),
+   object_lifecycle('Objectlifecycle.fulfillment_lifecycle__v'),
+   object_type('Objecttype.fulfillment__v.fulfillment__v'),
+   Objectlifecyclestage(@Objectlifecyclestage/delivered__c.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/fulfillment_request__c.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/shipment_confirmation__c.mdl)
+);

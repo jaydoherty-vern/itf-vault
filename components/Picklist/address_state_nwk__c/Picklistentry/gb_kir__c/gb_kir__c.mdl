@@ -1,0 +1,5 @@
+Picklistentry gb_kir__c (
+   value('GB-KIR'),
+   order(525),
+   active(false)
+);

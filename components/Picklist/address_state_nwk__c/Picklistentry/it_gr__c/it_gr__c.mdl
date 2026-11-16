@@ -1,0 +1,5 @@
+Picklistentry it_gr__c (
+   value('IT_Grosseto'),
+   order(871),
+   active(true)
+);

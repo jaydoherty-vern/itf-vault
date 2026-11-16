@@ -1,0 +1,8 @@
+Objectworkflowstep start__c (
+   label('Start'),
+   type('start'),
+   next_steps('Objectworkflowstep.cs_pending_pa_appeal_submission__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

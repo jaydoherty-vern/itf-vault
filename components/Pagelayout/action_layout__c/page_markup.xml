@@ -1,0 +1,46 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.sp_action__c">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="sp_risk_and_issue__c" />
+            <vault:field reference="sp_importance__c" required="true" />
+            <vault:field reference="sp_priority__c" />
+            <vault:spacer />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="sp_open_date__c" required="true" />
+            <vault:field reference="sp_target_date__c" required="true" />
+            <vault:field reference="sp_urgency__c" required="true" />
+            <vault:field reference="sp_status__c" required="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Description" name="description__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="sp_description__c" required="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Follow Up" name="follow_up__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="sp_assigned_to__c" required="true" />
+            <vault:field reference="sp_days_open__c" />
+            <vault:field reference="sp_overdue__c" readOnly="true" />
+            <vault:field reference="sp_days_overdue__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Results" name="results__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="sp_result__c" />
+            <vault:field reference="sp_lessons_learnt__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

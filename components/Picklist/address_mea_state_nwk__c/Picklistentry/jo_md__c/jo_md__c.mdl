@@ -1,0 +1,5 @@
+Picklistentry jo_md__c (
+   value('JO_Mādabā'),
+   order(41),
+   active(true)
+);

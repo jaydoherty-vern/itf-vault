@@ -1,0 +1,5 @@
+Picklistentry steering_committee__c (
+   value('Steering Committee'),
+   order(19),
+   active(true)
+);

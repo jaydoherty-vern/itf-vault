@@ -1,0 +1,4 @@
+Typefield professional_activity_mode_nwk__c (
+   source('standard'),
+   required(false)
+);

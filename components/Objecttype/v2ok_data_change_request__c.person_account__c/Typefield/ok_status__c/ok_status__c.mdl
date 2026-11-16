@@ -1,0 +1,6 @@
+Typefield ok_status__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.v2ok_data_change_request_ok_status__c.active__c',
+         'Picklist.v2ok_data_change_request_ok_status__c.inactive__c')
+);

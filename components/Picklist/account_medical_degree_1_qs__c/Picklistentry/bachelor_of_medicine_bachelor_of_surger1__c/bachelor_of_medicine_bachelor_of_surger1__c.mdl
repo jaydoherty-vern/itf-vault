@@ -1,0 +1,5 @@
+Picklistentry bachelor_of_medicine_bachelor_of_surger1__c (
+   value('Bachelor of Medicine, Bachelor of Surgery (MBBS)'),
+   order(21),
+   active(true)
+);

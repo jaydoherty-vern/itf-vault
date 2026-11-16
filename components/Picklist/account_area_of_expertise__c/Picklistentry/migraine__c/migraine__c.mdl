@@ -1,0 +1,5 @@
+Picklistentry migraine__c (
+   value('Migraine'),
+   order(0),
+   active(true)
+);

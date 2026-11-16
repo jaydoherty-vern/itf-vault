@@ -1,0 +1,5 @@
+Picklistentry patient_status_active_patient_follow_up__c (
+   value('Patient status - Active patient follow up'),
+   order(2),
+   active(true)
+);

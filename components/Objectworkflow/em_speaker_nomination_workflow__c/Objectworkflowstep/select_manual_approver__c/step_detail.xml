@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="task">
+    <vwf:label>Select Approver</vwf:label>
+    <vwf:hideHomePageLink>false</vwf:hideHomePageLink>
+    <vwf:controls>
+      <vwf:control name="please_select_the_approver_for_this_spea__c" label="Please select the approver for this speaker nomination record" type="instructions">
+        <vwf:instructions>Please select the approver for this speaker nomination record</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="participant_prompt_control__c" type="participantprompt">
+        <vwf:participant reference="part_manual_approver__c" />
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+  <vwf:assignment participant="workflow_initiator__v" excludeowner="false" />
+  <vwf:assignmentType type="every" />
+  <vwf:notifications />
+  <vwf:reminders />
+  <vwf:recordWorkflowActions>
+    <vwf:recordWorkflowAction reference="Recordworkflowaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.EmSpeakerNominationUpdateSpeakerNominationWorkflowTaskAction" />
+  </vwf:recordWorkflowActions>
+  <vwf:completeWithoutViewing value="false" />
+  <vwf:taskRequirement requirement="required" />
+</vwf:stepdetails>

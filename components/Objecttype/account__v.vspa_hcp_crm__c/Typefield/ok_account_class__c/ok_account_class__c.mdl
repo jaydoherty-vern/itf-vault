@@ -1,0 +1,5 @@
+Typefield ok_account_class__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_ok_account_class__c.tbd__c')
+);

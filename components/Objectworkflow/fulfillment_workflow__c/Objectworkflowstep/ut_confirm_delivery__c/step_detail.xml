@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="task">
+    <vwf:label>Confirm Delivery</vwf:label>
+    <vwf:hideHomePageLink>false</vwf:hideHomePageLink>
+    <vwf:controls>
+      <vwf:control name="please_confirm_delivery_of_the_shipment__c" label="Please confirm delivery of the shipment by contacting the Patient.&#xD;&#xA;Shipment Tracking Number: $\{Object.shipment_tracking_number__c\}" type="instructions">
+        <vwf:instructions>Please confirm delivery of the shipment by contacting the Patient.&#xD;
+Shipment Tracking Number: $\{Object.shipment_tracking_number__c\}</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="verdict_public_key__c" type="verdict">
+        <vwf:verdict label="Delivered" name="verdict_delivered__c" />
+        <vwf:verdict label="Not Delivered" name="verdict_not_delivered__c" />
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+  <vwf:assignment participant="part_patient_support_specialist__c" excludeowner="false" />
+  <vwf:assignmentType type="every" />
+  <vwf:notifications />
+  <vwf:reminders />
+  <vwf:completeWithoutViewing value="false" />
+  <vwf:taskRequirement requirement="required" />
+</vwf:stepdetails>

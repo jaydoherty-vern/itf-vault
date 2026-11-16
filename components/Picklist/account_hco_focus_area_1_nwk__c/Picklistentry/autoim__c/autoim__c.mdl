@@ -1,0 +1,5 @@
+Picklistentry autoim__c (
+   value('Autoimmune Disease'),
+   order(22),
+   active(true)
+);

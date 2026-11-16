@@ -1,0 +1,5 @@
+Picklistentry ec_r__c (
+   value('Los Ríos (EC)'),
+   order(238),
+   active(true)
+);

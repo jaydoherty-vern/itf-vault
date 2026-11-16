@@ -1,0 +1,5 @@
+Picklistentry qa_wa__c (
+   value('QA_Al Wakrah'),
+   order(74),
+   active(true)
+);

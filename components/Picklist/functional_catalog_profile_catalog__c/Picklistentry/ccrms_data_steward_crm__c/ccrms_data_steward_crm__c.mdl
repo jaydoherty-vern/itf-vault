@@ -1,0 +1,5 @@
+Picklistentry ccrms_data_steward_crm__c (
+   value('CCRMS_Data Steward_CRM'),
+   order(10),
+   active(true)
+);

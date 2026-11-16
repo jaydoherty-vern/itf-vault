@@ -1,0 +1,5 @@
+Picklistentry cfa_franc_bceao__c (
+   value('CFA Franc BCEAO'),
+   order(19),
+   active(true)
+);

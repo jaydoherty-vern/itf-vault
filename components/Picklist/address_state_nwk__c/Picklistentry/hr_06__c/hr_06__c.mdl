@@ -1,0 +1,5 @@
+Picklistentry hr_06__c (
+   value('HR_Koprivničko-križevačka županija'),
+   order(662),
+   active(true)
+);

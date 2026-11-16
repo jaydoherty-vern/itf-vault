@@ -1,0 +1,5 @@
+Picklistentry sk_tc__c (
+   value('SK_Trenčiansky Region'),
+   order(1655),
+   active(true)
+);

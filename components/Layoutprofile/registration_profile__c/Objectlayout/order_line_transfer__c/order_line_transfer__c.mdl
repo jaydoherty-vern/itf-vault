@@ -1,0 +1,8 @@
+Objectlayout order_line_transfer__c (
+   label('order_line_transfer'),
+   active(true),
+   pagelayouts('Pagelayout.order_line_layout__c'),
+   object('Object.order_line__v'),
+   objecttype('Objecttype.order_line__v.transfer__v'),
+   record_creation_layout('Pagelayout.order_line_layout__c')
+);

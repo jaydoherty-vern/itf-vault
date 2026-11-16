@@ -1,0 +1,5 @@
+Picklistentry pediatric_allergy__c (
+   value('Pediatric Allergy'),
+   order(246),
+   active(true)
+);

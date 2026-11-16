@@ -1,0 +1,12 @@
+Typefield solution_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.ms_request_solution_type__c.configuration__c',
+         'Picklist.ms_request_solution_type__c.not_supported__c',
+         'Picklist.ms_request_solution_type__c.requires_custom_development__c',
+         'Picklist.ms_request_solution_type__c.roadmap_confirmed__c',
+         'Picklist.ms_request_solution_type__c.roadmap_open__c',
+         'Picklist.ms_request_solution_type__c.supported_via_data_interface__c',
+         'Picklist.ms_request_solution_type__c.training__c',
+         'Picklist.ms_request_solution_type__c.veeva_support_fix__c')
+);

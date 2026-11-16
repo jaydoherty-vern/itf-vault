@@ -1,0 +1,5 @@
+Picklistentry deactivate__c (
+   value('Deactivate'),
+   order(1),
+   active(true)
+);

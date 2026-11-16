@@ -1,0 +1,5 @@
+Picklistentry international_congress__c (
+   value('International Congress'),
+   order(16),
+   active(true)
+);

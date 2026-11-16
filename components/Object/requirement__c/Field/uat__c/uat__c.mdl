@@ -1,0 +1,23 @@
+Field uat__c (
+   label('UAT'),
+   type('Number'),
+   active(true),
+   description('Number of days estimated to complete UAT.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999),
+   min_value(-999999999999999),
+   scale(2),
+   help_content('Number of days estimated to complete UAT.'),
+   list_column(false),
+   order(125),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

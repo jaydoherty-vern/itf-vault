@@ -1,0 +1,5 @@
+Picklistentry psychiatry__c (
+   value('Psychiatry'),
+   order(279),
+   active(true)
+);

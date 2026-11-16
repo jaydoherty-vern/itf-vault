@@ -1,0 +1,5 @@
+Picklistentry ad_02__c (
+   value('AD_Canillo'),
+   order(1),
+   active(true)
+);

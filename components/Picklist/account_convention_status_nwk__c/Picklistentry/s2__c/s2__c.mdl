@@ -1,0 +1,5 @@
+Picklistentry s2__c (
+   value('S2'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry tr_81__c (
+   value('TR_Düzce'),
+   order(1693),
+   active(true)
+);

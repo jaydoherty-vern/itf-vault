@@ -1,0 +1,7 @@
+Picklistentry dty_proof_of_insurance__sys (
+   value('Proof of Insurance'),
+   order(134),
+   active(true),
+   controlling_entries('dlc_unclassified__sys',
+         'dlc_general__sys')
+);

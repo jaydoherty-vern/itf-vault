@@ -1,0 +1,7 @@
+Typefield event_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.medical_event_event_type__v.association_of_healthcare_professionals__c',
+         'Picklist.medical_event_event_type__v.congress_france_international__c',
+         'Picklist.medical_event_event_type__v.expert_board__c')
+);

@@ -1,0 +1,18 @@
+Field removed_release__c (
+   label('Removed from Release?'),
+   type('Boolean'),
+   active(true),
+   description('Identify requests removed from a scheduled release.'),
+   required(false),
+   checkbox(false),
+   help_content('Indicate that a Request was removed from a Release only if it is removed after Design is complete.'),
+   list_column(false),
+   order(96),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

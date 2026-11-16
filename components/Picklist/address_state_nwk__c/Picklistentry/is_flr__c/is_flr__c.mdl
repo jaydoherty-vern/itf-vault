@@ -1,0 +1,5 @@
+Picklistentry is_flr__c (
+   value('IS_Fljótsdalshreppur'),
+   order(769),
+   active(true)
+);

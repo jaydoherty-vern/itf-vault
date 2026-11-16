@@ -1,0 +1,5 @@
+Picklistentry sgp__c (
+   value('Sheep/Goats'),
+   order(238),
+   active(true)
+);

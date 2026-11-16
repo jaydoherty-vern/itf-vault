@@ -1,0 +1,5 @@
+Picklistentry spinal_cord_injury_medicine__c (
+   value('Spinal Cord Injury Medicine'),
+   order(293),
+   active(true)
+);

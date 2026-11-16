@@ -1,0 +1,5 @@
+Picklistentry is_8__c (
+   value('IS_Suðurland'),
+   order(812),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield stage_do_not_mail__c (
+   source('custom'),
+   required(false)
+);

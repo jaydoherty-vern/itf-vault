@@ -1,0 +1,9 @@
+RECREATE Reporttype clm_presentation_slide_with_clm_prese__c (
+   label('CLM Presentation Slide with CLM Presentation and Key Message'),
+   active(true),
+   description('CLM Presentation Slide with Presentation (Parent) and Key Message'),
+   primary_object('clm_presentation_slide__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

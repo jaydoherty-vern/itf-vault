@@ -1,0 +1,5 @@
+Picklistentry growing__c (
+   value('Growing'),
+   order(1),
+   active(true)
+);

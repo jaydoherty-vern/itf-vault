@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_remote_med_inquiry_signature_admin__c (
+   label('VSPA_Remote_Med_Inquiry_Signature_Admin'),
+   active(true),
+   description('Remote Signature Capture for a Medical Inquiry'),
+   object.medical_inquiry__v.signature_captured_qr_code__v.field_actions('edit',
+      'read'),
+   object.medical_inquiry__v.signature_captured_share_link__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

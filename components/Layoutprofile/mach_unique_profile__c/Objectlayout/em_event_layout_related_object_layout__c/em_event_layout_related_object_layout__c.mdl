@@ -1,0 +1,8 @@
+Objectlayout em_event_layout_related_object_layout__c (
+   label('em_event_layout_related_object_layout'),
+   active(true),
+   pagelayouts('Pagelayout.related_object_page_layout__c'),
+   object('Object.em_event_layout__v'),
+   objecttype('Objecttype.em_event_layout__v.related_object_layout__v'),
+   record_creation_layout('Pagelayout.related_object_page_layout__c')
+);

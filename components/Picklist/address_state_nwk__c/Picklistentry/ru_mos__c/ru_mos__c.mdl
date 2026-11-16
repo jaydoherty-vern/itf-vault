@@ -1,0 +1,5 @@
+Picklistentry ru_mos__c (
+   value('RU_Moskovskaya oblast'''),
+   order(1524),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pedonco__c (
+   value('Pediatric Oncology'),
+   order(199),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry dandruff__c (
+   value('Dandruff'),
+   order(32),
+   active(true)
+);

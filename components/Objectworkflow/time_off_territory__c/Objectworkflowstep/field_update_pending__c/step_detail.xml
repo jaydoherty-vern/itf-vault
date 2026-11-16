@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule key="nt-0-1794430737981">
+      <actions>
+        <action type="platform.all.updateRecordAction">
+          <targetField>Object.time_off_territory__v.time_off_territory_status__v</targetField>
+          <expression>'pending__v'</expression>
+          <updateType>formula_builder</updateType>
+        </action>
+        <action type="workflowContentAction.base.changeContentRecordLifecycleSt">
+          <lifecycle>time_off_territory_lifecycle__c</lifecycle>
+          <lifecycleState>pending_state__c</lifecycleState>
+        </action>
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

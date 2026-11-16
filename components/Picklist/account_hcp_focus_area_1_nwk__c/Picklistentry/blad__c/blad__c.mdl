@@ -1,0 +1,5 @@
+Picklistentry blad__c (
+   value('Bladder Cancer'),
+   order(42),
+   active(true)
+);

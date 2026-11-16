@@ -1,0 +1,5 @@
+Picklistentry work_meeting_meal__c (
+   value('Work Meeting Meal'),
+   order(34),
+   active(true)
+);

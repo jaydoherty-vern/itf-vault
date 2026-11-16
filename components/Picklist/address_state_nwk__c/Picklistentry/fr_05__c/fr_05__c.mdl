@@ -1,0 +1,5 @@
+Picklistentry fr_05__c (
+   value('FR_Hautes-Alpes'),
+   order(322),
+   active(true)
+);

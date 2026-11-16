@@ -1,0 +1,25 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.contract_line__v.em_speaker_contract__v">
+    <vault:section title="Fields" name="fields__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="contract__v" />
+            <vault:field reference="service__v" />
+            <vault:field reference="service_name__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="em_rate__v" />
+            <vault:field reference="em_rate_max__v" />
+            <vault:field reference="em_rate_min__v" />
+            <vault:field reference="em_rate_type__v" />
+            <vault:field reference="em_service_quantity__v" />
+            <vault:field reference="em_service_quantity_max__v" />
+            <vault:field reference="em_service_quantity_min__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

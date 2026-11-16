@@ -1,0 +1,5 @@
+Picklistentry mk_81__c (
+   value('MK_Češinovo-Obleševo'),
+   order(1219),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectlifecyclestage orientation_call__c (
+   label('Orientation Call'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.new_state__v',
+         'Objectlifecyclestate.pending_adherence_enrollment_state__c'),
+   order(1)
+);

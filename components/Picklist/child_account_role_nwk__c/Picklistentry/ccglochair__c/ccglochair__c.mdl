@@ -1,0 +1,5 @@
+Picklistentry ccglochair__c (
+   value('PCO - Locality Chair'),
+   order(174),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry bi_rt__c (
+   value('BI-RT'),
+   order(465),
+   active(true)
+);

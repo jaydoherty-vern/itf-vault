@@ -1,0 +1,8 @@
+RECREATE Picklist ms_request_assigned_to__c (
+   label('Assigned To'),
+   active(true),
+   Picklistentry(@Picklistentry/veeva__c.mdl),
+   Picklistentry(@Picklistentry/customer__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry 32_12__c (
+   value('Policlinic'),
+   order(226),
+   active(true)
+);

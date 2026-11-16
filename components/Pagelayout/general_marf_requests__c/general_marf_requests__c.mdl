@@ -1,0 +1,8 @@
+RECREATE Pagelayout general_marf_requests__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('General MARF Requests'),
+   page_markup(@page_markup.xml)
+);

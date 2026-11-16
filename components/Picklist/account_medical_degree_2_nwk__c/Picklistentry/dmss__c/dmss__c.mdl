@@ -1,0 +1,5 @@
+Picklistentry dmss__c (
+   value('Dr. sc. med.'),
+   order(148),
+   active(true)
+);

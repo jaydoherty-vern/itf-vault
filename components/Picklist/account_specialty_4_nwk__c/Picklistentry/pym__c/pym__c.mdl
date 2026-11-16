@@ -1,0 +1,5 @@
+Picklistentry pym__c (
+   value('Psychosomatic Medicine'),
+   order(430),
+   active(true)
+);

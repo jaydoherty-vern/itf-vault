@@ -1,0 +1,5 @@
+Picklistentry ar_d__c (
+   value('San Luis'),
+   order(66),
+   active(true)
+);

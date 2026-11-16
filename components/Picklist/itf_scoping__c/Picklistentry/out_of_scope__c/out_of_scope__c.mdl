@@ -1,0 +1,5 @@
+Picklistentry out_of_scope__c (
+   value('Out of Scope'),
+   order(1),
+   active(true)
+);

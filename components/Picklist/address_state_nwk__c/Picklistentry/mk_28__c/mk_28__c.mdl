@@ -1,0 +1,5 @@
+Picklistentry mk_28__c (
+   value('MK_Drugovo'),
+   order(1228),
+   active(true)
+);

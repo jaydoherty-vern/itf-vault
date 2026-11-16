@@ -1,0 +1,5 @@
+Picklistentry yor__v (
+   value('Yoruba'),
+   order(371),
+   active(false)
+);

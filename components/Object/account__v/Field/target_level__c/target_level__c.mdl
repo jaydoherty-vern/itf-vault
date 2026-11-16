@@ -1,0 +1,19 @@
+Field target_level__c (
+   label('Target Level'),
+   type('Picklist'),
+   active(true),
+   description('Field to set Target Level.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(387),
+   multi_value(false),
+   picklist('Picklist.account_target_level__c'),
+   controlling_picklist('target__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

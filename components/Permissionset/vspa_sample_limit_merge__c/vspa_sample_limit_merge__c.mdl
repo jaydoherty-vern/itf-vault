@@ -1,0 +1,15 @@
+RECREATE Permissionset vspa_sample_limit_merge__c (
+   label('VSPA_Sample_Limit_Merge'),
+   active(true),
+   description('When two Accounts with Sample Limits are merged via the Account Merge process, the Sample Limits and the associated Sample Limit Transactions of the two Accounts are also merged.'),
+   object.sample_limit__v.merge_conflict_id__v.field_actions('edit',
+      'read'),
+   object.sample_limit__v.merged__v.field_actions('edit',
+      'read'),
+   object.sample_limit__v.original_account_id__v.field_actions('edit',
+      'read'),
+   object.sample_limit_transaction__v.merged__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

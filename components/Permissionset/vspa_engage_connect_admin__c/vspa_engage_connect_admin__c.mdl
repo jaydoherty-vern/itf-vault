@@ -1,0 +1,14 @@
+RECREATE Permissionset vspa_engage_connect_admin__c (
+   label('VSPA_Engage_Connect_Admin'),
+   active(true),
+   description('Give access to the Engage_Connect_Admin_vodVisualforce page
+Give access (default off) to the Engage Connect Administration tab'),
+   object.user__sys.engage_connect_group__v.field_actions('edit',
+      'read'),
+   object.user__sys.engage_connect_group_request__v.field_actions('edit',
+      'read'),
+   object.user__sys.engage_connect_group_status__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

@@ -1,0 +1,5 @@
+Picklistentry tr_06__c (
+   value('TR_Ankara'),
+   order(1673),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cd_ma__c (
+   value('CD-MA'),
+   order(617),
+   active(true)
+);

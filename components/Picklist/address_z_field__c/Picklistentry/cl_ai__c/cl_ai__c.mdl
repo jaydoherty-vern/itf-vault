@@ -1,0 +1,5 @@
+Picklistentry cl_ai__c (
+   value('CL-AI'),
+   order(709),
+   active(true)
+);

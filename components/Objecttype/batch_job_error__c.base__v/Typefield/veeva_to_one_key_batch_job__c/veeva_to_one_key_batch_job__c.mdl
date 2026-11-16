@@ -1,0 +1,4 @@
+Typefield veeva_to_one_key_batch_job__c (
+   source('standard'),
+   required(false)
+);

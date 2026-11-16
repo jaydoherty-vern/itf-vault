@@ -1,0 +1,4 @@
+Typefield number_of_days_since_last_visit_qs__c (
+   source('standard'),
+   required(false)
+);

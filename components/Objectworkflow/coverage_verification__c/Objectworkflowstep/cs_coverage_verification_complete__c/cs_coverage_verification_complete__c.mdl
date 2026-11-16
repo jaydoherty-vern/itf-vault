@@ -1,0 +1,8 @@
+Objectworkflowstep cs_coverage_verification_complete__c (
+   label('CS: Coverage Verification Complete'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.end_prompt_next_workflow__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

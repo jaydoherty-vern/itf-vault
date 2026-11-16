@@ -1,0 +1,5 @@
+Picklistentry tr_55__c (
+   value('TR_Samsun'),
+   order(1733),
+   active(true)
+);

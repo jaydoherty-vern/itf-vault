@@ -1,0 +1,22 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.release__c">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="code_drop__c" />
+            <vault:field reference="itf_release_start_date__c" />
+            <vault:field reference="itf_release_go_live_date__c" />
+            <vault:field reference="itf_uat_start_date__c" />
+            <vault:field reference="itf_uat_close_date__c" />
+            <vault:field reference="itf_release_status__c" />
+            <vault:field reference="owner__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

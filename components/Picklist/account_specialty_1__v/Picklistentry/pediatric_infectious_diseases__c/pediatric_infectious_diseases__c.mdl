@@ -1,0 +1,5 @@
+Picklistentry pediatric_infectious_diseases__c (
+   value('PEDIATRIC INFECTIOUS DISEASES'),
+   order(367),
+   active(true)
+);

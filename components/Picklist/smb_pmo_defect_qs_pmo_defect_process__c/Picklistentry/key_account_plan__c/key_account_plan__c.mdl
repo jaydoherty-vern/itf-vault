@@ -1,0 +1,5 @@
+Picklistentry key_account_plan__c (
+   value('Key Account Plan'),
+   order(20),
+   active(true)
+);

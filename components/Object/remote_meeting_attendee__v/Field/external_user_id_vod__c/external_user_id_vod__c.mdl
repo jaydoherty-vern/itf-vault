@@ -1,0 +1,19 @@
+Field external_user_id_vod__c (
+   label('External User ID'),
+   type('String'),
+   active(true),
+   description('Stores the User Id provided by the external remote meeting service.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(41),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry otp_event__sys (
+   value('Event Call Report'),
+   order(55),
+   active(true),
+   controlling_entries('olc_call__sys')
+);

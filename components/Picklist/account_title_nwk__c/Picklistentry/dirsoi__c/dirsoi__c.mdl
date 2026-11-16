@@ -1,0 +1,5 @@
+Picklistentry dirsoi__c (
+   value('Administrative care head'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry bf_mou__c (
+   value('BF-MOU'),
+   order(395),
+   active(true)
+);

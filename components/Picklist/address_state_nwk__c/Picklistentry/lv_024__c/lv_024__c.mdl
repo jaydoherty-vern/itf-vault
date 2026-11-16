@@ -1,0 +1,5 @@
+Picklistentry lv_024__c (
+   value('LV_Dagdas novads (Dagda)'),
+   order(1070),
+   active(true)
+);

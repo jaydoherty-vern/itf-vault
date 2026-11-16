@@ -1,0 +1,20 @@
+Field permission_subcategories__c (
+   label('Permission Subcategories'),
+   type('Picklist'),
+   active(true),
+   description('Subcategories of permission sets.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.functional_cata_permission_subcategories__c'),
+   controlling_picklist('permission_categories__c'),
+   picklist_dependencies('{"medical__c":["medical_inisghts__c","call_medical_discussions__c","medical_app__c","medical_inquiry__c"],"account_management__c":["global_account_search__c","crm_campaigns__c","tfs__c","timeline__c","territory_management__c","surveys__c","suggestions__c","sphere_of_influence__c","metrics_segmentation__c","gps_functionality__c","oncology_link__c","transfer_of_value__c","kol__c","multichannel_consent__c"],"reporting__c":["my_insights__c","vinsights__c","sfdc_report__c"],"coaching__c":["advanced_coach_report__c"],"events__c":["events_management__c","engage_webinar__c","medical_events__c"],"admin__c":["local_admin__c","sso__c","translations__c","call_unlocking__c","integration__c","business_admin__c"],"system__c":["nas__c","enhanced_lookups__c"],"call_management__c":["follow_up_activities__c","apple_maps__c","product_discussions__c","call_other_attendees_concur__c","product_detailing__c","clm__c","call_signature__c","notes__c","engage_meeting__c","time_off_territory__c","calendar_sharing__c","products_assignment__c","suggested_product_detailing_priority__c","gps_functionality__c","call_objectives__c","expenses__c","mccp__c","sampling__c","approved_email__c"],"kam__c":["account_planning__c"],"otc__c":["order_management__c","inventory_monitoring__c"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

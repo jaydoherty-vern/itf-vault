@@ -1,0 +1,8 @@
+RECREATE Sharingrule html_report_kam__c (
+   label('HTML Report - KAM'),
+   active(true),
+   description(),
+   object('html_report__v'),
+   criteria([itf_sharing_group__c CONTAINS ('kam__c')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

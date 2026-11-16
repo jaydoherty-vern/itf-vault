@@ -1,0 +1,5 @@
+Picklistentry gb_bpl__c (
+   value('GB-BPL'),
+   order(441),
+   active(false)
+);

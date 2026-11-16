@@ -1,0 +1,5 @@
+Picklistentry path__c (
+   value('Pathology'),
+   order(315),
+   active(true)
+);

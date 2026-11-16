@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.id" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.object_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.ownerid__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.territory__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_datetime__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.address__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call2_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.attendees__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.attendee_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.itf_call_outcome__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_channel__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="IN" leftValue="call2__v.call2_status__v" rightValue="submitted__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="call2__v.call_date__v" period="MONTH" groupBySortOn="call2__v.call_date__v" groupBySortOrder="ASCENDING">
+      <vrp:function>
+        <vrp:selectItem type="FUNCTION" action="COUNT" property="COUNT" display="NUMBER" />
+      </vrp:function>
+    </vrp:groupItem>
+    <vrp:groupItem index="1" name="call2__v.clm__v" groupBySortOn="call2__v.clm__v" groupBySortOrder="ASCENDING">
+      <vrp:function>
+        <vrp:selectItem type="FUNCTION" action="COUNT" property="COUNT" display="NUMBER" />
+      </vrp:function>
+    </vrp:groupItem>
+  </vrp:group>
+  <vrp:order />
+</vrp:query>

@@ -1,0 +1,5 @@
+Picklistentry ru_krs__c (
+   value('RU_Kurskaya oblast'''),
+   order(1518),
+   active(true)
+);

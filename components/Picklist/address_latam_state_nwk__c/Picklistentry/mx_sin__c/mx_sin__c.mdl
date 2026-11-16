@@ -1,0 +1,5 @@
+Picklistentry mx_sin__c (
+   value('Sinaloa'),
+   order(49),
+   active(true)
+);

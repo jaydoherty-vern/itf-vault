@@ -1,0 +1,5 @@
+Picklistentry uae_dirham__c (
+   value('UAE Dirham'),
+   order(158),
+   active(true)
+);

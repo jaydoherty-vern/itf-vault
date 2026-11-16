@@ -1,0 +1,5 @@
+Picklistentry not_applicable__c (
+   value('Not Applicable'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry chp__c (
+   value('CHP'),
+   order(5),
+   active(true)
+);

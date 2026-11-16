@@ -1,0 +1,6 @@
+Picklistentry otp_grants_donations__sys (
+   value('Grants & Donations'),
+   order(75),
+   active(true),
+   controlling_entries('olc_event__sys')
+);

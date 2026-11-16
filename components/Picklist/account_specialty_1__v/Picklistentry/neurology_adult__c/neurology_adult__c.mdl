@@ -1,0 +1,5 @@
+Picklistentry neurology_adult__c (
+   value('NEUROLOGY (ADULT)'),
+   order(346),
+   active(true)
+);

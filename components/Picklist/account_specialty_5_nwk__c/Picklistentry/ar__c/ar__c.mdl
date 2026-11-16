@@ -1,0 +1,5 @@
+Picklistentry ar__c (
+   value('Abdominal Radiology'),
+   order(5),
+   active(true)
+);

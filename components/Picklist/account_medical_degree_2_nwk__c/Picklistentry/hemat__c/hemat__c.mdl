@@ -1,0 +1,5 @@
+Picklistentry hemat__c (
+   value('Diploma in Hematology'),
+   order(64),
+   active(true)
+);

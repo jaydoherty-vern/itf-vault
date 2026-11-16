@@ -1,0 +1,5 @@
+Picklistentry mk_61__c (
+   value('MK_Plasnica'),
+   order(1261),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pediatric_rheumatology__c (
+   value('Pediatric Rheumatology'),
+   order(264),
+   active(true)
+);

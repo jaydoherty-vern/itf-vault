@@ -1,0 +1,5 @@
+Picklistentry mk_47__c (
+   value('MK_Kumanovo'),
+   order(1247),
+   active(true)
+);

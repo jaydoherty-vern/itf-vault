@@ -1,0 +1,5 @@
+Picklistentry mos__c (
+   value('MOHS Surgery'),
+   order(273),
+   active(true)
+);

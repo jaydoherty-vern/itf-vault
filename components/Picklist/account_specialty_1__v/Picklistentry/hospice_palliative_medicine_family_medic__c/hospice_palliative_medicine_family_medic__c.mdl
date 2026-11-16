@@ -1,0 +1,5 @@
+Picklistentry hospice_palliative_medicine_family_medic__c (
+   value('Hospice & Palliative Medicine (Family Medicine)'),
+   order(202),
+   active(true)
+);

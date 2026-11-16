@@ -1,0 +1,5 @@
+Picklistentry technology__c (
+   value('Technology'),
+   order(5),
+   active(true)
+);

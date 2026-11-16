@@ -1,0 +1,18 @@
+Field itf_call_reason__c (
+   label('Call Reason'),
+   type('Picklist'),
+   active(true),
+   description('https://itftherapeutics.lightning.force.com/lightning/r/Requirement_vod__c/a1uVy00000GnhfJIAR/view'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(246),
+   multi_value(false),
+   picklist('Picklist.call2_itf_call_reason__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

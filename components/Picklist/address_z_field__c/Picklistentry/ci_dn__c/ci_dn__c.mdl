@@ -1,0 +1,5 @@
+Picklistentry ci_dn__c (
+   value('CI-DN'),
+   order(698),
+   active(true)
+);

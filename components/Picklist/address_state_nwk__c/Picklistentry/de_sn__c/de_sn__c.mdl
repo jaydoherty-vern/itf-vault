@@ -1,0 +1,5 @@
+Picklistentry de_sn__c (
+   value('DE_Sachsen'),
+   order(143),
+   active(true)
+);

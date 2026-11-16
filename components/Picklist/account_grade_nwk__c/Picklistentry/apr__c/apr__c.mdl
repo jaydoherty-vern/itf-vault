@@ -1,0 +1,5 @@
+Picklistentry apr__c (
+   value('APR'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry me_15__c (
+   value('ME_Plužine'),
+   order(1199),
+   active(true)
+);

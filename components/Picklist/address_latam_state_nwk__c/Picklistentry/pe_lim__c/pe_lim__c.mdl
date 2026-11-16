@@ -1,0 +1,5 @@
+Picklistentry pe_lim__c (
+   value('Lima'),
+   order(348),
+   active(true)
+);

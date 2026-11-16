@@ -1,0 +1,5 @@
+Picklistentry li_02__c (
+   value('LI_Eschen'),
+   order(963),
+   active(true)
+);

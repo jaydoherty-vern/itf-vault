@@ -1,0 +1,5 @@
+Picklistentry ch_ju__c (
+   value('CH_Canton of Jura'),
+   order(96),
+   active(true)
+);

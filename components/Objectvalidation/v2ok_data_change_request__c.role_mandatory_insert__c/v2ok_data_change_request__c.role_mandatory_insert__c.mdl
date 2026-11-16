@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.role_mandatory_insert__c (
+   label('Role_Mandatory_Insert'),
+   active(false),
+   expression('Not(And(Or(object_type__vr.name__v="Professional",object_type__vr.name__v="Hierarchy"),Text(change_type__c)="Create",IsBlank(Text(role__c))))'),
+   description(),
+   error_message('Role is Mandatory.'),
+   error_location('role__c')
+);

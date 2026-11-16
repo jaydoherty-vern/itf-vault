@@ -1,0 +1,5 @@
+Picklistentry fr_re__c (
+   value('FR_La Réunion'),
+   order(331),
+   active(true)
+);

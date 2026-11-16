@@ -1,0 +1,4 @@
+Typefield impacted_business__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry attempt_retired__c (
+   value('Attempt - Retired'),
+   order(7),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry perineu__c (
+   value('Peripheral Neuropathy'),
+   order(346),
+   active(true)
+);

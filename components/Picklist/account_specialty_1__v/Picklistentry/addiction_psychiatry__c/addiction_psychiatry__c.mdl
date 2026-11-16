@@ -1,0 +1,5 @@
+Picklistentry addiction_psychiatry__c (
+   value('ADDICTION PSYCHIATRY'),
+   order(49),
+   active(true)
+);

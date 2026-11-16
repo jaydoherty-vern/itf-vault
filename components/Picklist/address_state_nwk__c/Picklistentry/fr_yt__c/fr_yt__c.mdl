@@ -1,0 +1,5 @@
+Picklistentry fr_yt__c (
+   value('FR_Mayotte'),
+   order(345),
+   active(true)
+);

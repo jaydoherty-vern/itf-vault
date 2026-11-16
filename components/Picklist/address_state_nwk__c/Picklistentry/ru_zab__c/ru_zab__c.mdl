@@ -1,0 +1,5 @@
+Picklistentry ru_zab__c (
+   value('RU_Zabaykal''skiy kray'),
+   order(1565),
+   active(true)
+);

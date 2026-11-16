@@ -1,0 +1,5 @@
+Picklistentry core__c (
+   value('Core'),
+   order(0),
+   active(true)
+);

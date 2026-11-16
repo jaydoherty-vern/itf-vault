@@ -1,0 +1,5 @@
+Picklistentry infect__c (
+   value('Infection Prevention & Hospital Hygiene'),
+   order(200),
+   active(true)
+);

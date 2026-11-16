@@ -1,0 +1,5 @@
+Picklistentry pall__c (
+   value('Palliative Medicine'),
+   order(311),
+   active(true)
+);

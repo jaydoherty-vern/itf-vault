@@ -1,0 +1,8 @@
+Objectlayout account_partner_delivery_location__c (
+   label('account_partner_delivery_location'),
+   active(true),
+   pagelayouts('Pagelayout.account_partner_layout__c'),
+   object('Object.account_partner__v'),
+   objecttype('Objecttype.account_partner__v.delivery_location__v'),
+   record_creation_layout('Pagelayout.account_partner_layout__c')
+);

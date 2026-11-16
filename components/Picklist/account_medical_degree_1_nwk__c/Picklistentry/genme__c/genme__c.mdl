@@ -1,0 +1,5 @@
+Picklistentry genme__c (
+   value('Diploma in Medical Genetics'),
+   order(68),
+   active(true)
+);

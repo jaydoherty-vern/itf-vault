@@ -1,0 +1,5 @@
+Picklistentry gb_ckt__c (
+   value('GB-CKT'),
+   order(455),
+   active(false)
+);

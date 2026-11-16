@@ -1,0 +1,5 @@
+Picklistentry si_036__c (
+   value('SI_Idrija'),
+   order(1597),
+   active(true)
+);

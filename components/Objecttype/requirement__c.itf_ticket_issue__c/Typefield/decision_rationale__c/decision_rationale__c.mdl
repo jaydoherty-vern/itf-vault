@@ -1,0 +1,4 @@
+Typefield decision_rationale__c (
+   source('custom'),
+   required(false)
+);

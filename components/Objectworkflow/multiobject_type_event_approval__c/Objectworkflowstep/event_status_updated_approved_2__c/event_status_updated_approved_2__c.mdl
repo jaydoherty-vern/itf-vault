@@ -1,0 +1,8 @@
+Objectworkflowstep event_status_updated_approved_2__c (
+   label('Event Status Updated Approved 2'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.send_approved_notification_to_organizer1__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

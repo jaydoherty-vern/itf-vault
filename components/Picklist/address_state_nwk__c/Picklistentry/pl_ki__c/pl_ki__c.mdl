@@ -1,0 +1,5 @@
+Picklistentry pl_ki__c (
+   value('PL_Kielce'),
+   order(1343),
+   active(true)
+);

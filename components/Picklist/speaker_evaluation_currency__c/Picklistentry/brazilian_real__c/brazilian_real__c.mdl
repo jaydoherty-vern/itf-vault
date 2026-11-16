@@ -1,0 +1,5 @@
+Picklistentry brazilian_real__c (
+   value('Brazilian Real'),
+   order(28),
+   active(true)
+);

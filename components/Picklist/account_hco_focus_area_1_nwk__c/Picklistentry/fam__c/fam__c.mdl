@@ -1,0 +1,5 @@
+Picklistentry fam__c (
+   value('Family Planning'),
+   order(96),
+   active(true)
+);

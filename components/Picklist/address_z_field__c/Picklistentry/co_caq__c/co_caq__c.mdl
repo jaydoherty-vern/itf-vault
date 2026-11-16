@@ -1,0 +1,5 @@
+Picklistentry co_caq__c (
+   value('CO-CAQ'),
+   order(772),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gt_ju__c (
+   value('Jutiapa'),
+   order(258),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry co_ris__c (
+   value('Risaralda'),
+   order(145),
+   active(true)
+);

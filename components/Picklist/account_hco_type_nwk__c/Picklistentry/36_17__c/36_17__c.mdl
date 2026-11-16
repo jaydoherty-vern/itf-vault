@@ -1,0 +1,5 @@
+Picklistentry 36_17__c (
+   value('Town hall'),
+   order(266),
+   active(true)
+);

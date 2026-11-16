@@ -1,0 +1,5 @@
+Picklistentry lv_003__c (
+   value('LV_Aizputes novads (Aizpute)'),
+   order(1049),
+   active(true)
+);

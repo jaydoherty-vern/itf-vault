@@ -1,0 +1,6 @@
+Typefield assigned_to__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.ms_request_assigned_to__c.customer__c',
+         'Picklist.ms_request_assigned_to__c.veeva__c')
+);

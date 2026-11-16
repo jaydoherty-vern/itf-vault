@@ -1,0 +1,18 @@
+Field internal_slides__c (
+   label('Internal Slides'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('NB please indicate if basic slide set was prepared Internally and sent to speaker'),
+   list_column(false),
+   order(14),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

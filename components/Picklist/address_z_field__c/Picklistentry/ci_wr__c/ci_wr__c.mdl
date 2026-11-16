@@ -1,0 +1,5 @@
+Picklistentry ci_wr__c (
+   value('CI-WR'),
+   order(706),
+   active(true)
+);

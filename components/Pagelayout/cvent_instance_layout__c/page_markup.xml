@@ -1,0 +1,36 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.cvent_instance__v.cvent_instance__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="cvent_client_id__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Cvent Form Mappings" name="cvent_form_mappings__c">
+        <vault:relatedObject relationship="cvent_form_mappings__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="event_configuration__v" width="200px" />
+            <vault:field reference="event_configuration_country__v" width="200px" />
+            <vault:field reference="cvent_request_form__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Cvent Request Forms" name="cvent_request_forms__c">
+        <vault:relatedObject relationship="cvent_request_forms__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="cvent_request_form_name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Cvent Object Mappings" name="cvent_object_mappings__c">
+        <vault:relatedObject relationship="cvent_object_mappings__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="cvent_object_name__v" width="200px" />
+            <vault:field reference="salesforce_object_name__v" width="200px" />
+            <vault:field reference="external_id_api_name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

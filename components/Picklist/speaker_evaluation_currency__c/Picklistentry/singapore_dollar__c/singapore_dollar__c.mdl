@@ -1,0 +1,5 @@
+Picklistentry singapore_dollar__c (
+   value('Singapore Dollar'),
+   order(134),
+   active(true)
+);

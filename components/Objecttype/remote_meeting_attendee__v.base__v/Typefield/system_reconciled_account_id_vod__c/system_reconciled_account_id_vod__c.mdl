@@ -1,0 +1,4 @@
+Typefield system_reconciled_account_id_vod__c (
+   source('standard'),
+   required(false)
+);

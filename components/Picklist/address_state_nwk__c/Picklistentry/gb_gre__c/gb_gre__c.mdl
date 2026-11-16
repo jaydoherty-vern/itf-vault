@@ -1,0 +1,5 @@
+Picklistentry gb_gre__c (
+   value('GB-GRE'),
+   order(500),
+   active(false)
+);

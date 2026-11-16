@@ -1,0 +1,5 @@
+Picklistentry 4_54__c (
+   value('Organization, Military Clinic'),
+   order(178),
+   active(true)
+);

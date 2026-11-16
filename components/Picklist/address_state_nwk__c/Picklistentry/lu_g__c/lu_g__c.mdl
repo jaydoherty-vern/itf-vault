@@ -1,0 +1,5 @@
+Picklistentry lu_g__c (
+   value('LU_Grevenmacher'),
+   order(1044),
+   active(true)
+);

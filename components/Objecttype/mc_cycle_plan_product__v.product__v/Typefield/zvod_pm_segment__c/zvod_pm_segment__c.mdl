@@ -1,0 +1,8 @@
+Typefield zvod_pm_segment__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.mc_cycle_plan_product_zvod_pm_segment__c.grow__c',
+         'Picklist.mc_cycle_plan_product_zvod_pm_segment__c.guard__c',
+         'Picklist.mc_cycle_plan_product_zvod_pm_segment__c.inactive__c',
+         'Picklist.mc_cycle_plan_product_zvod_pm_segment__c.maintain__c')
+);

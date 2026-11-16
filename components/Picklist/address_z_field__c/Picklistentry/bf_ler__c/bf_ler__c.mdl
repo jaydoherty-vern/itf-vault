@@ -1,0 +1,5 @@
+Picklistentry bf_ler__c (
+   value('BF-LER'),
+   order(393),
+   active(true)
+);

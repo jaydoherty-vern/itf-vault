@@ -1,0 +1,5 @@
+Picklistentry lv_035__c (
+   value('LV_Ikšķiles novads (Ikšķile)'),
+   order(1083),
+   active(true)
+);

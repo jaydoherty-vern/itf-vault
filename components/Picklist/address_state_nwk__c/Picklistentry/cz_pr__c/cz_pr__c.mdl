@@ -1,0 +1,5 @@
+Picklistentry cz_pr__c (
+   value('CZ_Praha, hlavní město'),
+   order(126),
+   active(true)
+);

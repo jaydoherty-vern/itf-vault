@@ -1,0 +1,4 @@
+Typefield zvod_cc_range_value__c (
+   source('standard'),
+   required(false)
+);

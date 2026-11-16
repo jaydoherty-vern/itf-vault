@@ -1,0 +1,48 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.medical_inquiry__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" required="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Delivery Requirements" name="delivery_requirements__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="delivery_method__v" required="true" />
+            <vault:control reference="delivery_method_field_control__v" name="delivery_method_field_control__c">
+                <vault:bind property="eoe" value="false" />
+                <vault:bind property="eof" value="false" />
+                <vault:bind property="eom" value="false" />
+                <vault:bind property="eop" value="false" />
+                <vault:bind property="ana" value="true" />
+                <vault:bind property="ane" value="true" />
+                <vault:bind property="anf" value="true" />
+                <vault:bind property="anp" value="true" />
+            </vault:control>
+            <vault:field reference="assign_to_user__v" />
+            <vault:field reference="rush_delivery__v" />
+            <vault:field reference="signature_date__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Inquiry Information" name="inquiry_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="medical_inquiry_status__v" readOnly="true" />
+            <vault:field reference="product__v" />
+            <vault:field reference="inquiry_text__v" />
+            <vault:control reference="multiple_product_inquiries_field_control__v" name="multiple_product_inquiries_field_control__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:control reference="medical_inquiry_save__v" name="medical_inquiry_save__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

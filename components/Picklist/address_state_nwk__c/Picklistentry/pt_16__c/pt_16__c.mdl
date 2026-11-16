@@ -1,0 +1,5 @@
+Picklistentry pt_16__c (
+   value('PT_Viana do Castelo'),
+   order(1406),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field product_name_5__c (
+   label('Product Name 5'),
+   type('String'),
+   active(true),
+   description('To populate the first product in the call for validation request.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(41),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

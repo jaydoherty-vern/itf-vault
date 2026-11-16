@@ -1,0 +1,4 @@
+Typefield building_label__c (
+   source('custom'),
+   required(false)
+);

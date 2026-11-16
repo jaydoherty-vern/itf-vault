@@ -1,0 +1,5 @@
+RECREATE Crmapplicationprofile vspa_tp_integration__c (
+   label('VSPA_TP_Integration'),
+   active(true),
+   description()
+);

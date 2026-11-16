@@ -1,0 +1,4 @@
+Typefield mederi_advisor_score__c (
+   source('standard'),
+   required(false)
+);

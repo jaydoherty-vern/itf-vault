@@ -1,0 +1,5 @@
+Picklistentry dentnu__c (
+   value('Dental Nurse'),
+   order(29),
+   active(true)
+);

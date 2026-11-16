@@ -1,0 +1,10 @@
+Objectlifecyclepermission patient_support_specialist_read__v (
+   states('Objectlifecyclestate.active_state__v',
+         'Objectlifecyclestate.enrolled_state__c',
+         'Objectlifecyclestate.inactive_state__v',
+         'Objectlifecyclestate.new_state__v',
+         'Objectlifecyclestate.not_enrolled_state__c',
+         'Objectlifecyclestate.pending_adherence_enrollment_state__c'),
+   role('Objectlifecyclerole.patient_support_specialist__v'),
+   permission('Read')
+);

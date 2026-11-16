@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_mfa_enabled_user__c (
+   label('VSPA_MFA_Enabled_User'),
+   active(true),
+   description('Permission set to allow users to use Multi Factor Authentication'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

@@ -1,0 +1,5 @@
+Picklistentry ar_g__c (
+   value('Santiago del Estero'),
+   order(77),
+   active(true)
+);

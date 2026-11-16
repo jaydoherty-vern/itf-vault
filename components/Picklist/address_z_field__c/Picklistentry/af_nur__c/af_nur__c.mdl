@@ -1,0 +1,5 @@
+Picklistentry af_nur__c (
+   value('AF-NUR'),
+   order(36),
+   active(true)
+);

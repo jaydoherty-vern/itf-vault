@@ -1,0 +1,5 @@
+Picklistentry pediatric_and_adolescence_sports_medicin__c (
+   value('PEDIATRIC AND ADOLESCENCE, SPORTS MEDICINE SPECLIAST'),
+   order(129),
+   active(true)
+);

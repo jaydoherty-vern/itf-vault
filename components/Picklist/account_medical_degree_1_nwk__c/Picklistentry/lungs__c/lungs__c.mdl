@@ -1,0 +1,5 @@
+Picklistentry lungs__c (
+   value('Lung Surgery Diploma'),
+   order(198),
+   active(true)
+);

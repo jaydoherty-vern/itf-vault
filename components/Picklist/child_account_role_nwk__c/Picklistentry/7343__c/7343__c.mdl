@@ -1,0 +1,5 @@
+Picklistentry 7343__c (
+   value('Purchasing'),
+   order(201),
+   active(true)
+);

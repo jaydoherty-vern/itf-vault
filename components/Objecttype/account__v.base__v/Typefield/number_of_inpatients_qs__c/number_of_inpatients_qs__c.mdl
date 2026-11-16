@@ -1,0 +1,4 @@
+Typefield number_of_inpatients_qs__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry an__c (
+   value('Assistant Nurse'),
+   order(15),
+   active(true)
+);

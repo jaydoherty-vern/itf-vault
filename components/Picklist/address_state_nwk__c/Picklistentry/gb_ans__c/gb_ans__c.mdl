@@ -1,0 +1,5 @@
+Picklistentry gb_ans__c (
+   value('GB-ANS'),
+   order(418),
+   active(false)
+);

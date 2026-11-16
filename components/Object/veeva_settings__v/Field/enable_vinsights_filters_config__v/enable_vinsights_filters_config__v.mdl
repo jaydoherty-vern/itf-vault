@@ -1,0 +1,18 @@
+Field enable_vinsights_filters_config__v (
+   label('ENABLE_VINSIGHTS_FILTERS_CONFIG'),
+   type('Boolean'),
+   active(true),
+   description('If True, then the visibility of the report filters on the Vinsights pages will be driven by marker fields on the Analytics_Layout_vod object. If False, all filters relevant for each page will be visible.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(164),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

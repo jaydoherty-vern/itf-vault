@@ -1,0 +1,5 @@
+Picklistentry gynaecology__c (
+   value('Gynaecology'),
+   order(45),
+   active(true)
+);

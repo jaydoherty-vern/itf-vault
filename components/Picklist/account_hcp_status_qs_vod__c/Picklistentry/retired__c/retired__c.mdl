@@ -1,0 +1,5 @@
+Picklistentry retired__c (
+   value('Retired'),
+   order(5),
+   active(true)
+);

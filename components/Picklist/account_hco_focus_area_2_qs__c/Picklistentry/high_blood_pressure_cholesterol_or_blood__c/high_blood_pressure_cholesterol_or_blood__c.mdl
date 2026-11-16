@@ -1,0 +1,5 @@
+Picklistentry high_blood_pressure_cholesterol_or_blood__c (
+   value('High Blood Pressure, Cholesterol or Blood Glucose Testing'),
+   order(22),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield qs_pmo_defect_comment_description__c (
+   source('standard'),
+   required(false)
+);

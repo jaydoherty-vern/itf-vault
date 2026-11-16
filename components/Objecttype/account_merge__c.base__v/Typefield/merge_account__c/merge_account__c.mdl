@@ -1,0 +1,4 @@
+Typefield merge_account__c (
+   source('standard'),
+   required(true)
+);

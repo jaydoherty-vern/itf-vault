@@ -1,0 +1,5 @@
+Picklistentry tig__v (
+   value('Tigre'),
+   order(328),
+   active(false)
+);

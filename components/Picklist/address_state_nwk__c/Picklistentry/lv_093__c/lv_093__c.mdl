@@ -1,0 +1,5 @@
+Picklistentry lv_093__c (
+   value('LV_Skrundas novads (Skrunda)'),
+   order(1147),
+   active(true)
+);

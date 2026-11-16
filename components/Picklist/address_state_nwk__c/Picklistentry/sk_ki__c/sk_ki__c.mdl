@@ -1,0 +1,5 @@
+Picklistentry sk_ki__c (
+   value('SK_Košický Region'),
+   order(1652),
+   active(true)
+);

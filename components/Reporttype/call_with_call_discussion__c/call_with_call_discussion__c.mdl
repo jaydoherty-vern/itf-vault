@@ -1,0 +1,9 @@
+RECREATE Reporttype call_with_call_discussion__c (
+   label('Call with Call Discussion'),
+   active(true),
+   description('Call with Call Discussions (Child)'),
+   primary_object('call2__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

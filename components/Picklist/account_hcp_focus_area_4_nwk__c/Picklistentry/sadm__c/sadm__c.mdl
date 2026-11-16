@@ -1,0 +1,5 @@
+Picklistentry sadm__c (
+   value('Small Animals Dental Medicine'),
+   order(407),
+   active(true)
+);

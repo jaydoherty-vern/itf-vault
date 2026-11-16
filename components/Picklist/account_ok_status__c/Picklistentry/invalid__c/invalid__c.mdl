@@ -1,0 +1,5 @@
+Picklistentry invalid__c (
+   value('Invalid'),
+   order(0),
+   active(true)
+);

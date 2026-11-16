@@ -1,0 +1,9 @@
+RECREATE Reporttype call_with_call_detail__c (
+   label('Call with Call Detail'),
+   active(true),
+   description('Call with Call Details (Child)'),
+   primary_object('call2__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

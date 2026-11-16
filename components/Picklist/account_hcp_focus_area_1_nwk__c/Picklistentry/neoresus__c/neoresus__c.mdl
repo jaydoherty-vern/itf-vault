@@ -1,0 +1,5 @@
+Picklistentry neoresus__c (
+   value('Neonatal Resuscitation'),
+   order(260),
+   active(true)
+);

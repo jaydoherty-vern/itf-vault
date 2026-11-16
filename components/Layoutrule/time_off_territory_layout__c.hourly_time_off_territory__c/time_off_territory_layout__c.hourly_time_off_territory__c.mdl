@@ -1,0 +1,17 @@
+RECREATE Layoutrule time_off_territory_layout__c.hourly_time_off_territory__c (
+   active(true),
+   description('Require Hours and Start Time fields when Time is Hourly'),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields('hours_off__v',
+      'time__v',
+      'start_time__v'),
+   expression('time__v=''hourly__v'''),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections(),
+   hide_layout(false),
+   label('Hourly Time Off Territory'),
+   order(200)
+);

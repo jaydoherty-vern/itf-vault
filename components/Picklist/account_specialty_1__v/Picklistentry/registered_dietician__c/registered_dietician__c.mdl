@@ -1,0 +1,5 @@
+Picklistentry registered_dietician__c (
+   value('Registered Dietician'),
+   order(287),
+   active(true)
+);

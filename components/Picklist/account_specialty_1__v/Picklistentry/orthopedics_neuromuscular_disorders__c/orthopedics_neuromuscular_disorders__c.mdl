@@ -1,0 +1,5 @@
+Picklistentry orthopedics_neuromuscular_disorders__c (
+   value('ORTHOPEDICS, NEUROMUSCULAR DISORDERS'),
+   order(359),
+   active(true)
+);

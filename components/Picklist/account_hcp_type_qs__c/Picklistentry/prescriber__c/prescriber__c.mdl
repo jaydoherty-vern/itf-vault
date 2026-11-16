@@ -1,0 +1,5 @@
+Picklistentry prescriber__c (
+   value('Prescriber'),
+   order(7),
+   active(true)
+);

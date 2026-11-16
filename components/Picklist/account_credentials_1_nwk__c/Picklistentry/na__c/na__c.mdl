@@ -1,0 +1,5 @@
+Picklistentry na__c (
+   value('Certified Nurse Assistant'),
+   order(3),
+   active(true)
+);

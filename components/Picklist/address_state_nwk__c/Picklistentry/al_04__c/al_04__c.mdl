@@ -1,0 +1,5 @@
+Picklistentry al_04__c (
+   value('AL_Fier'),
+   order(18),
+   active(true)
+);

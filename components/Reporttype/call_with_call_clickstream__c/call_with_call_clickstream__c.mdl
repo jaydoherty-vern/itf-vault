@@ -1,0 +1,9 @@
+RECREATE Reporttype call_with_call_clickstream__c (
+   label('Call with Call Clickstream'),
+   active(true),
+   description('Call with Call Clickstreams (Child)'),
+   primary_object('call2__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

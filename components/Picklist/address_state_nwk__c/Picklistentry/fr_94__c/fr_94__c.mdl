@@ -1,0 +1,5 @@
+Picklistentry fr_94__c (
+   value('FR_Val-de-Marne'),
+   order(377),
+   active(true)
+);

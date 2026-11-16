@@ -1,0 +1,19 @@
+Field response_hash__v (
+   label('Response Hash'),
+   type('String'),
+   active(true),
+   description('A hash generated based on the chosen response(s). For Long Text, Radio, Picklist, or Multiselect type questions, this is guaranteed to be null when the response is empty and non-null when the response is populated.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('This field is populated by concatenating base64 encoded MD5 hashes of the responses.'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

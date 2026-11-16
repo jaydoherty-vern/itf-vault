@@ -1,0 +1,5 @@
+Picklistentry tct_vis__c (
+   value('TCT.VIS'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry bn_tu__c (
+   value('BN-TU'),
+   order(482),
+   active(true)
+);

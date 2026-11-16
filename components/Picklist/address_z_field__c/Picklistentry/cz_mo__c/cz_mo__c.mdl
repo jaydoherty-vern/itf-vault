@@ -1,0 +1,5 @@
+Picklistentry cz_mo__c (
+   value('CZ-MO'),
+   order(960),
+   active(true)
+);

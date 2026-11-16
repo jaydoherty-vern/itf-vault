@@ -1,0 +1,5 @@
+Picklistentry ch_bs__c (
+   value('CH_Basel-Stadt'),
+   order(94),
+   active(true)
+);

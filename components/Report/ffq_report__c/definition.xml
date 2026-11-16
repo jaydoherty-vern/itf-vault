@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey__v.id" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="survey__v.share_team__v" rightValue="TLL" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="survey__v.created_by__v" groupBySortOn="survey__v.created_by__v" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="1" name="survey_target__v___survey__v.account__v" groupBySortOn="survey_target__v___survey__v.account__v" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="2" name="survey_target__v.survey__v" groupBySortOn="survey_target__v.survey__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order />
+</vrp:query>

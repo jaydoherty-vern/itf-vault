@@ -1,0 +1,5 @@
+Picklistentry si_070__c (
+   value('SI_Maribor'),
+   order(1613),
+   active(true)
+);

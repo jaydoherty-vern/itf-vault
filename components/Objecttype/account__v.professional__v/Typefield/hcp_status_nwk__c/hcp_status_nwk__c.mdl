@@ -1,0 +1,9 @@
+Typefield hcp_status_nwk__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_hcp_status_nwk__c.a__c',
+         'Picklist.account_hcp_status_nwk__c.d__c',
+         'Picklist.account_hcp_status_nwk__c.i__c',
+         'Picklist.account_hcp_status_nwk__c.r__c',
+         'Picklist.account_hcp_status_nwk__c.u__c')
+);

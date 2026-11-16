@@ -1,0 +1,5 @@
+Picklistentry cry__c (
+   value('Cryotherapy'),
+   order(60),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry assig__c (
+   value('Assignment'),
+   order(13),
+   active(true)
+);

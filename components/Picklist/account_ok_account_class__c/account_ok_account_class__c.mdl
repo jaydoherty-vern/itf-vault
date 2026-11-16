@@ -1,0 +1,7 @@
+RECREATE Picklist account_ok_account_class__c (
+   label('OK Account class'),
+   active(true),
+   Picklistentry(@Picklistentry/tbd__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

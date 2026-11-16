@@ -1,0 +1,5 @@
+Picklistentry olc_opportunity__sys (
+   value('Opportunity'),
+   order(52),
+   active(true)
+);

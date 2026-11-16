@@ -1,0 +1,5 @@
+Picklistentry kru__v (
+   value('Kurukh'),
+   order(217),
+   active(false)
+);

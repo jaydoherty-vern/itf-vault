@@ -1,0 +1,5 @@
+Picklistentry sid__v (
+   value('Sidamo'),
+   order(305),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry in_scope__c (
+   value('In Scope'),
+   order(0),
+   active(true)
+);

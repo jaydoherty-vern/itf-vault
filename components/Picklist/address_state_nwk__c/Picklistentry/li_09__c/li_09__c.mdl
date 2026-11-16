@@ -1,0 +1,5 @@
+Picklistentry li_09__c (
+   value('LI_Triesen'),
+   order(970),
+   active(true)
+);

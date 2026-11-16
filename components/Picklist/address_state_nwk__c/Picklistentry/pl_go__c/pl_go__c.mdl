@@ -1,0 +1,5 @@
+Picklistentry pl_go__c (
+   value('PL_Gorzów'),
+   order(1339),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry tooth_whitening__c (
+   value('Tooth Whitening'),
+   order(106),
+   active(true)
+);

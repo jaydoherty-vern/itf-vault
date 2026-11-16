@@ -1,0 +1,5 @@
+Picklistentry lb_ba__c (
+   value('LB_Beyrouth'),
+   order(49),
+   active(true)
+);

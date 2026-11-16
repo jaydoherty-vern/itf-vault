@@ -1,0 +1,20 @@
+Field account_mobile_soql__v (
+   label('ACCOUNT_MOBILE_SOQL'),
+   type('String'),
+   active(true),
+   description('String used by application: ACCOUNT_MOBILE_SOQL is a comma separated list containing the fields on account to include in the VOD mobile application.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(12),
+   default_value('"ACCOUNT_MOBILE_SOQL;;MOBILE_SOQL"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

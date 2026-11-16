@@ -1,0 +1,11 @@
+RECREATE Picklist account_itf_dmd_clinic_days__c (
+   label('DMD Clinic days'),
+   active(true),
+   Picklistentry(@Picklistentry/monday__c.mdl),
+   Picklistentry(@Picklistentry/tuesday__c.mdl),
+   Picklistentry(@Picklistentry/wednesday__c.mdl),
+   Picklistentry(@Picklistentry/thursday__c.mdl),
+   Picklistentry(@Picklistentry/friday__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

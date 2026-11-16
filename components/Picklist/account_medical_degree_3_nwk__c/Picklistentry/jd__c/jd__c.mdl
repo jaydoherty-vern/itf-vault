@@ -1,0 +1,5 @@
+Picklistentry jd__c (
+   value('Juris Doctor'),
+   order(164),
+   active(true)
+);

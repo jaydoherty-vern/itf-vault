@@ -1,0 +1,5 @@
+Picklistentry ro_ct__c (
+   value('RO_Constanța'),
+   order(1423),
+   active(true)
+);

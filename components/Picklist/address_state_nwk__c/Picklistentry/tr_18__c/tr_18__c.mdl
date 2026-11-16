@@ -1,0 +1,5 @@
+Picklistentry tr_18__c (
+   value('TR_Çankırı'),
+   order(1689),
+   active(true)
+);

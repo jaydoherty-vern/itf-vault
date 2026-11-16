@@ -1,0 +1,5 @@
+Picklistentry pulmonary__c (
+   value('PULMONARY'),
+   order(389),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry attempt_do_not_call__c (
+   value('Attempt - Do Not Call'),
+   order(4),
+   active(true)
+);

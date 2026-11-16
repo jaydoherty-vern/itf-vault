@@ -1,0 +1,5 @@
+Picklistentry es_cl__c (
+   value('ES-CL'),
+   order(239),
+   active(false)
+);

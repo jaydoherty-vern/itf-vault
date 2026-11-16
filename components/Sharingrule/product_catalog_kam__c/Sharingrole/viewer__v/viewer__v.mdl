@@ -1,0 +1,4 @@
+Sharingrole viewer__v (
+   members('Group.frms__c',
+         'Group.kams__c')
+);

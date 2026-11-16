@@ -1,0 +1,10 @@
+RECREATE Dashboard medical_dashboard__c (
+   active(true),
+   label('Medical Dashboard'),
+   description('Veeva Services provided dashboard.  If modifications are needed, please clone the dashboard.'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   dashboard_markup(@dashboard_markup.xml),
+   tags('veeva__sys')
+);

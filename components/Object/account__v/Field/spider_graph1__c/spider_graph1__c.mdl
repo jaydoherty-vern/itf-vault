@@ -1,0 +1,33 @@
+Field spider_graph1__c (
+   label('Spider Graph'),
+   type('String'),
+   subtype('Link'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(442),
+   formula('Hyperlink(
+    "http://chart.apis.google.com/chart?chxl=0:|Researcher+|Advisor|Advocate|Decider|Guideline|Investigator&chxr=1,0,4&chxt=x,y&chs=300x300&cht=r&chco=FF0000&chds=0,4&chd=t:" &
+    Text(mederi_researcher_score__c) & "," &
+    Text(mederi_advisor_score__c) & "," &
+    Text(mederi_brand_advocate_score__c) & "," &
+    Text(mederi_budget_decider_score__c) & "," &
+    Text(mederi_guideline_maker_score__c) & "," &
+    Text(mederi_investigator_score__c) &
+    "&chls=2,4,0&chm=B,FF000080,0,0,0&chtt=KOL+",
+    "View KOL Radar Chart",
+    "new_window"
+)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

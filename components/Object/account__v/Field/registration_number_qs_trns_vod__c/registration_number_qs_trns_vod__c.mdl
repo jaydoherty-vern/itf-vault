@@ -1,0 +1,19 @@
+Field registration_number_qs_trns_vod__c (
+   label('Registration Number'),
+   type('String'),
+   active(true),
+   description('BMI Naya Transparency Field'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('BMI Naya Transparency Field'),
+   list_column(false),
+   order(373),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry itf__c (
+   value('ITF'),
+   order(0),
+   active(true)
+);

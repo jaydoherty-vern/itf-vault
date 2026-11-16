@@ -1,0 +1,6 @@
+Typefield vspa_sponsor_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_vspa_sponsor_type__c.monosponsor__c',
+         'Picklist.em_event_vspa_sponsor_type__c.multisponsor__c')
+);

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="task">
+    <vwf:label>Confirm Shipment</vwf:label>
+    <vwf:hideHomePageLink>false</vwf:hideHomePageLink>
+    <vwf:controls>
+      <vwf:control name="please_confirm_shipment_by_the_specialty__c" label="Please confirm shipment by the Specialty Pharmacy." type="instructions">
+        <vwf:instructions>Please confirm shipment by the Specialty Pharmacy.</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="my_field_prompt_control__c" type="field">
+        <vwf:field reference="Object.fulfillment__v.shipment_tracking_number__c" required="true" />
+      </vwf:control>
+      <vwf:control name="task_creation_date__v" label="label" type="date">
+        <vwf:datefield type="date" />
+        <vwf:offset>
+          <vwf:amount>7</vwf:amount>
+          <vwf:unit>days</vwf:unit>
+        </vwf:offset>
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+  <vwf:assignment participant="part_patient_support_specialist__c" excludeowner="false" />
+  <vwf:assignmentType type="every" />
+  <vwf:notifications />
+  <vwf:reminders />
+  <vwf:completeWithoutViewing value="false" />
+  <vwf:taskRequirement requirement="required" />
+</vwf:stepdetails>

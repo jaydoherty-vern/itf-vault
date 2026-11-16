@@ -1,0 +1,18 @@
+Field address_type_vod__c (
+   label('Address Type'),
+   type('Picklist'),
+   active(true),
+   description('CCQS field to hold the type of address'),
+   required(false),
+   unique(false),
+   help_content('Field to hold the type of address'),
+   list_column(false),
+   order(139),
+   multi_value(false),
+   picklist('Picklist.address_address_type_vod__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry rest_of_world__c (
+   value('Rest of World'),
+   order(14),
+   active(true)
+);

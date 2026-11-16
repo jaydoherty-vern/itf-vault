@@ -1,0 +1,5 @@
+Picklistentry mhft__c (
+   value('Meat Hygiene, Food Toxicology'),
+   order(250),
+   active(true)
+);

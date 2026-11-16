@@ -1,0 +1,12 @@
+RECREATE Picklist ms_request_country__c (
+   label('Country'),
+   active(true),
+   Picklistentry(@Picklistentry/uk__c.mdl),
+   Picklistentry(@Picklistentry/france__c.mdl),
+   Picklistentry(@Picklistentry/spain__c.mdl),
+   Picklistentry(@Picklistentry/germany__c.mdl),
+   Picklistentry(@Picklistentry/italy__c.mdl),
+   Picklistentry(@Picklistentry/all__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

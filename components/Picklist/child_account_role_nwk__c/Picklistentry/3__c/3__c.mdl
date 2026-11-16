@@ -1,0 +1,5 @@
+Picklistentry 3__c (
+   value('Business Partner/Affiliate'),
+   order(27),
+   active(true)
+);

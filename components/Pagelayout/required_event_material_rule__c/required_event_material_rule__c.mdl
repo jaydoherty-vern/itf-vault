@@ -1,0 +1,8 @@
+RECREATE Pagelayout required_event_material_rule__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Required Event Material Rule'),
+   page_markup(@page_markup.xml)
+);

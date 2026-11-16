@@ -1,0 +1,4 @@
+Typefield days_before_event__c (
+   source('custom'),
+   required(false)
+);

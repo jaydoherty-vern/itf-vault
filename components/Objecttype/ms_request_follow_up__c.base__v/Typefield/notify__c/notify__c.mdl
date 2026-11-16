@@ -1,0 +1,4 @@
+Typefield notify__c (
+   source('standard'),
+   required(false)
+);

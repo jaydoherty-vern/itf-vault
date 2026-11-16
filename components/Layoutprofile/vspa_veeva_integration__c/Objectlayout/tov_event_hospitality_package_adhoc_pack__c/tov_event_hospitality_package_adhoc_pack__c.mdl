@@ -1,0 +1,8 @@
+Objectlayout tov_event_hospitality_package_adhoc_pack__c (
+   label('tov_event_hospitality_package_adhoc_packaged_package'),
+   active(true),
+   pagelayouts('Pagelayout.adhoc_detailed_package__c'),
+   object('Object.tov_event_hospitality_package__c'),
+   objecttype('Objecttype.tov_event_hospitality_package__c.adhoc_packaged_package__c'),
+   record_creation_layout('Pagelayout.adhoc_detailed_package__c')
+);

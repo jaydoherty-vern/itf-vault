@@ -1,0 +1,5 @@
+Picklistentry tll_virtual_meeting__c (
+   value('TLL Virtual Meeting'),
+   order(12),
+   active(true)
+);

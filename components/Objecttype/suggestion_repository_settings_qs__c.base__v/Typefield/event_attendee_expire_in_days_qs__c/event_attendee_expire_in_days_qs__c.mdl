@@ -1,0 +1,4 @@
+Typefield event_attendee_expire_in_days_qs__c (
+   source('standard'),
+   required(false)
+);

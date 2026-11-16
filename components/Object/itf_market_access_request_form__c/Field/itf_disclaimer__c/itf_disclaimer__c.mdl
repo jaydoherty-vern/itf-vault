@@ -1,0 +1,20 @@
+Field itf_disclaimer__c (
+   label('Disclaimer'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(12),
+   default_value('"If you are submitting a question or issue, please be sure to complete the Provider and Contact Details sections above. Missing information may delay the customer response."'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

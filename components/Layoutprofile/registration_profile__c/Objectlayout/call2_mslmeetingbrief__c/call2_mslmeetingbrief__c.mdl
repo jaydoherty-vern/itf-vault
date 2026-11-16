@@ -1,0 +1,8 @@
+Objectlayout call2_mslmeetingbrief__c (
+   label('call2_mslmeetingbrief'),
+   active(true),
+   pagelayouts('Pagelayout.msl_layout1__c'),
+   object('Object.call2__v'),
+   objecttype('Objecttype.call2__v.mslmeetingbrief__v'),
+   record_creation_layout('Pagelayout.msl_layout1__c')
+);

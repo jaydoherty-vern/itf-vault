@@ -1,0 +1,5 @@
+Picklistentry vcc__c (
+   value('Veterinary Cattle Fattening'),
+   order(467),
+   active(true)
+);

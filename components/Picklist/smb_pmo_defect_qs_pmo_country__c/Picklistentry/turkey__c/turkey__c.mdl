@@ -1,0 +1,5 @@
+Picklistentry turkey__c (
+   value('Turkey'),
+   order(10),
+   active(true)
+);

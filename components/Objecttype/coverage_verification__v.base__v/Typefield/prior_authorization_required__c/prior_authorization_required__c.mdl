@@ -1,0 +1,4 @@
+Typefield prior_authorization_required__c (
+   source('standard'),
+   required(false)
+);

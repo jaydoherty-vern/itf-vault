@@ -1,0 +1,4 @@
+Typefield internal_slides__c (
+   source('standard'),
+   required(false)
+);

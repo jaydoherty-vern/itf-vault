@@ -1,0 +1,5 @@
+Picklistentry cr_sj__c (
+   value('CR-SJ'),
+   order(804),
+   active(true)
+);

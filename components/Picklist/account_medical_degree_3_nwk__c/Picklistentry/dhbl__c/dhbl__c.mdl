@@ -1,0 +1,5 @@
+Picklistentry dhbl__c (
+   value('Dr. habil.'),
+   order(105),
+   active(true)
+);

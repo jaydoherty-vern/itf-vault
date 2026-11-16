@@ -1,0 +1,5 @@
+Picklistentry hospitalist__c (
+   value('Hospitalist'),
+   order(205),
+   active(true)
+);

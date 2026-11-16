@@ -1,0 +1,5 @@
+Picklistentry pharmacology_therapeutics__c (
+   value('Pharmacology & Therapeutics'),
+   order(77),
+   active(true)
+);

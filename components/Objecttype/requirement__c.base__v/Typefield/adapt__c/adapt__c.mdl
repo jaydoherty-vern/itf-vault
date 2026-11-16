@@ -1,0 +1,4 @@
+Typefield adapt__c (
+   source('standard'),
+   required(false)
+);

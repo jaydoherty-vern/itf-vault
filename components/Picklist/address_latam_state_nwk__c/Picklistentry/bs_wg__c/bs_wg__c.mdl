@@ -1,0 +1,5 @@
+Picklistentry bs_wg__c (
+   value('West Grand Bahama'),
+   order(117),
+   active(true)
+);

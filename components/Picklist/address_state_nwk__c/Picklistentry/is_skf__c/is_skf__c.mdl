@@ -1,0 +1,5 @@
+Picklistentry is_skf__c (
+   value('IS_Skaftárhreppur'),
+   order(803),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry custom_code__c (
+   value('Custom Code'),
+   order(2),
+   active(true)
+);

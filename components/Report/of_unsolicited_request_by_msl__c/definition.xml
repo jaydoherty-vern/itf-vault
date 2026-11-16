@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_inquiry__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_inquiry__v.account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_inquiry__v.created_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_inquiry__v.assign_to_user__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_inquiry__v.call2__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_inquiry__v.delivery_method__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_inquiry__v.itf_msl_follow_up__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_inquiry__v.status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_inquiry__v.inquiry_text__v" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group>
+    <vrp:groupItem index="0" name="medical_inquiry__v.created_by__v" groupBySortOn="medical_inquiry__v.created_by__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order />
+</vrp:query>

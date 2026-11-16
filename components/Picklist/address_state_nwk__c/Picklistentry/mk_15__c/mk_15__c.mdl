@@ -1,0 +1,5 @@
+Picklistentry mk_15__c (
+   value('MK_Vraneštica'),
+   order(1284),
+   active(true)
+);

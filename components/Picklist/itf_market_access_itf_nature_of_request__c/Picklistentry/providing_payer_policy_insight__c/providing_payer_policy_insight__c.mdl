@@ -1,0 +1,5 @@
+Picklistentry providing_payer_policy_insight__c (
+   value('Providing Payer/Policy Insight'),
+   order(4),
+   active(true)
+);

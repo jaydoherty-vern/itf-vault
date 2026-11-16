@@ -1,0 +1,16 @@
+RECREATE Picklist status_pmo__c (
+   label('Status'),
+   active(true),
+   Picklistentry(@Picklistentry/new_req__c.mdl),
+   Picklistentry(@Picklistentry/info_needed__c.mdl),
+   Picklistentry(@Picklistentry/build__c.mdl),
+   Picklistentry(@Picklistentry/build_complete__c.mdl),
+   Picklistentry(@Picklistentry/testing_completed__c.mdl),
+   Picklistentry(@Picklistentry/deployed__c.mdl),
+   Picklistentry(@Picklistentry/closed__c.mdl),
+   Picklistentry(@Picklistentry/cancelled__c.mdl),
+   Picklistentry(@Picklistentry/deferred__c.mdl),
+   Picklistentry(@Picklistentry/lockdown__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

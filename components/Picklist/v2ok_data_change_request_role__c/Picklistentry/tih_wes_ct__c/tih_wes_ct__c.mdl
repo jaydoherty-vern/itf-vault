@@ -1,0 +1,5 @@
+Picklistentry tih_wes_ct__c (
+   value('TIH.WES.CT'),
+   order(8),
+   active(true)
+);

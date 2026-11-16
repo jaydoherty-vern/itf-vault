@@ -1,0 +1,5 @@
+Picklistentry gt_qc__c (
+   value('Quiché'),
+   order(261),
+   active(true)
+);

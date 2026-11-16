@@ -1,0 +1,8 @@
+Objectlayout analytics_layouts_reach_and_frequency__c (
+   label('analytics_layouts_reach_and_frequency'),
+   active(true),
+   pagelayouts('Pagelayout.reach_and_frequency_layout__c'),
+   object('Object.analytics_layouts__v'),
+   objecttype('Objecttype.analytics_layouts__v.reach_and_frequency__v'),
+   record_creation_layout('Pagelayout.reach_and_frequency_layout__c')
+);

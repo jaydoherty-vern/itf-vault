@@ -1,0 +1,5 @@
+Picklistentry amyl__c (
+   value('Amylose'),
+   order(9),
+   active(true)
+);

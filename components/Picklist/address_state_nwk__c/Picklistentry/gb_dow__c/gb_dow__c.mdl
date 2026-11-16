@@ -1,0 +1,5 @@
+Picklistentry gb_dow__c (
+   value('GB-DOW'),
+   order(478),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry cl_lr__c (
+   value('Los Ríos (CL)'),
+   order(136),
+   active(true)
+);

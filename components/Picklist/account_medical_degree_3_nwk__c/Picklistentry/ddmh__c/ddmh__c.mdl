@@ -1,0 +1,5 @@
+Picklistentry ddmh__c (
+   value('Dr. med. dent. habil.'),
+   order(108),
+   active(true)
+);

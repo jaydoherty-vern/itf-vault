@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="wad" name="start__c">
+    <vwf:label>Start</vwf:label>
+    <vwf:controls>
+      <vwf:control name="part_vault_owners_group__c" label="Vault Owners Group" type="participant">
+        <vwf:vaultusergroups>
+          <vwf:vaultusergroup reference="vault_owners__v" />
+        </vwf:vaultusergroups>
+      </vwf:control>
+      <vwf:control name="part_manually_selected_approver__c" label="Manually Selected Approver" type="participant">
+        <vwf:strategy source="task_owner__v" />
+        <vwf:defaultusers enabled="false" />
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+</vwf:stepdetails>

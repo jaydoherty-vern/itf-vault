@@ -1,0 +1,5 @@
+Picklistentry neuromuscular_medicine_neurology_adults__c (
+   value('NEUROMUSCULAR MEDICINE, NEUROLOGY, ADULTS'),
+   order(141),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field disable_call_location_none__v (
+   label('Disable Call Location None'),
+   type('Boolean'),
+   active(true),
+   description('If checked, ‘None’ will not be an option in the Location field drop down when creating an Individual Call for a Person Account.  Default value is unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content('If checked, ‘None’ will not be an option in the Location field drop down when creating an Individual Call for a Person Account.  Default value is unchecked.'),
+   list_column(false),
+   order(89),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

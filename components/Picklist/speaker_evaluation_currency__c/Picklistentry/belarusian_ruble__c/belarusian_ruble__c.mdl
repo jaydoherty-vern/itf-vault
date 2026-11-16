@@ -1,0 +1,5 @@
+Picklistentry belarusian_ruble__c (
+   value('Belarusian Ruble'),
+   order(17),
+   active(true)
+);

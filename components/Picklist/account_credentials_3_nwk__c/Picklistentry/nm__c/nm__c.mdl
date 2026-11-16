@@ -1,0 +1,5 @@
+Picklistentry nm__c (
+   value('NM'),
+   order(21),
+   active(true)
+);

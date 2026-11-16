@@ -1,0 +1,5 @@
+Picklistentry dr_agr__c (
+   value('Dr. agr.'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectlayout medical_inquiry_fulfillment_mail__c (
+   label('medical_inquiry_fulfillment_mail'),
+   active(true),
+   pagelayouts('Pagelayout.mail_vod1__c'),
+   object('Object.medical_inquiry_fulfillment__v'),
+   objecttype('Objecttype.medical_inquiry_fulfillment__v.mail__v'),
+   record_creation_layout('Pagelayout.mail_vod1__c')
+);

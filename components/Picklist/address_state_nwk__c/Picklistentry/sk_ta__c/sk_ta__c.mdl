@@ -1,0 +1,5 @@
+Picklistentry sk_ta__c (
+   value('SK_Trnavský Region'),
+   order(1656),
+   active(true)
+);

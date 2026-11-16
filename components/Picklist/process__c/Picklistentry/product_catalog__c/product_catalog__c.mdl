@@ -1,0 +1,5 @@
+Picklistentry product_catalog__c (
+   value('Product Catalog'),
+   order(30),
+   active(true)
+);

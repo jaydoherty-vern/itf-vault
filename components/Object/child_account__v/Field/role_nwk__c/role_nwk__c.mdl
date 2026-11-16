@@ -1,0 +1,18 @@
+Field role_nwk__c (
+   label('Relationship Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(54),
+   multi_value(false),
+   picklist('Picklist.child_account_role_nwk__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

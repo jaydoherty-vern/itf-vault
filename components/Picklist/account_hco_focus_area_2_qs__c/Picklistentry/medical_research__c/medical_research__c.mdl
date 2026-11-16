@@ -1,0 +1,5 @@
+Picklistentry medical_research__c (
+   value('Medical Research'),
+   order(61),
+   active(true)
+);

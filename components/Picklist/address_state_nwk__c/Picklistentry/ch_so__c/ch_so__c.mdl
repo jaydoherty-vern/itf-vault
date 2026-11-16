@@ -1,0 +1,5 @@
+Picklistentry ch_so__c (
+   value('CH_Solothurn'),
+   order(107),
+   active(true)
+);

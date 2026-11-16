@@ -1,0 +1,4 @@
+Typefield mederi_network_analyzer__c (
+   source('custom'),
+   required(false)
+);

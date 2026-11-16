@@ -1,0 +1,5 @@
+Picklistentry veeva_onekey_batch_getstatistic__c (
+   value('VEEVA_ONEKEY_BATCH_GetStatistic'),
+   order(4),
+   active(true)
+);

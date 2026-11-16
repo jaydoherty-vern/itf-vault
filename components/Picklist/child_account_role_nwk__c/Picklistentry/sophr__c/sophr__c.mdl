@@ -1,0 +1,5 @@
+Picklistentry sophr__c (
+   value('SOPHR'),
+   order(220),
+   active(true)
+);

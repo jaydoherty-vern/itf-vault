@@ -1,0 +1,5 @@
+Picklistentry al_bu__c (
+   value('AL-BU'),
+   order(68),
+   active(true)
+);

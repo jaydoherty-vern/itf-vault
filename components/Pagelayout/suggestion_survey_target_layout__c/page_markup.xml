@@ -1,0 +1,13 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.survey_target__v.suggestion_survey__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="survey__v" />
+            <vault:field reference="suggestion__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Questions" name="survey_target_questions_section__c" reference="survey_target_questions_section__v" />
+</vault:page>

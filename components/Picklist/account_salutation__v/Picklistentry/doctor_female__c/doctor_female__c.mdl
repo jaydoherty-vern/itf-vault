@@ -1,0 +1,5 @@
+Picklistentry doctor_female__c (
+   value('Doctor (Female)'),
+   order(8),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry moderate_advocate__c (
+   value('Moderate Advocate'),
+   order(1),
+   active(true)
+);

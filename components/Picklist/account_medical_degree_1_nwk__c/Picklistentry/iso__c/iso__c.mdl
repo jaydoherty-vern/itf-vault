@@ -1,0 +1,5 @@
+Picklistentry iso__c (
+   value('Isotopdiagnostic Diploma'),
+   order(185),
+   active(true)
+);

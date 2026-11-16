@@ -1,0 +1,5 @@
+Picklistentry cfa_franc_beac__c (
+   value('CFA Franc BEAC'),
+   order(34),
+   active(true)
+);

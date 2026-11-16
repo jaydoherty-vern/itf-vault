@@ -1,0 +1,5 @@
+Picklistentry cd__c (
+   value('Cats and Dogs'),
+   order(43),
+   active(true)
+);

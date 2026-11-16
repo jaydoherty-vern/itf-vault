@@ -1,0 +1,5 @@
+Picklistentry bj_ou__c (
+   value('BJ-OU'),
+   order(476),
+   active(true)
+);

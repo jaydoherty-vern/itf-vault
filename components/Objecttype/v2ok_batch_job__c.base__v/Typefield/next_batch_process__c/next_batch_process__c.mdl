@@ -1,0 +1,4 @@
+Typefield next_batch_process__c (
+   source('standard'),
+   required(false)
+);

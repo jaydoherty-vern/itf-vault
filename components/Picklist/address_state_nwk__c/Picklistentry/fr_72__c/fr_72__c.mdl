@@ -1,0 +1,5 @@
+Picklistentry fr_72__c (
+   value('FR_Sarthe'),
+   order(366),
+   active(true)
+);

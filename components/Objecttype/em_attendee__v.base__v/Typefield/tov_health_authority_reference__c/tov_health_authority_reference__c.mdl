@@ -1,0 +1,4 @@
+Typefield tov_health_authority_reference__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,12 @@
+RECREATE Tab ms_request__c (
+   active(true),
+   all_view_label('All MS Requests'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('MS Requests'),
+   my_view_label('My MS Requests'),
+   object('ms_request__c'),
+   order(1500),
+   parent(),
+   recent_view_label('Recent MS Requests')
+);

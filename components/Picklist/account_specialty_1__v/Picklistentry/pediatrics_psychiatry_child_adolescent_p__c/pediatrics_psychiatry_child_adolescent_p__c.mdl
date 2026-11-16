@@ -1,0 +1,5 @@
+Picklistentry pediatrics_psychiatry_child_adolescent_p__c (
+   value('Pediatrics/Psychiatry/Child & Adolescent Psychiatry'),
+   order(272),
+   active(true)
+);

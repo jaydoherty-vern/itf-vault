@@ -1,0 +1,5 @@
+Picklistentry mc_la__c (
+   value('MC_Larvotto'),
+   order(1174),
+   active(true)
+);

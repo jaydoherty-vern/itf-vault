@@ -1,0 +1,5 @@
+Picklistentry mc_ga__c (
+   value('MC_La Gare'),
+   order(1172),
+   active(true)
+);

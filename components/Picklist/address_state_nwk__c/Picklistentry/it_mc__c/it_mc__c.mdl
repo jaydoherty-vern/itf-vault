@@ -1,0 +1,5 @@
+Picklistentry it_mc__c (
+   value('IT_Macerata'),
+   order(882),
+   active(true)
+);

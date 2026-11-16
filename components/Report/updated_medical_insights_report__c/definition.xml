@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.ownerid__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.itf_category__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.summary__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.description__v" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group />
+  <vrp:order />
+</vrp:query>

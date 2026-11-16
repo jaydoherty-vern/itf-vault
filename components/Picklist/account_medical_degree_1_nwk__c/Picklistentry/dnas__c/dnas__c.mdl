@@ -1,0 +1,5 @@
+Picklistentry dnas__c (
+   value('Dr. rer. nat.'),
+   order(141),
+   active(true)
+);

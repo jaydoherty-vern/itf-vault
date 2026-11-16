@@ -1,0 +1,5 @@
+Picklistentry lv_088__c (
+   value('LV_Saldus novads'),
+   order(1142),
+   active(true)
+);

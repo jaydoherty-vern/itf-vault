@@ -1,0 +1,5 @@
+Picklistentry cycle_plan_mccp__c (
+   value('Cycle Plan - MCCP'),
+   order(12),
+   active(true)
+);

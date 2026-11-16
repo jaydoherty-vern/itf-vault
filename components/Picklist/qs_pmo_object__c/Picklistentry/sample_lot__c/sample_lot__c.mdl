@@ -1,0 +1,5 @@
+Picklistentry sample_lot__c (
+   value('Sample lot'),
+   order(22),
+   active(true)
+);

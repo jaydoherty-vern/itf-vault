@@ -1,0 +1,5 @@
+Picklistentry si_090__c (
+   value('SI_Piran'),
+   order(1621),
+   active(true)
+);

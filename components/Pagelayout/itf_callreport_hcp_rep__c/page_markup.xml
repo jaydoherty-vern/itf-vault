@@ -1,0 +1,97 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.call2__v.callreport__v">
+    <vault:section title="Buttons" name="buttons__c">
+        <vault:detailform type="One-Column">
+            <vault:control reference="save__v" name="save__c" label="Save" />
+            <vault:control reference="savenew__v" name="savenew__c" label="Save and New" />
+            <vault:control reference="submit__v" name="submit__c" label="Submit" />
+            <vault:control reference="delete__v" name="delete__c" label="Delete" />
+            <vault:control reference="more_actions__v" name="more_actions__c" label="More Actions" />
+            <vault:field reference="unlock__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Professional Information" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__v" required="true" readOnly="true" />
+            <vault:control reference="business_account__v" name="business_account__c" label="Location" />
+            <vault:field reference="address__v" />
+            <vault:field reference="call_channel__v" required="true" />
+            <vault:field reference="itf_call_outcome__c" required="true" />
+            <vault:field reference="itf_call_reason__c" required="true" />
+            <vault:spacer />
+            <vault:field reference="call_datetime__v" required="true" />
+            <vault:field reference="call2_status__v" />
+            <vault:field reference="ownerid__v" readOnly="true" />
+            <vault:field reference="territory__v" />
+            <vault:field reference="primary_parent__v" />
+            <vault:field reference="object_type__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="zvod_buttons" name="medical_inquiry_section__c" reference="medical_inquiry_section__v" />
+    <vault:section title="General Call Section" name="general_call_section__c" reference="general_call_section__v">
+        <vault:bind property="rem" value="true" />
+        <vault:bind property="nab" value="true" />
+        <vault:bind property="nap" value="true" />
+    </vault:section>
+    <vault:section title="Attendees" name="call_attendees_section__c" reference="call_attendees_section__v">
+        <vault:bind property="paa" value="true" />
+        <vault:bind property="ao" value="true" />
+        <vault:bind property="atf" value="false" />
+        <vault:bind property="st" value="false" />
+        <vault:bind property="su" value="true" />
+        <vault:bind property="ns" value="false" />
+        <vault:bind property="fieldNames">
+            <vault:list>
+                <vault:item value="zvod_unique_group_activities__v" />
+            </vault:list>
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Detailing Priority" name="call_details_section__c" reference="call_details_section__v">
+        <vault:bind property="rd" value="true" />
+        <vault:bind property="eed" value="false" />
+        <vault:bind property="htp" value="false" />
+        <vault:bind property="sd" value="false" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="CLM Presentation" name="clmdetails_section__c" reference="clmdetails_section__v">
+        <vault:bind property="ded" value="false" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Promotional Items" name="samples_section__c" reference="samples_section__v">
+        <vault:bind property="gp" value="false" />
+        <vault:bind property="mas" value="false" />
+        <vault:bind property="masp" value="true" />
+        <vault:bind property="nas" value="false" />
+        <vault:bind property="nb" value="false" />
+        <vault:bind property="nhvp" value="false" />
+        <vault:bind property="no" value="false" />
+        <vault:bind property="np" value="false" />
+        <vault:bind property="npdma" value="false" />
+        <vault:bind property="ns" value="false" />
+        <vault:bind property="nsl" value="true" />
+        <vault:bind property="nslns" value="true" />
+        <vault:bind property="pg" value="true" />
+        <vault:bind property="ra" value="true" />
+        <vault:bind property="so" value="false" />
+        <vault:bind property="sbl" value="false" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Call Details" name="call2_detail__c">
+        <vault:relatedObject relationship="call2_detail__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="type__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="created_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Call Discussions" name="call2_discussion__c">
+        <vault:relatedObject relationship="call2_discussion__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

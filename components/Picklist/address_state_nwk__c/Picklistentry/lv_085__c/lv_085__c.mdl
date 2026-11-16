@@ -1,0 +1,5 @@
+Picklistentry lv_085__c (
+   value('LV_Salas novads (Sala)'),
+   order(1140),
+   active(true)
+);

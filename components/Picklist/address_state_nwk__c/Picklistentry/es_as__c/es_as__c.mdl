@@ -1,0 +1,5 @@
+Picklistentry es_as__c (
+   value('ES-AS'),
+   order(237),
+   active(false)
+);

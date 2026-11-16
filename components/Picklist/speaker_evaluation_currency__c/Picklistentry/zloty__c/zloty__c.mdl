@@ -1,0 +1,5 @@
+Picklistentry zloty__c (
+   value('Zloty'),
+   order(122),
+   active(true)
+);

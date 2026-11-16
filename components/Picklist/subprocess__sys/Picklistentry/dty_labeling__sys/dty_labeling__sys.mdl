@@ -1,0 +1,6 @@
+Picklistentry dty_labeling__sys (
+   value('Labeling'),
+   order(87),
+   active(true),
+   controlling_entries('dlc_general__sys')
+);

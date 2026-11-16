@@ -1,0 +1,5 @@
+Picklistentry ec_f__c (
+   value('Cañar'),
+   order(232),
+   active(true)
+);

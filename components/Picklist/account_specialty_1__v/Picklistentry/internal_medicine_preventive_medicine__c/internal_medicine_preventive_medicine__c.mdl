@@ -1,0 +1,5 @@
+Picklistentry internal_medicine_preventive_medicine__c (
+   value('Internal Medicine/Preventive Medicine'),
+   order(211),
+   active(true)
+);

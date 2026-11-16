@@ -1,0 +1,5 @@
+Picklistentry be_vwv__c (
+   value('BE_West-Vlaanderen'),
+   order(89),
+   active(true)
+);

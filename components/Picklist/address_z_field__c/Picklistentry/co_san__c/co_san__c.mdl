@@ -1,0 +1,5 @@
+Picklistentry co_san__c (
+   value('CO-SAN'),
+   order(791),
+   active(true)
+);

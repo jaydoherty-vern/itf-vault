@@ -1,0 +1,5 @@
+Picklistentry barbados_dollar__c (
+   value('Barbados Dollar'),
+   order(16),
+   active(true)
+);

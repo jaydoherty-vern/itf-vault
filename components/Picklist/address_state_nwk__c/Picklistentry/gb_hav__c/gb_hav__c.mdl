@@ -1,0 +1,5 @@
+Picklistentry gb_hav__c (
+   value('GB-HAV'),
+   order(505),
+   active(false)
+);

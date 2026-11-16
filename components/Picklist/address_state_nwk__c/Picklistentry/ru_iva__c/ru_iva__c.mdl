@@ -1,0 +1,5 @@
+Picklistentry ru_iva__c (
+   value('RU_Ivanovskaya oblast'''),
+   order(1500),
+   active(true)
+);

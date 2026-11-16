@@ -1,0 +1,5 @@
+Picklistentry mk_25__c (
+   value('MK_Demir Hisar'),
+   order(1224),
+   active(true)
+);

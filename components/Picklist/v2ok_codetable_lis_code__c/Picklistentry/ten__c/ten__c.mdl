@@ -1,0 +1,5 @@
+Picklistentry ten__c (
+   value('TEN'),
+   order(7),
+   active(true)
+);

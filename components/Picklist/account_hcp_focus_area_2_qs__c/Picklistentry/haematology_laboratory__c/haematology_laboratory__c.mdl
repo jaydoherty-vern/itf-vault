@@ -1,0 +1,5 @@
+Picklistentry haematology_laboratory__c (
+   value('Haematology (Laboratory)'),
+   order(35),
+   active(true)
+);

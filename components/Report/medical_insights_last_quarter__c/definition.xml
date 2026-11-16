@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.ownerid__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.created_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_insight__v.modified_date__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="PREVIOUSCQ" leftValue="medical_insight__v.date__v" rightValue="2024-04-01;;;2024-06-30" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="medical_insight__v.account__v" groupBySortOn="medical_insight__v.account__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="medical_insight__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

@@ -1,0 +1,5 @@
+Picklistentry tr_26__c (
+   value('TR_Eskişehir'),
+   order(1698),
+   active(true)
+);

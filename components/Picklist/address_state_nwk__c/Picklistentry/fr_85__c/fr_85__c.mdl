@@ -1,0 +1,5 @@
+Picklistentry fr_85__c (
+   value('FR_Vendée'),
+   order(380),
+   active(true)
+);

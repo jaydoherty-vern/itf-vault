@@ -1,0 +1,4 @@
+Typefield product_qs__c (
+   source('custom'),
+   required(false)
+);

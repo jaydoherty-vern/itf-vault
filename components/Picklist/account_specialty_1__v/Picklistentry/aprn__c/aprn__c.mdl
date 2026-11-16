@@ -1,0 +1,5 @@
+Picklistentry aprn__c (
+   value('APRN'),
+   order(313),
+   active(true)
+);

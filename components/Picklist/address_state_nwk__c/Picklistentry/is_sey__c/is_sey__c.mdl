@@ -1,0 +1,5 @@
+Picklistentry is_sey__c (
+   value('IS_Seyðisfjarðarkaupstaður'),
+   order(802),
+   active(true)
+);

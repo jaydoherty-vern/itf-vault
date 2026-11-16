@@ -1,0 +1,5 @@
+Picklistentry lt_51__c (
+   value('LT_Telšiai'),
+   order(1030),
+   active(true)
+);

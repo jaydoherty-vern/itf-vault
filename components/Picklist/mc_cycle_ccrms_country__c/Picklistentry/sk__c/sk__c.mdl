@@ -1,0 +1,5 @@
+Picklistentry sk__c (
+   value('SK'),
+   order(25),
+   active(true)
+);

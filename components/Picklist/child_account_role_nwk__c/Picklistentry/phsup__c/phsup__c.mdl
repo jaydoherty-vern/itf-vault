@@ -1,0 +1,5 @@
+Picklistentry phsup__c (
+   value('Pharmacy Superintendent'),
+   order(182),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry sel__v (
+   value('Selkup'),
+   order(297),
+   active(false)
+);

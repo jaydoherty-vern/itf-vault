@@ -1,0 +1,5 @@
+Picklistentry design_documentation_completed__c (
+   value('Design Documentation Completed'),
+   order(6),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry dominican_peso__c (
+   value('Dominican Peso'),
+   order(53),
+   active(true)
+);

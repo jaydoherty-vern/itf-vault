@@ -1,0 +1,8 @@
+RECREATE Pagelayout vspa_expense_line_w_o_estimated_read_onl__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('VSPA Expense Line w/o Estimated Read Only'),
+   page_markup(@page_markup.xml)
+);

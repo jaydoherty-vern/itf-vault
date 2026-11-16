@@ -1,0 +1,5 @@
+Picklistentry mx_mic__c (
+   value('Michoacán'),
+   order(52),
+   active(true)
+);

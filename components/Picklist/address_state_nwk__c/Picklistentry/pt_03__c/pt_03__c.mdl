@@ -1,0 +1,5 @@
+Picklistentry pt_03__c (
+   value('PT_Braga'),
+   order(1391),
+   active(true)
+);

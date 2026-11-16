@@ -1,0 +1,4 @@
+Typefield itf_leadership_attendees__c (
+   source('standard'),
+   required(false)
+);

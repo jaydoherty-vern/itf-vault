@@ -1,0 +1,5 @@
+Picklistentry final_design__c (
+   value('Final Design'),
+   order(5),
+   active(true)
+);

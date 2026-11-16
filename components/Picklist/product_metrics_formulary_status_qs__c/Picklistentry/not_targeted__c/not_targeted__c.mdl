@@ -1,0 +1,5 @@
+Picklistentry not_targeted__c (
+   value('Not targeted'),
+   order(0),
+   active(true)
+);

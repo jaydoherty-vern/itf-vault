@@ -1,0 +1,27 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.contract_line__v.series_contract__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="contract__v" />
+            <vault:field reference="service__v" required="true" />
+            <vault:field reference="service_name__v" />
+            <vault:field reference="service_type__v" readOnly="true" />
+            <vault:field reference="event_format__v" readOnly="true" />
+            <vault:field reference="location_type__v" readOnly="true" />
+            <vault:field reference="content_length__v" readOnly="true" />
+            <vault:field reference="program_type__v" readOnly="true" />
+            <vault:field reference="em_rate_type__v" required="true" />
+            <vault:field reference="em_rate_min__v" />
+            <vault:field reference="em_rate_max__v" />
+            <vault:field reference="em_rate__v" />
+            <vault:field reference="em_service_quantity_min__v" required="true" />
+            <vault:field reference="em_service_quantity_max__v" required="true" />
+            <vault:field reference="em_service_quantity__v" />
+            <vault:field reference="em_total_payment__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

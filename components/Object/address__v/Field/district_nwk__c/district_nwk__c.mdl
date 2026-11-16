@@ -1,0 +1,19 @@
+Field district_nwk__c (
+   label('Super Admin Area'),
+   type('String'),
+   active(true),
+   description('Network Field - Address District (super administrative area)'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(114),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

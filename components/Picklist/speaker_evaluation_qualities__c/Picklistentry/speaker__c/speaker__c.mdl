@@ -1,0 +1,5 @@
+Picklistentry speaker__c (
+   value('Speaker'),
+   order(1),
+   active(true)
+);

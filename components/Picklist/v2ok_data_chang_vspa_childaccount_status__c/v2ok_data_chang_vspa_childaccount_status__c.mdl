@@ -1,0 +1,8 @@
+RECREATE Picklist v2ok_data_chang_vspa_childaccount_status__c (
+   label('ChildAccount Status'),
+   active(true),
+   Picklistentry(@Picklistentry/valid__c.mdl),
+   Picklistentry(@Picklistentry/invalid__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

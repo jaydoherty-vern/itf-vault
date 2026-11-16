@@ -1,0 +1,5 @@
+Picklistentry pending_regulatory_approval__c (
+   value('Pending Regulatory Approval'),
+   order(7),
+   active(true)
+);

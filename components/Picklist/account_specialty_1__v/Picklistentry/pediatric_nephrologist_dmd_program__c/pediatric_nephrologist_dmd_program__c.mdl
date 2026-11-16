@@ -1,0 +1,5 @@
+Picklistentry pediatric_nephrologist_dmd_program__c (
+   value('PEDIATRIC NEPHROLOGIST, DMD PROGRAM'),
+   order(371),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry nr__c (
+   value('Nuclear Radiology'),
+   order(313),
+   active(true)
+);

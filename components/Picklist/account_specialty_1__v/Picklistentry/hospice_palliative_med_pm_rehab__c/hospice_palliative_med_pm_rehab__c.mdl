@@ -1,0 +1,5 @@
+Picklistentry hospice_palliative_med_pm_rehab__c (
+   value('HOSPICE & PALLIATIVE MED (PM & REHAB)'),
+   order(339),
+   active(true)
+);

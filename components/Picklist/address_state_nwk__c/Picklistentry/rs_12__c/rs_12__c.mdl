@@ -1,0 +1,5 @@
+Picklistentry rs_12__c (
+   value('RS_Šumadijski okrug'),
+   order(1477),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mr__c (
+   value('Mr'),
+   order(0),
+   active(false)
+);

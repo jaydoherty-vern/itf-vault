@@ -1,0 +1,5 @@
+Picklistentry administrator_director__c (
+   value('Administrator, Director'),
+   order(115),
+   active(true)
+);

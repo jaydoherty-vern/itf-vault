@@ -1,0 +1,5 @@
+Picklistentry partner__c (
+   value('Partnering Doctor'),
+   order(157),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry revn__c (
+   value('Registered Equine Veterinary Nurse (REVN)'),
+   order(324),
+   active(true)
+);

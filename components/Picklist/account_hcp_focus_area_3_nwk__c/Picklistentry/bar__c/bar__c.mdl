@@ -1,0 +1,5 @@
+Picklistentry bar__c (
+   value('Bariatrics/Obesity'),
+   order(37),
+   active(true)
+);

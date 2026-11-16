@@ -1,0 +1,5 @@
+Picklistentry ch_be__c (
+   value('CH_Bern'),
+   order(95),
+   active(true)
+);

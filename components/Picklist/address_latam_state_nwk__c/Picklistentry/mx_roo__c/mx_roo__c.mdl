@@ -1,0 +1,5 @@
+Picklistentry mx_roo__c (
+   value('Quintana Roo'),
+   order(29),
+   active(true)
+);

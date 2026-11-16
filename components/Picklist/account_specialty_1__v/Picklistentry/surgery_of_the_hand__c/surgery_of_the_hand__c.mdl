@@ -1,0 +1,5 @@
+Picklistentry surgery_of_the_hand__c (
+   value('SURGERY OF THE HAND'),
+   order(393),
+   active(true)
+);

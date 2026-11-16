@@ -1,0 +1,5 @@
+Picklistentry it_ba__c (
+   value('IT_Bari (IT)'),
+   order(839),
+   active(true)
+);

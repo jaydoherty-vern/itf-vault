@@ -1,0 +1,5 @@
+Picklistentry researcher__c (
+   value('Researcher'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout v2ok_stage_address_relationship_detail_p__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('V2OK Stage Address Relationship Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

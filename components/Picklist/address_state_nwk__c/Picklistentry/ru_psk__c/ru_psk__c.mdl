@@ -1,0 +1,5 @@
+Picklistentry ru_psk__c (
+   value('RU_Pskovskaya oblast'''),
+   order(1537),
+   active(true)
+);

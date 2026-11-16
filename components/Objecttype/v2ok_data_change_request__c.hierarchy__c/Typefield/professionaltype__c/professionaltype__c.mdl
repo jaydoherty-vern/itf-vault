@@ -1,0 +1,5 @@
+Typefield professionaltype__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.v2ok_data_change_reques_professionaltype__c.tet_1__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry it_45__c (
+   value('IT-45'),
+   order(949),
+   active(false)
+);

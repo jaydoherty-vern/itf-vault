@@ -1,0 +1,5 @@
+Picklistentry lt_19__c (
+   value('LT_Kelmė'),
+   order(993),
+   active(true)
+);

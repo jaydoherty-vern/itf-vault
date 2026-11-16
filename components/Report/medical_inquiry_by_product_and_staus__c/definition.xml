@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_inquiry__v.medical_inquiry_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="medical_inquiry__v.product__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="CURRENTCY" leftValue="medical_inquiry__v.created_date__v" rightValue="2025-01-01;;;2025-12-31" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="medical_inquiry__v.medical_inquiry_status__v" groupBySortOn="medical_inquiry__v.medical_inquiry_status__v" groupBySortOrder="ASCENDING">
+      <vrp:function>
+        <vrp:selectItem type="FUNCTION" action="COUNT" property="COUNT" display="NUMBER" />
+      </vrp:function>
+    </vrp:groupItem>
+    <vrp:groupItem index="1" name="medical_inquiry__v.product__v" groupBySortOn="medical_inquiry__v.product__v" groupBySortOrder="ASCENDING">
+      <vrp:function>
+        <vrp:selectItem type="FUNCTION" action="COUNT" property="COUNT" display="NUMBER" />
+      </vrp:function>
+    </vrp:groupItem>
+  </vrp:group>
+  <vrp:order />
+</vrp:query>

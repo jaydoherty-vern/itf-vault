@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v.created_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v.created_by__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v.survey__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v___account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v___account__v.itf_msl_top_priority__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v___account__v.specialty_1__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v___account__v.primary_parent__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v___account__v.external_id__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v___account__v.npi__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="question_response__v___survey_target__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="question_response__v___survey_target__v.question_text__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="question_response__v___survey_target__v.text__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="survey_target__v.share_team__v" rightValue="MSL" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="survey_target__v.created_date__v" sortDirection="DESCENDING" />
+  </vrp:order>
+</vrp:query>

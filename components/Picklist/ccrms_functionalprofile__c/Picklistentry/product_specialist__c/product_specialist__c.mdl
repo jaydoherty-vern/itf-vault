@@ -1,0 +1,5 @@
+Picklistentry product_specialist__c (
+   value('Product Specialist'),
+   order(3),
+   active(false)
+);

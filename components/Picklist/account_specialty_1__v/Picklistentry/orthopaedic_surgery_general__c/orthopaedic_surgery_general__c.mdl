@@ -1,0 +1,5 @@
+Picklistentry orthopaedic_surgery_general__c (
+   value('ORTHOPAEDIC SURGERY - GENERAL'),
+   order(358),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry otp_parent_event__sys (
+   value('Parent Event'),
+   order(118),
+   active(true),
+   controlling_entries('olc_event__sys')
+);

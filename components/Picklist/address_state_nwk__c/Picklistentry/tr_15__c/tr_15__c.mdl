@@ -1,0 +1,5 @@
+Picklistentry tr_15__c (
+   value('TR_Burdur'),
+   order(1686),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry anp__v (
+   value('Angika'),
+   order(91),
+   active(false)
+);

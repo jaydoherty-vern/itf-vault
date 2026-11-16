@@ -1,0 +1,20 @@
+Field veeva_settings_vod_c_where_clause__v (
+   label('VEEVA_SETTINGS_VOD__C_WHERE_CLAUSE'),
+   type('String'),
+   active(true),
+   description('Blackberry WHERE CLAUSE filter for Veeva_Settings_vod__c object.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('BlackBerry specific filtering WHERE clause for Veeva_Settings_vod__c data.  Default: VEEVA_SETTINGS_VOD__C_WHERE_CLAUSE;;Blackberry'),
+   list_column(false),
+   order(305),
+   default_value('"VEEVA_SETTINGS_VOD__C_WHERE_CLAUSE;;Blackberry"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

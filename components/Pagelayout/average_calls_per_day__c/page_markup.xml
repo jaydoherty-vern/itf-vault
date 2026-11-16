@@ -1,0 +1,8 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.analytics_layouts__v.average_calls_per_day__v">
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

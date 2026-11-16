@@ -1,0 +1,5 @@
+Picklistentry my_schedule__c (
+   value('My Schedule'),
+   order(26),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gerpsy__c (
+   value('Geriatric Psychiatry'),
+   order(160),
+   active(true)
+);

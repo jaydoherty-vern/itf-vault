@@ -1,0 +1,13 @@
+RECREATE Permissionset vspa_sending_approved_emails_from_medic1__c (
+   label('VSPA_Sending_Approved_Emails_from_Medical_Events_End_User'),
+   active(true),
+   description('EXTRA_Enables the 18R1 functionality of Sending Approved Emails from Medical Events for the End User.. Requires Approved Email, Medical Events and Multichannel Activity to be enabled.'),
+   object.multichannel_message__v.event_attendee_status__v.field_actions('edit',
+      'read'),
+   object.sent_email__v.event_attendee_mobile_id__v.field_actions('edit',
+      'read'),
+   object.sent_email__v.event_mobile_id__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

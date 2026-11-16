@@ -1,0 +1,5 @@
+Picklistentry rhumt__c (
+   value('Diploma in Rheumatology'),
+   order(87),
+   active(true)
+);

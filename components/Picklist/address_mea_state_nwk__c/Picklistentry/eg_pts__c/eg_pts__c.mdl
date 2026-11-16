@@ -1,0 +1,5 @@
+Picklistentry eg_pts__c (
+   value('EG_Būr Sa‘īd'),
+   order(25),
+   active(true)
+);

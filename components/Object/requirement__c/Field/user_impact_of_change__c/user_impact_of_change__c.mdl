@@ -1,0 +1,18 @@
+Field user_impact_of_change__c (
+   label('User Impact of Change'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Low: Significant User Impact; Medium: Moderate Impact; High: Minimal User Impact'),
+   list_column(false),
+   order(129),
+   multi_value(false),
+   picklist('Picklist.user_impact_of_change__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

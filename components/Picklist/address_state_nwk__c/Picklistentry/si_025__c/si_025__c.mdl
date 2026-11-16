@@ -1,0 +1,5 @@
+Picklistentry si_025__c (
+   value('SI_Dravograd'),
+   order(1593),
+   active(true)
+);

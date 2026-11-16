@@ -1,0 +1,5 @@
+Picklistentry mk_36__c (
+   value('MK_Kavadarci'),
+   order(1238),
+   active(true)
+);

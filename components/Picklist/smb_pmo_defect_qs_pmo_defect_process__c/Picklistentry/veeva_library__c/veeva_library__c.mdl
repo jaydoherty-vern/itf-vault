@@ -1,0 +1,5 @@
+Picklistentry veeva_library__c (
+   value('Veeva Library'),
+   order(46),
+   active(true)
+);

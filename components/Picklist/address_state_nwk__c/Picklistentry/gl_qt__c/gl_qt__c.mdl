@@ -1,0 +1,5 @@
+Picklistentry gl_qt__c (
+   value('GL_Kommune Qeqertalik'),
+   order(652),
+   active(true)
+);

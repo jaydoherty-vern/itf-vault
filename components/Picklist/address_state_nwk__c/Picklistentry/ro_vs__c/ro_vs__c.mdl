@@ -1,0 +1,5 @@
+Picklistentry ro_vs__c (
+   value('RO_Vaslui'),
+   order(1449),
+   active(true)
+);

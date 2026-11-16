@@ -1,0 +1,5 @@
+Picklistentry ao_lsu__c (
+   value('AO-LSU'),
+   order(125),
+   active(true)
+);

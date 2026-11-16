@@ -1,0 +1,5 @@
+Picklistentry is_vem__c (
+   value('IS_Vestmannaeyjabær'),
+   order(826),
+   active(true)
+);

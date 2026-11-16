@@ -1,0 +1,5 @@
+Picklistentry amd__c (
+   value('Administrative Medicine'),
+   order(5),
+   active(true)
+);

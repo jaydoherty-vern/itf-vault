@@ -1,0 +1,5 @@
+Picklistentry primary_care__c (
+   value('Primary Care'),
+   order(1),
+   active(true)
+);

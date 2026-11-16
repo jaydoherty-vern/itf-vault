@@ -1,0 +1,8 @@
+RECREATE Pagelayout expense_estimate_read_only_layout__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Expense Estimate Read Only Layout'),
+   page_markup(@page_markup.xml)
+);

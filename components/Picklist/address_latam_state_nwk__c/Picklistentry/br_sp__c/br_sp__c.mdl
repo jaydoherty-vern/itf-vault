@@ -1,0 +1,5 @@
+Picklistentry br_sp__c (
+   value('São Paulo'),
+   order(24),
+   active(true)
+);

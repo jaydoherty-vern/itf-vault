@@ -1,0 +1,5 @@
+Picklistentry neurology_pediatrics__c (
+   value('NEUROLOGY, PEDIATRICS'),
+   order(350),
+   active(true)
+);

@@ -1,0 +1,18 @@
+RECREATE Picklist v2ok_codetable_lis_code__c (
+   label('LIS_CODE'),
+   active(true),
+   Picklistentry(@Picklistentry/app__c.mdl),
+   Picklistentry(@Picklistentry/cau__c.mdl),
+   Picklistentry(@Picklistentry/dpt__c.mdl),
+   Picklistentry(@Picklistentry/entities_link__c.mdl),
+   Picklistentry(@Picklistentry/gen__c.mdl),
+   Picklistentry(@Picklistentry/lex__c.mdl),
+   Picklistentry(@Picklistentry/sp__c.mdl),
+   Picklistentry(@Picklistentry/ten__c.mdl),
+   Picklistentry(@Picklistentry/tet__c.mdl),
+   Picklistentry(@Picklistentry/tih__c.mdl),
+   Picklistentry(@Picklistentry/tit__c.mdl),
+   Picklistentry(@Picklistentry/typ__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

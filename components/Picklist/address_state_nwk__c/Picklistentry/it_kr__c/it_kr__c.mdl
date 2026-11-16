@@ -1,0 +1,5 @@
+Picklistentry it_kr__c (
+   value('IT_Crotone'),
+   order(860),
+   active(true)
+);

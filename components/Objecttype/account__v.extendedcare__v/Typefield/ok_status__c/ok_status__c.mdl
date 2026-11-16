@@ -1,0 +1,6 @@
+Typefield ok_status__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_ok_status__c.invalid__c',
+         'Picklist.account_ok_status__c.valid__c')
+);

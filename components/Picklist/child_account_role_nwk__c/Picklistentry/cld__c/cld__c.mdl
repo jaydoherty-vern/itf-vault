@@ -1,0 +1,5 @@
+Picklistentry cld__c (
+   value('Clinical Director / Lead'),
+   order(37),
+   active(true)
+);

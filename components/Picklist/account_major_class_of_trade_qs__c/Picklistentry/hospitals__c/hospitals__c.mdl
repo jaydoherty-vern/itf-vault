@@ -1,0 +1,5 @@
+Picklistentry hospitals__c (
+   value('Hospitals'),
+   order(11),
+   active(true)
+);

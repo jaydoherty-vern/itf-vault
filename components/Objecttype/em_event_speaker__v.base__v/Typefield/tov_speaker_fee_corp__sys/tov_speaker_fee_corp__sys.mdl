@@ -1,0 +1,4 @@
+Typefield tov_speaker_fee_corp__sys (
+   source('standard'),
+   required(false)
+);

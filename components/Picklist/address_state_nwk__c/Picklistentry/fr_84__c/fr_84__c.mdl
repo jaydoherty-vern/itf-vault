@@ -1,0 +1,5 @@
+Picklistentry fr_84__c (
+   value('FR_Vaucluse'),
+   order(379),
+   active(true)
+);

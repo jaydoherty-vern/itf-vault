@@ -1,0 +1,5 @@
+Picklistentry denar__c (
+   value('Denar'),
+   order(96),
+   active(true)
+);

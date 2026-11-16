@@ -1,0 +1,102 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.product__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="parent_product__v" />
+            <vault:field reference="product_type__v" />
+            <vault:field reference="company_product__v" />
+            <vault:field reference="aln_vcountry__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Identifiers" name="identifiers__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="external_id__v" />
+            <vault:field reference="master_align_id__v" />
+            <vault:field reference="id" />
+            <vault:field reference="vexternal_id__v" />
+            <vault:field reference="product_identifier__v" />
+            <vault:field reference="legacy_crm_id__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Setup Restrictions" name="setup_restrictions__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="no_cycle_plans__v" />
+            <vault:field reference="no_details__v" />
+            <vault:field reference="no_metrics__v" />
+            <vault:field reference="no_promo_items__v" />
+            <vault:field reference="require_key_message__v" />
+            <vault:field reference="restricted__v" />
+            <vault:field reference="require_discussion__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Optional Details" name="optional_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="display_order__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="manufacturer__v" />
+            <vault:field reference="distributor__v" />
+            <vault:field reference="brand_color_code__v" />
+            <vault:field reference="therapeutic_area__v" />
+            <vault:field reference="therapeutic_class__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Sampling &amp; Promotional Items" name="sampling_promotional__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="user_aligned__v" />
+            <vault:field reference="create_lot_catalog__v" />
+            <vault:field reference="sample_u_m__v" />
+            <vault:field reference="quantity_per_case__v" />
+            <vault:field reference="inventory_order_uom__v" />
+            <vault:field reference="inventory_quantity_per_case__v" />
+            <vault:field reference="sample_quantity_picklist__v" />
+            <vault:field reference="sample_quantity_bound__v" />
+            <vault:field reference="controlled_substance__v" />
+            <vault:field reference="schedule__v" />
+            <vault:field reference="state_distributor_category__v" />
+            <vault:field reference="restricted_states__v" />
+            <vault:field reference="cold_chain__v" />
+            <vault:field reference="custom_text__v" />
+            <vault:field reference="product_value__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Order Management" name="order_management__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="sort_code__v" />
+            <vault:field reference="product_thumbnail__v" />
+            <vault:field reference="fixed_um__v" />
+            <vault:field reference="bundle_pack__v" />
+            <vault:field reference="pricing_bound__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Inventory Monitoring" name="inventory_monitoring__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="inventory_monitoring__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Specifications" name="specifications__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="cost__v" />
+            <vault:spacer />
+            <vault:field reference="height__v" />
+            <vault:field reference="width__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

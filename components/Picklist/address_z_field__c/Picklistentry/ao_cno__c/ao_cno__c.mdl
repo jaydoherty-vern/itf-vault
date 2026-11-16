@@ -1,0 +1,5 @@
+Picklistentry ao_cno__c (
+   value('AO-CNO'),
+   order(120),
+   active(true)
+);

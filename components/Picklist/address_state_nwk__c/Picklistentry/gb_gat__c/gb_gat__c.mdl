@@ -1,0 +1,5 @@
+Picklistentry gb_gat__c (
+   value('GB-GAT'),
+   order(497),
+   active(false)
+);

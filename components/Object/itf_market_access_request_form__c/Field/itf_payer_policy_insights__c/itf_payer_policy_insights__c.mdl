@@ -1,0 +1,17 @@
+Field itf_payer_policy_insights__c (
+   label('Payer/Policy Insights'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('Field sales is never to review, discuss, possess, or share patient-specific information.'),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

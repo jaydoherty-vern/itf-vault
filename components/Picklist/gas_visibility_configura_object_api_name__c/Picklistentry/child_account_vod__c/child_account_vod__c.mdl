@@ -1,0 +1,5 @@
+Picklistentry child_account_vod__c (
+   value('Child_Account_vod__c'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry tablet__c (
+   value('Tablet'),
+   order(1),
+   active(false)
+);

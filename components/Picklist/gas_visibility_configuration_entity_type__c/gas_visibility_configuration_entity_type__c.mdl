@@ -1,0 +1,10 @@
+RECREATE Picklist gas_visibility_configuration_entity_type__c (
+   label('Entity Type'),
+   active(true),
+   Picklistentry(@Picklistentry/public_group__c.mdl),
+   Picklistentry(@Picklistentry/organization__c.mdl),
+   Picklistentry(@Picklistentry/user__c.mdl),
+   Picklistentry(@Picklistentry/profile__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,9 @@
+RECREATE Reporttype dcr_line_with_request__c (
+   label('DCR Line with Request'),
+   active(true),
+   description('Data Change Request Line with Request'),
+   primary_object('data_change_request_line__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

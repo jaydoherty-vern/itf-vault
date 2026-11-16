@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true" documentScope="ACTIVE">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:targetDocumentAlias>Target Document</vrp:targetDocumentAlias>
+  <vrp:sourceDocumentAlias>Source Document</vrp:sourceDocumentAlias>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:combineReportPrompts>false</vrp:combineReportPrompts>
+  <vrp:enableMergeCells>false</vrp:enableMergeCells>
+  <vrp:mergeCellsWithinView>false</vrp:mergeCellsWithinView>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:removeLinksFromExport>false</vrp:removeLinksFromExport>
+  <vrp:columns>
+    <vrp:column key="survey_target__v.name__v" type="documentProperty" index="0" columnWidth="200" />
+    <vrp:column key="survey_target__v.created_date__v" type="documentProperty" index="1" columnWidth="155" />
+    <vrp:column key="survey_target__v.created_by__v" type="documentProperty" index="2" columnWidth="155" />
+    <vrp:column key="survey_target__v.survey__v" type="documentProperty" index="3" columnWidth="155" />
+    <vrp:column key="survey_target__v___account__v.name__v" type="documentProperty" index="4" columnWidth="200" />
+    <vrp:column key="survey_target__v___account__v.itf_msl_top_priority__c" type="documentProperty" index="5" columnWidth="155" />
+    <vrp:column key="survey_target__v___account__v.specialty_1__v" type="documentProperty" index="6" columnWidth="155" />
+    <vrp:column key="survey_target__v___account__v.primary_parent__v" type="documentProperty" index="7" columnWidth="155" />
+    <vrp:column key="survey_target__v___account__v.external_id__v" type="documentProperty" index="8" columnWidth="155" />
+    <vrp:column key="survey_target__v___account__v.npi__v" type="documentProperty" index="9" columnWidth="155" />
+    <vrp:column key="question_response__v___survey_target__v.name__v" type="documentProperty" index="10" columnWidth="200" />
+    <vrp:column key="question_response__v___survey_target__v.question_text__v" type="documentProperty" index="11" columnWidth="155" />
+    <vrp:column key="question_response__v___survey_target__v.text__v" type="documentProperty" index="12" columnWidth="155" />
+  </vrp:columns>
+  <vrp:relationshipObjectJoinTypes>
+    <vrp:relationshipObjectJoinType relationshipKeyRef="reportTypeRef1785154419749" vobjectJoinType="NONE" />
+  </vrp:relationshipObjectJoinTypes>
+</vrp:reportFormat>

@@ -1,0 +1,8 @@
+RECREATE Pagelayout user_email_template__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('User - Email Template'),
+   page_markup(@page_markup.xml)
+);

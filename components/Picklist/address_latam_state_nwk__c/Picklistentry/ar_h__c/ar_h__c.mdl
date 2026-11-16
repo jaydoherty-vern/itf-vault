@@ -1,0 +1,5 @@
+Picklistentry ar_h__c (
+   value('Chaco'),
+   order(82),
+   active(true)
+);

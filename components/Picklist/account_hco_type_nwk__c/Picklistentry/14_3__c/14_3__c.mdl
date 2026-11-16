@@ -1,0 +1,5 @@
+Picklistentry 14_3__c (
+   value('Medical School, Osteopathic'),
+   order(124),
+   active(true)
+);

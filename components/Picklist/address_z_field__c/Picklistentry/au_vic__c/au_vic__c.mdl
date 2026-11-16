@@ -1,0 +1,5 @@
+Picklistentry au_vic__c (
+   value('AU-VIC'),
+   order(171),
+   active(true)
+);

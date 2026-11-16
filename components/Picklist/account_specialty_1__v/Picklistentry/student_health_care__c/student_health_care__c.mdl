@@ -1,0 +1,5 @@
+Picklistentry student_health_care__c (
+   value('Student, Health Care'),
+   order(297),
+   active(true)
+);

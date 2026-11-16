@@ -1,0 +1,5 @@
+Picklistentry ca_lb__c (
+   value('CA-LB'),
+   order(598),
+   active(true)
+);

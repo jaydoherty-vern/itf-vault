@@ -1,0 +1,5 @@
+Picklistentry bo_l__c (
+   value('BO-L'),
+   order(486),
+   active(true)
+);

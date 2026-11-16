@@ -1,0 +1,5 @@
+Picklistentry 6__c (
+   value('Distributors, General'),
+   order(3),
+   active(true)
+);

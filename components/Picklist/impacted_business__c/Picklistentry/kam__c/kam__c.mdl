@@ -1,0 +1,5 @@
+Picklistentry kam__c (
+   value('KAM'),
+   order(1),
+   active(true)
+);

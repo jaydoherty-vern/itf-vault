@@ -1,0 +1,5 @@
+Picklistentry mk_70__c (
+   value('MK_Sopište'),
+   order(1269),
+   active(true)
+);

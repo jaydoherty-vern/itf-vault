@@ -1,0 +1,5 @@
+Picklistentry nc__c (
+   value('Nuclear Cardiology'),
+   order(303),
+   active(true)
+);

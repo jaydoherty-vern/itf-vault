@@ -1,0 +1,5 @@
+Picklistentry pt_10__c (
+   value('PT_Leiria'),
+   order(1398),
+   active(true)
+);

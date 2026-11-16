@@ -1,0 +1,5 @@
+Picklistentry ch_ag__c (
+   value('CH_Aargau'),
+   order(90),
+   active(true)
+);

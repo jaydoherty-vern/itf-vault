@@ -1,0 +1,5 @@
+Picklistentry mk_63__c (
+   value('MK_Probištip'),
+   order(1263),
+   active(true)
+);

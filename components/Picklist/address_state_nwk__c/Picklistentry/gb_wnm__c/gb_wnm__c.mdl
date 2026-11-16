@@ -1,0 +1,5 @@
+Picklistentry gb_wnm__c (
+   value('GB-WNM'),
+   order(640),
+   active(false)
+);

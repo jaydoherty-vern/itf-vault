@@ -1,0 +1,5 @@
+Picklistentry si_029__c (
+   value('SI_Gornja Radgona'),
+   order(1594),
+   active(true)
+);

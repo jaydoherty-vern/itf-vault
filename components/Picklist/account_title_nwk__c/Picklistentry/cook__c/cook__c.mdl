@@ -1,0 +1,5 @@
+Picklistentry cook__c (
+   value('COOK'),
+   order(24),
+   active(true)
+);

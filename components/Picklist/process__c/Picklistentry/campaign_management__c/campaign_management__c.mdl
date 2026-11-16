@@ -1,0 +1,5 @@
+Picklistentry campaign_management__c (
+   value('Campaign Management'),
+   order(7),
+   active(true)
+);

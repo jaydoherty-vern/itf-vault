@@ -1,0 +1,4 @@
+Typefield total_allowances__c (
+   source('standard'),
+   required(false)
+);

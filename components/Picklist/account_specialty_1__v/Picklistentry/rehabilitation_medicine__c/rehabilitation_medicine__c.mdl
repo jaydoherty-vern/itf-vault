@@ -1,0 +1,5 @@
+Picklistentry rehabilitation_medicine__c (
+   value('REHABILITATION MEDICINE'),
+   order(390),
+   active(true)
+);

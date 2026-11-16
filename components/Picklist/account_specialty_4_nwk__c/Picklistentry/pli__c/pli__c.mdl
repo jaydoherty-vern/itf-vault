@@ -1,0 +1,5 @@
+Picklistentry pli__c (
+   value('Clinical & Laboratory Immunology (Ped)'),
+   order(69),
+   active(true)
+);

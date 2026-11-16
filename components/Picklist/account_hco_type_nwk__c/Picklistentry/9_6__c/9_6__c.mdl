@@ -1,0 +1,5 @@
+Picklistentry 9_6__c (
+   value('Managed Care, PPO'),
+   order(106),
+   active(true)
+);

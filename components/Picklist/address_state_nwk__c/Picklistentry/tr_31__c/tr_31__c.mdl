@@ -1,0 +1,5 @@
+Picklistentry tr_31__c (
+   value('TR_Hatay'),
+   order(1703),
+   active(true)
+);

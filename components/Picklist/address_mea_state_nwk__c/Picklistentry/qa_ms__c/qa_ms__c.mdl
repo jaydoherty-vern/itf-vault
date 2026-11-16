@@ -1,0 +1,5 @@
+Picklistentry qa_ms__c (
+   value('QA_Ash Shamāl'),
+   order(71),
+   active(true)
+);

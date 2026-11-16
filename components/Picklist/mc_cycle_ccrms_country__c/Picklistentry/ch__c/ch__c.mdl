@@ -1,0 +1,5 @@
+Picklistentry ch__c (
+   value('CH'),
+   order(2),
+   active(true)
+);

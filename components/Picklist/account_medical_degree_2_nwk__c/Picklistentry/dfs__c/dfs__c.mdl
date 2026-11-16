@@ -1,0 +1,5 @@
+Picklistentry dfs__c (
+   value('Dr. rer. agr.'),
+   order(134),
+   active(true)
+);

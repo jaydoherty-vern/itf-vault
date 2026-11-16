@@ -1,0 +1,8 @@
+RECREATE Pagelayout event_expense_header_layout__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Event Expense Header Layout'),
+   page_markup(@page_markup.xml)
+);

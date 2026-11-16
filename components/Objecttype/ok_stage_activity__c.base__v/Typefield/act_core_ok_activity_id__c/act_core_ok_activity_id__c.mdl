@@ -1,0 +1,4 @@
+Typefield act_core_ok_activity_id__c (
+   source('standard'),
+   required(false)
+);

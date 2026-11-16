@@ -1,0 +1,5 @@
+Picklistentry pta__c (
+   value('Physical Therapy Assistant'),
+   order(269),
+   active(true)
+);

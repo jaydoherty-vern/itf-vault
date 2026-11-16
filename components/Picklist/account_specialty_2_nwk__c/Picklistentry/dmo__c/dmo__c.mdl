@@ -1,0 +1,5 @@
+Picklistentry dmo__c (
+   value('Dento- maxillary orthopedics'),
+   order(107),
+   active(true)
+);

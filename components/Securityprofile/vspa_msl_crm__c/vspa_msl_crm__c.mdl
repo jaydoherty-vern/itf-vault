@@ -1,0 +1,6 @@
+RECREATE Securityprofile vspa_msl_crm__c (
+   label('VSPA_MSL_CRM'),
+   active(true),
+   description(),
+   permission_sets('vspa_msl_crm_ps__c')
+);

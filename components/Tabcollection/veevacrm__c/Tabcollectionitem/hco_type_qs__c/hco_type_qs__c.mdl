@@ -1,0 +1,8 @@
+Tabcollectionitem hco_type_qs__c (
+   label(),
+   active(true),
+   tabs(),
+   order(5),
+   tab('Tab.hco_type_qs__c'),
+   type('Tab')
+);

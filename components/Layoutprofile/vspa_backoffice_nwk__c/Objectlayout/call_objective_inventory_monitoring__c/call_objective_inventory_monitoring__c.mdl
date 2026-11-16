@@ -1,0 +1,8 @@
+Objectlayout call_objective_inventory_monitoring__c (
+   label('call_objective_inventory_monitoring'),
+   active(true),
+   pagelayouts('Pagelayout.call_objective_layout__c'),
+   object('Object.call_objective__v'),
+   objecttype('Objecttype.call_objective__v.inventory_monitoring__v'),
+   record_creation_layout('Pagelayout.call_objective_layout__c')
+);

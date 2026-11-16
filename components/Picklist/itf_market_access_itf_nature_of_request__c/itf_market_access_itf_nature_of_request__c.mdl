@@ -1,0 +1,11 @@
+RECREATE Picklist itf_market_access_itf_nature_of_request__c (
+   label('Nature of Request'),
+   active(true),
+   Picklistentry(@Picklistentry/itf_arc_service_issue__c.mdl),
+   Picklistentry(@Picklistentry/payer_coverage_question_issue__c.mdl),
+   Picklistentry(@Picklistentry/pantherx_question_issue__c.mdl),
+   Picklistentry(@Picklistentry/question_about_itf_arc_case__c.mdl),
+   Picklistentry(@Picklistentry/providing_payer_policy_insight__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

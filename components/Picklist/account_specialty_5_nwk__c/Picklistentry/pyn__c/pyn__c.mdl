@@ -1,0 +1,5 @@
+Picklistentry pyn__c (
+   value('Psychiatry/Neurology'),
+   order(426),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cn_jx__c (
+   value('CN-JX'),
+   order(750),
+   active(true)
+);

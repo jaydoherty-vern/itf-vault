@@ -1,0 +1,21 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.dynamic_attribute__v.dynamic_attribute__v">
+    <vault:section title="Fields" name="fields__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="dynamic_attribute_configuration__v" />
+            <vault:field reference="dynamic_attribute_name__v" />
+            <vault:field reference="dynamic_attribute_label__v" />
+            <vault:field reference="dynamic_attribute_record_type__v" />
+            <vault:field reference="account__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

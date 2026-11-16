@@ -1,0 +1,5 @@
+Picklistentry p__c (
+   value('Pharmacist'),
+   order(75),
+   active(true)
+);

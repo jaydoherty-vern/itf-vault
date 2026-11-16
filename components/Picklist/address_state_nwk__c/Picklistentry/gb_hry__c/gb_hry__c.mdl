@@ -1,0 +1,5 @@
+Picklistentry gb_hry__c (
+   value('GB-HRY'),
+   order(515),
+   active(false)
+);

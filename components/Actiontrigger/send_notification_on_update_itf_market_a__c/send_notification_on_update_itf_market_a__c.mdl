@@ -1,0 +1,9 @@
+RECREATE Actiontrigger send_notification_on_update_itf_market_a__c (
+   label('Send Notification on Update'),
+   active(true),
+   description(),
+   object('Object.itf_market_access_request_form__c'),
+   event('AFTER_UPDATE'),
+   order(100),
+   Actionblock(@Actionblock/action_block1__c.mdl)
+);

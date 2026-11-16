@@ -1,0 +1,5 @@
+Picklistentry genetic_disorder_thalassaemia__c (
+   value('Genetic Disorder (Thalassaemia)'),
+   order(12),
+   active(true)
+);

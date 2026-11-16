@@ -1,0 +1,5 @@
+Picklistentry is_gry__c (
+   value('IS_Grýtubakkahreppur'),
+   order(775),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry fr_cp__c (
+   value('FR_Clipperton'),
+   order(295),
+   active(true)
+);

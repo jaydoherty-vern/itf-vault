@@ -1,0 +1,5 @@
+Picklistentry change_request__c (
+   value('Change Request'),
+   order(3),
+   active(true)
+);

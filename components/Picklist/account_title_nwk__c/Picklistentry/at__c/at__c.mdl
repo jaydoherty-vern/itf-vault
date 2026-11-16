@@ -1,0 +1,5 @@
+Picklistentry at__c (
+   value('Assistant Technician'),
+   order(10),
+   active(true)
+);

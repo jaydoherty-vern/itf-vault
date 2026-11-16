@@ -1,0 +1,4 @@
+Typefield summary_view_section_background_color__c (
+   source('standard'),
+   required(false)
+);

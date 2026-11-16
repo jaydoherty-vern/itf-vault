@@ -1,0 +1,5 @@
+Picklistentry neuropathology__c (
+   value('Neuropathology'),
+   order(3),
+   active(true)
+);

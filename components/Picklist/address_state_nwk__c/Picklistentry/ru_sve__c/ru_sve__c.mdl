@@ -1,0 +1,5 @@
+Picklistentry ru_sve__c (
+   value('RU_Sverdlovskaya oblast'''),
+   order(1548),
+   active(true)
+);

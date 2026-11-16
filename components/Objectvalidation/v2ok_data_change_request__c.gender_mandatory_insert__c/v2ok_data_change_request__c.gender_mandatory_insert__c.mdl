@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.gender_mandatory_insert__c (
+   label('Gender_Mandatory_Insert'),
+   active(false),
+   expression('Not(And(Text(change_type__c)="Create",IsBlank(Text(gender__c)),object_type__vr.name__v="Professional"))'),
+   description('The gender is mandatory for insert data change requests.'),
+   error_message('Mandatory for "Create" data change request type.'),
+   error_location('id')
+);

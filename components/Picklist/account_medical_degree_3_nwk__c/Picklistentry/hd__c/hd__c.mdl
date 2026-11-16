@@ -1,0 +1,5 @@
+Picklistentry hd__c (
+   value('Honored Doctor of ARC'),
+   order(159),
+   active(true)
+);

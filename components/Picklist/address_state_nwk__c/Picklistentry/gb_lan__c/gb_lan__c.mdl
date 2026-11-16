@@ -1,0 +1,5 @@
+Picklistentry gb_lan__c (
+   value('GB-LAN'),
+   order(529),
+   active(false)
+);

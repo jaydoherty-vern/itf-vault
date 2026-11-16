@@ -1,0 +1,10 @@
+RECREATE Picklist smb_pm_qs_pmo_customer_validation_status__c (
+   label('Customer Validation Status'),
+   active(true),
+   Picklistentry(@Picklistentry/open__c.mdl),
+   Picklistentry(@Picklistentry/pending_validation__c.mdl),
+   Picklistentry(@Picklistentry/validated__c.mdl),
+   Picklistentry(@Picklistentry/rejected__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

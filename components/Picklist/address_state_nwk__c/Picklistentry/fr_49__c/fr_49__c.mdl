@@ -1,0 +1,5 @@
+Picklistentry fr_49__c (
+   value('FR_Maine-et-Loire'),
+   order(340),
+   active(true)
+);

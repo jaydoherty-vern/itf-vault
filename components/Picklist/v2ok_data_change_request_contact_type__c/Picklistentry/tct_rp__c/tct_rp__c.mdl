@@ -1,0 +1,5 @@
+Picklistentry tct_rp__c (
+   value('TCT.RP'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry hr_03__c (
+   value('HR_Sisačko-moslavačka županija'),
+   order(670),
+   active(true)
+);

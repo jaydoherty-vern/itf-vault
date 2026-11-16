@@ -1,0 +1,5 @@
+Picklistentry phe__c (
+   value('Public Health-Epidemiology Diploma'),
+   order(316),
+   active(true)
+);

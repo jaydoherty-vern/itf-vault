@@ -1,0 +1,5 @@
+Picklistentry bs_ns__c (
+   value('North Andros'),
+   order(101),
+   active(true)
+);

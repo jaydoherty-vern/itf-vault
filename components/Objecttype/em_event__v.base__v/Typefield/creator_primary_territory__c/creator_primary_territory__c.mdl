@@ -1,0 +1,4 @@
+Typefield creator_primary_territory__c (
+   source('standard'),
+   required(false)
+);

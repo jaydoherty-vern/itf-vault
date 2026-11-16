@@ -1,0 +1,5 @@
+Picklistentry bf_nam__c (
+   value('BF-NAM'),
+   order(396),
+   active(true)
+);

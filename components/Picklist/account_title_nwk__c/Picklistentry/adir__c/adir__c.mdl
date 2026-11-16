@@ -1,0 +1,5 @@
+Picklistentry adir__c (
+   value('Assistant Director'),
+   order(5),
+   active(true)
+);

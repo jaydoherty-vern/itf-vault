@@ -1,0 +1,142 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.sales_transaction__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="id__v" />
+            <vault:field reference="payer_plan__v" />
+            <vault:field reference="zip__v" />
+            <vault:field reference="territory_name__v" />
+            <vault:field reference="product_group__v" />
+            <vault:field reference="data_channel__v" />
+            <vault:field reference="brick__v" />
+            <vault:field reference="child_id__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Sales Transaction Information" name="sales_transaction_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="b1__v" />
+            <vault:field reference="b3__v" />
+            <vault:field reference="b5__v" />
+            <vault:field reference="b7__v" />
+            <vault:field reference="b9__v" />
+            <vault:field reference="b11__v" />
+            <vault:field reference="b13__v" />
+            <vault:field reference="b15__v" />
+            <vault:field reference="b17__v" />
+            <vault:field reference="b19__v" />
+            <vault:field reference="b21__v" />
+            <vault:field reference="b23__v" />
+            <vault:field reference="b25__v" />
+            <vault:field reference="b27__v" />
+            <vault:field reference="b29__v" />
+            <vault:field reference="b31__v" />
+            <vault:field reference="b33__v" />
+            <vault:field reference="b35__v" />
+            <vault:field reference="b37__v" />
+            <vault:field reference="b39__v" />
+            <vault:field reference="b41__v" />
+            <vault:field reference="b43__v" />
+            <vault:field reference="b45__v" />
+            <vault:field reference="b47__v" />
+            <vault:field reference="b49__v" />
+            <vault:field reference="b51__v" />
+            <vault:field reference="b53__v" />
+            <vault:field reference="b55__v" />
+            <vault:field reference="b57__v" />
+            <vault:field reference="b59__v" />
+            <vault:field reference="b61__v" />
+            <vault:field reference="b63__v" />
+            <vault:field reference="b65__v" />
+            <vault:field reference="b67__v" />
+            <vault:field reference="b69__v" />
+            <vault:field reference="b71__v" />
+            <vault:field reference="b73__v" />
+            <vault:field reference="b75__v" />
+            <vault:field reference="b77__v" />
+            <vault:field reference="b79__v" />
+            <vault:field reference="b81__v" />
+            <vault:field reference="b83__v" />
+            <vault:field reference="b85__v" />
+            <vault:field reference="b87__v" />
+            <vault:field reference="b89__v" />
+            <vault:field reference="b91__v" />
+            <vault:field reference="b93__v" />
+            <vault:field reference="b95__v" />
+            <vault:field reference="b97__v" />
+            <vault:field reference="b99__v" />
+            <vault:field reference="b101__v" />
+            <vault:field reference="b103__v" />
+            <vault:field reference="b2__v" />
+            <vault:field reference="b4__v" />
+            <vault:field reference="b6__v" />
+            <vault:field reference="b8__v" />
+            <vault:field reference="b10__v" />
+            <vault:field reference="b12__v" />
+            <vault:field reference="b14__v" />
+            <vault:field reference="b16__v" />
+            <vault:field reference="b18__v" />
+            <vault:field reference="b20__v" />
+            <vault:field reference="b22__v" />
+            <vault:field reference="b24__v" />
+            <vault:field reference="b26__v" />
+            <vault:field reference="b28__v" />
+            <vault:field reference="b30__v" />
+            <vault:field reference="b32__v" />
+            <vault:field reference="b34__v" />
+            <vault:field reference="b36__v" />
+            <vault:field reference="b38__v" />
+            <vault:field reference="b40__v" />
+            <vault:field reference="b42__v" />
+            <vault:field reference="b44__v" />
+            <vault:field reference="b46__v" />
+            <vault:field reference="b48__v" />
+            <vault:field reference="b50__v" />
+            <vault:field reference="b52__v" />
+            <vault:field reference="b54__v" />
+            <vault:field reference="b56__v" />
+            <vault:field reference="b58__v" />
+            <vault:field reference="b60__v" />
+            <vault:field reference="b62__v" />
+            <vault:field reference="b64__v" />
+            <vault:field reference="b66__v" />
+            <vault:field reference="b68__v" />
+            <vault:field reference="b70__v" />
+            <vault:field reference="b72__v" />
+            <vault:field reference="b74__v" />
+            <vault:field reference="b76__v" />
+            <vault:field reference="b78__v" />
+            <vault:field reference="b80__v" />
+            <vault:field reference="b82__v" />
+            <vault:field reference="b84__v" />
+            <vault:field reference="b86__v" />
+            <vault:field reference="b88__v" />
+            <vault:field reference="b90__v" />
+            <vault:field reference="b92__v" />
+            <vault:field reference="b94__v" />
+            <vault:field reference="b96__v" />
+            <vault:field reference="b98__v" />
+            <vault:field reference="b100__v" />
+            <vault:field reference="b102__v" />
+            <vault:field reference="b104__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

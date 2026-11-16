@@ -1,0 +1,5 @@
+Picklistentry cz__c (
+   value('CZ'),
+   order(3),
+   active(true)
+);

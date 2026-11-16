@@ -1,0 +1,5 @@
+Picklistentry al_pg__c (
+   value('AL_Pogradec'),
+   order(43),
+   active(true)
+);

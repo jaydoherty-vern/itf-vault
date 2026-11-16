@@ -1,0 +1,5 @@
+Picklistentry si_128__c (
+   value('SI_Tolmin'),
+   order(1642),
+   active(true)
+);

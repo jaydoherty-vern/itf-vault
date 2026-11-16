@@ -1,0 +1,5 @@
+Picklistentry cor__v (
+   value('Cornish'),
+   order(129),
+   active(false)
+);

@@ -1,0 +1,7 @@
+Typefield opt_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.multichannel_consent_opt_type__v.opt_in_pending__v',
+         'Picklist.multichannel_consent_opt_type__v.opt_in__v',
+         'Picklist.multichannel_consent_opt_type__v.opt_out__v')
+);

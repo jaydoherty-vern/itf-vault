@@ -1,0 +1,5 @@
+Picklistentry call_reporting__c (
+   value('Call Reporting'),
+   order(10),
+   active(true)
+);

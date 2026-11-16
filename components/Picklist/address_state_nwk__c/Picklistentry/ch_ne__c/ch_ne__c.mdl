@@ -1,0 +1,5 @@
+Picklistentry ch_ne__c (
+   value('CH_Neuchâtel'),
+   order(102),
+   active(true)
+);

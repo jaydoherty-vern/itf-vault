@@ -1,0 +1,5 @@
+Picklistentry 3_1__c (
+   value('Primary-level Medical and Health Care Institutions, Village Clinic'),
+   order(233),
+   active(true)
+);

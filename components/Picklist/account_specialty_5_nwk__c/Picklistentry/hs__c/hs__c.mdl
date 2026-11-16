@@ -1,0 +1,5 @@
+Picklistentry hs__c (
+   value('Hand Surgery'),
+   order(176),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ru_kr__c (
+   value('RU_Kareliya, Respublika'),
+   order(1507),
+   active(true)
+);

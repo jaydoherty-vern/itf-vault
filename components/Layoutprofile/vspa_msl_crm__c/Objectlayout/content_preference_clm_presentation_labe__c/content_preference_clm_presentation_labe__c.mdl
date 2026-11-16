@@ -1,0 +1,8 @@
+Objectlayout content_preference_clm_presentation_labe__c (
+   label('content_preference_clm_presentation_label'),
+   active(true),
+   pagelayouts('Pagelayout.clm_presentation_labels_vod__c'),
+   object('Object.content_preference__v'),
+   objecttype('Objecttype.content_preference__v.clm_presentation_label__v'),
+   record_creation_layout('Pagelayout.clm_presentation_labels_vod__c')
+);

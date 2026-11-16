@@ -1,0 +1,5 @@
+Picklistentry bz_sc__c (
+   value('BZ-SC'),
+   order(594),
+   active(true)
+);

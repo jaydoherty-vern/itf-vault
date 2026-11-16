@@ -1,0 +1,5 @@
+Picklistentry lt_04__c (
+   value('LT_Anykščiai'),
+   order(977),
+   active(true)
+);

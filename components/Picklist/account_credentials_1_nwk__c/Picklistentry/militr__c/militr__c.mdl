@@ -1,0 +1,5 @@
+Picklistentry militr__c (
+   value('Retired military Healthcare professional'),
+   order(33),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry vet__c (
+   value('Veterinary Medicine'),
+   order(472),
+   active(true)
+);

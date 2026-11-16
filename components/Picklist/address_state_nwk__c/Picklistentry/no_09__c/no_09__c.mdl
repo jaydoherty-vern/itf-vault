@@ -1,0 +1,5 @@
+Picklistentry no_09__c (
+   value('NO-09'),
+   order(1323),
+   active(false)
+);

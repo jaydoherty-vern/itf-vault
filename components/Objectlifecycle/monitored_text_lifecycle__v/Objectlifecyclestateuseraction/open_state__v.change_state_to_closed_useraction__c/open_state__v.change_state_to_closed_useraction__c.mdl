@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction open_state__v.change_state_to_closed_useraction__c (
+   label('Change State to Closed'),
+   rule(@rule.xml),
+   order(1002)
+);

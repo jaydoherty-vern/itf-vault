@@ -1,0 +1,5 @@
+Picklistentry below_average__c (
+   value('Below average'),
+   order(3),
+   active(true)
+);

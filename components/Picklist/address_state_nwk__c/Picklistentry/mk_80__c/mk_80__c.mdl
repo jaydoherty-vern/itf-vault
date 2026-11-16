@@ -1,0 +1,5 @@
+Picklistentry mk_80__c (
+   value('MK_Čaška'),
+   order(1216),
+   active(true)
+);

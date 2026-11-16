@@ -1,0 +1,9 @@
+Typefield workplace_class__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.v2ok_data_change_request_workplace_class__c.fad_wes_e__c',
+         'Picklist.v2ok_data_change_request_workplace_class__c.fad_wes_f__c',
+         'Picklist.v2ok_data_change_request_workplace_class__c.fad_wes_g__c',
+         'Picklist.v2ok_data_change_request_workplace_class__c.fad_wes_h__c',
+         'Picklist.v2ok_data_change_request_workplace_class__c.fad_wes_hd__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry om_sh__c (
+   value('OM_Ash Sharqīyah Region'),
+   order(72),
+   active(true)
+);

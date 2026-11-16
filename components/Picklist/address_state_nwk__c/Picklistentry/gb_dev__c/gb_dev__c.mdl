@@ -1,0 +1,5 @@
+Picklistentry gb_dev__c (
+   value('GB-DEV'),
+   order(472),
+   active(false)
+);

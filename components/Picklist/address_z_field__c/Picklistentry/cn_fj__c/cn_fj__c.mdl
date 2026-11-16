@@ -1,0 +1,5 @@
+Picklistentry cn_fj__c (
+   value('CN-FJ'),
+   order(737),
+   active(true)
+);

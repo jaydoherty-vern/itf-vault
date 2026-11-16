@@ -1,0 +1,5 @@
+Picklistentry nutr__c (
+   value('Nutrition'),
+   order(279),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gyne__c (
+   value('Gynecology Exfoliative Cytology'),
+   order(170),
+   active(true)
+);

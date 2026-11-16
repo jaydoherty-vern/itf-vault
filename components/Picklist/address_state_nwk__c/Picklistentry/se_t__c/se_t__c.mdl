@@ -1,0 +1,5 @@
+Picklistentry se_t__c (
+   value('SE_Örebro County'),
+   order(1576),
+   active(true)
+);

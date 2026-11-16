@@ -1,0 +1,8 @@
+RECREATE Pagelayout suggestion_repository_settings_detail_pa__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Suggestion Repository Settings Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

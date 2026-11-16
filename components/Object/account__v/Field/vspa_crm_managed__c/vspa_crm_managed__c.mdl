@@ -1,0 +1,18 @@
+Field vspa_crm_managed__c (
+   label('CRM Managed HCP?'),
+   type('Boolean'),
+   active(true),
+   description('Displays if account is managed locally in CRM.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(354),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_107__c (
+   value('LV_Viesītes novads (Viesīte)'),
+   order(1164),
+   active(true)
+);

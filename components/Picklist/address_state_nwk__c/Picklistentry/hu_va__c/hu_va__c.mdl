@@ -1,0 +1,5 @@
+Picklistentry hu_va__c (
+   value('HU_Vas'),
+   order(715),
+   active(true)
+);

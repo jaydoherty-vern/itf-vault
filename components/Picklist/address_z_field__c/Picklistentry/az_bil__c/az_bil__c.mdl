@@ -1,0 +1,5 @@
+Picklistentry az_bil__c (
+   value('AZ-BIL'),
+   order(186),
+   active(true)
+);

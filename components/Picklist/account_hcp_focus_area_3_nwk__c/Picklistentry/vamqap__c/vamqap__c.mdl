@@ -1,0 +1,5 @@
+Picklistentry vamqap__c (
+   value('Veterinary Asset Management and Quality Assurance in Production - Pigs'),
+   order(461),
+   active(true)
+);

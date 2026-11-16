@@ -1,0 +1,60 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.sample_limit__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="sample_limit_type__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="enforce_limit__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="limit_quantity__v" />
+            <vault:field reference="disbursed_quantity__v" />
+            <vault:field reference="remaining_quantity__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Sample Limit Template" name="sample_limit_template__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account_types__v" />
+            <vault:field reference="template_in_use__v" />
+            <vault:field reference="template_unique_key__v" />
+            <vault:field reference="template_group__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Rolling Sample Limit Info" name="rolling_sample_limit_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="rolling_period__v" />
+            <vault:field reference="split_period__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Sample Limit Merge Details" name="sample_limit_merge_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="merged__v" />
+            <vault:spacer />
+            <vault:field reference="merge_conflict_id__v" />
+            <vault:field reference="original_account_id__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Sample Limit Transactions" name="sample_limit_transaction__c">
+        <vault:relatedObject relationship="sample_limit_transaction__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="call2__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="user__v" width="200px" />
+            <vault:field reference="quantity_to_disperse__v" width="200px" />
+            <vault:field reference="enforce_limit__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="merged__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

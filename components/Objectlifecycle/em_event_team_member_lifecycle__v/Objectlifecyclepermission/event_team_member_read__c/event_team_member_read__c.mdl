@@ -1,0 +1,6 @@
+Objectlifecyclepermission event_team_member_read__c (
+   states('Objectlifecyclestate.active_state__v',
+         'Objectlifecyclestate.inactive_state__v'),
+   role('Objectlifecyclerole.event_team_member__c'),
+   permission('Read')
+);

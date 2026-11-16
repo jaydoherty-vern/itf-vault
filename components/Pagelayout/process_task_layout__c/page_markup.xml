@@ -1,0 +1,30 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_process_task__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="task_status__v" />
+            <vault:field reference="current_stage__v" />
+            <vault:field reference="task_results__v" />
+            <vault:field reference="scheduled_job__v" />
+            <vault:field reference="entity_name__v" />
+            <vault:field reference="project_name__v" />
+            <vault:field reference="start_datetime__v" />
+            <vault:field reference="end_datetime__v" />
+            <vault:field reference="duration__v" />
+            <vault:field reference="successes__v" />
+            <vault:field reference="errors__v" />
+            <vault:field reference="warnings__v" />
+            <vault:field reference="fatal_error__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="id" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

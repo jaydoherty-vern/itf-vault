@@ -1,0 +1,6 @@
+Typefield approved_email_opt_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_approved_email_opt_type__v.never__v'),
+   default_value('Picklist.account_approved_email_opt_type__v.never__v')
+);

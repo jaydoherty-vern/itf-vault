@@ -1,0 +1,5 @@
+Picklistentry am_su__c (
+   value('AM-SU'),
+   order(111),
+   active(true)
+);

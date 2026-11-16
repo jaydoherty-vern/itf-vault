@@ -1,0 +1,8 @@
+Objectlayout html_report_inventory_monitoring__c (
+   label('html_report_inventory_monitoring'),
+   active(true),
+   pagelayouts('Pagelayout.orders_report_layout_vod__c'),
+   object('Object.html_report__v'),
+   objecttype('Objecttype.html_report__v.inventory_monitoring__v'),
+   record_creation_layout('Pagelayout.orders_report_layout_vod__c')
+);

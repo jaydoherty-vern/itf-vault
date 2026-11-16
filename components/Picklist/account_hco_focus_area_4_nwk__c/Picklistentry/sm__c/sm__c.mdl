@@ -1,0 +1,5 @@
+Picklistentry sm__c (
+   value('Small Mammals'),
+   order(230),
+   active(true)
+);

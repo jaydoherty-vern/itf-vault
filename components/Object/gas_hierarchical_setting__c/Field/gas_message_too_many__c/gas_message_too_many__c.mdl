@@ -1,0 +1,20 @@
+Field gas_message_too_many__c (
+   label('GAS Message - TOO MANY'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(36),
+   default_value('''More than allowed number of records found. Please narrow your search criteria'''),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

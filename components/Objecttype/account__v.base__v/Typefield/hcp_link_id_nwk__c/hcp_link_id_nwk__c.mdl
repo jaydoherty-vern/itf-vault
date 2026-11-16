@@ -1,0 +1,4 @@
+Typefield hcp_link_id_nwk__c (
+   source('standard'),
+   required(false)
+);

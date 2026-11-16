@@ -1,0 +1,5 @@
+Picklistentry hr_02__c (
+   value('HR_Krapinsko-zagorska županija'),
+   order(663),
+   active(true)
+);

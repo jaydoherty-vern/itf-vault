@@ -1,0 +1,18 @@
+Field enable_samples_on_save__v (
+   label('Enable Samples On Save'),
+   type('Boolean'),
+   active(true),
+   description('If true, Sample Transactions are to created on the Save of Call Reports with electronic signatures or sample cards. Defaults to false, which creates them on submit, and which maintains backward compatibility.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(181),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

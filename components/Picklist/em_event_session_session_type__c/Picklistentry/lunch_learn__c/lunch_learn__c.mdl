@@ -1,0 +1,5 @@
+Picklistentry lunch_learn__c (
+   value('Lunch & Learn'),
+   order(1),
+   active(true)
+);

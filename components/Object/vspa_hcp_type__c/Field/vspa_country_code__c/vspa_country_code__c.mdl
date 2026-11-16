@@ -1,0 +1,19 @@
+Field vspa_country_code__c (
+   label('Country Code'),
+   type('String'),
+   active(true),
+   description('PB 17/01/17:  WF Stamps country code'),
+   required(false),
+   unique(false),
+   max_length(2),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

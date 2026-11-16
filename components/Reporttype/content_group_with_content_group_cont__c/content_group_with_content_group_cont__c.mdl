@@ -1,0 +1,9 @@
+RECREATE Reporttype content_group_with_content_group_cont__c (
+   label('Content Group with Content Group Content and Content Group User'),
+   active(true),
+   description('Content Group with Content Group Content (Child) and Content Group Users (Child)'),
+   primary_object('content_group__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

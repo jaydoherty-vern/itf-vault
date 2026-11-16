@@ -1,0 +1,5 @@
+Picklistentry tunisian_dinar__c (
+   value('Tunisian Dinar'),
+   order(153),
+   active(true)
+);

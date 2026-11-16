@@ -1,0 +1,5 @@
+Picklistentry pcg__c (
+   value('Pharmacy Chain/Group'),
+   order(180),
+   active(true)
+);

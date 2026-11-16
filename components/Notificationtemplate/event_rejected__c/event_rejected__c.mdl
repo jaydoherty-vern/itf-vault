@@ -1,0 +1,17 @@
+RECREATE Notificationtemplate event_rejected__c (
+   label('Event Rejected'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.em_event__v'),
+   subject('Your Event has been Rejected'),
+   notification('The Event ''${Object.name__v}'' has been rejected.
+
+${taskVerdicts}
+'),
+   email_body('The Event ''${Object.name__v}'' has been rejected.
+
+${taskVerdicts}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

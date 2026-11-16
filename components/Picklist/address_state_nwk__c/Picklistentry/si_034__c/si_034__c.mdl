@@ -1,0 +1,5 @@
+Picklistentry si_034__c (
+   value('SI_Hrastnik'),
+   order(1596),
+   active(true)
+);

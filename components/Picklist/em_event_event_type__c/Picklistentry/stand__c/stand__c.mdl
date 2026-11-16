@@ -1,0 +1,5 @@
+Picklistentry stand__c (
+   value('Stand'),
+   order(31),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_rez__c (
+   value('LV_Rēzekne'),
+   order(1129),
+   active(true)
+);

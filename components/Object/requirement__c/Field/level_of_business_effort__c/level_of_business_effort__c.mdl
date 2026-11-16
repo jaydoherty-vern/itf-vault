@@ -1,0 +1,18 @@
+Field level_of_business_effort__c (
+   label('Level of Business Effort'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Low: >20 Days Business Work Effort; Medium: 9-20 Days; High: <8 Days Business Work Effort'),
+   list_column(false),
+   order(72),
+   multi_value(false),
+   picklist('Picklist.level_of_business_effort__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

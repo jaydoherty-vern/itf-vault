@@ -1,0 +1,8 @@
+RECREATE Picklist address_address_status_vod__c (
+   label('z_Status'),
+   active(true),
+   Picklistentry(@Picklistentry/active__c.mdl),
+   Picklistentry(@Picklistentry/inactive__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

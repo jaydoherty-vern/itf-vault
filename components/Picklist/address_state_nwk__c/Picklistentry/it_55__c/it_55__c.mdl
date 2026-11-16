@@ -1,0 +1,5 @@
+Picklistentry it_55__c (
+   value('IT-55'),
+   order(951),
+   active(false)
+);

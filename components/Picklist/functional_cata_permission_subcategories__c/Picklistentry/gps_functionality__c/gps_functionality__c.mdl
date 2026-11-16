@@ -1,0 +1,5 @@
+Picklistentry gps_functionality__c (
+   value('GPS functionality'),
+   order(26),
+   active(true)
+);

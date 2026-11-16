@@ -1,0 +1,5 @@
+Picklistentry local_admin__c (
+   value('Local Admin'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,9 @@
+RECREATE Reporttype account_with_call_and_product_metrics__c (
+   label('Account with Call and Product Metrics'),
+   active(true),
+   description('Account with Calls (Account) (Account) and Product Metrics (Child)'),
+   primary_object('account__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

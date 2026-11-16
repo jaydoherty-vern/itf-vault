@@ -1,0 +1,23 @@
+Field tov_price_lodging_w_breakfast_trans_corp__sys (
+   label('Lodging, Breakfast, and Transport P Corp'),
+   type('Number'),
+   subtype('Currency'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(100000000000000000),
+   min_value(-100000000000000000),
+   scale(6),
+   help_content(),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

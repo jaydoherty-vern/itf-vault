@@ -1,0 +1,5 @@
+Picklistentry hqmfa__c (
+   value('Hygiene and Quality Management in Food Area'),
+   order(197),
+   active(true)
+);

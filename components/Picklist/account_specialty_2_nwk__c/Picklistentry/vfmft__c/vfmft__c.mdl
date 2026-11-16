@@ -1,0 +1,5 @@
+Picklistentry vfmft__c (
+   value('Veterinary Food Medicine, Food Toxicology'),
+   order(563),
+   active(true)
+);

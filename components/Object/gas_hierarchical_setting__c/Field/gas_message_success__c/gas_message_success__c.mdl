@@ -1,0 +1,20 @@
+Field gas_message_success__c (
+   label('GAS Message - SUCCESS'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(34),
+   default_value('''The customer has been successfully added to your territory'''),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

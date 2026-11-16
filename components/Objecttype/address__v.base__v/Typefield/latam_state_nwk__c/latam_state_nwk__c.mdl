@@ -1,0 +1,4 @@
+Typefield latam_state_nwk__c (
+   source('standard'),
+   required(false)
+);

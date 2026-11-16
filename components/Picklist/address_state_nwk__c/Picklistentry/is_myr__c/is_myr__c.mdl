@@ -1,0 +1,5 @@
+Picklistentry is_myr__c (
+   value('IS_Mýrdalshreppur'),
+   order(791),
+   active(true)
+);

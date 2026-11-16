@@ -1,0 +1,5 @@
+Picklistentry vulvo__c (
+   value('Vulvar Pathology'),
+   order(473),
+   active(true)
+);

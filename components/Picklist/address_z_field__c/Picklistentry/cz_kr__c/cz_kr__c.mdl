@@ -1,0 +1,5 @@
+Picklistentry cz_kr__c (
+   value('CZ-KR'),
+   order(958),
+   active(true)
+);

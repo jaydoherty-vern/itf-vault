@@ -1,0 +1,21 @@
+RECREATE Report users_who_have_not_synced_in_the_last__c (
+   label('Users who have not Synced in the last 10 days'),
+   active(true),
+   description('Lists all non-admin users who have not synced within the past 10 days.  Created by Veeva Services. 
+Used in Sync Dashboard.'),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.user_vs__c'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags('veeva__sys'),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

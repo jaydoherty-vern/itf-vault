@@ -1,0 +1,5 @@
+Picklistentry gb_pow__c (
+   value('GB-POW'),
+   order(581),
+   active(false)
+);

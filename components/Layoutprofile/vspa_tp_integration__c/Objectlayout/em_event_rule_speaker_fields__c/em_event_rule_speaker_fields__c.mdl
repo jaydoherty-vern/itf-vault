@@ -1,0 +1,8 @@
+Objectlayout em_event_rule_speaker_fields__c (
+   label('em_event_rule_speaker_fields'),
+   active(true),
+   pagelayouts('Pagelayout.speaker_fields_layout__c'),
+   object('Object.em_event_rule__v'),
+   objecttype('Objecttype.em_event_rule__v.speaker_fields__v'),
+   record_creation_layout('Pagelayout.speaker_fields_layout__c')
+);

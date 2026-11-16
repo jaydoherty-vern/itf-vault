@@ -1,0 +1,9 @@
+RECREATE Actiontrigger prevent_delete_if_not_owner_itf_market_a__c (
+   label('Prevent Delete If Not Owner'),
+   active(true),
+   description(),
+   object('Object.itf_market_access_request_form__c'),
+   event('BEFORE_DELETE'),
+   order(100),
+   Actionblock(@Actionblock/action_block1__c.mdl)
+);

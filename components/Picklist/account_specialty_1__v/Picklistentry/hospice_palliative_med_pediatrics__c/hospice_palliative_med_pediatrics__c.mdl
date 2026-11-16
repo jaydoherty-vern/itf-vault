@@ -1,0 +1,5 @@
+Picklistentry hospice_palliative_med_pediatrics__c (
+   value('HOSPICE & PALLIATIVE MED (PEDIATRICS)'),
+   order(34),
+   active(true)
+);

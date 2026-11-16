@@ -1,0 +1,5 @@
+Picklistentry lcanc__c (
+   value('Lung Cancer'),
+   order(220),
+   active(true)
+);

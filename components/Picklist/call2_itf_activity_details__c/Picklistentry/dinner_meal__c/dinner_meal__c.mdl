@@ -1,0 +1,5 @@
+Picklistentry dinner_meal__c (
+   value('Dinner / Meal'),
+   order(5),
+   active(true)
+);

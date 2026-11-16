@@ -1,0 +1,5 @@
+Picklistentry fr_30__c (
+   value('FR_Gard'),
+   order(309),
+   active(true)
+);

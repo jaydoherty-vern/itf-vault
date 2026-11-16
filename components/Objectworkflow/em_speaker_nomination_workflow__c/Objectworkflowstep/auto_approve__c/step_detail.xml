@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule key="nt-0-1743816790379" formulaConditionType="true">
+      <expression>@WorkflowOwner.security_profile__sysr.name__v = 'Vault Owner' ||
+@WorkflowOwner.security_profile__sysr.name__v = 'System Administrator'</expression>
+      <actions>
+        <action type="veeva.ecm.flow.application.impl.decision.FlowNextStepAction">
+          <nextSteps>
+            <nextStep>Objectworkflowstep.update_status_to_approved__c</nextStep>
+          </nextSteps>
+        </action>
+      </actions>
+    </vwf:rule>
+    <vwf:rule>
+      <actions>
+        <action type="veeva.ecm.flow.application.impl.decision.FlowNextStepAction">
+          <nextSteps>
+            <nextStep>Objectworkflowstep.select_manual_approver__c</nextStep>
+          </nextSteps>
+        </action>
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

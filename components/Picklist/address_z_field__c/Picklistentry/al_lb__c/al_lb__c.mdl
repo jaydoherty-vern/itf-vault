@@ -1,0 +1,5 @@
+Picklistentry al_lb__c (
+   value('AL-LB'),
+   order(85),
+   active(true)
+);

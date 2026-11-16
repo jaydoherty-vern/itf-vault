@@ -1,0 +1,8 @@
+RECREATE Pagelayout remote_meeting_vod__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Remote_Meeting_vod'),
+   page_markup(@page_markup.xml)
+);

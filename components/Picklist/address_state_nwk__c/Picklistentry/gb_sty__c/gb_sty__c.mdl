@@ -1,0 +1,5 @@
+Picklistentry gb_sty__c (
+   value('GB-STY'),
+   order(617),
+   active(false)
+);

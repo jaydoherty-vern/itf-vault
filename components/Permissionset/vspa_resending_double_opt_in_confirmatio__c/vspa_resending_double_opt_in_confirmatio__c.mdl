@@ -1,0 +1,9 @@
+RECREATE Permissionset vspa_resending_double_opt_in_confirmatio__c (
+   label('VSPA_Resending_Double_Opt_In_Confirmation_Emails'),
+   active(true),
+   description('EXTRA_Enables the 18R1 functionality of Resending Double Opt-In Confirmation Emails for the End User and Integration Users. Requires Consent Capture, Approved Email, Mulitchannel Activity and Double Opt in to be enabled.'),
+   object.sent_email__v.parent_email__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

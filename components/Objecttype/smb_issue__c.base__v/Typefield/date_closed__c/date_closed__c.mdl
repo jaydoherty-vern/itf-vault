@@ -1,0 +1,4 @@
+Typefield date_closed__c (
+   source('standard'),
+   required(false)
+);

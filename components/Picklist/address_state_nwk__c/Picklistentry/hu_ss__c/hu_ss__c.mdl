@@ -1,0 +1,5 @@
+Picklistentry hu_ss__c (
+   value('HU_Szekszárd'),
+   order(710),
+   active(true)
+);

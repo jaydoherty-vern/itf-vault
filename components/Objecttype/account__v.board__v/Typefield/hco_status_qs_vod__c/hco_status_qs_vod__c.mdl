@@ -1,0 +1,8 @@
+Typefield hco_status_qs_vod__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_hco_status_qs_vod__c.active__c',
+         'Picklist.account_hco_status_qs_vod__c.closed__c',
+         'Picklist.account_hco_status_qs_vod__c.inactive__c',
+         'Picklist.account_hco_status_qs_vod__c.undetermined__c')
+);

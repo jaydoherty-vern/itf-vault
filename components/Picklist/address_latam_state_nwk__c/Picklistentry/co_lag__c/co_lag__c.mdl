@@ -1,0 +1,5 @@
+Picklistentry co_lag__c (
+   value('La Guajira'),
+   order(164),
+   active(true)
+);

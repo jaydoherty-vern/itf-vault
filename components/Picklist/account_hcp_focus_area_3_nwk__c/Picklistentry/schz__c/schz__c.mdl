@@ -1,0 +1,5 @@
+Picklistentry schz__c (
+   value('Schizophrenia'),
+   order(396),
+   active(true)
+);

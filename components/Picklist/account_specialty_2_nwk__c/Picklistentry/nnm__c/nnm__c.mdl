@@ -1,0 +1,5 @@
+Picklistentry nnm__c (
+   value('Residents - Neurology/Nuclear Med'),
+   order(469),
+   active(true)
+);

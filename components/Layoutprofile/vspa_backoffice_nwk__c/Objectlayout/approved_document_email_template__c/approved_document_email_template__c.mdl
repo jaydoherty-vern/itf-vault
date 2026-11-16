@@ -1,0 +1,8 @@
+Objectlayout approved_document_email_template__c (
+   label('approved_document_email_template'),
+   active(true),
+   pagelayouts('Pagelayout.admin_email_template__c'),
+   object('Object.approved_document__v'),
+   objecttype('Objecttype.approved_document__v.email_template__v'),
+   record_creation_layout('Pagelayout.admin_email_template__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry co_ara__c (
+   value('CO-ARA'),
+   order(767),
+   active(true)
+);

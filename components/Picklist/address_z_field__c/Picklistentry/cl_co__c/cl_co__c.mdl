@@ -1,0 +1,5 @@
+Picklistentry cl_co__c (
+   value('CL-CO'),
+   order(715),
+   active(true)
+);

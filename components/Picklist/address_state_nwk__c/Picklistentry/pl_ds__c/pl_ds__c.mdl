@@ -1,0 +1,5 @@
+Picklistentry pl_ds__c (
+   value('PL_Dolnośląskie'),
+   order(1336),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry sports_medicine__c (
+   value('SPORTS MEDICINE'),
+   order(392),
+   active(true)
+);

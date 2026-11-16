@@ -1,0 +1,5 @@
+Picklistentry al_tp__c (
+   value('AL_Tropojë'),
+   order(52),
+   active(true)
+);

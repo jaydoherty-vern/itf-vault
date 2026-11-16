@@ -1,0 +1,5 @@
+Picklistentry gb_war__c (
+   value('GB-WAR'),
+   order(629),
+   active(false)
+);

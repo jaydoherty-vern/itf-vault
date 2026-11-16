@@ -1,0 +1,5 @@
+Picklistentry imurad__c (
+   value('Radioimmunotherapy'),
+   order(376),
+   active(true)
+);

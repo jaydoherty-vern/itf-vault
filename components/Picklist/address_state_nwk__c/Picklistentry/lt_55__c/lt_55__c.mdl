@@ -1,0 +1,5 @@
+Picklistentry lt_55__c (
+   value('LT_Varėna'),
+   order(1036),
+   active(true)
+);

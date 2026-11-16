@@ -1,0 +1,5 @@
+Picklistentry dic__c (
+   value('Doctor-in-charge'),
+   order(36),
+   active(true)
+);

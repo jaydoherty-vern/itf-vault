@@ -1,0 +1,8 @@
+Objectlayout em_speaker_qualification_speaker_trainin__c (
+   label('em_speaker_qualification_speaker_training'),
+   active(true),
+   pagelayouts('Pagelayout.speaker_service_layout__c'),
+   object('Object.em_speaker_qualification__v'),
+   objecttype('Objecttype.em_speaker_qualification__v.speaker_training__v'),
+   record_creation_layout('Pagelayout.speaker_service_layout__c')
+);

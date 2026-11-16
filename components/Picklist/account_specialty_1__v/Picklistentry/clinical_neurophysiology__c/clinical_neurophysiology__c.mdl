@@ -1,0 +1,5 @@
+Picklistentry clinical_neurophysiology__c (
+   value('Clinical Neurophysiology'),
+   order(171),
+   active(true)
+);

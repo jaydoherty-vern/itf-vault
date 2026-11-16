@@ -1,0 +1,5 @@
+Picklistentry dmedsc__c (
+   value('Dr. rer. med.'),
+   order(128),
+   active(true)
+);

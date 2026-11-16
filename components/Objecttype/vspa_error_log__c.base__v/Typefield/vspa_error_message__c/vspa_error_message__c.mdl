@@ -1,0 +1,4 @@
+Typefield vspa_error_message__c (
+   source('standard'),
+   required(false)
+);

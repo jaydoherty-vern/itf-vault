@@ -1,0 +1,5 @@
+Picklistentry tgk__v (
+   value('Tajik'),
+   order(323),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry change_partiallyprocessed__v (
+   value('Change Partially Processed'),
+   order(2),
+   active(true)
+);

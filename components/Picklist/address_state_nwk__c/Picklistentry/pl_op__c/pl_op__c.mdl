@@ -1,0 +1,5 @@
+Picklistentry pl_op__c (
+   value('PL_Opolskie'),
+   order(1359),
+   active(true)
+);

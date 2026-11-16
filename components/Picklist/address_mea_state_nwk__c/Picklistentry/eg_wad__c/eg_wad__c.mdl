@@ -1,0 +1,5 @@
+Picklistentry eg_wad__c (
+   value('EG_Al Wādī al Jadīd'),
+   order(8),
+   active(true)
+);

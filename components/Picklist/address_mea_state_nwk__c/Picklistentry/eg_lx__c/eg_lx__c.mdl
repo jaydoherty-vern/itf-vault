@@ -1,0 +1,5 @@
+Picklistentry eg_lx__c (
+   value('EG_Al Uqşur'),
+   order(9),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_bas__c (
+   value('GB-BAS'),
+   order(422),
+   active(false)
+);

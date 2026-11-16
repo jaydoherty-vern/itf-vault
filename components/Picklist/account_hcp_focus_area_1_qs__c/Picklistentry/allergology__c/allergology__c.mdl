@@ -1,0 +1,5 @@
+Picklistentry allergology__c (
+   value('Allergology'),
+   order(4),
+   active(true)
+);

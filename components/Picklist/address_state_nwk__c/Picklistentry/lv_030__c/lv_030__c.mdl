@@ -1,0 +1,5 @@
+Picklistentry lv_030__c (
+   value('LV_Ērgļu novads (Ērgļi)'),
+   order(1078),
+   active(true)
+);

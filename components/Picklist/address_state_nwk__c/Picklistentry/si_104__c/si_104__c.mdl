@@ -1,0 +1,5 @@
+Picklistentry si_104__c (
+   value('SI_Ribnica'),
+   order(1631),
+   active(true)
+);

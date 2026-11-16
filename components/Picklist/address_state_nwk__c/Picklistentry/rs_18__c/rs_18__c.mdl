@@ -1,0 +1,5 @@
+Picklistentry rs_18__c (
+   value('RS_Raški okrug'),
+   order(1472),
+   active(true)
+);

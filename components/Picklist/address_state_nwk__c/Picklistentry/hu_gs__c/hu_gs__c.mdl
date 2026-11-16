@@ -1,0 +1,5 @@
+Picklistentry hu_gs__c (
+   value('HU_Győr-Moson-Sopron'),
+   order(690),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry deployment__c (
+   value('Deployment'),
+   order(3),
+   active(true)
+);

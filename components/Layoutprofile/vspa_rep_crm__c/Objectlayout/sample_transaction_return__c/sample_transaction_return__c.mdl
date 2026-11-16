@@ -1,0 +1,8 @@
+Objectlayout sample_transaction_return__c (
+   label('sample_transaction_return'),
+   active(true),
+   pagelayouts('Pagelayout.sample_return_layout_vod__c'),
+   object('Object.sample_transaction__v'),
+   objecttype('Objecttype.sample_transaction__v.return__v'),
+   record_creation_layout('Pagelayout.sample_return_layout_vod__c')
+);

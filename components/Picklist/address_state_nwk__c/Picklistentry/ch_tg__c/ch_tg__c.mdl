@@ -1,0 +1,5 @@
+Picklistentry ch_tg__c (
+   value('CH_Thurgovia'),
+   order(109),
+   active(true)
+);

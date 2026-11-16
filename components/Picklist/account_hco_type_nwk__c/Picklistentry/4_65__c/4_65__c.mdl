@@ -1,0 +1,5 @@
+Picklistentry 4_65__c (
+   value('Beauty & Aesthetic Centers'),
+   order(11),
+   active(true)
+);

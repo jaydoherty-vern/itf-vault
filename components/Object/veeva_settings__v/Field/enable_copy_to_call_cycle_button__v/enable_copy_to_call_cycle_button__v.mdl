@@ -1,0 +1,18 @@
+Field enable_copy_to_call_cycle_button__v (
+   label('Enable_Copy_To_Call_Cycle_Button'),
+   type('Boolean'),
+   active(true),
+   description('If true then the Copy button on My Schedule Week view will be enabled.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(175),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

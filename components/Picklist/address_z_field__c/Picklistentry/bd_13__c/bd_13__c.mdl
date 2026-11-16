@@ -1,0 +1,5 @@
+Picklistentry bd_13__c (
+   value('BD-13'),
+   order(287),
+   active(true)
+);

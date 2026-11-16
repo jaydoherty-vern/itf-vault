@@ -1,0 +1,23 @@
+Field cycle_plan_target_merge__v (
+   label('Cycle Plan Target Merge'),
+   type('Number'),
+   active(true),
+   description('Toggles deletion of cycle plan targets of the losing Account during an Account merge. A value of 0 indicates it will maintain current behavior. A value of 1 means the cycle plan target of the account merge loser will be deleted by the merge'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(40),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

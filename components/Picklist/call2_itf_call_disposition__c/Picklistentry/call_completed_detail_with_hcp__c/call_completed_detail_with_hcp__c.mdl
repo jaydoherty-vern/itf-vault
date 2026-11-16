@@ -1,0 +1,5 @@
+Picklistentry call_completed_detail_with_hcp__c (
+   value('Call Completed - Detail with HCP'),
+   order(11),
+   active(true)
+);

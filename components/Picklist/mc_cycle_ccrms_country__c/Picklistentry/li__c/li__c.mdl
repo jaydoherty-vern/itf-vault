@@ -1,0 +1,5 @@
+Picklistentry li__c (
+   value('LI'),
+   order(15),
+   active(true)
+);

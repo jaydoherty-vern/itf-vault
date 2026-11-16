@@ -1,0 +1,5 @@
+Picklistentry lt_ta__c (
+   value('LT_Tauragės Apskritis'),
+   order(1029),
+   active(true)
+);

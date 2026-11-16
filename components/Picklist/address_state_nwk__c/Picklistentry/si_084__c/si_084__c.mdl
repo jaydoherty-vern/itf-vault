@@ -1,0 +1,5 @@
+Picklistentry si_084__c (
+   value('SI_Nova Gorica'),
+   order(1617),
+   active(true)
+);

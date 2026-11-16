@@ -1,0 +1,5 @@
+Picklistentry fi_03__c (
+   value('FI_Southern Ostrobothnia'),
+   order(267),
+   active(true)
+);

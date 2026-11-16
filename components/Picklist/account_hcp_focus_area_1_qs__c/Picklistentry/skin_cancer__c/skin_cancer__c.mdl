@@ -1,0 +1,5 @@
+Picklistentry skin_cancer__c (
+   value('Skin Cancer'),
+   order(38),
+   active(true)
+);

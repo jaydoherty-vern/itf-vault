@@ -1,0 +1,20 @@
+Field summary_view_delimiter_string__c (
+   label('Summary View Delimiter String'),
+   type('String'),
+   active(true),
+   description('2 character delimiter string used to designate start and stop of the Record Type Developer Name in Field Set name'),
+   required(false),
+   unique(false),
+   max_length(2),
+   help_content('2 character delimiter string used to designate start and stop of the Record Type Developer Name in Field Set name'),
+   list_column(false),
+   order(44),
+   default_value('''@@'''),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

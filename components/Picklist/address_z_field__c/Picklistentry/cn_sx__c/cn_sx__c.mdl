@@ -1,0 +1,5 @@
+Picklistentry cn_sx__c (
+   value('CN-SX'),
+   order(759),
+   active(true)
+);

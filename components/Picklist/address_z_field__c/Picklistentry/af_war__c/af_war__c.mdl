@@ -1,0 +1,5 @@
+Picklistentry af_war__c (
+   value('AF-WAR'),
+   order(45),
+   active(true)
+);

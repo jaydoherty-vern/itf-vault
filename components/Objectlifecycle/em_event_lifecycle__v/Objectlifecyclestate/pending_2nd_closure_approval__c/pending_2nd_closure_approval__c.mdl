@@ -1,0 +1,10 @@
+Objectlifecyclestate pending_2nd_closure_approval__c (
+   label('Pending 2nd Closure Approval'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description(),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

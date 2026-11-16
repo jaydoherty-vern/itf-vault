@@ -1,0 +1,8 @@
+Typefield zvod_pm_adoption_level__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.mc_cycle_plan_pro_zvod_pm_adoption_level__c.high__c',
+         'Picklist.mc_cycle_plan_pro_zvod_pm_adoption_level__c.low__c',
+         'Picklist.mc_cycle_plan_pro_zvod_pm_adoption_level__c.medium__c',
+         'Picklist.mc_cycle_plan_pro_zvod_pm_adoption_level__c.none__c')
+);

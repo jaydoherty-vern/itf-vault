@@ -1,0 +1,5 @@
+Picklistentry ad_board_logistics__c (
+   value('Ad Board Logistics'),
+   order(14),
+   active(true)
+);

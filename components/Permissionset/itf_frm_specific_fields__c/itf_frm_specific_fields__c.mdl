@@ -1,0 +1,10 @@
+RECREATE Permissionset itf_frm_specific_fields__c (
+   label('ITF_FRM_SPECIFIC_FIELDS'),
+   active(true),
+   description(),
+   object.call2__v.base__v.object_actions('edit'),
+   object.call2__v.itf_call_reason__c.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

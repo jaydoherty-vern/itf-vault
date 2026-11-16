@@ -1,0 +1,5 @@
+Picklistentry mx_mex__c (
+   value('México'),
+   order(55),
+   active(true)
+);

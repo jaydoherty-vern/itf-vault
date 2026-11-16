@@ -1,0 +1,8 @@
+Typefield itf_account_tier__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_itf_account_tier__c.1__c',
+         'Picklist.account_itf_account_tier__c.2__c',
+         'Picklist.account_itf_account_tier__c.3__c',
+         'Picklist.account_itf_account_tier__c.4__c')
+);

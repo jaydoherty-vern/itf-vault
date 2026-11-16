@@ -1,0 +1,7 @@
+Typefield visibility__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call_objective_visibility__v.all__v',
+         'Picklist.call_objective_visibility__v.owner__v'),
+   default_value('Picklist.call_objective_visibility__v.owner__v')
+);

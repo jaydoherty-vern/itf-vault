@@ -1,0 +1,5 @@
+Picklistentry al_gr__c (
+   value('AL-GR'),
+   order(77),
+   active(true)
+);

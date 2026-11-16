@@ -1,0 +1,18 @@
+Field disable_all_accounts__v (
+   label('DISABLE_ALL_ACCOUNTS'),
+   type('Boolean'),
+   active(true),
+   description('If set to True then the All Accounts option in the territory picklist will be removed if the user is aligned to at least one territory..'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(86),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

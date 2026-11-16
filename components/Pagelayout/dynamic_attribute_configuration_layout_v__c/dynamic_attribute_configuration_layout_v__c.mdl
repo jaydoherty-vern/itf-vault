@@ -1,0 +1,8 @@
+RECREATE Pagelayout dynamic_attribute_configuration_layout_v__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Dynamic_Attribute_Configuration_Layout_vod'),
+   page_markup(@page_markup.xml)
+);

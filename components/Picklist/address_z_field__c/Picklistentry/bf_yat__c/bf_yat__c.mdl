@@ -1,0 +1,5 @@
+Picklistentry bf_yat__c (
+   value('BF-YAT'),
+   order(413),
+   active(true)
+);

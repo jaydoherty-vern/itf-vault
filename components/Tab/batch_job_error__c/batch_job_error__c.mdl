@@ -1,0 +1,12 @@
+RECREATE Tab batch_job_error__c (
+   active(true),
+   all_view_label('All Batch Job Errors'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Batch Job Errors'),
+   my_view_label('My Batch Job Errors'),
+   object('batch_job_error__c'),
+   order(2300),
+   parent(),
+   recent_view_label('Recent Batch Job Errors')
+);

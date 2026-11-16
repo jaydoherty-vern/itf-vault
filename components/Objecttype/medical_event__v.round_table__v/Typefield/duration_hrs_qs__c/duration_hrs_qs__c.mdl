@@ -1,0 +1,4 @@
+Typefield duration_hrs_qs__c (
+   source('custom'),
+   required(false)
+);

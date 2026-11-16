@@ -1,0 +1,5 @@
+Picklistentry gb_hld__c (
+   value('GB-HLD'),
+   order(509),
+   active(false)
+);

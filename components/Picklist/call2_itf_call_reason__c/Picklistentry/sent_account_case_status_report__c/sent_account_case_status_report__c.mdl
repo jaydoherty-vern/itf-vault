@@ -1,0 +1,5 @@
+Picklistentry sent_account_case_status_report__c (
+   value('Sent account case status report'),
+   order(6),
+   active(true)
+);

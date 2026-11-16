@@ -1,0 +1,5 @@
+Picklistentry sm_09__c (
+   value('SM_Serravalle'),
+   order(1666),
+   active(true)
+);

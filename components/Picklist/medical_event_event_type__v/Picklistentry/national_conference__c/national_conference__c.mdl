@@ -1,0 +1,5 @@
+Picklistentry national_conference__c (
+   value('National conference'),
+   order(9),
+   active(true)
+);

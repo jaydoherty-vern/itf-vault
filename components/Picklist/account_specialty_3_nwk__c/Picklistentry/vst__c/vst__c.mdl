@@ -1,0 +1,5 @@
+Picklistentry vst__c (
+   value('Veterinary Soft Tissue Surgery'),
+   order(596),
+   active(true)
+);

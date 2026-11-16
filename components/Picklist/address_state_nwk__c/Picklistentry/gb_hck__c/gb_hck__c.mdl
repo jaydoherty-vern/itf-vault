@@ -1,0 +1,5 @@
+Picklistentry gb_hck__c (
+   value('GB-HCK'),
+   order(506),
+   active(false)
+);

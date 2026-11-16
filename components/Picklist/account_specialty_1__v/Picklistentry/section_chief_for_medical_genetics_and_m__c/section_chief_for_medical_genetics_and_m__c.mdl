@@ -1,0 +1,5 @@
+Picklistentry section_chief_for_medical_genetics_and_m__c (
+   value('SECTION CHIEF FOR MEDICAL GENETICS AND METABOLIC DISEASES'),
+   order(130),
+   active(true)
+);

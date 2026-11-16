@@ -1,0 +1,4 @@
+Typefield vspa_related_activity__c (
+   source('standard'),
+   required(false)
+);

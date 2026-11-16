@@ -1,0 +1,5 @@
+Picklistentry rvn__c (
+   value('Registered Veterinary Nurse (RVN)'),
+   order(261),
+   active(true)
+);

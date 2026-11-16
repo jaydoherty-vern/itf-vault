@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="email_activity__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="email_activity__v.object_count__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="email_activity__v.event_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="email_activity__v___sent_email__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="email_activity__v___sent_email__v.account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="email_activity__v___sent_email__v.account_email__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="email_activity__v___sent_email__v.email_sent_date__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="email_activity__v.event_type__v" rightValue="unsubscribed__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="CURRENTCY" leftValue="email_activity__v.created_date__v" rightValue="2024-01-01;;;2024-12-31" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="email_activity__v___sent_email__v.approved_email_template__v" groupBySortOn="email_activity__v___sent_email__v.approved_email_template__v" groupBySortOrder="ASCENDING">
+      <vrp:function>
+        <vrp:selectItem type="FUNCTION" action="SUM" property="SUM" display="NUMBER">
+          <vrp:children>
+            <vrp:selectItem type="PROPERTY" action="NONE" property="email_activity__v.object_count__v" />
+          </vrp:children>
+        </vrp:selectItem>
+      </vrp:function>
+    </vrp:groupItem>
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="email_activity__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

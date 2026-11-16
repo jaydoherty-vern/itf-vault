@@ -1,0 +1,5 @@
+Picklistentry bie__c (
+   value('Biomedical Engineering'),
+   order(43),
+   active(true)
+);

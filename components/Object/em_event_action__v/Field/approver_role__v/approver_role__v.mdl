@@ -1,0 +1,18 @@
+Field approver_role__v (
+   label('Approver Role'),
+   type('Picklist'),
+   active(true),
+   description('Default role given to any approvers added in this step. This field can be used in conjunction with the Veeva "Submit_for_Approval_vod" button, or with any button using a Salesforce Approval Workflow. If an approver is added as a result of this action, the approver will use the role specified in this field. Custom values can be added that use the same name and any value on the Role_vod field on the EM_Event_Team_Member_vod object. If this value is blank, any approvers added will use the Approver_vod role.'),
+   required(false),
+   unique(false),
+   help_content('Default role given to any approvers added in this step. This field can be used in conjunction with the Veeva "submit_for_approval__v" button'),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.em_event_action_approver_role__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

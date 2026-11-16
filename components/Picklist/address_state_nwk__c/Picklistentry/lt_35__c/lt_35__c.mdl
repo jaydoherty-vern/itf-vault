@@ -1,0 +1,5 @@
+Picklistentry lt_35__c (
+   value('LT_Plungė'),
+   order(1012),
+   active(true)
+);

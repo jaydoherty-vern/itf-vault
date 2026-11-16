@@ -1,0 +1,5 @@
+Picklistentry gb_yor__c (
+   value('GB-YOR'),
+   order(648),
+   active(false)
+);

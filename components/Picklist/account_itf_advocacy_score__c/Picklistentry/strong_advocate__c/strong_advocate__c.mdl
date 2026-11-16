@@ -1,0 +1,5 @@
+Picklistentry strong_advocate__c (
+   value('Strong Advocate'),
+   order(0),
+   active(true)
+);

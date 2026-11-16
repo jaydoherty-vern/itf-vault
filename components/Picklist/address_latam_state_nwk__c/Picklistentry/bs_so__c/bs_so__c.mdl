@@ -1,0 +1,5 @@
+Picklistentry bs_so__c (
+   value('South Abaco'),
+   order(115),
+   active(true)
+);

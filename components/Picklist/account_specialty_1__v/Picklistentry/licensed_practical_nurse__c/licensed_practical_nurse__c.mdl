@@ -1,0 +1,5 @@
+Picklistentry licensed_practical_nurse__c (
+   value('Licensed Practical Nurse'),
+   order(213),
+   active(true)
+);

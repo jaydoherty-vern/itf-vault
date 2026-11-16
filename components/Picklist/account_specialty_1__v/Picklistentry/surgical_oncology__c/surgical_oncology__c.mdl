@@ -1,0 +1,5 @@
+Picklistentry surgical_oncology__c (
+   value('SURGICAL ONCOLOGY'),
+   order(7),
+   active(true)
+);

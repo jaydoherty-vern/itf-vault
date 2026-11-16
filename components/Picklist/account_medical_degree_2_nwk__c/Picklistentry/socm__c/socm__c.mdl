@@ -1,0 +1,5 @@
+Picklistentry socm__c (
+   value('Social Medicine Diploma'),
+   order(332),
+   active(true)
+);

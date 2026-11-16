@@ -1,0 +1,9 @@
+RECREATE Picklist em_event_history_next_approver_role__v (
+   label('Next Approver Role'),
+   active(true),
+   Picklistentry(@Picklistentry/sponsor_approver__c.mdl),
+   Picklistentry(@Picklistentry/regulatory_approver__c.mdl),
+   Picklistentry(@Picklistentry/approver__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

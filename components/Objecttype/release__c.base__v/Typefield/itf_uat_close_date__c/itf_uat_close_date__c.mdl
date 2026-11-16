@@ -1,0 +1,4 @@
+Typefield itf_uat_close_date__c (
+   source('standard'),
+   required(false)
+);

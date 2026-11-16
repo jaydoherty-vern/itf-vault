@@ -1,0 +1,5 @@
+Picklistentry phrt__c (
+   value('Pharmacology & Toxicology'),
+   order(410),
+   active(true)
+);

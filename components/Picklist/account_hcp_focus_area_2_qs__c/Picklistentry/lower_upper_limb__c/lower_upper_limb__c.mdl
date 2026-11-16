@@ -1,0 +1,5 @@
+Picklistentry lower_upper_limb__c (
+   value('Lower & Upper Limb'),
+   order(90),
+   active(true)
+);

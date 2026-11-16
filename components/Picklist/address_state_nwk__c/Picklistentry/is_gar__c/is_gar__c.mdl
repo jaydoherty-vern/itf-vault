@@ -1,0 +1,5 @@
+Picklistentry is_gar__c (
+   value('IS_Garðabær'),
+   order(771),
+   active(true)
+);

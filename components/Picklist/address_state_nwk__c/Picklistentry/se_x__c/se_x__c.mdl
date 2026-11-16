@@ -1,0 +1,5 @@
+Picklistentry se_x__c (
+   value('SE_Gävleborgs County'),
+   order(1568),
+   active(true)
+);

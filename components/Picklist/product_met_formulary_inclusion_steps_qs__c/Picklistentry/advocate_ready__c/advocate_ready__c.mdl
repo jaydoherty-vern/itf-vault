@@ -1,0 +1,5 @@
+Picklistentry advocate_ready__c (
+   value('Advocate ready'),
+   order(3),
+   active(true)
+);

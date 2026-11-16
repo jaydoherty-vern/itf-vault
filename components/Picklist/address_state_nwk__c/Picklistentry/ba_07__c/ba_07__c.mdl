@@ -1,0 +1,5 @@
+Picklistentry ba_07__c (
+   value('BA_Hercegovačko-neretvanski kanton'),
+   order(67),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lt_54__c (
+   value('LT_Utena'),
+   order(1034),
+   active(true)
+);

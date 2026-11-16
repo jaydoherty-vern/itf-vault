@@ -1,0 +1,18 @@
+Field revised_risk_rating_picklist__c (
+   label('Revised Risk Rating picklist'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.smb_risk_ev_revised_risk_rating_picklist__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

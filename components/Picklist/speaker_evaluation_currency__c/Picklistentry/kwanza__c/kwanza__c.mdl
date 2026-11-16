@@ -1,0 +1,5 @@
+Picklistentry kwanza__c (
+   value('Kwanza'),
+   order(5),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cl_ap__c (
+   value('Arica and Parinacota'),
+   order(137),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry fast__c (
+   value('Regular GP'),
+   order(91),
+   active(true)
+);

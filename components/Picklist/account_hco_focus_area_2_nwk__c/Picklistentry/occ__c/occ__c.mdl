@@ -1,0 +1,5 @@
+Picklistentry occ__c (
+   value('Occupational Medicine'),
+   order(176),
+   active(true)
+);

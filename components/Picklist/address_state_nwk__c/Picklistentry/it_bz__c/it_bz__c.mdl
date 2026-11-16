@@ -1,0 +1,5 @@
+Picklistentry it_bz__c (
+   value('IT_Bolzano'),
+   order(846),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ful__v (
+   value('Fulah'),
+   order(160),
+   active(false)
+);

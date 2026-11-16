@@ -1,0 +1,5 @@
+Picklistentry ro_hd__c (
+   value('RO_Hunedoara'),
+   order(1431),
+   active(true)
+);

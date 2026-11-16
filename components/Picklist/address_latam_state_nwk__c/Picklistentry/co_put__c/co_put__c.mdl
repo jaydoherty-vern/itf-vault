@@ -1,0 +1,5 @@
+Picklistentry co_put__c (
+   value('Putumayo'),
+   order(152),
+   active(true)
+);

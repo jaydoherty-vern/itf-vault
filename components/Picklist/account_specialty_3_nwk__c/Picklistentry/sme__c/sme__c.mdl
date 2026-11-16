@@ -1,0 +1,5 @@
+Picklistentry sme__c (
+   value('Sleep Medicine'),
+   order(482),
+   active(true)
+);

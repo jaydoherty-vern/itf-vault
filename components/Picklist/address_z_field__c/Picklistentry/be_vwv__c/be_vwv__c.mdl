@@ -1,0 +1,5 @@
+Picklistentry be_vwv__c (
+   value('BE-VWV'),
+   order(352),
+   active(true)
+);

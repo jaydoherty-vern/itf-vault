@@ -1,0 +1,5 @@
+Picklistentry blackberry_vod__c (
+   value('Blackberry'),
+   order(9),
+   active(true)
+);

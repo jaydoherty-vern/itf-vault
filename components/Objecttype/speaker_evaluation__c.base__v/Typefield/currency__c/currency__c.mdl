@@ -1,0 +1,4 @@
+Typefield currency__c (
+   source('standard'),
+   required(false)
+);

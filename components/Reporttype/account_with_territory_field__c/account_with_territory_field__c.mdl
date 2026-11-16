@@ -1,0 +1,9 @@
+RECREATE Reporttype account_with_territory_field__c (
+   label('Account with Territory Field'),
+   active(true),
+   description('Account with Territory Fields (Child)'),
+   primary_object('account__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

@@ -1,0 +1,5 @@
+Picklistentry sv_so__c (
+   value('Sonsonate'),
+   order(369),
+   active(true)
+);

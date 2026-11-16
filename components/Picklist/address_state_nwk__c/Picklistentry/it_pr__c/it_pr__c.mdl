@@ -1,0 +1,5 @@
+Picklistentry it_pr__c (
+   value('IT_Parma'),
+   order(899),
+   active(true)
+);

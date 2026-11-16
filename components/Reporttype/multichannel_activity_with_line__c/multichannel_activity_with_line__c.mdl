@@ -1,0 +1,9 @@
+RECREATE Reporttype multichannel_activity_with_line__c (
+   label('Multichannel Activity with Line'),
+   active(true),
+   description('Multichannel Activity with Line (Child)'),
+   primary_object('multichannel_activity__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

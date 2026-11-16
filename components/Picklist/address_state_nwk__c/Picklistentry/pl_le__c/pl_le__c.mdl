@@ -1,0 +1,5 @@
+Picklistentry pl_le__c (
+   value('PL_Leszno'),
+   order(1350),
+   active(true)
+);

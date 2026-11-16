@@ -1,0 +1,5 @@
+Picklistentry atsic__c (
+   value('Accident / Trauma Surgery, Intensive Care'),
+   order(8),
+   active(true)
+);

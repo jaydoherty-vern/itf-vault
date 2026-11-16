@@ -1,0 +1,29 @@
+Field call_objectives_alert_threshold_days__v (
+   label('CALL_OBJECTIVES_ALERT_THRESHOLD_DAYS'),
+   type('Number'),
+   active(true),
+   description('This value determines the number of days before a Call Objective''s due date to display an alert to the user. For example, if this value is 14, alerts will be displayed for Call Objectives beginning two weeks before the objectives are due. The value of the To_Date_vod field is used to determine the due date.
+
+NOTES:
+
+    In order for the alert to display, the current date must be greater than or equal to both the alert threshold date and the From_Date_vod value for the Call Objective.
+    If this value is 0, the alert will display on the day the objective is due.
+    If this value is blank or negative, no alerts will show.'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(-999),
+   scale(0),
+   help_content('This value determines the number of days before a Call Objective due date to display an alert to the user. For example, if this value is 14, alerts will be displayed for Call Objectives beginning two weeks before the objectives are due.'),
+   list_column(false),
+   order(51),
+   default_value('14'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

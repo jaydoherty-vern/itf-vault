@@ -1,0 +1,8 @@
+RECREATE Objectvalidation medical_inquiry__v.itf_employee_mandatory__c (
+   label('ITF_EMPLOYEE_MANDATORY'),
+   active(true),
+   expression('Not(itf_proof_of_itf_employee__c=FALSE)'),
+   description(),
+   error_message('Proof of ITF Employee is mandatory.'),
+   error_location('id')
+);

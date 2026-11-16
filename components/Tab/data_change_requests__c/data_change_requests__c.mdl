@@ -1,0 +1,15 @@
+RECREATE Tab data_change_requests__c (
+   active(true),
+   all_view_label('All Data Change Requests'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Data Change Requests'),
+   modal_create_record(false),
+   my_view_label('My Data Change Requests'),
+   object('data_change_request__v'),
+   order(8800),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Data Change Requests')
+);

@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_medical_inquiry_signature__c (
+   label('VSPA_Medical_Inquiry_Signature'),
+   active(true),
+   description('Enable Sign button on Medical Inquiries.'),
+   object.medical_inquiry__v.signature__v.field_actions('edit',
+      'read'),
+   object.medical_inquiry__v.signature_date__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

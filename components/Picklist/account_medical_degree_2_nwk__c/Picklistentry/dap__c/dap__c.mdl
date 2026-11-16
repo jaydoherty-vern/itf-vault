@@ -1,0 +1,5 @@
+Picklistentry dap__c (
+   value('Dr. biol. anim.'),
+   order(108),
+   active(true)
+);

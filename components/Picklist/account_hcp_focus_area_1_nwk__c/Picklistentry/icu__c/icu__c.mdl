@@ -1,0 +1,5 @@
+Picklistentry icu__c (
+   value('Intensive Care'),
+   order(208),
+   active(true)
+);

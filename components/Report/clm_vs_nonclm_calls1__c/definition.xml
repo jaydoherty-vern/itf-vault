@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.clm__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.name__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="INLASTMONTH" leftValue="call2__v.call_date__v" rightValue="360" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="call2__v.call_date__v" period="MONTH" groupBySortOn="call2__v.call_date__v" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="1" name="call2__v.clm__v" groupBySortOn="call2__v.clm__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="call2__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

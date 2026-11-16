@@ -1,0 +1,5 @@
+Picklistentry pl_pm__c (
+   value('PL_Pomorskie'),
+   order(1366),
+   active(true)
+);

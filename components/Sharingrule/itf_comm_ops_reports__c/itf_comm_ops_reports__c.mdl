@@ -1,0 +1,8 @@
+RECREATE Sharingrule itf_comm_ops_reports__c (
+   label('ITF Comm Ops Reports'),
+   active(true),
+   description(),
+   object('report__sys'),
+   criteria([tags__sys CONTAINS ('itf_comm_ops_reports__c')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

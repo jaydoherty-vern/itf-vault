@@ -1,0 +1,5 @@
+Picklistentry net_value_vod__c (
+   value('Net_Value'),
+   order(4),
+   active(true)
+);

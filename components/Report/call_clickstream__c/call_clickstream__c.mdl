@@ -1,0 +1,20 @@
+RECREATE Report call_clickstream__c (
+   label('Call Clickstream'),
+   active(true),
+   description('This report displays each area of the CLM presentation a user selected for every call.'),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.call_with_call_clickstream__c'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags('veeva__sys'),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

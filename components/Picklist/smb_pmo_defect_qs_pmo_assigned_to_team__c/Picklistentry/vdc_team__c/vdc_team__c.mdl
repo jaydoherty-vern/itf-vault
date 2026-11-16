@@ -1,0 +1,5 @@
+Picklistentry vdc_team__c (
+   value('VDC Team'),
+   order(1),
+   active(true)
+);

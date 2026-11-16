@@ -1,0 +1,5 @@
+Picklistentry lv_072__c (
+   value('LV_Pļaviņu novads (Pļaviņas)'),
+   order(1124),
+   active(true)
+);

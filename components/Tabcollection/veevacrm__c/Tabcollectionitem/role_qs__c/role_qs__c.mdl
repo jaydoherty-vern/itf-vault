@@ -1,0 +1,8 @@
+Tabcollectionitem role_qs__c (
+   label(),
+   active(true),
+   tabs(),
+   order(4),
+   tab('Tab.role_qs__c'),
+   type('Tab')
+);

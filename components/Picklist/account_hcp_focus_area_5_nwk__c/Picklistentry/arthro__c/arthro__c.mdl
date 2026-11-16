@@ -1,0 +1,5 @@
+Picklistentry arthro__c (
+   value('Arthroscopy'),
+   order(29),
+   active(true)
+);

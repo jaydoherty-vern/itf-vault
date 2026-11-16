@@ -1,0 +1,5 @@
+Picklistentry health_care_system_administration__c (
+   value('Health Care System Administration'),
+   order(15),
+   active(true)
+);

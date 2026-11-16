@@ -1,0 +1,18 @@
+Field enable_user_assigned_territory__v (
+   label('Enable User Assigned Territory'),
+   type('Boolean'),
+   active(true),
+   description('When checked, users creating new person accounts using the New Professional Wizard will be able to assign the territory the new account should be aligned to. When unchecked, the new account will be aligned to all territories the business account is aligned to'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(185),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,20 @@
+Field country_code__c (
+   label('Country Code'),
+   type('String'),
+   active(true),
+   description('Please inform with Data Migration.
+Records created from the app will have the Code stamped based on the country code of the User'),
+   required(false),
+   unique(false),
+   max_length(10),
+   help_content(),
+   list_column(false),
+   order(220),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

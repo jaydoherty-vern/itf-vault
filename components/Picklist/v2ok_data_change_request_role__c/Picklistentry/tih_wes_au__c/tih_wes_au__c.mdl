@@ -1,0 +1,5 @@
+Picklistentry tih_wes_au__c (
+   value('TIH.WES.AU'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry fr_47__c (
+   value('FR_Lot-et-Garonne'),
+   order(338),
+   active(true)
+);

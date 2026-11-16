@@ -1,0 +1,5 @@
+Picklistentry sr__v (
+   value('Suriname'),
+   order(213),
+   active(true)
+);

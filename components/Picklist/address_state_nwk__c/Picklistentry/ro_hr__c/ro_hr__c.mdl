@@ -1,0 +1,5 @@
+Picklistentry ro_hr__c (
+   value('RO_Harghita'),
+   order(1430),
+   active(true)
+);

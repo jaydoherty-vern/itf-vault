@@ -1,0 +1,5 @@
+Picklistentry al_pu__c (
+   value('AL_Pukë'),
+   order(44),
+   active(true)
+);

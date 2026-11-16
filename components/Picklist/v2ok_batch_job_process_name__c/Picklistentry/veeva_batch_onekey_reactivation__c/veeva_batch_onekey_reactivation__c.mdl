@@ -1,0 +1,5 @@
+Picklistentry veeva_batch_onekey_reactivation__c (
+   value('VEEVA_BATCH_ONEKEY_REACTIVATION'),
+   order(7),
+   active(true)
+);

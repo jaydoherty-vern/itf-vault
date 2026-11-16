@@ -1,0 +1,5 @@
+Objectlifecyclerole patient_educator1__c (
+   active(true),
+   application_role('Applicationrole.patient_educator__v'),
+   permissions()
+);

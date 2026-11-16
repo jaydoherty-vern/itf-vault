@@ -1,0 +1,4 @@
+Typefield event_consent_accepted__c (
+   source('custom'),
+   required(false)
+);

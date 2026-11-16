@@ -1,0 +1,5 @@
+Picklistentry tr_25__c (
+   value('TR_Erzurum'),
+   order(1697),
+   active(true)
+);

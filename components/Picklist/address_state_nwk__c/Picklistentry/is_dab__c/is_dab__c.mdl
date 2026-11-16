@@ -1,0 +1,5 @@
+Picklistentry is_dab__c (
+   value('IS_Dalabyggð'),
+   order(761),
+   active(true)
+);

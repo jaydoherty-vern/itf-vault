@@ -1,0 +1,4 @@
+Typefield address_line_2_vod__c (
+   source('standard'),
+   required(false)
+);

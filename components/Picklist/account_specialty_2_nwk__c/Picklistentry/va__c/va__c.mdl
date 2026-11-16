@@ -1,0 +1,5 @@
+Picklistentry va__c (
+   value('Veterinary Anatomy'),
+   order(553),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry al_12__c (
+   value('AL_Vlorë'),
+   order(53),
+   active(true)
+);

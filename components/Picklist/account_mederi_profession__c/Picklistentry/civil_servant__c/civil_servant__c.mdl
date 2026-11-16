@@ -1,0 +1,5 @@
+Picklistentry civil_servant__c (
+   value('Civil Servant'),
+   order(1),
+   active(true)
+);

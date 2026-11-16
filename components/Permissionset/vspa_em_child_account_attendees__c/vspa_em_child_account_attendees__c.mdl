@@ -1,0 +1,16 @@
+RECREATE Permissionset vspa_em_child_account_attendees__c (
+   label('VSPA_EM_Child_Account_Attendees'),
+   active(true),
+   description('Administrators can configure Events Management to support Child Accounts as event attendees. This allows event organizers to properly track HCP behavior in orgs using Child Accounts.'),
+   object.child_account__v.child_account__v.field_actions('read'),
+   object.child_account__v.child_name__v.field_actions('read'),
+   object.child_account__v.parent_account__v.field_actions('read'),
+   object.child_account__v.parent_child_name__v.field_actions('read'),
+   object.child_account__v.parent_name__v.field_actions('read'),
+   object.em_attendee__v.child_account__v.field_actions('edit',
+      'read'),
+   object.event_attendee__v.child_account__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

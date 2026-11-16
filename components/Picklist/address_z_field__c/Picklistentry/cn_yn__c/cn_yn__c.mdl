@@ -1,0 +1,5 @@
+Picklistentry cn_yn__c (
+   value('CN-YN'),
+   order(763),
+   active(true)
+);

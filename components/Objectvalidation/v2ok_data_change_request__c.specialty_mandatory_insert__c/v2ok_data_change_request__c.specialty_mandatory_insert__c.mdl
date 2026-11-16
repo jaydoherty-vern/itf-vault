@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.specialty_mandatory_insert__c (
+   label('Specialty_Mandatory_Insert'),
+   active(false),
+   expression('Not(And(object_type__vr.name__v="Professional",Text(change_type__c)="Create",IsBlank(Text(specialty_1_vod__c))))'),
+   description(),
+   error_message('Specialty is Mandatory for "Create" data change request type.'),
+   error_location('specialty_1_vod__c')
+);

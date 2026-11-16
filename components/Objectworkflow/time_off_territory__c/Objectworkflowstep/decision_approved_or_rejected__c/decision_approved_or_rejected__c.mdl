@@ -1,0 +1,8 @@
+Objectworkflowstep decision_approved_or_rejected__c (
+   label('Decision: Approved or Rejected'),
+   type('decision'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

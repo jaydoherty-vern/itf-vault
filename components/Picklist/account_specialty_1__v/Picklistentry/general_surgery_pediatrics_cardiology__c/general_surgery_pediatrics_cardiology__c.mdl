@@ -1,0 +1,5 @@
+Picklistentry general_surgery_pediatrics_cardiology__c (
+   value('GENERAL SURGERY, PEDIATRICS, CARDIOLOGY'),
+   order(64),
+   active(true)
+);

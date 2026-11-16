@@ -1,0 +1,5 @@
+Picklistentry tih_wes_ep__c (
+   value('TIH.WES.EP'),
+   order(26),
+   active(true)
+);

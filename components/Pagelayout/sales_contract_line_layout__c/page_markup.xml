@@ -1,0 +1,36 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.contract_line__v.sales__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="contract__v" />
+            <vault:field reference="product__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Contract Line Targets" name="contract_line_targets__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="om_quantity_target__v" />
+            <vault:field reference="om_list_amount_target__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="om_net_amount_target__v" />
+            <vault:field reference="mandatory_contract_line__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Contract Line Progress" name="contract_line_progress__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="om_quantity_achieved__v" readOnly="true" />
+            <vault:field reference="om_list_amount_achieved__v" readOnly="true" />
+            <vault:field reference="om_net_amount_achieved__v" readOnly="true" />
+            <vault:field reference="om_quantity_remaining__v" />
+            <vault:field reference="om_list_amount_remaining__v" />
+            <vault:field reference="om_net_amount_remaining__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

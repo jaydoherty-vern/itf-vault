@@ -1,0 +1,7 @@
+RECREATE Picklist v2ok_data_change_request_workplace_type__c (
+   label('Workplace type'),
+   active(true),
+   Picklistentry(@Picklistentry/tet_1__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

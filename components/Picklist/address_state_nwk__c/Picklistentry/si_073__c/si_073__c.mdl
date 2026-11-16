@@ -1,0 +1,5 @@
+Picklistentry si_073__c (
+   value('SI_Metlika'),
+   order(1614),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field workplace_class__c (
+   label('Workplace Class'),
+   type('Picklist'),
+   active(true),
+   description('called at Cegedim as CLASS'),
+   required(false),
+   unique(false),
+   help_content('Set this value only in case of CREATE!'),
+   list_column(false),
+   order(60),
+   multi_value(false),
+   picklist('Picklist.v2ok_data_change_request_workplace_class__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

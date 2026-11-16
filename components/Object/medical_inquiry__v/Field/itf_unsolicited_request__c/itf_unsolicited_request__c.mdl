@@ -1,0 +1,20 @@
+Field itf_unsolicited_request__c (
+   label('Unsolicited Request?'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(85),
+   default_value('''I certify that I am a US healthcare professional and this is an unsolicited Medical Information Request.'''),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

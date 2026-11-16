@@ -1,0 +1,5 @@
+Picklistentry vsese__c (
+   value('Veterinary Supervision of Equestrian Sport Events'),
+   order(469),
+   active(true)
+);

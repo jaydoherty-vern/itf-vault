@@ -1,0 +1,5 @@
+Picklistentry africa__c (
+   value('Africa'),
+   order(5),
+   active(true)
+);

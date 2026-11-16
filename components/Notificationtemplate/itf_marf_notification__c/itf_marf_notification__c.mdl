@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate itf_marf_notification__c (
+   label('ITF_MARF_NOTIFICATION'),
+   active(true),
+   description('ITF_MARF_NOTIFICATION'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.itf_market_access_request_form__c'),
+   subject('Market Access Request Form - ${Object.name__v}'),
+   notification('
+<p>Dear Market Access Team,</p> <p>Please process the following MARF: <b>${Object.name__v}</b>.<br/></p> <p><b>REQUEST DETAILS</b><br/> <b>MARF ID:</b> ${Object.name__v}<br/> <b>MARF Type:</b>${Object.object_type__v}<br/> <b>Owner:</b> ${Object.ownerid__v}<br/> <b>Region:</b> ${Object.itf_region__c}<br/> <b>Territory:</b>${Object.itf_territory__c}<br/> <b>Request Date:</b>${Object.itf_request_date__c} <br/> <b>Nature of Request:</b> ${Object.itf_nature_of_request__c}<br/> <b>Additional Logistical Information:</b> ${Object.itf_additional_information__c}<br/> <b>Payer/Policy Insights:</b> ${Object.itf_payer_policy_insights__c}</p> <p><b>ACCOUNT INFORMATION</b><br/> <b>HCP:</b>${Object.itf_hcp__c}<br/> <b>Email:</b> ${Object.itf_hcp_email__c}<br/> <b>Phone:</b> ${Object.itf_hcp_phone__c}<br/> <b>Facility:</b> ${Object.itf_facility_hcp_primary_affiliation__c}<br/> <b>ARC Enrolled:</b>${Object.itf_arc_enrolled__c}</p>'),
+   email_body('<p>Dear Market Access Team,</p> <p>Please process the following MARF: <b>${Object.name__v}</b>.<br/></p> <p><b>REQUEST DETAILS</b><br/> <b>MARF ID:</b> ${Object.name__v}<br/> <b>MARF Type:</b>${Object.object_type__v}<br/> <b>Owner:</b> ${Object.ownerid__v}<br/> <b>Region:</b> ${Object.itf_region__c}<br/> <b>Territory:</b>${Object.itf_territory__c}<br/> <b>Request Date:</b>${Object.itf_request_date__c} <br/> <b>Nature of Request:</b> ${Object.itf_nature_of_request__c}<br/> <b>Additional Logistical Information:</b> ${Object.itf_additional_information__c}<br/> <b>Payer/Policy Insights:</b> ${Object.itf_payer_policy_insights__c}</p> <p><b>ACCOUNT INFORMATION</b><br/> <b>HCP:</b>${Object.itf_hcp__c}<br/> <b>Email:</b> ${Object.itf_hcp_email__c}<br/> <b>Phone:</b> ${Object.itf_hcp_phone__c}<br/> <b>Facility:</b> ${Object.itf_facility_hcp_primary_affiliation__c}<br/> <b>ARC Enrolled:</b>${Object.itf_arc_enrolled__c}</p> <p><b>CONTACT DETAILS</b><br/> <b>Name of the Account Contact:</b> ${Object.itf_name_of_the_account_contact__c}<br/> <b>Phone # of Account Contact:</b> ${Object.itf_phone_number_of_account_contact__c}</p> <p>Should you have any questions, please feel free to call or email me.</p> <p>Best regards,</p> <p>${Object.ownerid__v}<br/> </p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry enhanced_lookups__c (
+   value('Enhanced Lookups'),
+   order(51),
+   active(true)
+);

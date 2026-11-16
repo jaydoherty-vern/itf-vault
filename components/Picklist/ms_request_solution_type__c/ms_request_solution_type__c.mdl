@@ -1,0 +1,14 @@
+RECREATE Picklist ms_request_solution_type__c (
+   label('Solution Type'),
+   active(true),
+   Picklistentry(@Picklistentry/configuration__c.mdl),
+   Picklistentry(@Picklistentry/supported_via_data_interface__c.mdl),
+   Picklistentry(@Picklistentry/requires_custom_development__c.mdl),
+   Picklistentry(@Picklistentry/roadmap_confirmed__c.mdl),
+   Picklistentry(@Picklistentry/roadmap_open__c.mdl),
+   Picklistentry(@Picklistentry/not_supported__c.mdl),
+   Picklistentry(@Picklistentry/training__c.mdl),
+   Picklistentry(@Picklistentry/veeva_support_fix__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

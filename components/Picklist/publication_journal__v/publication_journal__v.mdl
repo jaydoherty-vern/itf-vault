@@ -1,0 +1,12 @@
+RECREATE Picklist publication_journal__v (
+   label('Journal'),
+   active(true),
+   Picklistentry(@Picklistentry/brain__c.mdl),
+   Picklistentry(@Picklistentry/jama__v.mdl),
+   Picklistentry(@Picklistentry/neurology__c.mdl),
+   Picklistentry(@Picklistentry/new_england_journal_of_medicine__c.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   Picklistentry(@Picklistentry/webmd__v.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

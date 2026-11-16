@@ -1,0 +1,5 @@
+Picklistentry nl_cw__c (
+   value('NL_Curaçao'),
+   order(1292),
+   active(true)
+);

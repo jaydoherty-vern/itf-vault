@@ -1,0 +1,5 @@
+Picklistentry agrees_to_use_duvyzat__c (
+   value('Agrees to Use DUVYZAT'),
+   order(1),
+   active(true)
+);

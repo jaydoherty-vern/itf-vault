@@ -1,0 +1,5 @@
+Picklistentry pl_za__c (
+   value('PL_Zamość'),
+   order(1387),
+   active(true)
+);

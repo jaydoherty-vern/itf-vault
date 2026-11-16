@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.lastname_mandatory_insert__c (
+   label('LastName_Mandatory_Insert'),
+   active(false),
+   expression('Not(And(Text(change_type__c)="Create",IsBlank(last_name__c),object_type__vr.name__v="Professional"))'),
+   description('Last Name is Mandatory for Insert. Update or Delete calculated if missing.'),
+   error_message('Mandatory for "Create" data change request type.'),
+   error_location('last_name__c')
+);

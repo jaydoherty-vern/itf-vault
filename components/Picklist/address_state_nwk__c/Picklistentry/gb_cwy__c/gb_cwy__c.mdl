@@ -1,0 +1,5 @@
+Picklistentry gb_cwy__c (
+   value('GB-CWY'),
+   order(467),
+   active(false)
+);

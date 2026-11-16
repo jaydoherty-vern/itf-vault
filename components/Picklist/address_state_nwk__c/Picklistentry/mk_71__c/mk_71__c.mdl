@@ -1,0 +1,5 @@
+Picklistentry mk_71__c (
+   value('MK_Staro Nagoričane'),
+   order(1270),
+   active(true)
+);

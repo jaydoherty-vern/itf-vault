@@ -1,0 +1,8 @@
+Objectlayout html_report_account_reports__c (
+   label('html_report_account_reports'),
+   active(true),
+   pagelayouts('Pagelayout.html_account_report_layout_vod__c'),
+   object('Object.html_report__v'),
+   objecttype('Objecttype.html_report__v.account_reports__v'),
+   record_creation_layout('Pagelayout.html_account_report_layout_vod__c')
+);

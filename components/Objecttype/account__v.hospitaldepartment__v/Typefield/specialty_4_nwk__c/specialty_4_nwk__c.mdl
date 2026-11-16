@@ -1,0 +1,5 @@
+Typefield specialty_4_nwk__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_specialty_4_nwk__c.test__c')
+);

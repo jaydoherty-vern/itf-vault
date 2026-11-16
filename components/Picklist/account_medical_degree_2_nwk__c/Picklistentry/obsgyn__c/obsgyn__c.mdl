@@ -1,0 +1,5 @@
+Picklistentry obsgyn__c (
+   value('Obstetrics And Gynecology Diploma'),
+   order(224),
+   active(true)
+);

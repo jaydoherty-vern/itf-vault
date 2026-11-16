@@ -1,0 +1,4 @@
+Typefield likelihood__c (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,21 @@
+Field enable_tactic_list__v (
+   label('ENABLE_TACTIC_LIST'),
+   type('Boolean'),
+   active(true),
+   description('Configuration option to display indiviidual product tactics in Apply Product Plan feature.
+	
+	"false" = (Default) Don''t display individual tactics.
+	"true" = Display tactics'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(161),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

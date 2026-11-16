@@ -1,0 +1,4 @@
+Typefield vspa_validated_act_id__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry is_eyf__c (
+   value('IS_Eyjafjarðarsveit'),
+   order(765),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry it_na__c (
+   value('IT_Naples'),
+   order(891),
+   active(true)
+);

@@ -1,0 +1,17 @@
+Field vspa_integration_time__c (
+   label('Integration Time'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(357),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

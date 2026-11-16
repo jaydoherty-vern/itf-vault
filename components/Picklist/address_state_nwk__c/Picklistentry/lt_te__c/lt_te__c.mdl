@@ -1,0 +1,5 @@
+Picklistentry lt_te__c (
+   value('LT_Telšių Apskritis'),
+   order(1031),
+   active(true)
+);

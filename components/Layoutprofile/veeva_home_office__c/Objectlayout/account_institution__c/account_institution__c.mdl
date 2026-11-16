@@ -1,0 +1,8 @@
+Objectlayout account_institution__c (
+   label('Account Institution'),
+   active(true),
+   pagelayouts('Pagelayout.account_institution_admin_page_layout__c'),
+   object('Object.account__v'),
+   objecttype('Objecttype.account__v.institution__v'),
+   record_creation_layout()
+);

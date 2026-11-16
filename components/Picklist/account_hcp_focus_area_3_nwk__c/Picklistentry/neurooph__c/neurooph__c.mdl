@@ -1,0 +1,5 @@
+Picklistentry neurooph__c (
+   value('Neuro-Ophthalmology'),
+   order(260),
+   active(true)
+);

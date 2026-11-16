@@ -1,0 +1,5 @@
+Picklistentry lu_d__c (
+   value('LU_Diekirch'),
+   order(1043),
+   active(true)
+);

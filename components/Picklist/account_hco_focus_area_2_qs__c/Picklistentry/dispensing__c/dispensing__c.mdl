@@ -1,0 +1,5 @@
+Picklistentry dispensing__c (
+   value('Dispensing'),
+   order(37),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry it_al__c (
+   value('IT_Alessandria'),
+   order(832),
+   active(true)
+);

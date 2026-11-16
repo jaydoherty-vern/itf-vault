@@ -1,0 +1,5 @@
+Picklistentry anticoagulation__c (
+   value('Anticoagulation'),
+   order(5),
+   active(true)
+);

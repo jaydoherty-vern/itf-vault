@@ -1,0 +1,5 @@
+Picklistentry mk_55__c (
+   value('MK_Novaci'),
+   order(1255),
+   active(true)
+);

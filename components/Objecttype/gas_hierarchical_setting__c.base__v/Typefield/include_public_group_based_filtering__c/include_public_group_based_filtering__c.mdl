@@ -1,0 +1,4 @@
+Typefield include_public_group_based_filtering__c (
+   source('standard'),
+   required(false)
+);

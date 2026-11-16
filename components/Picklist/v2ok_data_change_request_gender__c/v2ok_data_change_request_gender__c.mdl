@@ -1,0 +1,9 @@
+RECREATE Picklist v2ok_data_change_request_gender__c (
+   label('Salutation'),
+   active(true),
+   Picklistentry(@Picklistentry/app_wxx_2__c.mdl),
+   Picklistentry(@Picklistentry/app_wxx_1__c.mdl),
+   Picklistentry(@Picklistentry/app_wxx_0__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

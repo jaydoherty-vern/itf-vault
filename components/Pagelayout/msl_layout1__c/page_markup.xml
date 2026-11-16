@@ -1,0 +1,81 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.call2__v.base__v">
+    <vault:section title="Buttons" name="buttons__c">
+        <vault:detailform type="One-Column">
+            <vault:control reference="save__v" name="save__c" />
+            <vault:control reference="savenew__v" name="savenew__c" />
+            <vault:control reference="delete__v" name="delete__c" />
+            <vault:control reference="submit__v" name="submit__c" />
+            <vault:control reference="more_actions__v" name="more_actions__c" />
+            <vault:field reference="controlling_parent_account__v" />
+            <vault:field reference="parent_address__v" />
+            <vault:field reference="allowed_products__v" />
+            <vault:field reference="itf_call_outcome__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="General Call Section" name="general_call_section__c" reference="general_call_section__v">
+        <vault:bind property="rem" value="true" />
+        <vault:bind property="nab" value="false" />
+        <vault:bind property="nap" value="false" />
+    </vault:section>
+    <vault:section title="Attendees" name="call_attendees_section__c" reference="call_attendees_section__v">
+        <vault:bind property="paa" value="false" />
+        <vault:bind property="ao" value="false" />
+        <vault:bind property="atf" value="false" />
+        <vault:bind property="st" value="false" />
+        <vault:bind property="su" value="false" />
+        <vault:bind property="ns" value="true" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Pending Surveys" name="survey_target_section__c" reference="survey_target_section__v" />
+    <vault:section title="Key Messages and Comments" name="key_messages_section__c" reference="key_messages_section__v">
+        <vault:bind property="cat" value="false" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Medical Discussions" name="medical_discussion_section__c" reference="medical_discussion_section__v">
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Call Objectives" name="call_objective_section__c" reference="call_objective_section__v">
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Call Notes" name="call_notes__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="call_comments__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Expenses" name="expenses_section__c" reference="expenses_section__v">
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Follow-up Activities" name="followup_section__c" reference="followup_section__v" />
+    <vault:section title="Call Details" name="call2_detail__c">
+        <vault:relatedObject relationship="call2_detail__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="type__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="created_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Calls (Parent Call)" name="call2__c">
+        <vault:relatedObject relationship="call2__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="call2_status__v" width="200px" />
+            <vault:field reference="call_type__v" width="200px" />
+            <vault:field reference="call_datetime__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

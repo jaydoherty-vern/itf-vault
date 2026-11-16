@@ -1,0 +1,27 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.publication__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" required="true" />
+            <vault:field reference="date__v" />
+            <vault:field reference="journal__v" />
+            <vault:field reference="title__v" />
+            <vault:field reference="publication_type__v" />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Account Publications" name="account_publications__c">
+        <vault:relatedObject relationship="account_publications__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="authorship_position__v" width="200px" />
+            <vault:field reference="account_id__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

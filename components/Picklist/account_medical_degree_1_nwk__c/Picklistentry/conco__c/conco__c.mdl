@@ -1,0 +1,5 @@
+Picklistentry conco__c (
+   value('Clinical Oncology Diploma'),
+   order(24),
+   active(true)
+);

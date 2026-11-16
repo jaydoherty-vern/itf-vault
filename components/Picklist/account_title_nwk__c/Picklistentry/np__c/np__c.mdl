@@ -1,0 +1,5 @@
+Picklistentry np__c (
+   value('Nurse Prescriber'),
+   order(64),
+   active(true)
+);

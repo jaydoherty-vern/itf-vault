@@ -1,0 +1,5 @@
+Picklistentry dmv__c (
+   value('Dipl.-Med. Vet.'),
+   order(31),
+   active(true)
+);

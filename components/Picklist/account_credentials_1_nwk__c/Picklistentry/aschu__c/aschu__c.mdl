@@ -1,0 +1,5 @@
+Picklistentry aschu__c (
+   value('Assistant Regional Specialist in CHU (ASCHU)'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield tov_total_meal_amount__c (
+   source('custom'),
+   required(false)
+);

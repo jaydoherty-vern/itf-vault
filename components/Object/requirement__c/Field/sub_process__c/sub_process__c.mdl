@@ -1,0 +1,17 @@
+Field sub_process__c (
+   label('Sub-Process'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(4000),
+   help_content('Include information about the impacts the functionality will have to the end user.'),
+   list_column(false),
+   order(110),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

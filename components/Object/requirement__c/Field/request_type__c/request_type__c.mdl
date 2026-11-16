@@ -1,0 +1,18 @@
+Field request_type__c (
+   label('Requirement Type'),
+   type('Picklist'),
+   active(true),
+   description('Type of request.'),
+   required(false),
+   unique(false),
+   help_content('If you are unsure of the type of request you are submitting, please select Unknown.'),
+   list_column(true),
+   order(7),
+   multi_value(false),
+   picklist('Picklist.request_type__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

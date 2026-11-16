@@ -1,0 +1,5 @@
+Picklistentry gb_hns__c (
+   value('GB-HNS'),
+   order(511),
+   active(false)
+);

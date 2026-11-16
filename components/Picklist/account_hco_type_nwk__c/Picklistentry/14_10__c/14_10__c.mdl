@@ -1,0 +1,5 @@
+Picklistentry 14_10__c (
+   value('Medical School, Pharmacy'),
+   order(128),
+   active(true)
+);

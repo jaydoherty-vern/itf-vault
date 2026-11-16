@@ -1,0 +1,21 @@
+Typefield itf_call_disposition__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_itf_call_disposition__c.attempt_busy_no_answer__c',
+         'Picklist.call2_itf_call_disposition__c.attempt_call_back__c',
+         'Picklist.call2_itf_call_disposition__c.attempt_cannot_locate__c',
+         'Picklist.call2_itf_call_disposition__c.attempt_deceased__c',
+         'Picklist.call2_itf_call_disposition__c.attempt_do_not_call__c',
+         'Picklist.call2_itf_call_disposition__c.attempt_left_message__c',
+         'Picklist.call2_itf_call_disposition__c.attempt_non_viable__c',
+         'Picklist.call2_itf_call_disposition__c.attempt_retired__c',
+         'Picklist.call2_itf_call_disposition__c.attempt_wrong_number__c',
+         'Picklist.call2_itf_call_disposition__c.attempt_wrong_specialty__c',
+         'Picklist.call2_itf_call_disposition__c.call_completed_detail__c',
+         'Picklist.call2_itf_call_disposition__c.call_completed_detail_with_hcp__c',
+         'Picklist.call2_itf_call_disposition__c.call_completed_detail_with_office_staff__c',
+         'Picklist.call2_itf_call_disposition__c.call_completed_inbound__c',
+         'Picklist.call2_itf_call_disposition__c.call_completed_osim_video_detail__c',
+         'Picklist.call2_itf_call_disposition__c.call_completed_video_detail__c',
+         'Picklist.call2_itf_call_disposition__c.max_attempts__c')
+);

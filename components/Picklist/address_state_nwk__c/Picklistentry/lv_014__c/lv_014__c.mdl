@@ -1,0 +1,5 @@
+Picklistentry lv_014__c (
+   value('LV_Baltinavas novads (Baltinava)'),
+   order(1060),
+   active(true)
+);

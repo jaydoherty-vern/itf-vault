@@ -1,0 +1,5 @@
+Picklistentry gb_glg__c (
+   value('GB-GLG'),
+   order(498),
+   active(false)
+);

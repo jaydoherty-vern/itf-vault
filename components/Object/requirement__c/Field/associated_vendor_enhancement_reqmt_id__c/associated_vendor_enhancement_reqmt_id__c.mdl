@@ -1,0 +1,19 @@
+Field associated_vendor_enhancement_reqmt_id__c (
+   label('Associated Vendor Enhancement: Reqmt ID'),
+   type('String'),
+   active(true),
+   description('The Requirement: Requirement ID of the Vendor Enhancement that the Requirement is dependent on.'),
+   required(false),
+   unique(false),
+   max_length(70),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

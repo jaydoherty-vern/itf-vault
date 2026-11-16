@@ -1,0 +1,5 @@
+Picklistentry no_12__c (
+   value('NO-12'),
+   order(1325),
+   active(false)
+);

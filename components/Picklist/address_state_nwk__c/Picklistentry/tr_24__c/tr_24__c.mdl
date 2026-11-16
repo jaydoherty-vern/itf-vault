@@ -1,0 +1,5 @@
+Picklistentry tr_24__c (
+   value('TR_Erzincan'),
+   order(1696),
+   active(true)
+);

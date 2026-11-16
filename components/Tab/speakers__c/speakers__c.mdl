@@ -1,0 +1,15 @@
+RECREATE Tab speakers__c (
+   active(true),
+   all_view_label('All Speakers'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Speakers'),
+   modal_create_record(true),
+   my_view_label('My Speakers'),
+   object('em_speaker__v'),
+   order(5700),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Speakers')
+);

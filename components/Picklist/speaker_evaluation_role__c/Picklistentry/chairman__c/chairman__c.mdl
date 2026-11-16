@@ -1,0 +1,5 @@
+Picklistentry chairman__c (
+   value('Chairman'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry sm_07__c (
+   value('SM_San Marino'),
+   order(1665),
+   active(true)
+);

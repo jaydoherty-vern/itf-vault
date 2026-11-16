@@ -1,0 +1,5 @@
+Picklistentry mexican_unidad_de_inversion_udi__c (
+   value('Mexican Unidad de Inversion (UDI)'),
+   order(105),
+   active(true)
+);

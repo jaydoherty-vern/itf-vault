@@ -1,0 +1,5 @@
+Picklistentry sample_management__c (
+   value('Sample Management'),
+   order(42),
+   active(true)
+);

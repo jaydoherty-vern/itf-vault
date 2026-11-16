@@ -1,0 +1,5 @@
+Picklistentry mx_coa__c (
+   value('Coahuila'),
+   order(41),
+   active(true)
+);

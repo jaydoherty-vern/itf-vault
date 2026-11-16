@@ -1,0 +1,11 @@
+RECREATE Picklist smb_pmo_defect_qs_pmo_veeva_status__c (
+   label('Veeva Status'),
+   active(true),
+   Picklistentry(@Picklistentry/escalated__c.mdl),
+   Picklistentry(@Picklistentry/open__c.mdl),
+   Picklistentry(@Picklistentry/veeva_support_ticket_pending__c.mdl),
+   Picklistentry(@Picklistentry/solved_fixed__c.mdl),
+   Picklistentry(@Picklistentry/closed__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,9 @@
+RECREATE Reporttype performance_statistics__c (
+   label('Performance Statistics'),
+   active(true),
+   description('Performance Statistics'),
+   primary_object('perf_stats__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

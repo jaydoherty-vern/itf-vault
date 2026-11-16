@@ -1,0 +1,5 @@
+Picklistentry ee_82__c (
+   value('EE_Valgamaa'),
+   order(180),
+   active(true)
+);

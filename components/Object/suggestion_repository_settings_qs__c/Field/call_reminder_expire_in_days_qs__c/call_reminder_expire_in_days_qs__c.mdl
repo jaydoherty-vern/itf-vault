@@ -1,0 +1,22 @@
+Field call_reminder_expire_in_days_qs__c (
+   label('Call Reminder Expire In Days'),
+   type('Number'),
+   active(true),
+   description('Two digit number to define the expiration timeframe on the automatically created Suggestion record(s). CreatedDate + Value of this Field = Expiration Date'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(-999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

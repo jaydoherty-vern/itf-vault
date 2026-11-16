@@ -1,0 +1,19 @@
+Field build_id__c (
+   label('Build ID'),
+   type('String'),
+   active(true),
+   description('Contains the Build ID component that the requirements are tied to'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('Contains the Build ID component that the requirements are tied to'),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

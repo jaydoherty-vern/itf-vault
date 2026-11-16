@@ -1,0 +1,5 @@
+Picklistentry psychot__c (
+   value('Psychotherapy Diploma'),
+   order(314),
+   active(true)
+);

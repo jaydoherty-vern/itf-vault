@@ -1,0 +1,5 @@
+Picklistentry si_130__c (
+   value('SI_Trebnje'),
+   order(1644),
+   active(true)
+);

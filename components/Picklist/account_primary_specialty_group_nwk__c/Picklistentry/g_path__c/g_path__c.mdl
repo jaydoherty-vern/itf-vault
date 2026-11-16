@@ -1,0 +1,5 @@
+Picklistentry g_path__c (
+   value('Pathology'),
+   order(14),
+   active(true)
+);

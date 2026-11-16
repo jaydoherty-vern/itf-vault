@@ -1,0 +1,5 @@
+Picklistentry therapist__c (
+   value('Therapist'),
+   order(13),
+   active(true)
+);

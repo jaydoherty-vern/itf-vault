@@ -1,0 +1,5 @@
+Picklistentry diet__c (
+   value('Dietetics'),
+   order(112),
+   active(true)
+);

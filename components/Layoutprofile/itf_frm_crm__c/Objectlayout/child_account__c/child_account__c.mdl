@@ -1,0 +1,8 @@
+Objectlayout child_account__c (
+   label('child_account'),
+   active(true),
+   pagelayouts('Pagelayout.child_account_layout_rep__c'),
+   object('Object.child_account__v'),
+   objecttype('Objecttype.child_account__v.base__v'),
+   record_creation_layout('Pagelayout.child_account_layout_rep__c')
+);

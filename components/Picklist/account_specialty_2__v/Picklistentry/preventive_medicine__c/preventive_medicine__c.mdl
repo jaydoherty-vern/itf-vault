@@ -1,0 +1,5 @@
+Picklistentry preventive_medicine__c (
+   value('Preventive Medicine'),
+   order(27),
+   active(true)
+);

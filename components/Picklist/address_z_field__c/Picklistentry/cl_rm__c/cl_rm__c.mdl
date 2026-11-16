@@ -1,0 +1,5 @@
+Picklistentry cl_rm__c (
+   value('CL-RM'),
+   order(721),
+   active(true)
+);

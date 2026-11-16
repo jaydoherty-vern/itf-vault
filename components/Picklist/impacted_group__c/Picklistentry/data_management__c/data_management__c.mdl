@@ -1,0 +1,5 @@
+Picklistentry data_management__c (
+   value('Data Management'),
+   order(1),
+   active(true)
+);

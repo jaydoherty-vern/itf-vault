@@ -1,0 +1,5 @@
+Picklistentry az_ord__c (
+   value('AZ-ORD'),
+   order(214),
+   active(true)
+);

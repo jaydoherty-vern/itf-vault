@@ -1,0 +1,5 @@
+Picklistentry ver__c (
+   value('Veterinary Radiology'),
+   order(592),
+   active(true)
+);

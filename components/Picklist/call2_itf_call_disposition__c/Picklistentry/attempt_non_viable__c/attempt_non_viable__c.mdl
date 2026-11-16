@@ -1,0 +1,5 @@
+Picklistentry attempt_non_viable__c (
+   value('Attempt - Non-Viable'),
+   order(6),
+   active(true)
+);

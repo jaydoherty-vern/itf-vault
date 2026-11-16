@@ -1,0 +1,5 @@
+Picklistentry dean__c (
+   value('Dean'),
+   order(26),
+   active(true)
+);

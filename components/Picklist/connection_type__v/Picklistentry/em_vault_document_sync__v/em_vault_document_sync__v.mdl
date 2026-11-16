@@ -1,0 +1,5 @@
+Picklistentry em_vault_document_sync__v (
+   value('Events Management Vault Document Sync'),
+   order(0),
+   active(true)
+);

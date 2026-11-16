@@ -1,0 +1,5 @@
+Picklistentry as__v (
+   value('Assamese'),
+   order(95),
+   active(false)
+);

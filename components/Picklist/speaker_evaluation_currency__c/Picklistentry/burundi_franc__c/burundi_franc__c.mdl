@@ -1,0 +1,5 @@
+Picklistentry burundi_franc__c (
+   value('Burundi Franc'),
+   order(31),
+   active(true)
+);

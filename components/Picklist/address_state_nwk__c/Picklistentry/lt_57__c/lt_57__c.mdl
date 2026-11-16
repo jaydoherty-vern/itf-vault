@@ -1,0 +1,5 @@
+Picklistentry lt_57__c (
+   value('LT_Vilniaus miestas'),
+   order(1039),
+   active(true)
+);

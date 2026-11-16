@@ -1,0 +1,5 @@
+Picklistentry geriatric_medicine_internal_medicine__c (
+   value('Geriatric Medicine (Internal Medicine)'),
+   order(194),
+   active(true)
+);

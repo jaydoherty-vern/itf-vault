@@ -1,0 +1,5 @@
+Picklistentry gb_sol__c (
+   value('GB-SOL'),
+   order(606),
+   active(false)
+);

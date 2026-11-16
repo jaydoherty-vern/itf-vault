@@ -1,0 +1,5 @@
+Picklistentry ba_03__c (
+   value('BA_Tuzlanski kanton'),
+   order(73),
+   active(true)
+);

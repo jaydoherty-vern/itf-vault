@@ -1,0 +1,8 @@
+RECREATE Sharingrule html_report_tll__c (
+   label('HTML Report - TLL'),
+   active(true),
+   description(),
+   object('html_report__v'),
+   criteria([itf_sharing_group__c CONTAINS ('tll__c')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

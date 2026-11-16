@@ -1,0 +1,5 @@
+Picklistentry contracts__c (
+   value('Contracts'),
+   order(10),
+   active(true)
+);

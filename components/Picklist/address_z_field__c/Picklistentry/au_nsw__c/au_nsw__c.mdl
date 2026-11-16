@@ -1,0 +1,5 @@
+Picklistentry au_nsw__c (
+   value('AU-NSW'),
+   order(166),
+   active(true)
+);

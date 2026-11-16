@@ -1,0 +1,5 @@
+Picklistentry trop__c (
+   value('Tropical & Travel Clinic'),
+   order(242),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry fr_37__c (
+   value('FR_Indre-et-Loire'),
+   order(328),
+   active(true)
+);

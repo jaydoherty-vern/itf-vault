@@ -1,0 +1,5 @@
+Picklistentry al_sh__c (
+   value('AL-SH'),
+   order(96),
+   active(true)
+);

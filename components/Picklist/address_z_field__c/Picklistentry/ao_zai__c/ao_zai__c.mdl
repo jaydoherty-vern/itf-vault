@@ -1,0 +1,5 @@
+Picklistentry ao_zai__c (
+   value('AO-ZAI'),
+   order(131),
+   active(true)
+);

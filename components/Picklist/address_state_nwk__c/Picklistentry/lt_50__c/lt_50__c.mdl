@@ -1,0 +1,5 @@
+Picklistentry lt_50__c (
+   value('LT_Tauragė'),
+   order(1028),
+   active(true)
+);

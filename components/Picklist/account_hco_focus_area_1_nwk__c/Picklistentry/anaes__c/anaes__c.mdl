@@ -1,0 +1,5 @@
+Picklistentry anaes__c (
+   value('Anesthesiology'),
+   order(12),
+   active(true)
+);

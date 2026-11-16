@@ -1,0 +1,9 @@
+RECREATE Actiontrigger send_notification_itf_market_access_requ__c (
+   label('Send Notification'),
+   active(true),
+   description(),
+   object('Object.itf_market_access_request_form__c'),
+   event('AFTER_INSERT'),
+   order(100),
+   Actionblock(@Actionblock/action_block1__c.mdl)
+);

@@ -1,0 +1,5 @@
+Picklistentry rs_01__c (
+   value('RS_Severnobački okrug'),
+   order(1473),
+   active(true)
+);

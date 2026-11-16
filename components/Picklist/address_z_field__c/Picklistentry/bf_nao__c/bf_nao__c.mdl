@@ -1,0 +1,5 @@
+Picklistentry bf_nao__c (
+   value('BF-NAO'),
+   order(397),
+   active(true)
+);

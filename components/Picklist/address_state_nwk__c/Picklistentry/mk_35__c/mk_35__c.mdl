@@ -1,0 +1,5 @@
+Picklistentry mk_35__c (
+   value('MK_Jegunovce'),
+   order(1235),
+   active(true)
+);

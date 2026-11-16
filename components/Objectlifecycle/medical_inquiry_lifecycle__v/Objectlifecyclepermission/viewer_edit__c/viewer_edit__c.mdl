@@ -1,0 +1,5 @@
+Objectlifecyclepermission viewer_edit__c (
+   states('Objectlifecyclestate.new_state__v'),
+   role('Objectlifecyclerole.viewer__v'),
+   permission('Edit')
+);

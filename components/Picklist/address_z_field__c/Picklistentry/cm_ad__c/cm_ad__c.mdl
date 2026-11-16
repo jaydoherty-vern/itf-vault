@@ -1,0 +1,5 @@
+Picklistentry cm_ad__c (
+   value('CM-AD'),
+   order(724),
+   active(true)
+);

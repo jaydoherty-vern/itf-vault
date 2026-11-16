@@ -1,0 +1,5 @@
+Picklistentry bt_42__c (
+   value('BT-42'),
+   order(568),
+   active(true)
+);

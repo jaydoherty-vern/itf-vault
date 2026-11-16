@@ -1,0 +1,8 @@
+Objectworkflowstep employee_rejected__c (
+   label('Employee Rejected'),
+   type('notification'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

@@ -1,0 +1,5 @@
+Picklistentry bs_ns__c (
+   value('BS-NS'),
+   order(545),
+   active(true)
+);

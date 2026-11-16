@@ -1,0 +1,5 @@
+Picklistentry vmggt__c (
+   value('Veterinary Molecular Genetics and Gen Technology'),
+   order(577),
+   active(true)
+);

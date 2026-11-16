@@ -1,0 +1,8 @@
+RECREATE Pagelayout analytic_market_layout__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Analytic Market Layout'),
+   page_markup(@page_markup.xml)
+);

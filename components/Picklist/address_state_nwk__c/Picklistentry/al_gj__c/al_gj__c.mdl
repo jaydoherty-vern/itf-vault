@@ -1,0 +1,5 @@
+Picklistentry al_gj__c (
+   value('AL_Gjirokastër (District)'),
+   order(21),
+   active(true)
+);

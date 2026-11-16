@@ -1,0 +1,5 @@
+Picklistentry az_qus__c (
+   value('AZ-QUS'),
+   order(220),
+   active(true)
+);

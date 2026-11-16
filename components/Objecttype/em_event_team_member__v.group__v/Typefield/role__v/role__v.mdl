@@ -1,0 +1,10 @@
+Typefield role__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_team_member_role__v.1st_closure_approver__c',
+         'Picklist.em_event_team_member_role__v.2nd_closure_approver__c',
+         'Picklist.em_event_team_member_role__v.3rd_closure_approver__c',
+         'Picklist.em_event_team_member_role__v.cohost__v',
+         'Picklist.em_event_team_member_role__v.organizer__v'),
+   default_value('Picklist.em_event_team_member_role__v.organizer__v')
+);

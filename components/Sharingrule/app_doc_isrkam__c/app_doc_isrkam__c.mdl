@@ -1,0 +1,8 @@
+RECREATE Sharingrule app_doc_isrkam__c (
+   label('App Doc - ISR/KAM'),
+   active(true),
+   description(),
+   object('approved_document__v'),
+   criteria([itf_team1__c CONTAINS ('kam__c')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

@@ -1,0 +1,12 @@
+RECREATE Tab sp_action__c (
+   active(true),
+   all_view_label('All Actions'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Actions'),
+   my_view_label('My Actions'),
+   object('sp_action__c'),
+   order(1700),
+   parent(),
+   recent_view_label('Recent Actions')
+);

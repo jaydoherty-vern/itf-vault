@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_product_specific_product_metrics__c (
+   label('VSPA_Product_Specific_Product_Metrics'),
+   active(true),
+   description('EXTRA_Enables the 18R1 functionality Product-Specific Product Metrics.'),
+   object.metric_configuration__v.available_values__v.field_actions('edit',
+      'read'),
+   object.metric_configuration__v.product__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

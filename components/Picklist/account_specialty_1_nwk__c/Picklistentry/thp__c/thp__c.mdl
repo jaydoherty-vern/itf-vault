@@ -1,0 +1,5 @@
+Picklistentry thp__c (
+   value('Transplant Hepatology (Residents Only)'),
+   order(532),
+   active(true)
+);

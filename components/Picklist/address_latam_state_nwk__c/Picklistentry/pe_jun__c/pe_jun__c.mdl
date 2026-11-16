@@ -1,0 +1,5 @@
+Picklistentry pe_jun__c (
+   value('Junín'),
+   order(342),
+   active(true)
+);

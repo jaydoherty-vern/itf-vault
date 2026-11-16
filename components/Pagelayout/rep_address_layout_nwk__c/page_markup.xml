@@ -1,0 +1,68 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.address__v.repmaintained__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__v" />
+            <vault:field reference="name__v" />
+            <vault:field reference="street_address_2_cda__v" />
+            <vault:field reference="country__v" required="true" />
+            <vault:field reference="postal_code_cda__v" />
+            <vault:field reference="city_cda__v" required="true" />
+            <vault:field reference="state_nwk__c" />
+            <vault:field reference="controlling_account_nwk__c" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="map__v" />
+            <vault:field reference="brick__v" readOnly="true" />
+            <vault:field reference="longitude_cda__v" readOnly="true" />
+            <vault:field reference="latitude_cda__v" readOnly="true" />
+            <vault:field reference="billing_cda__v" />
+            <vault:field reference="shipping_cda__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Address types" name="address_types__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="address_type_nwk__c" />
+            <vault:field reference="address_status_nwk__c" />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Contact Information" name="contact_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="phone_cda__v" />
+            <vault:field reference="phone_2__v" />
+            <vault:field reference="fax_cda__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Office information" name="office_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="office_notes__v" />
+            <vault:field reference="appt_required__v" />
+            <vault:field reference="include_in_territory_assignment__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Office information" name="office_information1__c" reference="office_best_times_section_control__v" />
+    <vault:section title="Sample Information" name="sample_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="license_status__v" />
+            <vault:field reference="license_valid_to_sample__v" />
+            <vault:field reference="sample_send_status__v" />
+            <vault:field reference="license_expiration_date__v" />
+            <vault:field reference="network_sample_eligibility__v" />
+            <vault:field reference="sample_status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="veeva_nwk_id_vod__c" readOnly="true" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

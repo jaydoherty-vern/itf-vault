@@ -1,0 +1,20 @@
+Field grade_nwk__c (
+   label('HCP Grade'),
+   type('Picklist'),
+   active(true),
+   description('Network field - HCP Grade'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(397),
+   multi_value(false),
+   picklist('Picklist.account_grade_nwk__c'),
+   controlling_picklist('country_code__v'),
+   picklist_dependencies('{"gb__v":["srnu__c","gp__c","sasdr__c","reg__c","srpharm__c","gpp__c","con__c","jrdr__c"],"fr__v":["profu__c","arsth__c","apr__c","chp__c","ca__c","rsa__c","hc__c","lecfu__c","uhp__c","sha__c","hp__c","uha__c","msu__c"],"gr__v":["profu__c","lecfu__c","r__c","ta__c","ap__c"],"ie__v":["srnu__c","gp__c","sasdr__c","reg__c","srpharm__c","gpp__c","con__c","jrdr__c"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

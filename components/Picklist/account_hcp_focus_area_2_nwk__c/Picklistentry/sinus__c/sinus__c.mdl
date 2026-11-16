@@ -1,0 +1,5 @@
+Picklistentry sinus__c (
+   value('Sinus'),
+   order(408),
+   active(true)
+);

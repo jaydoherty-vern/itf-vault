@@ -1,0 +1,5 @@
+Picklistentry lex__c (
+   value('LEX'),
+   order(5),
+   active(true)
+);

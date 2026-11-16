@@ -1,0 +1,5 @@
+Picklistentry fr_53__c (
+   value('FR_Mayenne'),
+   order(344),
+   active(true)
+);

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vault:dashboard xmlns:vault="VeevaVault" type="Eighteen-Columns" layoutVersion="V2">
+  <vault:chart name="medical_inquiries_by_product_and_stat__c" label="Medical Inquiries by Product and Status" type="bar" report="Report.medical_inquiry_by_product_and_staus__c">
+    <vault:position row="0" col="0" sizeX="12" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Product" yaxislabel="Record Count (Medical Inquiry)" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="medical_inquiry__v.product__v" value="" />
+      <vault:grouping key="medical_inquiry__v.medical_inquiry_status__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="medical_insights_last_quarter__c" label="Medical Insights Last Quarter" type="number" report="Report.medical_insights_last_quarter__c">
+    <vault:position row="9" col="0" sizeX="8" sizeY="5" />
+    <vault:format showmetrics="false" showgroupings="false" showpercentage="false">
+      <vault:range color="#7ea8e6" min="0.0" max="300.0" />
+      <vault:range color="#D9780D" min="301.0" max="400.0" />
+      <vault:range color="#B71307" min="401.0" max="500.0" />
+    </vault:format>
+    <vault:series metric="RecordCount" unitlabel="                              ">
+      <vault:grouping key="medical_insight__v.account__v" value="AllValues" labelLanguage="en" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="medical_insights_current_quarter__c" label="Medical Insights Current Quarter" type="number" report="Report.medical_insights_current_quarter__c">
+    <vault:position row="9" col="10" sizeX="8" sizeY="5" />
+    <vault:format showmetrics="false" showgroupings="false" showpercentage="false">
+      <vault:range color="#427B2E" min="0.0" max="300.0" />
+      <vault:range color="#D9780D" min="301.0" max="400.0" />
+      <vault:range color="#B71307" min="401.0" max="500.0" />
+    </vault:format>
+    <vault:series metric="RecordCount" unitlabel="                              ">
+      <vault:grouping key="medical_insight__v.account__v" value="AllValues" labelLanguage="en" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="medical_inquiries_by_delivery_method__c" label="Medical Inquiries by Delivery Method" type="pie" report="Report.medical_inquiry_by_delivery_method__c">
+    <vault:position row="0" col="12" sizeX="6" sizeY="9" />
+    <vault:format showcategory="false" showpercentage="true" showlegend="true" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="medical_inquiry__v.delivery_method__v" value="" />
+    </vault:series>
+  </vault:chart>
+</vault:dashboard>

@@ -1,0 +1,8 @@
+Objectlayout html_report_remote_meeting__c (
+   label('html_report_remote_meeting'),
+   active(true),
+   pagelayouts('Pagelayout.remote_meeting_vod__c'),
+   object('Object.html_report__v'),
+   objecttype('Objecttype.html_report__v.remote_meeting__v'),
+   record_creation_layout('Pagelayout.remote_meeting_vod__c')
+);

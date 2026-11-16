@@ -1,0 +1,19 @@
+Field type_of_transfer__c (
+   label('Type of Transfer'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Please define whether it is a direct transfer or a transfer coming from third party'),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.transfer_of_value_type_of_transfer__c'),
+   default_value('{direct__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

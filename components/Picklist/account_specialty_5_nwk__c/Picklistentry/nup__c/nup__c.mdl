@@ -1,0 +1,5 @@
+Picklistentry nup__c (
+   value('Neuropsychiatry'),
+   order(298),
+   active(true)
+);

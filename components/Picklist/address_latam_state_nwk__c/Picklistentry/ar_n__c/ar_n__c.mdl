@@ -1,0 +1,5 @@
+Picklistentry ar_n__c (
+   value('Misiones (AR)'),
+   order(72),
+   active(true)
+);

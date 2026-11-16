@@ -1,0 +1,5 @@
+Picklistentry is_fjl__c (
+   value('IS_Fjallabyggð'),
+   order(766),
+   active(true)
+);

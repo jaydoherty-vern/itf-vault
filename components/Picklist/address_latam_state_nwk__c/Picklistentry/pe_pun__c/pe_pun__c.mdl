@@ -1,0 +1,5 @@
+Picklistentry pe_pun__c (
+   value('Puno'),
+   order(333),
+   active(true)
+);

@@ -1,0 +1,77 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.mc_cycle_plan_product__v.product__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="detail_group_name__v" />
+            <vault:field reference="ctrl_mc_cycle__v" />
+            <vault:field reference="ctrl_mc_cycle_channel__v" />
+            <vault:field reference="cycle_product__v" />
+            <vault:field reference="detail_priority__v" />
+            <vault:field reference="product_name__v" />
+            <vault:field reference="cycle_plan__v" />
+            <vault:field reference="ctrl_mc_cycle_plan__v" />
+            <vault:field reference="cycle_plan_target__v" />
+            <vault:field reference="cycle_plan_channel__v" />
+            <vault:field reference="channel__v" />
+            <vault:field reference="last_calculated__v" readOnly="true" />
+            <vault:field reference="product_status__v" readOnly="true" />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Product Metrics Information" name="product_metrics_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="zvod_pm_awareness__c" readOnly="true" />
+            <vault:field reference="zvod_pm_adoption_level__c" />
+            <vault:field reference="zvod_pm_segment__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Activities" name="activities__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="product_activity_goal__v" />
+            <vault:field reference="product_activity_max__v" />
+            <vault:field reference="activity_goal_edit__v" readOnly="true" />
+            <vault:field reference="product_actual_activity__v" readOnly="true" />
+            <vault:field reference="product_activity_remaining__v" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Calculations" name="calculations__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="product_interactions_goal__v" readOnly="true" />
+            <vault:field reference="product_interactions_actual__v" readOnly="true" />
+            <vault:field reference="product_interactions_earned__v" readOnly="true" />
+            <vault:field reference="product_attainment__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Team Settings" name="team_settings__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="team_product_activity_goal__v" />
+            <vault:field reference="team_product_activity_max__v" />
+            <vault:field reference="team_activity_goal_edit__v" readOnly="true" />
+            <vault:field reference="team_product_actual_activity__v" readOnly="true" />
+            <vault:field reference="team_product_activity_remaining__v" readOnly="true" />
+            <vault:field reference="team_product_status__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Team Calculations" name="team_calculations__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="team_product_interactions_goal__v" readOnly="true" />
+            <vault:field reference="team_product_interactions_actual__v" readOnly="true" />
+            <vault:field reference="team_product_interactions_earned__v" readOnly="true" />
+            <vault:field reference="team_product_attainment__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="vexternal_id__v" readOnly="true" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

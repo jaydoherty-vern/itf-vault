@@ -1,0 +1,5 @@
+Picklistentry am_kt__c (
+   value('AM-KT'),
+   order(108),
+   active(true)
+);

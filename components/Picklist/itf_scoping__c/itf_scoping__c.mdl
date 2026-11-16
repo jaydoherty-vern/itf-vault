@@ -1,0 +1,8 @@
+RECREATE Picklist itf_scoping__c (
+   label('Scoping'),
+   active(true),
+   Picklistentry(@Picklistentry/in_scope__c.mdl),
+   Picklistentry(@Picklistentry/out_of_scope__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

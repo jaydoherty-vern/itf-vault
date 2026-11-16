@@ -1,0 +1,19 @@
+Field big_id_qs__c (
+   label('BIG ID'),
+   type('String'),
+   active(true),
+   description('Network field - BIG Num'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(209),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

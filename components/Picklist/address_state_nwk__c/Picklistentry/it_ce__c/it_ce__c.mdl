@@ -1,0 +1,5 @@
+Picklistentry it_ce__c (
+   value('IT_Caserta'),
+   order(853),
+   active(true)
+);

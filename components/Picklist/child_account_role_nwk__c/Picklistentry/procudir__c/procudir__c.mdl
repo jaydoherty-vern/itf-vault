@@ -1,0 +1,5 @@
+Picklistentry procudir__c (
+   value('Purchasing / Procurement Manager or Lead'),
+   order(202),
+   active(true)
+);

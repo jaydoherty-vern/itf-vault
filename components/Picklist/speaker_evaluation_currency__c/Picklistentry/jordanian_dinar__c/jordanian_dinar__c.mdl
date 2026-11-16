@@ -1,0 +1,5 @@
+Picklistentry jordanian_dinar__c (
+   value('Jordanian Dinar'),
+   order(81),
+   active(true)
+);

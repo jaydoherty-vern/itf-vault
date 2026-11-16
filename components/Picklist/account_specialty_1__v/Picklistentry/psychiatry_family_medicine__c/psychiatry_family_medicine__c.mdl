@@ -1,0 +1,5 @@
+Picklistentry psychiatry_family_medicine__c (
+   value('Psychiatry/Family Medicine'),
+   order(280),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cn_nm__c (
+   value('CN-NM'),
+   order(752),
+   active(true)
+);

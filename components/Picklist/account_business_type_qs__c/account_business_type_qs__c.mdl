@@ -1,0 +1,11 @@
+RECREATE Picklist account_business_type_qs__c (
+   label('Business type'),
+   active(true),
+   Picklistentry(@Picklistentry/public__c.mdl),
+   Picklistentry(@Picklistentry/non_governmental_organization_ngo__c.mdl),
+   Picklistentry(@Picklistentry/non_profit_organisation_npo__c.mdl),
+   Picklistentry(@Picklistentry/private__c.mdl),
+   Picklistentry(@Picklistentry/nhs_service_private__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

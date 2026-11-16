@@ -1,0 +1,5 @@
+Picklistentry ao_cus__c (
+   value('AO-CUS'),
+   order(121),
+   active(true)
+);

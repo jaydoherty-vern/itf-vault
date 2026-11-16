@@ -1,0 +1,5 @@
+Picklistentry inh__v (
+   value('Ingush'),
+   order(187),
+   active(false)
+);

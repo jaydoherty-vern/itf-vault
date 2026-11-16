@@ -1,0 +1,5 @@
+Picklistentry si_140__c (
+   value('SI_Vrhnika'),
+   order(1647),
+   active(true)
+);

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule key="nt-0-1752847251159">
+      <actions>
+        <action type="platform.all.updateRecordAction">
+          <targetField>Object.call2__v.assigner__v</targetField>
+          <expression>RecordByLabel(@WorkflowOwner.name__v)</expression>
+          <updateType>formula_builder</updateType>
+        </action>
+      </actions>
+    </vwf:rule>
+    <vwf:rule key="nt-1-1752847262862">
+      <actions>
+        <action type="platform.all.updateRecordAction">
+          <targetField>Object.call2__v.assignment_datetime__v</targetField>
+          <expression>Now()</expression>
+          <updateType>formula_builder</updateType>
+        </action>
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

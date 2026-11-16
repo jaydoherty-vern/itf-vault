@@ -1,0 +1,5 @@
+Picklistentry gb_cma__c (
+   value('GB-CMA'),
+   order(459),
+   active(false)
+);

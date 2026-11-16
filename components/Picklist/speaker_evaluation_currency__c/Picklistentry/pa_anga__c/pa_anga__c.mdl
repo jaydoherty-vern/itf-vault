@@ -1,0 +1,5 @@
+Picklistentry pa_anga__c (
+   value('Pa’anga'),
+   order(151),
+   active(true)
+);

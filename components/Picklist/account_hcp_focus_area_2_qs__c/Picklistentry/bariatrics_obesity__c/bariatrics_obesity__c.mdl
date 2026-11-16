@@ -1,0 +1,5 @@
+Picklistentry bariatrics_obesity__c (
+   value('Bariatrics/Obesity'),
+   order(104),
+   active(true)
+);

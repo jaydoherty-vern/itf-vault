@@ -1,0 +1,20 @@
+Field convention_status_nwk__c (
+   label('Convention Status'),
+   type('Picklist'),
+   active(true),
+   description('Network Field - HCP Convention Status'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(394),
+   multi_value(false),
+   picklist('Picklist.account_convention_status_nwk__c'),
+   controlling_picklist('country_code__v'),
+   picklist_dependencies('{"lu__v":["u__c","s4__c","s5__c"],"it__v":["u__c","s4__c"],"be__v":["u__c","s4__c","s5__c"],"fr__v":["u__c","s2__c","s1__c","s3__c","s6__c","s4__c"],"mc__v":["u__c","s2__c","s1__c","s3__c","s6__c","s4__c"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

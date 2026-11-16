@@ -1,0 +1,5 @@
+Picklistentry it_pd__c (
+   value('IT_Padua'),
+   order(897),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry fr_pf__c (
+   value('FR_Polynésie française'),
+   order(357),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry fr_82__c (
+   value('FR_Tarn-et-Garonne'),
+   order(373),
+   active(true)
+);

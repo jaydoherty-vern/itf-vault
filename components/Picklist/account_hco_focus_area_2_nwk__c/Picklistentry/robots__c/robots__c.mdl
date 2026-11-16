@@ -1,0 +1,5 @@
+Picklistentry robots__c (
+   value('Robotic Surgery'),
+   order(234),
+   active(true)
+);

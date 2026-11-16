@@ -1,0 +1,5 @@
+Picklistentry al_dr__c (
+   value('AL_Durrës (District)'),
+   order(15),
+   active(true)
+);

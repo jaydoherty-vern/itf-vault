@@ -1,0 +1,5 @@
+Picklistentry bs_ck__c (
+   value('BS-CK'),
+   order(528),
+   active(true)
+);

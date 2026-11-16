@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:template>Notificationtemplate.event_approved__c</vwf:template>
+  <vwf:recipientrole>Objectlifecyclerole.organizer__v</vwf:recipientrole>
+  <vwf:referencedtasks>
+    <vwf:task>user_selection_approval_task__c</vwf:task>
+  </vwf:referencedtasks>
+</vwf:stepdetails>

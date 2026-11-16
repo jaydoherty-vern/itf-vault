@@ -1,0 +1,5 @@
+Picklistentry ru_chu__c (
+   value('RU_Chukotskiy avtonomnyy okrug'),
+   order(1495),
+   active(true)
+);

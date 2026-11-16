@@ -1,0 +1,5 @@
+Picklistentry bank_holiday__c (
+   value('Bank Holiday'),
+   order(0),
+   active(true)
+);

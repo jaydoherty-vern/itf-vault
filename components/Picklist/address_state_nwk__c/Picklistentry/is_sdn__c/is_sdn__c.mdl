@@ -1,0 +1,5 @@
+Picklistentry is_sdn__c (
+   value('IS_Suðurnesjabær'),
+   order(814),
+   active(true)
+);

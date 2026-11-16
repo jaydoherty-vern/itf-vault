@@ -1,0 +1,5 @@
+Picklistentry lt_05__c (
+   value('LT_Birštonas'),
+   order(978),
+   active(true)
+);

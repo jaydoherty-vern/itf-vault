@@ -1,0 +1,5 @@
+Picklistentry de_by__c (
+   value('DE-BY'),
+   order(972),
+   active(true)
+);

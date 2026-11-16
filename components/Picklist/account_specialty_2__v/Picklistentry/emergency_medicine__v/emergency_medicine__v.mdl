@@ -1,0 +1,5 @@
+Picklistentry emergency_medicine__v (
+   value('Emergency Medicine'),
+   order(6),
+   active(true)
+);

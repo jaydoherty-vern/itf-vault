@@ -1,0 +1,5 @@
+Picklistentry lt_29__c (
+   value('LT_Pagėgiai'),
+   order(1005),
+   active(true)
+);

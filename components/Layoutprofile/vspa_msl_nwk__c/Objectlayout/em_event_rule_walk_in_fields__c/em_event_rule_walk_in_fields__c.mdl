@@ -1,0 +1,8 @@
+Objectlayout em_event_rule_walk_in_fields__c (
+   label('em_event_rule_walk_in_fields'),
+   active(true),
+   pagelayouts('Pagelayout.walk_in_fields__c'),
+   object('Object.em_event_rule__v'),
+   objecttype('Objecttype.em_event_rule__v.walk_in_fields__v'),
+   record_creation_layout('Pagelayout.walk_in_fields__c')
+);

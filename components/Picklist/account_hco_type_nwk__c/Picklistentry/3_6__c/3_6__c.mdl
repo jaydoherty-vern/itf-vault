@@ -1,0 +1,5 @@
+Picklistentry 3_6__c (
+   value('Blood Transfusion Centers'),
+   order(12),
+   active(true)
+);

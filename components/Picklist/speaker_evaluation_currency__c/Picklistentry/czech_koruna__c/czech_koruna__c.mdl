@@ -1,0 +1,5 @@
+Picklistentry czech_koruna__c (
+   value('Czech Koruna'),
+   order(50),
+   active(true)
+);

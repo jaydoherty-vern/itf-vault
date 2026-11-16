@@ -1,0 +1,20 @@
+Field fax_vod__c (
+   label('Fax'),
+   type('String'),
+   subtype('Phone'),
+   active(true),
+   description('Fax number for the Account at this Address.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

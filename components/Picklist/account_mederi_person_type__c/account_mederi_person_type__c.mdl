@@ -1,0 +1,15 @@
+RECREATE Picklist account_mederi_person_type__c (
+   label('Mederi Person Type'),
+   active(true),
+   Picklistentry(@Picklistentry/access_decider__c.mdl),
+   Picklistentry(@Picklistentry/access_influencer__c.mdl),
+   Picklistentry(@Picklistentry/association__c.mdl),
+   Picklistentry(@Picklistentry/event__c.mdl),
+   Picklistentry(@Picklistentry/hospital__c.mdl),
+   Picklistentry(@Picklistentry/journal__c.mdl),
+   Picklistentry(@Picklistentry/publication__c.mdl),
+   Picklistentry(@Picklistentry/university__c.mdl),
+   Picklistentry(@Picklistentry/person__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

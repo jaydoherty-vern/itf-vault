@@ -1,0 +1,5 @@
+Picklistentry ultrasonography__c (
+   value('Ultrasonography'),
+   order(102),
+   active(true)
+);

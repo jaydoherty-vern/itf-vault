@@ -1,0 +1,5 @@
+Picklistentry al_08__c (
+   value('AL_Lezhë'),
+   order(33),
+   active(true)
+);

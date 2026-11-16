@@ -1,0 +1,5 @@
+Picklistentry pup__c (
+   value('Poultry Medicine & Production'),
+   order(430),
+   active(true)
+);

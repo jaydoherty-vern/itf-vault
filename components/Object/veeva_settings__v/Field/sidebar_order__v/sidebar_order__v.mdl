@@ -1,0 +1,21 @@
+Field sidebar_order__v (
+   label('SIDEBAR_ORDER'),
+   type('String'),
+   active(true),
+   description('Order of sections on the tablet sidebar, comma separated, from top to bottom.  Possible values:
+	Links_vod,Recent_Items_vod,Account_Lists_vod'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(270),
+   default_value('"SIDEBAR_ORDER;;TABLET"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

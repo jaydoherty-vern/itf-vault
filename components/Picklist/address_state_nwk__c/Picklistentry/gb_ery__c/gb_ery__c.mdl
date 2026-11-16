@@ -1,0 +1,5 @@
+Picklistentry gb_ery__c (
+   value('GB-ERY'),
+   order(490),
+   active(false)
+);

@@ -1,0 +1,22 @@
+Field student_semester_qs_trns_vod__c (
+   label('Student Semester'),
+   type('Number'),
+   active(true),
+   description('BMI Naya Transparency Field'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content('BMI Naya Transparency Field'),
+   list_column(false),
+   order(375),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

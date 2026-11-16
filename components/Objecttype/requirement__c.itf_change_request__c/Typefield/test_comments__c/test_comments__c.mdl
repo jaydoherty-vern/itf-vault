@@ -1,0 +1,4 @@
+Typefield test_comments__c (
+   source('custom'),
+   required(false)
+);

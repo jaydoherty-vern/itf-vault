@@ -1,0 +1,5 @@
+Picklistentry not_willing_to_prescribe__c (
+   value('Not Willing to Prescribe'),
+   order(4),
+   active(true)
+);

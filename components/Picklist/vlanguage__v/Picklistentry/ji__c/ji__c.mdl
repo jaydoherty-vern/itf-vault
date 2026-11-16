@@ -1,0 +1,5 @@
+Picklistentry ji__c (
+   value('Yiddish'),
+   order(9),
+   active(true)
+);

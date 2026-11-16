@@ -1,0 +1,8 @@
+Objectlayout sent_message_call_sample__c (
+   label('sent_message_call_sample'),
+   active(true),
+   pagelayouts('Pagelayout.call_sample__c'),
+   object('Object.sent_message__v'),
+   objecttype('Objecttype.sent_message__v.call_sample__v'),
+   record_creation_layout('Pagelayout.call_sample__c')
+);

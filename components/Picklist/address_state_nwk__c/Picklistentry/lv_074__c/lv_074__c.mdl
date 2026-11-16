@@ -1,0 +1,5 @@
+Picklistentry lv_074__c (
+   value('LV_Priekules novads (Priekule)'),
+   order(1126),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry br_sp__c (
+   value('BR-SP'),
+   order(520),
+   active(true)
+);

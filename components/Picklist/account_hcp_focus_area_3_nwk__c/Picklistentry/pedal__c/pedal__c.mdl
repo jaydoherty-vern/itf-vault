@@ -1,0 +1,5 @@
+Picklistentry pedal__c (
+   value('Pediatric Allergy'),
+   order(310),
+   active(true)
+);

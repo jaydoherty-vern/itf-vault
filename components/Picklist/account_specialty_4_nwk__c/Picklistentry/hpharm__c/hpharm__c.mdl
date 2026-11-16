@@ -1,0 +1,5 @@
+Picklistentry hpharm__c (
+   value('Hospital Pharmacy'),
+   order(200),
+   active(true)
+);

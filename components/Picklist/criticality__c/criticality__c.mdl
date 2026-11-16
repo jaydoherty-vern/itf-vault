@@ -1,0 +1,9 @@
+RECREATE Picklist criticality__c (
+   label('Criticality'),
+   active(true),
+   Picklistentry(@Picklistentry/nice_to_have__c.mdl),
+   Picklistentry(@Picklistentry/must_have__c.mdl),
+   Picklistentry(@Picklistentry/medium__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

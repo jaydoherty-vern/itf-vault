@@ -1,0 +1,5 @@
+Picklistentry pl_pk__c (
+   value('PL_Podkarpackie'),
+   order(1364),
+   active(true)
+);

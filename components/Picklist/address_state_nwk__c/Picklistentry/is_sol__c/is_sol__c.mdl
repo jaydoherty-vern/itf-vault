@@ -1,0 +1,5 @@
+Picklistentry is_sol__c (
+   value('IS_Sveitarfélagið Ölfus'),
+   order(819),
+   active(true)
+);

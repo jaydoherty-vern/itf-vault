@@ -1,0 +1,5 @@
+Picklistentry al_le__c (
+   value('AL_Lezhë (District)'),
+   order(34),
+   active(true)
+);

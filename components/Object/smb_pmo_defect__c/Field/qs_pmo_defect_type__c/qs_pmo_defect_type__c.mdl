@@ -1,0 +1,25 @@
+Field qs_pmo_defect_type__c (
+   label('Defect Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Defect
+Evolution - Config Change identified on an existing Requirement, low impact
+Change Request - New Requirement, high impact
+Training Issue - Usage of the application
+Translation
+Data Issue
+Other'),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.smb_pmo_defect_qs_pmo_defect_type__c'),
+   default_value('{defect__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

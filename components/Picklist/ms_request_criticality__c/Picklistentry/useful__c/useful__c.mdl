@@ -1,0 +1,5 @@
+Picklistentry useful__c (
+   value('Useful'),
+   order(0),
+   active(true)
+);

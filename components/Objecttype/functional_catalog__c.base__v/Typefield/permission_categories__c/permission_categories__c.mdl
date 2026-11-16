@@ -1,0 +1,4 @@
+Typefield permission_categories__c (
+   source('standard'),
+   required(false)
+);

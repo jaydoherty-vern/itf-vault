@@ -1,0 +1,5 @@
+Picklistentry cz_jc__c (
+   value('CZ_Jihočeský kraj'),
+   order(116),
+   active(true)
+);

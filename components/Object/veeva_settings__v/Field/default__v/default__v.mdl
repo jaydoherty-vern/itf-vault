@@ -1,0 +1,20 @@
+Field default__v (
+   label('DEFAULT'),
+   type('String'),
+   active(true),
+   description('This list of call object field names (e.g. "Ship_Zip_vod, Color_vod") will be displayed on the PDA call report for the DEFAULT call record type. Similar messages with message names of a Record-Type, e.g. MSL Meeting Brief_vod can also be created.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(83),
+   default_value('"DEFAULT;;MOBILE_CALL_CUSTOM_FIELD"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,21 @@
+RECREATE Permissionset vspa_person_account_ids__c (
+   label('VSPA_Person_Account_IDs'),
+   active(true),
+   description('Grants access to identification numbers on person account page layouts including ME #, NPI #, GLN ID, BIG ID, National ID, and Tax ID.'),
+   object.account__v.big_id_qs__c.field_actions('edit',
+      'read'),
+   object.account__v.gln_id_qs__c.field_actions('edit',
+      'read'),
+   object.account__v.me__v.field_actions('edit',
+      'read'),
+   object.account__v.national_id_qs__c.field_actions('edit',
+      'read'),
+   object.account__v.npi__v.field_actions('edit',
+      'read'),
+   object.account__v.tax_id_hco_qs__c.field_actions('edit',
+      'read'),
+   object.account__v.tax_id_qs__c.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

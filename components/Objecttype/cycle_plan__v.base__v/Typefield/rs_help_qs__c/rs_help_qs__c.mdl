@@ -1,0 +1,4 @@
+Typefield rs_help_qs__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,8 @@
+Objectlayout call2_event__c (
+   label('call2_event'),
+   active(true),
+   pagelayouts('Pagelayout.event_layout1__c'),
+   object('Object.call2__v'),
+   objecttype('Objecttype.call2__v.event__v'),
+   record_creation_layout('Pagelayout.event_layout1__c')
+);

@@ -1,0 +1,8 @@
+Objectworkflowstep what_object_type__c (
+   label('What Object Type?'),
+   type('decision'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

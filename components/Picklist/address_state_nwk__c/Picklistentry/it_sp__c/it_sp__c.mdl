@@ -1,0 +1,5 @@
+Picklistentry it_sp__c (
+   value('IT_La Spezia'),
+   order(875),
+   active(true)
+);

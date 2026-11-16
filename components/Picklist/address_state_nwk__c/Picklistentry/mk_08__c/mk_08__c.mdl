@@ -1,0 +1,5 @@
+Picklistentry mk_08__c (
+   value('MK_Brvenica'),
+   order(1213),
+   active(true)
+);

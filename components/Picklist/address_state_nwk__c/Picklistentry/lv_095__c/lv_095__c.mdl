@@ -1,0 +1,5 @@
+Picklistentry lv_095__c (
+   value('LV_Stopiņu novads (Stopiņi)'),
+   order(1149),
+   active(true)
+);

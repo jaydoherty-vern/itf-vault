@@ -1,0 +1,5 @@
+Picklistentry scd__c (
+   value('Sickle Cell Disease'),
+   order(402),
+   active(true)
+);

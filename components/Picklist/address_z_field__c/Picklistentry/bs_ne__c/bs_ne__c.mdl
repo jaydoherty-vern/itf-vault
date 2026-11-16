@@ -1,0 +1,5 @@
+Picklistentry bs_ne__c (
+   value('BS-NE'),
+   order(542),
+   active(true)
+);

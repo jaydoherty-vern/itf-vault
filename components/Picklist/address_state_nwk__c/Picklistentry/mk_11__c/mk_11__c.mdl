@@ -1,0 +1,5 @@
+Picklistentry mk_11__c (
+   value('MK_Vasilevo'),
+   order(1280),
+   active(true)
+);

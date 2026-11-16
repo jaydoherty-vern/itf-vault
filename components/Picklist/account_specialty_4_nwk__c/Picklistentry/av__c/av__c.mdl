@@ -1,0 +1,5 @@
+Picklistentry av__c (
+   value('Audiovestibular Medicine'),
+   order(40),
+   active(true)
+);

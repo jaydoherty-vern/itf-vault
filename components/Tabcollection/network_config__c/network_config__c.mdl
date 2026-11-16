@@ -1,0 +1,5 @@
+RECREATE Tabcollection network_config__c (
+   label('Network Config'),
+   active(true),
+   help_content()
+);

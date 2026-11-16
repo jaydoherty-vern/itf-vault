@@ -1,0 +1,5 @@
+Picklistentry diploma_for_the_faculty_of_sexual_and_re__c (
+   value('Diploma for the Faculty of Sexual and Reproductive Health Care (DFSRH)'),
+   order(3),
+   active(true)
+);

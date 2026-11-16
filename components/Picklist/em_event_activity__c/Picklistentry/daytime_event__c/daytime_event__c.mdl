@@ -1,0 +1,5 @@
+Picklistentry daytime_event__c (
+   value('Daytime event'),
+   order(0),
+   active(true)
+);

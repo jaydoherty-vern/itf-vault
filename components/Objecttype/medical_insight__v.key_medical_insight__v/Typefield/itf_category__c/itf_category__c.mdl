@@ -1,0 +1,9 @@
+Typefield itf_category__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.medical_insight_itf_category__c.epidys_trial__c',
+         'Picklist.medical_insight_itf_category__c.moa_mod__c',
+         'Picklist.medical_insight_itf_category__c.other__c',
+         'Picklist.medical_insight_itf_category__c.ppmd_mda_safety_efficacy_posters__c',
+         'Picklist.medical_insight_itf_category__c.research_ideas__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry somoni__c (
+   value('Somoni'),
+   order(148),
+   active(true)
+);

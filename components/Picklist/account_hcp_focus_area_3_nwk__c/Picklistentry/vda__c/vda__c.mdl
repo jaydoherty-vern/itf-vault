@@ -1,0 +1,5 @@
+Picklistentry vda__c (
+   value('Veterinary Dairy'),
+   order(464),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry vt__c (
+   value('Veterinary Technician'),
+   order(340),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry tt_sge__c (
+   value('Sangre Grande'),
+   order(385),
+   active(true)
+);

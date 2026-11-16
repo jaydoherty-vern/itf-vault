@@ -1,0 +1,4 @@
+Typefield linktype_code__c (
+   source('standard'),
+   required(false)
+);

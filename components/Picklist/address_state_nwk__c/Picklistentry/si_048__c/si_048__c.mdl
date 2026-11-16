@@ -1,0 +1,5 @@
+Picklistentry si_048__c (
+   value('SI_Kočevje'),
+   order(1602),
+   active(true)
+);

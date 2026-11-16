@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.address_mandatory_insert_wkp__c (
+   label('Address_Mandatory_Insert_WKP'),
+   active(true),
+   expression('Not(And(object_type__vr.api_name__v="Workplaces",Text(change_type__c)="Create",IsBlank(new_address_line_1__c)))'),
+   description('The address is mandatory for insert.'),
+   error_message('Mandatory for "Create" data change request type.'),
+   error_location('new_address_line_1__c')
+);

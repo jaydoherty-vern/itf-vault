@@ -1,0 +1,5 @@
+Picklistentry fr_16__c (
+   value('FR_Charente'),
+   order(292),
+   active(true)
+);

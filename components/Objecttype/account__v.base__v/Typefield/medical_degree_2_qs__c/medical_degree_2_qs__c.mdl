@@ -1,0 +1,4 @@
+Typefield medical_degree_2_qs__c (
+   source('standard'),
+   required(false)
+);

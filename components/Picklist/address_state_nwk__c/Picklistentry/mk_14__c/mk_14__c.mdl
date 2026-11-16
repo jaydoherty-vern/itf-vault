@@ -1,0 +1,5 @@
+Picklistentry mk_14__c (
+   value('MK_Vinica'),
+   order(1283),
+   active(true)
+);

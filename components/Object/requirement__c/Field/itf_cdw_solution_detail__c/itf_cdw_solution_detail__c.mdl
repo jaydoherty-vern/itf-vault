@@ -1,0 +1,17 @@
+Field itf_cdw_solution_detail__c (
+   label('CDW Solution Detail'),
+   type('RichText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(138),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

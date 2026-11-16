@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_align_feedback_manager__c (
+   label('VSPA_ALIGN_Feedback_Manager'),
+   active(true),
+   description(),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

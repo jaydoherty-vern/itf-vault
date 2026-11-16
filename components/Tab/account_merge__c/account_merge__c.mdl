@@ -1,0 +1,12 @@
+RECREATE Tab account_merge__c (
+   active(true),
+   all_view_label('All Account Merges'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Account Merges'),
+   my_view_label('My Account Merges'),
+   object('account_merge__c'),
+   order(3700),
+   parent(),
+   recent_view_label('Recent Account Merges')
+);

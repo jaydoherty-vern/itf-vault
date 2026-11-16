@@ -1,0 +1,20 @@
+RECREATE Notificationtemplate requirement_uat_results__c (
+   label('REQUIREMENT_UAT_RESULTS'),
+   active(true),
+   description('REQUIREMENT_UAT_RESULTS'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.requirement__c'),
+   subject('UAT RESULTS - ${Object.name__v} - ${Object.requirement_title__c}'),
+   notification('The following requirement has been updated with UAT results.</br>
+
+Test Status: ${Object.test_status__c}</br>
+Test Comments: ${Object.itf_test_comments_flow__c}</br>
+${Object.name__v}'),
+   email_body('The following requirement has been updated with UAT results.</br>
+
+Test Status: ${Object.test_status__c}</br>
+Test Comments: ${Object.itf_test_comments_flow__c}</br>
+${Object.name__v}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

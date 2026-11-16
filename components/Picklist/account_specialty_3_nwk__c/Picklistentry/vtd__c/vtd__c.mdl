@@ -1,0 +1,5 @@
+Picklistentry vtd__c (
+   value('Veterinary Dermatology'),
+   order(559),
+   active(true)
+);

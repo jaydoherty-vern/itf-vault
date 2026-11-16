@@ -1,0 +1,5 @@
+Picklistentry az_xvd__c (
+   value('AZ-XVD'),
+   order(244),
+   active(true)
+);

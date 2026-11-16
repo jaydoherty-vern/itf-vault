@@ -1,0 +1,5 @@
+Picklistentry pantherx_question_issue__c (
+   value('PANTHERx Question / Issue'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,9 @@
+Objectworkflowstep field_update_pending__c (
+   label('Field Update: Pending'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.manager_approval__c',
+         'Objectworkflowstep.manager_email__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

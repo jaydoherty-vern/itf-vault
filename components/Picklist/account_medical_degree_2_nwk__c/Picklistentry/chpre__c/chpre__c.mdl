@@ -1,0 +1,5 @@
+Picklistentry chpre__c (
+   value('Diploma in Plastic Surgery'),
+   order(81),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry no_22__c (
+   value('NO_Jan Mayen'),
+   order(1308),
+   active(true)
+);

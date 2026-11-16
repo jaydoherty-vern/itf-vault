@@ -1,0 +1,5 @@
+Picklistentry mk_40__c (
+   value('MK_Kičevo'),
+   order(1239),
+   active(true)
+);

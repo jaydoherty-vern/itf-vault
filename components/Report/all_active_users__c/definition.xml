@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.username__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.email__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.title__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.itf_district_name__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.security_profile__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.primary_territory__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.last_login__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.last_ipad_sync__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="user__sys.security_profile__sys" rightValue="registration" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="user__sys.security_profile__sys" groupBySortOn="user__sys.security_profile__sys" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order />
+</vrp:query>

@@ -1,0 +1,5 @@
+Picklistentry ve__c (
+   value('Veterinary Epidemology'),
+   order(561),
+   active(true)
+);

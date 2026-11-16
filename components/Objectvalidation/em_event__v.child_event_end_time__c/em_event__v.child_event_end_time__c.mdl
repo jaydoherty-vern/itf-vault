@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_event__v.child_event_end_time__c (
+   label('Child_Event_End_Time'),
+   active(true),
+   expression('Not(And(Not(IsBlank(Id(parent_event__v))),object_type__vr.name__v="Child Event",end_time__v>=parent_event__vr.end_time__v))'),
+   description('The "End Time" of the child event must be equal to or greater than the end time of the parent event.'),
+   error_message('The end time of the Child Event cannot be after the end time of the Parent Event.'),
+   error_location('end_time__v')
+);

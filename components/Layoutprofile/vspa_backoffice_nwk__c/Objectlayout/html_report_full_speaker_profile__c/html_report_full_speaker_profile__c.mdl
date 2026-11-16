@@ -1,0 +1,8 @@
+Objectlayout html_report_full_speaker_profile__c (
+   label('html_report_full_speaker_profile'),
+   active(true),
+   pagelayouts('Pagelayout.myinsights__c'),
+   object('Object.html_report__v'),
+   objecttype('Objecttype.html_report__v.full_speaker_profile__v'),
+   record_creation_layout('Pagelayout.myinsights__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry ao_uig__c (
+   value('AO-UIG'),
+   order(130),
+   active(true)
+);

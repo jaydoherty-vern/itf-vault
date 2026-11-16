@@ -1,0 +1,38 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.pricing_rule__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="order_campaign__v" />
+            <vault:field reference="discount_override__v" />
+            <vault:field reference="comparison_type__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="limit_bound__v" />
+            <vault:field reference="discount_override_max__v" />
+            <vault:field reference="net_price_min__v" />
+            <vault:field reference="free_goods__v" />
+            <vault:field reference="free_goods_max__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="contract__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

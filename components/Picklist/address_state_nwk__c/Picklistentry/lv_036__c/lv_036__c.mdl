@@ -1,0 +1,5 @@
+Picklistentry lv_036__c (
+   value('LV_Ilūkstes novads (Ilūkste)'),
+   order(1084),
+   active(true)
+);

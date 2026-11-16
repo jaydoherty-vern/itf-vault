@@ -1,0 +1,5 @@
+Picklistentry si_108__c (
+   value('SI_Ruše'),
+   order(1632),
+   active(true)
+);

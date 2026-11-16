@@ -1,0 +1,5 @@
+Picklistentry 32_25__c (
+   value('Committee against nosocomial infections'),
+   order(20),
+   active(true)
+);

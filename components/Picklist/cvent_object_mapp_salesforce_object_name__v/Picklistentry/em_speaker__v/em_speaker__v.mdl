@@ -1,0 +1,5 @@
+Picklistentry em_speaker__v (
+   value('EM_Speaker_vod'),
+   order(6),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectworkflowstep task_for_approver_selection__c (
+   label('Task for Approver Selection'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.update_event_status_to_pending_approval2__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

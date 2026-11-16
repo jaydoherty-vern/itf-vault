@@ -1,0 +1,5 @@
+Picklistentry br_al__c (
+   value('BR-AL'),
+   order(496),
+   active(true)
+);

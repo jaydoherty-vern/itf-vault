@@ -1,0 +1,5 @@
+Picklistentry be_vbr__c (
+   value('BE-VBR'),
+   order(348),
+   active(true)
+);

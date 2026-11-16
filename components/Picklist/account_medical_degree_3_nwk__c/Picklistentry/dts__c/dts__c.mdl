@@ -1,0 +1,5 @@
+Picklistentry dts__c (
+   value('Dr. rer. tech.'),
+   order(135),
+   active(true)
+);

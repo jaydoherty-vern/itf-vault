@@ -1,0 +1,5 @@
+Picklistentry mednuiso__c (
+   value('Nuclear Medicine (Isotopdiagnostic) Diploma'),
+   order(222),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry radim__c (
+   value('Diploma in Radiology'),
+   order(84),
+   active(true)
+);

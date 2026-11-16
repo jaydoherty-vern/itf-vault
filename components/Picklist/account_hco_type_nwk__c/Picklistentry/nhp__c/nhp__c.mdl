@@ -1,0 +1,5 @@
+Picklistentry nhp__c (
+   value('Nursing Home with Pharmacy'),
+   order(145),
+   active(true)
+);

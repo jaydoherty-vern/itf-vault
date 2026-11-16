@@ -1,0 +1,5 @@
+Picklistentry needle_exchange_and_supervised_drug_admi__c (
+   value('Needle Exchange and Supervised Drug Administration'),
+   order(64),
+   active(true)
+);

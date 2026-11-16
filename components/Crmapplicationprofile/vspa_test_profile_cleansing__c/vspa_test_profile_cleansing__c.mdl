@@ -1,0 +1,5 @@
+RECREATE Crmapplicationprofile vspa_test_profile_cleansing__c (
+   label('VSPA_Test_Profile_Cleansing'),
+   active(true),
+   description()
+);

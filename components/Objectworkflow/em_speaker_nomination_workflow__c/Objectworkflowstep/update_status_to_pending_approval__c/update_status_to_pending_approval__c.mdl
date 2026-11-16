@@ -1,0 +1,8 @@
+Objectworkflowstep update_status_to_pending_approval__c (
+   label('Update Status to Pending Approval'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.auto_approve__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

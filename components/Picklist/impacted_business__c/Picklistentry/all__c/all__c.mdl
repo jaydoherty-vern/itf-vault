@@ -1,0 +1,5 @@
+Picklistentry all__c (
+   value('All'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry bipl__c (
+   value('Bipolar Disease'),
+   order(40),
+   active(true)
+);

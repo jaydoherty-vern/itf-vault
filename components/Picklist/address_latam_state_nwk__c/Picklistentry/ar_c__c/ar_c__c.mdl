@@ -1,0 +1,5 @@
+Picklistentry ar_c__c (
+   value('Ciudad Autónoma de Buenos Aires'),
+   order(62),
+   active(true)
+);

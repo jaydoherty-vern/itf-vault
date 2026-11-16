@@ -1,0 +1,18 @@
+Field zvod_pm_awareness__c (
+   label('Awareness'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(69),
+   multi_value(false),
+   picklist('Picklist.mc_cycle_plan_product_zvod_pm_awareness__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

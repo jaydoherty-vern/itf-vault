@@ -1,0 +1,14 @@
+RECREATE Picklist product_met_formulary_inclusion_steps_qs__c (
+   label('Formulary Inclusion Steps'),
+   active(true),
+   Picklistentry(@Picklistentry/not_targeted__c.mdl),
+   Picklistentry(@Picklistentry/formulary_rejected__c.mdl),
+   Picklistentry(@Picklistentry/pre_work_completed__c.mdl),
+   Picklistentry(@Picklistentry/advocate_ready__c.mdl),
+   Picklistentry(@Picklistentry/application_made__c.mdl),
+   Picklistentry(@Picklistentry/formulary_approval__c.mdl),
+   Picklistentry(@Picklistentry/approval_validated__c.mdl),
+   Picklistentry(@Picklistentry/contract_signed__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

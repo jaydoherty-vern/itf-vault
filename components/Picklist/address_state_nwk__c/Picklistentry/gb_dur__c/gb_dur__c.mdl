@@ -1,0 +1,5 @@
+Picklistentry gb_dur__c (
+   value('GB-DUR'),
+   order(481),
+   active(false)
+);

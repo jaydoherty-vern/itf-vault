@@ -1,0 +1,5 @@
+Picklistentry lyme__c (
+   value('Lyme disease'),
+   order(222),
+   active(true)
+);

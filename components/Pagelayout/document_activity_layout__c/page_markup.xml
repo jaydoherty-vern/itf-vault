@@ -1,0 +1,38 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.email_activity__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="sent_email__v" />
+            <vault:field reference="event_type__v" />
+            <vault:field reference="activity_datetime__v" required="true" />
+            <vault:field reference="click_url__v" />
+            <vault:field reference="tracking_source__v" />
+            <vault:field reference="name__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Device and Location" name="device_and_location__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="device_type__v" />
+            <vault:field reference="client_type__v" />
+            <vault:field reference="client_name__v" />
+            <vault:field reference="client_os__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="region__v" />
+            <vault:field reference="city__v" />
+            <vault:field reference="ip_address__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Document Views" name="document_views__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="vault_instance_id__v" />
+            <vault:field reference="vault_doc_name__v" />
+            <vault:field reference="vault_document_major_version__v" />
+            <vault:field reference="vault_document_minor_version__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

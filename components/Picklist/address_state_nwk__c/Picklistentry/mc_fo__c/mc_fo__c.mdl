@@ -1,0 +1,5 @@
+Picklistentry mc_fo__c (
+   value('MC_Fontvieille'),
+   order(1168),
+   active(true)
+);

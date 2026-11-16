@@ -1,0 +1,5 @@
+Picklistentry nl_bq3__c (
+   value('NL_Sint Eustatius (NL)'),
+   order(1303),
+   active(true)
+);

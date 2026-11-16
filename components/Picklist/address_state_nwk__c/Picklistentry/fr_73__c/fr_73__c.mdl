@@ -1,0 +1,5 @@
+Picklistentry fr_73__c (
+   value('FR_Savoie'),
+   order(367),
+   active(true)
+);

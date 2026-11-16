@@ -1,0 +1,5 @@
+Picklistentry mk_45__c (
+   value('MK_Krivogaštani'),
+   order(1245),
+   active(true)
+);

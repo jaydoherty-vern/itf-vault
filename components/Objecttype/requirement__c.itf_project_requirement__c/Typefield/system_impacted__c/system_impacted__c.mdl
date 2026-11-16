@@ -1,0 +1,4 @@
+Typefield system_impacted__c (
+   source('custom'),
+   required(false)
+);

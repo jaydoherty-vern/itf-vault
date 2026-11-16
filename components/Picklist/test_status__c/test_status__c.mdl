@@ -1,0 +1,9 @@
+RECREATE Picklist test_status__c (
+   label('Test Status'),
+   active(true),
+   Picklistentry(@Picklistentry/in_progress__c.mdl),
+   Picklistentry(@Picklistentry/completed__c.mdl),
+   Picklistentry(@Picklistentry/differed__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

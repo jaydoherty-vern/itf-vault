@@ -1,0 +1,5 @@
+Picklistentry pt_30__c (
+   value('PT_Região Autónoma da Madeira'),
+   order(1402),
+   active(true)
+);

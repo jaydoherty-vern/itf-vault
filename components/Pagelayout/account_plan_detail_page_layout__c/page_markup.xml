@@ -1,0 +1,63 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.account_plan__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="progress__v" readOnly="true" />
+            <vault:field reference="account__v" />
+            <vault:field reference="active__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="health__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="SWOTs" name="swots__c">
+        <vault:relatedObject relationship="swots__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="strengths__v" width="200px" />
+            <vault:field reference="weaknesses__v" width="200px" />
+            <vault:field reference="opportunities__v" width="200px" />
+            <vault:field reference="threats__v" width="200px" />
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Objectives" name="account_tactics__c">
+        <vault:relatedObject relationship="account_tactic__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account_tactic_status__v" width="200px" />
+            <vault:field reference="progress__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Action Items" name="action_items__c">
+        <vault:relatedObject relationship="action_item__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account_tactic__v" width="200px" />
+            <vault:field reference="action_item_status__v" width="200px" />
+            <vault:field reference="due_date__v" width="200px" />
+            <vault:field reference="assignee__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Key Stakeholders" name="key_stakeholders_section__c" reference="key_stakeholders_section__v" />
+    <vault:section title="Account Team Members" name="account_team_members__c">
+        <vault:relatedObject relationship="account_team_members__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="team_member__v" width="200px" />
+            <vault:field reference="role__v" width="200px" />
+            <vault:field reference="access__v" width="200px" />
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

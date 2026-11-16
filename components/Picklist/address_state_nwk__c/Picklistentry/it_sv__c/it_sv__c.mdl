@@ -1,0 +1,5 @@
+Picklistentry it_sv__c (
+   value('IT_Savona'),
+   order(920),
+   active(true)
+);

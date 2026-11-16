@@ -1,0 +1,5 @@
+Picklistentry is_fjd__c (
+   value('IS_Fjarðabyggð'),
+   order(767),
+   active(true)
+);

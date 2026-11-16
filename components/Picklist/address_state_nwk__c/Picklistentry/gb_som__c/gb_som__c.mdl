@@ -1,0 +1,5 @@
+Picklistentry gb_som__c (
+   value('GB-SOM'),
+   order(607),
+   active(false)
+);

@@ -1,0 +1,9 @@
+RECREATE Reporttype sent_email_with_owner__c (
+   label('Sent Email with Owner'),
+   active(true),
+   description('Sent Email with Owner'),
+   primary_object('sent_email__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

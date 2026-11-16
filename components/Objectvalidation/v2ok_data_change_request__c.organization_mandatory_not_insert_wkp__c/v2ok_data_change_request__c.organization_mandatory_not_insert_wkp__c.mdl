@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.organization_mandatory_not_insert_wkp__c (
+   label('Organization_Mandatory_Not_Insert_WKP'),
+   active(true),
+   expression('Not(And(Text(change_type__c)!="Create",IsBlank(Id(organisation_account__c)),object_type__vr.name__v="Workplaces"))'),
+   description('The Organization is mandatory for Workplace Update and Delete.'),
+   error_message('Mandatory for "Update/Delete" data change request type.'),
+   error_location('organisation_account__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry jm_02__c (
+   value('Saint Andrew (JM)'),
+   order(295),
+   active(true)
+);

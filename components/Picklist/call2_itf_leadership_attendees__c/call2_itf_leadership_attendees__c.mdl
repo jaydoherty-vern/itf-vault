@@ -1,0 +1,13 @@
+RECREATE Picklist call2_itf_leadership_attendees__c (
+   label('Leadership Attendees'),
+   active(true),
+   Picklistentry(@Picklistentry/matt_trudeau__c.mdl),
+   Picklistentry(@Picklistentry/david_ferraro__c.mdl),
+   Picklistentry(@Picklistentry/julie_compton__c.mdl),
+   Picklistentry(@Picklistentry/bonnie_kiesling__c.mdl),
+   Picklistentry(@Picklistentry/caroline_allen__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   Picklistentry(@Picklistentry/tony_chambers__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

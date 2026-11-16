@@ -1,0 +1,5 @@
+Picklistentry ba_02__c (
+   value('BA_Posavski kanton'),
+   order(70),
+   active(true)
+);

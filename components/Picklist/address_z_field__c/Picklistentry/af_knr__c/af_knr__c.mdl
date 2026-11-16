@@ -1,0 +1,5 @@
+Picklistentry af_knr__c (
+   value('AF-KNR'),
+   order(31),
+   active(true)
+);

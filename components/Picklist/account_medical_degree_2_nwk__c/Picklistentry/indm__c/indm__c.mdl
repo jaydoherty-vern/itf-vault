@@ -1,0 +1,5 @@
+Picklistentry indm__c (
+   value('Industrial Medicine Diploma'),
+   order(180),
+   active(true)
+);

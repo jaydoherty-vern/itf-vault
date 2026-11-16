@@ -1,0 +1,5 @@
+Picklistentry diagnostic_radiology_ct_mri_x_ray__c (
+   value('Diagnostic Radiology (CT, MRI, x-ray)'),
+   order(107),
+   active(true)
+);

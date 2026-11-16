@@ -1,0 +1,5 @@
+Picklistentry om_bu__c (
+   value('OM_Al Buraymī'),
+   order(67),
+   active(true)
+);

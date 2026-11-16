@@ -1,0 +1,5 @@
+Picklistentry lv_jel__c (
+   value('LV_Jelgava'),
+   order(1091),
+   active(true)
+);

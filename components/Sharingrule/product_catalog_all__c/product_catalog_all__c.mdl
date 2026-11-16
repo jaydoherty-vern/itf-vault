@@ -1,0 +1,8 @@
+RECREATE Sharingrule product_catalog_all__c (
+   label('Product Catalog - ALL'),
+   active(true),
+   description(),
+   object('product__v'),
+   criteria([itf_share_team1__c CONTAINS ('all__c')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

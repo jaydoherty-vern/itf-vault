@@ -1,0 +1,5 @@
+Picklistentry mpharm__c (
+   value('Master of Pharmacy'),
+   order(174),
+   active(true)
+);

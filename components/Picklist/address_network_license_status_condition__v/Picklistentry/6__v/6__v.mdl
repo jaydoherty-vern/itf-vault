@@ -1,0 +1,5 @@
+Picklistentry 6__v (
+   value('Military'),
+   order(6),
+   active(true)
+);

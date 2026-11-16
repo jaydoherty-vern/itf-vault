@@ -1,0 +1,5 @@
+Picklistentry gb_kec__c (
+   value('GB-KEC'),
+   order(522),
+   active(false)
+);

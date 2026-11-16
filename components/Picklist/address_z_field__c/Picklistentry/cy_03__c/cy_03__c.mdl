@@ -1,0 +1,5 @@
+Picklistentry cy_03__c (
+   value('CY-03'),
+   order(846),
+   active(true)
+);

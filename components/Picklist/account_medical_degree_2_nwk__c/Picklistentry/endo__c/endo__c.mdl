@@ -1,0 +1,5 @@
+Picklistentry endo__c (
+   value('Endocrinology Diploma'),
+   order(157),
+   active(true)
+);

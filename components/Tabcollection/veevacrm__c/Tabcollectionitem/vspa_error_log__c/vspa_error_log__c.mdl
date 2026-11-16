@@ -1,0 +1,8 @@
+Tabcollectionitem vspa_error_log__c (
+   label(),
+   active(true),
+   tabs(),
+   order(8),
+   tab('Tab.vspa_error_log__c'),
+   type('Tab')
+);

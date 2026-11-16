@@ -1,0 +1,5 @@
+Picklistentry cgc__c (
+   value('Genetics Counseling'),
+   order(165),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry nutritionist_dietician__c (
+   value('NUTRITIONIST/DIETICIAN'),
+   order(59),
+   active(true)
+);

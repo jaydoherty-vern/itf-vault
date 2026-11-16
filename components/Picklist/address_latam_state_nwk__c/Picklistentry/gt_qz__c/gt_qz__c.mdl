@@ -1,0 +1,5 @@
+Picklistentry gt_qz__c (
+   value('Quetzaltenango'),
+   order(264),
+   active(true)
+);

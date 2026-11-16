@@ -1,0 +1,5 @@
+Picklistentry ght__c (
+   value('French National Grouping Trust'),
+   order(87),
+   active(true)
+);

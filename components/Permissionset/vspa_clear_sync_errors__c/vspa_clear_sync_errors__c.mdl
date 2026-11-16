@@ -1,0 +1,12 @@
+RECREATE Permissionset vspa_clear_sync_errors__c (
+   label('VSPA_Clear_Sync_Errors'),
+   active(true),
+   description('This is a Permission Set to be used as a tool. 
+Follow the instructions in this link and use the PS to substitute Step 2 ("Grant the user Edit FLS ..."):
+
+https://support.veeva.com/hc/en-us/articles/360034058793-How-to-Remove-Sync-Errors-from-CRM-on-iPad-'),
+   object.user__sys.clear_client_sync_errors__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

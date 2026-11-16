@@ -1,0 +1,12 @@
+RECREATE Picklist requesting_business_unit__c (
+   label('Requesting Business Units'),
+   active(true),
+   Picklistentry(@Picklistentry/oncology__c.mdl),
+   Picklistentry(@Picklistentry/primary_care__c.mdl),
+   Picklistentry(@Picklistentry/specialty__c.mdl),
+   Picklistentry(@Picklistentry/managed_markets__c.mdl),
+   Picklistentry(@Picklistentry/sample_compliance__c.mdl),
+   Picklistentry(@Picklistentry/technology__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

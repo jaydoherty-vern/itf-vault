@@ -1,0 +1,5 @@
+Picklistentry eg_kn__c (
+   value('EG_Qinā'),
+   order(17),
+   active(true)
+);

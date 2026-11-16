@@ -1,0 +1,5 @@
+Picklistentry me_14__c (
+   value('ME_Pljevlja'),
+   order(1198),
+   active(true)
+);

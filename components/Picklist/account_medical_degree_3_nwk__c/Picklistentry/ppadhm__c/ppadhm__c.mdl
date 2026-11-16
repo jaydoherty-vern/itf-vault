@@ -1,0 +1,5 @@
+Picklistentry ppadhm__c (
+   value('Prof. PD Dr. med.'),
+   order(251),
+   active(true)
+);

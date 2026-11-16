@@ -1,0 +1,5 @@
+Picklistentry si_052__c (
+   value('SI_Kranj'),
+   order(1604),
+   active(true)
+);

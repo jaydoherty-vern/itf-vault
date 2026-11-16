@@ -1,0 +1,5 @@
+Picklistentry sa_05__c (
+   value('SA_Al Qaşīm'),
+   order(84),
+   active(true)
+);

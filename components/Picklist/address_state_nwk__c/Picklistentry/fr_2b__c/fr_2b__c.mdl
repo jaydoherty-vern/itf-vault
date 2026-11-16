@@ -1,0 +1,5 @@
+Picklistentry fr_2b__c (
+   value('FR_Haute-Corse'),
+   order(315),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry is_2__c (
+   value('IS_Suðurnes'),
+   order(813),
+   active(true)
+);

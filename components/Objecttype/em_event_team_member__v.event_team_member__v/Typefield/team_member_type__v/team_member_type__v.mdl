@@ -1,0 +1,6 @@
+Typefield team_member_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_team_member_team_member_type__v.user__v',
+         'Picklist.em_event_team_member_team_member_type__v.write_in__v')
+);

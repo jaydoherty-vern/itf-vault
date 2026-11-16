@@ -1,0 +1,5 @@
+Picklistentry it_me__c (
+   value('IT_Messina'),
+   order(887),
+   active(true)
+);

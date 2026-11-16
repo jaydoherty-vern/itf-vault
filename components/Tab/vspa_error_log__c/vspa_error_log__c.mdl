@@ -1,0 +1,12 @@
+RECREATE Tab vspa_error_log__c (
+   active(true),
+   all_view_label('All Error Logs'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Error Logs'),
+   my_view_label('My Error Logs'),
+   object('vspa_error_log__c'),
+   order(2700),
+   parent(),
+   recent_view_label('Recent Error Logs')
+);

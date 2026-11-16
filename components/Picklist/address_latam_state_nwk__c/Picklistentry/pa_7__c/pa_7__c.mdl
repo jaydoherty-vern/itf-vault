@@ -1,0 +1,5 @@
+Picklistentry pa_7__c (
+   value('Los Santos'),
+   order(326),
+   active(true)
+);

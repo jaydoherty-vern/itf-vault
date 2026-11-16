@@ -1,0 +1,5 @@
+Picklistentry veeva_batch_onekey_address_inactivation__c (
+   value('VEEVA_BATCH_ONEKEY_ADDRESS_INACTIVATION'),
+   order(8),
+   active(true)
+);

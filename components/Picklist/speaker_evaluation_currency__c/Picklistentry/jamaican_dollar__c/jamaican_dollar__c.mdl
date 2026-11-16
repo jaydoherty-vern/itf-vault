@@ -1,0 +1,5 @@
+Picklistentry jamaican_dollar__c (
+   value('Jamaican Dollar'),
+   order(79),
+   active(true)
+);

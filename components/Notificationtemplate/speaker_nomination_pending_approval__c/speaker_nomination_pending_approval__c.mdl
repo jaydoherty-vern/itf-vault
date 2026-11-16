@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate speaker_nomination_pending_approval__c (
+   label('Speaker Nomination Pending Approval'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.em_speaker_nomination__v'),
+   subject('Speaker Nomination Pending Approval'),
+   notification('Speaker Nomination (${Object.name__v}) for ${Object.last_name__v},${Object.first_name__v} is pending your review.'),
+   email_body('Speaker Nomination (${Object.name__v}) for ${Object.last_name__v},${Object.first_name__v} is pending your review.'),
+   entity_type('object'),
+   notification_category('tasks__sys')
+);

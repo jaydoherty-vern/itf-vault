@@ -1,0 +1,5 @@
+Picklistentry guarani__c (
+   value('Guarani'),
+   order(119),
+   active(true)
+);

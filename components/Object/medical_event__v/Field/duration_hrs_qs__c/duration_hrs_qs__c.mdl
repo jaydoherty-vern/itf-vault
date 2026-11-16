@@ -1,0 +1,22 @@
+Field duration_hrs_qs__c (
+   label('Duration (hrs)'),
+   type('Number'),
+   active(true),
+   description('Duration of the Event'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(78),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

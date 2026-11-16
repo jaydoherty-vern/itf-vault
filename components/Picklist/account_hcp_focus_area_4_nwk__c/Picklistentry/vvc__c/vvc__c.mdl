@@ -1,0 +1,5 @@
+Picklistentry vvc__c (
+   value('Veterinary Veal Calves'),
+   order(470),
+   active(true)
+);

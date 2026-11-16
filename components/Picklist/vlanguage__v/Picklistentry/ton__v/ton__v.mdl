@@ -1,0 +1,5 @@
+Picklistentry ton__v (
+   value('Tongan'),
+   order(335),
+   active(false)
+);

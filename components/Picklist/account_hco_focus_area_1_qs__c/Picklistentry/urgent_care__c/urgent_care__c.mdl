@@ -1,0 +1,5 @@
+Picklistentry urgent_care__c (
+   value('Urgent Care'),
+   order(99),
+   active(true)
+);

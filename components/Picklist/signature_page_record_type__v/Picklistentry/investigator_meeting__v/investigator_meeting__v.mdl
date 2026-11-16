@@ -1,0 +1,5 @@
+Picklistentry investigator_meeting__v (
+   value('Investigator_Meeting'),
+   order(3),
+   active(true)
+);

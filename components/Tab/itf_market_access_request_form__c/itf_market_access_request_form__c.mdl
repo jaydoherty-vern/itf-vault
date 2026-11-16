@@ -1,0 +1,12 @@
+RECREATE Tab itf_market_access_request_form__c (
+   active(true),
+   all_view_label('All Market Access Request Forms'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Market Access Request Forms'),
+   my_view_label('My Market Access Request Forms'),
+   object('itf_market_access_request_form__c'),
+   order(6000),
+   parent(),
+   recent_view_label('Recent Market Access Request Forms')
+);

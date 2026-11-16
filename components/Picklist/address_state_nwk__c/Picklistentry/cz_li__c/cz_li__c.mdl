@@ -1,0 +1,5 @@
+Picklistentry cz_li__c (
+   value('CZ_Liberecký kraj'),
+   order(120),
+   active(true)
+);

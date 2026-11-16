@@ -1,0 +1,5 @@
+Picklistentry coro__c (
+   value('Coronary Artery Disease & Surgery'),
+   order(91),
+   active(true)
+);

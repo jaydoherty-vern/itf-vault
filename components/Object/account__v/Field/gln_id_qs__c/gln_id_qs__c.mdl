@@ -1,0 +1,19 @@
+Field gln_id_qs__c (
+   label('GLN ID'),
+   type('String'),
+   active(true),
+   description('Network field - GLN ID'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(230),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

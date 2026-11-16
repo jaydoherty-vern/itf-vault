@@ -1,0 +1,9 @@
+RECREATE Reporttype itf_market_access_request_form__c (
+   label('Market Access Request Form'),
+   active(true),
+   description('Market Access Request Form'),
+   primary_object('itf_market_access_request_form__c'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

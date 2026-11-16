@@ -1,0 +1,5 @@
+Picklistentry locumcon__c (
+   value('Locum Consultant'),
+   order(127),
+   active(true)
+);

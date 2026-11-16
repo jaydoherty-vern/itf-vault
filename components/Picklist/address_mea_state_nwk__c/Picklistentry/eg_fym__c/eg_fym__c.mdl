@@ -1,0 +1,5 @@
+Picklistentry eg_fym__c (
+   value('EG_Al Fayyūm'),
+   order(6),
+   active(true)
+);

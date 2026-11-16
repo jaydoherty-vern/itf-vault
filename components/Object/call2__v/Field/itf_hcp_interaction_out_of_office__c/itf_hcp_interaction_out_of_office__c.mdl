@@ -1,0 +1,18 @@
+Field itf_hcp_interaction_out_of_office__c (
+   label('HCP Interaction Out of Office'),
+   type('Boolean'),
+   active(true),
+   description('https://itftherapeutics.lightning.force.com/lightning/r/Requirement_vod__c/a1uVy00000T4ookIAB/view'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(248),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

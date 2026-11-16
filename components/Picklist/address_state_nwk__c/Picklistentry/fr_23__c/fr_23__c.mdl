@@ -1,0 +1,5 @@
+Picklistentry fr_23__c (
+   value('FR_Creuse'),
+   order(300),
+   active(true)
+);

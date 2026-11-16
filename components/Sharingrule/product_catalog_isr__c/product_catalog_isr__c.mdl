@@ -1,0 +1,8 @@
+RECREATE Sharingrule product_catalog_isr__c (
+   label('Product Catalog - ISR'),
+   active(true),
+   description(),
+   object('product__v'),
+   criteria([itf_share_team1__c CONTAINS ('isr__c')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

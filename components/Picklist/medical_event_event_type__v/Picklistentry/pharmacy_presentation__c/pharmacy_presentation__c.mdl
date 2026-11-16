@@ -1,0 +1,5 @@
+Picklistentry pharmacy_presentation__c (
+   value('Pharmacy presentation'),
+   order(6),
+   active(true)
+);

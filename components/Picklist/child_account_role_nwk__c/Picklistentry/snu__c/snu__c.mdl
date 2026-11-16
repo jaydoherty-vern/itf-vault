@@ -1,0 +1,5 @@
+Picklistentry snu__c (
+   value('Study Nurse'),
+   order(227),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cn_sax__c (
+   value('CN-SAX'),
+   order(755),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry nrn__c (
+   value('Neurology/Diagnostic Rad/Neuroradiology'),
+   order(301),
+   active(true)
+);

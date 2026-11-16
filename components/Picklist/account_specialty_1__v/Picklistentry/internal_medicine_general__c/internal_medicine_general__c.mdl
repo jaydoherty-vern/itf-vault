@@ -1,0 +1,5 @@
+Picklistentry internal_medicine_general__c (
+   value('INTERNAL MEDICINE - GENERAL'),
+   order(40),
+   active(true)
+);

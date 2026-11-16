@@ -1,0 +1,5 @@
+Picklistentry gb_lds__c (
+   value('GB-LDS'),
+   order(532),
+   active(false)
+);

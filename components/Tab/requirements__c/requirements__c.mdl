@@ -1,0 +1,15 @@
+RECREATE Tab requirements__c (
+   active(true),
+   all_view_label('All Requirements'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Requirements'),
+   modal_create_record(false),
+   my_view_label('My Requirements'),
+   object('requirement__c'),
+   order(8900),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Requirements')
+);

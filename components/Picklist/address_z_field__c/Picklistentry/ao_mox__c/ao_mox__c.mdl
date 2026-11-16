@@ -1,0 +1,5 @@
+Picklistentry ao_mox__c (
+   value('AO-MOX'),
+   order(128),
+   active(true)
+);

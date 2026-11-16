@@ -1,0 +1,8 @@
+Objectlayout medical_inquiry_fulfillment_response_ema__c (
+   label('medical_inquiry_fulfillment_response_email'),
+   active(true),
+   pagelayouts('Pagelayout.medical_inquiry_fulfillment_response_lay__c'),
+   object('Object.medical_inquiry_fulfillment_response__v'),
+   objecttype('Objecttype.medical_inquiry_fulfillment_response__v.email__v'),
+   record_creation_layout('Pagelayout.medical_inquiry_fulfillment_response_lay__c')
+);

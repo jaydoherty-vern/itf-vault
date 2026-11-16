@@ -1,0 +1,5 @@
+Picklistentry ec_m__c (
+   value('Manabí'),
+   order(240),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_076__c (
+   value('LV_Raunas novads (Rauna)'),
+   order(1128),
+   active(true)
+);

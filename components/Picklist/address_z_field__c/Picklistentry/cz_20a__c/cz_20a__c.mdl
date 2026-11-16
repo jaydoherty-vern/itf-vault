@@ -1,0 +1,5 @@
+Picklistentry cz_20a__c (
+   value('CZ-20A'),
+   order(876),
+   active(true)
+);

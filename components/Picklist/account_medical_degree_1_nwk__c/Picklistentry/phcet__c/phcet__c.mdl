@@ -1,0 +1,5 @@
+Picklistentry phcet__c (
+   value('Diploma in Clinical Pharmacology'),
+   order(54),
+   active(true)
+);

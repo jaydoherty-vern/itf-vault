@@ -1,0 +1,5 @@
+Picklistentry denstaff__c (
+   value('Dental Staff'),
+   order(58),
+   active(true)
+);

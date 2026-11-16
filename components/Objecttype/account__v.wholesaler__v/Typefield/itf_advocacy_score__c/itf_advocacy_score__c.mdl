@@ -1,0 +1,8 @@
+Typefield itf_advocacy_score__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_itf_advocacy_score__c.limited_advocate__c',
+         'Picklist.account_itf_advocacy_score__c.moderate_advocate__c',
+         'Picklist.account_itf_advocacy_score__c.non_believer__c',
+         'Picklist.account_itf_advocacy_score__c.strong_advocate__c')
+);

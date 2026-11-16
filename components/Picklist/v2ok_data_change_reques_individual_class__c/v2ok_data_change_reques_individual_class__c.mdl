@@ -1,0 +1,20 @@
+RECREATE Picklist v2ok_data_change_reques_individual_class__c (
+   label('Individual Class'),
+   active(true),
+   Picklistentry(@Picklistentry/tyt_wes_d__c.mdl),
+   Picklistentry(@Picklistentry/tyt_wes_a__c.mdl),
+   Picklistentry(@Picklistentry/tyt_wes_v__c.mdl),
+   Picklistentry(@Picklistentry/tyt_wes_r__c.mdl),
+   Picklistentry(@Picklistentry/tyt_wes_w__c.mdl),
+   Picklistentry(@Picklistentry/tyt_wes_p__c.mdl),
+   Picklistentry(@Picklistentry/tyt_wes_m__c.mdl),
+   Picklistentry(@Picklistentry/tyt_wnl_n__c.mdl),
+   Picklistentry(@Picklistentry/tyt_wch_a__c.mdl),
+   Picklistentry(@Picklistentry/tyt_wch_r__c.mdl),
+   Picklistentry(@Picklistentry/tyt_wch_v__c.mdl),
+   Picklistentry(@Picklistentry/tyt_wch_d__c.mdl),
+   Picklistentry(@Picklistentry/tyt_wch_m__c.mdl),
+   Picklistentry(@Picklistentry/tyt_wch_p__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

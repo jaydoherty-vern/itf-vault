@@ -1,0 +1,8 @@
+Objectworkflowstep ut_confirm_delivery__c (
+   label('UT: Confirm Delivery'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.decision_confirm_delivery__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

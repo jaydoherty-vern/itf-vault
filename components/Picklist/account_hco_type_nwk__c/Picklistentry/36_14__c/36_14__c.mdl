@@ -1,0 +1,5 @@
+Picklistentry 36_14__c (
+   value('Local Pharmaceutical Committee'),
+   order(84),
+   active(true)
+);

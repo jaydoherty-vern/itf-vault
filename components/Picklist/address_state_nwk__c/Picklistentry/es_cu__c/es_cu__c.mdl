@@ -1,0 +1,5 @@
+Picklistentry es_cu__c (
+   value('ES_Cuenca'),
+   order(201),
+   active(true)
+);

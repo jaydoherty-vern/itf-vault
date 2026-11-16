@@ -1,0 +1,9 @@
+Objectlifecyclestage prior_authorization__c (
+   label('Prior Authorization'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.pending_prior_authorization_outcome_stat__c',
+         'Objectlifecyclestate.pending_prior_authorization_submission__c',
+         'Objectlifecyclestate.prior_authorization_denied_state__c'),
+   order(2)
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_ork__c (
+   value('GB-ORK'),
+   order(574),
+   active(false)
+);

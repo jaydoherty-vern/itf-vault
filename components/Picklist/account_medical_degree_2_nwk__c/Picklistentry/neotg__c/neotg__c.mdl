@@ -1,0 +1,5 @@
+Picklistentry neotg__c (
+   value('Diploma in Neonatalogy'),
+   order(71),
+   active(true)
+);

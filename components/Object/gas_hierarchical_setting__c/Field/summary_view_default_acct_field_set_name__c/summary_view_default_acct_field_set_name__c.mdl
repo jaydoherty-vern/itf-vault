@@ -1,0 +1,20 @@
+Field summary_view_default_acct_field_set_name__c (
+   label('Summary View Default Acct Field Set Name'),
+   type('String'),
+   active(true),
+   description('Name of the Account field set to be used to display Account fields summary by default. If one exists for the specific Recordtype (follows @@RectypeName@@FieldSetName naming convention for the FieldSet name), then that field set will be used'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Name of the Account field set to be used to display Account fields summary by default. If one exists for the specific Recordtype (follows @@RectypeName@@FieldSetName naming convention for the FieldSet name), then that field set will be used'),
+   list_column(false),
+   order(43),
+   default_value('''VPROF_Default_Account_Summary'''),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

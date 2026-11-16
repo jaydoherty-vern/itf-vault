@@ -1,0 +1,5 @@
+Picklistentry dntp__c (
+   value('Dental Public Health'),
+   order(100),
+   active(true)
+);

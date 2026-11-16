@@ -1,0 +1,5 @@
+Picklistentry physiology_biophysics_biochemistry__c (
+   value('PHYSIOLOGY, BIOPHYSICS, BIOCHEMISTRY'),
+   order(66),
+   active(true)
+);

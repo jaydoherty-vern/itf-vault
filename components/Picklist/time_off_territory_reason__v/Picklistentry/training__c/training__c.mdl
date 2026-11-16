@@ -1,0 +1,5 @@
+Picklistentry training__c (
+   value('Training'),
+   order(7),
+   active(true)
+);

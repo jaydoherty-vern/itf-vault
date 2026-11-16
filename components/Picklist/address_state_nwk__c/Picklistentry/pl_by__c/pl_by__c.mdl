@@ -1,0 +1,5 @@
+Picklistentry pl_by__c (
+   value('PL_Bydgoszcz'),
+   order(1332),
+   active(true)
+);

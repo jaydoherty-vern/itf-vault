@@ -1,0 +1,5 @@
+Picklistentry gb_nyk__c (
+   value('GB-NYK'),
+   order(570),
+   active(false)
+);

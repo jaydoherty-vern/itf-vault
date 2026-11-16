@@ -1,0 +1,5 @@
+Picklistentry dermah__c (
+   value('Dermatohistology'),
+   order(104),
+   active(true)
+);

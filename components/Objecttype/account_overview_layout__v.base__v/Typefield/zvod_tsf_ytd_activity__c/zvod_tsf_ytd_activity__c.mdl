@@ -1,0 +1,4 @@
+Typefield zvod_tsf_ytd_activity__c (
+   source('standard'),
+   required(false)
+);

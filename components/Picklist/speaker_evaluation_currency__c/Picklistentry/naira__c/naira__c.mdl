@@ -1,0 +1,5 @@
+Picklistentry naira__c (
+   value('Naira'),
+   order(114),
+   active(true)
+);

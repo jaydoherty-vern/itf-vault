@@ -1,0 +1,5 @@
+Picklistentry ru_ba__c (
+   value('RU_Bashkortostan, Respublika'),
+   order(1489),
+   active(true)
+);

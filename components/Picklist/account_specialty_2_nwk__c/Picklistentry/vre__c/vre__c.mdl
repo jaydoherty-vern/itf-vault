@@ -1,0 +1,5 @@
+Picklistentry vre__c (
+   value('Veterinary Reproduction (Equine)'),
+   order(594),
+   active(true)
+);

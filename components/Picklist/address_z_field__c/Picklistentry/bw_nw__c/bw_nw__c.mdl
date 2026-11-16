@@ -1,0 +1,5 @@
+Picklistentry bw_nw__c (
+   value('BW-NW'),
+   order(580),
+   active(true)
+);

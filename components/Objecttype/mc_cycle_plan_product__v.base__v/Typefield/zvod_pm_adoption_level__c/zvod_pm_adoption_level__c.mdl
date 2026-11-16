@@ -1,0 +1,4 @@
+Typefield zvod_pm_adoption_level__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry oxyam__c (
+   value('Oxyology (Ambulance Medicine) Diploma'),
+   order(195),
+   active(true)
+);

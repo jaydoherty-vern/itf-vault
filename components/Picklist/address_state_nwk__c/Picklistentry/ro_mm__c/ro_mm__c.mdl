@@ -1,0 +1,5 @@
+Picklistentry ro_mm__c (
+   value('RO_Maramureș'),
+   order(1435),
+   active(true)
+);

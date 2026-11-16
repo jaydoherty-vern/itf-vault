@@ -1,0 +1,5 @@
+Picklistentry es_ar__c (
+   value('ES-AR'),
+   order(236),
+   active(false)
+);

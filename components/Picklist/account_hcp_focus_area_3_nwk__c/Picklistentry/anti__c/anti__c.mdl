@@ -1,0 +1,5 @@
+Picklistentry anti__c (
+   value('Antidote'),
+   order(25),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry hn_yo__c (
+   value('Yoro'),
+   order(271),
+   active(true)
+);

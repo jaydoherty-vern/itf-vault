@@ -1,0 +1,5 @@
+Picklistentry ru_kl__c (
+   value('RU_Kalmykiya, Respublika'),
+   order(1503),
+   active(true)
+);

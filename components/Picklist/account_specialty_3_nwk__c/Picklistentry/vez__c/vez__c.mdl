@@ -1,0 +1,5 @@
+Picklistentry vez__c (
+   value('Veterinary Medicine, Research'),
+   order(571),
+   active(true)
+);

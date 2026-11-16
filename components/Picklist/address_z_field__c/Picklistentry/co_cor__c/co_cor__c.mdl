@@ -1,0 +1,5 @@
+Picklistentry co_cor__c (
+   value('CO-COR'),
+   order(777),
+   active(true)
+);

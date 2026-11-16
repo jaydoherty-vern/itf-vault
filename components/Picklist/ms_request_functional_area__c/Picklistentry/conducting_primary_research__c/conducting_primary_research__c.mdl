@@ -1,0 +1,5 @@
+Picklistentry conducting_primary_research__c (
+   value('Conducting Primary Research'),
+   order(13),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectlayout em_business_rule_em_cross_event_meal_opt__c (
+   label('em_business_rule_em_cross_event_meal_opt_in_attendance'),
+   active(true),
+   pagelayouts('Pagelayout.cross_event_meal_opt_in_attendance_limit__c'),
+   object('Object.em_business_rule__v'),
+   objecttype('Objecttype.em_business_rule__v.em_cross_event_meal_opt_in_attendance__v'),
+   record_creation_layout('Pagelayout.cross_event_meal_opt_in_attendance_limit__c')
+);

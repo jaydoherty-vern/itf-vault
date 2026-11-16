@@ -1,0 +1,5 @@
+Picklistentry trop__c (
+   value('Tropical/Exotic Medicine'),
+   order(443),
+   active(true)
+);

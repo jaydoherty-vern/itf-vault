@@ -1,0 +1,5 @@
+Picklistentry af_kab__c (
+   value('AF-KAB'),
+   order(26),
+   active(true)
+);

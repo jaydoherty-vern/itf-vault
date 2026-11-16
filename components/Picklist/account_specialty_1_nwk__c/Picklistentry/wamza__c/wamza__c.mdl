@@ -1,0 +1,5 @@
+Picklistentry wamza__c (
+   value('Wild Animal Medicine, Zoo Animals'),
+   order(602),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry dfsrh__c (
+   value('Diploma for the Faculty of Sexual and Reproductive Health Care (DFSRH)'),
+   order(32),
+   active(true)
+);

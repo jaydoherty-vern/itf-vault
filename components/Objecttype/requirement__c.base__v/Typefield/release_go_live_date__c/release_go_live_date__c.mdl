@@ -1,0 +1,4 @@
+Typefield release_go_live_date__c (
+   source('standard'),
+   required(false)
+);

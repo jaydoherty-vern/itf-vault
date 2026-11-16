@@ -1,0 +1,5 @@
+Picklistentry lt_43__c (
+   value('LT_Šiaulių miestas'),
+   order(1022),
+   active(true)
+);

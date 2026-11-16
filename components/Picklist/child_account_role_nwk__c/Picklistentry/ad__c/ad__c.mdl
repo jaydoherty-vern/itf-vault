@@ -1,0 +1,5 @@
+Picklistentry ad__c (
+   value('Assistant to Director'),
+   order(16),
+   active(true)
+);

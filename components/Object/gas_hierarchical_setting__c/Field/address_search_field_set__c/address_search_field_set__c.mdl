@@ -1,0 +1,21 @@
+Field address_search_field_set__c (
+   label('Address Search Field Set'),
+   type('String'),
+   active(true),
+   description('List of fields, delimited by commas, of Address fields to search on. Sample value:
+Name,City_vod__c,State_vod__c,Zip_vod__c,Phone_vod__c'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('''Name,City_vod__c,State_vod__c,Zip_vod__c,Phone_vod__c,RecordTypeId'''),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

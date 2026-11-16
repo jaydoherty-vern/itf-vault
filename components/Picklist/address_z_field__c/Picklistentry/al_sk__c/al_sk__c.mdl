@@ -1,0 +1,5 @@
+Picklistentry al_sk__c (
+   value('AL-SK'),
+   order(97),
+   active(true)
+);

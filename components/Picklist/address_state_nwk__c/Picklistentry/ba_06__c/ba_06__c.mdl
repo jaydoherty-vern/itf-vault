@@ -1,0 +1,5 @@
+Picklistentry ba_06__c (
+   value('BA_Srednjobosanski kanton'),
+   order(72),
+   active(true)
+);

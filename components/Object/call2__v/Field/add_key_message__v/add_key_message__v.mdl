@@ -1,0 +1,17 @@
+Field add_key_message__v (
+   label('Add Key Message'),
+   type('LongText'),
+   active(true),
+   description('Field used to assist in the creation of Call2 Key Message records for a Call2 record. Input format is a list delimited by ";;;" of the following five fields (the last two, though, are optional) that are separated by "@@" - <Key_Message_ID>@@<Product_ID>@@<Reaction>@@<Category>@@<Vehicle>. An example would be "Key Message Id 1@@Product ID 1@@Reaction 1;;;Key Message Id 2@@Product ID 1@@Reaction 2@@Category 2@@Vehicle 2". A trigger on Call2 Header will parse the delimited lists and create Call2 Key Message records for the Call2 record.  This field is intended to assist in the creation of the child Call2 Key Message records, but is not required for loading data.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

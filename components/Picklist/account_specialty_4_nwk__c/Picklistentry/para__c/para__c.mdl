@@ -1,0 +1,5 @@
+Picklistentry para__c (
+   value('Medical Parasitology'),
+   order(260),
+   active(true)
+);

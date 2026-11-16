@@ -1,0 +1,5 @@
+Picklistentry hr_18__c (
+   value('HR_Istarska županija'),
+   order(660),
+   active(true)
+);

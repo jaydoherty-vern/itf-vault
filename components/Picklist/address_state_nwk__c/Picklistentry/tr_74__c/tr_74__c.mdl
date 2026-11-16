@@ -1,0 +1,5 @@
+Picklistentry tr_74__c (
+   value('TR_Bartın'),
+   order(1679),
+   active(true)
+);

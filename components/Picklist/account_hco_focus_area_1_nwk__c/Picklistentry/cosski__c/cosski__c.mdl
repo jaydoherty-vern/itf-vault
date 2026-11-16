@@ -1,0 +1,5 @@
+Picklistentry cosski__c (
+   value('Cosmetic - Skin Care'),
+   order(61),
+   active(true)
+);

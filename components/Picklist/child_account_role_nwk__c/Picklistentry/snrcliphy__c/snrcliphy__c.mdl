@@ -1,0 +1,5 @@
+Picklistentry snrcliphy__c (
+   value('Senior / Lead Clinical Physiologist'),
+   order(211),
+   active(true)
+);

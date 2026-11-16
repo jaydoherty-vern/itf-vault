@@ -1,0 +1,5 @@
+Picklistentry is_tjo__c (
+   value('IS_Tjörneshreppur'),
+   order(824),
+   active(true)
+);

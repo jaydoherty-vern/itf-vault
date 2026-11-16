@@ -1,0 +1,5 @@
+Picklistentry ad_08__c (
+   value('AD_Escaldes-Engordany'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry it_cr__c (
+   value('IT_Cremona'),
+   order(859),
+   active(true)
+);

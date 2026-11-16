@@ -1,0 +1,5 @@
+Picklistentry br_rj__c (
+   value('Rio de Janeiro'),
+   order(9),
+   active(true)
+);

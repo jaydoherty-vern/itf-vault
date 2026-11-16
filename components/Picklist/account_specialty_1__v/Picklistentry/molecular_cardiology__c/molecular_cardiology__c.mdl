@@ -1,0 +1,5 @@
+Picklistentry molecular_cardiology__c (
+   value('MOLECULAR CARDIOLOGY'),
+   order(132),
+   active(true)
+);

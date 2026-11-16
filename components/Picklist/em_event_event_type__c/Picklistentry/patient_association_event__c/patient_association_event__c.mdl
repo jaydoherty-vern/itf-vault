@@ -1,0 +1,5 @@
+Picklistentry patient_association_event__c (
+   value('Patient Association Event'),
+   order(21),
+   active(true)
+);

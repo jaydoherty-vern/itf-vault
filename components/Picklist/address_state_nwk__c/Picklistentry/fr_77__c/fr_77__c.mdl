@@ -1,0 +1,5 @@
+Picklistentry fr_77__c (
+   value('FR_Seine-et-Marne'),
+   order(368),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ci_vb__c (
+   value('CI-VB'),
+   order(705),
+   active(true)
+);

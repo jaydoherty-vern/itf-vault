@@ -1,0 +1,5 @@
+Picklistentry 32_5__c (
+   value('Medical Image_Radiotherapy'),
+   order(262),
+   active(true)
+);

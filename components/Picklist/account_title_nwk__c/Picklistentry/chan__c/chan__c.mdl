@@ -1,0 +1,5 @@
+Picklistentry chan__c (
+   value('Chancellor'),
+   order(15),
+   active(true)
+);

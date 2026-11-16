@@ -1,0 +1,5 @@
+Picklistentry tr_49__c (
+   value('TR_Muş'),
+   order(1726),
+   active(true)
+);

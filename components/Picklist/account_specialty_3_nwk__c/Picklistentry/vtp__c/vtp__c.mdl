@@ -1,0 +1,5 @@
+Picklistentry vtp__c (
+   value('Veterinary Pathology'),
+   order(583),
+   active(true)
+);

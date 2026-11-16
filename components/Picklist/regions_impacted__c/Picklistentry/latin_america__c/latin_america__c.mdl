@@ -1,0 +1,5 @@
+Picklistentry latin_america__c (
+   value('Latin America'),
+   order(2),
+   active(true)
+);

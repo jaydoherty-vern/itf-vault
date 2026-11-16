@@ -1,0 +1,5 @@
+Picklistentry 4_72__c (
+   value('Strategic Clinical Network'),
+   order(263),
+   active(true)
+);

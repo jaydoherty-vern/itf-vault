@@ -1,0 +1,5 @@
+Picklistentry bi_my__c (
+   value('BI-MY'),
+   order(463),
+   active(true)
+);

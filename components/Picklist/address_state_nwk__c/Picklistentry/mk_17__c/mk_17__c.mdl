@@ -1,0 +1,5 @@
+Picklistentry mk_17__c (
+   value('MK_Gazi Baba'),
+   order(1229),
+   active(true)
+);

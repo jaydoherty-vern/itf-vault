@@ -1,0 +1,5 @@
+Picklistentry female__c (
+   value('Female'),
+   order(1),
+   active(false)
+);

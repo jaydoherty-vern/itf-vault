@@ -1,0 +1,18 @@
+Field itf_up_and_comer__c (
+   label('Up And Comer'),
+   type('Boolean'),
+   active(true),
+   description('https://itftherapeutics.lightning.force.com/lightning/r/Requirement_vod__c/a1uVy00000LhRDlIAN/view'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(281),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

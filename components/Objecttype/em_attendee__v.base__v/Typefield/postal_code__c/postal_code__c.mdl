@@ -1,0 +1,4 @@
+Typefield postal_code__c (
+   source('standard'),
+   required(false)
+);

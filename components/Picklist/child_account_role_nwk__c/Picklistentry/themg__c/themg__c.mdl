@@ -1,0 +1,5 @@
+Picklistentry themg__c (
+   value('Theater / Scrub Manager'),
+   order(234),
+   active(true)
+);

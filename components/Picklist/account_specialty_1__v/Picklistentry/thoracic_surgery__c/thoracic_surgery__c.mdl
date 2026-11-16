@@ -1,0 +1,5 @@
+Picklistentry thoracic_surgery__c (
+   value('THORACIC SURGERY'),
+   order(6),
+   active(true)
+);

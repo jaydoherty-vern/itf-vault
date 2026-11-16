@@ -1,0 +1,5 @@
+Picklistentry neuch__c (
+   value('Diploma in Neurosurgery'),
+   order(65),
+   active(true)
+);

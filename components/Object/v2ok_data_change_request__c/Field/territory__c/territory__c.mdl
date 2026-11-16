@@ -1,0 +1,19 @@
+Field territory__c (
+   label('Territory'),
+   type('String'),
+   active(true),
+   description('To populate the territory of the user that made the call for the validation request process.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(51),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

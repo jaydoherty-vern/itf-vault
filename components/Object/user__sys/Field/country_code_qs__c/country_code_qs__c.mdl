@@ -1,0 +1,19 @@
+Field country_code_qs__c (
+   label('Country Code Hidden'),
+   type('String'),
+   active(true),
+   description('This fields allows to localise all the records created by users in a multi country ORG by setting the ISO Code (see the ISO standard 3166-2). Its value is derived from CCRMS_CountryCode__c field via a Process Builder process.'),
+   required(false),
+   unique(false),
+   max_length(2),
+   help_content(),
+   list_column(false),
+   order(177),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

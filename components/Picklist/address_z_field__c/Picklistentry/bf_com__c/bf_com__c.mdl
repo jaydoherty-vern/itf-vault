@@ -1,0 +1,5 @@
+Picklistentry bf_com__c (
+   value('BF-COM'),
+   order(379),
+   active(true)
+);

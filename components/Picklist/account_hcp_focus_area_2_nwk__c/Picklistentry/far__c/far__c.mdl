@@ -1,0 +1,5 @@
+Picklistentry far__c (
+   value('Farm Animals'),
+   order(145),
+   active(true)
+);

@@ -1,0 +1,9 @@
+RECREATE Picklist decision_log_status__c (
+   label('Status'),
+   active(true),
+   Picklistentry(@Picklistentry/pending_agreement__c.mdl),
+   Picklistentry(@Picklistentry/agreed__c.mdl),
+   Picklistentry(@Picklistentry/canceled__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

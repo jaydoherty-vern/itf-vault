@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_load_data_inactive_users__c (
+   label('VSPA_Load_Data_Inactive_Users'),
+   active(true),
+   description('Permission set to be assigned to System Administrators to be able to load data (such as mysetup) into inactive users.'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

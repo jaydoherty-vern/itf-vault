@@ -1,0 +1,5 @@
+Picklistentry vap__c (
+   value('Veterinary Apiculture Pathology'),
+   order(536),
+   active(true)
+);

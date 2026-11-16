@@ -1,0 +1,5 @@
+Picklistentry tt_tup__c (
+   value('Tunapuna-Piarco'),
+   order(384),
+   active(true)
+);

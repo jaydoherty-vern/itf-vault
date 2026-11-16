@@ -1,0 +1,5 @@
+Picklistentry sv_pa__c (
+   value('La Paz (SV)'),
+   order(359),
+   active(true)
+);

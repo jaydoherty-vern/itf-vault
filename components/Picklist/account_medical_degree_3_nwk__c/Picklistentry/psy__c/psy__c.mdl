@@ -1,0 +1,5 @@
+Picklistentry psy__c (
+   value('PSY'),
+   order(256),
+   active(true)
+);

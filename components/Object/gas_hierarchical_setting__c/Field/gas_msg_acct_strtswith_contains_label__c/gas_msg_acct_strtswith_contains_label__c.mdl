@@ -1,0 +1,20 @@
+Field gas_msg_acct_strtswith_contains_label__c (
+   label('GAS Msg Acct StrtsWith Contains Label'),
+   type('String'),
+   active(true),
+   description('This is the label - If value (GAS_Msg_Acct_StrtsWith_Contains_Value__c) is "Starts with", this will typically also be Starts with. If the value is "Contains", this will also typically be Contains.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content('This is the label - If value (GAS_Msg_Acct_StrtsWith_Contains_Value__c) is "Starts with", this will typically also be Starts with. If the value is "Contains", this will also typically be Contains.'),
+   list_column(false),
+   order(37),
+   default_value('''Starts With'''),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

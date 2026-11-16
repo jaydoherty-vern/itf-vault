@@ -1,0 +1,5 @@
+Picklistentry vitreoretinal_retinal_disease__c (
+   value('Vitreoretinal/Retinal Disease'),
+   order(87),
+   active(true)
+);

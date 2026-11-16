@@ -1,0 +1,5 @@
+Picklistentry az_xiz__c (
+   value('AZ-XIZ'),
+   order(243),
+   active(true)
+);

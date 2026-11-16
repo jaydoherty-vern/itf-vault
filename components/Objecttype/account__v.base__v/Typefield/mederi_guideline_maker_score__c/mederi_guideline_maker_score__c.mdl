@@ -1,0 +1,4 @@
+Typefield mederi_guideline_maker_score__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry cnm__c (
+   value('CNM'),
+   order(15),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry qa_kh__c (
+   value('QA_Al Khawr wa adh Dhakhīrah'),
+   order(70),
+   active(true)
+);

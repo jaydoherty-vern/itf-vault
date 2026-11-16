@@ -1,0 +1,5 @@
+Picklistentry mx_yuc__c (
+   value('Yucatán'),
+   order(34),
+   active(true)
+);

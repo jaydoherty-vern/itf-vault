@@ -1,0 +1,19 @@
+Field build_assigned_to__c (
+   label('Assigned to'),
+   type('String'),
+   active(true),
+   description('This field value contains the value to whom this CR is assigned.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

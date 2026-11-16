@@ -1,0 +1,5 @@
+Picklistentry is_rgy__c (
+   value('IS_Rangárþing ytra'),
+   order(796),
+   active(true)
+);

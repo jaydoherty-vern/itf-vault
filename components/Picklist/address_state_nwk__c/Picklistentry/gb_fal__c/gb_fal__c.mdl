@@ -1,0 +1,5 @@
+Picklistentry gb_fal__c (
+   value('GB-FAL'),
+   order(493),
+   active(false)
+);

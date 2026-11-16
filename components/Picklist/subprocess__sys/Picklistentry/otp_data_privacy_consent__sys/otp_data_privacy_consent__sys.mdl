@@ -1,0 +1,6 @@
+Picklistentry otp_data_privacy_consent__sys (
+   value('Data_Privacy_Consent'),
+   order(41),
+   active(true),
+   controlling_entries('olc_consent_type__sys')
+);

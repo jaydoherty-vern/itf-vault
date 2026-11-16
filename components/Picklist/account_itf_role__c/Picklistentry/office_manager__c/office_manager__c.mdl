@@ -1,0 +1,5 @@
+Picklistentry office_manager__c (
+   value('Office Manager'),
+   order(4),
+   active(true)
+);

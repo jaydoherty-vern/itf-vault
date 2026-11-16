@@ -1,0 +1,5 @@
+Picklistentry is_sog__c (
+   value('IS_Skeiða- og Gnúpverjahreppur'),
+   order(805),
+   active(true)
+);

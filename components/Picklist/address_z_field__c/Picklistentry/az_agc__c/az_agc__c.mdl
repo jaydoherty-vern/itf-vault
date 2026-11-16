@@ -1,0 +1,5 @@
+Picklistentry az_agc__c (
+   value('AZ-AGC'),
+   order(175),
+   active(true)
+);

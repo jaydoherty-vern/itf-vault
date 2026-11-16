@@ -1,0 +1,5 @@
+Picklistentry msl__c (
+   value('MSL'),
+   order(4),
+   active(true)
+);

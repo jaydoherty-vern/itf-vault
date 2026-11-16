@@ -1,0 +1,5 @@
+Picklistentry osteopathic_manipulative_medicine__c (
+   value('OSTEOPATHIC MANIPULATIVE MEDICINE'),
+   order(360),
+   active(true)
+);

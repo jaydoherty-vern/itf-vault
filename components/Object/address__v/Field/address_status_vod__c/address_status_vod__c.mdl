@@ -1,0 +1,19 @@
+Field address_status_vod__c (
+   label('z_Status'),
+   type('Picklist'),
+   active(true),
+   description('CCQS Field to hold the address status (active or inactive)'),
+   required(false),
+   unique(false),
+   help_content('Field to hold the address status (active or inactive)'),
+   list_column(false),
+   order(110),
+   multi_value(false),
+   picklist('Picklist.address_address_status_vod__c'),
+   default_value('{active__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

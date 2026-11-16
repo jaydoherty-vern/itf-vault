@@ -1,0 +1,59 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.smb_risk_events__c">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="risk_id__c" readOnly="true" />
+            <vault:field reference="name__v" />
+            <vault:spacer />
+            <vault:field reference="date_identified__c" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="identified_by__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Risk Analysis" name="risk_analysis__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="root_cause__c" />
+            <vault:field reference="existing_control__c" />
+            <vault:field reference="ultimate_impact__c" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Initial Rating" name="initial_rating__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="likelihood__c" />
+            <vault:field reference="impact__c" />
+            <vault:field reference="initial_risk_rating__c" />
+            <vault:field reference="rationale__c" />
+            <vault:field reference="risk_response__c" />
+            <vault:field reference="risk_strategy__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Revised Rating" name="revised_rating__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="likelihood_2__c" />
+            <vault:field reference="impact_2__c" />
+            <vault:field reference="revised_risk_rating__c" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Risk Outcome" name="risk_outcome__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="risk_realised__c" />
+            <vault:field reference="outcome__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="risk_event__c" name="issues__c">
+        <vault:relatedObject relationship="issues__cr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

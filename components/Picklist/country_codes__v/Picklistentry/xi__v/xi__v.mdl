@@ -1,0 +1,5 @@
+Picklistentry xi__v (
+   value('XI'),
+   order(250),
+   active(true)
+);

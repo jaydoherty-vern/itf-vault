@@ -1,0 +1,5 @@
+Picklistentry closed_architecturally_not_recommended__c (
+   value('Closed: Architecturally Not Recommended'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry product_theater_symposium__c (
+   value('Product Theater / Symposium'),
+   order(7),
+   active(true)
+);

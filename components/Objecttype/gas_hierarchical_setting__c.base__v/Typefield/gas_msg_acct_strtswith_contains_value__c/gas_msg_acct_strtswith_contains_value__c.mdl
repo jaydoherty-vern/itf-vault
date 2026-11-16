@@ -1,0 +1,4 @@
+Typefield gas_msg_acct_strtswith_contains_value__c (
+   source('standard'),
+   required(false)
+);

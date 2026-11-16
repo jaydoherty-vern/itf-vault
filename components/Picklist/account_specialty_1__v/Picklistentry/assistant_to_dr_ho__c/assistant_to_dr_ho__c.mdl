@@ -1,0 +1,5 @@
+Picklistentry assistant_to_dr_ho__c (
+   value('Assistant to Dr. Ho'),
+   order(113),
+   active(true)
+);

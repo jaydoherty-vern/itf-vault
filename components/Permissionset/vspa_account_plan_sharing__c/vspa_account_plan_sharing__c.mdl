@@ -1,0 +1,22 @@
+RECREATE Permissionset vspa_account_plan_sharing__c (
+   label('VSPA_Account_Plan_Sharing'),
+   active(true),
+   description('Enables Account Plan Sharing functionality - automatic sharing of Account Plans and related data to Account Team Members.'),
+   object.account_tactic__v.share_with__v.field_actions('edit',
+      'read'),
+   object.account_team_member__v.access__v.field_actions('edit',
+      'read'),
+   object.account_team_member__v.account_team_member__v.object_actions('read'),
+   object.account_team_member__v.created_by__v.field_actions('read'),
+   object.account_team_member__v.created_date__v.field_actions('read'),
+   object.account_team_member__v.modified_by__v.field_actions('read'),
+   object.account_team_member__v.modified_date__v.field_actions('read'),
+   object.account_team_member__v.object_type__v.field_actions('edit'),
+   object.account_team_member__v.ownerid__v.field_actions('read'),
+   object.account_team_member__v.role__v.field_actions('edit',
+      'read'),
+   object.plan_tactic__v.share_with__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

@@ -1,0 +1,5 @@
+Picklistentry mc_mg__c (
+   value('MC_Moneghetti'),
+   order(1177),
+   active(true)
+);

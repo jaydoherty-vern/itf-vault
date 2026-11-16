@@ -1,0 +1,5 @@
+Picklistentry laser__c (
+   value('Laser Therapy'),
+   order(231),
+   active(true)
+);

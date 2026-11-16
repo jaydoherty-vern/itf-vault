@@ -1,0 +1,5 @@
+Picklistentry pre_work_completed__c (
+   value('Pre-work completed'),
+   order(2),
+   active(true)
+);

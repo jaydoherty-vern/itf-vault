@@ -1,0 +1,7 @@
+RECREATE Picklist product_tactic_product__c (
+   label('Product'),
+   active(true),
+   Picklistentry(@Picklistentry/allegra__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

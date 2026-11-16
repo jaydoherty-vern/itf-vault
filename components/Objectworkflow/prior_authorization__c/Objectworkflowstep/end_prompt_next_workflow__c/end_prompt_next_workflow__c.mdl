@@ -1,0 +1,8 @@
+Objectworkflowstep end_prompt_next_workflow__c (
+   label('End: Prompt Next Workflow'),
+   type('end'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

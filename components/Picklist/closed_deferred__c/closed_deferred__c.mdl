@@ -1,0 +1,15 @@
+RECREATE Picklist closed_deferred__c (
+   label('Reason Closed/Deferred'),
+   active(true),
+   Picklistentry(@Picklistentry/deferred_waiting_architecture__c.mdl),
+   Picklistentry(@Picklistentry/deferred_product_enhancement__c.mdl),
+   Picklistentry(@Picklistentry/deferred_waiting_approval__c.mdl),
+   Picklistentry(@Picklistentry/closed_architecturally_not_recommended__c.mdl),
+   Picklistentry(@Picklistentry/closed_business_process__c.mdl),
+   Picklistentry(@Picklistentry/closed_canceled_by_business__c.mdl),
+   Picklistentry(@Picklistentry/closed_duplicate__c.mdl),
+   Picklistentry(@Picklistentry/closed_technically_not_feasible__c.mdl),
+   Picklistentry(@Picklistentry/closed_existing_functionality__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

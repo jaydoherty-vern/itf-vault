@@ -1,0 +1,5 @@
+Picklistentry tr_04__c (
+   value('TR_Ağrı'),
+   order(1670),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry congress_dinner__c (
+   value('Congress Dinner'),
+   order(2),
+   active(true)
+);

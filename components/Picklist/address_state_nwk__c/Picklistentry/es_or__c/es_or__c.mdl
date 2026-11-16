@@ -1,0 +1,5 @@
+Picklistentry es_or__c (
+   value('ES_Ourense'),
+   order(219),
+   active(true)
+);

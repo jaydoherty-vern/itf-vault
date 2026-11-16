@@ -1,0 +1,5 @@
+Picklistentry it_av__c (
+   value('IT_Avellino'),
+   order(838),
+   active(true)
+);

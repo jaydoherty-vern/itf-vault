@@ -1,0 +1,5 @@
+Picklistentry cssa__c (
+   value('Candidate of Science in State Administration'),
+   order(16),
+   active(true)
+);

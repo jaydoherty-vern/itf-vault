@@ -1,0 +1,5 @@
+Picklistentry cf__c (
+   value('Cystic Fibrosis'),
+   order(98),
+   active(true)
+);

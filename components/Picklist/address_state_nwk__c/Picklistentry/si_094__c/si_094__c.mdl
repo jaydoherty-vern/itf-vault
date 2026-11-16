@@ -1,0 +1,5 @@
+Picklistentry si_094__c (
+   value('SI_Postojna'),
+   order(1624),
+   active(true)
+);

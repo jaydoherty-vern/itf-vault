@@ -1,0 +1,5 @@
+Picklistentry new_req__c (
+   value('New'),
+   order(0),
+   active(true)
+);

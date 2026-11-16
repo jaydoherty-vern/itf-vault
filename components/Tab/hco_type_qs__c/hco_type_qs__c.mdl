@@ -1,0 +1,12 @@
+RECREATE Tab hco_type_qs__c (
+   active(true),
+   all_view_label('All HCO Types'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('HCO Types'),
+   my_view_label('My HCO Types'),
+   object('hco_type_qs__c'),
+   order(1000),
+   parent(),
+   recent_view_label('Recent HCO Types')
+);

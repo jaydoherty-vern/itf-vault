@@ -1,0 +1,5 @@
+Picklistentry pass_this_ms__v (
+   value('Marketing Specialist'),
+   order(0),
+   active(true)
+);

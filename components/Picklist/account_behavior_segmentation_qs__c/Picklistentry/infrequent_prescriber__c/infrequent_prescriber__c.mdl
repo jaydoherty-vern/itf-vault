@@ -1,0 +1,5 @@
+Picklistentry infrequent_prescriber__c (
+   value('Infrequent Prescriber'),
+   order(2),
+   active(true)
+);

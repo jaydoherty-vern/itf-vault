@@ -1,0 +1,5 @@
+Picklistentry deme__c (
+   value('Dementia'),
+   order(100),
+   active(true)
+);

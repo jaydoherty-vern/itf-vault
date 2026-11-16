@@ -1,0 +1,18 @@
+RECREATE Permissionset vspa_track_email_activity_consent_admin__c (
+   label('VSPA_Track_Email_Activity_Consent_Admin'),
+   active(true),
+   description('Enables the 18R3 functionality of allowing HCPs to opt into receiving Approved Emails but not have any subsequent email activity associated with their account information. For Admin users.'),
+   object.consent_type__v.zvod_consent_activity_tracking__v.field_actions('edit',
+      'read'),
+   object.consent_type__v.zvod_consent_default_consent_text_file__v.field_actions('edit',
+      'read'),
+   object.multichannel_consent__v.activity_tracking__v.field_actions('edit',
+      'read'),
+   object.multichannel_consent__v.default_consent_text_file__v.field_actions('edit',
+      'read'),
+   object.sent_email__v.activity_tracking_mode__v.field_actions('read'),
+   object.sent_email__v.vexternal_id__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

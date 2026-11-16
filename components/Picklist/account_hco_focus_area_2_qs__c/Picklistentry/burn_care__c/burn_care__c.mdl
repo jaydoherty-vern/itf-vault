@@ -1,0 +1,5 @@
+Picklistentry burn_care__c (
+   value('Burn Care'),
+   order(12),
+   active(true)
+);

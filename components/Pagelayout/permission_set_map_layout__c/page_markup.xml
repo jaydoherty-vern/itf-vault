@@ -1,0 +1,22 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.ccrms_permission_set_map__c">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="ccrms_permissionset__c" />
+            <vault:field reference="ccrms_functionalprofile__c" />
+            <vault:field reference="ccrms_applies_to__c" />
+            <vault:field reference="ccrms_active__c" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

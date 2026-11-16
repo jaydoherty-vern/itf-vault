@@ -1,0 +1,5 @@
+Picklistentry bf_sor__c (
+   value('BF-SOR'),
+   order(409),
+   active(true)
+);

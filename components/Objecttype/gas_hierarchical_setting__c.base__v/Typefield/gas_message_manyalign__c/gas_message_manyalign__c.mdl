@@ -1,0 +1,4 @@
+Typefield gas_message_manyalign__c (
+   source('standard'),
+   required(false)
+);

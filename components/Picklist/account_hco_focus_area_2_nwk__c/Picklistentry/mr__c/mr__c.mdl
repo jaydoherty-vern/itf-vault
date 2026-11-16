@@ -1,0 +1,5 @@
+Picklistentry mr__c (
+   value('Medical Research'),
+   order(140),
+   active(true)
+);

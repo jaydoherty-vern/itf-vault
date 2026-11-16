@@ -1,0 +1,5 @@
+Picklistentry closed_canceled_by_business__c (
+   value('Closed: Canceled by Business'),
+   order(5),
+   active(true)
+);

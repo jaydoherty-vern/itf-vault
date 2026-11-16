@@ -1,0 +1,5 @@
+Picklistentry pdrp__c (
+   value('Prof. Dr. phil.'),
+   order(303),
+   active(true)
+);

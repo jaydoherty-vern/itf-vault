@@ -1,0 +1,5 @@
+Picklistentry pound_sterling__c (
+   value('Pound Sterling'),
+   order(66),
+   active(true)
+);

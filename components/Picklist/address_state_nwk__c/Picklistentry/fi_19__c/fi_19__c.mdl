@@ -1,0 +1,5 @@
+Picklistentry fi_19__c (
+   value('FI_Finland Proper'),
+   order(255),
+   active(true)
+);

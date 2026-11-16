@@ -1,0 +1,5 @@
+Picklistentry tr_54__c (
+   value('TR_Sakarya'),
+   order(1732),
+   active(true)
+);

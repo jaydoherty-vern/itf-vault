@@ -1,0 +1,5 @@
+Picklistentry pl_to__c (
+   value('PL_Toruń'),
+   order(1379),
+   active(true)
+);

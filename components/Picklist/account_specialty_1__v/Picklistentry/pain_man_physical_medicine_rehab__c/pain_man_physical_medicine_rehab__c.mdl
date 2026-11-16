@@ -1,0 +1,5 @@
+Picklistentry pain_man_physical_medicine_rehab__c (
+   value('PAIN MANAGEMENT, PHYSICAL MEDICINE AND REHABILITATION'),
+   order(362),
+   active(true)
+);

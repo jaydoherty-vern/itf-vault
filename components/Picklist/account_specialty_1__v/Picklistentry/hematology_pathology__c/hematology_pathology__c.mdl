@@ -1,0 +1,5 @@
+Picklistentry hematology_pathology__c (
+   value('Hematology (Pathology)'),
+   order(199),
+   active(true)
+);

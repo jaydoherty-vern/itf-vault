@@ -1,0 +1,5 @@
+Picklistentry rejected__c (
+   value('Rejected'),
+   order(4),
+   active(true)
+);

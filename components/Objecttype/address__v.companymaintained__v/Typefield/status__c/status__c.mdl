@@ -1,0 +1,7 @@
+Typefield status__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.address_status__c.invalid__c',
+         'Picklist.address_status__c.provisional__c',
+         'Picklist.address_status__c.valid__c')
+);

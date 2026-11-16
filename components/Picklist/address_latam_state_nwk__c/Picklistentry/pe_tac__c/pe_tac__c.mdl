@@ -1,0 +1,5 @@
+Picklistentry pe_tac__c (
+   value('Tacna'),
+   order(355),
+   active(true)
+);

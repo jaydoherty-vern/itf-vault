@@ -1,0 +1,5 @@
+Picklistentry do_03__c (
+   value('Baoruco'),
+   order(188),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry it_fg__c (
+   value('IT_Foggia'),
+   order(866),
+   active(true)
+);

@@ -1,0 +1,9 @@
+RECREATE Actiontrigger current_owner_team_requirement_beforeins__c (
+   label('Current Owner Team'),
+   active(true),
+   description(),
+   object('Object.requirement__c'),
+   event('BEFORE_INSERT'),
+   order(100),
+   Actionblock(@Actionblock/action_block1__c.mdl)
+);

@@ -1,0 +1,5 @@
+Picklistentry pataca__c (
+   value('Pataca'),
+   order(95),
+   active(true)
+);

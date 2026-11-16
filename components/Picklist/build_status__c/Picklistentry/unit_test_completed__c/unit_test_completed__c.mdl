@@ -1,0 +1,5 @@
+Picklistentry unit_test_completed__c (
+   value('Unit Test Completed'),
+   order(5),
+   active(true)
+);

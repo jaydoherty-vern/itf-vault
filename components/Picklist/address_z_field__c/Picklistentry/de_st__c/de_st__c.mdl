@@ -1,0 +1,5 @@
+Picklistentry de_st__c (
+   value('DE-ST'),
+   order(983),
+   active(true)
+);

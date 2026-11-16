@@ -1,0 +1,5 @@
+Picklistentry ro_br__c (
+   value('RO_Brăila'),
+   order(1416),
+   active(true)
+);

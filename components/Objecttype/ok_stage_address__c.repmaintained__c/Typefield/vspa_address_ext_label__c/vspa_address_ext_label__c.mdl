@@ -1,0 +1,4 @@
+Typefield vspa_address_ext_label__c (
+   source('custom'),
+   required(false)
+);

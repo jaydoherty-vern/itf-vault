@@ -1,0 +1,5 @@
+Picklistentry fr_26__c (
+   value('FR_Drôme'),
+   order(304),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry si_064__c (
+   value('SI_Logatec'),
+   order(1612),
+   active(true)
+);

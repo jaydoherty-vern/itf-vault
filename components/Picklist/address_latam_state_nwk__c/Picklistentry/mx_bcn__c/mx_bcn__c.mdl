@@ -1,0 +1,5 @@
+Picklistentry mx_bcn__c (
+   value('Baja California'),
+   order(39),
+   active(true)
+);

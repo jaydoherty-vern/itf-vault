@@ -1,0 +1,5 @@
+Picklistentry hu_st__c (
+   value('HU_Salgótarján'),
+   order(704),
+   active(true)
+);

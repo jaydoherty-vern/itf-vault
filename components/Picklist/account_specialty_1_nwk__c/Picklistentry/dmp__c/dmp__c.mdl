@@ -1,0 +1,5 @@
+Picklistentry dmp__c (
+   value('Dermatopathology'),
+   order(112),
+   active(true)
+);

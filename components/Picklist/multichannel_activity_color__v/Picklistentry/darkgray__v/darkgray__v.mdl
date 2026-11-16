@@ -1,0 +1,5 @@
+Picklistentry darkgray__v (
+   value('Dark Gray'),
+   order(14),
+   active(true)
+);

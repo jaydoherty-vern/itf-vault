@@ -1,0 +1,9 @@
+Objectworkflowstep start__c (
+   label('Start'),
+   type('start'),
+   next_steps('Objectworkflowstep.field_update_pending__c',
+         'Objectworkflowstep.add_manager_as_approver__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

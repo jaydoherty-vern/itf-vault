@@ -1,0 +1,5 @@
+Picklistentry carva__c (
+   value('Diploma in Cardiology and vascular diseases'),
+   order(49),
+   active(true)
+);

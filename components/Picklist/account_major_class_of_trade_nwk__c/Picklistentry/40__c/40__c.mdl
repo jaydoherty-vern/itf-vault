@@ -1,0 +1,5 @@
+Picklistentry 40__c (
+   value('Residential and Long-Term Care Facilities'),
+   order(20),
+   active(true)
+);

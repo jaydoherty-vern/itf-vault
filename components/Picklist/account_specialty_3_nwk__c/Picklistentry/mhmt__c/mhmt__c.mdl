@@ -1,0 +1,5 @@
+Picklistentry mhmt__c (
+   value('Meat Hygiene and Meat Technology'),
+   order(249),
+   active(true)
+);

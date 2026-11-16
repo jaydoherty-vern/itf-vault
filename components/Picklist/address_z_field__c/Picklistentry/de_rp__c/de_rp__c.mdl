@@ -1,0 +1,5 @@
+Picklistentry de_rp__c (
+   value('DE-RP'),
+   order(979),
+   active(true)
+);

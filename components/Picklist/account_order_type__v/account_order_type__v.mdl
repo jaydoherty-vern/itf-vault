@@ -1,0 +1,10 @@
+RECREATE Picklist account_order_type__v (
+   label('Order Type'),
+   active(true),
+   Picklistentry(@Picklistentry/direct__v.mdl),
+   Picklistentry(@Picklistentry/transfer__v.mdl),
+   Picklistentry(@Picklistentry/return__c.mdl),
+   Picklistentry(@Picklistentry/all_vod__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

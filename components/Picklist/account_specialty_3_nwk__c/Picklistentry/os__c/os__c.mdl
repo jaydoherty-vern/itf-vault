@@ -1,0 +1,5 @@
+Picklistentry os__c (
+   value('Other Specialty'),
+   order(350),
+   active(true)
+);

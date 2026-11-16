@@ -1,0 +1,5 @@
+Picklistentry mag__c (
+   value('Mag.'),
+   order(199),
+   active(true)
+);

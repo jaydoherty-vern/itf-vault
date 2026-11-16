@@ -1,0 +1,5 @@
+Picklistentry tr_80__c (
+   value('TR_Osmaniye'),
+   order(1730),
+   active(true)
+);

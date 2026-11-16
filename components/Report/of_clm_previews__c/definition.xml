@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="multichannel_activity__v.ownerid__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="multichannel_activity_line__v___multichannel_activity__v.clm_presentation__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="multichannel_activity_line__v___multichannel_activity__v.datetime__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="multichannel_activity__v.total_duration__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="multichannel_activity_line__v___multichannel_activity__v.product__v" rightValue="DUVYZAT" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="NE" leftValue="multichannel_activity_line__v___multichannel_activity__v.key_message__v" rightValue="xyz_home" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="multichannel_activity_line__v___multichannel_activity__v.clm_presentation__v" rightValue="iVA" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="multichannel_activity__v.training__v" rightValue="False" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order />
+</vrp:query>

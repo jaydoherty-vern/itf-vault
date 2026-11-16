@@ -1,0 +1,8 @@
+Objectlayout multichannel_activity_engage__c (
+   label('multichannel_activity_engage'),
+   active(true),
+   pagelayouts('Pagelayout.admin_user_layout__c'),
+   object('Object.multichannel_activity__v'),
+   objecttype('Objecttype.multichannel_activity__v.engage__v'),
+   record_creation_layout('Pagelayout.admin_user_layout__c')
+);

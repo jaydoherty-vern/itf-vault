@@ -1,0 +1,5 @@
+Picklistentry loti__c (
+   value('Loti'),
+   order(90),
+   active(true)
+);

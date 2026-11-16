@@ -1,0 +1,5 @@
+Picklistentry dodgm__c (
+   value('Dental And Oral Diseases (General Medicine) Diploma'),
+   order(31),
+   active(true)
+);

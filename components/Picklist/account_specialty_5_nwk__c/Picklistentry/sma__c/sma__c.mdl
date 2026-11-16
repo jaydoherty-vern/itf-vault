@@ -1,0 +1,5 @@
+Picklistentry sma__c (
+   value('Sleep Medicine (Anesthesiology)'),
+   order(470),
+   active(true)
+);

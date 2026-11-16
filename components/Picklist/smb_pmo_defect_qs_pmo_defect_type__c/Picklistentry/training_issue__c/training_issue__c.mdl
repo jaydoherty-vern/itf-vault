@@ -1,0 +1,5 @@
+Picklistentry training_issue__c (
+   value('Training Issue'),
+   order(4),
+   active(true)
+);

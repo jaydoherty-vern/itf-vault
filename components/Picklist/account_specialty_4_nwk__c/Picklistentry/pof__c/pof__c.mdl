@@ -1,0 +1,5 @@
+Picklistentry pof__c (
+   value('Foot & Ankle Orthopedic Medicine'),
+   order(150),
+   active(true)
+);

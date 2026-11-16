@@ -1,0 +1,5 @@
+Picklistentry 25__c (
+   value('Special Medicine and Military Medicine'),
+   order(481),
+   active(true)
+);

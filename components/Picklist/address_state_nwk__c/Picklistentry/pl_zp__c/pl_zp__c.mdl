@@ -1,0 +1,5 @@
+Picklistentry pl_zp__c (
+   value('PL_Zachodniopomorskie'),
+   order(1386),
+   active(true)
+);

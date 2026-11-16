@@ -1,0 +1,5 @@
+Picklistentry bt_ga__c (
+   value('BT-GA'),
+   order(572),
+   active(true)
+);

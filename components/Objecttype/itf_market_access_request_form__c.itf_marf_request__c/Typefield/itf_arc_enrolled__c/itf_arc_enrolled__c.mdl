@@ -1,0 +1,7 @@
+Typefield itf_arc_enrolled__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.itf_market_access_reque_itf_arc_enrolled__c.no__c',
+         'Picklist.itf_market_access_reque_itf_arc_enrolled__c.unkown__c',
+         'Picklist.itf_market_access_reque_itf_arc_enrolled__c.yes__c')
+);

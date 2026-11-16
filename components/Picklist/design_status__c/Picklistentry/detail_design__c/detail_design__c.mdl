@@ -1,0 +1,5 @@
+Picklistentry detail_design__c (
+   value('Detail Design'),
+   order(4),
+   active(true)
+);

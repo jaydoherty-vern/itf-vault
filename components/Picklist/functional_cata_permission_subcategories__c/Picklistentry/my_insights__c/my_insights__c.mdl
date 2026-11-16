@@ -1,0 +1,5 @@
+Picklistentry my_insights__c (
+   value('My insights'),
+   order(48),
+   active(true)
+);

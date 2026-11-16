@@ -1,0 +1,20 @@
+Field potential_qs__c (
+   label('Potential'),
+   type('Picklist'),
+   active(true),
+   description('Applicable to individuals only, not for Organizations'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(36),
+   multi_value(false),
+   picklist('Picklist.product_metrics_potential_qs__c'),
+   controlling_picklist('awareness__c'),
+   picklist_dependencies('{"high__c":["high__c","low__c","medium__c"],"low__c":["high__c","low__c","medium__c"],"developing__c":["high__c","low__c","medium__c"],"unaware__c":["high__c","low__c","medium__c"],"aware__c":["high__c","low__c","medium__c"],"medium__c":["high__c","low__c","medium__c"],"growing__c":["high__c","low__c","medium__c"],"advocate__c":["high__c","low__c","medium__c"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

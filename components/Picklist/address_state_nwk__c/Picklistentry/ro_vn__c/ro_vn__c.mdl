@@ -1,0 +1,5 @@
+Picklistentry ro_vn__c (
+   value('RO_Vrancea'),
+   order(1450),
+   active(true)
+);

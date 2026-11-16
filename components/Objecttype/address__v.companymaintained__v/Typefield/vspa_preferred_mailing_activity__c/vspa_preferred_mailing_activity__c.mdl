@@ -1,0 +1,4 @@
+Typefield vspa_preferred_mailing_activity__c (
+   source('custom'),
+   required(false)
+);

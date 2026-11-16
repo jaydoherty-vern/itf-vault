@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.opened__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.clicked__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.click_count__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.object_count__v" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group>
+    <vrp:groupItem index="0" name="sent_email__v.product__v" groupBySortOn="sent_email__v.product__v" groupBySortOrder="ASCENDING">
+      <vrp:function>
+        <vrp:selectItem type="FUNCTION" action="SUM" property="SUM">
+          <vrp:children>
+            <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.opened__v" />
+          </vrp:children>
+        </vrp:selectItem>
+        <vrp:selectItem type="FUNCTION" action="SUM" property="SUM">
+          <vrp:children>
+            <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.clicked__v" />
+          </vrp:children>
+        </vrp:selectItem>
+        <vrp:selectItem type="FUNCTION" action="SUM" property="SUM">
+          <vrp:children>
+            <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.click_count__v" />
+          </vrp:children>
+        </vrp:selectItem>
+        <vrp:selectItem type="FUNCTION" action="SUM" property="SUM">
+          <vrp:children>
+            <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.object_count__v" />
+          </vrp:children>
+        </vrp:selectItem>
+      </vrp:function>
+    </vrp:groupItem>
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="sent_email__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

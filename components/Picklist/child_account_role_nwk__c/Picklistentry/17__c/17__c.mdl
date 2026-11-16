@@ -1,0 +1,5 @@
+Picklistentry 17__c (
+   value('Delegated Director'),
+   order(54),
+   active(true)
+);

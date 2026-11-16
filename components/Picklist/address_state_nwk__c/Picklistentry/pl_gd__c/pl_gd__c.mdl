@@ -1,0 +1,5 @@
+Picklistentry pl_gd__c (
+   value('PL_Gdańsk'),
+   order(1338),
+   active(true)
+);

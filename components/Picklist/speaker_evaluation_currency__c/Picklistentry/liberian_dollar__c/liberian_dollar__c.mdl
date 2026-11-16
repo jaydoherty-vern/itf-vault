@@ -1,0 +1,5 @@
+Picklistentry liberian_dollar__c (
+   value('Liberian Dollar'),
+   order(92),
+   active(true)
+);

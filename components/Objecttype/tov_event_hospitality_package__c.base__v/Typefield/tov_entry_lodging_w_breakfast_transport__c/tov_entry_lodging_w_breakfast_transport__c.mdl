@@ -1,0 +1,4 @@
+Typefield tov_entry_lodging_w_breakfast_transport__c (
+   source('standard'),
+   required(false)
+);

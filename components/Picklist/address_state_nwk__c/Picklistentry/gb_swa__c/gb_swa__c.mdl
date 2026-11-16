@@ -1,0 +1,5 @@
+Picklistentry gb_swa__c (
+   value('GB-SWA'),
+   order(618),
+   active(false)
+);

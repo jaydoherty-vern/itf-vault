@@ -1,0 +1,5 @@
+Picklistentry congress_france_international__c (
+   value('Congress France / international'),
+   order(3),
+   active(true)
+);

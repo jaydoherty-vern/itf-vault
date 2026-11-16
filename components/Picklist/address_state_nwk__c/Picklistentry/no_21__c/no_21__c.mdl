@@ -1,0 +1,5 @@
+Picklistentry no_21__c (
+   value('NO_Svalbard'),
+   order(1315),
+   active(true)
+);

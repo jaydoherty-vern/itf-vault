@@ -1,0 +1,5 @@
+Picklistentry fr_70__c (
+   value('FR_Haute-Saône'),
+   order(319),
+   active(true)
+);

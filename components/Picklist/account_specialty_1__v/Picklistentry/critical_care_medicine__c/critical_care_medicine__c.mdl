@@ -1,0 +1,5 @@
+Picklistentry critical_care_medicine__c (
+   value('CRITICAL CARE MEDICINE'),
+   order(326),
+   active(true)
+);

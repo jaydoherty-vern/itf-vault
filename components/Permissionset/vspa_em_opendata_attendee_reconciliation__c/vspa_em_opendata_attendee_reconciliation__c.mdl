@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_em_opendata_attendee_reconciliation__c (
+   label('VSPA_EM_Opendata_Attendee_Reconciliation'),
+   active(true),
+   description('Enables Veeva Network and Opendata integration for Attendee Reconciliation'),
+   object.em_attendee__v.network_id__v.field_actions('edit',
+      'read'),
+   object.event_attendee__v.network_id__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

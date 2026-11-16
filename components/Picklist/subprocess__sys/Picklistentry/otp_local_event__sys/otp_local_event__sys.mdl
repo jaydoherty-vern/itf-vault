@@ -1,0 +1,6 @@
+Picklistentry otp_local_event__sys (
+   value('Local Event'),
+   order(96),
+   active(true),
+   controlling_entries('olc_event__sys')
+);

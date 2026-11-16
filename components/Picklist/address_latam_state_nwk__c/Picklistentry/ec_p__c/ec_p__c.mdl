@@ -1,0 +1,5 @@
+Picklistentry ec_p__c (
+   value('Pichincha'),
+   order(246),
+   active(true)
+);

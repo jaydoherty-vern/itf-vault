@@ -1,0 +1,5 @@
+Picklistentry eg_gz__c (
+   value('EG_Al Jīzah'),
+   order(10),
+   active(true)
+);

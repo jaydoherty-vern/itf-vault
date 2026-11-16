@@ -1,0 +1,5 @@
+Picklistentry treas__c (
+   value('Treasurer'),
+   order(238),
+   active(true)
+);

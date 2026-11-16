@@ -1,0 +1,5 @@
+Picklistentry current__c (
+   value('Current Veeva Functionality'),
+   order(0),
+   active(true)
+);

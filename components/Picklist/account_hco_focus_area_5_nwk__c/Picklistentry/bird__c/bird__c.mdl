@@ -1,0 +1,5 @@
+Picklistentry bird__c (
+   value('Birds'),
+   order(21),
+   active(true)
+);

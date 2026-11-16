@@ -1,0 +1,5 @@
+Picklistentry bs_bi__c (
+   value('Bimini'),
+   order(111),
+   active(true)
+);

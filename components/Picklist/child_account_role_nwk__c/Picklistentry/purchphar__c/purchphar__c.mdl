@@ -1,0 +1,5 @@
+Picklistentry purchphar__c (
+   value('Drug Purchasing Pharmacist'),
+   order(76),
+   active(true)
+);

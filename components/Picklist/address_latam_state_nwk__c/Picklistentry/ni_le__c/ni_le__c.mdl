@@ -1,0 +1,5 @@
+Picklistentry ni_le__c (
+   value('León (NI)'),
+   order(315),
+   active(true)
+);

@@ -1,0 +1,14 @@
+RECREATE Picklist account_convention_status_nwk__c (
+   label('Convention Status'),
+   active(true),
+   Picklistentry(@Picklistentry/s1__c.mdl),
+   Picklistentry(@Picklistentry/s2__c.mdl),
+   Picklistentry(@Picklistentry/s3__c.mdl),
+   Picklistentry(@Picklistentry/s4__c.mdl),
+   Picklistentry(@Picklistentry/s5__c.mdl),
+   Picklistentry(@Picklistentry/s6__c.mdl),
+   Picklistentry(@Picklistentry/test__c.mdl),
+   Picklistentry(@Picklistentry/u__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

@@ -1,0 +1,10 @@
+RECREATE Picklist product_metrics_adoption_level__c (
+   label('Adoption Level'),
+   active(true),
+   Picklistentry(@Picklistentry/none__c.mdl),
+   Picklistentry(@Picklistentry/low__c.mdl),
+   Picklistentry(@Picklistentry/medium__c.mdl),
+   Picklistentry(@Picklistentry/high__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

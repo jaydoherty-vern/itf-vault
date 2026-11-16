@@ -1,0 +1,5 @@
+Picklistentry g_oto__c (
+   value('Otolaryngology'),
+   order(10),
+   active(true)
+);

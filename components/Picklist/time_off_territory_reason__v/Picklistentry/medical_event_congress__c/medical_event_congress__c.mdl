@@ -1,0 +1,5 @@
+Picklistentry medical_event_congress__c (
+   value('Medical Event/Congress'),
+   order(5),
+   active(true)
+);

@@ -1,0 +1,44 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.multichannel_consent__v.content_type_vod__c">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="channel_value__v" />
+            <vault:field reference="opt_type__v" />
+            <vault:field reference="opt_expiration_date__v" />
+            <vault:field reference="signature_datetime__v" />
+            <vault:field reference="signature_id__v" />
+            <vault:field reference="optout_event_type__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="capture_datetime__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="last_device__v" />
+            <vault:field reference="content_type__v" />
+            <vault:field reference="consent_header__v" />
+            <vault:field reference="consent_type__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

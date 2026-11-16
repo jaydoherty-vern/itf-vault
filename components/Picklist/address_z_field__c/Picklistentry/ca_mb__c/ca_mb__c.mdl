@@ -1,0 +1,5 @@
+Picklistentry ca_mb__c (
+   value('CA-MB'),
+   order(599),
+   active(true)
+);

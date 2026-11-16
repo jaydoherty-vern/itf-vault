@@ -1,0 +1,5 @@
+Picklistentry mk_59__c (
+   value('MK_Petrovec'),
+   order(1260),
+   active(true)
+);

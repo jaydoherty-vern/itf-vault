@@ -1,0 +1,5 @@
+Picklistentry homepage__c (
+   value('Homepage'),
+   order(22),
+   active(true)
+);

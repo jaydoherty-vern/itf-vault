@@ -1,0 +1,5 @@
+Picklistentry mph__c (
+   value('Maxillofacial Pathology'),
+   order(246),
+   active(true)
+);

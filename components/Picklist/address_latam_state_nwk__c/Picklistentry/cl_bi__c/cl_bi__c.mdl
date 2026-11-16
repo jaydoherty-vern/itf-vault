@@ -1,0 +1,5 @@
+Picklistentry cl_bi__c (
+   value('Biobío'),
+   order(135),
+   active(true)
+);

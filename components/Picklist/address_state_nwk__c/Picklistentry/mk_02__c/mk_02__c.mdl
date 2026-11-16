@@ -1,0 +1,5 @@
+Picklistentry mk_02__c (
+   value('MK_Aračinovo'),
+   order(1207),
+   active(true)
+);

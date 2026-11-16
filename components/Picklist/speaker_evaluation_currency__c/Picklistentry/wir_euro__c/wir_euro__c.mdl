@@ -1,0 +1,5 @@
+Picklistentry wir_euro__c (
+   value('WIR Euro'),
+   order(144),
+   active(true)
+);

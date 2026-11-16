@@ -1,0 +1,5 @@
+Picklistentry de_ni__c (
+   value('DE-NI'),
+   order(977),
+   active(true)
+);

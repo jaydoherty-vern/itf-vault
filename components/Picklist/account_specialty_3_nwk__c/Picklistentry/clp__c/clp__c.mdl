@@ -1,0 +1,5 @@
+Picklistentry clp__c (
+   value('Clinical Pathology'),
+   order(80),
+   active(true)
+);

@@ -1,0 +1,7 @@
+Picklistentry dty_patient_document__sys (
+   value('Patient Document'),
+   order(120),
+   active(true),
+   controlling_entries('dlc_unclassified__sys',
+         'dlc_general__sys')
+);

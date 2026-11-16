@@ -1,0 +1,23 @@
+Field max_allowed_distinct_accounts__c (
+   label('MAX Allowed Distinct Accounts'),
+   type('Number'),
+   active(true),
+   description('Max allowed distinct accounts. Be careful with this as it may impact performance. Typically 20 is the default but you may bump this upto 50 to 100'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content('Max allowed distinct accounts. Be careful with this as it may impact performance. Typically 20 is the default but you may bump this upto 50 to 100'),
+   list_column(false),
+   order(40),
+   default_value('20'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

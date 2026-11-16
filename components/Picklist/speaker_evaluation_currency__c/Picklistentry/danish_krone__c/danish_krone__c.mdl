@@ -1,0 +1,5 @@
+Picklistentry danish_krone__c (
+   value('Danish Krone'),
+   order(51),
+   active(true)
+);

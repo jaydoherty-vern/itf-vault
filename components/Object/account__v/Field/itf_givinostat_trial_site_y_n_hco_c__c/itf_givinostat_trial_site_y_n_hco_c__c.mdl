@@ -1,0 +1,19 @@
+Field itf_givinostat_trial_site_y_n_hco_c__c (
+   label('Givinostat Trial Site Y/N (HCO)'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(428),
+   formula('primary_parent__vr.itf_givinostat_trial_site_y_n__c'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

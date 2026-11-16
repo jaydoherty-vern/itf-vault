@@ -1,0 +1,5 @@
+Picklistentry mc_sp__c (
+   value('MC_Spélugues'),
+   order(1183),
+   active(true)
+);

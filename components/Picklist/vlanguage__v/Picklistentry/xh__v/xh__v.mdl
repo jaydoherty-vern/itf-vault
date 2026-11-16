@@ -1,0 +1,5 @@
+Picklistentry xh__v (
+   value('Xhosa'),
+   order(79),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 1_2__c (
+   value('Active, Moved in for advanced study'),
+   order(1),
+   active(true)
+);

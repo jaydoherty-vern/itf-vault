@@ -1,0 +1,5 @@
+Picklistentry is_hrg__c (
+   value('IS_Hörgársveit'),
+   order(779),
+   active(true)
+);

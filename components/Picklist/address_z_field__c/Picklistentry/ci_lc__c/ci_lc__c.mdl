@@ -1,0 +1,5 @@
+Picklistentry ci_lc__c (
+   value('CI-LC'),
+   order(700),
+   active(true)
+);

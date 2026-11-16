@@ -1,0 +1,111 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.account__v.hospital__v">
+    <vault:section title="Account Information" name="account_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="alternate_name__v" readOnly="true" />
+            <vault:field reference="primary_parent__v" />
+            <vault:field reference="major_class_of_trade_nwk__c" readOnly="true" />
+            <vault:field reference="hco_type_nwk__c" />
+            <vault:field reference="business_type_nwk__c" />
+            <vault:field reference="market_access_nwk__c" />
+            <vault:field reference="country_code__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="hco_status_nwk__c" />
+            <vault:field reference="primary_specialty_group_nwk__c" readOnly="true" />
+            <vault:field reference="specialty_1_nwk__c" />
+            <vault:field reference="specialty_2_nwk__c" />
+            <vault:field reference="specialty_3_nwk__c" />
+            <vault:field reference="specialty_4_nwk__c" />
+            <vault:field reference="specialty_5_nwk__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="IDs" name="ids__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="matchid__v" readOnly="true" />
+            <vault:field reference="customer_master_status__v" readOnly="true" />
+            <vault:field reference="national_company_id__v" readOnly="true" />
+            <vault:field reference="nhid_cda__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="View User Territory" name="view_user_territory_section__c" reference="view_user_territory_section__v" />
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Addresses" name="address__c">
+        <vault:relatedObject relationship="address__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="postal_code_cda__v" width="200px" />
+            <vault:field reference="city_cda__v" width="200px" />
+            <vault:field reference="address_status_nwk__c" width="200px" />
+            <vault:field reference="primary_cda__v" width="200px" />
+            <vault:field reference="map__v" width="200px" />
+            <vault:field reference="brick__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Members" name="parent_account__c">
+        <vault:relatedObject relationship="parent_account__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="child_account__v" width="200px" />
+            <vault:field reference="network_primary__v" width="200px" />
+            <vault:field reference="role_nwk__c" width="200px" />
+            <vault:field reference="role_opd_nwk__c" width="200px" />
+            <vault:field reference="status_nwk__c" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Member Of" name="child_account__c">
+        <vault:relatedObject relationship="child_account__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="parent_account__v" width="200px" />
+            <vault:field reference="network_primary__v" width="200px" />
+            <vault:field reference="role_nwk__c" width="200px" />
+            <vault:field reference="status_nwk__c" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Align Account Territories" name="account_territories__c">
+        <vault:relatedObject relationship="aln_account_territories__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="source__v" width="200px" />
+            <vault:field reference="align_rule_name__v" width="200px" />
+            <vault:field reference="country__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+            <vault:field reference="exclusive_assignment__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Account Territories" name="account_territories1__c">
+        <vault:relatedObject relationship="account_territories__vr" preventRecordCreate="false" modalCreateRecord="false" displayAsSimple="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="rule__v" width="200px" />
+            <vault:field reference="manual__v" width="200px" />
+            <vault:field reference="external_id__v" width="200px" />
+            <vault:field reference="territory__vr.name__v" width="200px" />
+            <vault:field reference="territory__vr.parent_territory__v" width="200px" />
+            <vault:field reference="territory__vr.description__v" width="200px" />
+            <vault:field reference="territory__vr.country__v" width="200px" />
+            <vault:field reference="territory__vr.api_name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Account Exclusion" name="account_exclusion__c">
+        <vault:relatedObject relationship="aln_account_account_exclusions__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="field_force__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="exclusion_type__v" width="200px" />
+            <vault:field reference="exclusion_reason__v" width="200px" />
+            <vault:field reference="assignment_type__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

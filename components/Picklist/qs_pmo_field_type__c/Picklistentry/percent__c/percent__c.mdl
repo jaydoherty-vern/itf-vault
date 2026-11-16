@@ -1,0 +1,5 @@
+Picklistentry percent__c (
+   value('Percent'),
+   order(9),
+   active(true)
+);

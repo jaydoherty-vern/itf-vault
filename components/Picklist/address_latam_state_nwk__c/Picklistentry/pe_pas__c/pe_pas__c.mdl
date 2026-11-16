@@ -1,0 +1,5 @@
+Picklistentry pe_pas__c (
+   value('Pasco'),
+   order(358),
+   active(true)
+);

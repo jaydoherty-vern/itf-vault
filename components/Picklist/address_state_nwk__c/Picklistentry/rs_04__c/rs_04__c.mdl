@@ -1,0 +1,5 @@
+Picklistentry rs_04__c (
+   value('RS_Južnobanatski okrug'),
+   order(1456),
+   active(true)
+);

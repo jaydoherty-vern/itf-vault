@@ -1,0 +1,5 @@
+Picklistentry ds__c (
+   value('Doctor of Science'),
+   order(105),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry tr_11__c (
+   value('TR_Bilecik'),
+   order(1682),
+   active(true)
+);

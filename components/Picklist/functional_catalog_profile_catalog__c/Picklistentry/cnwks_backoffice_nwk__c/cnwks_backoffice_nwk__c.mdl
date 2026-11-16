@@ -1,0 +1,5 @@
+Picklistentry cnwks_backoffice_nwk__c (
+   value('CNWKS_BackOffice_NWK'),
+   order(0),
+   active(true)
+);

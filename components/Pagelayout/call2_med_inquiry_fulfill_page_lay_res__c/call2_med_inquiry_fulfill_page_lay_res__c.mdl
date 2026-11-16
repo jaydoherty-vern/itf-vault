@@ -1,0 +1,8 @@
+RECREATE Pagelayout call2_med_inquiry_fulfill_page_lay_res__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Medical Inquiry Fulfillment Detail Page Layout (Restricted)'),
+   page_markup(@page_markup.xml)
+);

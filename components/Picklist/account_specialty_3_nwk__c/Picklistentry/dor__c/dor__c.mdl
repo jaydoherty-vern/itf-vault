@@ -1,0 +1,5 @@
+Picklistentry dor__c (
+   value('Oral & Maxillofacial Radiology'),
+   order(335),
+   active(true)
+);

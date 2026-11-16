@@ -1,0 +1,5 @@
+Picklistentry mail_only__c (
+   value('Mail Only'),
+   order(1),
+   active(true)
+);

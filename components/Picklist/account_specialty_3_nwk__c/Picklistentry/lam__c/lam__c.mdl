@@ -1,0 +1,5 @@
+Picklistentry lam__c (
+   value('Laboratory Animal Medicine'),
+   order(229),
+   active(true)
+);

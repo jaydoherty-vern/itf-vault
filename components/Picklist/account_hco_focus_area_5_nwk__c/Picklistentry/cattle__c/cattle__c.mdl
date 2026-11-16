@@ -1,0 +1,5 @@
+Picklistentry cattle__c (
+   value('Cattle'),
+   order(38),
+   active(true)
+);

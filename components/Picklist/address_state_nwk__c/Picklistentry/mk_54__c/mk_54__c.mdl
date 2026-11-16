@@ -1,0 +1,5 @@
+Picklistentry mk_54__c (
+   value('MK_Negotino'),
+   order(1254),
+   active(true)
+);

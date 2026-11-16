@@ -1,0 +1,5 @@
+Picklistentry af_zab__c (
+   value('AF-ZAB'),
+   order(46),
+   active(true)
+);

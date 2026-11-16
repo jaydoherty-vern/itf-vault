@@ -1,0 +1,4 @@
+Typefield itf_facility_hcp_primary_affiliation__c (
+   source('standard'),
+   required(false)
+);

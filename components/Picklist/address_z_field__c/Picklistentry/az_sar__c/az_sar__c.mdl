@@ -1,0 +1,5 @@
+Picklistentry az_sar__c (
+   value('AZ-SAR'),
+   order(227),
+   active(true)
+);

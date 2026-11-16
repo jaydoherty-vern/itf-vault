@@ -1,0 +1,5 @@
+Picklistentry patient_status_appeal_follow_up__c (
+   value('Patient status - Appeal follow up'),
+   order(1),
+   active(true)
+);

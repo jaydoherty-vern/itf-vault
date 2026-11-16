@@ -1,0 +1,5 @@
+Picklistentry mk_43__c (
+   value('MK_Kratovo'),
+   order(1243),
+   active(true)
+);

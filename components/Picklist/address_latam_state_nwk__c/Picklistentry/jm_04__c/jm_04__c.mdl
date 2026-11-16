@@ -1,0 +1,5 @@
+Picklistentry jm_04__c (
+   value('Portland'),
+   order(299),
+   active(true)
+);

@@ -1,0 +1,23 @@
+Field total__c (
+   label('Total'),
+   type('Number'),
+   active(true),
+   description('Total number of days.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999),
+   min_value(-999999999999999),
+   scale(2),
+   help_content('Total number of days estimated.'),
+   list_column(false),
+   order(123),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

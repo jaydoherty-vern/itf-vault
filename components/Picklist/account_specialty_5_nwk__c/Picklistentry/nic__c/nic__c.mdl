@@ -1,0 +1,5 @@
+Picklistentry nic__c (
+   value('Neurology, Intensiv Care'),
+   order(292),
+   active(true)
+);

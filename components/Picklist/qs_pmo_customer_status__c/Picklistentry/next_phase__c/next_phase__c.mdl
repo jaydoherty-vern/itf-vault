@@ -1,0 +1,5 @@
+Picklistentry next_phase__c (
+   value('Customer to consider for next phase'),
+   order(4),
+   active(true)
+);

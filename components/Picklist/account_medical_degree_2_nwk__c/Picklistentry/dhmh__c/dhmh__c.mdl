@@ -1,0 +1,5 @@
+Picklistentry dhmh__c (
+   value('Dr. med. habil.'),
+   order(124),
+   active(true)
+);

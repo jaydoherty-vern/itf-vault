@@ -1,0 +1,5 @@
+Picklistentry cg_bzv__c (
+   value('CG-BZV'),
+   order(649),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry chol__c (
+   value('High Blood Pressure, Cholesterol or Blood Glucose Testing'),
+   order(118),
+   active(true)
+);

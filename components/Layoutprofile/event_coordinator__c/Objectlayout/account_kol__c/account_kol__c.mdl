@@ -1,0 +1,8 @@
+Objectlayout account_kol__c (
+   label('account_kol'),
+   active(true),
+   pagelayouts('Pagelayout.kol__c'),
+   object('Object.account__v'),
+   objecttype('Objecttype.account__v.kol__v'),
+   record_creation_layout('Pagelayout.kol__c')
+);

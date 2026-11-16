@@ -1,0 +1,5 @@
+Picklistentry lt_53__c (
+   value('LT_Ukmergė'),
+   order(1033),
+   active(true)
+);

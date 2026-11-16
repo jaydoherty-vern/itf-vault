@@ -1,0 +1,5 @@
+Picklistentry lt_47__c (
+   value('LT_Širvintos'),
+   order(1025),
+   active(true)
+);

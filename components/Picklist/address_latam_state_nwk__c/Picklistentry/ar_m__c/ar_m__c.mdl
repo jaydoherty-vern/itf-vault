@@ -1,0 +1,5 @@
+Picklistentry ar_m__c (
+   value('Mendoza'),
+   order(67),
+   active(true)
+);

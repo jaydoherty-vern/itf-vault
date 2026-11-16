@@ -1,0 +1,5 @@
+Picklistentry ae_fu__c (
+   value('AE_Al Fujayrah'),
+   order(80),
+   active(true)
+);

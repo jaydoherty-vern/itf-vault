@@ -1,0 +1,5 @@
+Picklistentry ec_h__c (
+   value('Chimborazo'),
+   order(245),
+   active(true)
+);

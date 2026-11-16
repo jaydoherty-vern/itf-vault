@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport" advancedFilterLogic="1 AND 2 AND 3">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v.object_count__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v.duration__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v.account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v.clm_presentation__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v.call_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v.key_message_name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v.product__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v.is_parent_call__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___clm_presentation__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___key_message__v.name__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="call2_key_message__v___call2__v.call2_status__v" rightValue="submitted__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" filterNumber="1" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="CURRENTCY" leftValue="call2_key_message__v___call2__v.call_date__v" rightValue="2024-01-01;;;2024-12-31" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" filterNumber="2" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="ISNOTNULL" leftValue="call2_key_message__v.clm_id__v" rightValue="" type="PROPERTY" rightValueType="VALUE" runtime="false" filterNumber="3" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="call2_key_message__v.key_message__v" groupBySortOn="call2_key_message__v.duration__v" groupBySortOrder="DESCENDING" groupBySortAgrregateType="SUM">
+      <vrp:function>
+        <vrp:selectItem type="FUNCTION" action="SUM" property="SUM" display="NUMBER">
+          <vrp:children>
+            <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v.object_count__v" />
+          </vrp:children>
+        </vrp:selectItem>
+        <vrp:selectItem type="FUNCTION" action="SUM" property="SUM" display="NUMBER">
+          <vrp:children>
+            <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v.duration__v" />
+          </vrp:children>
+        </vrp:selectItem>
+      </vrp:function>
+    </vrp:groupItem>
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="call2_key_message__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

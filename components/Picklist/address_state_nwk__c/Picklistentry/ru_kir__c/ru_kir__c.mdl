@@ -1,0 +1,5 @@
+Picklistentry ru_kir__c (
+   value('RU_Kirovskaya oblast'''),
+   order(1512),
+   active(true)
+);

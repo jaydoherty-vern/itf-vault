@@ -1,0 +1,5 @@
+Picklistentry ccg__c (
+   value('Clinical Cytogenetics'),
+   order(74),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry bf_baz__c (
+   value('BF-BAZ'),
+   order(375),
+   active(true)
+);

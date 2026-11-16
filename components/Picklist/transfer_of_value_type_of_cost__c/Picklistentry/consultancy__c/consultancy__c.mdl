@@ -1,0 +1,5 @@
+Picklistentry consultancy__c (
+   value('Consultancy'),
+   order(2),
+   active(true)
+);

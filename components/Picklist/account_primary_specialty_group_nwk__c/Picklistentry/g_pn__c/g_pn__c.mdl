@@ -1,0 +1,5 @@
+Picklistentry g_pn__c (
+   value('Psychiatry & Neurology'),
+   order(35),
+   active(true)
+);

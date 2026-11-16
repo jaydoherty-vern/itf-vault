@@ -1,0 +1,5 @@
+Picklistentry lv_110__c (
+   value('LV_Zilupes novads (Zilupe)'),
+   order(1167),
+   active(true)
+);

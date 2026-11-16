@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="task">
+    <vwf:label>Approve Time Off Territory</vwf:label>
+    <vwf:hideHomePageLink>false</vwf:hideHomePageLink>
+    <vwf:controls>
+      <vwf:control name="please_review__c" label="Please Review." type="instructions">
+        <vwf:instructions>Please Review.</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="verdict_public_key__c" type="verdict">
+        <vwf:verdict label="Approve" name="verdict_approve__c">
+          <vwf:comment label="Comments" required="false" />
+        </vwf:verdict>
+        <vwf:verdict label="Reject" name="verdict_reject__c">
+          <vwf:comment label="Comments" required="false" />
+        </vwf:verdict>
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+  <vwf:assignment participant="part_manager__c" excludeowner="false" />
+  <vwf:assignmentType type="every" />
+  <vwf:notifications />
+  <vwf:reminders />
+  <vwf:completeWithoutViewing value="false" />
+  <vwf:taskRequirement requirement="required" />
+</vwf:stepdetails>

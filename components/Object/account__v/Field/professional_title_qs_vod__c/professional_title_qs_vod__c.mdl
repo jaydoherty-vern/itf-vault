@@ -1,0 +1,18 @@
+Field professional_title_qs_vod__c (
+   label('Professional Title'),
+   type('Picklist'),
+   active(true),
+   description('Picklist to hold the professional title of an HCP - mastered in Network'),
+   required(false),
+   unique(false),
+   help_content('The professional title of the HCP'),
+   list_column(false),
+   order(372),
+   multi_value(false),
+   picklist('Picklist.account_professional_title_qs_vod__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

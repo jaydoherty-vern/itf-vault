@@ -1,0 +1,4 @@
+Typefield accept_reject__c (
+   source('standard'),
+   required(false)
+);

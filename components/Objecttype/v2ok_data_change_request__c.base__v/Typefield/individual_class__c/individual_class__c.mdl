@@ -1,0 +1,4 @@
+Typefield individual_class__c (
+   source('standard'),
+   required(false)
+);

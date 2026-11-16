@@ -1,0 +1,5 @@
+Picklistentry eg_ast__c (
+   value('EG_Asyūţ'),
+   order(12),
+   active(true)
+);

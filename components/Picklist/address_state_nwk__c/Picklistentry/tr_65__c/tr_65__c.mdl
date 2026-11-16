@@ -1,0 +1,5 @@
+Picklistentry tr_65__c (
+   value('TR_Van'),
+   order(1744),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry al_te__c (
+   value('AL-TE'),
+   order(99),
+   active(true)
+);

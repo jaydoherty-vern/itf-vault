@@ -1,0 +1,6 @@
+Picklistentry otp_reimbursement_case__sys (
+   value('Reimbursement Case'),
+   order(142),
+   active(true),
+   controlling_entries('olc_case__sys')
+);

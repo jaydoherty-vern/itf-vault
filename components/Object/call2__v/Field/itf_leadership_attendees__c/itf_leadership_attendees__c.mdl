@@ -1,0 +1,18 @@
+Field itf_leadership_attendees__c (
+   label('Leadership Attendees'),
+   type('Picklist'),
+   active(true),
+   description('https://itftherapeutics.lightning.force.com/lightning/r/Requirement_vod__c/a1uVy00000D7r8AIAR/view'),
+   required(false),
+   unique(false),
+   help_content('Please select a leader if you have chosen "Leadership Engagement" in Activity Details.'),
+   list_column(false),
+   order(249),
+   multi_value(true),
+   picklist('Picklist.call2_itf_leadership_attendees__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

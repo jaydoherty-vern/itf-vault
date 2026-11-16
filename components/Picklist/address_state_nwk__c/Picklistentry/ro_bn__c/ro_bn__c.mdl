@@ -1,0 +1,5 @@
+Picklistentry ro_bn__c (
+   value('RO_Bistrița-Năsăud'),
+   order(1414),
+   active(true)
+);

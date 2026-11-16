@@ -1,0 +1,5 @@
+Picklistentry baht__c (
+   value('Baht'),
+   order(150),
+   active(true)
+);

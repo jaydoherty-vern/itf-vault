@@ -1,0 +1,5 @@
+Picklistentry li_07__c (
+   value('LI_Schaan'),
+   order(968),
+   active(true)
+);

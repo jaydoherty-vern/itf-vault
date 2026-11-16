@@ -1,0 +1,5 @@
+Picklistentry mk_01__c (
+   value('MK_Aerodrom'),
+   order(1206),
+   active(true)
+);

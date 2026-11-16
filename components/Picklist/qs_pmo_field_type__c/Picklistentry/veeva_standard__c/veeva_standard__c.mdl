@@ -1,0 +1,5 @@
+Picklistentry veeva_standard__c (
+   value('Veeva standard Field'),
+   order(16),
+   active(true)
+);

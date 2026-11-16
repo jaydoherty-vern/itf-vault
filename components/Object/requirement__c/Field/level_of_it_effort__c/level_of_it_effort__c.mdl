@@ -1,0 +1,26 @@
+Field level_of_it_effort__c (
+   label('Level of IT Effort'),
+   type('String'),
+   active(true),
+   description('Level of IT Effort'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('Low: Requires Less Than 8 Hours of IT Work Effort
+Medium: Requires 4 - 8 Hours of IT Work Effort
+High: Requires More Than 8 Hours of IT Work Effort'),
+   list_column(false),
+   order(140),
+   formula('If(((req__c+des__c+but__c+sit__c+uat__c+trndep__c+adapt__c)+(1*cont__c)) = 0.00, "N/A",
+If(((req__c+des__c+but__c+sit__c+uat__c+trndep__c+adapt__c)+(1*cont__c))  <= 8.00, "Low",
+If(((req__c+des__c+but__c+sit__c+uat__c+trndep__c+adapt__c)+(1*cont__c))  > 20.00, "High",
+"Medium")))'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

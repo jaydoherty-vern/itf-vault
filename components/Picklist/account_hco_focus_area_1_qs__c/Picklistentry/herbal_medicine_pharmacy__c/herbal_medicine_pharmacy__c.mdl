@@ -1,0 +1,5 @@
+Picklistentry herbal_medicine_pharmacy__c (
+   value('Herbal Medicine Pharmacy'),
+   order(52),
+   active(true)
+);

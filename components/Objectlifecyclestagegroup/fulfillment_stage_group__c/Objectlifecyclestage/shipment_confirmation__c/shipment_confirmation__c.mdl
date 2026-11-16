@@ -1,0 +1,8 @@
+Objectlifecyclestage shipment_confirmation__c (
+   label('Shipment Confirmation'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.pending_shipment_confirmation_state__c',
+         'Objectlifecyclestate.shipment_confirmed_state__v'),
+   order(2)
+);

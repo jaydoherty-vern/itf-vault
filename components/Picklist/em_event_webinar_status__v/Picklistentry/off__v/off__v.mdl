@@ -1,0 +1,5 @@
+Picklistentry off__v (
+   value('OFF'),
+   order(0),
+   active(true)
+);

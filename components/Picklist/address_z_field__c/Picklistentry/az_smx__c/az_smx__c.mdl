@@ -1,0 +1,5 @@
+Picklistentry az_smx__c (
+   value('AZ-SMX'),
+   order(234),
+   active(true)
+);

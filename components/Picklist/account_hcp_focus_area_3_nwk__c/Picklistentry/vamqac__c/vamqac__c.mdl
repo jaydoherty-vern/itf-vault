@@ -1,0 +1,5 @@
+Picklistentry vamqac__c (
+   value('Veterinary Asset Management and Quality Assurance in Production - Cattle'),
+   order(460),
+   active(true)
+);

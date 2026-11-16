@@ -1,0 +1,5 @@
+Picklistentry dis__c (
+   value('Dispenser / Medicines Counter Assistant'),
+   order(70),
+   active(true)
+);

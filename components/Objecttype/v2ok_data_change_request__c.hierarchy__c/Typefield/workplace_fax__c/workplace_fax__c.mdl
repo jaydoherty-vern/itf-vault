@@ -1,0 +1,4 @@
+Typefield workplace_fax__c (
+   source('custom'),
+   required(false)
+);

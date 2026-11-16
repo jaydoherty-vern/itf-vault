@@ -1,0 +1,5 @@
+Picklistentry al_tp__c (
+   value('AL-TP'),
+   order(100),
+   active(true)
+);

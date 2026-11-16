@@ -1,0 +1,5 @@
+Picklistentry ccm__c (
+   value('Critical Care Medicine'),
+   order(95),
+   active(true)
+);

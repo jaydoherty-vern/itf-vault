@@ -1,0 +1,5 @@
+Picklistentry cn_gz__c (
+   value('CN-GZ'),
+   order(741),
+   active(true)
+);

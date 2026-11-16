@@ -1,0 +1,5 @@
+Picklistentry it_ta__c (
+   value('IT_Taranto'),
+   order(925),
+   active(true)
+);

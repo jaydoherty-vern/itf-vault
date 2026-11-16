@@ -1,0 +1,4 @@
+Typefield mailing__c (
+   source('standard'),
+   required(false)
+);

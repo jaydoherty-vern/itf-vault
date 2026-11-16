@@ -1,0 +1,5 @@
+Picklistentry chiva__c (
+   value('Diploma in Vascular Surgery'),
+   order(82),
+   active(true)
+);

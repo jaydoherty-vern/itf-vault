@@ -1,0 +1,5 @@
+Picklistentry sp_wes_aq__c (
+   value('SP.WES.AQ'),
+   order(155),
+   active(true)
+);

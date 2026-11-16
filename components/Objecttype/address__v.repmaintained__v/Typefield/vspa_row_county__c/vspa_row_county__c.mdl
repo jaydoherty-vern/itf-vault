@@ -1,0 +1,4 @@
+Typefield vspa_row_county__c (
+   source('custom'),
+   required(false)
+);

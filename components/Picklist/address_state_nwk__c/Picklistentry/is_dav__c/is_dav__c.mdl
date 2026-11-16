@@ -1,0 +1,5 @@
+Picklistentry is_dav__c (
+   value('IS_Dalvíkurbyggð'),
+   order(762),
+   active(true)
+);

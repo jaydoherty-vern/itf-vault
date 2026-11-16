@@ -1,0 +1,5 @@
+Picklistentry pl_el__c (
+   value('PL_Elbląg'),
+   order(1337),
+   active(true)
+);

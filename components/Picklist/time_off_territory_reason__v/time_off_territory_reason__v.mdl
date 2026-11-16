@@ -1,0 +1,16 @@
+RECREATE Picklist time_off_territory_reason__v (
+   label('Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/bank_holiday__c.mdl),
+   Picklistentry(@Picklistentry/bereavement__v.mdl),
+   Picklistentry(@Picklistentry/car_trouble__v.mdl),
+   Picklistentry(@Picklistentry/flex_day__c.mdl),
+   Picklistentry(@Picklistentry/jury_duty__v.mdl),
+   Picklistentry(@Picklistentry/medical_event_congress__c.mdl),
+   Picklistentry(@Picklistentry/sick__v.mdl),
+   Picklistentry(@Picklistentry/training__c.mdl),
+   Picklistentry(@Picklistentry/vacation__v.mdl),
+   Picklistentry(@Picklistentry/working_in_different_territory__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

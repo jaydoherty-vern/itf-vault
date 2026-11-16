@@ -1,0 +1,5 @@
+Picklistentry az_yar__c (
+   value('AZ-YAR'),
+   order(245),
+   active(true)
+);

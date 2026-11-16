@@ -1,0 +1,87 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_project__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="planned_publish_date__v" />
+            <vault:field reference="review_date__v" />
+            <vault:field reference="feedback_instructions__v" />
+            <vault:field reference="default_feedback_state__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="actual_publish_date__v" />
+            <vault:field reference="project_owner__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:spacer />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="id" />
+            <vault:field reference="planned_publish_datetime__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Model Field Forces in Project" name="model_field_forces__c">
+        <vault:relatedObject relationship="aln_field_force_model__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="production_field_force__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Model Territories in Project" name="model_territories__c">
+        <vault:relatedObject relationship="aln_territory_model__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="description__v" width="200px" />
+            <vault:field reference="parent_territory_model__v" width="200px" />
+            <vault:field reference="field_force_model__v" width="200px" />
+            <vault:field reference="hierarchy_level__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="state__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+            <vault:field reference="production_territory__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Model Align Settings in Project" name="model_align_settings__c">
+        <vault:relatedObject relationship="aln_align_settings_model__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="status__v" width="200px" />
+            <vault:field reference="modified_date__v" width="200px" />
+            <vault:field reference="field_force_model__v" width="200px" />
+            <vault:field reference="production_record__v" width="200px" />
+            <vault:field reference="description__v" width="200px" />
+            <vault:field reference="type__v" width="200px" />
+            <vault:field reference="account_exclusivity__v" width="200px" />
+            <vault:field reference="account_exclusivity_exceptions__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Model Footprints in Project" name="model_footprints__c">
+        <vault:relatedObject relationship="aln_footprint_model__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="production_record__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Model Account Exclusions in Project" name="model_account_exclusions__c">
+        <vault:relatedObject relationship="aln_account_exclusion_model__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="territory_model__v" width="200px" />
+            <vault:field reference="field_force_model__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+            <vault:field reference="exclusion_type__v" width="200px" />
+            <vault:field reference="exclusion_reason__v" width="200px" />
+            <vault:field reference="assignment_type__v" width="200px" />
+            <vault:field reference="production_record__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

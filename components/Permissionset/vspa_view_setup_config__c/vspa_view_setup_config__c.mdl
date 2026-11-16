@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_view_setup_config__c (
+   label('VSPA_VIEW_SETUP_CONFIG'),
+   active(true),
+   description('SFDC ''View Setup and Configuration'' permission. For go lives some home office users will temporarily be assigned as delegated admins for ''login as'' functionality. They require a delegated admin group and this permission set.'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

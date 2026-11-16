@@ -1,0 +1,19 @@
+Field itf_name_of_the_account_contact__c (
+   label('Name of the Account Contact'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('if escalation request is not coming from the prescriber'),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

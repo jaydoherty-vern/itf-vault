@@ -1,0 +1,5 @@
+Picklistentry it_pn__c (
+   value('IT_Pordenone'),
+   order(907),
+   active(true)
+);

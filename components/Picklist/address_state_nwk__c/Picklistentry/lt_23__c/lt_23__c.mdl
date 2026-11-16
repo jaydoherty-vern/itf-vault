@@ -1,0 +1,5 @@
+Picklistentry lt_23__c (
+   value('LT_Kupiškis'),
+   order(998),
+   active(true)
+);

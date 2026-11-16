@@ -1,0 +1,20 @@
+Field itf_activity_details__c (
+   label('Activity Details'),
+   type('Picklist'),
+   active(true),
+   description('https://itftherapeutics.lightning.force.com/lightning/r/Requirement_vod__c/a1uVy0000042pTxIAI/view'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(255),
+   multi_value(true),
+   picklist('Picklist.call2_itf_activity_details__c'),
+   controlling_picklist('activity_type__c'),
+   picklist_dependencies('{"internal_resource__c":["national_meeting_speaker__c","training_speaker__c","internal_consultant__c","leadership_engagement__c","steering_committee__c","marketing_consultant__c","internal_resource_logistics__c","home_visit_meeting__c"],"speaker_related_engagement__c":["speaker_training_tll_1_1__c","speaker_remediation__c","leadership_engagement__c","speaker_program__c","speaker_training_group__c","speaker_related_logistics__c"],"advisory_board__c":["ad_board_attendee__c","leadership_engagement__c","ad_board_logistics__c"],"congress_activity__c":["congress_activity_logistics__c","dinner_meal__c","leadership_engagement__c","product_theater_symposium__c","tll_1_1__c"],"tll_1_1__c":["tll_in_office_meeting__c","leadership_engagement__c","tll_meeting_logistics__c","tll_dinner__c","tll_virtual_meeting__c"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

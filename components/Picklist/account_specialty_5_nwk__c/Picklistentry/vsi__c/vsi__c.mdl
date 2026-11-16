@@ -1,0 +1,5 @@
+Picklistentry vsi__c (
+   value('Vascular Surgery-Integrated'),
+   order(534),
+   active(true)
+);

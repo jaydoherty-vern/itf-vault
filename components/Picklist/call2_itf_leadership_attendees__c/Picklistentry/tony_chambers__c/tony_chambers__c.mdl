@@ -1,0 +1,5 @@
+Picklistentry tony_chambers__c (
+   value('Tony Chambers'),
+   order(6),
+   active(false)
+);

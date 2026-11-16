@@ -1,0 +1,5 @@
+Picklistentry phodt__c (
+   value('Photodynamic Therapy'),
+   order(354),
+   active(true)
+);

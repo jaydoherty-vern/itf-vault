@@ -1,0 +1,5 @@
+Picklistentry lek__c (
+   value('Lek'),
+   order(2),
+   active(true)
+);

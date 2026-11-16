@@ -1,0 +1,5 @@
+Picklistentry won__c (
+   value('Won'),
+   order(85),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry crm_campaigns__c (
+   value('CRM Campaigns'),
+   order(1),
+   active(true)
+);

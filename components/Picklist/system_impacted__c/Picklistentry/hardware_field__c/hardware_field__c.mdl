@@ -1,0 +1,5 @@
+Picklistentry hardware_field__c (
+   value('Hardware - Field User'),
+   order(1),
+   active(true)
+);

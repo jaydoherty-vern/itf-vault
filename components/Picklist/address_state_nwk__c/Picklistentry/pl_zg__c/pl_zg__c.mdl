@@ -1,0 +1,5 @@
+Picklistentry pl_zg__c (
+   value('PL_Zielona Góra'),
+   order(1388),
+   active(true)
+);

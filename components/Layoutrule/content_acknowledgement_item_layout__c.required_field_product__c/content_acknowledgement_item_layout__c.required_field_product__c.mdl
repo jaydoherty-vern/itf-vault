@@ -1,0 +1,15 @@
+RECREATE Layoutrule content_acknowledgement_item_layout__c.required_field_product__c (
+   active(true),
+   description('Layout rule to make Product field required on page layout.'),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields('product__v'),
+   expression('true'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections(),
+   hide_layout(false),
+   label('Required Field: Product'),
+   order(100)
+);

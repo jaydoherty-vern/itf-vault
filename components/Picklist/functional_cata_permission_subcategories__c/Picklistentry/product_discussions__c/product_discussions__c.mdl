@@ -1,0 +1,5 @@
+Picklistentry product_discussions__c (
+   value('Product discussions'),
+   order(34),
+   active(true)
+);

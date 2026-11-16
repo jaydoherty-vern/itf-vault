@@ -1,0 +1,5 @@
+Picklistentry lv_016__c (
+   value('LV_Bauskas novads'),
+   order(1062),
+   active(true)
+);

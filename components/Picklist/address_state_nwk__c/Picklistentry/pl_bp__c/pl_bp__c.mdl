@@ -1,0 +1,5 @@
+Picklistentry pl_bp__c (
+   value('PL_Biala Podlaska'),
+   order(1329),
+   active(true)
+);

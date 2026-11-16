@@ -1,0 +1,5 @@
+Picklistentry sucre__c (
+   value('Sucre'),
+   order(135),
+   active(true)
+);

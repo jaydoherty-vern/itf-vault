@@ -1,0 +1,8 @@
+Objectlayout patient_journey_step_detail_patient_jou4__c (
+   label('patient_journey_step_detail_patient_journey_step_detail_plan'),
+   active(true),
+   pagelayouts('Pagelayout.patient_journey_step_detail_plan_tactic__c'),
+   object('Object.patient_journey_step_detail__v'),
+   objecttype('Objecttype.patient_journey_step_detail__v.patient_journey_step_detail_plan_tact__v'),
+   record_creation_layout('Pagelayout.patient_journey_step_detail_plan_tactic__c')
+);

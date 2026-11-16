@@ -1,0 +1,19 @@
+Field vspa_validated_act_id__c (
+   label('Validated ACT ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(14),
+   help_content(),
+   list_column(false),
+   order(59),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

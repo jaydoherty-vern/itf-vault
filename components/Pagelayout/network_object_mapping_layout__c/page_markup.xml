@@ -1,0 +1,46 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.network_object_mapping__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="network_mapping__v" />
+            <vault:field reference="crm_object_api_name__v" />
+            <vault:field reference="external_id_api_name__v" />
+            <vault:field reference="network_object_api_name__v" />
+            <vault:field reference="external_id__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Network Field Mappings" name="network_field_mappings1__c">
+        <vault:relatedObject relationship="network_field_mappings1__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="crm_field_api_name__v" width="200px" />
+            <vault:field reference="network_field_api_name__v" width="200px" />
+            <vault:field reference="network_object_mapping__v" width="200px" />
+            <vault:field reference="validation_status__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Network Field Mappings" name="network_field_mappings__c">
+        <vault:relatedObject relationship="network_field_mappings__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="crm_field_api_name__v" width="200px" />
+            <vault:field reference="network_field_api_name__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="external_id__v" width="200px" />
+            <vault:field reference="object_mapping_reference__v" width="200px" />
+            <vault:field reference="validation_status__v" width="200px" />
+            <vault:field reference="validation_notes__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

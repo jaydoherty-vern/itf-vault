@@ -1,0 +1,5 @@
+Picklistentry medullary_thyroid_cancer__c (
+   value('Medullary Thyroid Cancer'),
+   order(23),
+   active(true)
+);

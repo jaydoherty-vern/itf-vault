@@ -1,0 +1,5 @@
+Picklistentry by_hr__c (
+   value('BY-HR'),
+   order(586),
+   active(true)
+);

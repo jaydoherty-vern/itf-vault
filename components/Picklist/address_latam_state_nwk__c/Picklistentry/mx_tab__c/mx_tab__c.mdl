@@ -1,0 +1,5 @@
+Picklistentry mx_tab__c (
+   value('Tabasco'),
+   order(38),
+   active(true)
+);

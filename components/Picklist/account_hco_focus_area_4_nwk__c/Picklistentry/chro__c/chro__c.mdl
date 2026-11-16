@@ -1,0 +1,5 @@
+Picklistentry chro__c (
+   value('Chronic Disease Management'),
+   order(45),
+   active(true)
+);

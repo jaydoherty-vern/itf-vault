@@ -1,0 +1,5 @@
+Picklistentry tr_28__c (
+   value('TR_Giresun'),
+   order(1700),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_045__c (
+   value('LV_Kocēnu novads (Kocēni)'),
+   order(1098),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_mik__c (
+   value('GB-MIK'),
+   order(546),
+   active(false)
+);

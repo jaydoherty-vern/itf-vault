@@ -1,0 +1,5 @@
+Picklistentry jama__v (
+   value('JAMA'),
+   order(1),
+   active(true)
+);

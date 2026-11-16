@@ -1,0 +1,5 @@
+Picklistentry algerian_dinar__c (
+   value('Algerian Dinar'),
+   order(3),
+   active(true)
+);

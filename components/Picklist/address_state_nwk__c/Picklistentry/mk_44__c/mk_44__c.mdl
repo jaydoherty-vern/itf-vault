@@ -1,0 +1,5 @@
+Picklistentry mk_44__c (
+   value('MK_Kriva Palanka'),
+   order(1244),
+   active(true)
+);

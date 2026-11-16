@@ -1,0 +1,5 @@
+Picklistentry libyan_dinar__c (
+   value('Libyan Dinar'),
+   order(93),
+   active(true)
+);

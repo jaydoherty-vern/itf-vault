@@ -1,0 +1,5 @@
+Picklistentry fi__c (
+   value('FI'),
+   order(7),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry fr_03__c (
+   value('FR_Allier'),
+   order(279),
+   active(true)
+);

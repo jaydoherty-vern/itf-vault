@@ -1,0 +1,14 @@
+RECREATE Permissionset vspa_create_reports__c (
+   label('VSPA_Create_Reports'),
+   active(true),
+   description('Allows to create Reports and Manage them'),
+   object.report__sys.object_actions('create',
+      'delete',
+      'edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view'),
+   tab.vof_reports__v.tab_actions('view'),
+   vault_actions.reporting('read_run_reports',
+      'schedule')
+);

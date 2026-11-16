@@ -1,0 +1,5 @@
+Picklistentry d__c (
+   value('Dead'),
+   order(1),
+   active(true)
+);

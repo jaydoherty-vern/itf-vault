@@ -1,0 +1,5 @@
+Picklistentry 1_10__c (
+   value('Hospital, Dermatology'),
+   order(65),
+   active(true)
+);

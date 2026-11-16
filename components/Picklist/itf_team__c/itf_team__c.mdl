@@ -1,0 +1,12 @@
+RECREATE Picklist itf_team__c (
+   label('ITF Team'),
+   active(true),
+   Picklistentry(@Picklistentry/kam__c.mdl),
+   Picklistentry(@Picklistentry/msl__c.mdl),
+   Picklistentry(@Picklistentry/tll__c.mdl),
+   Picklistentry(@Picklistentry/isr__c.mdl),
+   Picklistentry(@Picklistentry/frm__c.mdl),
+   Picklistentry(@Picklistentry/all__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

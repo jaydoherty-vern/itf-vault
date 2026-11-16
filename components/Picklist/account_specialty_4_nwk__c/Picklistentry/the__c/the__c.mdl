@@ -1,0 +1,5 @@
+Picklistentry the__c (
+   value('Operating Theater Nursing'),
+   order(319),
+   active(true)
+);

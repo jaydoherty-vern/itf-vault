@@ -1,0 +1,4 @@
+Typefield vspa_nr_of_tys_m__c (
+   source('standard'),
+   required(false)
+);

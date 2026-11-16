@@ -1,0 +1,5 @@
+Picklistentry mol__v (
+   value('Moldovan'),
+   order(255),
+   active(false)
+);

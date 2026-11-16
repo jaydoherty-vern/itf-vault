@@ -1,0 +1,19 @@
+Field qs_pmo_support_ticket_number__c (
+   label('Support Ticket Number'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content('Please indicate the Veeva Support Ticket Number if you open a case'),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

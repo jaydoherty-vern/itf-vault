@@ -1,0 +1,5 @@
+Picklistentry presadv__c (
+   value('Prescribing Advisor'),
+   order(192),
+   active(true)
+);

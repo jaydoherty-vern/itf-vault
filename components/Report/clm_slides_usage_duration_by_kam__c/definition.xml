@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.duration__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.id" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.start_time__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.product__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.reaction__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="ISNOTNULL" leftValue="call2_key_message__v___call2__v.clm_id__v" rightValue="" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="IN" leftValue="call2__v.call2_status__v" rightValue="submitted__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order />
+</vrp:query>

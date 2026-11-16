@@ -1,0 +1,5 @@
+Picklistentry hr_19__c (
+   value('HR_Dubrovačko-neretvanska županija'),
+   order(658),
+   active(true)
+);

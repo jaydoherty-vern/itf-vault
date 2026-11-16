@@ -1,0 +1,5 @@
+Picklistentry minor__c (
+   value('Minor'),
+   order(2),
+   active(true)
+);

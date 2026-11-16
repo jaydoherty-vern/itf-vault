@@ -1,0 +1,10 @@
+RECREATE Picklist v2ok_data_change_request_status__c (
+   label('Status'),
+   active(true),
+   Picklistentry(@Picklistentry/approved__c.mdl),
+   Picklistentry(@Picklistentry/in_progress__c.mdl),
+   Picklistentry(@Picklistentry/rejected__c.mdl),
+   Picklistentry(@Picklistentry/submitted__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

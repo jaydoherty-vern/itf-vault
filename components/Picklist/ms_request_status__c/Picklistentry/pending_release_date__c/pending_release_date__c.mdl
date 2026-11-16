@@ -1,0 +1,5 @@
+Picklistentry pending_release_date__c (
+   value('Pending Release Date'),
+   order(15),
+   active(true)
+);

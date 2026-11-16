@@ -1,0 +1,5 @@
+Picklistentry jo_ir__c (
+   value('JO_Irbid'),
+   order(38),
+   active(true)
+);

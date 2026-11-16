@@ -1,0 +1,5 @@
+Picklistentry mk_03__c (
+   value('MK_Berovo'),
+   order(1208),
+   active(true)
+);

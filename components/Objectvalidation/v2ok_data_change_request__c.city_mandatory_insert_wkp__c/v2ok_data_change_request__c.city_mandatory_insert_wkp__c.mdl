@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.city_mandatory_insert_wkp__c (
+   label('City_Mandatory_Insert_WKP'),
+   active(true),
+   expression('Not(And(object_type__vr.api_name__v="Workplaces",Text(change_type__c)="Create",IsBlank(city_vod__c)))'),
+   description(),
+   error_message('Mandatory for "Create" data change request'),
+   error_location('city_vod__c')
+);

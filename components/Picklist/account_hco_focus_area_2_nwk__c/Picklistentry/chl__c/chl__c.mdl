@@ -1,0 +1,5 @@
+Picklistentry chl__c (
+   value('Chlamydia Screening'),
+   order(50),
+   active(true)
+);

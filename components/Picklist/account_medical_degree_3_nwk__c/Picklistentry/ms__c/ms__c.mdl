@@ -1,0 +1,5 @@
+Picklistentry ms__c (
+   value('Master''s Degree (MS)'),
+   order(175),
+   active(true)
+);

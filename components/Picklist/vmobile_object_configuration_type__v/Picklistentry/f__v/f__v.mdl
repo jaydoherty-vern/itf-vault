@@ -1,0 +1,5 @@
+Picklistentry f__v (
+   value('Full Sync'),
+   order(2),
+   active(true)
+);

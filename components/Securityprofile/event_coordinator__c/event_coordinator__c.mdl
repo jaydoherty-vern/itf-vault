@@ -1,0 +1,6 @@
+RECREATE Securityprofile event_coordinator__c (
+   label('Event Coordinator'),
+   active(true),
+   description(),
+   permission_sets('event_coordinator_ps__c')
+);

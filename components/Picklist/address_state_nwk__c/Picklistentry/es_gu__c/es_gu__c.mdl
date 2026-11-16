@@ -1,0 +1,5 @@
+Picklistentry es_gu__c (
+   value('ES_Guadalajara'),
+   order(204),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry igp__c (
+   value('Infections (General Practitioner) Diploma'),
+   order(181),
+   active(true)
+);

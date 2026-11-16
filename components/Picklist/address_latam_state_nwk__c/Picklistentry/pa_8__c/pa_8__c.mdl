@@ -1,0 +1,5 @@
+Picklistentry pa_8__c (
+   value('Panamá'),
+   order(320),
+   active(true)
+);

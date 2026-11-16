@@ -1,0 +1,5 @@
+Picklistentry do_05__c (
+   value('Dajabón'),
+   order(187),
+   active(true)
+);

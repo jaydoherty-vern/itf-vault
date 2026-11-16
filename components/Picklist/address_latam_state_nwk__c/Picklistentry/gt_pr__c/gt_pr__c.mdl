@@ -1,0 +1,5 @@
+Picklistentry gt_pr__c (
+   value('El Progreso'),
+   order(255),
+   active(true)
+);

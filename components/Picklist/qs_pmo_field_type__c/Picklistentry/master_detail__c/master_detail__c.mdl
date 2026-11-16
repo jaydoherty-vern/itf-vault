@@ -1,0 +1,5 @@
+Picklistentry master_detail__c (
+   value('Master Detail relationship'),
+   order(5),
+   active(true)
+);

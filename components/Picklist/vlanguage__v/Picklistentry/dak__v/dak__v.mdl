@@ -1,0 +1,5 @@
+Picklistentry dak__v (
+   value('Dakota'),
+   order(134),
+   active(false)
+);

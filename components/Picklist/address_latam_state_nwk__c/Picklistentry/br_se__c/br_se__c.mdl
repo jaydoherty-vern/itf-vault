@@ -1,0 +1,5 @@
+Picklistentry br_se__c (
+   value('Sergipe'),
+   order(12),
+   active(true)
+);

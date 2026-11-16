@@ -1,0 +1,5 @@
+Picklistentry sales_kpi_s__c (
+   value('Sales KPI''s'),
+   order(41),
+   active(true)
+);

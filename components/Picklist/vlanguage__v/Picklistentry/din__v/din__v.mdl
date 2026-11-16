@@ -1,0 +1,5 @@
+Picklistentry din__v (
+   value('Dinka'),
+   order(137),
+   active(false)
+);

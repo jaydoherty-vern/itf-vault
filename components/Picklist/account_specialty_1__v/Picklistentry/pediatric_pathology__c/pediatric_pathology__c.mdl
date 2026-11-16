@@ -1,0 +1,5 @@
+Picklistentry pediatric_pathology__c (
+   value('Pediatric Pathology'),
+   order(260),
+   active(true)
+);

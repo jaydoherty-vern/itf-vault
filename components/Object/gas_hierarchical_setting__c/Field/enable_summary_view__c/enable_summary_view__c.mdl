@@ -1,0 +1,18 @@
+Field enable_summary_view__c (
+   label('Enable Summary View'),
+   type('Boolean'),
+   active(true),
+   description('If checked, users will be able to view a pre-defined summary of the Account prior to adding it to their teritories'),
+   required(false),
+   checkbox(true),
+   help_content('If checked, users will be able to view a pre-defined summary of the Account prior to adding it to their teritories'),
+   list_column(false),
+   order(14),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

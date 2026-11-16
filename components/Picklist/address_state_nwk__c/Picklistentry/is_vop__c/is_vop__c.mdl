@@ -1,0 +1,5 @@
+Picklistentry is_vop__c (
+   value('IS_Vopnafjarðarhreppur'),
+   order(829),
+   active(true)
+);

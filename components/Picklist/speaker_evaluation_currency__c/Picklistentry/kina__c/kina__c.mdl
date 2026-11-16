@@ -1,0 +1,5 @@
+Picklistentry kina__c (
+   value('Kina'),
+   order(118),
+   active(true)
+);

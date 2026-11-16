@@ -1,0 +1,5 @@
+Picklistentry eg_kb__c (
+   value('EG_Al Qalyūbīyah'),
+   order(7),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry rs_20__c (
+   value('RS_Nišavski okrug'),
+   order(1464),
+   active(true)
+);

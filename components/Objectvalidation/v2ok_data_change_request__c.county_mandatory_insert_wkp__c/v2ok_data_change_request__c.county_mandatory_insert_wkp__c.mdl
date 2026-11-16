@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.county_mandatory_insert_wkp__c (
+   label('County_Mandatory_Insert_WKP'),
+   active(true),
+   expression('Not(And(object_type__vr.api_name__v="Workplaces",Text(change_type__c)="Create",IsBlank(Text(county__c))))'),
+   description(),
+   error_message('County Mandatory for "Create" data change request'),
+   error_location('id')
+);

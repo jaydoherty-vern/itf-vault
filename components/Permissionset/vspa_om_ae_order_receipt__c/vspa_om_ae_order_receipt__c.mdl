@@ -1,0 +1,14 @@
+RECREATE Permissionset vspa_om_ae_order_receipt__c (
+   label('VSPA_OM_AE_Order_Receipt'),
+   active(true),
+   description('Enables Order receipt'),
+   object.multichannel_route__v.record_type_name__v.field_actions('edit',
+      'read'),
+   object.order__v.account__v.field_actions('read'),
+   object.order__v.receipt_email__v.field_actions('edit',
+      'read'),
+   object.order__v.request_receipt__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

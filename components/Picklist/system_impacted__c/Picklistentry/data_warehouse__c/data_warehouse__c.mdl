@@ -1,0 +1,5 @@
+Picklistentry data_warehouse__c (
+   value('Data Warehouse'),
+   order(0),
+   active(true)
+);

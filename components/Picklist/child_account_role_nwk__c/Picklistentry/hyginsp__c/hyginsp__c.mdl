@@ -1,0 +1,5 @@
+Picklistentry hyginsp__c (
+   value('Hygiene Inspector'),
+   order(112),
+   active(true)
+);

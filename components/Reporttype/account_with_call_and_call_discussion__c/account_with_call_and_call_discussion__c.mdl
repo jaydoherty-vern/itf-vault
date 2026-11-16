@@ -1,0 +1,9 @@
+RECREATE Reporttype account_with_call_and_call_discussion__c (
+   label('Account with Call and Call Discussion'),
+   active(true),
+   description('Account with Calls (Account) (Account) and Call Discussions(Accounts)'),
+   primary_object('account__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

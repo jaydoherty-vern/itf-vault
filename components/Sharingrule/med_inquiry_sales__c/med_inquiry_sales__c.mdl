@@ -1,0 +1,8 @@
+RECREATE Sharingrule med_inquiry_sales__c (
+   label('Med Inquiry - Sales'),
+   active(true),
+   description(),
+   object('medical_inquiry__v'),
+   criteria([owner_security_profile__cr.name__v CONTAINS ('ITF_FRM_CRM', 'ITF_ISR_CRM', 'ITF_Rep_CRM')]),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

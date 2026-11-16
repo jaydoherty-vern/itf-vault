@@ -1,0 +1,5 @@
+Picklistentry ortho__c (
+   value('Orthodontics Diploma'),
+   order(230),
+   active(true)
+);

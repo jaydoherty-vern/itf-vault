@@ -1,0 +1,5 @@
+Picklistentry 17__c (
+   value('Tuberculous'),
+   order(539),
+   active(true)
+);

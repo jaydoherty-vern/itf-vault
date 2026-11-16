@@ -1,0 +1,4 @@
+Typefield vspa_honorarirum__c (
+   source('custom'),
+   required(false)
+);

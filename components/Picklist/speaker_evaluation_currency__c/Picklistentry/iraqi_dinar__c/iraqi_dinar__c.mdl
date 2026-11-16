@@ -1,0 +1,5 @@
+Picklistentry iraqi_dinar__c (
+   value('Iraqi Dinar'),
+   order(77),
+   active(true)
+);

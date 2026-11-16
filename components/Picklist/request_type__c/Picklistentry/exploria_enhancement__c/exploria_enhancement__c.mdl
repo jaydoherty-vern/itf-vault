@@ -1,0 +1,5 @@
+Picklistentry exploria_enhancement__c (
+   value('Exploria Enhancement'),
+   order(5),
+   active(true)
+);

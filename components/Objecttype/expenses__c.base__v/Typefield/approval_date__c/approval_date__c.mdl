@@ -1,0 +1,4 @@
+Typefield approval_date__c (
+   source('standard'),
+   required(false)
+);

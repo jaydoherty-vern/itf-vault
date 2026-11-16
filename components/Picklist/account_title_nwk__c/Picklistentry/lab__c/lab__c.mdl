@@ -1,0 +1,5 @@
+Picklistentry lab__c (
+   value('LAB'),
+   order(55),
+   active(true)
+);

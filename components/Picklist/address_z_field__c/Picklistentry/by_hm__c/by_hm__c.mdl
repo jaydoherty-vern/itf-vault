@@ -1,0 +1,5 @@
+Picklistentry by_hm__c (
+   value('BY-HM'),
+   order(584),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pl_pr__c (
+   value('PL_Przemyśl'),
+   order(1368),
+   active(true)
+);

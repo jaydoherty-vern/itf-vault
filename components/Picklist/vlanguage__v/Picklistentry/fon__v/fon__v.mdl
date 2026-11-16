@@ -1,0 +1,5 @@
+Picklistentry fon__v (
+   value('Fon'),
+   order(157),
+   active(false)
+);

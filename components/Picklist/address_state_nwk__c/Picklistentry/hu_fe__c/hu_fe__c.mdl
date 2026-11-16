@@ -1,0 +1,5 @@
+Picklistentry hu_fe__c (
+   value('HU_Fejér'),
+   order(688),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry bt_23__c (
+   value('BT-23'),
+   order(561),
+   active(true)
+);

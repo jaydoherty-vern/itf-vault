@@ -1,0 +1,5 @@
+Picklistentry pl_lu__c (
+   value('PL_Lubelskie'),
+   order(1353),
+   active(true)
+);

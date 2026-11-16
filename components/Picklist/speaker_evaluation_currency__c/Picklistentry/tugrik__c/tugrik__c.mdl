@@ -1,0 +1,5 @@
+Picklistentry tugrik__c (
+   value('Tugrik'),
+   order(107),
+   active(true)
+);

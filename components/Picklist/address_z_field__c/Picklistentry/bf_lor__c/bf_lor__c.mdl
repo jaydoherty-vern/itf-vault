@@ -1,0 +1,5 @@
+Picklistentry bf_lor__c (
+   value('BF-LOR'),
+   order(394),
+   active(true)
+);

@@ -1,0 +1,9 @@
+Typefield free_good_best_price_rule__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.order_line_free_good_best_price_rule__v.campaign_with_contract__v',
+         'Picklist.order_line_free_good_best_price_rule__v.combined__v',
+         'Picklist.order_line_free_good_best_price_rule__v.contract__v',
+         'Picklist.order_line_free_good_best_price_rule__v.order_campaign__v',
+         'Picklist.order_line_free_good_best_price_rule__v.standard__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout cross_event_per_attendee_attendance_limi__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Cross-Event Per Attendee Attendance Limit Rule'),
+   page_markup(@page_markup.xml)
+);

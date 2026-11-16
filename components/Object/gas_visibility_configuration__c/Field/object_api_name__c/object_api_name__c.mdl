@@ -1,0 +1,18 @@
+Field object_api_name__c (
+   label('Object API Name'),
+   type('Picklist'),
+   active(true),
+   description('The Object API name on which the custom criteria will be applicable'),
+   required(false),
+   unique(false),
+   help_content('The Object API name on which the custom criteria will be applicable'),
+   list_column(false),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.gas_visibility_configura_object_api_name__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

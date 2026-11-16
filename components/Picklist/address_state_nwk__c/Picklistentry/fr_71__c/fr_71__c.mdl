@@ -1,0 +1,5 @@
+Picklistentry fr_71__c (
+   value('FR_Saône-et-Loire'),
+   order(365),
+   active(true)
+);

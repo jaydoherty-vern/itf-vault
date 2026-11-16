@@ -1,0 +1,8 @@
+RECREATE Picklist v2ok_codetable_active__c (
+   label('Active'),
+   active(true),
+   Picklistentry(@Picklistentry/active__c.mdl),
+   Picklistentry(@Picklistentry/inactive__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

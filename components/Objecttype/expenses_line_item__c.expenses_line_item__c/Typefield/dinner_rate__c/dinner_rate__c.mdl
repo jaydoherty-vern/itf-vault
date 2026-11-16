@@ -1,0 +1,4 @@
+Typefield dinner_rate__c (
+   source('custom'),
+   required(false)
+);

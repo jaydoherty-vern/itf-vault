@@ -1,0 +1,5 @@
+Picklistentry ci_zz__c (
+   value('CI-ZZ'),
+   order(708),
+   active(true)
+);

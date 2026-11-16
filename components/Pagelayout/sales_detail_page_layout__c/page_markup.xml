@@ -1,0 +1,40 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.contract_line__v.sales__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="contract__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="notes__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Order Management Information" name="order_management_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="om_list_amount_target__v" />
+            <vault:spacer />
+            <vault:field reference="om_net_amount_target__v" />
+            <vault:spacer />
+            <vault:field reference="om_quantity_target__v" />
+            <vault:spacer />
+            <vault:field reference="om_list_amount_achieved__v" />
+            <vault:field reference="om_list_amount_remaining__v" />
+            <vault:field reference="om_net_amount_achieved__v" />
+            <vault:field reference="om_net_amount_remaining__v" />
+            <vault:field reference="om_quantity_achieved__v" />
+            <vault:field reference="om_quantity_remaining__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="external_id__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

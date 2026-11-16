@@ -1,0 +1,9 @@
+RECREATE Reporttype documented_interest_with_account__c (
+   label('Documented Interest with Account'),
+   active(true),
+   description('Documented Interest with Account'),
+   primary_object('documented_interest__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

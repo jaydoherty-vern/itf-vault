@@ -1,0 +1,5 @@
+Picklistentry c__c (
+   value('Cosmetologist'),
+   order(25),
+   active(true)
+);

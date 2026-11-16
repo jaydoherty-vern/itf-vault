@@ -1,0 +1,18 @@
+Field test_user__c (
+   label('Test User'),
+   type('Boolean'),
+   active(true),
+   description('If checked means the User is a test user. To use to differentiate users and have control on real users'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(186),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

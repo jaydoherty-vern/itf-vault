@@ -1,0 +1,5 @@
+Picklistentry it_lt__c (
+   value('IT_Latina'),
+   order(876),
+   active(true)
+);

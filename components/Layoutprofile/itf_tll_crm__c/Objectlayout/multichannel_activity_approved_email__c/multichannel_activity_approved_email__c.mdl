@@ -1,0 +1,8 @@
+Objectlayout multichannel_activity_approved_email__c (
+   label('multichannel_activity_approved_email'),
+   active(true),
+   pagelayouts('Pagelayout.field_users_layout__c'),
+   object('Object.multichannel_activity__v'),
+   objecttype('Objecttype.multichannel_activity__v.approved_email_vod__c'),
+   record_creation_layout('Pagelayout.field_users_layout__c')
+);

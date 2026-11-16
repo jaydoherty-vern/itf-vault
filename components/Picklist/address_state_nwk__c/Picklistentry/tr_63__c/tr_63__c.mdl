@@ -1,0 +1,5 @@
+Picklistentry tr_63__c (
+   value('TR_Şanlıurfa'),
+   order(1734),
+   active(true)
+);

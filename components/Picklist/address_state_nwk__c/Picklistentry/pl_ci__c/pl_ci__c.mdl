@@ -1,0 +1,5 @@
+Picklistentry pl_ci__c (
+   value('PL_Ciechanów'),
+   order(1334),
+   active(true)
+);

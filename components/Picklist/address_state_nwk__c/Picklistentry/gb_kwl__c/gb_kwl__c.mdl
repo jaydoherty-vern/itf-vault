@@ -1,0 +1,5 @@
+Picklistentry gb_kwl__c (
+   value('GB-KWL'),
+   order(528),
+   active(false)
+);

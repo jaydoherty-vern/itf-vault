@@ -1,0 +1,21 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.cycle_plan_target__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="cycle_plan__v" />
+            <vault:field reference="cycle_plan_account__v" required="true" />
+            <vault:field reference="planned_calls__v" />
+            <vault:field reference="total_planned_calls__v" />
+            <vault:field reference="remaining__v" />
+            <vault:field reference="total_remaining__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+            <vault:control reference="cycle_plan_apply_list__v" name="cycle_plan_apply_list__c" />
+            <vault:control reference="cycle_plan_add_target__v" name="cycle_plan_add_target__c" />
+            <vault:control reference="cycle_plan_schedule_calls__v" name="cycle_plan_schedule_calls__c" />
+            <vault:control reference="display_product_details__v" name="display_product_details__c" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

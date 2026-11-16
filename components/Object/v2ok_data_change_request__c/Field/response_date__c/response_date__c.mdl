@@ -1,0 +1,17 @@
+Field response_date__c (
+   label('Response Date'),
+   type('DateTime'),
+   active(true),
+   description('Indicates when the response of the validation request was entered by the operator in OneKey.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(47),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

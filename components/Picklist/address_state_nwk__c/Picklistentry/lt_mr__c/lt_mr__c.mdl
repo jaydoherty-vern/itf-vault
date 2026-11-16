@@ -1,0 +1,5 @@
+Picklistentry lt_mr__c (
+   value('LT_Marijampolės Apskritis'),
+   order(1001),
+   active(true)
+);

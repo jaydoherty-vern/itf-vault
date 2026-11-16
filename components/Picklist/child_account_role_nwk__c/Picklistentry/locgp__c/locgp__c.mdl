@@ -1,0 +1,5 @@
+Picklistentry locgp__c (
+   value('Locum GP'),
+   order(128),
+   active(true)
+);

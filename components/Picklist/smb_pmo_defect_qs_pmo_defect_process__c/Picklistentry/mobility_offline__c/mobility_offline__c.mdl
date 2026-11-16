@@ -1,0 +1,5 @@
+Picklistentry mobility_offline__c (
+   value('Mobility - Offline'),
+   order(24),
+   active(true)
+);

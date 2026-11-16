@@ -1,0 +1,18 @@
+RECREATE Picklist account_hcp_type_qs__c (
+   label('z_HCP Type'),
+   active(true),
+   Picklistentry(@Picklistentry/doctor__c.mdl),
+   Picklistentry(@Picklistentry/animal_health__c.mdl),
+   Picklistentry(@Picklistentry/dentist__c.mdl),
+   Picklistentry(@Picklistentry/military__c.mdl),
+   Picklistentry(@Picklistentry/non_prescribing_health_care_professional__c.mdl),
+   Picklistentry(@Picklistentry/nurse__c.mdl),
+   Picklistentry(@Picklistentry/business_professional__c.mdl),
+   Picklistentry(@Picklistentry/prescriber__c.mdl),
+   Picklistentry(@Picklistentry/pharmacist__c.mdl),
+   Picklistentry(@Picklistentry/student__c.mdl),
+   Picklistentry(@Picklistentry/technician__c.mdl),
+   Picklistentry(@Picklistentry/resident__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

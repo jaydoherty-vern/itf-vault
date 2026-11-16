@@ -1,0 +1,5 @@
+Picklistentry neuror__c (
+   value('Neuroradiology Diploma'),
+   order(221),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry vpz__c (
+   value('Veterinary Pathology (Zoo and Wildlife)'),
+   order(586),
+   active(true)
+);

@@ -1,0 +1,15 @@
+RECREATE Tab scientific_interests__c (
+   active(true),
+   all_view_label('All Scientific Interests'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Scientific Interests'),
+   modal_create_record(false),
+   my_view_label('My Scientific Interests'),
+   object('scientific_interest__v'),
+   order(8100),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Scientific Interests')
+);

@@ -1,0 +1,5 @@
+Picklistentry pth__c (
+   value('Anatomic/Clinical Pathology'),
+   order(30),
+   active(true)
+);

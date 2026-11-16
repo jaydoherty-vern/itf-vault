@@ -1,0 +1,5 @@
+Picklistentry mk_65__c (
+   value('MK_Rankovce'),
+   order(1265),
+   active(true)
+);

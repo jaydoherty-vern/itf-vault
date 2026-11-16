@@ -1,0 +1,5 @@
+Picklistentry bj_pl__c (
+   value('BJ-PL'),
+   order(477),
+   active(true)
+);

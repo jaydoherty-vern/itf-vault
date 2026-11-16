@@ -1,0 +1,5 @@
+Picklistentry 2_12__c (
+   value('Inactive, Moved abroad'),
+   order(4),
+   active(true)
+);

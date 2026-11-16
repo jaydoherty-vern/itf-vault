@@ -1,0 +1,5 @@
+Picklistentry pr__c (
+   value('Pediatric Radiology Diploma'),
+   order(260),
+   active(true)
+);

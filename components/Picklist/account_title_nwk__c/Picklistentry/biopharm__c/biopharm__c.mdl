@@ -1,0 +1,5 @@
+Picklistentry biopharm__c (
+   value('BIOPHARM'),
+   order(14),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry internal_medicine_cardiology_cardiovascu__c (
+   value('INTERNAL MEDICINE, CARDIOLOGY, CARDIOVASCULAR DISEASE'),
+   order(142),
+   active(true)
+);

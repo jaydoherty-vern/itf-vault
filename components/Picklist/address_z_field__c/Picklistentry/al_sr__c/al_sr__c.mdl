@@ -1,0 +1,5 @@
+Picklistentry al_sr__c (
+   value('AL-SR'),
+   order(98),
+   active(true)
+);

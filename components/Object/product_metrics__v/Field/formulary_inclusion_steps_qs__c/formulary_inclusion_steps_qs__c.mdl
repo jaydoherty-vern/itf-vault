@@ -1,0 +1,18 @@
+Field formulary_inclusion_steps_qs__c (
+   label('Formulary Inclusion Steps'),
+   type('Picklist'),
+   active(true),
+   description('QS Oct-2015: picklist to track the Formulary difficulties for KAM.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(30),
+   multi_value(false),
+   picklist('Picklist.product_met_formulary_inclusion_steps_qs__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

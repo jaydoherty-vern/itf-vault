@@ -1,0 +1,9 @@
+RECREATE Reporttype survey_with_target__c (
+   label('Survey with Survey Target'),
+   active(true),
+   description('Survey with Survey Target'),
+   primary_object('survey__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

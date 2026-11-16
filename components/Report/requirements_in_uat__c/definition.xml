@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="requirement__c.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="requirement__c.date_requested__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="requirement__c.requirement_title__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="requirement__c.urgency_of_request__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="requirement__c.impacted_business__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="requirement__c.release__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="requirement__c.production_release_date__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="requirement__c.test_status__c" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group>
+    <vrp:groupItem index="0" name="requirement__c.object_type__v" groupBySortOn="requirement__c.object_type__v" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="1" name="requirement__c.status_pmo__c" groupBySortOn="requirement__c.status_pmo__c" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order />
+</vrp:query>

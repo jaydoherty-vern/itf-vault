@@ -1,0 +1,8 @@
+Objectlayout consent_type_content_type__c (
+   label('consent_type_content_type'),
+   active(true),
+   pagelayouts('Pagelayout.approved_email_consent_type_layout__c'),
+   object('Object.consent_type__v'),
+   objecttype('Objecttype.consent_type__v.content_type_vod__c'),
+   record_creation_layout('Pagelayout.approved_email_consent_type_layout__c')
+);

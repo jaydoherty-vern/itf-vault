@@ -1,0 +1,5 @@
+Picklistentry ro_is__c (
+   value('RO_Iași'),
+   order(1433),
+   active(true)
+);

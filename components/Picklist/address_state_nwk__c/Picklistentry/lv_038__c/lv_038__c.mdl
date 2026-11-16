@@ -1,0 +1,5 @@
+Picklistentry lv_038__c (
+   value('LV_Jaunjelgavas novads (Jaunjelgava)'),
+   order(1086),
+   active(true)
+);

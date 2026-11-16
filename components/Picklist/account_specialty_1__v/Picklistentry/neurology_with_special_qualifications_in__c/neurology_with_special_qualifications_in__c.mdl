@@ -1,0 +1,5 @@
+Picklistentry neurology_with_special_qualifications_in__c (
+   value('NEUROLOGY WITH SPECIAL QUALIFICATIONS IN CHILD NEU'),
+   order(22),
+   active(true)
+);

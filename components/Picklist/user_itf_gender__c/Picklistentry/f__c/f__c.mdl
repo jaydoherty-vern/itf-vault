@@ -1,0 +1,5 @@
+Picklistentry f__c (
+   value('F'),
+   order(1),
+   active(true)
+);

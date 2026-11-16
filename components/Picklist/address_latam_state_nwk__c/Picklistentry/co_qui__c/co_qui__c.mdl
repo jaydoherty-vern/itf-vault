@@ -1,0 +1,5 @@
+Picklistentry co_qui__c (
+   value('Quindío'),
+   order(168),
+   active(true)
+);

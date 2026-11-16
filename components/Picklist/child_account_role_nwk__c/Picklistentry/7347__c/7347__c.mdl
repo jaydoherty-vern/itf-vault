@@ -1,0 +1,5 @@
+Picklistentry 7347__c (
+   value('Corp. Leased'),
+   order(49),
+   active(true)
+);

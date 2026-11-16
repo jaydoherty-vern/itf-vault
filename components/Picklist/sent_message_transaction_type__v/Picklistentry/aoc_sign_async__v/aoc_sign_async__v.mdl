@@ -1,0 +1,5 @@
+Picklistentry aoc_sign_async__v (
+   value('Asynchronous AOC signature'),
+   order(7),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield stage_preferredmailingactivty__c (
+   source('custom'),
+   required(false)
+);

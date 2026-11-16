@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_consent_capture_channel_source_chan__c (
+   label('VSPA_Consent_Capture_Channel_Source_Change'),
+   active(true),
+   description('Enables the Requirement to capture consent for Channel Source Changes (Email).'),
+   object.consent_header__v.reject_channel_source_edit_on_cancel__v.field_actions('edit',
+      'read'),
+   object.multichannel_route__v.country__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

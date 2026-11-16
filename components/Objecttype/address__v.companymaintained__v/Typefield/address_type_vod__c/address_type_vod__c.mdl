@@ -1,0 +1,8 @@
+Typefield address_type_vod__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.address_address_type_vod__c.address__c',
+         'Picklist.address_address_type_vod__c.mail_only__c',
+         'Picklist.address_address_type_vod__c.professional__c',
+         'Picklist.address_address_type_vod__c.professional_and_preferred_mail__c')
+);

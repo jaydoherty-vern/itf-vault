@@ -1,0 +1,5 @@
+Picklistentry cosmetic_pharmacy__c (
+   value('Cosmetic Pharmacy'),
+   order(28),
+   active(true)
+);

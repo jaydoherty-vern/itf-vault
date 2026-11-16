@@ -1,0 +1,5 @@
+Picklistentry co_atl__c (
+   value('CO-ATL'),
+   order(768),
+   active(true)
+);

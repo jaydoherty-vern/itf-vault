@@ -1,0 +1,5 @@
+Picklistentry tr_03__c (
+   value('TR_Afyonkarahisar'),
+   order(1669),
+   active(true)
+);

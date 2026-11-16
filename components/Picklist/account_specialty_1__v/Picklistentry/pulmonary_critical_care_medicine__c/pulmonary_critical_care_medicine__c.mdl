@@ -1,0 +1,5 @@
+Picklistentry pulmonary_critical_care_medicine__c (
+   value('Pulmonary Critical Care Medicine'),
+   order(283),
+   active(true)
+);

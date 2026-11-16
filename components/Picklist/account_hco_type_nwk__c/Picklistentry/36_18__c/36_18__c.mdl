@@ -1,0 +1,5 @@
+Picklistentry 36_18__c (
+   value('Prefecture'),
+   order(227),
+   active(true)
+);

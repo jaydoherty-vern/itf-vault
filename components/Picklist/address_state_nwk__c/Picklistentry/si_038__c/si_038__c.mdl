@@ -1,0 +1,5 @@
+Picklistentry si_038__c (
+   value('SI_Ilirska Bistrica'),
+   order(1598),
+   active(true)
+);

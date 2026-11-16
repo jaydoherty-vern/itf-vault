@@ -1,0 +1,5 @@
+Picklistentry 7341__c (
+   value('Corp. Managed'),
+   order(50),
+   active(true)
+);

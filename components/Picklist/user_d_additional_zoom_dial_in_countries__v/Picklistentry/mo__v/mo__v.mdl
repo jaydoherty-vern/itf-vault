@@ -1,0 +1,5 @@
+Picklistentry mo__v (
+   value('Macau SAR'),
+   order(63),
+   active(true)
+);

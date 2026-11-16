@@ -1,0 +1,5 @@
+Picklistentry cf_se__c (
+   value('CF-SE'),
+   order(635),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectworkflowstep cs_pa_appeal_denied__c (
+   label('CS: PA Appeal Denied'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.end__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

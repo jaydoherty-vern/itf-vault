@@ -1,0 +1,5 @@
+Picklistentry cf_bgf__c (
+   value('CF-BGF'),
+   order(623),
+   active(true)
+);

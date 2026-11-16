@@ -1,0 +1,5 @@
+Picklistentry gb_wor__c (
+   value('GB-WOR'),
+   order(642),
+   active(false)
+);

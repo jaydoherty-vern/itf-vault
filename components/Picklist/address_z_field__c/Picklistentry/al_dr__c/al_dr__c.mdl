@@ -1,0 +1,5 @@
+Picklistentry al_dr__c (
+   value('AL-DR'),
+   order(71),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry sm_01__c (
+   value('SM_Acquaviva'),
+   order(1658),
+   active(true)
+);

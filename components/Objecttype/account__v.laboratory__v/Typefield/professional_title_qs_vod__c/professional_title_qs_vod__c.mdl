@@ -1,0 +1,18 @@
+Typefield professional_title_qs_vod__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_professional_title_qs_vod__c.dentist__c',
+         'Picklist.account_professional_title_qs_vod__c.director__c',
+         'Picklist.account_professional_title_qs_vod__c.doctor__c',
+         'Picklist.account_professional_title_qs_vod__c.midwife__c',
+         'Picklist.account_professional_title_qs_vod__c.nurse__c',
+         'Picklist.account_professional_title_qs_vod__c.nurse_prescriber__c',
+         'Picklist.account_professional_title_qs_vod__c.nurse_specialist_practitioner__c',
+         'Picklist.account_professional_title_qs_vod__c.optometrist__c',
+         'Picklist.account_professional_title_qs_vod__c.pharmacist__c',
+         'Picklist.account_professional_title_qs_vod__c.pharmacy_technician__c',
+         'Picklist.account_professional_title_qs_vod__c.physiotherapist__c',
+         'Picklist.account_professional_title_qs_vod__c.podiatrist__c',
+         'Picklist.account_professional_title_qs_vod__c.technician__c',
+         'Picklist.account_professional_title_qs_vod__c.therapist__c')
+);

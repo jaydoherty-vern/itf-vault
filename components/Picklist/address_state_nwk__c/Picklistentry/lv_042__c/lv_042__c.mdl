@@ -1,0 +1,5 @@
+Picklistentry lv_042__c (
+   value('LV_Jēkabpils novads'),
+   order(1090),
+   active(true)
+);

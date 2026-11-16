@@ -1,0 +1,5 @@
+Picklistentry kw_ha__c (
+   value('KW_Ḩawallī'),
+   order(55),
+   active(true)
+);

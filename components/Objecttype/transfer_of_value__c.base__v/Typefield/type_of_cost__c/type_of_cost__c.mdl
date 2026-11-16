@@ -1,0 +1,4 @@
+Typefield type_of_cost__c (
+   source('standard'),
+   required(false)
+);

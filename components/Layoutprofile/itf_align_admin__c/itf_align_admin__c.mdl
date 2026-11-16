@@ -1,0 +1,7 @@
+RECREATE Layoutprofile itf_align_admin__c (
+   label('ITF_ALIGN_Admin'),
+   active(true),
+   description('Align Admin Layout Profile'),
+   Objectlayout(@Objectlayout/account_hospital__c.mdl),
+   Objectlayout(@Objectlayout/account_professional__c.mdl)
+);

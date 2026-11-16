@@ -1,0 +1,5 @@
+Picklistentry neurol__c (
+   value('Neurology'),
+   order(267),
+   active(true)
+);

@@ -1,0 +1,9 @@
+Typefield area_of_expertise__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_area_of_expertise__c.acute_pain__c',
+         'Picklist.account_area_of_expertise__c.chronic_non_cancer_pain__c',
+         'Picklist.account_area_of_expertise__c.migraine__c',
+         'Picklist.account_area_of_expertise__c.other__c',
+         'Picklist.account_area_of_expertise__c.supportive_care_oncology__c')
+);

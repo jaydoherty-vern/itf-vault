@@ -1,0 +1,5 @@
+Picklistentry sha__c (
+   value('SHA'),
+   order(18),
+   active(true)
+);

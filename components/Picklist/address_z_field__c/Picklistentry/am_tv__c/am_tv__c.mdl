@@ -1,0 +1,5 @@
+Picklistentry am_tv__c (
+   value('AM-TV'),
+   order(112),
+   active(true)
+);

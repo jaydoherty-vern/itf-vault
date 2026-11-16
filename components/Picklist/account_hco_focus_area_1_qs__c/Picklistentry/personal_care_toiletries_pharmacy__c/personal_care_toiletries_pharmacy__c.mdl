@@ -1,0 +1,5 @@
+Picklistentry personal_care_toiletries_pharmacy__c (
+   value('Personal Care/Toiletries Pharmacy'),
+   order(78),
+   active(true)
+);

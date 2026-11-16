@@ -1,0 +1,5 @@
+Picklistentry lv_077__c (
+   value('LV_Rēzeknes novads'),
+   order(1130),
+   active(true)
+);

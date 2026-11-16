@@ -1,0 +1,5 @@
+Picklistentry al_ha__c (
+   value('AL_Has'),
+   order(23),
+   active(true)
+);

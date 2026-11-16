@@ -1,0 +1,5 @@
+Picklistentry phar__c (
+   value('Head Pharmacist'),
+   order(101),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pud__c (
+   value('Pulmonary Disease'),
+   order(446),
+   active(true)
+);

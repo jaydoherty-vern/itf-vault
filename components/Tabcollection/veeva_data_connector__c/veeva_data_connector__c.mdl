@@ -1,0 +1,10 @@
+RECREATE Tabcollection veeva_data_connector__c (
+   label('Veeva Data connector'),
+   active(true),
+   help_content(),
+   Tabcollectionitem(@Tabcollectionitem/batch_job_error__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/ccrms_permission_set_map__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/v2ok_batch_job__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/v2ok_data_change_request__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/vspa_error_log__c.mdl)
+);

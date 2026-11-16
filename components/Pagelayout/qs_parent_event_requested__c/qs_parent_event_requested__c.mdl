@@ -1,0 +1,8 @@
+RECREATE Pagelayout qs_parent_event_requested__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('QS_Parent_Event_Requested'),
+   page_markup(@page_markup.xml)
+);

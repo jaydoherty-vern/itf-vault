@@ -1,0 +1,14 @@
+Typefield expense_item__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.expenses_line_item_expense_item__c.consumption__c',
+         'Picklist.expenses_line_item_expense_item__c.entertainment__c',
+         'Picklist.expenses_line_item_expense_item__c.food__c',
+         'Picklist.expenses_line_item_expense_item__c.hotel__c',
+         'Picklist.expenses_line_item_expense_item__c.mailing__c',
+         'Picklist.expenses_line_item_expense_item__c.other__c',
+         'Picklist.expenses_line_item_expense_item__c.paper__c',
+         'Picklist.expenses_line_item_expense_item__c.stationary__c',
+         'Picklist.expenses_line_item_expense_item__c.toll__c',
+         'Picklist.expenses_line_item_expense_item__c.transportation__c')
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_der__c (
+   value('GB-DER'),
+   order(471),
+   active(false)
+);

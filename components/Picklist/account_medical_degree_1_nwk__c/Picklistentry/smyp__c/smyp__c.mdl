@@ -1,0 +1,5 @@
+Picklistentry smyp__c (
+   value('School Medicine And Youth Protection Diploma'),
+   order(330),
+   active(true)
+);

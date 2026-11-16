@@ -1,0 +1,5 @@
+Picklistentry neppat__c (
+   value('Nephropathology'),
+   order(263),
+   active(true)
+);

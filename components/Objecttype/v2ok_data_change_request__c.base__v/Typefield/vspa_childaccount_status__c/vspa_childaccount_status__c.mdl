@@ -1,0 +1,4 @@
+Typefield vspa_childaccount_status__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry ee_65__c (
+   value('EE_Põlvamaa'),
+   order(176),
+   active(true)
+);

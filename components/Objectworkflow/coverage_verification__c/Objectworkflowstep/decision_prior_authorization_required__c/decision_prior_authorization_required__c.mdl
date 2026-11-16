@@ -1,0 +1,8 @@
+Objectworkflowstep decision_prior_authorization_required__c (
+   label('Decision: Prior Authorization Required?'),
+   type('decision'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

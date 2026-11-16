@@ -1,0 +1,5 @@
+Picklistentry gb_lin__c (
+   value('GB-LIN'),
+   order(535),
+   active(false)
+);

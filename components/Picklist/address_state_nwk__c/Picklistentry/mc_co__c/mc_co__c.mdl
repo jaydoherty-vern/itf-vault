@@ -1,0 +1,5 @@
+Picklistentry mc_co__c (
+   value('MC_La Condamine'),
+   order(1171),
+   active(true)
+);

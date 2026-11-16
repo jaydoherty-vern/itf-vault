@@ -1,0 +1,4 @@
+Typefield individual_notified__c (
+   source('custom'),
+   required(false)
+);

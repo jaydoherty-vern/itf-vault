@@ -1,0 +1,9 @@
+RECREATE Reporttype call_with_account__c (
+   label('Call with Account'),
+   active(true),
+   description('Call with Account'),
+   primary_object('call2__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

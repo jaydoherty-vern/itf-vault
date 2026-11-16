@@ -1,0 +1,5 @@
+Picklistentry ci_gd__c (
+   value('CI-GD'),
+   order(699),
+   active(true)
+);

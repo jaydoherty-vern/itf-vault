@@ -1,0 +1,5 @@
+Picklistentry ar_z__c (
+   value('Santa Cruz (AR)'),
+   order(75),
+   active(true)
+);

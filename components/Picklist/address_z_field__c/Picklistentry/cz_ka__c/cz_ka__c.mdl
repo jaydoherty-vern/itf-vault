@@ -1,0 +1,5 @@
+Picklistentry cz_ka__c (
+   value('CZ-KA'),
+   order(957),
+   active(true)
+);

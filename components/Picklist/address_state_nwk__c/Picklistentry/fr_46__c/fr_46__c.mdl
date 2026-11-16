@@ -1,0 +1,5 @@
+Picklistentry fr_46__c (
+   value('FR_Lot'),
+   order(337),
+   active(true)
+);

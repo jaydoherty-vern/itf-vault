@@ -1,0 +1,5 @@
+Picklistentry es_lu__c (
+   value('ES_Lugo'),
+   order(213),
+   active(true)
+);

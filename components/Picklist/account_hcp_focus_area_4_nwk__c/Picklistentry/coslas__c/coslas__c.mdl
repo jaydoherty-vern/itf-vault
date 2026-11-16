@@ -1,0 +1,5 @@
+Picklistentry coslas__c (
+   value('Cosmetic Laser Treatment (Laser Resurfacing)'),
+   order(92),
+   active(true)
+);

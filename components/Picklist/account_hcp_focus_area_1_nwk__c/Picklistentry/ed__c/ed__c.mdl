@@ -1,0 +1,5 @@
+Picklistentry ed__c (
+   value('Erectile Dysfunction'),
+   order(139),
+   active(true)
+);

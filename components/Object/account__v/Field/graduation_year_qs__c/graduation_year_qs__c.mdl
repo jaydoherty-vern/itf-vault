@@ -1,0 +1,22 @@
+Field graduation_year_qs__c (
+   label('Graduation Year'),
+   type('Number'),
+   active(true),
+   description('Network field - Grad Year'),
+   required(false),
+   unique(false),
+   max_value(9999),
+   min_value(-9999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(234),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

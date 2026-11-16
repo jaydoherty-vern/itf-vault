@@ -1,0 +1,5 @@
+Picklistentry is_thg__c (
+   value('IS_Þingeyjarsveit'),
+   order(830),
+   active(true)
+);

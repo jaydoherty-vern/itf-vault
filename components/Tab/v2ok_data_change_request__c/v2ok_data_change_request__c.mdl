@@ -1,0 +1,12 @@
+RECREATE Tab v2ok_data_change_request__c (
+   active(true),
+   all_view_label('All V2OK Data Change Requests'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('V2OK Data Change Requests'),
+   my_view_label('My V2OK Data Change Requests'),
+   object('v2ok_data_change_request__c'),
+   order(2500),
+   parent(),
+   recent_view_label('Recent V2OK Data Change Requests')
+);

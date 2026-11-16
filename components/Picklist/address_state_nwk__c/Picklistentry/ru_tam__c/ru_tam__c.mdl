@@ -1,0 +1,5 @@
+Picklistentry ru_tam__c (
+   value('RU_Tambovskaya oblast'''),
+   order(1549),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectworkflowstep uf_prior_authorization_required__c (
+   label('UF: Prior Authorization Required'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.cs_coverage_verification_complete__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

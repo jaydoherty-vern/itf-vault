@@ -1,0 +1,5 @@
+Picklistentry ch_gl__c (
+   value('CH-GL'),
+   order(658),
+   active(true)
+);

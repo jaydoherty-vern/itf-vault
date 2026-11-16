@@ -1,0 +1,5 @@
+Picklistentry cosm__c (
+   value('Cosmetic Pharmacy'),
+   order(64),
+   active(true)
+);

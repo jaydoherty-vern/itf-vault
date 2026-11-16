@@ -1,0 +1,8 @@
+Tabcollectionitem align_admin__c (
+   label(),
+   active(true),
+   tabs(),
+   order(6),
+   tab('Tab.aln_align_admin__v'),
+   type('Tab')
+);

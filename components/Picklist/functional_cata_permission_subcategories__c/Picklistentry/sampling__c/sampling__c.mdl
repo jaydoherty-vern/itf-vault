@@ -1,0 +1,5 @@
+Picklistentry sampling__c (
+   value('Sampling'),
+   order(29),
+   active(true)
+);

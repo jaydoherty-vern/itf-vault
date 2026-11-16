@@ -1,0 +1,8 @@
+RECREATE Pagelayout approved_email_consent_type_layout__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Approved Email Consent Type Layout'),
+   page_markup(@page_markup.xml)
+);

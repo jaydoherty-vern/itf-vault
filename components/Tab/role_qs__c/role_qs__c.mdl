@@ -1,0 +1,12 @@
+RECREATE Tab role_qs__c (
+   active(true),
+   all_view_label('All Roles'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Roles'),
+   my_view_label('My Roles'),
+   object('role_qs__c'),
+   order(3000),
+   parent(),
+   recent_view_label('Recent Roles')
+);

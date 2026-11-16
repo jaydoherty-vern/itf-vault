@@ -1,0 +1,5 @@
+Picklistentry cv_sd__c (
+   value('CV-SD'),
+   order(835),
+   active(true)
+);

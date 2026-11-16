@@ -1,0 +1,17 @@
+RECREATE Permissionset vspa_om_suggested_retail_price__c (
+   label('VSPA_OM_Suggested_Retail_Price'),
+   active(true),
+   description('Enables the Suggested Retail Price functionality'),
+   object.order__v.order_total_profit__v.field_actions('edit',
+      'read'),
+   object.order_line__v.profit__v.field_actions('edit',
+      'read'),
+   object.order_line__v.suggested_retail_price__v.field_actions('edit',
+      'read'),
+   object.order_line__v.suggested_retail_price_rule__v.field_actions('edit',
+      'read'),
+   object.pricing_rule__v.suggested_retail_price__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

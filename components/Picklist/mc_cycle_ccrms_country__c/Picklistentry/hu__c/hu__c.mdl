@@ -1,0 +1,5 @@
+Picklistentry hu__c (
+   value('HU'),
+   order(11),
+   active(true)
+);

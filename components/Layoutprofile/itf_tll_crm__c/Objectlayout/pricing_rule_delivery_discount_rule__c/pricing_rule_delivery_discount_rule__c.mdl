@@ -1,0 +1,8 @@
+Objectlayout pricing_rule_delivery_discount_rule__c (
+   label('pricing_rule_delivery_discount_rule'),
+   active(true),
+   pagelayouts('Pagelayout.delivery_discount_rule_vod__c'),
+   object('Object.pricing_rule__v'),
+   objecttype('Objecttype.pricing_rule__v.delivery_discount_rule__v'),
+   record_creation_layout('Pagelayout.delivery_discount_rule_vod__c')
+);

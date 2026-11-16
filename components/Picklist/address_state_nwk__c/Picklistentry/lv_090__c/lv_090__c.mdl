@@ -1,0 +1,5 @@
+Picklistentry lv_090__c (
+   value('LV_Sējas novads (Sēja)'),
+   order(1144),
+   active(true)
+);

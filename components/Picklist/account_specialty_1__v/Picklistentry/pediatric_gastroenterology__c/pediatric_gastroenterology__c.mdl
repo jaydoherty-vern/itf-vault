@@ -1,0 +1,5 @@
+Picklistentry pediatric_gastroenterology__c (
+   value('Pediatric Gastroenterology'),
+   order(253),
+   active(true)
+);

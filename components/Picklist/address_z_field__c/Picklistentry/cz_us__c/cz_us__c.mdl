@@ -1,0 +1,5 @@
+Picklistentry cz_us__c (
+   value('CZ-US'),
+   order(966),
+   active(true)
+);

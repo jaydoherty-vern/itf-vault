@@ -1,0 +1,5 @@
+Picklistentry cx__v (
+   value('Chirstmas Island'),
+   order(53),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gb_man__c (
+   value('GB-MAN'),
+   order(542),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry poc__c (
+   value('POC'),
+   order(3),
+   active(true)
+);

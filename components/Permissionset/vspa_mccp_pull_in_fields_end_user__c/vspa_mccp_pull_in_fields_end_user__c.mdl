@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_mccp_pull_in_fields_end_user__c (
+   label('VSPA_MCCP_Pull_in_Fields_End_User'),
+   active(true),
+   description('Enables the Product Metrics Pull-Through Fields for MCCP.'),
+   object.mc_cycle_plan_product__v.zvod_pm_adoption_level__c.field_actions('read'),
+   object.mc_cycle_plan_product__v.zvod_pm_awareness__c.field_actions('read'),
+   object.mc_cycle_plan_product__v.zvod_pm_segment__c.field_actions('read'),
+   object.mc_cycle_product__v.applicable_product_metrics__v.field_actions('read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

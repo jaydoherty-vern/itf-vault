@@ -1,0 +1,5 @@
+Picklistentry pht__c (
+   value('Pharmacy Technician'),
+   order(76),
+   active(true)
+);

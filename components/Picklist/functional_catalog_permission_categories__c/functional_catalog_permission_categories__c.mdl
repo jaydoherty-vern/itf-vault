@@ -1,0 +1,16 @@
+RECREATE Picklist functional_catalog_permission_categories__c (
+   label('Permission Categories'),
+   active(true),
+   Picklistentry(@Picklistentry/account_management__c.mdl),
+   Picklistentry(@Picklistentry/admin__c.mdl),
+   Picklistentry(@Picklistentry/call_management__c.mdl),
+   Picklistentry(@Picklistentry/coaching__c.mdl),
+   Picklistentry(@Picklistentry/events__c.mdl),
+   Picklistentry(@Picklistentry/kam__c.mdl),
+   Picklistentry(@Picklistentry/medical__c.mdl),
+   Picklistentry(@Picklistentry/otc__c.mdl),
+   Picklistentry(@Picklistentry/reporting__c.mdl),
+   Picklistentry(@Picklistentry/system__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

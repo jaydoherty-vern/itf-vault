@@ -1,0 +1,5 @@
+Picklistentry crd__c (
+   value('CRD'),
+   order(53),
+   active(true)
+);

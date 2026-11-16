@@ -1,0 +1,5 @@
+Picklistentry blood__c (
+   value('Blood Transfusion'),
+   order(43),
+   active(true)
+);

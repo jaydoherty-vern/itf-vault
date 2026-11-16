@@ -1,0 +1,5 @@
+Picklistentry lv_100__c (
+   value('LV_Vaiņodes novads (Vaiņode)'),
+   order(1154),
+   active(true)
+);

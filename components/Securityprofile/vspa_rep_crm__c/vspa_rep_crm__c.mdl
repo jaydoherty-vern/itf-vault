@@ -1,0 +1,6 @@
+RECREATE Securityprofile vspa_rep_crm__c (
+   label('VSPA_Rep_CRM'),
+   active(true),
+   description(),
+   permission_sets('vspa_rep_crm_ps__c')
+);

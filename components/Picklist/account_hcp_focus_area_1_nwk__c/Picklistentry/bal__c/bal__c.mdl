@@ -1,0 +1,5 @@
+Picklistentry bal__c (
+   value('Physical Therapy & Balneology'),
+   order(356),
+   active(true)
+);

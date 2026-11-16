@@ -1,0 +1,8 @@
+Objectlayout sent_message_remote_meeting_invite_link__c (
+   label('sent_message_remote_meeting_invite_link'),
+   active(true),
+   pagelayouts('Pagelayout.remote_meeting_invite_link__c'),
+   object('Object.sent_message__v'),
+   objecttype('Objecttype.sent_message__v.remote_meeting_invite_link__v'),
+   record_creation_layout('Pagelayout.remote_meeting_invite_link__c')
+);

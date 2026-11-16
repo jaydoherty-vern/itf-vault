@@ -1,0 +1,5 @@
+Picklistentry fr_gf__c (
+   value('FR_Guyane (française)'),
+   order(313),
+   active(true)
+);

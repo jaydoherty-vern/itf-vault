@@ -1,0 +1,5 @@
+Picklistentry pl_ol__c (
+   value('PL_Olsztyn'),
+   order(1358),
+   active(true)
+);

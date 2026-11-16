@@ -1,0 +1,22 @@
+Field vspa_nr_of_mailing_activities__c (
+   label('Nr. of Mailing Activities'),
+   type('Number'),
+   active(true),
+   description('Technical field. Populated by the Mailing_Activity_Rollup trigger.'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(362),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

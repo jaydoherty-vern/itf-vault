@@ -1,0 +1,5 @@
+Picklistentry cip__c (
+   value('Clinical Informatics (Pathology)'),
+   order(75),
+   active(true)
+);

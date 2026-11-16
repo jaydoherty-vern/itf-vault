@@ -1,0 +1,4 @@
+Typefield hcp_sln__c (
+   source('standard'),
+   required(false)
+);

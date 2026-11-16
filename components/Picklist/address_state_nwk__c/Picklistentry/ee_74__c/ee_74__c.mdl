@@ -1,0 +1,5 @@
+Picklistentry ee_74__c (
+   value('EE_Saaremaa'),
+   order(178),
+   active(true)
+);

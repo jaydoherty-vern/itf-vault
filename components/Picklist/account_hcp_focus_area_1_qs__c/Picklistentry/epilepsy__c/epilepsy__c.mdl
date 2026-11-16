@@ -1,0 +1,5 @@
+Picklistentry epilepsy__c (
+   value('Epilepsy'),
+   order(67),
+   active(true)
+);

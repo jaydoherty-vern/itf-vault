@@ -1,0 +1,21 @@
+Field postal_code__c (
+   label('Postal Code'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(132),
+   formula('If(zip__v!="",zip__v,account__vr.primary_zip_postal_code_qs__c)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

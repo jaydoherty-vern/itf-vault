@@ -1,0 +1,5 @@
+Picklistentry lecfu__c (
+   value('LECFU'),
+   order(12),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield itf_sharing_group__c (
+   source('standard'),
+   required(false)
+);

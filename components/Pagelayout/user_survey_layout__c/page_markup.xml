@@ -1,0 +1,37 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.survey__v.user_survey__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:control reference="channels__v" name="channels__c" />
+            <vault:field reference="language__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="itf_share_team__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Assignment Rules" name="assignment_rules__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="assignment_type__v" />
+            <vault:field reference="product__v" />
+            <vault:control reference="territories__v" name="territories__c">
+                <vault:bind property="singleTerritory" value="false" />
+            </vault:control>
+            <vault:field reference="autotarget__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Questions" name="questions_section__c" reference="questions_section__v">
+        <vault:bind property="qbo" value="false" />
+    </vault:section>
+    <vault:section title="Segments" name="segments_section__c" reference="segments_section__v" />
+    <vault:section title="Targets" name="targets_section__c" reference="targets_section__v" />
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

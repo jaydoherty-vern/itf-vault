@@ -1,0 +1,5 @@
+Picklistentry eg_ba__c (
+   value('EG_Al Baḩr al Aḩmar'),
+   order(24),
+   active(true)
+);

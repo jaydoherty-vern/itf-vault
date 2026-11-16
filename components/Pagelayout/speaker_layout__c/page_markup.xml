@@ -1,0 +1,96 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_speaker__v.speaker__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="speaker_formatted_name__v" />
+            <vault:field reference="title__v" />
+            <vault:field reference="credentials__v" />
+            <vault:field reference="speaker_identifier__v" />
+            <vault:field reference="em_speaker_status__v" />
+            <vault:field reference="tier__v" />
+            <vault:field reference="address__v" />
+            <vault:field reference="vspa_country_code__c" />
+            <vault:field reference="requires_corporate_contract__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Utilization" name="utilization__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="year_to_date_utilization__v" />
+            <vault:field reference="annual_cap__v" />
+            <vault:field reference="year_to_date_spend__v" />
+            <vault:field reference="cap_remaining__v" />
+            <vault:field reference="upcoming_committed_costs__v" />
+            <vault:field reference="cap_remaining_committed__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Speaker Portal" name="speaker_portal__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="email__v" />
+            <vault:field reference="language__v" />
+            <vault:spacer />
+            <vault:field reference="portal_access__v" />
+            <vault:field reference="portal_account_creation_date__v" />
+            <vault:field reference="portal_registration_email_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Speaker Qualifications" name="speaker__c">
+        <vault:relatedObject relationship="speaker__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="qualification__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="qualification_name__v" width="200px" />
+            <vault:field reference="rate__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Event Speakers" name="speakers__c">
+        <vault:relatedObject relationship="speakers__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="event__v" width="200px" />
+            <vault:field reference="start_time__v" width="200px" />
+            <vault:field reference="meal_opt_in__v" width="200px" />
+            <vault:field reference="signature_datetime__v" width="200px" />
+            <vault:field reference="em_event_speaker_status__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Contract Partners" name="contract_partners__c">
+        <vault:relatedObject relationship="contract_partners__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="contract_partner_status__v" width="200px" />
+            <vault:field reference="contract__v" width="200px" />
+            <vault:field reference="signature_datetime__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Speaker Nominations" name="speaker_nomination__c">
+        <vault:relatedObject relationship="speaker_nomination__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="type__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="em_speaker_nomination_status__v" width="200px" />
+            <vault:field reference="justification__v" width="200px" />
+            <vault:field reference="comments__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="created_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

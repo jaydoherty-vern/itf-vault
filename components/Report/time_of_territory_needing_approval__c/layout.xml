@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true" documentScope="ACTIVE">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:targetDocumentAlias>Target Document</vrp:targetDocumentAlias>
+  <vrp:sourceDocumentAlias>Source Document</vrp:sourceDocumentAlias>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:combineReportPrompts>false</vrp:combineReportPrompts>
+  <vrp:enableMergeCells>false</vrp:enableMergeCells>
+  <vrp:mergeCellsWithinView>false</vrp:mergeCellsWithinView>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:removeLinksFromExport>false</vrp:removeLinksFromExport>
+  <vrp:columns>
+    <vrp:column key="time_off_territory__v.name__v" type="documentProperty" index="0" columnWidth="200" />
+    <vrp:column key="time_off_territory__v.date__v" type="documentProperty" index="1" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.time__v" type="documentProperty" index="2" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.territory__v" type="documentProperty" index="3" columnWidth="155" />
+    <vrp:column key="time_off_territory__v.time_off_territory_status__v" type="documentProperty" index="4" columnWidth="164" />
+    <vrp:column key="time_off_territory__v___ownerid__v.name__v" type="documentProperty" index="5" columnWidth="200" />
+    <vrp:column key="time_off_territory__v___ownerid__v.manager__sys" type="documentProperty" index="6" columnWidth="155" />
+  </vrp:columns>
+</vrp:reportFormat>

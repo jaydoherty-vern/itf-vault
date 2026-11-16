@@ -1,0 +1,5 @@
+Picklistentry pt_17__c (
+   value('PT_Vila Real'),
+   order(1407),
+   active(true)
+);

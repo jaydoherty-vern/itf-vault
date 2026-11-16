@@ -1,0 +1,5 @@
+Picklistentry gb_wdu__c (
+   value('GB-WDU'),
+   order(631),
+   active(false)
+);

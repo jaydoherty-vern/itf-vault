@@ -1,0 +1,5 @@
+Picklistentry 2_3__c (
+   value('Inactive, Left for Advanced Study or Dispatch to other HCO or Go Abroad'),
+   order(8),
+   active(true)
+);

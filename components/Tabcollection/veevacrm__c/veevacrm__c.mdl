@@ -1,0 +1,14 @@
+RECREATE Tabcollection veevacrm__c (
+   label('Veeva CRM'),
+   active(true),
+   help_content(),
+   Tabcollectionitem(@Tabcollectionitem/expenses__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/gas_visibility_configuration__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/hco_type_qs__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/role_qs__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/specialty_qs__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/state_qs__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/title_qs__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/v2ok_codetable__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/vspa_error_log__c.mdl)
+);

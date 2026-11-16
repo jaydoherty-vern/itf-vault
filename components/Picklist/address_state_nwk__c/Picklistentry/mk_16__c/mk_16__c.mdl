@@ -1,0 +1,5 @@
+Picklistentry mk_16__c (
+   value('MK_Vrapčište'),
+   order(1285),
+   active(true)
+);

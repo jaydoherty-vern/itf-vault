@@ -1,0 +1,5 @@
+Picklistentry calendar_sharing__c (
+   value('Calendar sharing'),
+   order(31),
+   active(true)
+);

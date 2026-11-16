@@ -1,0 +1,5 @@
+Picklistentry taka__c (
+   value('Taka'),
+   order(15),
+   active(true)
+);

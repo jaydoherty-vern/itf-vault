@@ -1,0 +1,5 @@
+Picklistentry it_fm__c (
+   value('IT_Fermo'),
+   order(863),
+   active(true)
+);

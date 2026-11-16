@@ -1,0 +1,5 @@
+Picklistentry wamza__c (
+   value('WAMZA'),
+   order(564),
+   active(true)
+);

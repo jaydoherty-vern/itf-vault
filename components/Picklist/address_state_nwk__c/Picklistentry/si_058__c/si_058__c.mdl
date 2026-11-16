@@ -1,0 +1,5 @@
+Picklistentry si_058__c (
+   value('SI_Lenart'),
+   order(1607),
+   active(true)
+);

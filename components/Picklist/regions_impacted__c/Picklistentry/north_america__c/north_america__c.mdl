@@ -1,0 +1,5 @@
+Picklistentry north_america__c (
+   value('North America'),
+   order(1),
+   active(true)
+);

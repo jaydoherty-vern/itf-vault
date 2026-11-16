@@ -1,0 +1,5 @@
+Picklistentry paget_s_disease__c (
+   value('Paget''s Disease'),
+   order(72),
+   active(true)
+);

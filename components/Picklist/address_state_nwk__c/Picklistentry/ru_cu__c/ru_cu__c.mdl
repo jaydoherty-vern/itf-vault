@@ -1,0 +1,5 @@
+Picklistentry ru_cu__c (
+   value('RU_Chuvashskaya Respublika'),
+   order(1496),
+   active(true)
+);

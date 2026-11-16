@@ -1,0 +1,5 @@
+Picklistentry transitional_year__c (
+   value('Transitional Year'),
+   order(300),
+   active(true)
+);

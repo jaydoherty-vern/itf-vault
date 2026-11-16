@@ -1,0 +1,5 @@
+Picklistentry pediatric_med_physical_med_rehab__c (
+   value('PEDIATRIC MEDICINE, PHYSICAL MEDICINE AND REHABILITATION'),
+   order(369),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mini__c (
+   value('Mini-Implants'),
+   order(247),
+   active(true)
+);

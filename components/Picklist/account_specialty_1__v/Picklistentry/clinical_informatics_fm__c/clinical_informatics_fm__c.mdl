@@ -1,0 +1,5 @@
+Picklistentry clinical_informatics_fm__c (
+   value('CLINICAL INFORMATICS (FM)'),
+   order(323),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield expense_iso_country_code_vspa__c (
+   source('custom'),
+   required(false)
+);

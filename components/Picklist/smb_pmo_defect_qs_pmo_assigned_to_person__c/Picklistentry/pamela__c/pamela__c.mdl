@@ -1,0 +1,5 @@
+Picklistentry pamela__c (
+   value('Pamela'),
+   order(7),
+   active(true)
+);

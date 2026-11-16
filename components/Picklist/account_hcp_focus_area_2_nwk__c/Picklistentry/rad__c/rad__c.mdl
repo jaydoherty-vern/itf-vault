@@ -1,0 +1,5 @@
+Picklistentry rad__c (
+   value('Radiology'),
+   order(382),
+   active(true)
+);

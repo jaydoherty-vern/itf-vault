@@ -1,0 +1,5 @@
+Picklistentry si_089__c (
+   value('SI_Pesnica'),
+   order(1620),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry society_meeting__c (
+   value('Society Meeting'),
+   order(27),
+   active(true)
+);

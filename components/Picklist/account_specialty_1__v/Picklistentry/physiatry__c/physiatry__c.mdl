@@ -1,0 +1,5 @@
+Picklistentry physiatry__c (
+   value('PHYSIATRY'),
+   order(383),
+   active(true)
+);

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true" documentScope="ACTIVE">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:columns>
+    <vrp:column key="requirement__c.name__v" type="documentProperty" index="0" columnWidth="200" />
+    <vrp:column key="requirement__c.date_requested__c" type="documentProperty" index="1" columnWidth="155" />
+    <vrp:column key="requirement__c.requirement_title__c" type="documentProperty" index="2" columnWidth="155" />
+    <vrp:column key="requirement__c.urgency_of_request__c" type="documentProperty" index="3" columnWidth="155" />
+    <vrp:column key="requirement__c.impacted_business__c" type="documentProperty" index="4" columnWidth="155" />
+    <vrp:column key="requirement__c.release__c" type="documentProperty" index="5" columnWidth="155" />
+    <vrp:column key="requirement__c.production_release_date__c" type="documentProperty" index="6" columnWidth="155" />
+    <vrp:column key="requirement__c.test_status__c" type="documentProperty" index="7" columnWidth="155" />
+  </vrp:columns>
+</vrp:reportFormat>

@@ -1,0 +1,5 @@
+Picklistentry congolese_franc__c (
+   value('Congolese Franc'),
+   order(43),
+   active(true)
+);

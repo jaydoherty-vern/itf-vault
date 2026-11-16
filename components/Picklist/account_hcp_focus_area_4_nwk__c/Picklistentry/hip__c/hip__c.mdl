@@ -1,0 +1,5 @@
+Picklistentry hip__c (
+   value('Hip'),
+   order(184),
+   active(true)
+);

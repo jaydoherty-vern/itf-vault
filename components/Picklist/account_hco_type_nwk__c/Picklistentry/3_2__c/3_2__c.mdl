@@ -1,0 +1,5 @@
+Picklistentry 3_2__c (
+   value('Primary-level Medical and Health Care Institutions, Community Health Service Center'),
+   order(231),
+   active(true)
+);

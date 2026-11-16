@@ -1,0 +1,5 @@
+Picklistentry application_made__c (
+   value('Application made'),
+   order(4),
+   active(true)
+);

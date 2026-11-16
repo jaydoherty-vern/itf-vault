@@ -1,0 +1,6 @@
+Picklistentry otp_group_call_report__sys (
+   value('Group Call Report'),
+   order(77),
+   active(true),
+   controlling_entries('olc_call__sys')
+);

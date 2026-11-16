@@ -1,0 +1,5 @@
+Picklistentry it_tv__c (
+   value('IT_Treviso'),
+   order(930),
+   active(true)
+);

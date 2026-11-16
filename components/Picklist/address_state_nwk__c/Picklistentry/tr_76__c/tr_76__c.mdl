@@ -1,0 +1,5 @@
+Picklistentry tr_76__c (
+   value('TR_Iğdır'),
+   order(1704),
+   active(true)
+);

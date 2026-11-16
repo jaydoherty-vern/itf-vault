@@ -1,0 +1,18 @@
+Field show_all_addresses__c (
+   label('Show_All_Addresses'),
+   type('Boolean'),
+   active(true),
+   description('If checked, display all addresses for an Account; otherwise, only display primary address. If no primary address, display the first one found.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(42),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry li_05__c (
+   value('LI_Planken'),
+   order(966),
+   active(true)
+);

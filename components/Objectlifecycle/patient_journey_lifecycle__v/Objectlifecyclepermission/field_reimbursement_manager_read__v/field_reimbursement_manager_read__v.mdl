@@ -1,0 +1,9 @@
+Objectlifecyclepermission field_reimbursement_manager_read__v (
+   states('Objectlifecyclestate.active_state__v',
+         'Objectlifecyclestate.completed_state__v',
+         'Objectlifecyclestate.discontinued_state__v',
+         'Objectlifecyclestate.enrolled_state__v',
+         'Objectlifecyclestate.inactive_state__v'),
+   role('Objectlifecyclerole.field_reimbursement_manager__v'),
+   permission('Read')
+);

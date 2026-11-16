@@ -1,0 +1,5 @@
+Picklistentry vir__c (
+   value('Vascular & Interventional Radiology'),
+   order(530),
+   active(true)
+);

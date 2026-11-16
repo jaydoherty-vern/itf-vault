@@ -1,0 +1,5 @@
+Picklistentry was__v (
+   value('Washo'),
+   order(355),
+   active(false)
+);

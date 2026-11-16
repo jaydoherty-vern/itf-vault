@@ -1,0 +1,8 @@
+Objectlayout analytics_layouts_territory_comparison__c (
+   label('analytics_layouts_territory_comparison'),
+   active(true),
+   pagelayouts('Pagelayout.territory_comparison__c'),
+   object('Object.analytics_layouts__v'),
+   objecttype('Objecttype.analytics_layouts__v.territory_comparison__v'),
+   record_creation_layout('Pagelayout.territory_comparison__c')
+);

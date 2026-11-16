@@ -1,0 +1,5 @@
+Picklistentry le__c (
+   value('Legal owning entity of hospitals and clinics'),
+   order(81),
+   active(true)
+);

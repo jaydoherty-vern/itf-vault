@@ -1,0 +1,5 @@
+Picklistentry nutrition_dietetics__c (
+   value('Nutrition/Dietetics'),
+   order(66),
+   active(true)
+);

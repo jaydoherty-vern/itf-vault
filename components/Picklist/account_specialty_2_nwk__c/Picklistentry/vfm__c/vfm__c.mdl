@@ -1,0 +1,5 @@
+Picklistentry vfm__c (
+   value('Veterinary Food Medicine'),
+   order(562),
+   active(true)
+);

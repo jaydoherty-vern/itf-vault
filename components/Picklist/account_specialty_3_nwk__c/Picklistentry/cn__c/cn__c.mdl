@@ -1,0 +1,5 @@
+Picklistentry cn__c (
+   value('Clinical Neurophysiology'),
+   order(79),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry nephrology_dmd_program__c (
+   value('NEPHROLOGY, DMD PROGRAM'),
+   order(68),
+   active(true)
+);

@@ -1,0 +1,13 @@
+RECREATE Picklist qs_pmo_country__c (
+   label('Country'),
+   active(true),
+   Picklistentry(@Picklistentry/belgium__c.mdl),
+   Picklistentry(@Picklistentry/france__c.mdl),
+   Picklistentry(@Picklistentry/germany__c.mdl),
+   Picklistentry(@Picklistentry/italy__c.mdl),
+   Picklistentry(@Picklistentry/luxembourg__c.mdl),
+   Picklistentry(@Picklistentry/spain__c.mdl),
+   Picklistentry(@Picklistentry/uk__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

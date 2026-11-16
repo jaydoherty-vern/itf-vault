@@ -1,0 +1,5 @@
+Picklistentry pediatric_endocrinology__c (
+   value('Pediatric Endocrinology'),
+   order(252),
+   active(true)
+);

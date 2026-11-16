@@ -1,0 +1,5 @@
+Picklistentry mk_23__c (
+   value('MK_Delčevo'),
+   order(1223),
+   active(true)
+);

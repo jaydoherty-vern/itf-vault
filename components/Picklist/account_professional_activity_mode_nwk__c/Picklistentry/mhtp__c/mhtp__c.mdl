@@ -1,0 +1,5 @@
+Picklistentry mhtp__c (
+   value('Hospital activity'),
+   order(2),
+   active(true)
+);

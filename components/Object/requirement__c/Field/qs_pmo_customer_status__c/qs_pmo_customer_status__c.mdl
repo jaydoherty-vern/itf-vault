@@ -1,0 +1,18 @@
+Field qs_pmo_customer_status__c (
+   label('Customer Status'),
+   type('Picklist'),
+   active(true),
+   description('Use in the PMO toolkit for customer to approve or decline the requirement'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(84),
+   multi_value(false),
+   picklist('Picklist.qs_pmo_customer_status__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

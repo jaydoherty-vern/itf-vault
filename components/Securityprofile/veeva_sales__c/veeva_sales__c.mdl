@@ -1,0 +1,10 @@
+RECREATE Securityprofile veeva_sales__c (
+   label('VEEVA_SALES'),
+   active(true),
+   description('Security profile for Sales Reps'),
+   permission_sets('base_vault_crm__v',
+      'veeva_accounts_calls_sales__c',
+      'veeva_approved_email_end_user__c',
+      'veeva_medical_inquiry_end_user__c',
+      'veeva_xpages_end_user__c')
+);

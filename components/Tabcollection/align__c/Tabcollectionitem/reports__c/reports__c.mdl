@@ -1,0 +1,8 @@
+Tabcollectionitem reports__c (
+   label(),
+   active(true),
+   tabs(),
+   order(8),
+   tab('Tab.vof_reports__v'),
+   type('Tab')
+);

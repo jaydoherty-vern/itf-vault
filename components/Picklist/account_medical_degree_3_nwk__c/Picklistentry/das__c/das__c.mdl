@@ -1,0 +1,5 @@
+Picklistentry das__c (
+   value('Dento Alveolar Surgery Diploma'),
+   order(25),
+   active(true)
+);

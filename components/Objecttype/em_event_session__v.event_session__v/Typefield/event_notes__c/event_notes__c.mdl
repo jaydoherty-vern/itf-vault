@@ -1,0 +1,4 @@
+Typefield event_notes__c (
+   source('custom'),
+   required(false)
+);

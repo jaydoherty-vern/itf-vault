@@ -1,0 +1,5 @@
+Picklistentry diag__c (
+   value('Laboratory Diagnostics'),
+   order(213),
+   active(true)
+);

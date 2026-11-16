@@ -1,0 +1,5 @@
+Picklistentry cl_ai__c (
+   value('Aisén del General Carlos Ibañez del Campo'),
+   order(133),
+   active(true)
+);

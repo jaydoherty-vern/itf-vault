@@ -1,0 +1,5 @@
+Picklistentry bf_10__c (
+   value('BF-10'),
+   order(368),
+   active(true)
+);

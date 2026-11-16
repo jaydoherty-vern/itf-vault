@@ -1,0 +1,5 @@
+Picklistentry dental__c (
+   value('General Dental Practitioner'),
+   order(88),
+   active(true)
+);

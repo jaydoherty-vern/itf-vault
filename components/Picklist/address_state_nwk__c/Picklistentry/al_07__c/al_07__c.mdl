@@ -1,0 +1,5 @@
+Picklistentry al_07__c (
+   value('AL_Kukës'),
+   order(30),
+   active(true)
+);

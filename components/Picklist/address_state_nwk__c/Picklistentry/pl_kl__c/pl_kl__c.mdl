@@ -1,0 +1,5 @@
+Picklistentry pl_kl__c (
+   value('PL_Kalisz'),
+   order(1341),
+   active(true)
+);

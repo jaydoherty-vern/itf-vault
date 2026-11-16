@@ -1,0 +1,8 @@
+RECREATE Pagelayout sent_email_layout1__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Sent Email Layout1'),
+   page_markup(@page_markup.xml)
+);

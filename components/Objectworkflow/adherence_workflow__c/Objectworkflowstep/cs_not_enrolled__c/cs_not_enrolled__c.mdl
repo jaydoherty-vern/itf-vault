@@ -1,0 +1,8 @@
+Objectworkflowstep cs_not_enrolled__c (
+   label('CS: Not Enrolled'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.end__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

@@ -1,0 +1,4 @@
+Typefield ok_externalid__c (
+   source('standard'),
+   required(false)
+);

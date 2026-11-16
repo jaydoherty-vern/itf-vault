@@ -1,0 +1,5 @@
+Picklistentry hdu__c (
+   value('Honored Doctor of Ukraine'),
+   order(160),
+   active(true)
+);

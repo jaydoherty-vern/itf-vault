@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v.created_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v.score__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v___account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="question_response__v___survey_target__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="question_response__v___survey_target__v.order__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="question_response__v___survey_target__v.question_text__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="question_response__v___survey_target__v.response__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="CONTAINS_CI" leftValue="survey_target__v.share_team__v" rightValue="TLL" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="survey_target__v.created_by__v" groupBySortOn="survey_target__v.created_by__v" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="1" name="survey_target__v.name__v" groupBySortOn="survey_target__v.name__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="survey_target__v.created_date__v" sortDirection="DESCENDING" />
+  </vrp:order>
+</vrp:query>

@@ -1,0 +1,5 @@
+Picklistentry dst__c (
+   value('Dipl. stom.'),
+   order(29),
+   active(true)
+);

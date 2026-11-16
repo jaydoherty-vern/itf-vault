@@ -1,0 +1,5 @@
+Picklistentry vbg__c (
+   value('Veterinary Buying Group'),
+   order(269),
+   active(true)
+);

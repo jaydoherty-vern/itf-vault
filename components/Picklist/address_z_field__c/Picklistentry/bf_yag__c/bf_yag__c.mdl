@@ -1,0 +1,5 @@
+Picklistentry bf_yag__c (
+   value('BF-YAG'),
+   order(412),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pt_06__c (
+   value('PT_Coimbra'),
+   order(1394),
+   active(true)
+);

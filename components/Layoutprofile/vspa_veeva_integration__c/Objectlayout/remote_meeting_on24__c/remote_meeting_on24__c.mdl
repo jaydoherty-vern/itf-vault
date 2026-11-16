@@ -1,0 +1,8 @@
+Objectlayout remote_meeting_on24__c (
+   label('remote_meeting_on24'),
+   active(true),
+   pagelayouts('Pagelayout.on241__c'),
+   object('Object.remote_meeting__v'),
+   objecttype('Objecttype.remote_meeting__v.on24__v'),
+   record_creation_layout('Pagelayout.on241__c')
+);

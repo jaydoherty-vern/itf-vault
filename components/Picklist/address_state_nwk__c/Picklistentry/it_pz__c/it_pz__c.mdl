@@ -1,0 +1,5 @@
+Picklistentry it_pz__c (
+   value('IT_Potenza'),
+   order(908),
+   active(true)
+);

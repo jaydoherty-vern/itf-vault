@@ -1,0 +1,5 @@
+Picklistentry ro_cs__c (
+   value('RO_Caraș-Severin'),
+   order(1421),
+   active(true)
+);

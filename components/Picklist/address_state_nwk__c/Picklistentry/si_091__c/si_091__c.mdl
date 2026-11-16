@@ -1,0 +1,5 @@
+Picklistentry si_091__c (
+   value('SI_Pivka'),
+   order(1622),
+   active(true)
+);

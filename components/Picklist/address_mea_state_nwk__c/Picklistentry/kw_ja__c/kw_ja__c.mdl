@@ -1,0 +1,5 @@
+Picklistentry kw_ja__c (
+   value('KW_Al Jahrā’'),
+   order(58),
+   active(true)
+);

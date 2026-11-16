@@ -1,0 +1,5 @@
+Picklistentry bq_se__c (
+   value('BQ-SE'),
+   order(494),
+   active(true)
+);

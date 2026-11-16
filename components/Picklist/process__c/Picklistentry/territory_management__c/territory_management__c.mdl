@@ -1,0 +1,5 @@
+Picklistentry territory_management__c (
+   value('Territory Management'),
+   order(40),
+   active(true)
+);

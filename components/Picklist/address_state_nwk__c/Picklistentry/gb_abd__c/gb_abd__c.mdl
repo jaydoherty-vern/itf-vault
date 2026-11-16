@@ -1,0 +1,5 @@
+Picklistentry gb_abd__c (
+   value('GB-ABD'),
+   order(414),
+   active(false)
+);

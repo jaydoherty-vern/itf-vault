@@ -1,0 +1,5 @@
+Picklistentry no_18__c (
+   value('NO_Nordland'),
+   order(1311),
+   active(true)
+);

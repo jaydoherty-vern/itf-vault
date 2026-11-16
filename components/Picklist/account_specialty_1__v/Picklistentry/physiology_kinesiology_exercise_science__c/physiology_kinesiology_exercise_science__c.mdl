@@ -1,0 +1,5 @@
+Picklistentry physiology_kinesiology_exercise_science__c (
+   value('PHYSIOLOGY, KINESIOLOGY, EXERCISE SCIENCE'),
+   order(60),
+   active(true)
+);

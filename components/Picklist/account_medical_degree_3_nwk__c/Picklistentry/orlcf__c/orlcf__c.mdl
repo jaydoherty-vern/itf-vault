@@ -1,0 +1,5 @@
+Picklistentry orlcf__c (
+   value('Diploma in ENT'),
+   order(49),
+   active(true)
+);

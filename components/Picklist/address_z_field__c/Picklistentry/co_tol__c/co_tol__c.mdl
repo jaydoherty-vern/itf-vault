@@ -1,0 +1,5 @@
+Picklistentry co_tol__c (
+   value('CO-TOL'),
+   order(794),
+   active(true)
+);

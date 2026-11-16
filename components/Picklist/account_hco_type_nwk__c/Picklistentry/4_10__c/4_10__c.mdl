@@ -1,0 +1,5 @@
+Picklistentry 4_10__c (
+   value('Organization, Lab'),
+   order(177),
+   active(true)
+);

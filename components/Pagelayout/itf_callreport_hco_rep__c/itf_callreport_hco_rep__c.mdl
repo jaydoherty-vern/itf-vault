@@ -1,0 +1,8 @@
+RECREATE Pagelayout itf_callreport_hco_rep__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('ITF_CallReport_HCO_REP'),
+   page_markup(@page_markup.xml)
+);

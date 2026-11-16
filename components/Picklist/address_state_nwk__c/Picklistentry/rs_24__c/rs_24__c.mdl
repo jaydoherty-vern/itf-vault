@@ -1,0 +1,5 @@
+Picklistentry rs_24__c (
+   value('RS_Pčinjski okrug'),
+   order(1465),
+   active(true)
+);

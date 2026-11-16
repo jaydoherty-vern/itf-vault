@@ -1,0 +1,5 @@
+Picklistentry independent_prescriber__c (
+   value('Independent Prescriber'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ru_mur__c (
+   value('RU_Murmanskaya oblast'''),
+   order(1526),
+   active(true)
+);

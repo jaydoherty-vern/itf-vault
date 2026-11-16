@@ -1,0 +1,5 @@
+Picklistentry ec_o__c (
+   value('El Oro'),
+   order(226),
+   active(true)
+);

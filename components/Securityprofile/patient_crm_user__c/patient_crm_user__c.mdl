@@ -1,0 +1,7 @@
+RECREATE Securityprofile patient_crm_user__c (
+   label('Patient CRM User'),
+   active(true),
+   description(),
+   permission_sets('patient_crm_permissions__c',
+      'veeva_approved_email_end_user__c')
+);

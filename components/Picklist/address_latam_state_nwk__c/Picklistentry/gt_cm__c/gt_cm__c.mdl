@@ -1,0 +1,5 @@
+Picklistentry gt_cm__c (
+   value('Chimaltenango'),
+   order(250),
+   active(true)
+);

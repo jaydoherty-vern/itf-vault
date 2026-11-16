@@ -1,0 +1,4 @@
+Typefield impacted_group__c (
+   source('custom'),
+   required(false)
+);

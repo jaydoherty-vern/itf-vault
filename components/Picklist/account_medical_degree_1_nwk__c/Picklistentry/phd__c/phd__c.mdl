@@ -1,0 +1,5 @@
+Picklistentry phd__c (
+   value('Doctor of Philosophy'),
+   order(103),
+   active(true)
+);

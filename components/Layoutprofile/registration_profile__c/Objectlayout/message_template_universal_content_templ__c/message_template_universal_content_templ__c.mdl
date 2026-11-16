@@ -1,0 +1,8 @@
+Objectlayout message_template_universal_content_templ__c (
+   label('message_template_universal_content_template'),
+   active(true),
+   pagelayouts('Pagelayout.manual_assign_content_template__c'),
+   object('Object.message_template__v'),
+   objecttype('Objecttype.message_template__v.universal_content_template__v'),
+   record_creation_layout('Pagelayout.manual_assign_content_template__c')
+);

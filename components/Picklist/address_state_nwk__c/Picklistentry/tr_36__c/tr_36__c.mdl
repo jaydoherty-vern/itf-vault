@@ -1,0 +1,5 @@
+Picklistentry tr_36__c (
+   value('TR_Kars'),
+   order(1711),
+   active(true)
+);

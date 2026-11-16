@@ -1,0 +1,5 @@
+Picklistentry acc__c (
+   value('Special Accident Surgery'),
+   order(413),
+   active(true)
+);

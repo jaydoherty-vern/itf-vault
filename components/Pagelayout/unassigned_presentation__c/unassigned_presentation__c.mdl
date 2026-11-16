@@ -1,0 +1,8 @@
+RECREATE Pagelayout unassigned_presentation__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Unassigned Presentation'),
+   page_markup(@page_markup.xml)
+);

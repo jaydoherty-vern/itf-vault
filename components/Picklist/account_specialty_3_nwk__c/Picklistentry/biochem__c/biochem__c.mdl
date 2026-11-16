@@ -1,0 +1,5 @@
+Picklistentry biochem__c (
+   value('Biochemistry'),
+   order(42),
+   active(true)
+);

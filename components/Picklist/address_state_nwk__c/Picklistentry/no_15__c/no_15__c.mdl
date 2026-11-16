@@ -1,0 +1,5 @@
+Picklistentry no_15__c (
+   value('NO_Møre og Romsdal'),
+   order(1309),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mx_chh__c (
+   value('Chihuahua'),
+   order(44),
+   active(true)
+);

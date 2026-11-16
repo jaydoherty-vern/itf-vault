@@ -1,0 +1,199 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_event__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="time_zone__v" readOnly="true" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="em_event_status__v" readOnly="true" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="program_type__v" readOnly="true" />
+            <vault:field reference="parent_event__v" readOnly="true" />
+            <vault:field reference="ownerid__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Event Details" name="event_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="event_display_name__v" />
+            <vault:field reference="content_length__v" readOnly="true" />
+            <vault:field reference="product__v" readOnly="true" />
+            <vault:field reference="topic__v" readOnly="true" />
+            <vault:field reference="description__v" readOnly="true" />
+            <vault:field reference="location_type__v" readOnly="true" />
+            <vault:field reference="event_format__v" readOnly="true" />
+            <vault:field reference="country__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Account Information" name="account_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__v" />
+            <vault:field reference="address__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Registration and Virtual Information" name="registration_and_virtual_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="qr_sign_in_enabled__v" readOnly="true" />
+            <vault:spacer />
+            <vault:field reference="webinar_status__v" readOnly="true" />
+            <vault:control reference="zoom_url__v" name="zoom_url__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attendee Information" name="attendee_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="estimated_attendance__v" readOnly="true" />
+            <vault:field reference="invited_attendees__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Estimated and Committed Costs" name="estimated_and_committed_costs__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="estimated_cost__v" readOnly="true" />
+            <vault:field reference="committed_cost__v" readOnly="true" />
+            <vault:spacer />
+            <vault:field reference="meal_type__v" readOnly="true" />
+            <vault:field reference="av_equipment__v" readOnly="true" />
+            <vault:field reference="flat_fee_expense__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Event Venue" name="event_venue__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="venue__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="location_address__v" />
+            <vault:field reference="location_address_line_2__v" />
+            <vault:field reference="city__v" />
+            <vault:field reference="state_province__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Vendor" name="vendor__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="vendor__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Key Contact Information" name="key_contact_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="key_contact__v" readOnly="true" />
+            <vault:field reference="key_contact_name__v" readOnly="true" />
+            <vault:field reference="key_contact_email__v" readOnly="true" />
+            <vault:field reference="key_contact_phone__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Event Team Members" name="em_event_team_member__c">
+        <vault:relatedObject relationship="em_event_team_member__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="first_name__v" width="200px" />
+            <vault:field reference="last_name__v" width="200px" />
+            <vault:field reference="phone_number__v" width="200px" />
+            <vault:field reference="email__v" width="200px" />
+            <vault:field reference="role__v" width="200px" />
+            <vault:field reference="group_name__v" width="200px" />
+            <vault:field reference="team_member__v" width="200px" />
+            <vault:field reference="team_member_type__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Event Budgets" name="event__c">
+        <vault:relatedObject relationship="event__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="budget__v" width="200px" />
+            <vault:field reference="budget_name__v" width="200px" />
+            <vault:field reference="estimate__v" width="200px" />
+            <vault:field reference="committed__v" width="200px" />
+            <vault:field reference="actual__v" width="200px" />
+            <vault:field reference="estimated_remaining__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Event Speakers" name="em_event_speaker__c">
+        <vault:relatedObject relationship="em_event_speaker__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="speaker__v" width="200px" />
+            <vault:field reference="speaker_name__v" width="200px" />
+            <vault:field reference="speaker_formatted_name__v" width="200px" />
+            <vault:field reference="nickname__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="position__v" width="200px" />
+            <vault:field reference="em_event_speaker_status__v" width="200px" />
+            <vault:field reference="webinar_panelist_id__v" width="200px" />
+            <vault:field reference="webinar_panelist_url__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Attendees" name="em_attendee_event__c">
+        <vault:relatedObject relationship="em_attendee_event__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="attendee_name__v" width="200px" />
+            <vault:field reference="attendee_account_type__v" width="200px" />
+            <vault:field reference="email__v" width="200px" />
+            <vault:field reference="meal_opt_in__v" width="200px" />
+            <vault:field reference="meal_preference__v" width="200px" />
+            <vault:field reference="em_attendee_status__v" width="200px" />
+            <vault:field reference="webinar_participant_url__v" width="200px" />
+            <vault:field reference="signature_datetime__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Expense Estimates" name="expense_estimate__c">
+        <vault:relatedObject relationship="expense_estimate__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="expense_type_name__v" width="200px" />
+            <vault:field reference="expense_type__v" width="200px" />
+            <vault:field reference="event_budget__v" width="200px" />
+            <vault:field reference="estimate__v" width="200px" />
+            <vault:field reference="committed__v" width="200px" />
+            <vault:field reference="actual__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Expense Headers" name="expense_header__c">
+        <vault:relatedObject relationship="expense_header__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="expense_header_status__v" width="200px" />
+            <vault:field reference="payee__v" width="200px" />
+            <vault:field reference="payment_due_date__v" width="200px" />
+            <vault:field reference="payment_date__v" width="200px" />
+            <vault:field reference="committed__v" width="200px" />
+            <vault:field reference="incurred_expense__v" width="200px" />
+            <vault:field reference="transaction_date__v" width="200px" />
+            <vault:field reference="actual__v" width="200px" />
+            <vault:field reference="split_lines__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Event Materials" name="event_materials__c">
+        <vault:relatedObject relationship="event_materials__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="description__v" width="200px" />
+            <vault:field reference="current_material_status__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="material__v" width="200px" />
+            <vault:field reference="material_type__v" width="200px" />
+            <vault:field reference="subtype__v" width="200px" />
+            <vault:field reference="email_template__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Event History" name="em_event_history_event__c">
+        <vault:relatedObject relationship="em_event_history_event__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="action_datetime__v" width="200px" />
+            <vault:field reference="action_type__v" width="200px" />
+            <vault:field reference="starting_status__v" width="200px" />
+            <vault:field reference="ending_status__v" width="200px" />
+            <vault:field reference="event_action__v" width="200px" />
+            <vault:field reference="comment__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry ta__c (
+   value('Teaching Assistant'),
+   order(21),
+   active(true)
+);

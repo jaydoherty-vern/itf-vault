@@ -1,0 +1,8 @@
+RECREATE Pagelayout project_deliverable_layout__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Project Deliverable Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,5 @@
+Picklistentry vcd__c (
+   value('Vice-Chief or Head or Chairman of Department'),
+   order(245),
+   active(true)
+);

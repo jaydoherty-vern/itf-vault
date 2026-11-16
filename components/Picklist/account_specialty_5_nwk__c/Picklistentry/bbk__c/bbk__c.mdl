@@ -1,0 +1,5 @@
+Picklistentry bbk__c (
+   value('Blood Banking /Transfusion Medicine'),
+   order(47),
+   active(true)
+);

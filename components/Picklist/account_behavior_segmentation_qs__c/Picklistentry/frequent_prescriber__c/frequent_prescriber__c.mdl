@@ -1,0 +1,5 @@
+Picklistentry frequent_prescriber__c (
+   value('Frequent Prescriber'),
+   order(0),
+   active(true)
+);

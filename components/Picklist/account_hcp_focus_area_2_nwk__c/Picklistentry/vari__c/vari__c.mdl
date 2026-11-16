@@ -1,0 +1,5 @@
+Picklistentry vari__c (
+   value('Varicose Veins'),
+   order(457),
+   active(true)
+);

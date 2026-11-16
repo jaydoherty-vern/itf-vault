@@ -1,0 +1,9 @@
+RECREATE Picklist gas_visibility_configura_object_api_name__c (
+   label('Object API Name'),
+   active(true),
+   Picklistentry(@Picklistentry/account__c.mdl),
+   Picklistentry(@Picklistentry/address_vod__c.mdl),
+   Picklistentry(@Picklistentry/child_account_vod__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

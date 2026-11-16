@@ -1,0 +1,5 @@
+Picklistentry 14_2__c (
+   value('Medical School, Allopathic'),
+   order(112),
+   active(true)
+);

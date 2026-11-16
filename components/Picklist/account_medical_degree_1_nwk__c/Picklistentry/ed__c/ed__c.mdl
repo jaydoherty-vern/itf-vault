@@ -1,0 +1,5 @@
+Picklistentry ed__c (
+   value('Eye Disease Diploma'),
+   order(160),
+   active(true)
+);

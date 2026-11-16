@@ -1,0 +1,5 @@
+Picklistentry ro_b__c (
+   value('RO_București'),
+   order(1418),
+   active(true)
+);

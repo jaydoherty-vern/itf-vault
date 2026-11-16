@@ -1,0 +1,5 @@
+Picklistentry al_mr__c (
+   value('AL_Mirditë'),
+   order(40),
+   active(true)
+);

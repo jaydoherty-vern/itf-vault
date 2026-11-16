@@ -1,0 +1,5 @@
+Picklistentry fr_tf__c (
+   value('FR_Terres australes françaises'),
+   order(374),
+   active(true)
+);

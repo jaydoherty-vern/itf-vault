@@ -1,0 +1,5 @@
+Picklistentry al_09__c (
+   value('AL_Dibër'),
+   order(12),
+   active(true)
+);

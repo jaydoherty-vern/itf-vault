@@ -1,0 +1,4 @@
+Typefield vspa_brick2__c (
+   source('custom'),
+   required(false)
+);

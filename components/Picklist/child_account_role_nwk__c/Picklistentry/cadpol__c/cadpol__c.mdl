@@ -1,0 +1,5 @@
+Picklistentry cadpol__c (
+   value('Chief Nurse Department Head'),
+   order(32),
+   active(true)
+);

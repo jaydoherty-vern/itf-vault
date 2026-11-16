@@ -1,0 +1,5 @@
+Picklistentry pediatric_ortho_surg_muscular_dystrophy__c (
+   value('PEDIATRIC ORTHOPEDIC SURGERY, MUSCULAR DYSTROPHY'),
+   order(376),
+   active(true)
+);

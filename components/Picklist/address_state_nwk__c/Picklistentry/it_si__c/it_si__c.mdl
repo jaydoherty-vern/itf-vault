@@ -1,0 +1,5 @@
+Picklistentry it_si__c (
+   value('IT_Siena'),
+   order(921),
+   active(true)
+);

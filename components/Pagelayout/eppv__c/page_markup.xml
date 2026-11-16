@@ -1,0 +1,37 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.business_event_target__v.base__v">
+    <vault:section title="Fields" name="fields__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="business_event__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="account_name__v" />
+            <vault:field reference="purchase_date__v" />
+            <vault:field reference="pre_explain_date__v" />
+            <vault:field reference="next_visit_date__v" />
+            <vault:field reference="remaining_calls__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Call Objectives" name="call_objectives__c">
+        <vault:relatedObject relationship="call_objectives__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="call2__v" width="200px" />
+            <vault:field reference="business_event__v" width="200px" />
+            <vault:field reference="comment__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

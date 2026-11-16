@@ -1,0 +1,4 @@
+Typefield tov_entry_transfer__c (
+   source('custom'),
+   required(false)
+);

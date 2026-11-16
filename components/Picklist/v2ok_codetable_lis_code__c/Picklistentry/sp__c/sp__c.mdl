@@ -1,0 +1,5 @@
+Picklistentry sp__c (
+   value('SP'),
+   order(6),
+   active(true)
+);

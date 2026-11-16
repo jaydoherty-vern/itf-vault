@@ -1,0 +1,13 @@
+RECREATE Tab account_management__c (
+   active(false),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Account Management'),
+   modal_create_record(false),
+   order(4900),
+   parent(),
+   prevent_create(false),
+   Subtab(@Subtab/business_accounts__c.mdl),
+   Subtab(@Subtab/person_accounts__c.mdl),
+   Subtab(@Subtab/child_accounts__c.mdl)
+);

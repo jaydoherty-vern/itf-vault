@@ -1,0 +1,5 @@
+Picklistentry memserv__c (
+   value('Memory Services'),
+   order(134),
+   active(true)
+);

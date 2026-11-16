@@ -1,0 +1,8 @@
+Objectlayout survey_user_survey__c (
+   label('survey_user_survey'),
+   active(true),
+   pagelayouts('Pagelayout.survey_layout__c'),
+   object('Object.survey__v'),
+   objecttype('Objecttype.survey__v.user_survey__v'),
+   record_creation_layout('Pagelayout.survey_layout__c')
+);

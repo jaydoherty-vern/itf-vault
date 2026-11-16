@@ -1,0 +1,5 @@
+Picklistentry dental_sedation__c (
+   value('Dental Sedation'),
+   order(89),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mk_79__c (
+   value('MK_Čair'),
+   order(1215),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry nmn__c (
+   value('Neuromuscular Medicine'),
+   order(303),
+   active(true)
+);

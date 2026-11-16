@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.display_order__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.key_message__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.clm_presentation_version__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="call2__v.clm__v" rightValue="True" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="call2__v.ownerid__v" groupBySortOn="call2__v.ownerid__v" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="1" name="call2__v.name__v" groupBySortOn="call2__v.name__v" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="2" name="call2_key_message__v___call2__v.clm_presentation__v" groupBySortOn="call2_key_message__v___call2__v.clm_presentation__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order />
+</vrp:query>

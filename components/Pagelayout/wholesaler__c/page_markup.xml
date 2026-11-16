@@ -1,0 +1,146 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.account__v.wholesaler__v">
+    <vault:section title="Hospital detail" name="hospital_detail__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="primary_parent__v" />
+            <vault:field reference="preferred_phone__c" />
+            <vault:spacer />
+            <vault:field reference="country_code__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="hco_type_nwk__c" />
+            <vault:field reference="hco_status_nwk__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Contact Information" name="contact_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="office_phone_cda__v" />
+            <vault:field reference="fax_cda__v" />
+            <vault:field reference="website_cda__v" />
+            <vault:field reference="email_hco_qs__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="View User Territory" name="view_user_territory_section__c" reference="view_user_territory_section__v" />
+    <vault:section title="Additional Information" name="additional_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="numberofemployees__c" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Dynamic Attributes" name="dynamic_attributes__c" reference="dynamic_attributes_section__v" />
+    <vault:section title="Identification Numbers" name="identification_numbers__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="matchid__v" />
+            <vault:field reference="external_id__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Ratings and Evaluations" name="ratings_and_evaluations__c" reference="product_dashboard_section__v" />
+    <vault:section title="Sphere of Influence" name="sphere_of_influence__c" reference="sphere_of_influence_section__v" />
+    <vault:section title="Key Indicators" name="key_indicators__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="target__c" />
+            <vault:field reference="segmentations__v" />
+            <vault:field reference="target_level__c" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Addresses" name="address__c">
+        <vault:relatedObject relationship="address__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="street_address_2_cda__v" width="200px" />
+            <vault:field reference="brick__v" width="200px" />
+            <vault:field reference="city_cda__v" width="200px" />
+            <vault:field reference="postal_code_cda__v" width="200px" />
+            <vault:field reference="map__v" width="200px" />
+            <vault:field reference="primary_cda__v" width="200px" />
+            <vault:field reference="billing_cda__v" width="200px" />
+            <vault:field reference="shipping_cda__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Members" name="parent_account__c">
+        <vault:relatedObject relationship="parent_account__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="child_account__v" width="200px" />
+            <vault:field reference="role_nwk__c" width="200px" />
+            <vault:field reference="network_primary__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Member Of" name="child_account__c">
+        <vault:relatedObject relationship="child_account__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="parent_account__v" width="200px" />
+            <vault:field reference="network_primary__v" width="200px" />
+            <vault:field reference="role_nwk__c" width="200px" />
+            <vault:field reference="status_nwk__c" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Calls (Account)" name="call2__c">
+        <vault:relatedObject relationship="call2__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="call2_status__v" width="200px" />
+            <vault:field reference="address_line_1__v" width="200px" />
+            <vault:field reference="created_date__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Inventory Monitorings" name="inventory_monitorings__c">
+        <vault:relatedObject relationship="inventory_monitorings__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="inventory_monitoring_date__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="inventory_monitoring_status__v" width="200px" />
+            <vault:field reference="call2__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Contract Partners" name="contract_partners__c">
+        <vault:relatedObject relationship="contract_partners__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="contract__v" width="200px" />
+            <vault:field reference="contract_partner_status__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Data Change Requests" name="data_change_requests__c">
+        <vault:relatedObject relationship="data_change_requests__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="type__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="data_change_request_status__v" width="200px" />
+            <vault:field reference="result__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Orders (Wholesalers)" name="wholesalers__c">
+        <vault:relatedObject relationship="wholesalers__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="order_date__v" width="200px" />
+            <vault:field reference="order_status__v" width="200px" />
+            <vault:field reference="approval_status__v" width="200px" />
+            <vault:field reference="order_campaign__v" width="200px" />
+            <vault:field reference="order_net_amount__v" width="200px" />
+            <vault:field reference="order_total_quantity__v" width="200px" />
+            <vault:field reference="total_discount__v" width="200px" />
+            <vault:field reference="master_order__v" width="200px" />
+            <vault:field reference="delivery_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Account Partners" name="account_partners__c">
+        <vault:relatedObject relationship="account_partners__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="qs_partner_account__c" width="200px" />
+            <vault:field reference="contract__v" width="200px" />
+            <vault:field reference="default__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="priority__v" width="200px" />
+            <vault:field reference="wholesaler__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

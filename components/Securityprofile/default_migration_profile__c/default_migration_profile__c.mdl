@@ -1,0 +1,6 @@
+RECREATE Securityprofile default_migration_profile__c (
+   label('Default Migration Profile'),
+   active(true),
+   description('Default Migration Profile'),
+   permission_sets()
+);

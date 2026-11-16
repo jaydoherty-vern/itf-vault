@@ -1,0 +1,4 @@
+Typefield itf_msl_follow_up__c (
+   source('standard'),
+   required(false)
+);

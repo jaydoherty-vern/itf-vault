@@ -1,0 +1,4 @@
+Typefield itf_hcp_specialty__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,21 @@
+Field revised_risk_rating__c (
+   label('Revised Risk Rating'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(29),
+   formula('If(likelihood_2__c*impact_2__c>=14,"Severe",If(likelihood_2__c*impact_2__c>=10,"High",If(likelihood_2__c*impact_2__c>=4,"Medium","Low")))'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

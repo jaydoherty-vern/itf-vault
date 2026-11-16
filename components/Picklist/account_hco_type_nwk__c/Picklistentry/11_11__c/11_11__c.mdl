@@ -1,0 +1,5 @@
+Picklistentry 11_11__c (
+   value('Pharmacy, Other Managed Care'),
+   order(218),
+   active(true)
+);

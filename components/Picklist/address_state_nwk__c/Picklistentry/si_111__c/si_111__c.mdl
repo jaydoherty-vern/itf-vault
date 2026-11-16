@@ -1,0 +1,5 @@
+Picklistentry si_111__c (
+   value('SI_Sežana'),
+   order(1635),
+   active(true)
+);

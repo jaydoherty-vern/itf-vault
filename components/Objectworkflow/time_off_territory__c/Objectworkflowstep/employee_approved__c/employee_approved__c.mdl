@@ -1,0 +1,8 @@
+Objectworkflowstep employee_approved__c (
+   label('Employee Approved'),
+   type('notification'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

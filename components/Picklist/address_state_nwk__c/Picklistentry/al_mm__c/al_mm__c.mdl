@@ -1,0 +1,5 @@
+Picklistentry al_mm__c (
+   value('AL_Malësi e Madhe'),
+   order(37),
+   active(true)
+);

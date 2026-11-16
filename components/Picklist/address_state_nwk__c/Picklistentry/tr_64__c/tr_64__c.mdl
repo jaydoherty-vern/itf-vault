@@ -1,0 +1,5 @@
+Picklistentry tr_64__c (
+   value('TR_Uşak'),
+   order(1743),
+   active(true)
+);

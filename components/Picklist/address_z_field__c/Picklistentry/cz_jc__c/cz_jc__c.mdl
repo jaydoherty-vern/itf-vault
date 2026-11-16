@@ -1,0 +1,5 @@
+Picklistentry cz_jc__c (
+   value('CZ-JC'),
+   order(955),
+   active(true)
+);

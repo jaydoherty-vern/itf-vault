@@ -1,0 +1,4 @@
+Typefield hcp_type_qs__c (
+   source('standard'),
+   required(false)
+);

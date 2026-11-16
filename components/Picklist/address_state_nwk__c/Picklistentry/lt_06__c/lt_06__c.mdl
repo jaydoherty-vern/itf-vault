@@ -1,0 +1,5 @@
+Picklistentry lt_06__c (
+   value('LT_Biržai'),
+   order(979),
+   active(true)
+);

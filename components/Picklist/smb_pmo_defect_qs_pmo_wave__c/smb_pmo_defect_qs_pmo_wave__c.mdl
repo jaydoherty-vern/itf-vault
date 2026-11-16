@@ -1,0 +1,10 @@
+RECREATE Picklist smb_pmo_defect_qs_pmo_wave__c (
+   label('Wave'),
+   active(true),
+   Picklistentry(@Picklistentry/core__c.mdl),
+   Picklistentry(@Picklistentry/wave_1__c.mdl),
+   Picklistentry(@Picklistentry/wave_2__c.mdl),
+   Picklistentry(@Picklistentry/poc__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

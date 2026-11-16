@@ -1,0 +1,5 @@
+Picklistentry az_zar__c (
+   value('AZ-ZAR'),
+   order(250),
+   active(true)
+);

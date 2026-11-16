@@ -1,0 +1,5 @@
+Picklistentry sas__v (
+   value('Sasak'),
+   order(295),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry lv_jur__c (
+   value('LV_Jūrmala'),
+   order(1093),
+   active(true)
+);

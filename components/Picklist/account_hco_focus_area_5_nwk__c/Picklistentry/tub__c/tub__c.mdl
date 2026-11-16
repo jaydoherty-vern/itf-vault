@@ -1,0 +1,5 @@
+Picklistentry tub__c (
+   value('Tuberculosis'),
+   order(244),
+   active(true)
+);

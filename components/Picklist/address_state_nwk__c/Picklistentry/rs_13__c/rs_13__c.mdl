@@ -1,0 +1,5 @@
+Picklistentry rs_13__c (
+   value('RS_Pomoravski okrug'),
+   order(1469),
+   active(true)
+);

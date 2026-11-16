@@ -1,0 +1,5 @@
+Picklistentry tz__v (
+   value('Tanzania'),
+   order(104),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry diploma_in_geriatric_medicine_dgm__c (
+   value('Diploma in Geriatric Medicine (DGM)'),
+   order(4),
+   active(true)
+);

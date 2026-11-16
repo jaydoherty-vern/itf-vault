@@ -1,0 +1,37 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.account_authorization__v.collaborativerelationship__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="supervising_account__v" />
+            <vault:field reference="collaborative_relationship_state__v" />
+            <vault:field reference="collaborative_relation_start_date__v" />
+            <vault:field reference="collaborative_relation_end_date__v" />
+            <vault:field reference="collaborative_relationship_inactive__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Calls" name="calls__c">
+        <vault:relatedObject relationship="calls__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="call2_status__v" width="200px" />
+            <vault:field reference="call_type__v" width="200px" />
+            <vault:field reference="call_datetime__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

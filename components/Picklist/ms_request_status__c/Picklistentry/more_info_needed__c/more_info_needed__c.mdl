@@ -1,0 +1,5 @@
+Picklistentry more_info_needed__c (
+   value('More Info Needed'),
+   order(3),
+   active(true)
+);

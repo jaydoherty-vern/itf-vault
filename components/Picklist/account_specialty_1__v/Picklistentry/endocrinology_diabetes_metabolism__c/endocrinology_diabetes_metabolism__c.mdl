@@ -1,0 +1,5 @@
+Picklistentry endocrinology_diabetes_metabolism__c (
+   value('Endocrinology, Diabetes & Metabolism'),
+   order(184),
+   active(true)
+);

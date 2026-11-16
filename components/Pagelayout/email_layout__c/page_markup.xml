@@ -1,0 +1,25 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_event_material__v.email_template__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="email_template__v" required="true" />
+            <vault:field reference="material__v" />
+            <vault:field reference="material_type__v" />
+            <vault:field reference="object_type__v" />
+            <vault:spacer />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Template Details" name="template_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="event_material_name__v" readOnly="true" />
+            <vault:field reference="external_id__v" readOnly="true" />
+            <vault:field reference="description__v" readOnly="true" />
+            <vault:field reference="current_material_status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

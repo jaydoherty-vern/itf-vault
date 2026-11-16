@@ -1,0 +1,5 @@
+Picklistentry rot__c (
+   value('Rotational Doctor'),
+   order(94),
+   active(true)
+);

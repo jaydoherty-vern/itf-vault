@@ -1,0 +1,4 @@
+Typefield page_section__c (
+   source('standard'),
+   required(false)
+);

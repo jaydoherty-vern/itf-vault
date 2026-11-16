@@ -1,0 +1,5 @@
+Picklistentry chanu__c (
+   value('Ward Sister / Charge Nurse'),
+   order(248),
+   active(true)
+);

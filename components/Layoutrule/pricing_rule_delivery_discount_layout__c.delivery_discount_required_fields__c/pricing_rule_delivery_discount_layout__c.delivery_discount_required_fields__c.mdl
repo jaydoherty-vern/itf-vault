@@ -1,0 +1,15 @@
+RECREATE Layoutrule pricing_rule_delivery_discount_layout__c.delivery_discount_required_fields__c (
+   active(true),
+   description(),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields('product__v'),
+   expression('TRUE'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections(),
+   hide_layout(false),
+   label('Delivery Discount - Required Fields'),
+   order(100)
+);

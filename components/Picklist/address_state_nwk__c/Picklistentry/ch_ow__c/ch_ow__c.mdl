@@ -1,0 +1,5 @@
+Picklistentry ch_ow__c (
+   value('CH_Obwalden'),
+   order(104),
+   active(true)
+);

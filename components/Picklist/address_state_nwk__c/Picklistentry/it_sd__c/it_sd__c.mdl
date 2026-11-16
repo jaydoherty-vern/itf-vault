@@ -1,0 +1,5 @@
+Picklistentry it_sd__c (
+   value('IT_South Sardinia'),
+   order(924),
+   active(true)
+);

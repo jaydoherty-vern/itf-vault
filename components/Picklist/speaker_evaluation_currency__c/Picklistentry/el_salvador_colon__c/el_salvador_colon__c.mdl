@@ -1,0 +1,5 @@
+Picklistentry el_salvador_colon__c (
+   value('El Salvador Colon'),
+   order(55),
+   active(true)
+);

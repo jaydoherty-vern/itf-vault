@@ -1,0 +1,5 @@
+Picklistentry ec_y__c (
+   value('Pastaza'),
+   order(239),
+   active(true)
+);

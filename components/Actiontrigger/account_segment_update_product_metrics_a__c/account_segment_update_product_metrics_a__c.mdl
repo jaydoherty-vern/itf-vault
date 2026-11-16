@@ -1,0 +1,9 @@
+RECREATE Actiontrigger account_segment_update_product_metrics_a__c (
+   label('Account Segment Update'),
+   active(true),
+   description(),
+   object('Object.product_metrics__v'),
+   event('AFTER_INSERT'),
+   order(100),
+   Actionblock(@Actionblock/action_block1__c.mdl)
+);

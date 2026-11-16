@@ -1,0 +1,5 @@
+Picklistentry 7559__c (
+   value('Vendor Management'),
+   order(240),
+   active(true)
+);

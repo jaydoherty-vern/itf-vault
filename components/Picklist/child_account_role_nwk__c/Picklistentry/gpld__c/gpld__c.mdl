@@ -1,0 +1,5 @@
+Picklistentry gpld__c (
+   value('Lead GP'),
+   order(119),
+   active(true)
+);

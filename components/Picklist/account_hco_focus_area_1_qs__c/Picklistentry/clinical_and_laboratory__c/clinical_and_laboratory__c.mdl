@@ -1,0 +1,5 @@
+Picklistentry clinical_and_laboratory__c (
+   value('Clinical and Laboratory'),
+   order(23),
+   active(true)
+);

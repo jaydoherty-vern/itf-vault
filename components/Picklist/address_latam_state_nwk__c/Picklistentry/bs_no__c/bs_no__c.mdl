@@ -1,0 +1,5 @@
+Picklistentry bs_no__c (
+   value('North Abaco'),
+   order(112),
+   active(true)
+);

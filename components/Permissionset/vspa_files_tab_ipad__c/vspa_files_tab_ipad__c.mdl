@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_files_tab_ipad__c (
+   label('VSPA_Files_Tab_iPad'),
+   active(true),
+   description('Permission set to enable visibility to "Files" tab on ipad'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

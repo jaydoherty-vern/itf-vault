@@ -1,0 +1,5 @@
+Picklistentry ro_gr__c (
+   value('RO_Giurgiu'),
+   order(1428),
+   active(true)
+);

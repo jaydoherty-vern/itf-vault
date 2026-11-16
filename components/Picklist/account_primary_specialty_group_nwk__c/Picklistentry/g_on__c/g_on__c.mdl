@@ -1,0 +1,5 @@
+Picklistentry g_on__c (
+   value('Oncology'),
+   order(30),
+   active(true)
+);

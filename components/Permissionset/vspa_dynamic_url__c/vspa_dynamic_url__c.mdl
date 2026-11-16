@@ -1,0 +1,8 @@
+RECREATE Permissionset vspa_dynamic_url__c (
+   label('VSPA_Dynamic_URL'),
+   active(true),
+   description('Grants Read access to VOL Hyperlink field on Account Object'),
+   object.account__v.vol_hyperlink__c.field_actions('read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

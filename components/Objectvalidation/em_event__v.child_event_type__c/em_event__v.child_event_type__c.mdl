@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_event__v.child_event_type__c (
+   label('Child_Event_Type'),
+   active(true),
+   expression('Not(And(Not(IsBlank(Id(parent_event__v))),object_type__vr.name__v="Child Event",Text(event_type__c)!=Text(parent_event__vr.event_type__c)))'),
+   description('The "Type" of the child event must be equal to the type of the parent event.'),
+   error_message('The Event''s type of the Child Event has to match the Event''s type of the Parent Event.'),
+   error_location('id')
+);

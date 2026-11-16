@@ -1,0 +1,9 @@
+RECREATE Reporttype call_key_message_with_product_catalog__c (
+   label('Call Key Message with Product Catalog'),
+   active(true),
+   description('Call Key Message with Product'),
+   primary_object('call2_key_message__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

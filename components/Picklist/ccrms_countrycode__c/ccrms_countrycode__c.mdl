@@ -1,0 +1,16 @@
+RECREATE Picklist ccrms_countrycode__c (
+   label('Country Code'),
+   active(true),
+   Picklistentry(@Picklistentry/de__c.mdl),
+   Picklistentry(@Picklistentry/at__c.mdl),
+   Picklistentry(@Picklistentry/ch__c.mdl),
+   Picklistentry(@Picklistentry/it__c.mdl),
+   Picklistentry(@Picklistentry/es__c.mdl),
+   Picklistentry(@Picklistentry/uk__c.mdl),
+   Picklistentry(@Picklistentry/fr__c.mdl),
+   Picklistentry(@Picklistentry/hu__c.mdl),
+   Picklistentry(@Picklistentry/core__c.mdl),
+   Picklistentry(@Picklistentry/us__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

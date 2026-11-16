@@ -1,0 +1,5 @@
+Picklistentry residential_long_term_care_facilities__c (
+   value('Residential Long-Term Care Facilities'),
+   order(17),
+   active(true)
+);

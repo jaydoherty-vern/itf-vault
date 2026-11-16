@@ -1,0 +1,5 @@
+Picklistentry phartrain__c (
+   value('Pharmacist Trainee'),
+   order(179),
+   active(true)
+);

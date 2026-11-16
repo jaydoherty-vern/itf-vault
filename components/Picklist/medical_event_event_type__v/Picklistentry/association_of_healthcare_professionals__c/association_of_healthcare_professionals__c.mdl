@@ -1,0 +1,5 @@
+Picklistentry association_of_healthcare_professionals__c (
+   value('Association of Healthcare Professionals'),
+   order(4),
+   active(true)
+);

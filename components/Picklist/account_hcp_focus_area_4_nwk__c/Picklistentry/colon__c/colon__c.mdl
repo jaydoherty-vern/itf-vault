@@ -1,0 +1,5 @@
+Picklistentry colon__c (
+   value('Colonoscopy (Lower Gasto-Intestinal)'),
+   order(83),
+   active(true)
+);

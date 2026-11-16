@@ -1,0 +1,5 @@
+Picklistentry 36_21__c (
+   value('Sustainability and Transformation Plan Footprint (STP)'),
+   order(265),
+   active(true)
+);

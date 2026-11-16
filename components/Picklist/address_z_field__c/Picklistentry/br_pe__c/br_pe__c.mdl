@@ -1,0 +1,5 @@
+Picklistentry br_pe__c (
+   value('BR-PE'),
+   order(510),
+   active(true)
+);

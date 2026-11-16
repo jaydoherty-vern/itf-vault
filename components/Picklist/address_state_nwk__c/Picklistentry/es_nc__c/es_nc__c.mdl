@@ -1,0 +1,5 @@
+Picklistentry es_nc__c (
+   value('ES-NC'),
+   order(248),
+   active(false)
+);

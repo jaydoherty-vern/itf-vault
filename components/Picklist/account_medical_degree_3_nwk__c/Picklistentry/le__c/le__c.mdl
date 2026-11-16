@@ -1,0 +1,5 @@
+Picklistentry le__c (
+   value('Clinical Laboratory Examinations Diploma'),
+   order(16),
+   active(true)
+);

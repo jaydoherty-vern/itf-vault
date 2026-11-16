@@ -1,0 +1,5 @@
+Picklistentry cd_or__c (
+   value('CD-OR'),
+   order(619),
+   active(true)
+);

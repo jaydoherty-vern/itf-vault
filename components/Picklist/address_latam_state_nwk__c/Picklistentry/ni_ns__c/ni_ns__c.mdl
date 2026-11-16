@@ -1,0 +1,5 @@
+Picklistentry ni_ns__c (
+   value('Nueva Segovia'),
+   order(306),
+   active(true)
+);

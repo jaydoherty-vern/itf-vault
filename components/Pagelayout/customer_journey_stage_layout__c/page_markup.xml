@@ -1,0 +1,33 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.customer_journey_stage__v.customer_journey_stage__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="customer_journey__v" />
+            <vault:field reference="stage__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="summary__v" />
+            <vault:field reference="product_journey_stage__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Customer Journey Stage Activity" name="customer_journey_stage_activity__c">
+        <vault:relatedObject relationship="customer_journey_stage_activity__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="channel__v" width="200px" />
+            <vault:field reference="objective__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Customer Journey Accounts" name="customer_journey_accounts__c">
+        <vault:relatedObject relationship="customer_journey_accounts__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

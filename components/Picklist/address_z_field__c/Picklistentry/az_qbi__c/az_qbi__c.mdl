@@ -1,0 +1,5 @@
+Picklistentry az_qbi__c (
+   value('AZ-QBI'),
+   order(218),
+   active(true)
+);

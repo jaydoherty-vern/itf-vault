@@ -1,0 +1,5 @@
+Picklistentry fi_06__c (
+   value('FI_Tavastia Proper'),
+   order(269),
+   active(true)
+);

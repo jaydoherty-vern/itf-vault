@@ -1,0 +1,5 @@
+Picklistentry pdrn__c (
+   value('Prof. Dr. rer. nat.'),
+   order(247),
+   active(true)
+);

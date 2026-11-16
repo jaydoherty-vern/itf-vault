@@ -1,0 +1,8 @@
+RECREATE Picklist em_event_vspa_cme_event__c (
+   label('CME Event'),
+   active(true),
+   Picklistentry(@Picklistentry/yes__c.mdl),
+   Picklistentry(@Picklistentry/no__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

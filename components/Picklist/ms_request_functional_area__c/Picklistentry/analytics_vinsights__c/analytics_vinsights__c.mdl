@@ -1,0 +1,5 @@
+Picklistentry analytics_vinsights__c (
+   value('Analytics - Vinsights'),
+   order(7),
+   active(true)
+);

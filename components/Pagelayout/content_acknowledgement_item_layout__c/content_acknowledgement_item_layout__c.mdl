@@ -1,0 +1,8 @@
+RECREATE Pagelayout content_acknowledgement_item_layout__c (
+   active(true),
+   default_layout(false),
+   description('Page layout to capture details related to items shipped to HCP and displayed on the content acknowledgment receipt signature page.'),
+   display_lifecycle_stages(false),
+   label('Content Acknowledgement Item Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,8 @@
+Objectlayout tsf_base__c (
+   label('Territory Field Base Territory Field'),
+   active(true),
+   pagelayouts('Pagelayout.tsf_layout__c'),
+   object('Object.tsf__v'),
+   objecttype('Objecttype.tsf__v.base__v'),
+   record_creation_layout()
+);

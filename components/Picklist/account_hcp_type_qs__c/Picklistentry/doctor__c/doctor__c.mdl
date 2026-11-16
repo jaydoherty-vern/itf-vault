@@ -1,0 +1,5 @@
+Picklistentry doctor__c (
+   value('Doctor'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectlayout em_business_rule_expense_estimate_speake__c (
+   label('em_business_rule_expense_estimate_speaker_lodging_rule'),
+   active(true),
+   pagelayouts('Pagelayout.expense_estimate_speaker_lodging_rule__c'),
+   object('Object.em_business_rule__v'),
+   objecttype('Objecttype.em_business_rule__v.expense_estimate_speaker_lodging_rule__v'),
+   record_creation_layout('Pagelayout.expense_estimate_speaker_lodging_rule__c')
+);

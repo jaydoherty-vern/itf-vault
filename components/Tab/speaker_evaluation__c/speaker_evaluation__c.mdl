@@ -1,0 +1,12 @@
+RECREATE Tab speaker_evaluation__c (
+   active(true),
+   all_view_label('All Speaker Evaluations'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Speaker Evaluations'),
+   my_view_label('My Speaker Evaluations'),
+   object('speaker_evaluation__c'),
+   order(1900),
+   parent(),
+   recent_view_label('Recent Speaker Evaluations')
+);

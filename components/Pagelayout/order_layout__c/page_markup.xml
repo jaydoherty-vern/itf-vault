@@ -1,0 +1,53 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.order__v.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="object_type__v" />
+            <vault:spacer />
+            <vault:field reference="account__v" required="true" />
+            <vault:field reference="billing_contact__v" />
+            <vault:field reference="billing_address__v" />
+            <vault:field reference="ship_to_address__v" />
+            <vault:spacer />
+            <vault:field reference="notes__v" />
+            <vault:spacer />
+            <vault:field reference="order_total_quantity__v" />
+            <vault:field reference="order_list_amount__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="order_date__v" />
+            <vault:field reference="contract__v" />
+            <vault:field reference="order_status__v" readOnly="true" />
+            <vault:field reference="order_campaign__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="warning__v" />
+            <vault:spacer />
+            <vault:field reference="order_total_discount__v" />
+            <vault:field reference="order_net_amount__v" />
+            <vault:field reference="delivery_payment__v" />
+            <vault:field reference="delivery_payment_rule__v" />
+            <vault:field reference="last_inventory_monitoring__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Logistics" name="best_wholesaler_pricing__c" reference="best_wholesaler_pricing__v" />
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Order Lines" name="order_lines__c">
+        <vault:relatedObject relationship="order_lines__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="quantity__v" width="200px" />
+            <vault:field reference="net_amount__v" width="200px" />
+            <vault:field reference="list_amount__v" width="200px" />
+            <vault:field reference="rule__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

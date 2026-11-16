@@ -1,0 +1,5 @@
+Picklistentry g_im__c (
+   value('Internal Medicine'),
+   order(17),
+   active(true)
+);

@@ -1,0 +1,11 @@
+RECREATE Securityprofile veeva_legacy_integration_user__c (
+   label('VEEVA_LEGACY_INTEGRATION_USER'),
+   active(true),
+   description('Support legacy Veeva productized integrations'),
+   permission_sets('ae_integration_user_permissions__c',
+      'approved_notes_integration_user_permissi__c',
+      'clm_integration_user_permissions__c',
+      'core_integration_user_permissions__c',
+      'engage_integration_user_permissions__c',
+      'legacy_xpages_studio_integration_user_p__c')
+);

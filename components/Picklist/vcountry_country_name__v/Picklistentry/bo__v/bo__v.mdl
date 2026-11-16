@@ -1,0 +1,5 @@
+Picklistentry bo__v (
+   value('Bolivia, Plurinational State of'),
+   order(26),
+   active(true)
+);

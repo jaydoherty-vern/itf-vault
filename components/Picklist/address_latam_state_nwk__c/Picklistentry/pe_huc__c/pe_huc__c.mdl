@@ -1,0 +1,5 @@
+Picklistentry pe_huc__c (
+   value('Huánuco'),
+   order(336),
+   active(true)
+);

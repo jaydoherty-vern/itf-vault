@@ -1,0 +1,5 @@
+Picklistentry hyster__c (
+   value('Hysteroscopy'),
+   order(195),
+   active(true)
+);

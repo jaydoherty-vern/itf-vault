@@ -1,0 +1,5 @@
+Picklistentry lu_l__c (
+   value('LU_Luxembourg'),
+   order(1045),
+   active(true)
+);

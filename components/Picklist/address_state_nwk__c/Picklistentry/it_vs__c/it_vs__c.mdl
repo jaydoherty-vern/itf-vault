@@ -1,0 +1,5 @@
+Picklistentry it_vs__c (
+   value('IT_Medio Campidano'),
+   order(886),
+   active(true)
+);

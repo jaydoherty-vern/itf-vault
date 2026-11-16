@@ -1,0 +1,5 @@
+Picklistentry az_skr__c (
+   value('AZ-SKR'),
+   order(231),
+   active(true)
+);

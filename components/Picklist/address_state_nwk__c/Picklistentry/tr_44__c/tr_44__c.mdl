@@ -1,0 +1,5 @@
+Picklistentry tr_44__c (
+   value('TR_Malatya'),
+   order(1721),
+   active(true)
+);

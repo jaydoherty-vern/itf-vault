@@ -1,0 +1,20 @@
+RECREATE Picklist account_professional_title_qs_vod__c (
+   label('Professional Title'),
+   active(true),
+   Picklistentry(@Picklistentry/dentist__c.mdl),
+   Picklistentry(@Picklistentry/director__c.mdl),
+   Picklistentry(@Picklistentry/doctor__c.mdl),
+   Picklistentry(@Picklistentry/midwife__c.mdl),
+   Picklistentry(@Picklistentry/nurse__c.mdl),
+   Picklistentry(@Picklistentry/nurse_prescriber__c.mdl),
+   Picklistentry(@Picklistentry/nurse_specialist_practitioner__c.mdl),
+   Picklistentry(@Picklistentry/optometrist__c.mdl),
+   Picklistentry(@Picklistentry/pharmacist__c.mdl),
+   Picklistentry(@Picklistentry/pharmacy_technician__c.mdl),
+   Picklistentry(@Picklistentry/physiotherapist__c.mdl),
+   Picklistentry(@Picklistentry/podiatrist__c.mdl),
+   Picklistentry(@Picklistentry/technician__c.mdl),
+   Picklistentry(@Picklistentry/therapist__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

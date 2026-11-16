@@ -1,0 +1,5 @@
+Picklistentry fr_89__c (
+   value('FR_Yonne'),
+   order(384),
+   active(true)
+);

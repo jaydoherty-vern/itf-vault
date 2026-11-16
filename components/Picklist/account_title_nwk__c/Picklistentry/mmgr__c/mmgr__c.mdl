@@ -1,0 +1,5 @@
+Picklistentry mmgr__c (
+   value('Marketing Manager'),
+   order(57),
+   active(true)
+);

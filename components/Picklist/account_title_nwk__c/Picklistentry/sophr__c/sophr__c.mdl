@@ -1,0 +1,5 @@
+Picklistentry sophr__c (
+   value('Sophrologist'),
+   order(100),
+   active(true)
+);

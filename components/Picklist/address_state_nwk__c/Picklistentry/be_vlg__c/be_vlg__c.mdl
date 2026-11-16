@@ -1,0 +1,5 @@
+Picklistentry be_vlg__c (
+   value('BE_Vlaamse Gewest'),
+   order(87),
+   active(true)
+);

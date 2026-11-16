@@ -1,0 +1,8 @@
+Objectlayout dynamic_attribute_configuration_picklist__c (
+   label('dynamic_attribute_configuration_picklist'),
+   active(true),
+   pagelayouts('Pagelayout.picklist_vod__c'),
+   object('Object.dynamic_attribute_configuration__v'),
+   objecttype('Objecttype.dynamic_attribute_configuration__v.picklist__v'),
+   record_creation_layout('Pagelayout.picklist_vod__c')
+);

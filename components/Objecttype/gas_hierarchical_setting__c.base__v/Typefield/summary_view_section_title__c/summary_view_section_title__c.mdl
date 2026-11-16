@@ -1,0 +1,4 @@
+Typefield summary_view_section_title__c (
+   source('standard'),
+   required(false)
+);

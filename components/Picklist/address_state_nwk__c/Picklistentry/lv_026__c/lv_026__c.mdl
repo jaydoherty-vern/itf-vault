@@ -1,0 +1,5 @@
+Picklistentry lv_026__c (
+   value('LV_Dobeles novads'),
+   order(1074),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry au_wa__c (
+   value('AU-WA'),
+   order(172),
+   active(true)
+);

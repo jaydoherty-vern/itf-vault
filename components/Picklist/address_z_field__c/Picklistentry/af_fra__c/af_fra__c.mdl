@@ -1,0 +1,5 @@
+Picklistentry af_fra__c (
+   value('AF-FRA'),
+   order(19),
+   active(true)
+);

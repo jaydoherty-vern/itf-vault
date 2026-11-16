@@ -1,0 +1,5 @@
+Picklistentry de__c (
+   value('Dr. oec.'),
+   order(117),
+   active(true)
+);

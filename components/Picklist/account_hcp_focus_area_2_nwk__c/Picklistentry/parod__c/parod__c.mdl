@@ -1,0 +1,5 @@
+Picklistentry parod__c (
+   value('Parodontology'),
+   order(314),
+   active(true)
+);

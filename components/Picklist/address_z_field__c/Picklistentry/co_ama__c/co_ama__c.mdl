@@ -1,0 +1,5 @@
+Picklistentry co_ama__c (
+   value('CO-AMA'),
+   order(765),
+   active(true)
+);

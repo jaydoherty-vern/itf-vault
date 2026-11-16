@@ -1,0 +1,4 @@
+Typefield priority__c (
+   source('custom'),
+   required(false)
+);

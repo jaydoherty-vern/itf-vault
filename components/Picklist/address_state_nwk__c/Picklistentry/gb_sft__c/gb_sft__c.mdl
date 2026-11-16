@@ -1,0 +1,5 @@
+Picklistentry gb_sft__c (
+   value('GB-SFT'),
+   order(596),
+   active(false)
+);

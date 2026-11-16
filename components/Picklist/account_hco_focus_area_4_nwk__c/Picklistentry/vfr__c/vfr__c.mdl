@@ -1,0 +1,5 @@
+Picklistentry vfr__c (
+   value('Veterinary Farmed Rabbits'),
+   order(256),
+   active(true)
+);

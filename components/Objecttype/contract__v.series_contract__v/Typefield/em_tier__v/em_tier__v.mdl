@@ -1,0 +1,7 @@
+Typefield em_tier__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.contract_em_tier__v.1__v',
+         'Picklist.contract_em_tier__v.2__v',
+         'Picklist.contract_em_tier__v.3__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry tanzanian_shilling__c (
+   value('Tanzanian Shilling'),
+   order(149),
+   active(true)
+);

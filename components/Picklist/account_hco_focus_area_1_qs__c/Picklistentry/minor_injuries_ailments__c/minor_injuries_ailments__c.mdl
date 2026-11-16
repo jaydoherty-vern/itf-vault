@@ -1,0 +1,5 @@
+Picklistentry minor_injuries_ailments__c (
+   value('Minor Injuries/Ailments'),
+   order(1),
+   active(true)
+);

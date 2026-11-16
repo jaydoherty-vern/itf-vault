@@ -1,0 +1,5 @@
+Picklistentry stolg__c (
+   value('Diploma in Stomatology'),
+   order(79),
+   active(true)
+);

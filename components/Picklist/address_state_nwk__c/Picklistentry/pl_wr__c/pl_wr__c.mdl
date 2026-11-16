@@ -1,0 +1,5 @@
+Picklistentry pl_wr__c (
+   value('PL_Wrocław'),
+   order(1385),
+   active(true)
+);

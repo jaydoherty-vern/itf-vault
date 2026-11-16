@@ -1,0 +1,5 @@
+Picklistentry pseac__c (
+   value('Diploma in Child Psychiatry'),
+   order(41),
+   active(true)
+);

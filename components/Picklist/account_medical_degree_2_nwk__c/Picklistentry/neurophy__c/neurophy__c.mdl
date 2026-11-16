@@ -1,0 +1,5 @@
+Picklistentry neurophy__c (
+   value('Clinical Neurophysiology Diploma'),
+   order(23),
+   active(true)
+);

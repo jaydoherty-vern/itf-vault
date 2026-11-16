@@ -1,0 +1,5 @@
+Picklistentry ru_kc__c (
+   value('RU_Karachayevo-Cherkesskaya Respublika'),
+   order(1506),
+   active(true)
+);

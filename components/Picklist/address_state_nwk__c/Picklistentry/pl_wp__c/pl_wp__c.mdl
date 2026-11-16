@@ -1,0 +1,5 @@
+Picklistentry pl_wp__c (
+   value('PL_Wielkopolskie'),
+   order(1383),
+   active(true)
+);

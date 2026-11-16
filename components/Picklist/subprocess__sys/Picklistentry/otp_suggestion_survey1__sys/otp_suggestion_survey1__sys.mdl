@@ -1,0 +1,6 @@
+Picklistentry otp_suggestion_survey1__sys (
+   value('Suggestion_Survey'),
+   order(169),
+   active(true),
+   controlling_entries('olc_survey_target__sys')
+);

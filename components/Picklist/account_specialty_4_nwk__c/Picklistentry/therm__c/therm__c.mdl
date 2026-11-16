@@ -1,0 +1,5 @@
+Picklistentry therm__c (
+   value('Thermal Medicine'),
+   order(506),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mcuph__c (
+   value('Lecturer of the Universities - Hospital Practitioner (MCU-PH)'),
+   order(15),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry paper__c (
+   value('Paper'),
+   order(9),
+   active(true)
+);

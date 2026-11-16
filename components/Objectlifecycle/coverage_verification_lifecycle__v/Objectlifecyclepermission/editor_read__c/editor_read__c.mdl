@@ -1,0 +1,15 @@
+Objectlifecyclepermission editor_read__c (
+   states('Objectlifecyclestate.complete_state__v',
+         'Objectlifecyclestate.coverage_verification_complete_state__c',
+         'Objectlifecyclestate.inactive_state__v',
+         'Objectlifecyclestate.new_state__v',
+         'Objectlifecyclestate.pa_appeal_denied_state__c',
+         'Objectlifecyclestate.pending_coverage_verification_state__c',
+         'Objectlifecyclestate.pending_pa_appeal_outcome_state__c',
+         'Objectlifecyclestate.pending_pa_appeal_submission_state__c',
+         'Objectlifecyclestate.pending_prior_authorization_outcome_stat__c',
+         'Objectlifecyclestate.pending_prior_authorization_submission__c',
+         'Objectlifecyclestate.prior_authorization_denied_state__c'),
+   role('Objectlifecyclerole.editor__v'),
+   permission('Read')
+);

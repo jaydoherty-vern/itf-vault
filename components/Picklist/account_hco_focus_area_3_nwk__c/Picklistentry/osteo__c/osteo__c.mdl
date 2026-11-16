@@ -1,0 +1,5 @@
+Picklistentry osteo__c (
+   value('Osteoporosis'),
+   order(174),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry hdpurcha__c (
+   value('Head of Purchasing / Procurement'),
+   order(100),
+   active(true)
+);

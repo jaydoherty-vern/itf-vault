@@ -1,0 +1,5 @@
+Picklistentry ro_cv__c (
+   value('RO_Covasna'),
+   order(1424),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectvalidation medical_event__v.startdatebeforeenddate2__c (
+   label('StartDateBeforeEndDate2'),
+   active(true),
+   expression('Not(start_date__v>end_date__v)'),
+   description('Start Date should not be after End Date.'),
+   error_message('End date must be equal or greater than start date.'),
+   error_location('start_date__v')
+);

@@ -1,0 +1,4 @@
+Typefield zvod_add_city_cda__c (
+   source('standard'),
+   required(false)
+);

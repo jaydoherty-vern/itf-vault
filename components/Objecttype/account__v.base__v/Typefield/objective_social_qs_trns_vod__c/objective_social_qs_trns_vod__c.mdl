@@ -1,0 +1,4 @@
+Typefield objective_social_qs_trns_vod__c (
+   source('standard'),
+   required(false)
+);

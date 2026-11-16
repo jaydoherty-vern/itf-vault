@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_sf_files__c (
+   label('VSPA_SF_Files'),
+   active(true),
+   description('This permission set contains all necessary permissions for Attaching Salesforce Files on Mobile Devices.'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

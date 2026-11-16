@@ -1,0 +1,5 @@
+Picklistentry cn_sh__c (
+   value('CN-SH'),
+   order(758),
+   active(true)
+);

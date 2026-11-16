@@ -1,0 +1,5 @@
+Picklistentry tr_79__c (
+   value('TR_Kilis'),
+   order(1714),
+   active(true)
+);

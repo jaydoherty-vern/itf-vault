@@ -1,0 +1,5 @@
+Picklistentry si_009__c (
+   value('SI_Brežice'),
+   order(1588),
+   active(true)
+);

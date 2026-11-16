@@ -1,0 +1,5 @@
+Picklistentry child_account__c (
+   value('Child Account'),
+   order(8),
+   active(true)
+);

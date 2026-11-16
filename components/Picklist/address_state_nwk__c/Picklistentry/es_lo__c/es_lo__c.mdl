@@ -1,0 +1,5 @@
+Picklistentry es_lo__c (
+   value('ES_La Rioja (Province)'),
+   order(209),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry script_defect__c (
+   value('Script Defect'),
+   order(0),
+   active(false)
+);

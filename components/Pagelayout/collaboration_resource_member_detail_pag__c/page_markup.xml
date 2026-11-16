@@ -1,0 +1,31 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.collaboration_resource_member__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" readOnly="true" />
+            <vault:field reference="collaboration_space_resource__v" />
+            <vault:field reference="microsoft_user_id__v" readOnly="true" />
+            <vault:field reference="integration_status__v" readOnly="true" />
+            <vault:field reference="integration_status_details__v" readOnly="true" />
+            <vault:field reference="user__v" readOnly="true" />
+            <vault:field reference="member_type__v" readOnly="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Account Team Members" name="account_team_members__c">
+        <vault:relatedObject relationship="account_team_members__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account_plan__v" width="200px" />
+            <vault:field reference="team_member__v" width="200px" />
+            <vault:field reference="role__v" width="200px" />
+            <vault:field reference="access__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="details1__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

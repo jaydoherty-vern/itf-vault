@@ -1,0 +1,5 @@
+Picklistentry seychelles_rupee__c (
+   value('Seychelles Rupee'),
+   order(132),
+   active(true)
+);

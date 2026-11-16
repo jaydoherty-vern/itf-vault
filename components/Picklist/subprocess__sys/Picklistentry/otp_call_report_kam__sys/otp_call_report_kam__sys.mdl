@@ -1,0 +1,6 @@
+Picklistentry otp_call_report_kam__sys (
+   value('Call Report KAM'),
+   order(20),
+   active(true),
+   controlling_entries('olc_call__sys')
+);

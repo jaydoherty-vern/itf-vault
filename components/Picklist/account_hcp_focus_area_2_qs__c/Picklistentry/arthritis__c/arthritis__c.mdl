@@ -1,0 +1,5 @@
+Picklistentry arthritis__c (
+   value('Arthritis'),
+   order(78),
+   active(true)
+);

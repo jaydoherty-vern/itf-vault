@@ -1,0 +1,7 @@
+RECREATE Picklist v2ok_data_change_request_country__c (
+   label('Country'),
+   active(true),
+   Picklistentry(@Picklistentry/au__c.mdl),
+   system_managed(false),
+   order_type('value_label_asc__sys')
+);

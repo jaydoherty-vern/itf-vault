@@ -1,0 +1,5 @@
+Picklistentry fr_83__c (
+   value('FR_Var'),
+   order(378),
+   active(true)
+);

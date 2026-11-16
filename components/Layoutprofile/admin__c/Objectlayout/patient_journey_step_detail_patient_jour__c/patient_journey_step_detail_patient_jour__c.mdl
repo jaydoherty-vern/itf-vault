@@ -1,0 +1,8 @@
+Objectlayout patient_journey_step_detail_patient_jour__c (
+   label('patient_journey_step_detail_patient_journey_step_detail_acco'),
+   active(true),
+   pagelayouts('Pagelayout.patient_journey_step_detail_account_page__c'),
+   object('Object.patient_journey_step_detail__v'),
+   objecttype('Objecttype.patient_journey_step_detail__v.patient_journey_step_detail_account__v'),
+   record_creation_layout('Pagelayout.patient_journey_step_detail_account_page__c')
+);

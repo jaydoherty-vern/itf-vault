@@ -1,0 +1,5 @@
+Picklistentry it__c (
+   value('IT'),
+   order(3),
+   active(true)
+);

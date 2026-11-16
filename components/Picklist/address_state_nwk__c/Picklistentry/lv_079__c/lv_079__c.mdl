@@ -1,0 +1,5 @@
+Picklistentry lv_079__c (
+   value('LV_Rojas novads (Roja)'),
+   order(1133),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cz_us__c (
+   value('CZ_Ústecký kraj'),
+   order(128),
+   active(true)
+);

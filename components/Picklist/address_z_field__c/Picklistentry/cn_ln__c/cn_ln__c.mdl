@@ -1,0 +1,5 @@
+Picklistentry cn_ln__c (
+   value('CN-LN'),
+   order(751),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cl_co__c (
+   value('Coquimbo'),
+   order(140),
+   active(true)
+);

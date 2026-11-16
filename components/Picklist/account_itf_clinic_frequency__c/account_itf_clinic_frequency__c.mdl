@@ -1,0 +1,9 @@
+RECREATE Picklist account_itf_clinic_frequency__c (
+   label('Clinic Frequency'),
+   active(true),
+   Picklistentry(@Picklistentry/weekly__c.mdl),
+   Picklistentry(@Picklistentry/bi_weekly__c.mdl),
+   Picklistentry(@Picklistentry/monthly__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

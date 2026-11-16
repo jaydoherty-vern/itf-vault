@@ -1,0 +1,5 @@
+Picklistentry infophar__c (
+   value('Drug Information Pharmacist'),
+   order(75),
+   active(true)
+);

@@ -1,0 +1,36 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.content_acknowledgement__v.call__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__v" readOnly="true" />
+            <vault:field reference="ship_address_line_1__v" readOnly="true" />
+            <vault:field reference="ship_address_line_2__v" readOnly="true" />
+            <vault:field reference="ship_city__v" readOnly="true" />
+            <vault:field reference="ship_state__v" readOnly="true" />
+            <vault:field reference="ship_zip__v" readOnly="true" />
+            <vault:field reference="ship_license__v" readOnly="true" />
+            <vault:field reference="order_id__v" readOnly="true" />
+            <vault:field reference="content_acknowledgement_status__v" readOnly="true" />
+            <vault:field reference="ship_date__v" readOnly="true" />
+            <vault:field reference="aoc_due_date__v" />
+            <vault:field reference="call_reference__v" readOnly="true" />
+            <vault:field reference="ownerid__v" readOnly="true" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Content Acknowledgement Items" name="content_acknowledgement_items__c">
+        <vault:relatedObject relationship="content_acknowledgement_items__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="lot__v" width="200px" />
+            <vault:field reference="manufacturer__v" width="200px" />
+            <vault:field reference="distributor__v" width="200px" />
+            <vault:field reference="ship_quantity__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

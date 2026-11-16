@@ -1,0 +1,5 @@
+Picklistentry liainumg__c (
+   value('Liaison Nurse Manager'),
+   order(124),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry radios__c (
+   value('Radioscopy Diploma'),
+   order(322),
+   active(true)
+);

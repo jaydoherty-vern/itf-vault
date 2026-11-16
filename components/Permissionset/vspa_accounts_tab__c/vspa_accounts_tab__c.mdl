@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_accounts_tab__c (
+   label('VSPA_Accounts_Tab'),
+   active(true),
+   description('Grants access to the SF standard Accounts tab'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

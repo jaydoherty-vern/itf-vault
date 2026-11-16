@@ -1,0 +1,5 @@
+Picklistentry philippine_peso__c (
+   value('Philippine Peso'),
+   order(121),
+   active(true)
+);

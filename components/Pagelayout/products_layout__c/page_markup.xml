@@ -1,0 +1,124 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.product__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="parent_product__v" />
+            <vault:field reference="product_type__v" />
+            <vault:field reference="country_code__c" />
+            <vault:field reference="therapeutic_area__v" />
+            <vault:field reference="therapeutic_class__v" />
+            <vault:field reference="create_lot_catalog__v" />
+            <vault:field reference="itf_share_team__c" required="true" />
+            <vault:field reference="itf_share_team1__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Product Details" name="product_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="description__v" />
+            <vault:field reference="sample_quantity_picklist__v" />
+            <vault:field reference="quantity_per_case__v" />
+            <vault:field reference="distributor__v" />
+            <vault:field reference="sample_u_m__v" />
+            <vault:field reference="sort_code__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="product_info__c" />
+            <vault:field reference="manufacturer__v" />
+            <vault:field reference="consumer_site__c" />
+            <vault:field reference="restricted_states__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Product Settings" name="product_settings__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="require_key_message__v" />
+            <vault:field reference="no_metrics__v" />
+            <vault:field reference="sample_quantity_bound__v" />
+            <vault:field reference="bundle_pack__v" />
+            <vault:field reference="inventory_monitoring__v" />
+            <vault:field reference="restricted__v" />
+            <vault:field reference="user_aligned__v" />
+            <vault:field reference="no_cycle_plans__v" />
+            <vault:field reference="no_details__v" />
+            <vault:field reference="pricing_bound__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Vault Integration" name="vault_integration__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="vexternal_id__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Key Indicators" name="key_indicators__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="controlled_substance__v" />
+            <vault:field reference="company_product__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Costs" name="costs__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="cost__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Product Catalog" name="child_products__c">
+        <vault:relatedObject relationship="child_products__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="product_info__c" width="200px" />
+            <vault:field reference="consumer_site__c" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Call Details" name="call_detail__c">
+        <vault:relatedObject relationship="call_detail__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Key Messages" name="key_message__c">
+        <vault:relatedObject relationship="key_message__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="description__v" width="200px" />
+            <vault:field reference="product_strategy__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Product Events" name="product_event__c">
+        <vault:relatedObject relationship="product_event__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="event_date__v" width="200px" />
+            <vault:field reference="description__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Product Group Maps" name="product_group_map__c">
+        <vault:relatedObject relationship="product_group_map__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="analytics_product_group__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Product Groups" name="product_groups__c">
+        <vault:relatedObject relationship="product_groups__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Product Groups (Product Catalog)" name="product_groups1__c">
+        <vault:relatedObject relationship="product_groups1__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Pricing Rules" name="pricing_rules1__c">
+        <vault:relatedObject relationship="pricing_rules1__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Product Informations" name="product_informations__c">
+        <vault:relatedObject relationship="product_informations__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

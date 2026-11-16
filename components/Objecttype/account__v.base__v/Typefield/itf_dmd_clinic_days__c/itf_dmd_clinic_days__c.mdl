@@ -1,0 +1,4 @@
+Typefield itf_dmd_clinic_days__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry brick_to_terr__c (
+   value('Brick to Terr'),
+   order(5),
+   active(true)
+);

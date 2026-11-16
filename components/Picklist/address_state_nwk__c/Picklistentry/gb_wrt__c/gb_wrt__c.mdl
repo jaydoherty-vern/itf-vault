@@ -1,0 +1,5 @@
+Picklistentry gb_wrt__c (
+   value('GB-WRT'),
+   order(644),
+   active(false)
+);

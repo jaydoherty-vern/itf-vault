@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.workplacename_mandatory_insert__c (
+   label('WorkplaceName_Mandatory_Insert'),
+   active(true),
+   expression('Not(And(Text(change_type__c)="Create",IsBlank(new_account_name__c),object_type__vr.name__v="Workplaces"))'),
+   description('Workplace Name is Mandatory for Insert. Update or Delete calculated if missing.'),
+   error_message('Mandatory for "Create" data change request type.'),
+   error_location('new_account_name__c')
+);

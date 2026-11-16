@@ -1,0 +1,4 @@
+Typefield itf_release_status__c (
+   source('standard'),
+   required(false)
+);

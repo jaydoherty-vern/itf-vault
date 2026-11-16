@@ -1,0 +1,7 @@
+RECREATE Permissionset vspa_gas_end_user__c (
+   label('VSPA_GAS_End_User'),
+   active(true),
+   description('New GAS Feature'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

@@ -1,0 +1,5 @@
+Picklistentry uzb__v (
+   value('Uzbek'),
+   order(348),
+   active(false)
+);

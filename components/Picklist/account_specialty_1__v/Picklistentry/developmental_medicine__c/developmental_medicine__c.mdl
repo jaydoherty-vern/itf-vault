@@ -1,0 +1,5 @@
+Picklistentry developmental_medicine__c (
+   value('DEVELOPMENTAL MEDICINE'),
+   order(70),
+   active(true)
+);

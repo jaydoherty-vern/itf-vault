@@ -1,0 +1,5 @@
+Picklistentry student__c (
+   value('STUDENT'),
+   order(13),
+   active(true)
+);

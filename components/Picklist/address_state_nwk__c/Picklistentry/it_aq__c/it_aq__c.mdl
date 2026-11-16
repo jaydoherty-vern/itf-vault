@@ -1,0 +1,5 @@
+Picklistentry it_aq__c (
+   value('IT_L''Aquila'),
+   order(874),
+   active(true)
+);

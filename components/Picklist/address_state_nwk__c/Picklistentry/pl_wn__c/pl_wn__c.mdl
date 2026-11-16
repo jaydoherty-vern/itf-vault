@@ -1,0 +1,5 @@
+Picklistentry pl_wn__c (
+   value('PL_Warmińsko-mazurskie'),
+   order(1381),
+   active(true)
+);

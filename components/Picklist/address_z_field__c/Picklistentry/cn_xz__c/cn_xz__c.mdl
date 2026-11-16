@@ -1,0 +1,5 @@
+Picklistentry cn_xz__c (
+   value('CN-XZ'),
+   order(762),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ongoing_activity__c (
+   value('Ongoing Activity'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry sfdc_report__c (
+   value('SFDC Report'),
+   order(49),
+   active(true)
+);

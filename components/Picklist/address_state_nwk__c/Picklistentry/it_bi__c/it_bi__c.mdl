@@ -1,0 +1,5 @@
+Picklistentry it_bi__c (
+   value('IT_Biella'),
+   order(844),
+   active(true)
+);

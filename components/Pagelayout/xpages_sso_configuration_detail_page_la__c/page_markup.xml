@@ -1,0 +1,20 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.xpages_sso_configuration__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="object_type__v" />
+            <vault:field reference="name__v" />
+            <vault:field reference="api_name__v" />
+            <vault:field reference="authorization_endpoint__v" />
+            <vault:field reference="token_endpoint__v" />
+            <vault:field reference="client_id__v" />
+            <vault:field reference="client_secret__v" />
+            <vault:control reference="xpages_sso_authorization_redirect_uri__v" name="xpages_sso_authorization_redirect_uri__c" label="Authorization Redirect URI" helpContent="The URL that the user will be redirected to with an authorization code after logging into the SSO provider. This must be added to the SSO configuration." />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="custom_scopes__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

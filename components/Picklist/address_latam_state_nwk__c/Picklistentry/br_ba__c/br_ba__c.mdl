@@ -1,0 +1,5 @@
+Picklistentry br_ba__c (
+   value('Bahia'),
+   order(18),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mvdol__c (
+   value('Mvdol'),
+   order(24),
+   active(true)
+);

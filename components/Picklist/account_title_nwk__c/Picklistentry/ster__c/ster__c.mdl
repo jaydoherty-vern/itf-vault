@@ -1,0 +1,5 @@
+Picklistentry ster__c (
+   value('Sterilizing agent'),
+   order(105),
+   active(true)
+);

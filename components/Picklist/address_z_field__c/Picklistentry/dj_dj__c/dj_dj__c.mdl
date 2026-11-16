@@ -1,0 +1,5 @@
+Picklistentry dj_dj__c (
+   value('DJ-DJ'),
+   order(988),
+   active(true)
+);

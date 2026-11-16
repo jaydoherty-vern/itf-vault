@@ -1,0 +1,8 @@
+RECREATE Sharingrule key_message_staged_clm_testers__c (
+   label('Key Message - Staged CLM Testers'),
+   active(true),
+   description(),
+   object('key_message__v'),
+   criteria([key_message_status__v = 'staged__v']),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

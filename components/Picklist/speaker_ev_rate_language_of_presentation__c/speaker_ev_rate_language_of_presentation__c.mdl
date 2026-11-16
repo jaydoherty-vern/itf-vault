@@ -1,0 +1,10 @@
+RECREATE Picklist speaker_ev_rate_language_of_presentation__c (
+   label('Rate: Language of presentation'),
+   active(true),
+   Picklistentry(@Picklistentry/excellent__c.mdl),
+   Picklistentry(@Picklistentry/very_good__c.mdl),
+   Picklistentry(@Picklistentry/average__c.mdl),
+   Picklistentry(@Picklistentry/below_average__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

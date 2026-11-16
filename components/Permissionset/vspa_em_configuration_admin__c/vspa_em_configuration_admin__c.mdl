@@ -1,0 +1,11 @@
+RECREATE Permissionset vspa_em_configuration_admin__c (
+   label('VSPA_EM_CONFIGURATION_ADMIN'),
+   active(true),
+   description('Permission set to turn on Veeva Events Management for configuration administrators of the Events Management system. Gives access to the Event Configuration console. Use in conjunction with VSPA_EM_DATA_ADMIN.'),
+   object.em_event__v.vspa_cme_event__c.field_actions('edit',
+      'read'),
+   object.em_event__v.vspa_sponsor_type__c.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

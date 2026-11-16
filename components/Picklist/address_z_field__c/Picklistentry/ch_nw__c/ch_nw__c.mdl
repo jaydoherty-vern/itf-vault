@@ -1,0 +1,5 @@
+Picklistentry ch_nw__c (
+   value('CH-NW'),
+   order(663),
+   active(true)
+);

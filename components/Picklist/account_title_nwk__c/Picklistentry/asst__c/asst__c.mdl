@@ -1,0 +1,5 @@
+Picklistentry asst__c (
+   value('Assistant'),
+   order(4),
+   active(true)
+);

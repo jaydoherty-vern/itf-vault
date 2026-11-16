@@ -1,0 +1,5 @@
+Picklistentry phm__c (
+   value('Pharmaceutical Medicine'),
+   order(349),
+   active(true)
+);

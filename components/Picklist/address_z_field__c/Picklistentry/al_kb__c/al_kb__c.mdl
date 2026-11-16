@@ -1,0 +1,5 @@
+Picklistentry al_kb__c (
+   value('AL-KB'),
+   order(80),
+   active(true)
+);

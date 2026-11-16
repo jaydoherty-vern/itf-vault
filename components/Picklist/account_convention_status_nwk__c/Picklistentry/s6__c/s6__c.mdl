@@ -1,0 +1,5 @@
+Picklistentry s6__c (
+   value('S6'),
+   order(5),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry dnr__c (
+   value('Dr. nat. techn.'),
+   order(127),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry phouv__c (
+   value('Phototherapy UVB and UVA'),
+   order(350),
+   active(true)
+);

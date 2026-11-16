@@ -1,0 +1,5 @@
+Picklistentry ldr__c (
+   value('Locomotor Disease Rehabilitation Diploma'),
+   order(196),
+   active(true)
+);

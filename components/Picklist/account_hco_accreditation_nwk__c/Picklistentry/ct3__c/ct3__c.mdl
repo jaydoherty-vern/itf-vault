@@ -1,0 +1,5 @@
+Picklistentry ct3__c (
+   value('Cancer Treatment (Regional)'),
+   order(6),
+   active(true)
+);

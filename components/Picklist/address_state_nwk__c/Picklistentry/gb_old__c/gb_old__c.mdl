@@ -1,0 +1,5 @@
+Picklistentry gb_old__c (
+   value('GB-OLD'),
+   order(572),
+   active(false)
+);

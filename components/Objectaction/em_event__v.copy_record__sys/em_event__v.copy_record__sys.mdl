@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.copy_record__sys (
+   label('Copy Record'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.CopyRecord'),
+   active(true),
+   available_all_states(true)
+);

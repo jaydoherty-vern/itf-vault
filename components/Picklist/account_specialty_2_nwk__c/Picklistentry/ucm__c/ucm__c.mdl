@@ -1,0 +1,5 @@
+Picklistentry ucm__c (
+   value('Urgent Care Medicine'),
+   order(544),
+   active(true)
+);

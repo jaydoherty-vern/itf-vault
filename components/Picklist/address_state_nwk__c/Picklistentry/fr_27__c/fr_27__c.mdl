@@ -1,0 +1,5 @@
+Picklistentry fr_27__c (
+   value('FR_Eure'),
+   order(306),
+   active(true)
+);

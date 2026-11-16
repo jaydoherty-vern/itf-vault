@@ -1,0 +1,15 @@
+Subtab monitored_phrase__c (
+   active(true),
+   all_view_label('All Monitored Phrase'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Monitored Phrase'),
+   modal_create_record(false),
+   my_view_label('My Monitored Phrase'),
+   object('monitored_phrase__v'),
+   order(100),
+   parent('approved_notes__c'),
+   prevent_create(false),
+   recent_view_label('Recent Monitored Phrase')
+);

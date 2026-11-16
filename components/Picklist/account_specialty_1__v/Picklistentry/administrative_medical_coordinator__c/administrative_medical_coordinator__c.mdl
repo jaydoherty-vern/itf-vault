@@ -1,0 +1,5 @@
+Picklistentry administrative_medical_coordinator__c (
+   value('Administrative Medical Coordinator'),
+   order(114),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry sp_wes_f8__c (
+   value('SP.WES.F8'),
+   order(163),
+   active(true)
+);

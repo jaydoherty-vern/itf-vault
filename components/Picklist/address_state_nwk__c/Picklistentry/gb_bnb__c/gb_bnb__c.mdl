@@ -1,0 +1,5 @@
+Picklistentry gb_bnb__c (
+   value('GB-BNB'),
+   order(436),
+   active(false)
+);

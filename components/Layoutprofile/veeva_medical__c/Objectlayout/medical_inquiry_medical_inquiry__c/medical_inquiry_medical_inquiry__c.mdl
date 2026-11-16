@@ -1,0 +1,8 @@
+Objectlayout medical_inquiry_medical_inquiry__c (
+   label('Medical Inquiry Medical Inquiry'),
+   active(true),
+   pagelayouts('Pagelayout.medical_inquiry_without_sign_page_layout__c'),
+   object('Object.medical_inquiry__v'),
+   objecttype('Objecttype.medical_inquiry__v.medical_inquiry__v'),
+   record_creation_layout()
+);

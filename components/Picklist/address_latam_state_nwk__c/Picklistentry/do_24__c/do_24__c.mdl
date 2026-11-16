@@ -1,0 +1,5 @@
+Picklistentry do_24__c (
+   value('Sánchez Ramírez'),
+   order(183),
+   active(true)
+);

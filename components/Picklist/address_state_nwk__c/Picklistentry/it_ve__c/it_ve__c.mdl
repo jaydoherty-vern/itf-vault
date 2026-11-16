@@ -1,0 +1,5 @@
+Picklistentry it_ve__c (
+   value('IT_Venice'),
+   order(935),
+   active(true)
+);

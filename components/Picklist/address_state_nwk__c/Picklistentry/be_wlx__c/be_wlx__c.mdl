@@ -1,0 +1,5 @@
+Picklistentry be_wlx__c (
+   value('BE_Luxembourg (Belgian Province)'),
+   order(83),
+   active(true)
+);

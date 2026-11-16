@@ -1,0 +1,9 @@
+RECREATE Actiontrigger set_fulfillment_status_to_completed_medi__c (
+   label('Set Fulfillment Status to Completed'),
+   active(true),
+   description(),
+   object('Object.medical_inquiry__v'),
+   event('BEFORE_UPDATE'),
+   order(300),
+   Actionblock(@Actionblock/action_block1__c.mdl)
+);

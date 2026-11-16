@@ -1,0 +1,5 @@
+Picklistentry si_011__c (
+   value('SI_Celje'),
+   order(1589),
+   active(true)
+);

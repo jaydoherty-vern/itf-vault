@@ -1,0 +1,5 @@
+Picklistentry ccrms_local_admin__c (
+   value('CCRMS_Local_Admin'),
+   order(6),
+   active(true)
+);

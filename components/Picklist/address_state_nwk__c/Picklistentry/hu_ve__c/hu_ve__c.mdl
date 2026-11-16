@@ -1,0 +1,5 @@
+Picklistentry hu_ve__c (
+   value('HU_Veszprém (County)'),
+   order(717),
+   active(true)
+);

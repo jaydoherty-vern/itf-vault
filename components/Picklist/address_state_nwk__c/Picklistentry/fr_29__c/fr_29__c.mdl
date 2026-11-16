@@ -1,0 +1,5 @@
+Picklistentry fr_29__c (
+   value('FR_Finistère'),
+   order(308),
+   active(true)
+);

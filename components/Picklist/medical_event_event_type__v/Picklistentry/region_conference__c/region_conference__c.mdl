@@ -1,0 +1,5 @@
+Picklistentry region_conference__c (
+   value('Region conference'),
+   order(8),
+   active(true)
+);

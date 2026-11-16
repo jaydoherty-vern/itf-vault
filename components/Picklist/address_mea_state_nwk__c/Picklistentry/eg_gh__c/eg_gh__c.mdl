@@ -1,0 +1,5 @@
+Picklistentry eg_gh__c (
+   value('EG_Al Gharbīyah'),
+   order(31),
+   active(true)
+);

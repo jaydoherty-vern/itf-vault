@@ -1,0 +1,14 @@
+RECREATE Picklist impacted_group__c (
+   label('Impacted Group'),
+   active(true),
+   Picklistentry(@Picklistentry/csc__c.mdl),
+   Picklistentry(@Picklistentry/data_management__c.mdl),
+   Picklistentry(@Picklistentry/exploria__c.mdl),
+   Picklistentry(@Picklistentry/ice_lab__c.mdl),
+   Picklistentry(@Picklistentry/sfa_l3_support__c.mdl),
+   Picklistentry(@Picklistentry/starters__c.mdl),
+   Picklistentry(@Picklistentry/training__c.mdl),
+   Picklistentry(@Picklistentry/veeva__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

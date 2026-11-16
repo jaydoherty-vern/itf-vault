@@ -1,0 +1,9 @@
+RECREATE Permissionset remote_meeting_permission_set__c (
+   label('Remote_Meeting'),
+   active(true),
+   description('Permission set for Veeva Vadmin user.'),
+   object.call2__v.remote_meeting__v.field_actions('read'),
+   object.call2__v.veeva_remote_meeting_id__v.field_actions('read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

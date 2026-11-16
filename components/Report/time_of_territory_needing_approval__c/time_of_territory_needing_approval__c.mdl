@@ -1,0 +1,20 @@
+RECREATE Report time_of_territory_needing_approval__c (
+   label('Time of Territory Needing Approval'),
+   active(true),
+   description('Returns TOT records that are overdue for approval.'),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.time_off_territory_with_user__c'),
+   editors(),
+   viewers(),
+   owners('User.dylan.myers@veeva.com'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags(),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

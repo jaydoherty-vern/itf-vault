@@ -1,0 +1,40 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.alert__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="alert_text__v" required="true" />
+            <vault:field reference="priority__v" required="true" />
+            <vault:field reference="activation_date__v" />
+            <vault:field reference="expiration_date__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="public__v" />
+            <vault:field reference="dismissible__v" />
+            <vault:field reference="link_reference_long__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:spacer />
+            <vault:field reference="push_notify_status__v" readOnly="true" />
+            <vault:field reference="last_push_notify_datetime__v" readOnly="true" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Alert Profiles" name="alert_profile__c">
+        <vault:relatedObject relationship="alert_profile__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="profile_name_vod__c" width="200px" />
+            <vault:field reference="application_profile__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Alert User Actions" name="alert_user_actions__c">
+        <vault:relatedObject relationship="alert_user_actions__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="user__v" width="200px" />
+            <vault:field reference="dismissed__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

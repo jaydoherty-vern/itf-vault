@@ -1,0 +1,10 @@
+RECREATE Picklist speaker_evaluation_qualities__c (
+   label('Qualities'),
+   active(true),
+   Picklistentry(@Picklistentry/scientific__c.mdl),
+   Picklistentry(@Picklistentry/speaker__c.mdl),
+   Picklistentry(@Picklistentry/discussion__c.mdl),
+   Picklistentry(@Picklistentry/author__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

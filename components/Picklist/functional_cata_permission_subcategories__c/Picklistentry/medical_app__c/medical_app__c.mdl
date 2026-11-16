@@ -1,0 +1,5 @@
+Picklistentry medical_app__c (
+   value('Medical App'),
+   order(43),
+   active(true)
+);

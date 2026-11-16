@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport" advancedFilterLogic="1 AND (2 OR 3) AND 4">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.object_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v.created_by__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v___account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v___account__v.external_id__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v___account__v.itf_isr_target__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v___account__v.itf_confirmation_of_patient_count__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request__v___account__v.itf_number_of_patients_per_year__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request_line__v___data_change_request__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request_line__v___data_change_request__v.field_name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request_line__v___data_change_request__v.result__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request_line__v___data_change_request__v.old_value__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request_line__v___data_change_request__v.new_value__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="data_change_request_line__v___data_change_request__v.final_value__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="data_change_request__v.object_type__v" rightValue="Account" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" filterNumber="1" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="data_change_request_line__v___data_change_request__v.field_api_name__v" rightValue="itf_confirmation_of_patient_count__c" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" filterNumber="2" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="data_change_request_line__v___data_change_request__v.field_api_name__v" rightValue="itf_number_of_patients_per_year__c" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" filterNumber="3" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="data_change_request__v___account__v.itf_isr_target__c" rightValue="true" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" filterNumber="4" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="data_change_request__v___account__v.name__v" groupBySortOn="data_change_request__v___account__v.name__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="data_change_request__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

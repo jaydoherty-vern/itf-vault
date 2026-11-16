@@ -1,0 +1,5 @@
+Picklistentry puph__c (
+   value('Professor of Universities - Hospital Practitioner (PU-PH)'),
+   order(27),
+   active(true)
+);

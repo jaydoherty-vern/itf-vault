@@ -1,0 +1,10 @@
+RECREATE Picklist address_address_type_vod__c (
+   label('Address Type'),
+   active(true),
+   Picklistentry(@Picklistentry/professional_and_preferred_mail__c.mdl),
+   Picklistentry(@Picklistentry/mail_only__c.mdl),
+   Picklistentry(@Picklistentry/professional__c.mdl),
+   Picklistentry(@Picklistentry/address__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

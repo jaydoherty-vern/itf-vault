@@ -1,0 +1,5 @@
+Picklistentry emergency_medicine_general__c (
+   value('EMERGENCY MEDICINE - GENERAL'),
+   order(329),
+   active(true)
+);

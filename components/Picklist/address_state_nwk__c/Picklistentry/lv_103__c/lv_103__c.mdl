@@ -1,0 +1,5 @@
+Picklistentry lv_103__c (
+   value('LV_Vārkavas novads (Vārkava)'),
+   order(1159),
+   active(true)
+);

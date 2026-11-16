@@ -1,0 +1,18 @@
+Field itf_elevidys_tx_center__c (
+   label('Elevidys Tx Center'),
+   type('Boolean'),
+   active(true),
+   description('https://itftherapeutics.lightning.force.com/lightning/r/Requirement_vod__c/a1ual000002qfM5AAI/view'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(257),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

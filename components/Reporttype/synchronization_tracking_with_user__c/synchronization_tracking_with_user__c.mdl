@@ -1,0 +1,9 @@
+RECREATE Reporttype synchronization_tracking_with_user__c (
+   label('Synchronization Tracking with User'),
+   active(true),
+   description('Synchronization Tracking with Owner'),
+   primary_object('sync_tracking__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

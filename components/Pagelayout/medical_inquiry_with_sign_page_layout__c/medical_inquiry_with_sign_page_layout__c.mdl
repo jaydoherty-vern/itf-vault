@@ -1,0 +1,8 @@
+RECREATE Pagelayout medical_inquiry_with_sign_page_layout__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Medical Inquiry with Signature Page Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,5 @@
+Picklistentry milmed__c (
+   value('Military Medicine'),
+   order(245),
+   active(true)
+);

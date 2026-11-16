@@ -1,0 +1,6 @@
+RECREATE Securityprofile salesforce_api_only_system_integrations__c (
+   label('Salesforce API Only System Integrations'),
+   active(true),
+   description(),
+   permission_sets('salesforce_api_only_system_integrations_ps__c')
+);

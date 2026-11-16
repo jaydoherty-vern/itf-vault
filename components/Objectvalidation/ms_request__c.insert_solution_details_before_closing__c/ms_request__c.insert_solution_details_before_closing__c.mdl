@@ -1,0 +1,8 @@
+RECREATE Objectvalidation ms_request__c.insert_solution_details_before_closing__c (
+   label('Insert_Solution_details_before_closing'),
+   active(true),
+   expression('Not((IsBlank(solution_details__c)||IsBlank(Text(solution_type__c)))&&(status__c="completed__c"))'),
+   description(),
+   error_message('Please enter Solution Details before setting the Status to Completed'),
+   error_location('id')
+);

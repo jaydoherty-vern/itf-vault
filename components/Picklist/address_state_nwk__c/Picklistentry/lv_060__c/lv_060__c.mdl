@@ -1,0 +1,5 @@
+Picklistentry lv_060__c (
+   value('LV_Mazsalacas novads (Mazsalaca)'),
+   order(1114),
+   active(true)
+);

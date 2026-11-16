@@ -1,0 +1,5 @@
+Picklistentry vendor_enhancement__c (
+   value('Vendor Enhancement'),
+   order(10),
+   active(true)
+);

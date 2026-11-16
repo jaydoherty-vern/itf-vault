@@ -1,0 +1,5 @@
+Picklistentry multisponsor__c (
+   value('Multisponsor'),
+   order(0),
+   active(true)
+);

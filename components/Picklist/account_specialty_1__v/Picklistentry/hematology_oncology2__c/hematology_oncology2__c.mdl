@@ -1,0 +1,5 @@
+Picklistentry hematology_oncology2__c (
+   value('HEMATOLOGY & ONCOLOGY'),
+   order(338),
+   active(true)
+);

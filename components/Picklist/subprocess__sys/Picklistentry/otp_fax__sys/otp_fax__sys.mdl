@@ -1,0 +1,6 @@
+Picklistentry otp_fax__sys (
+   value('Fax'),
+   order(69),
+   active(true),
+   controlling_entries('olc_console_channel__sys')
+);

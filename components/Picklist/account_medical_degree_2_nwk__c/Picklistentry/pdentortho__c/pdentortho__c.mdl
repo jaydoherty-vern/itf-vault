@@ -1,0 +1,5 @@
+Picklistentry pdentortho__c (
+   value('Pediatric Dentistry & Orthodontics Diploma'),
+   order(251),
+   active(true)
+);

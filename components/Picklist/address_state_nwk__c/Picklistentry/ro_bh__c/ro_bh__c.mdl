@@ -1,0 +1,5 @@
+Picklistentry ro_bh__c (
+   value('RO_Bihor'),
+   order(1413),
+   active(true)
+);

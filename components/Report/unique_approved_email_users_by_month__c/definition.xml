@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.id" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.sent_email_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.created_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.email_sent_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v.approved_email_template__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v___ownerid__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v___ownerid__v.id" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="CURRENTCY" leftValue="sent_email__v.email_sent_date__v" rightValue="2024-01-01;;;2024-12-31" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="sent_email__v.email_sent_date__v" period="MONTH" groupBySortOn="sent_email__v.email_sent_date__v" groupBySortOrder="ASCENDING">
+      <vrp:function>
+        <vrp:selectItem type="FUNCTION" action="DISTINCT_COUNT" property="DISTINCT_COUNT" display="NUMBER">
+          <vrp:children>
+            <vrp:selectItem type="PROPERTY" action="NONE" property="sent_email__v___ownerid__v.id" />
+          </vrp:children>
+        </vrp:selectItem>
+      </vrp:function>
+    </vrp:groupItem>
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="sent_email__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

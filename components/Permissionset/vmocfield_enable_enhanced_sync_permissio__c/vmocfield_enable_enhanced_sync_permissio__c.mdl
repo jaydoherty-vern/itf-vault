@@ -1,0 +1,9 @@
+RECREATE Permissionset vmocfield_enable_enhanced_sync_permissio__c (
+   label('VMOCField_Enable_Enhanced_Sync'),
+   active(true),
+   description('Permission set for Veeva Vadmin user.'),
+   object.vmobile_object_configuration__v.enable_enhanced_sync__v.field_actions('edit',
+      'read'),
+   tab.my_accounts__v.tab_actions('view'),
+   tab.my_schedule_tab__v.tab_actions('view')
+);

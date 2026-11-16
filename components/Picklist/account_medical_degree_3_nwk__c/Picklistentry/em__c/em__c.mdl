@@ -1,0 +1,5 @@
+Picklistentry em__c (
+   value('Emergency Medicine Diploma'),
+   order(144),
+   active(true)
+);

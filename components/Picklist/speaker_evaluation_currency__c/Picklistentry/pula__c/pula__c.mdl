@@ -1,0 +1,5 @@
+Picklistentry pula__c (
+   value('Pula'),
+   order(26),
+   active(true)
+);

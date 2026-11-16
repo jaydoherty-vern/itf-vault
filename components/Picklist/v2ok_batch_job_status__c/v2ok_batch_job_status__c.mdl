@@ -1,0 +1,10 @@
+RECREATE Picklist v2ok_batch_job_status__c (
+   label('Status'),
+   active(true),
+   Picklistentry(@Picklistentry/started__c.mdl),
+   Picklistentry(@Picklistentry/submitted__c.mdl),
+   Picklistentry(@Picklistentry/running__c.mdl),
+   Picklistentry(@Picklistentry/completed__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

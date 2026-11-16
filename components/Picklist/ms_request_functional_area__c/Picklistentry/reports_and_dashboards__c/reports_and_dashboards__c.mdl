@@ -1,0 +1,5 @@
+Picklistentry reports_and_dashboards__c (
+   value('Reports and Dashboards'),
+   order(40),
+   active(true)
+);

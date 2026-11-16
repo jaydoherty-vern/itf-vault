@@ -1,0 +1,5 @@
+Picklistentry it_mb__c (
+   value('IT_Monza and Brianza'),
+   order(890),
+   active(true)
+);

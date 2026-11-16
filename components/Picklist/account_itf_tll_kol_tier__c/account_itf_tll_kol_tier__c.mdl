@@ -1,0 +1,10 @@
+RECREATE Picklist account_itf_tll_kol_tier__c (
+   label('TLL KOL Tier'),
+   active(true),
+   Picklistentry(@Picklistentry/international__c.mdl),
+   Picklistentry(@Picklistentry/national__c.mdl),
+   Picklistentry(@Picklistentry/regional__c.mdl),
+   Picklistentry(@Picklistentry/local__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

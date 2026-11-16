@@ -1,0 +1,4 @@
+Typefield functional_area__c (
+   source('standard'),
+   required(false)
+);

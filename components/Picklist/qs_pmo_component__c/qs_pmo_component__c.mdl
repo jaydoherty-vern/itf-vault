@@ -1,0 +1,17 @@
+RECREATE Picklist qs_pmo_component__c (
+   label('Component'),
+   active(true),
+   Picklistentry(@Picklistentry/custom_field__c.mdl),
+   Picklistentry(@Picklistentry/custom_object__c.mdl),
+   Picklistentry(@Picklistentry/fls__c.mdl),
+   Picklistentry(@Picklistentry/page_layouts__c.mdl),
+   Picklistentry(@Picklistentry/profiles__c.mdl),
+   Picklistentry(@Picklistentry/record_types__c.mdl),
+   Picklistentry(@Picklistentry/trigger__c.mdl),
+   Picklistentry(@Picklistentry/workflow__c.mdl),
+   Picklistentry(@Picklistentry/s_control__c.mdl),
+   Picklistentry(@Picklistentry/onekey__c.mdl),
+   Picklistentry(@Picklistentry/related_list__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

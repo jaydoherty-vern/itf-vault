@@ -1,0 +1,5 @@
+Picklistentry hr_16__c (
+   value('HR_Vukovarsko-srijemska županija'),
+   order(674),
+   active(true)
+);

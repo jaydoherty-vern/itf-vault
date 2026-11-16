@@ -1,0 +1,5 @@
+Picklistentry lookup__c (
+   value('Lookup relationship'),
+   order(4),
+   active(true)
+);

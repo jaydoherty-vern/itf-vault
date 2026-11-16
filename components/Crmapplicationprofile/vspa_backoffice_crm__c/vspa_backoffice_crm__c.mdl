@@ -1,0 +1,5 @@
+RECREATE Crmapplicationprofile vspa_backoffice_crm__c (
+   label('VSPA_BackOffice_CRM'),
+   active(true),
+   description()
+);

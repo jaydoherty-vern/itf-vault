@@ -1,0 +1,5 @@
+Picklistentry lv_062__c (
+   value('LV_Mārupes novads'),
+   order(1113),
+   active(true)
+);

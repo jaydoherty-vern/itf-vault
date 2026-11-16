@@ -1,0 +1,5 @@
+Picklistentry az_la__c (
+   value('AZ-LA'),
+   order(203),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ru_mow__c (
+   value('RU_Moskva'),
+   order(1525),
+   active(true)
+);

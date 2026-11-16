@@ -1,0 +1,5 @@
+Picklistentry pl_jg__c (
+   value('PL_Jelenia Góra'),
+   order(1340),
+   active(true)
+);

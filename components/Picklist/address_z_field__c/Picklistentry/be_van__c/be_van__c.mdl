@@ -1,0 +1,5 @@
+Picklistentry be_van__c (
+   value('BE-VAN'),
+   order(347),
+   active(true)
+);

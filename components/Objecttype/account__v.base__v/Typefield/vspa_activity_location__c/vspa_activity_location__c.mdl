@@ -1,0 +1,4 @@
+Typefield vspa_activity_location__c (
+   source('standard'),
+   required(false)
+);

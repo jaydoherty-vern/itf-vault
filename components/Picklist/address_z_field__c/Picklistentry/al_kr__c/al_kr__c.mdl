@@ -1,0 +1,5 @@
+Picklistentry al_kr__c (
+   value('AL-KR'),
+   order(83),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ni_as__c (
+   value('Atlántico Sur'),
+   order(312),
+   active(true)
+);

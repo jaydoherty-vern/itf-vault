@@ -1,0 +1,5 @@
+Picklistentry physiotherapy__c (
+   value('Physiotherapy'),
+   order(100),
+   active(true)
+);

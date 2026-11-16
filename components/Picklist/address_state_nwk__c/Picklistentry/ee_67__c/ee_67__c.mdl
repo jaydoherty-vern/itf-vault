@@ -1,0 +1,5 @@
+Picklistentry ee_67__c (
+   value('EE_Pärnumaa'),
+   order(175),
+   active(true)
+);

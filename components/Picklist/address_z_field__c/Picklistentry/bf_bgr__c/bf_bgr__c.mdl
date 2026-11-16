@@ -1,0 +1,5 @@
+Picklistentry bf_bgr__c (
+   value('BF-BGR'),
+   order(376),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry se_i__c (
+   value('SE_Gotlands County'),
+   order(1569),
+   active(true)
+);

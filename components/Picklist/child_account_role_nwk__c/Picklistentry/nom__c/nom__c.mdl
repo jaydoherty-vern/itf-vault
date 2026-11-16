@@ -1,0 +1,5 @@
+Picklistentry nom__c (
+   value('Nomination'),
+   order(143),
+   active(true)
+);

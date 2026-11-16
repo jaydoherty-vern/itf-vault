@@ -1,0 +1,10 @@
+RECREATE Picklist product_metrics_itf_adoption_segment__c (
+   label('Adoption Segment'),
+   active(true),
+   Picklistentry(@Picklistentry/non_prescribing_hcos__c.mdl),
+   Picklistentry(@Picklistentry/under_penetrated__c.mdl),
+   Picklistentry(@Picklistentry/partially_penetrated__c.mdl),
+   Picklistentry(@Picklistentry/near_penetrated__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

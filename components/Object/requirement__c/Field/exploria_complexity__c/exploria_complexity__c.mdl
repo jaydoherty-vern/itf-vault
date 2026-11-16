@@ -1,0 +1,18 @@
+Field exploria_complexity__c (
+   label('Exploria Complexity'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(56),
+   multi_value(false),
+   picklist('Picklist.exploria_complexity__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry surinam_dollar__c (
+   value('Surinam Dollar'),
+   order(141),
+   active(true)
+);

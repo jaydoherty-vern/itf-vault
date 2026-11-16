@@ -1,0 +1,5 @@
+Picklistentry es_te__c (
+   value('ES_Teruel'),
+   order(228),
+   active(true)
+);

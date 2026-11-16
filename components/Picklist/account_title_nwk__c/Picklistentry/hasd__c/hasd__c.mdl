@@ -1,0 +1,5 @@
+Picklistentry hasd__c (
+   value('Head Asistant Doctor'),
+   order(44),
+   active(true)
+);

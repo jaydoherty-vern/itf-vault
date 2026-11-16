@@ -1,0 +1,5 @@
+Picklistentry do_11__c (
+   value('La Altagracia'),
+   order(186),
+   active(true)
+);

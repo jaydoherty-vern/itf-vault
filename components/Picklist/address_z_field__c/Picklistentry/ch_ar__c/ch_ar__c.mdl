@@ -1,0 +1,5 @@
+Picklistentry ch_ar__c (
+   value('CH-AR'),
+   order(652),
+   active(true)
+);

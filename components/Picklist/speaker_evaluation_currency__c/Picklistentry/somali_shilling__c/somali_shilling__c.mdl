@@ -1,0 +1,5 @@
+Picklistentry somali_shilling__c (
+   value('Somali Shilling'),
+   order(137),
+   active(true)
+);

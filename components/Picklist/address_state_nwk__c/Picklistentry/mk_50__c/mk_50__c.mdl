@@ -1,0 +1,5 @@
+Picklistentry mk_50__c (
+   value('MK_Mavrovo i Rostuša'),
+   order(1252),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cz_vy__c (
+   value('CZ-VY'),
+   order(967),
+   active(true)
+);

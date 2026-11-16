@@ -1,0 +1,5 @@
+Picklistentry urocanc__c (
+   value('Urological Cancer'),
+   order(452),
+   active(true)
+);

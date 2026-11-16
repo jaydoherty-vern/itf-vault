@@ -1,0 +1,5 @@
+Picklistentry regional_congress__c (
+   value('Regional Congress'),
+   order(23),
+   active(true)
+);

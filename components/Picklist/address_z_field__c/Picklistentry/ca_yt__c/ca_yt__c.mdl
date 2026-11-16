@@ -1,0 +1,5 @@
+Picklistentry ca_yt__c (
+   value('CA-YT'),
+   order(609),
+   active(true)
+);

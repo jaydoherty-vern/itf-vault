@@ -1,0 +1,38 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_event_budget__v.event_budget__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="event__v" required="true" />
+            <vault:field reference="budget__v" required="true" />
+            <vault:field reference="local_currency__sys" />
+            <vault:spacer />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="estimate__v" readOnly="true" />
+            <vault:field reference="committed__v" readOnly="true" />
+            <vault:field reference="actual__v" readOnly="true" />
+            <vault:field reference="estimated_remaining__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Expense Estimates" name="em_expense_estimate__c">
+        <vault:relatedObject relationship="em_expense_estimate__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="expense_type_name__v" width="200px" />
+            <vault:field reference="estimate__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Expense Lines" name="expense_line_expense_budgets__c">
+        <vault:relatedObject relationship="expense_line_expense_budgets__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="expense_type_name__v" width="200px" />
+            <vault:field reference="actual__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

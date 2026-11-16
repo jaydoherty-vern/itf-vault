@@ -1,0 +1,8 @@
+RECREATE Pagelayout email_builder_rule_cell_vod__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Email_Builder_Rule_Cell_vod'),
+   page_markup(@page_markup.xml)
+);

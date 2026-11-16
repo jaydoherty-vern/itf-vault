@@ -1,0 +1,8 @@
+RECREATE Pagelayout admin_email_fragment__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Admin - Email Fragment'),
+   page_markup(@page_markup.xml)
+);

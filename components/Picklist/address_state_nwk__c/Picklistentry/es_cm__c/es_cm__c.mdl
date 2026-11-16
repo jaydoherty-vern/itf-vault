@@ -1,0 +1,5 @@
+Picklistentry es_cm__c (
+   value('ES-CM'),
+   order(240),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry dws__c (
+   value('Dr. rer. pol.'),
+   order(133),
+   active(true)
+);

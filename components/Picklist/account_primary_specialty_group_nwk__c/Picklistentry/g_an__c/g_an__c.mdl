@@ -1,0 +1,5 @@
+Picklistentry g_an__c (
+   value('Anesthesiology'),
+   order(23),
+   active(true)
+);

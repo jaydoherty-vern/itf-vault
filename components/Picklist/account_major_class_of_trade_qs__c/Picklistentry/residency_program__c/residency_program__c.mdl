@@ -1,0 +1,5 @@
+Picklistentry residency_program__c (
+   value('Residency Program'),
+   order(4),
+   active(true)
+);

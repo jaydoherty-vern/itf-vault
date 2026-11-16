@@ -1,0 +1,5 @@
+Picklistentry dialysis_infusion_centers__c (
+   value('Dialysis & Infusion Centers'),
+   order(9),
+   active(true)
+);

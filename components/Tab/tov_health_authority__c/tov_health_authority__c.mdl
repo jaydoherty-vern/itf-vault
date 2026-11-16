@@ -1,0 +1,12 @@
+RECREATE Tab tov_health_authority__c (
+   active(true),
+   all_view_label('All Health Authorities'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Health Authorities'),
+   my_view_label('My Health Authorities'),
+   object('tov_health_authority__c'),
+   order(2800),
+   parent(),
+   recent_view_label('Recent Health Authorities')
+);

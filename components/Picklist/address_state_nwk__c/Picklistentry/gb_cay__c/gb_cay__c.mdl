@@ -1,0 +1,5 @@
+Picklistentry gb_cay__c (
+   value('GB-CAY'),
+   order(448),
+   active(false)
+);

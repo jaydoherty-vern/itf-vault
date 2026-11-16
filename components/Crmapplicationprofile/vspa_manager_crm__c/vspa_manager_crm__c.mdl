@@ -1,0 +1,5 @@
+RECREATE Crmapplicationprofile vspa_manager_crm__c (
+   label('VSPA_Manager_CRM'),
+   active(true),
+   description()
+);

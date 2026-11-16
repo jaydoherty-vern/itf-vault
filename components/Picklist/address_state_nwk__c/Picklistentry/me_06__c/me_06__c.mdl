@@ -1,0 +1,5 @@
+Picklistentry me_06__c (
+   value('ME_Cetinje'),
+   order(1190),
+   active(true)
+);

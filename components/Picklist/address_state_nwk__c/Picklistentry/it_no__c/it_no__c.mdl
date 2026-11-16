@@ -1,0 +1,5 @@
+Picklistentry it_no__c (
+   value('IT_Novara'),
+   order(892),
+   active(true)
+);

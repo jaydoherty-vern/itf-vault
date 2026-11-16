@@ -1,0 +1,5 @@
+Picklistentry evening_event__c (
+   value('Evening event'),
+   order(1),
+   active(true)
+);

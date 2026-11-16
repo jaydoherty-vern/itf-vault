@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.organization_empty_insert_wkp__c (
+   label('Organization_Empty_Insert_WKP'),
+   active(true),
+   expression('Not(And(Text(change_type__c)="Create",Not(IsBlank(Id(organisation_account__c))),object_type__vr.name__v="Workplaces"))'),
+   description('The Organization must be empty for Insert WKP request type.'),
+   error_message('Must be empty for "Insert" data change request type.'),
+   error_location('organisation_account__c')
+);

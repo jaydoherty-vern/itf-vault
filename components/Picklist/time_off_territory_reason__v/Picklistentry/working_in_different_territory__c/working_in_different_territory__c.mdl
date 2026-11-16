@@ -1,0 +1,5 @@
+Picklistentry working_in_different_territory__c (
+   value('Working in Different Territory'),
+   order(9),
+   active(true)
+);

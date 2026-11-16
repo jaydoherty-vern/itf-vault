@@ -1,0 +1,5 @@
+Picklistentry jm_03__c (
+   value('Saint Thomas (JM)'),
+   order(296),
+   active(true)
+);

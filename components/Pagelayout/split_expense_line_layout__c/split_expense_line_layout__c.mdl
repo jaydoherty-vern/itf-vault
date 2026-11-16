@@ -1,0 +1,8 @@
+RECREATE Pagelayout split_expense_line_layout__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Split Expense Line Layout'),
+   page_markup(@page_markup.xml)
+);

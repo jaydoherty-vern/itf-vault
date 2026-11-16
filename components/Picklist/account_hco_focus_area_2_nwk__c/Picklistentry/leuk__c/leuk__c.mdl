@@ -1,0 +1,5 @@
+Picklistentry leuk__c (
+   value('Leukemia'),
+   order(132),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mx_son__c (
+   value('Sonora'),
+   order(50),
+   active(true)
+);

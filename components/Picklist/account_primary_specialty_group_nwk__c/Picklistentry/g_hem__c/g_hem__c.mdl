@@ -1,0 +1,5 @@
+Picklistentry g_hem__c (
+   value('Haematology'),
+   order(50),
+   active(true)
+);

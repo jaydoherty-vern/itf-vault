@@ -1,0 +1,5 @@
+Picklistentry outpatient_pharmacist__c (
+   value('OUTPATIENT PHARMACIST'),
+   order(103),
+   active(true)
+);

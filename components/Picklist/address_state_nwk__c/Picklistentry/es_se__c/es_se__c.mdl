@@ -1,0 +1,5 @@
+Picklistentry es_se__c (
+   value('ES_Sevilla'),
+   order(225),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry sat__v (
+   value('Santali'),
+   order(293),
+   active(false)
+);

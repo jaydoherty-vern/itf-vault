@@ -1,0 +1,7 @@
+Typefield event_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_event_type__c.international_congress__c',
+         'Picklist.em_event_event_type__c.lunch_and_learn__c',
+         'Picklist.em_event_event_type__c.national_symposium__c')
+);

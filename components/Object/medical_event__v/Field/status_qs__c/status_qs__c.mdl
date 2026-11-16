@@ -1,0 +1,19 @@
+Field status_qs__c (
+   label('Status'),
+   type('Picklist'),
+   active(true),
+   description('Status of the Medical Event. Can be updated via approval process if required. Default status set to "Planned" as this is entry criteria for Approval Process'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(81),
+   multi_value(false),
+   picklist('Picklist.medical_event_status_qs__c'),
+   default_value('{planned__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

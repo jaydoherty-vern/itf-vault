@@ -1,0 +1,5 @@
+Picklistentry do_01__c (
+   value('Distrito Nacional (Santo Domingo)'),
+   order(224),
+   active(true)
+);

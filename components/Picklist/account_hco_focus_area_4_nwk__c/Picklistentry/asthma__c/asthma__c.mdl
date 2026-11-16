@@ -1,0 +1,5 @@
+Picklistentry asthma__c (
+   value('Asthma'),
+   order(15),
+   active(true)
+);

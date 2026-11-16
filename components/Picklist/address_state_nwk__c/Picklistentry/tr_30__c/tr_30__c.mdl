@@ -1,0 +1,5 @@
+Picklistentry tr_30__c (
+   value('TR_Hakkâri'),
+   order(1702),
+   active(true)
+);

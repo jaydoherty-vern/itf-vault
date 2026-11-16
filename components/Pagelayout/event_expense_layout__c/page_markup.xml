@@ -1,0 +1,26 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.event_expenses__c">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="date__c" />
+            <vault:field reference="amount__c" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="medical_event__c" />
+            <vault:field reference="expense_type__c" required="true" />
+            <vault:field reference="description__c" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Is the Expense linked to a specific Acco" name="is_the_expense_linked_to_a_specific_a__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account_qs__c" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:spacer />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

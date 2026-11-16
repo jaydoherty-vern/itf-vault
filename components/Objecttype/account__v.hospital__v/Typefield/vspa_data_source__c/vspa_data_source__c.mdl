@@ -1,0 +1,6 @@
+Typefield vspa_data_source__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_vspa_data_source__c.vspa_data_provider__c',
+         'Picklist.account_vspa_data_source__c.vspa_internally_managed__c')
+);

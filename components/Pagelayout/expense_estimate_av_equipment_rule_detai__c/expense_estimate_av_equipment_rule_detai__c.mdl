@@ -1,0 +1,8 @@
+RECREATE Pagelayout expense_estimate_av_equipment_rule_detai__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Expense Estimate AV Equipment Rule Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

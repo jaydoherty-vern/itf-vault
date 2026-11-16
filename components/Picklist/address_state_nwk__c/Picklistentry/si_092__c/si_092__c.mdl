@@ -1,0 +1,5 @@
+Picklistentry si_092__c (
+   value('SI_Podčetrtek'),
+   order(1623),
+   active(true)
+);

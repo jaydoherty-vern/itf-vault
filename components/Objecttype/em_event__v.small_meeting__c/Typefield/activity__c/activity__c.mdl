@@ -1,0 +1,8 @@
+Typefield activity__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_activity__c.daytime_event__c',
+         'Picklist.em_event_activity__c.evening_event__c',
+         'Picklist.em_event_activity__c.week_end__c'),
+   default_value('Picklist.em_event_activity__c.daytime_event__c')
+);

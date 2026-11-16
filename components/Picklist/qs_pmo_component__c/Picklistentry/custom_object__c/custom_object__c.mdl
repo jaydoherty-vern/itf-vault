@@ -1,0 +1,5 @@
+Picklistentry custom_object__c (
+   value('Custom Object'),
+   order(1),
+   active(true)
+);

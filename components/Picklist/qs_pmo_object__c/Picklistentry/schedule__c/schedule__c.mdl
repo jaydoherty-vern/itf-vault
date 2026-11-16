@@ -1,0 +1,5 @@
+Picklistentry schedule__c (
+   value('Schedule'),
+   order(19),
+   active(true)
+);

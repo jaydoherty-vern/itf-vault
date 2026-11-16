@@ -1,0 +1,5 @@
+Picklistentry adult_and_pediatric_palliative_care__c (
+   value('ADULT AND PEDIATRIC PALLIATIVE CARE'),
+   order(61),
+   active(true)
+);

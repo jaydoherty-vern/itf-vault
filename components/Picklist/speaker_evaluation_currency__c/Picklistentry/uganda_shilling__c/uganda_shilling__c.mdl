@@ -1,0 +1,5 @@
+Picklistentry uganda_shilling__c (
+   value('Uganda Shilling'),
+   order(156),
+   active(true)
+);

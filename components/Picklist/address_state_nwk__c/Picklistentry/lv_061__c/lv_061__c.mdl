@@ -1,0 +1,5 @@
+Picklistentry lv_061__c (
+   value('LV_Mālpils novads (Mālpils)'),
+   order(1112),
+   active(true)
+);

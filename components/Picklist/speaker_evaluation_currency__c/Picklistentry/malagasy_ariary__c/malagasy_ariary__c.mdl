@@ -1,0 +1,5 @@
+Picklistentry malagasy_ariary__c (
+   value('Malagasy Ariary'),
+   order(97),
+   active(true)
+);

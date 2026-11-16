@@ -1,0 +1,5 @@
+Picklistentry be_bru__c (
+   value('BE-BRU'),
+   order(346),
+   active(true)
+);

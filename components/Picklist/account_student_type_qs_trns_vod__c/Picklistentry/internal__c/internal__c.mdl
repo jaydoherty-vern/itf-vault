@@ -1,0 +1,5 @@
+Picklistentry internal__c (
+   value('Internal'),
+   order(1),
+   active(true)
+);

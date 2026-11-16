@@ -1,0 +1,8 @@
+Objectworkflowstep decision_confirm_delivery__c (
+   label('Decision: Confirm Delivery'),
+   type('decision'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

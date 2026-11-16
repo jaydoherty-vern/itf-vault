@@ -1,0 +1,5 @@
+Picklistentry cabo_verde_escudo__c (
+   value('Cabo Verde Escudo'),
+   order(32),
+   active(true)
+);

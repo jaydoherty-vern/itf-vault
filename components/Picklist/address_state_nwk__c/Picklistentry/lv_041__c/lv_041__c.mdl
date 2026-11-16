@@ -1,0 +1,5 @@
+Picklistentry lv_041__c (
+   value('LV_Jelgavas novads'),
+   order(1092),
+   active(true)
+);

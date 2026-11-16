@@ -1,0 +1,53 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.tov_event_hospitality_package__c.base__v">
+    <vault:section title="Information" name="information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="tov_event_name__c" />
+            <vault:field reference="tov_total_package_amount__c" />
+            <vault:field reference="tov_subscription_fee__c" />
+            <vault:field reference="tov_event__c" />
+            <vault:field reference="tov_entry_description__c" />
+            <vault:field reference="tov_entry_package_additions__c" />
+            <vault:field reference="local_currency__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Transport" name="transport__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="tov_entry_transfer__c" />
+            <vault:field reference="tov_transportation_fee__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Lodging Details" name="lodging_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="tov_entry_nb_lodging_with_breakfast__c" />
+            <vault:field reference="tov_entry_lodging_w_breakfast_transport__c" />
+            <vault:field reference="tov_entry_price_lodging_with_breakfast__c" />
+            <vault:field reference="tov_price_lodging_w_breakfast_transport__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Meal Details" name="meal_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="tov_entry_nb_meal__c" />
+            <vault:field reference="tov_entry_nb_lunch__c" />
+            <vault:field reference="tov_entry_nb_dinner__c" />
+            <vault:field reference="tov_entry_nb_snack__c" />
+            <vault:field reference="tov_entry_price_meal__c" />
+            <vault:field reference="tov_entry_price_lunch__c" />
+            <vault:field reference="tov_entry_price_dinner__c" />
+            <vault:field reference="tov_entry_price_snack__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:spacer />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attendees" name="attendees__c">
+        <vault:relatedObject relationship="attendees__cr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

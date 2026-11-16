@@ -1,0 +1,5 @@
+Picklistentry me_05__c (
+   value('ME_Budva'),
+   order(1189),
+   active(true)
+);

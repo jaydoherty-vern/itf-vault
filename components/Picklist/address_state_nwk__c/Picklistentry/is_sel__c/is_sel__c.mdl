@@ -1,0 +1,5 @@
+Picklistentry is_sel__c (
+   value('IS_Seltjarnarnesbær'),
+   order(801),
+   active(true)
+);

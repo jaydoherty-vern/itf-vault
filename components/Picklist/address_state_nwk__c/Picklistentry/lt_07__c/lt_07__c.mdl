@@ -1,0 +1,5 @@
+Picklistentry lt_07__c (
+   value('LT_Druskininkai'),
+   order(980),
+   active(true)
+);

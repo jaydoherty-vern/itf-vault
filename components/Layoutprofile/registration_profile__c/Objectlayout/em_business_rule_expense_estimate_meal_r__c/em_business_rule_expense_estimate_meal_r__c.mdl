@@ -1,0 +1,8 @@
+Objectlayout em_business_rule_expense_estimate_meal_r__c (
+   label('em_business_rule_expense_estimate_meal_rule'),
+   active(true),
+   pagelayouts('Pagelayout.expense_estimate_av_equipment_rule__c'),
+   object('Object.em_business_rule__v'),
+   objecttype('Objecttype.em_business_rule__v.expense_estimate_meal_rule__v'),
+   record_creation_layout('Pagelayout.expense_estimate_av_equipment_rule__c')
+);

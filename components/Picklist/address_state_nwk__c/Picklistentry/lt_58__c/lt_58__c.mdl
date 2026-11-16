@@ -1,0 +1,5 @@
+Picklistentry lt_58__c (
+   value('LT_Vilnius'),
+   order(1040),
+   active(true)
+);

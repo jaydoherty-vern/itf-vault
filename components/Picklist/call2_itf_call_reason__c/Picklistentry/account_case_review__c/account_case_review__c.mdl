@@ -1,0 +1,5 @@
+Picklistentry account_case_review__c (
+   value('Account case review'),
+   order(5),
+   active(true)
+);

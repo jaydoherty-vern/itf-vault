@@ -1,0 +1,5 @@
+Picklistentry be_wna__c (
+   value('BE_Namur'),
+   order(84),
+   active(true)
+);

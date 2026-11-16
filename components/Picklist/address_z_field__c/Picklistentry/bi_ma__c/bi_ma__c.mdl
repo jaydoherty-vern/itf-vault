@@ -1,0 +1,5 @@
+Picklistentry bi_ma__c (
+   value('BI-MA'),
+   order(460),
+   active(true)
+);

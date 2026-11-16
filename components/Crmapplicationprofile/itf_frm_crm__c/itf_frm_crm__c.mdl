@@ -1,0 +1,5 @@
+RECREATE Crmapplicationprofile itf_frm_crm__c (
+   label('ITF_FRM_CRM'),
+   active(true),
+   description()
+);

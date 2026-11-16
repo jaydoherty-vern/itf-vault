@@ -1,0 +1,4 @@
+Typefield build_assigned_to__c (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry lb_ak__c (
+   value('LB_Aakkâr'),
+   order(46),
+   active(true)
+);

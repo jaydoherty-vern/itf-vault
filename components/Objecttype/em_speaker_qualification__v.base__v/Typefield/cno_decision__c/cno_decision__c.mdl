@@ -1,0 +1,4 @@
+Typefield cno_decision__c (
+   source('standard'),
+   required(false)
+);

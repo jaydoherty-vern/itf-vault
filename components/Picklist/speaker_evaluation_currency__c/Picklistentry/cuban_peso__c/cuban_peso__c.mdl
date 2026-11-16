@@ -1,0 +1,5 @@
+Picklistentry cuban_peso__c (
+   value('Cuban Peso'),
+   order(47),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry hu_sk__c (
+   value('HU_Szolnok'),
+   order(711),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectvalidation v2ok_data_change_request__c.organization_mandatory_insert_ind__c (
+   label('Organization_Mandatory_Insert_IND'),
+   active(false),
+   expression('Not(And(Text(change_type__c)="Create",IsBlank(Id(organisation_account__c)),object_type__vr.name__v="Professional"))'),
+   description('The Organization is mandatory for professional creation.'),
+   error_message('Mandatory for "Create" data change request type.'),
+   error_location('organisation_account__c')
+);

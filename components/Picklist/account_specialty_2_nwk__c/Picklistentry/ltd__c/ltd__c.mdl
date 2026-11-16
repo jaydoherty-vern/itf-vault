@@ -1,0 +1,5 @@
+Picklistentry ltd__c (
+   value('Laser therapy (Dentistry)'),
+   order(237),
+   active(true)
+);

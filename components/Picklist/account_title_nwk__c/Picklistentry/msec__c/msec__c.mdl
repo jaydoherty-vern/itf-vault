@@ -1,0 +1,5 @@
+Picklistentry msec__c (
+   value('MSEC'),
+   order(62),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mk_52__c (
+   value('MK_Makedonski Brod'),
+   order(1251),
+   active(true)
+);

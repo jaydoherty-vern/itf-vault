@@ -1,0 +1,5 @@
+Picklistentry gb_trf__c (
+   value('GB-TRF'),
+   order(626),
+   active(false)
+);

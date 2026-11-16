@@ -1,0 +1,5 @@
+Picklistentry tih_wes_jp__c (
+   value('TIH.WES.JP'),
+   order(45),
+   active(true)
+);

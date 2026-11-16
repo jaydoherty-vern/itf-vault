@@ -1,0 +1,5 @@
+Picklistentry is_sss__c (
+   value('IS_Sveitarfélagið Skagaströnd'),
+   order(821),
+   active(true)
+);

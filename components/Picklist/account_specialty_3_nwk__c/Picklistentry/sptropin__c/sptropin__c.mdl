@@ -1,0 +1,5 @@
+Picklistentry sptropin__c (
+   value('Specific Prophylaxis and Tropical Medicine, Infectiology'),
+   order(499),
+   active(true)
+);

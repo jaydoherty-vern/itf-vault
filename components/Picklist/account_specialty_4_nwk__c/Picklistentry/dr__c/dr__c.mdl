@@ -1,0 +1,5 @@
+Picklistentry dr__c (
+   value('Diagnostic Radiology'),
+   order(114),
+   active(true)
+);

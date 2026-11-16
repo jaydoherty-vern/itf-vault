@@ -1,0 +1,5 @@
+Picklistentry hprof__c (
+   value('Honorary Professor'),
+   order(108),
+   active(true)
+);

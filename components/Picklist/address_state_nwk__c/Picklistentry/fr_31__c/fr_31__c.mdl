@@ -1,0 +1,5 @@
+Picklistentry fr_31__c (
+   value('FR_Haute-Garonne'),
+   order(316),
+   active(true)
+);

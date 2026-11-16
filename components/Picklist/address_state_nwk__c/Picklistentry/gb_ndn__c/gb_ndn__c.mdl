@@ -1,0 +1,5 @@
+Picklistentry gb_ndn__c (
+   value('GB-NDN'),
+   order(555),
+   active(false)
+);

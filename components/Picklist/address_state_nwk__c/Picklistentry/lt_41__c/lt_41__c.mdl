@@ -1,0 +1,5 @@
+Picklistentry lt_41__c (
+   value('LT_Šakiai'),
+   order(1018),
+   active(true)
+);

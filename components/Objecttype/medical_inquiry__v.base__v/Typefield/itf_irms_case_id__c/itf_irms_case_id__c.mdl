@@ -1,0 +1,4 @@
+Typefield itf_irms_case_id__c (
+   source('standard'),
+   required(false)
+);

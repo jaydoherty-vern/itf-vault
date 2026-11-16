@@ -1,0 +1,5 @@
+Picklistentry 10__v (
+   value('Suspended'),
+   order(10),
+   active(true)
+);

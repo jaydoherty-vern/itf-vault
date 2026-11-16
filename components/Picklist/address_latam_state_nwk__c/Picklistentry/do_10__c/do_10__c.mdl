@@ -1,0 +1,5 @@
+Picklistentry do_10__c (
+   value('Independencia'),
+   order(223),
+   active(true)
+);
