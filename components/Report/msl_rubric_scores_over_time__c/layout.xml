@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:targetDocumentAlias>default</vrp:targetDocumentAlias>
+  <vrp:sourceDocumentAlias>default</vrp:sourceDocumentAlias>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:columns>
+    <vrp:column key="survey_target__v___account__v.name__v" type="documentProperty" index="0" columnWidth="200" />
+    <vrp:column key="survey_target__v___account__v.npi__v" type="documentProperty" index="1" columnWidth="155" />
+    <vrp:column key="survey_target__v.ownerid__v" type="documentProperty" index="2" columnWidth="155" />
+    <vrp:column key="question_response__v___survey_target__v.question_text__v" type="documentProperty" index="3" columnWidth="200" />
+    <vrp:column key="question_response__v___survey_target__v.response__v" type="documentProperty" index="4" columnWidth="155" />
+    <vrp:column key="survey_target__v.submitted_datetime__v" type="documentProperty" index="5" columnWidth="155" />
+  </vrp:columns>
+</vrp:reportFormat>
