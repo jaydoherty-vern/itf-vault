@@ -4,7 +4,7 @@ Field discussion_topics_free_text__c (
    active(true),
    description('Free-text discussion topics captured on the interaction (MSL Meeting Brief).'),
    required(false),
-   max_length(32000),
+   max_length(1000),
    help_content(),
    list_column(false),
    order(261),
