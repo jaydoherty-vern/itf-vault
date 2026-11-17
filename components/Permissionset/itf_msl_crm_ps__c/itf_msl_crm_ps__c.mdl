@@ -736,6 +736,7 @@ RECREATE Permissionset itf_msl_crm_ps__c (
    object.call2__v.detailed_products__v.field_actions('edit'),
    object.call2__v.disbursed_to__v.field_actions('edit'),
    object.call2__v.disclaimer__v.field_actions('edit'),
+   object.call2__v.discussion_topics_free_text__c.field_actions('edit'),
    object.call2__v.duration__v.field_actions('edit'),
    object.call2__v.entity_display_name__v.field_actions('read'),
    object.call2__v.error_reference_call__v.field_actions('edit'),

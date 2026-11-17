@@ -45,6 +45,11 @@
             <vault:list />
         </vault:bind>
     </vault:section>
+    <vault:section title="Discussion Topics" name="discussion_topics_free_text__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="discussion_topics_free_text__c" />
+        </vault:detailform>
+    </vault:section>
     <vault:section title="Scientific Discussion" name="product_discussion_section__c" reference="product_discussion_section__v">
         <vault:bind property="fieldNames">
             <vault:list />

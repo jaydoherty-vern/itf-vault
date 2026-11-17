@@ -106,6 +106,7 @@ RECREATE Object call2__v (
    Field(@Field/disbursed_to__v.mdl),
    Field(@Field/disbursement_order_created__v.mdl),
    Field(@Field/disclaimer__v.mdl),
+   Field(@Field/discussion_topics_free_text__c.mdl),
    Field(@Field/do_not_call__c.mdl),
    Field(@Field/documented_interest__v.mdl),
    Field(@Field/duration__v.mdl),

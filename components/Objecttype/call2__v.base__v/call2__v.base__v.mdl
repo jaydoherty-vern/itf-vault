@@ -84,6 +84,7 @@ RECREATE Objecttype call2__v.base__v (
    Typefield(@Typefield/disbursed_to__v.mdl),
    Typefield(@Typefield/disbursement_order_created__v.mdl),
    Typefield(@Typefield/disclaimer__v.mdl),
+   Typefield(@Typefield/discussion_topics_free_text__c.mdl),
    Typefield(@Typefield/do_not_call__c.mdl),
    Typefield(@Typefield/documented_interest__v.mdl),
    Typefield(@Typefield/duration__v.mdl),
