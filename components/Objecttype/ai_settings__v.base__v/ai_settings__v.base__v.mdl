@@ -13,6 +13,7 @@ RECREATE Objecttype ai_settings__v.base__v (
    Typefield(@Typefield/created_date__v.mdl),
    Typefield(@Typefield/enable_agentic_call__v.mdl),
    Typefield(@Typefield/external_id__v.mdl),
+   Typefield(@Typefield/favorite_product_preference__v.mdl),
    Typefield(@Typefield/global_id__sys.mdl),
    Typefield(@Typefield/home_office_text_monitoring__v.mdl),
    Typefield(@Typefield/id.mdl),

@@ -1,0 +1,4 @@
+Typefield onekey_connection_scope__v (
+   source('standard'),
+   required(false)
+);

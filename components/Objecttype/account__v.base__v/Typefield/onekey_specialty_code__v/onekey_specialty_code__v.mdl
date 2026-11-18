@@ -1,0 +1,4 @@
+Typefield onekey_specialty_code__v (
+   source('standard'),
+   required(false)
+);

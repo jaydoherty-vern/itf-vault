@@ -1,0 +1,18 @@
+Field data_source__v (
+   label('Data Source'),
+   type('Picklist'),
+   active(true),
+   description('Contains the data source of the account record.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   multi_value(false),
+   picklist('Picklist.data_source__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

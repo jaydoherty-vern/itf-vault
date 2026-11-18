@@ -16,6 +16,7 @@ Field vcountry__v (
    relationship_inbound_label('Accounts'),
    relationship_deletion('setnull'),
    relationship_criteria(),
+   default_value('RecordByUniqueField($vcountry__v, {$alpha_2_code__v:"US"}, true)'),
    no_copy(false),
    lookup_relationship_name(),
    lookup_source_field(),

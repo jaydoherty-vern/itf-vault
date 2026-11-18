@@ -73,6 +73,7 @@ RECREATE Object child_account__v (
    Field(@Field/ok_privacylawstatus__c.mdl),
    Field(@Field/ok_role__c.mdl),
    Field(@Field/ok_status__c.mdl),
+   Field(@Field/onekey_id__v.mdl),
    Field(@Field/ownerid__v.mdl),
    Field(@Field/parent_account__v.mdl),
    Field(@Field/parent_account_identifier__v.mdl),

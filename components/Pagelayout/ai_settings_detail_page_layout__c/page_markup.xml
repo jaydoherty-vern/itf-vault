@@ -12,6 +12,7 @@
             <vault:field reference="text_monitoring_publish_findings__v" />
             <vault:field reference="monthly_token_budget__v" />
             <vault:field reference="insight_quality_check__v" />
+            <vault:field reference="favorite_product_preference__v" />
         </vault:detailform>
     </vault:section>
     <vault:section title="Text Monitoring Settings" name="text_monitoring_settings__c">

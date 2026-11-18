@@ -1,0 +1,5 @@
+Picklistentry prefer_favorite_product__v (
+   value('Prefer Favorite Product'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield onekey_address_object_type__v (
+   source('standard'),
+   required(false)
+);

@@ -11,6 +11,12 @@
             <vault:field reference="setupownerid__v" />
             <vault:field reference="security_profile__v" />
             <vault:field reference="application_profile__v" />
+            <vault:field reference="onekey_connection_scope__v" />
+            <vault:field reference="onekey_connector_host__v" />
+            <vault:field reference="onekey_connector_id__v" />
+            <vault:field reference="onekey_hco_object_type__v" />
+            <vault:field reference="onekey_hcp_object_type__v" />
+            <vault:field reference="onekey_address_object_type__v" />
         </vault:detailform>
     </vault:section>
     <vault:section title="System Information" name="sys_info__c">

@@ -1,0 +1,18 @@
+Field onekey_connection_scope__v (
+   label('OneKey Connection Scope'),
+   type('Picklist'),
+   active(true),
+   description('Defines the scope of the OneKey connection in GAS when searching for accounts. Blank value indicates the OneKey connection is disabled.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(21),
+   multi_value(false),
+   picklist('Picklist.onekey_connection_scope__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

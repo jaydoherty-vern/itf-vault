@@ -1,0 +1,7 @@
+RECREATE Picklist onekey_connection_scope__v (
+   label('OneKey Connection Scope'),
+   active(true),
+   Picklistentry(@Picklistentry/all__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);
