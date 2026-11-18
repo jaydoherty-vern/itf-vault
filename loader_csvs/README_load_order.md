@@ -1,4 +1,4 @@
-# MSL Rubric Assessment Q1-Q2 2026: Vault Loader load order
+# MSL Rubric Assessment: Vault Loader load order
 
 Target: ITF sandbox. Nothing here has been loaded. Built from the "Duvyzat Brand Advocacy Survey" (`VC1ZZ25E891JMZH`) and the MSL rubric spreadsheet.
 
@@ -26,7 +26,7 @@ Object type: `object_type__v` is a column in both files (`recurring__v` on the s
 ## Survey as built
 | Field | Value | Source |
 |---|---|---|
-| Name | MSL Rubric Assessment Q1-Q2 2026 | you |
+| Name | MSL Rubric Assessment | you |
 | Object type | recurring__v | template |
 | Start / end | 2026-11-17 / 2028-04-30 | start = today; end copied from template |
 | Status | published__v (survey_status__v) | you |
@@ -36,7 +36,7 @@ Object type: `object_type__v` is a column in both files (`recurring__v` on the s
 | Language | en_us__v | template |
 | Product | blank | template (blank) |
 | Account types | same 21 types as the template | template |
-| Territories | M20101-M20107 (children of MSL) | **changed**: template uses TLL territories T20101-T20103 |
+| Territories | M10101 | **user instruction** (template uses TLL T20101-T20103). M10101 is under Z_Retired Territories; its only user is Mark Medical. Confirm before relying on it |
 | share_team__v / itf_share_team__c | MSL / msl__c | **changed**: template uses TLL / tll__c |
 | Owner | Jay Doherty (user id 35310407) | placeholder |
 

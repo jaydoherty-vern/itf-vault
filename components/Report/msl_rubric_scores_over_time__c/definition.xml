@@ -10,7 +10,7 @@
     <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v.submitted_datetime__v" />
   </vrp:select>
   <vrp:where>
-    <vrp:whereItem action="EQ" leftValue="survey_target__v.survey__v" rightValue="MSL Rubric Assessment Q1-Q2 2026" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="survey_target__v.survey__v" rightValue="MSL Rubric Assessment" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
   </vrp:where>
   <vrp:group>
     <vrp:groupItem index="0" name="survey_target__v___account__v.name__v" groupBySortOn="survey_target__v___account__v.name__v" groupBySortOrder="ASCENDING" />
