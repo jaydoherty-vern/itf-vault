@@ -7,7 +7,7 @@ Target: ITF sandbox. Nothing here has been loaded. Built from the "Duvyzat Brand
 2. `02_survey_question__v.csv` -> object `survey_question__v`, **Create**. 12 rows. Map `survey__v.external_id__v` to the survey lookup (match on `external_id__v`).
 3. Do NOT load survey targets or responses (paused).
 
-Object type: `object_type__v` is a column in both files (`recurring__v` on the survey; `description__v`, `picklist__v`, `long_text__v`, `text__v` on questions). If Loader asks for a single object type, load the questions in one pass per type.
+Object type: the object type column header is `object_type__v.api_name__v` (a lookup on the object type reference, so Loader matches the API name). In Map Fields, confirm it is mapped to that lookup before starting. It is a column in both files (`recurring__v` on the survey; `description__v`, `picklist__v`, `long_text__v`, `text__v` on questions). If Loader asks for a single object type, load the questions in one pass per type.
 
 ## External IDs
 - Survey: `MSL-RUBRIC-Q1Q2-2026`
