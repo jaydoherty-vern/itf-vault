@@ -1,0 +1,13 @@
+external_id__v,survey__v.external_id__v,object_type__v,order__v,question_number__v,text__v,answer_choice__v,required__v,status__v
+MSL-RUBRIC-Q1Q2-2026-Q00,MSL-RUBRIC-Q1Q2-2026,description__v,0,,"BELIEF 1: Dose Modifications Expected - HCPs understand dose modifications are an expected part of routine givinostat management and can operationalize interruption, dose reduction, monitoring, and follow-up to maintain appropriate patients on therapy.",,false,active__v
+MSL-RUBRIC-Q1Q2-2026-Q01,MSL-RUBRIC-Q1Q2-2026,picklist__v,1,1,Belief 1 Score: Dose Modifications Expected,1 - Not Aligned;0;2 - Limited Alignment;0;3 - Basic Alignment;0;4 - Operationally Aligned;0;5 - Aligned & Confident;0,false,active__v
+MSL-RUBRIC-Q1Q2-2026-Q02,MSL-RUBRIC-Q1Q2-2026,description__v,2,,BELIEF 2: Clinical Value of Givinostat - Givinostat provides meaningful clinical benefit for patients with DMD; HCPs are confident treatment meaningfully slows disease progression and preserves function.,,false,active__v
+MSL-RUBRIC-Q1Q2-2026-Q03,MSL-RUBRIC-Q1Q2-2026,picklist__v,3,2,Belief 2 Score: Clinical Value of Givinostat,1 - Not Aligned;0;2 - Limited Alignment;0;3 - Basic Alignment;0;4 - Operationally Aligned;0;5 - Aligned & Confident;0,false,active__v
+MSL-RUBRIC-Q1Q2-2026-Q04,MSL-RUBRIC-Q1Q2-2026,description__v,4,,BELIEF 3: HDAC Overactivity Critical in DMD Pathology - HDAC overactivity is a critical component of DMD pathology; HCPs understand HDAC inhibition as a clinically meaningful component of comprehensive DMD treatment.,,false,active__v
+MSL-RUBRIC-Q1Q2-2026-Q05,MSL-RUBRIC-Q1Q2-2026,picklist__v,5,3,Belief 3 Score: HDAC Overactivity Critical in DMD Pathology,1 - Not Aligned;0;2 - Limited Alignment;0;3 - Basic Alignment;0;4 - Operationally Aligned;0;5 - Aligned & Confident;0,false,active__v
+MSL-RUBRIC-Q1Q2-2026-Q06,MSL-RUBRIC-Q1Q2-2026,picklist__v,6,4,Updated This Quarter?,Yes;0;No - No Interaction;0;No - Insufficient Information;0,false,active__v
+MSL-RUBRIC-Q1Q2-2026-Q07,MSL-RUBRIC-Q1Q2-2026,picklist__v,7,5,Basis for Assessment,Discussed directly this quarter;0;Multiple interactions this quarter;0;Observation from peer discussion;0;Prior interactions carried forward;0;Limited information;0,false,active__v
+MSL-RUBRIC-Q1Q2-2026-Q08,MSL-RUBRIC-Q1Q2-2026,picklist__v,8,6,Rating Confidence,High;0;Medium;0;Low;0,false,active__v
+MSL-RUBRIC-Q1Q2-2026-Q09,MSL-RUBRIC-Q1Q2-2026,long_text__v,9,7,Evidence / Notes,,false,active__v
+MSL-RUBRIC-Q1Q2-2026-Q10,MSL-RUBRIC-Q1Q2-2026,picklist__v,10,8,Follow-up Needed?,Yes;0;No;0,false,active__v
+MSL-RUBRIC-Q1Q2-2026-Q11,MSL-RUBRIC-Q1Q2-2026,text__v,11,9,Follow-up Owner,,false,active__v

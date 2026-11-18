@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v___account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v___account__v.npi__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v.ownerid__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="question_response__v___survey_target__v.question_text__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="question_response__v___survey_target__v.response__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="survey_target__v.submitted_datetime__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="survey_target__v.survey__v" rightValue="MSL Rubric Assessment" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="survey_target__v___account__v.name__v" groupBySortOn="survey_target__v___account__v.name__v" groupBySortOrder="ASCENDING" />
+    <vrp:groupItem index="1" name="question_response__v___survey_target__v.question_text__v" groupBySortOn="question_response__v___survey_target__v.question_text__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="survey_target__v.submitted_datetime__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>
