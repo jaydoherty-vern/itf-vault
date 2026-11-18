@@ -1,0 +1,17 @@
+Field discussion_topics_free_text__c (
+   label('Discussion Topics'),
+   type('LongText'),
+   active(true),
+   description('Free-text discussion topics captured on the interaction (MSL Meeting Brief).'),
+   required(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(261),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -46,6 +46,17 @@
             <vault:list />
         </vault:bind>
     </vault:section>
+    <vault:section title="Discussion Topics (Free Text)" name="discussion_topics_free_text__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="discussion_topics_free_text__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="CLM Details" name="clmdetails_section__c" reference="clmdetails_section__v">
+        <vault:bind property="ded" value="false" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
     <vault:section title="KITs/KIQs" name="survey_target_section__c" reference="survey_target_section__v" />
     <vault:section title="System Information" name="system_information__c">
         <vault:detailform type="One-Column">
