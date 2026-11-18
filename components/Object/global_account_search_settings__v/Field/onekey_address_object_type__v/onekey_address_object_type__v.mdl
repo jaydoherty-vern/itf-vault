@@ -1,0 +1,19 @@
+Field onekey_address_object_type__v (
+   label('Onekey Address Object Type'),
+   type('String'),
+   active(true),
+   description('The setting is used to determine the address account object type for OneKey accounts.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

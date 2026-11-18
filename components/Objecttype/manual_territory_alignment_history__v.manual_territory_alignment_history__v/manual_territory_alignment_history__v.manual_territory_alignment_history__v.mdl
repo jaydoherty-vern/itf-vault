@@ -9,6 +9,7 @@ RECREATE Objecttype manual_territory_alignment_history__v.manual_territory_align
    Typefield(@Typefield/account__v.mdl),
    Typefield(@Typefield/created_by__v.mdl),
    Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/data_source__v.mdl),
    Typefield(@Typefield/global_id__sys.mdl),
    Typefield(@Typefield/id.mdl),
    Typefield(@Typefield/last_initiated_by__sys.mdl),

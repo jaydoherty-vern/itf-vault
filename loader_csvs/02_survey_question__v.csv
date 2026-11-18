@@ -1,4 +1,4 @@
-external_id__v,survey__v.external_id__v,object_type__v,order__v,question_number__v,text__v,answer_choice__v,required__v,status__v
+external_id__v,survey__v.external_id__v,object_type__v.api_name__v,order__v,question_number__v,text__v,answer_choice__v,required__v,status__v
 MSL-RUBRIC-Q1Q2-2026-Q00,MSL-RUBRIC-Q1Q2-2026,description__v,0,,"BELIEF 1: Dose Modifications Expected - HCPs understand dose modifications are an expected part of routine givinostat management and can operationalize interruption, dose reduction, monitoring, and follow-up to maintain appropriate patients on therapy.",,false,active__v
 MSL-RUBRIC-Q1Q2-2026-Q01,MSL-RUBRIC-Q1Q2-2026,picklist__v,1,1,Belief 1 Score: Dose Modifications Expected,1 - Not Aligned;0;2 - Limited Alignment;0;3 - Basic Alignment;0;4 - Operationally Aligned;0;5 - Aligned & Confident;0,false,active__v
 MSL-RUBRIC-Q1Q2-2026-Q02,MSL-RUBRIC-Q1Q2-2026,description__v,2,,BELIEF 2: Clinical Value of Givinostat - Givinostat provides meaningful clinical benefit for patients with DMD; HCPs are confident treatment meaningfully slows disease progression and preserves function.,,false,active__v

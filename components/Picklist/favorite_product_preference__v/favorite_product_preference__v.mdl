@@ -1,0 +1,7 @@
+RECREATE Picklist favorite_product_preference__v (
+   label('Favorite Product Preference'),
+   active(true),
+   Picklistentry(@Picklistentry/prefer_favorite_product__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

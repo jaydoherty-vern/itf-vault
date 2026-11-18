@@ -1,0 +1,4 @@
+Typefield onekey_connector_id__v (
+   source('standard'),
+   required(false)
+);

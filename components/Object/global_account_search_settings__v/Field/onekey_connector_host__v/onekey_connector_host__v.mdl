@@ -1,0 +1,20 @@
+Field onekey_connector_host__v (
+   label('OneKey Connection Host'),
+   type('String'),
+   active(true),
+   description('The host URL of the OneKey Webservices API. If no value is populated, base URL is set to production (okws.ok.imshealth.com)'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content('Production (default): okws.ok.imshealth.com  Staging: okws-qa.ok.imshealth.com'),
+   list_column(false),
+   order(22),
+   default_value('"okws.ok.imshealth.com"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

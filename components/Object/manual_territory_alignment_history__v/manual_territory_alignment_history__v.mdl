@@ -31,6 +31,7 @@ RECREATE Object manual_territory_alignment_history__v (
    Field(@Field/account__v.mdl),
    Field(@Field/created_by__v.mdl),
    Field(@Field/created_date__v.mdl),
+   Field(@Field/data_source__v.mdl),
    Field(@Field/global_id__sys.mdl),
    Field(@Field/id.mdl),
    Field(@Field/last_initiated_by__sys.mdl),

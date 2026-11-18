@@ -1,0 +1,4 @@
+Typefield favorite_product_preference__v (
+   source('standard'),
+   required(false)
+);

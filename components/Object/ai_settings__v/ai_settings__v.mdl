@@ -35,6 +35,7 @@ RECREATE Object ai_settings__v (
    Field(@Field/created_date__v.mdl),
    Field(@Field/enable_agentic_call__v.mdl),
    Field(@Field/external_id__v.mdl),
+   Field(@Field/favorite_product_preference__v.mdl),
    Field(@Field/global_id__sys.mdl),
    Field(@Field/home_office_text_monitoring__v.mdl),
    Field(@Field/id.mdl),

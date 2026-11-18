@@ -301,6 +301,8 @@ RECREATE Object account__v (
    Field(@Field/ok_no_mail__c.mdl),
    Field(@Field/ok_privacy_law_status__c.mdl),
    Field(@Field/ok_status__c.mdl),
+   Field(@Field/onekey_id__v.mdl),
+   Field(@Field/onekey_specialty_code__v.mdl),
    Field(@Field/opt_out_internal_customer_qs__c.mdl),
    Field(@Field/opt_out_open_data_qs__c.mdl),
    Field(@Field/order_type__v.mdl),

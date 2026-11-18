@@ -1,0 +1,4 @@
+Typefield onekey_hco_object_type__v (
+   source('standard'),
+   required(false)
+);

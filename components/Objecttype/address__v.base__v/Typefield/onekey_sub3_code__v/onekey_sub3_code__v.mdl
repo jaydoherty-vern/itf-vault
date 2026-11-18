@@ -1,0 +1,4 @@
+Typefield onekey_sub3_code__v (
+   source('standard'),
+   required(false)
+);

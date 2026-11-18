@@ -51,6 +51,7 @@ RECREATE Objecttype child_account__v.base__v (
    Typefield(@Typefield/ok_privacylawstatus__c.mdl),
    Typefield(@Typefield/ok_role__c.mdl),
    Typefield(@Typefield/ok_status__c.mdl),
+   Typefield(@Typefield/onekey_id__v.mdl),
    Typefield(@Typefield/ownerid__v.mdl),
    Typefield(@Typefield/parent_account__v.mdl),
    Typefield(@Typefield/parent_account_identifier__v.mdl),

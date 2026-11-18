@@ -1,4 +1,4 @@
 Typefield discussion_topics_free_text__c (
-   source('custom'),
+   source('standard'),
    required(false)
 );

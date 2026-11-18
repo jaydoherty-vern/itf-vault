@@ -279,6 +279,8 @@ RECREATE Objecttype account__v.base__v (
    Typefield(@Typefield/ok_no_mail__c.mdl),
    Typefield(@Typefield/ok_privacy_law_status__c.mdl),
    Typefield(@Typefield/ok_status__c.mdl),
+   Typefield(@Typefield/onekey_id__v.mdl),
+   Typefield(@Typefield/onekey_specialty_code__v.mdl),
    Typefield(@Typefield/opt_out_internal_customer_qs__c.mdl),
    Typefield(@Typefield/opt_out_open_data_qs__c.mdl),
    Typefield(@Typefield/order_type__v.mdl),

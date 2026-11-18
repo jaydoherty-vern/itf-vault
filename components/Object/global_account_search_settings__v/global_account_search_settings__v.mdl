@@ -46,6 +46,12 @@ RECREATE Object global_account_search_settings__v (
    Field(@Field/modified_date__v.mdl),
    Field(@Field/my_accounts_redirect__v.mdl),
    Field(@Field/name__v.mdl),
+   Field(@Field/onekey_address_object_type__v.mdl),
+   Field(@Field/onekey_connection_scope__v.mdl),
+   Field(@Field/onekey_connector_host__v.mdl),
+   Field(@Field/onekey_connector_id__v.mdl),
+   Field(@Field/onekey_hco_object_type__v.mdl),
+   Field(@Field/onekey_hcp_object_type__v.mdl),
    Field(@Field/security_profile__v.mdl),
    Field(@Field/setupownerid__v.mdl),
    Field(@Field/status__v.mdl)
