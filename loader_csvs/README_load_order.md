@@ -29,7 +29,7 @@ Object type: `object_type__v` is a column in both files (`recurring__v` on the s
 | Name | MSL Rubric Assessment | you |
 | Object type | recurring__v | template |
 | Start / end | 2026-11-17 / 2028-04-30 | start = today; end copied from template |
-| Status | published__v (survey_status__v) | you |
+| Status | Development after load; **you Publish it in the UI** (lifecycle starting state is development_state__v; Loader cannot set state) | you |
 | Channels | crm__v | template |
 | Target type / assignment | accounts__v / territory__v | template |
 | Open / auto-target | true / true | template |
@@ -41,13 +41,14 @@ Object type: `object_type__v` is a column in both files (`recurring__v` on the s
 | Owner | Jay Doherty (user id 35310407) | placeholder |
 
 ## Caveats before loading
-- **Published via Loader may skip the publish process.** Loading `survey_status__v = published__v` does not run the Publish action, so auto-targeting and target ownership assignment may not happen. Because the survey is open, MSLs can create targets themselves from the call report, which does not need the publish step. If you want the standard publish behavior, load with `development__v` and use Publish in the UI.
+- **Publish after loading.** The survey loads in Development state. Use the Publish action on the survey record (this also runs auto-targeting and target assignment). Open-survey and call-report visibility require Published state.
 - **Owner**: `ownerid__v` is Jay Doherty's user ID (placeholder). Reassign if needed.
 - **question_number__v**: numbered 1-9 on real questions, blank on section headers. Check the display after load.
 - Belief 3 title in the spreadsheet reads "Critcal"; corrected to "Critical" here.
 - Sharing: `survey_msl__c` shares surveys with `itf_share_team__c = msl__c` to group `msls__c`.
 
 ## Verify after load
+0. Publish the survey, then verify.
 1. VQL: `SELECT id, name__v, survey_status__v, state__v, territories__v FROM survey__v WHERE external_id__v = 'MSL-RUBRIC-Q1Q2-2026'` returns one row.
 2. VQL: `SELECT order__v, object_type__v, text__v FROM survey_question__v WHERE survey__v = '<id>' ORDER BY order__v` returns 12 rows, orders 0-11.
 3. In the UI, open the survey: three section headers, three score pickers with 5 choices each, then the six shared questions.
